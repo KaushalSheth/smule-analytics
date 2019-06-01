@@ -8,7 +8,7 @@
   {% endif %}
 
   <table style="width:100%">
-    <thead><tr><th>Title</th><th>Created Time</th><th>Owner</th><th>City</th><th>Web URL</th></thead>
+    <thead><tr><th>Title</th><th>Created Time</th><th>Owner</th><th>City</th><th>Play Song</th><th>Download Song</th></thead>
     <tbody>
       {% for performance in performances %}
         <tr>
@@ -17,6 +17,7 @@
           <td><a href="/search_user/{{ performance.owner }}">{{ performance.owner }}</a></td>
           <td>{{ performance.city }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
+          <td><a href="/download_performance/{{ performance.key }}">Download</a></td>
         </tr>
       {% endfor %}
     </tbody>

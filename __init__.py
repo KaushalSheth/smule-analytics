@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchPerformances
+from .smule import fetchPerformances, downloadSong
 user = None
 performances = None
 numrows = 200
@@ -51,6 +51,13 @@ def create_app(test_config=None):
         global user
         user = username
         return redirect(url_for('query_performances'))
+
+    @app.route('/download_performance/<key>')
+    def download_performance(key):
+        global performances
+        performance = next(item for item in performances if item['key'] == key)
+        downloadSong(performance["web_url"], "/tmp/" + performance["filename"])
+        return redirect(url_for('list_performances'))
 
     @app.route('/query_performances')
     def query_performances():

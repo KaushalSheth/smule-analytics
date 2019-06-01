@@ -9,33 +9,6 @@ def getJSON(username,type="performances",offset=0):
 
     return data
 
-def parsePerformances(username,maxperf=9999):
-    next_offset = 0
-    i = next_offset
-    stop = False
-    while next_offset >= 0:
-        performances = getJSON(username,"performances",next_offset)
-        for performance in performances['list']:
-            i += 1
-            print(f"# = {next_offset+i}")
-            title = performance['title']
-            owner = performance['owner']['handle']
-            print(f"Title = {title}")
-            print(f"Created At = {performance['created_at']}")
-            print(f"Owner = {owner}")
-            web_url = f"https://www.smule.com{performance['web_url']}"
-            print(f"Web URL = {web_url}")
-            filename = f"{title} - {owner}.m4a"
-            # downloadSong(web_url,filename)
-            print("=====")
-            if i >= maxperf:
-                stop = True
-                break
-        if stop:
-            break
-        else:
-            next_offset = performances['next_offset']
-
 def fetchPerformances(username,maxperf=9999):
     next_offset = 0
     i = next_offset
@@ -45,13 +18,19 @@ def fetchPerformances(username,maxperf=9999):
         performances = getJSON(username,"performances",next_offset)
         for performance in performances['list']:
             i += 1
+            title = performance['title']
+            owner = performance['owner']['handle']
+            filename = f"{title} - {owner}.m4a"
+            web_url = f"https://www.smule.com{performance['web_url']}"
             performanceList.append({\
                     'key':performance['key'],\
-                    'title':performance['title'],\
-                    'owner':performance['owner']['handle'],\
+                    'title':title,\
+                    'type':performance['ensemble_type'],\
+                    'owner':owner,\
+                    'filename':filename,\
                     'created_at':performance['created_at'],\
                     'city':f"{performance['orig_track_city']['city']}, {performance['orig_track_city']['country']}",\
-                    'web_url':f"https://www.smule.com{performance['web_url']}"\
+                    'web_url':web_url\
                     })
             if i >= maxperf:
                 stop = True
