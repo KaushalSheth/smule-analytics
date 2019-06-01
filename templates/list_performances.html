@@ -7,15 +7,15 @@
     </div>
   {% endif %}
 
-  <table>
-    <thead><tr><th>Key</th><th>Title</th><th>Created Time</th><th>Owner</th><th>Web URL</th></thead>
+  <table style="width:100%">
+    <thead><tr><th>Title</th><th>Created Time</th><th>Owner</th><th>City</th><th>Web URL</th></thead>
     <tbody>
       {% for performance in performances %}
         <tr>
-          <td>{{ performance.key }}</td>
           <td>{{ performance.title }}</td>
-          <td>{{ performance.create_at }}</td>
+          <td>{{ performance.created_at }}</td>
           <td>{{ performance.owner }}</td>
+          <td>{{ performance.city }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
         </tr>
       {% endfor %}

@@ -50,6 +50,7 @@ def fetchPerformances(username,maxperf=9999):
                     'title':performance['title'],\
                     'owner':performance['owner']['handle'],\
                     'created_at':performance['created_at'],\
+                    'city':f"{performance['orig_track_city']['city']}, {performance['orig_track_city']['country']}",\
                     'web_url':f"https://www.smule.com{performance['web_url']}"\
                     })
             if i >= maxperf:
