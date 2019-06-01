@@ -46,6 +46,12 @@ def create_app(test_config=None):
         user = None
         return render_template('search.html')
 
+    @app.route('/search_user/<username>')
+    def search_user(username):
+        global user
+        user = username
+        return redirect(url_for('query_performances'))
+
     @app.route('/query_performances')
     def query_performances():
         global user, numrows, performances

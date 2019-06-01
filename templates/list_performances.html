@@ -14,7 +14,7 @@
         <tr>
           <td>{{ performance.title }}</td>
           <td>{{ performance.created_at }}</td>
-          <td>{{ performance.owner }}</td>
+          <td><a href="/search_user/{{ performance.owner }}">{{ performance.owner }}</a></td>
           <td>{{ performance.city }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
         </tr>
