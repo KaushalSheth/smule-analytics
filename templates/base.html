@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smule Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bulma.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='highlight.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">Singers</a>
+
+          <div class="navbar-burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+              <a class="navbar-item" href="#">
+                Search
+              </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    {% if get_flashed_messages() %}
+      <div class="container">
+        {% for category, message in get_flashed_messages(with_categories=True) %}
+          <div id="message{{ loop.index }}">
+            {% if category %}
+              {% if category == 'error' %}
+                <div class="notification is-danger">
+              {% elif category == 'warning' %}
+                <div class="notification is-warning">
+              {% elif category == 'success' %}
+                <div class="notification is-success">
+              {% else %}
+                <div class="notification">
+              {% endif %}
+            {% else %}
+              <div class="notification">
+            {% endif %}
+              <button class="delete" data-target="message{{ loop.index }}" aria-label="delete"></button>
+              {{ message }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <section class="section">
+      <div class="container">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </section>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="{{ url_for('static', filename='highlight.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

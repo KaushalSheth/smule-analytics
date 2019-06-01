@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="columns is-desktop">
+  <div class="column"></div>
+  <div class="column is-half-desktop">
+    <h2 class="is-size-3">Search</h2>
+
+    <form method="post" action="{{ url_for('search') }}">
+      <div class="field">
+        <label class="label" for="username">Username</label>
+        <div class="control">
+          <input name="username" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <input type="submit" value="Search" class="button is-link" />
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column"></div>
+</div>
+
+{% endblock %}

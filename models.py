@@ -5,7 +5,7 @@ db = SQLAlchemy()
 class Performance(db.Model):
     key = db.Column(db.String(30), primary_key=True)
     type = db.Column(db.String(20), nullable=False)
-    created_at = db.Column(db.Datetime, nullable=False)
+    created_at = db.Column(db.DateTime, nullable=False)
     title = db.Column(db.String(100), nullable=False)
     artist = db.Column(db.String(100), nullable=True)
     ensemble_type = db.Column(db.String(10), nullable=True)
@@ -29,6 +29,8 @@ class Performance(db.Model):
     owner_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), nullable=False)
     owner_lat = db.Column(db.Float, nullable=True)
     owner_lon = db.Column(db.Float, nullable=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
 class Singer(db.Model):
     account_id = db.Column(db.Integer, primary_key=True)
@@ -41,8 +43,12 @@ class Singer(db.Model):
     lon = db.Column(db.Float, nullable=True)
     is_vip = db.Column(db.Boolean, nullable=True)
     is_verified = db.Column(db.Boolean, nullable=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
 class PerformanceSinger(db.Model):
-    performance_key = db.Column(db.Integer, db.ForeignKey('performance.key'), primary_key=True)
+    performance_key = db.Column(db.String(30), db.ForeignKey('performance.key'), primary_key=True)
     singer_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), primary_key=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
