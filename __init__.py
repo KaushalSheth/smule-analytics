@@ -1,7 +1,8 @@
 import os
 
-from flask import Flask, render_template, redirect, url_for, request, flash
+from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
+from .smule import fetchPerformances
 
 def create_app(test_config=None):
     app = Flask(__name__)
@@ -26,18 +27,30 @@ def create_app(test_config=None):
     @app.route('/search', methods=('GET','POST'))
     def search():
         if request.method == 'POST':
-            username = request.form['username']
+            g.user = request.form['username']
             error = None
 
-            if not username:
+            if not g.user:
                 error = "Username is required."
 
             if error is None:
-                return redirect(url_for('list_performances'))
+                return redirect(url_for('query_performances'))
 
             flash(error, 'error')
 
+        g.user = None
         return render_template('search.html')
+
+    @app.route('/query_performances')
+    def query_performances():
+        #g.performances = fetchPerformances(g.user,25)
+        g.performances = fetchPerformances("KaushalSheth1",25)
+        return redirect(url_for('list_performances'))
+
+    @app.route('/list_performances')
+    def list_performances():
+        #return render_template('list_performances.html', performances=g.performances)
+        return render_template('list_performances.html', performances=fetchPerformances("yaak_sumney",25))
 
     return app
 
