@@ -9,7 +9,7 @@ def getJSON(username,type="performances",offset=0):
 
     return data
 
-def fetchPerformances(username,maxperf=9999):
+def fetchSmulePerformances(username,maxperf=9999):
     next_offset = 0
     i = next_offset
     stop = False
@@ -23,15 +23,35 @@ def fetchPerformances(username,maxperf=9999):
             filename = f"{title} - {owner}.m4a"
             web_url = f"https://www.smule.com{performance['web_url']}"
             performanceList.append({\
-                    'key':performance['key'],\
-                    'title':title,\
-                    'type':performance['ensemble_type'],\
-                    'owner':owner,\
-                    'filename':filename,\
-                    'created_at':performance['created_at'],\
-                    'city':f"{performance['orig_track_city']['city']}, {performance['orig_track_city']['country']}",\
-                    'web_url':web_url\
-                    })
+                'key':performance['key'],\
+                'type':performance['type'],\
+                'created_at':performance['created_at'],\
+                'title':performance['title'],\
+                'artist':performance['artist'],\
+                'ensemble_type':performance['ensemble_type'],\
+                'child_count':performance['child_count'],\
+                'app_uid':performance['app_uid'],\
+                'arr_key':performance['arr_key'],\
+                'orig_track_city':performance['orig_track_city']['city'],\
+                'orig_track_country':performance['orig_track_city']['country'],\
+                'media_url':performance['media_url'],\
+                'video_media_url':performance['video_media_url'],\
+                'video_media_mp4_url':performance['video_media_mp4_url'],\
+                'web_url':web_url,\
+                'cover_url':performance['cover_url'],\
+                'total_performers':performance['stats']['total_performers'],\
+                'total_listens':performance['stats']['total_listens'],\
+                'total_loves':performance['stats']['total_loves'],\
+                'total_comments':performance['stats']['total_comments'],\
+                'total_commenters':performance['stats']['total_commenters'],\
+                'performed_by':performance['performed_by'],\
+                'performed_by_url':performance['performed_by_url'],\
+                'owner_account_id':performance['owner']['account_id'],\
+                'owner_handle':performance['owner']['handle'],\
+                'owner_lat':performance['owner']['lat'],\
+                'owner_lon':performance['owner']['lon'],\
+                'filename':filename\
+                })
             if i >= maxperf:
                 stop = True
                 break

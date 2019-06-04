@@ -27,8 +27,10 @@ class Performance(db.Model):
     performed_by = db.Column(db.String(50), nullable=True)
     performed_by_url = db.Column(db.String(50), nullable=True)
     owner_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), nullable=False)
+    owner_handle = db.Column(db.String(50), nullable=True)
     owner_lat = db.Column(db.Float, nullable=True)
     owner_lon = db.Column(db.Float, nullable=True)
+    filename = db.Column(db.String(200), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 

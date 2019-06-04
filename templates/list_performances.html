@@ -3,19 +3,20 @@
 {% block content %}
   {% if not performances %}
     <div class="content">
-      <p>Not performances found! <a href="{{ url_for('search') }}">Try another search</a>
+      <p>No performances found! <a href="{{ url_for('search') }}">Try another search</a>
     </div>
   {% endif %}
 
   <table style="width:100%">
-    <thead><tr><th>Title</th><th>Created Time</th><th>Owner</th><th>City</th><th>Play Song</th><th>Download Song</th></thead>
+    <thead><tr><th>Title</th><th>Created Time</th><th>Performed By</th><th>City</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
     <tbody>
       {% for performance in performances %}
         <tr>
           <td>{{ performance.title }}</td>
           <td>{{ performance.created_at }}</td>
-          <td><a href="/search_user/{{ performance.owner }}">{{ performance.owner }}</a></td>
-          <td>{{ performance.city }}</td>
+          <td><a href="/search_smule_user/{{ performance.owner_handle }}">{{ performance.owner_handle }}</a></td>
+          <td>{{ performance.orig_track_city }}, {{ performance.orig_track_country }}</td>
+          <td>{{ performance.total_loves }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
           <td><a href="/download_performance/{{ performance.key }}">Download</a></td>
         </tr>
