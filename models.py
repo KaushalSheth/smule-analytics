@@ -28,6 +28,7 @@ class Performance(db.Model):
     performed_by_url = db.Column(db.String(50), nullable=True)
     owner_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), nullable=False)
     owner_handle = db.Column(db.String(50), nullable=True)
+    owner_pic_url = db.Column(db.String(200), nullable=True)
     owner_lat = db.Column(db.Float, nullable=True)
     owner_lon = db.Column(db.Float, nullable=True)
     filename = db.Column(db.String(200), nullable=True)

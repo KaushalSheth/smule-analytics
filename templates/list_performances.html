@@ -14,7 +14,7 @@
         <tr>
           <td>{{ performance.title }}</td>
           <td>{{ performance.created_at }}</td>
-          <td><a href="/search_smule_user/{{ performance.owner_handle }}">{{ performance.owner_handle }}</a></td>
+          <td><a href="/search_smule_user/{{ performance.owner_handle }}"><img src="{{performance.owner_pic_url}}" height="120" width="80"><br>{{ performance.owner_handle }}</a></td>
           <td>{{ performance.orig_track_city }}, {{ performance.orig_track_country }}</td>
           <td>{{ performance.total_loves }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
