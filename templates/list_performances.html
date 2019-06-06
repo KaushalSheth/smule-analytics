@@ -7,6 +7,10 @@
     </div>
   {% endif %}
 
+  <form method="post" action="{{ url_for('save_db_performances') }}">
+  <input type="submit" name="btn" value="Save To DB" class="button is-link" />
+  <br>
+
   <table style="width:100%">
     <thead><tr><th>Title</th><th>Created Time</th><th>Performed By</th><th>City</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
     <tbody>

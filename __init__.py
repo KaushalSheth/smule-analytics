@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong
-from .db import fetchDBPerformances
+from .db import fetchDBPerformances, saveDBPerformances
 user = None
 performances = None
 numrows = 200
@@ -74,6 +74,13 @@ def create_app(test_config=None):
     def query_db_performances():
         global user, numrows, performances
         performances = fetchDBPerformances(user,numrows)
+        return redirect(url_for('list_performances'))
+
+    @app.route('/save_db_performances', methods=('GET','POST'))
+    def save_db_performances():
+        global performances
+        singers = saveDBPerformances(performances)
+        flash(f"{len(singers)} singers added")
         return redirect(url_for('list_performances'))
 
     @app.route('/list_performances')
