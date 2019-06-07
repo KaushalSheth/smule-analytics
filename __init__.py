@@ -79,8 +79,8 @@ def create_app(test_config=None):
     @app.route('/save_db_performances', methods=('GET','POST'))
     def save_db_performances():
         global performances
-        singers = saveDBPerformances(performances)
-        flash(f"{len(singers)} singers added")
+        message = saveDBPerformances(performances)
+        flash(message)
         return redirect(url_for('list_performances'))
 
     @app.route('/list_performances')

@@ -52,7 +52,8 @@ def fetchSmulePerformances(username,maxperf=9999):
                     'owner_pic_url':performance['owner']['pic_url'],\
                     'owner_lat':performance['owner']['lat'],\
                     'owner_lon':performance['owner']['lon'],\
-                    'filename':filename\
+                    'filename':filename,\
+                    'other_performers':performance['other_performers']\
                     })
             except:
                 pass
