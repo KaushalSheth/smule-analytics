@@ -14,37 +14,41 @@ def saveDBPerformances(performances):
     db_performances = db.session.query(Performance).all()
     db_perfsingers = db.session.query(PerformanceSinger).all()
 
+    i = 0
     for p in performances:
-        other_performers = p['other_performers']
-        del p['other_performers']
-        singer = Singer(\
-                    account_id = p['owner_account_id'],\
-                    performed_by = p['owner_handle'],\
-                    pic_url = p['owner_pic_url'],\
-                    lat = p['owner_lat'],\
-                    lon = p['owner_lon']\
-                    )
-        db.session.merge(singer)
-        np = Performance(**p)
-        db.session.merge(np)
-        perfSinger = PerformanceSinger(\
-                    performance_key = p['key'],\
-                    singer_account_id = p['owner_account_id']\
-                    )
-        db.session.merge(perfSinger)
-        for o in other_performers:
+        try:
+            other_performers = p['other_performers']
+            del p['other_performers']
             singer = Singer(\
-                        account_id = o['account_id'],\
-                        performed_by = o['handle'],\
-                        pic_url = o['pic_url']\
+                        account_id = p['owner_account_id'],\
+                        performed_by = p['owner_handle'],\
+                        pic_url = p['owner_pic_url'],\
+                        lat = p['owner_lat'],\
+                        lon = p['owner_lon']\
                         )
             db.session.merge(singer)
+            np = Performance(**p)
+            db.session.merge(np)
             perfSinger = PerformanceSinger(\
                         performance_key = p['key'],\
-                        singer_account_id = o['account_id']\
+                        singer_account_id = p['owner_account_id']\
                         )
             db.session.merge(perfSinger)
+            for o in other_performers:
+                singer = Singer(\
+                            account_id = o['account_id'],\
+                            performed_by = o['handle'],\
+                            pic_url = o['pic_url']\
+                            )
+                db.session.merge(singer)
+                perfSinger = PerformanceSinger(\
+                            performance_key = p['key'],\
+                            singer_account_id = o['account_id']\
+                            )
+                db.session.merge(perfSinger)
+            db.session.commit()
+            i += 1
+        except:
+            db.session.rollback()
 
-    db.session.commit()
-
-    return f"{len(performances)} performances processed"
+    return f"{i} out of {len(performances)} performances processed"

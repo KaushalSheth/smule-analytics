@@ -62,6 +62,7 @@ def create_app(test_config=None):
     def query_smule_performances():
         global user, numrows, performances
         performances = fetchSmulePerformances(user,numrows)
+        flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
     @app.route('/search_db_user/<username>')
@@ -74,6 +75,7 @@ def create_app(test_config=None):
     def query_db_performances():
         global user, numrows, performances
         performances = fetchDBPerformances(user,numrows)
+        flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
     @app.route('/save_db_performances', methods=('GET','POST'))
@@ -92,7 +94,8 @@ def create_app(test_config=None):
     def download_performance(key):
         global performances
         performance = next(item for item in performances if item['key'] == key)
-        downloadSong(performance["web_url"], "/tmp/" + performance["filename"])
+        downloadSong(performance["web_url"], "/tmp/" + performance['filename'])
+        flash("Successfully downloaded to /tmp/" + performance['filename'])
         return redirect(url_for('list_performances'))
 
     return app
