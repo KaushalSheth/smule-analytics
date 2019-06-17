@@ -7,8 +7,9 @@
     </div>
   {% endif %}
 
-  <form method="post" action="{{ url_for('save_db_performances') }}">
+  <form method="post" action="{{ url_for('submit_performances') }}">
   <input type="submit" name="btn" value="Save To DB" class="button is-link" />
+  <input type="submit" name="btn" value="Download All" class="button is-link" />
   <br>
 
   <table style="width:100%">
@@ -22,7 +23,7 @@
           <td>{{ performance.orig_track_city }}, {{ performance.orig_track_country }}</td>
           <td>{{ performance.total_loves }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
-          <td><a href="/download_performance/{{ performance.key }}">Download</a></td>
+          <td><a href="/download_performance/{{ performance.key }}">{{ performance.filename }}</a></td>
         </tr>
       {% endfor %}
     </tbody>

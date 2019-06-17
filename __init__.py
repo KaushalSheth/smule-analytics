@@ -78,10 +78,15 @@ def create_app(test_config=None):
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
-    @app.route('/save_db_performances', methods=('GET','POST'))
-    def save_db_performances():
+    @app.route('/submit_performances', methods=('GET','POST'))
+    def submit_performances():
         global performances
-        message = saveDBPerformances(performances)
+        if request.form['btn'] == 'Save To DB':
+            message = saveDBPerformances(performances)
+        elif request.form['btn'] == 'Download All':
+            message = download_all_performances()
+        else:
+            error = "Invalid source - valid options are 'smule' and 'db'"
         flash(message)
         return redirect(url_for('list_performances'))
 
@@ -97,6 +102,15 @@ def create_app(test_config=None):
         downloadSong(performance["web_url"], "/tmp/" + performance['filename'])
         flash("Successfully downloaded to /tmp/" + performance['filename'])
         return redirect(url_for('list_performances'))
+
+    @app.route('/download_all_performances')
+    def download_all_performances():
+        global performances
+        i = 0
+        for performance in performances:
+            downloadSong(performance["web_url"], "/tmp/" + performance['filename'])
+            i += 1
+        return f"Successfully downloaded {i} songs to /tmp"
 
     return app
 

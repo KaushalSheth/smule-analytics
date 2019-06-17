@@ -9,6 +9,57 @@ def getJSON(username,type="performances",offset=0):
 
     return data
 
+def fix_title(title):
+    # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
+    ttable = title.maketrans(\
+            '🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'JXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
+            )
+
+    # Do the translation, conver to uppercase temporarily, create standard format for [Short], remove all unnecessary words, convert to mixed case
+    result = title.translate(ttable).\
+            upper().\
+            replace('((SHORT))','[SHORT]').\
+            replace('(SHORT)','[SHORT]').\
+            replace('SHORT','[SHORT]').\
+            replace('[[SHORT]]','[SHORT]').\
+            replace('[HD]','').\
+            replace('(HD)','').\
+            replace('HD','').\
+            replace('JEX','').\
+            replace('[HQ]','').\
+            replace('(HQ)','').\
+            replace('HQ','').\
+            replace('[M]','').\
+            replace('[T]','').\
+            replace('[BEST]','').\
+            replace('[F]','').\
+            replace('(CLEAN TRACK)','').\
+            replace('(DUET)','').\
+            replace('(100%PURE)','').\
+            replace('[CLEAN DUET]','').\
+            replace('100%','').\
+            replace('[FULL]','').\
+            replace('{}','').\
+            replace('(CRYSTAL CLEAR)','').\
+            replace('[ORIGINAL MUSIC]','').\
+            replace('HQTRACK!!','').\
+            replace('CLEAR','').\
+            replace('COVER','').\
+            replace('OST','').\
+            replace('🄷🅀','').\
+            title()
+
+    # If [Short] is anywhere in the name, remove it and add it to the end of the title
+    if "[Short]" in result:
+        result = (result.replace("[Short]","") + " [Short]").strip().replace('[ ]','')
+
+    # Strip any leading/trailing whitespace, remove any leading "-", and if the name contains any "-", strip anything after the first "-" (remove movie names)
+    result = result.strip().lstrip('-').split("-")[0].strip()
+
+    return result
+
 def fetchSmulePerformances(username,maxperf=9999):
     next_offset = 0
     i = next_offset
@@ -18,9 +69,12 @@ def fetchSmulePerformances(username,maxperf=9999):
         performances = getJSON(username,"performances",next_offset)
         for performance in performances['list']:
             i += 1
-            title = performance['title']
-            owner = performance['owner']['handle']
-            filename = f"{title} - {owner}.m4a"
+            title = fix_title(performance['title'])
+            performers = performance['owner']['handle']
+            op = performance['other_performers']
+            if len(op) > 0:
+                performers += " and " + op[0]['handle']
+            filename = f"{title} - {performers}.m4a"
             web_url = f"https://www.smule.com{performance['web_url']}"
             try:
                 performanceList.append({\
@@ -53,7 +107,7 @@ def fetchSmulePerformances(username,maxperf=9999):
                     'owner_lat':performance['owner']['lat'],\
                     'owner_lon':performance['owner']['lon'],\
                     'filename':filename,\
-                    'other_performers':performance['other_performers']\
+                    'other_performers':op\
                     })
             except:
                 pass
