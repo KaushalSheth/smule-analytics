@@ -3,6 +3,8 @@ I started this project with the intention to fetch my Smule data and store it in
 
 I developed the project in a pipenv Python 3.7 environment with Flask.  The backend DB is a PostgreSQL database running in a Docker container I downloaded from Docker Hub.  Below are the instructions for setting up the dev environment - The examples are for Mac since that is my environment.  In the future, I will look into packaging the code in an easier to install package, but that is a lower priority.
 
+UPDATE: I have finally implemented the mapping feature using [Leaflet](https://leafletjs.com/reference-1.5.0.html#marker) and [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster).  When you get to the list of performances by either querying from the DB or form Smule, you simply click the "Show Map" button to disaply a map with pins for each of the performances.  If there are multiple performances in the same location, they are clustered together when you zoon out and shown as individual pins as you zoom in.  No installation is needed for this - I simply link to the appropriate stylesheets and Javascript in my HTML code.
+
 
 **Install Docker**
 * Install Docker for Mac: https://docs.docker.com/docker-for-mac/install/
