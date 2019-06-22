@@ -85,6 +85,8 @@ def create_app(test_config=None):
             message = saveDBPerformances(performances)
         elif request.form['btn'] == 'Download All':
             message = download_all_performances()
+        elif request.form['btn'] == 'Show Map':
+            return render_template('map.html', performances=performances)
         else:
             error = "Invalid source - valid options are 'smule' and 'db'"
         flash(message)
