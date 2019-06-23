@@ -1,7 +1,9 @@
 from flask_sqlalchemy import SQLAlchemy
 
+# Inintialize SQLAlchemy
 db = SQLAlchemy()
 
+# Define classes for each of the tables
 class Performance(db.Model):
     key = db.Column(db.String(30), primary_key=True)
     type = db.Column(db.String(20), nullable=False)
