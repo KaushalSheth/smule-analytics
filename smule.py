@@ -15,9 +15,9 @@ def getJSON(username,type="performances",offset=0):
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'JXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
+            'ℍℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'HQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '<>[]|💚💖🇸🌸🌻🤪🇭🇴🇷🇹👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
             )
 
     # Do the translation, conver to uppercase temporarily, create standard format for [Short], remove all unnecessary words, convert to mixed case
@@ -39,7 +39,9 @@ def fix_title(title):
             replace('[BEST]','').\
             replace('[F]','').\
             replace('(CLEAN TRACK)','').\
+            replace('D MAJOR','').\
             replace('(DUET)','').\
+            replace('(FULL SONG)','').\
             replace('(100%PURE)','').\
             replace('[CLEAN DUET]','').\
             replace('100%','').\
@@ -52,6 +54,7 @@ def fix_title(title):
             replace('COVER','').\
             replace('OST','').\
             replace('🄷🅀','').\
+            replace('🇭🇩','').\
             title()
 
     # If [Short] is anywhere in the name, remove it and add it to the end of the title
