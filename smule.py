@@ -15,21 +15,25 @@ def getJSON(username,type="performances",offset=0):
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'ZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '”“🦁⚜️🕉️⏯️🇭🇩🌙"<>[]|💚💖🇸🌸🌻🤪🇭🇴🇷🇹👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
+            '🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'VDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '🎼😘/”“🦁⚜️🕉️⏯️🇭🇩🌙"<>[]|💚💖🇸🌸🌻🤪🇭🇴🇷🇹👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
             )
 
     # Do the translation, conver to uppercase temporarily, create standard format for [Short], remove all unnecessary words, convert to mixed case
     result = title.translate(ttable).\
             upper().\
-            replace('((SHORT))','[SHORT]').\
-            replace('(SHORT)','[SHORT]').\
-            replace('SHORT','[SHORT]').\
-            replace('[[SHORT]]','[SHORT]').\
             replace('[HD]','').\
             replace('(HD)','').\
             replace('HD','').\
+            replace('{{SHORT}}','[SHORT]').\
+            replace('{SHORT}','[SHORT]').\
+            replace('((SHORT))','[SHORT]').\
+            replace('(SHORT)','[SHORT]').\
+            replace('SHORT_2','[SHORT]').\
+            replace('SHORT_3','[SHORT]').\
+            replace('SHORT','[SHORT]').\
+            replace('[[SHORT]]','[SHORT]').\
             replace('JEX','').\
             replace('[HQ]','').\
             replace('(HQ)','').\
@@ -46,7 +50,6 @@ def fix_title(title):
             replace('[CLEAN DUET]','').\
             replace('100%','').\
             replace('[FULL]','').\
-            replace('{}','').\
             replace('(CRYSTAL CLEAR)','').\
             replace('[ORIGINAL MUSIC]','').\
             replace('HQTRACK!!','').\
@@ -55,6 +58,7 @@ def fix_title(title):
             replace('OST','').\
             replace('🄷🅀','').\
             replace('🇭🇩','').\
+            replace('{}','').\
             title()
 
     # If [Short] is anywhere in the name, remove it and add it to the end of the title
