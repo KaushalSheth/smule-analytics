@@ -7,6 +7,7 @@ from .db import fetchDBPerformances, saveDBPerformances
 
 # Set defaults for global variable that are used in the app
 user = None
+search_user = None
 performances = None
 numrows = 200
 
@@ -36,10 +37,11 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows
+        global user, numrows, search_user
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
+            search_user = user
             numrows = int(request.form['numrows'])
             error = None
 
@@ -116,9 +118,9 @@ def create_app(test_config=None):
     # Generic route for displaying performances using global variable
     @app.route('/list_performances')
     def list_performances():
-        global performances
+        global performances, search_user
         # This assumes that the performances global variable is set by the time we get here
-        return render_template('list_performances.html', performances=performances)
+        return render_template('list_performances.html', performances=performances, search_user=search_user)
 
     # Method to download the performance to local disk
     @app.route('/download_performance/<key>')

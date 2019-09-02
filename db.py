@@ -1,7 +1,7 @@
 from .models import db, Performance, Singer, PerformanceSinger
 
 # Method to query performances for a user
-def fetchDBPerformances(username,maxperf=9999):
+def fetchDBPerformancesOrig(username,maxperf=9999):
     global performances
 
     # Check the PerformanceSinger table for existence of the singer on the performance
@@ -9,6 +9,30 @@ def fetchDBPerformances(username,maxperf=9999):
             join(PerformanceSinger).\
             join(Singer).\
             filter_by(performed_by = username).all()
+    return performances
+
+# Method to query performances for a user
+def fetchDBPerformances(username,maxperf=9999):
+    global performances
+    performances = []
+    i = 0
+
+    # Build appropriate query - if username = 'KaushalSheth1', then don't apply any filters
+    if username == 'KaushalSheth1':
+        sqlquery = "select * from my_performances"
+    else:
+        sqlquery = "select * from my_performances where owner_handle = '" + username + "'"
+    # Append ORDER BY clause
+    sqlquery += " order by created_at desc"
+
+    # Check the PerformanceSinger table for existence of the singer on the performance
+    result = db.session.execute(sqlquery)
+    for r in result:
+        performances.append(dict(r.items()))
+        i += 1
+        if i >= maxperf:
+            break
+
     return performances
 
 # Save the performances queried from Smule to the DB
