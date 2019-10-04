@@ -52,6 +52,9 @@ def saveDBPerformances(performances):
             # The other_performers list is not part of the Performance class, so extract it to a variable and delete from the record
             other_performers = p['other_performers']
             del p['other_performers']
+            # Delete performers and pic_filename as well since that is not part of the DB table
+            del p['performers']
+            del p['pic_filename']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

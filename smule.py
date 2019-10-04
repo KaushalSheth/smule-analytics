@@ -1,6 +1,7 @@
 from urllib import request
 from urllib.parse import unquote
 import json, re
+from mutagen.mp4 import MP4, MP4Cover
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -100,7 +101,9 @@ def fetchSmulePerformances(username,maxperf=9999):
             if len(op) > 0:
                 performers += " and " + op[0]['handle']
             # TODO: If there is more than one other performer, do we wish to include in the filename?
-            filename = f"{title} - {performers}.m4a"
+            filename_base = f"{title} - {performers}"
+            filename = filename_base + ".m4a"
+            pic_filename = filename_base + ".jpg"
             web_url = f"https://www.smule.com{performance['web_url']}"
             try:
                 ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -134,7 +137,9 @@ def fetchSmulePerformances(username,maxperf=9999):
                     'owner_lat':performance['owner']['lat'],\
                     'owner_lon':performance['owner']['lon'],\
                     'filename':filename,\
-                    'other_performers':op\
+                    'other_performers':op,\
+                    'performers':performers,\
+                    'pic_filename':pic_filename\
                     })
             # If any errors occur, simply ignore them - losing some data is acceptable
             except:
@@ -151,7 +156,7 @@ def fetchSmulePerformances(username,maxperf=9999):
     return performanceList
 
 # Download the specified web_url to the filename specified
-def downloadSong(web_url,filename):
+def downloadSong(web_url,filename,performance):
     # The web_url returns an HTML page that contains the link to the content we wish to download
     with request.urlopen(web_url) as url:
         # First get the HTML for the web_url
@@ -169,4 +174,18 @@ def downloadSong(web_url,filename):
         f = open(filename,'w+b')
         f.write(request.urlopen(media_url).read())
         f.close()
+
+    # Write the tags for the M4A file
+    af = MP4(filename)
+    af["\xa9nam"] = performance["title"]
+    af["\xa9ART"] = performance["performers"]
+
+    # Write the JPEG to the M4A file as album cover
+    pic_url = performance['owner_pic_url']
+    af["covr"] = [
+        MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
+    ]
+
+    # Save the updated tags to the file
+    af.save()
 

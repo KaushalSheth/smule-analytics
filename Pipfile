@@ -22,6 +22,8 @@ six = "*"
 geopandas = "*"
 matplotlib = "*"
 descartes = "*"
+libmagic = "*"
+mutagen = "*"
 
 [requires]
 python_version = "3.7"

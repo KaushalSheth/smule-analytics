@@ -130,7 +130,7 @@ def create_app(test_config=None):
         performance = next(item for item in performances if item['key'] == key)
         # Downlod the song to /tmp (hardcoded for now)
         # TODO: Allow specification of download folder as well as add error handling for key not found
-        downloadSong(performance["web_url"], "/tmp/" + performance['filename'])
+        downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
         flash("Successfully downloaded to /tmp/" + performance['filename'])
         return redirect(url_for('list_performances'))
 
@@ -140,7 +140,7 @@ def create_app(test_config=None):
         global performances
         i = 0
         for performance in performances:
-            downloadSong(performance["web_url"], "/tmp/" + performance['filename'])
+            downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
             i += 1
         return f"Successfully downloaded {i} songs to /tmp"
 
