@@ -60,6 +60,7 @@ def remove_words(title):
 
 def standardize_short(title):
     result = title.\
+                replace('(SHORT-HD)','[SHORT]').\
                 replace('-SHORT','[SHORT]').\
                 replace('[SSSF-SHORT]','[SHORT]').\
                 replace('SHORTNSWEET','[SHORT]').\
