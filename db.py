@@ -1,4 +1,5 @@
 from .models import db, Performance, Singer, PerformanceSinger
+from .utils import fix_title
 
 # Method to query performances for a user
 def fetchDBPerformancesOrig(username,maxperf=9999):
@@ -9,6 +10,7 @@ def fetchDBPerformancesOrig(username,maxperf=9999):
             join(PerformanceSinger).\
             join(Singer).\
             filter_by(performed_by = username).all()
+
     return performances
 
 # Method to query performances for a user
@@ -28,10 +30,28 @@ def fetchDBPerformances(username,maxperf=9999):
     # Check the PerformanceSinger table for existence of the singer on the performance
     result = db.session.execute(sqlquery)
     for r in result:
-        performances.append(dict(r.items()))
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        # Add the keys to the dict that are not saved to the DB but used for other processing
+        d['other_performers'] = ""
+        d['performers'] = ""
+        d['pic_filename'] = ""
+        d['fixed_title'] = ""
+        d['partner_name'] = ""
+        performances.append(d)
         i += 1
         if i >= maxperf:
             break
+
+    i = 0
+    for performance in performances:
+        filename_parts = performance['filename'].split(' - ')
+        #title = fix_title(filename_parts[0])
+        title = fix_title(performance['title'])
+        performers = filename_parts[1]
+        filename = f"{title} - {performers}"
+        performances[i]['filename'] = filename
+        i += 1
 
     return performances
 
@@ -55,6 +75,8 @@ def saveDBPerformances(performances):
             # Delete performers and pic_filename as well since that is not part of the DB table
             del p['performers']
             del p['pic_filename']
+            del p['fixed_title']
+            del p['partner_name']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed
@@ -68,7 +90,7 @@ def saveDBPerformances(performances):
                         )
             db.session.merge(singer)
 
-            # Convert the performance record to the Performance class for SQLAlchemy and merge with the perfroamnces queried from DB
+            # Convert the performance record to the Performance class for SQLAlchemy and merge with the performances queried from DB
             np = Performance(**p)
             db.session.merge(np)
 
@@ -99,6 +121,8 @@ def saveDBPerformances(performances):
         except:
             # If any errors are encountered for the performance, roll back all DB changes made for that performance
             db.session.rollback()
+            # Uncomment following line for debugging purposes only
+            #raise
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"

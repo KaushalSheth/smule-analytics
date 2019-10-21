@@ -2,6 +2,7 @@ from urllib import request
 from urllib.parse import unquote
 import json, re
 from mutagen.mp4 import MP4, MP4Cover
+from .utils import fix_title
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -10,69 +11,6 @@ def getJSON(username,type="performances",offset=0):
         data = json.loads(url.read())
 
     return data
-
-# The title field we get from Smule for performances contains many letters and words that are not appropriate for the filename
-# Fix the title to remove/replace these so that we can use this "fixed" title in the filename
-def fix_title(title):
-    # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
-    ttable = title.maketrans(\
-            '🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'HQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🇭🇩🌙"<>[]|💚💖🇸🌸🌻🤪🇭🇴🇷🇹👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏ᴴᴰȺ💃🎈=😔'\
-            )
-
-    # Do the translation, conver to uppercase temporarily, create standard format for [Short], remove all unnecessary words, convert to mixed case
-    result = title.translate(ttable).\
-            upper().\
-            replace('[HD]','').\
-            replace('(HD)','').\
-            replace('HD','').\
-            replace('SHORTNSWEET','[SHORT]').\
-            replace('{{SHORT}}','[SHORT]').\
-            replace('{SHORT}','[SHORT]').\
-            replace('((SHORT))','[SHORT]').\
-            replace('(SHORT)','[SHORT]').\
-            replace('SHORT_2','[SHORT]').\
-            replace('SHORT_3','[SHORT]').\
-            replace('SHORT','[SHORT]').\
-            replace('[[SHORT]]','[SHORT]').\
-            replace('JEX','').\
-            replace('[HQ]','').\
-            replace('(HQ)','').\
-            replace('HQ','').\
-            replace('[M]','').\
-            replace('[T]','').\
-            replace('[BEST]','').\
-            replace('[F]','').\
-            replace('(CLEAN TRACK)','').\
-            replace('D MAJOR','').\
-            replace('(DUET)','').\
-            replace('(FULL)','').\
-            replace('(FULL SONG)','').\
-            replace('(100%PURE)','').\
-            replace('[CLEAN DUET]','').\
-            replace('100%','').\
-            replace('[FULL]','').\
-            replace('(CRYSTAL CLEAR)','').\
-            replace('[ORIGINAL MUSIC]','').\
-            replace('HQTRACK!!','').\
-            replace('CLEAR','').\
-            replace('COVER','').\
-            replace('OST','').\
-            replace('🄷🅀','').\
-            replace('🇭🇩','').\
-            replace('{}','').\
-            replace('FULL','').\
-            title()
-
-    # If [Short] is anywhere in the name, remove it and add it to the end of the title
-    if "[Short]" in result:
-        result = (result.replace("[Short]","") + " [Short]").strip().replace('[ ]','')
-
-    # Strip any leading/trailing whitespace, remove any leading "-", and if the name contains any "-", strip anything after the first "-" (remove movie names)
-    result = result.strip().lstrip('-').split("-")[0].strip()
-
-    return result
 
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
@@ -188,4 +126,3 @@ def downloadSong(web_url,filename,performance):
 
     # Save the updated tags to the file
     af.save()
-
