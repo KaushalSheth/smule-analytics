@@ -77,7 +77,9 @@ def fetchSmulePerformances(username,maxperf=9999):
                     'filename':filename,\
                     'other_performers':op,\
                     'performers':performers,\
-                    'pic_filename':pic_filename\
+                    'pic_filename':pic_filename,\
+                    'fixed_title':title,\
+                    'partner_name':performers\
                     })
             # If any errors occur, simply ignore them - losing some data is acceptable
             except:
