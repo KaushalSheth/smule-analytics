@@ -106,7 +106,7 @@ def downloadSong(web_url,filename,performance):
         # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
         media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
 
-        # Print out the media_ul for debuggin purposes
+        # Print out the media_url for debugging purposes
         # TODO: Convert this to a debug message?
         print(media_url)
 
@@ -119,12 +119,15 @@ def downloadSong(web_url,filename,performance):
     af = MP4(filename)
     af["\xa9nam"] = performance["title"]
     af["\xa9ART"] = performance["performers"]
+    af["purd"] = performance["created_at"]
 
     # Write the JPEG to the M4A file as album cover
     pic_url = performance['owner_pic_url']
-    af["covr"] = [
-        MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
-    ]
+    img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
+    af["covr"] = [img]
 
     # Save the updated tags to the file
     af.save()
+
+    # Print pic URL for debugging purposes
+    print(pic_url)

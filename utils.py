@@ -3,9 +3,9 @@
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'FULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '❤🅹🅵❌🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            ' JF HQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
@@ -43,10 +43,10 @@ def remove_words(title):
                 replace('JEX','').replace('QSQT','').replace('OST ','').replace('VERSION','').replace('UNPLUGGED','').\
                 replace('[M]','').replace('[T]','').replace('[F]','').replace('LOW SCALE','').replace('REPRISE','').replace('MASHUP','').\
                 replace('[BEST]','').replace('{BEST TRACK}','').replace('(CLEAN TRACK)','').replace('CLEAN FIX','').\
-                replace('(DUET)','').replace('DUET','').replace('{DUET}','').replace('[CLEAN DUET]','').\
+                replace('(DUET)','').replace('DUET','').replace('{DUET}','').replace('[CLEAN DUET]','').replace('(MINI)','').\
                 replace('100%','').replace('FULL&HIGH','').replace('(FULL)','').replace('(FULL SONG)','').replace('[FULL]','').replace('FULL','').\
                 replace('(100%PURE)','').replace('(CRYSTAL CLEAR)','').replace('[ORIGINAL MUSIC]','').replace('(ORIGINAL TRACK)','').\
-                replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').\
+                replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').\
                 replace('CLEAR','').replace('COVER','').replace('TRACK','').replace('ORIGINAL MUSIC','').\
                 replace('""','').replace(' _ ',' ').replace('_1','').replace('_2','').replace('REMIX','').replace('SMC','').\
                 replace('(AAR PAR)','').replace('(ARTH','').replace('(ARTH)','').replace('(BOMBAY)','').replace('LAWARIS','').\
