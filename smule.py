@@ -3,6 +3,7 @@ from urllib.parse import unquote
 import json, re
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
+from os import path
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -14,10 +15,11 @@ def getJSON(username,type="performances",offset=0):
 
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
-def fetchSmulePerformances(username,maxperf=9999):
+# type can be set to "performances" or "favorites"
+def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances"):
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
-    next_offset = 0
+    next_offset = startoffset
     # We use i to keep track of how many performances we have fetched so far, and break out of the loop when we reach the maxperf desired
     i = next_offset
     # Iinitialize all other variables used in the method
@@ -27,7 +29,7 @@ def fetchSmulePerformances(username,maxperf=9999):
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
         # Get the next batch of results from Smule
-        performances = getJSON(username,"performances",next_offset)
+        performances = getJSON(username,type,next_offset)
 
         # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
         for performance in performances['list']:
@@ -95,39 +97,62 @@ def fetchSmulePerformances(username,maxperf=9999):
             next_offset = performances['next_offset']
     return performanceList
 
-# Download the specified web_url to the filename specified
+# Download the specified web_url to the filename specified; return 1 if downloaded or 0 if failed/exists
 def downloadSong(web_url,filename,performance):
-    # The web_url returns an HTML page that contains the link to the content we wish to download
-    with request.urlopen(web_url) as url:
-        # First get the HTML for the web_url
-        htmlstr = str(url.read())
+    # Print filename
+    print("========================")
+    print(filename)
 
-        # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
-        # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
-        media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+    # If the file already exists, skip it
+    if path.exists(filename):
+        print("ALREADY EXISTS")
+        return 0
 
-        # Print out the media_url for debugging purposes
-        # TODO: Convert this to a debug message?
-        print(media_url)
+    try:
+        # The web_url returns an HTML page that contains the link to the content we wish to download
+        with request.urlopen(web_url) as url:
+            # Print out the web_url for debugging purposes
+            # TODO: Convert to debug message?
+            print(web_url)
+            # First get the HTML for the web_url
+            htmlstr = str(url.read())
 
-        # Open the file in binary write mode and write the data from the media_url
-        f = open(filename,'w+b')
-        f.write(request.urlopen(media_url).read())
-        f.close()
+            # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
+            # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
+            media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
 
-    # Write the tags for the M4A file
-    af = MP4(filename)
-    af["\xa9nam"] = performance["title"]
-    af["\xa9ART"] = performance["performers"]
-    af["purd"] = performance["created_at"]
+            # Print out the media_url for debugging purposes
+            # TODO: Convert this to a debug message?
+            print(media_url)
 
-    # Write the JPEG to the M4A file as album cover
-    pic_url = performance['owner_pic_url']
-    img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
-    af["covr"] = [img]
+            # Open the file in binary write mode and write the data from the media_url
+            f = open(filename,'w+b')
+            f.write(request.urlopen(media_url).read())
+            f.close()
+    except:
+        print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
+        return 0
 
-    # Save the updated tags to the file
-    af.save()
+    try:
+        # Write the tags for the M4A file
+        af = MP4(filename)
+        af["\xa9nam"] = performance["title"]
+        af["\xa9ART"] = performance["performers"]
+        # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule"
+        af["\xa9ALB"] = "Smule"
+        af["purd"] = performance["created_at"]
+
+        # Write the JPEG to the M4A file as album cover
+        pic_url = performance['owner_pic_url']
+        img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
+        af["covr"] = [img]
+
+        # Save the updated tags to the file
+        af.save()
+    except:
+        print("FAILED TO UPDATE TAGS!!!")
+        return 0
 
     # Print pic URL for debugging purposes
-    print(pic_url)
+    # print(pic_url)
+    return 1

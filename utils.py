@@ -3,9 +3,9 @@
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅢🅗🅞🅡🅣ⓔⓘ❤🅹🅵❌🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'SHORTEI JF HQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'GMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '​❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
@@ -37,8 +37,8 @@ def fix_title(title):
 
 def remove_words(title):
     result = title.\
-                replace('[HD]','').replace('(HD)','').replace('HD ','').replace(' HD','').replace('ABC -','').replace('STUDIOQUALITY','').\
-                replace('[HQ]','').replace('(HQ)','').replace('HQT','').replace('HQ ','').replace(' HQ','').replace('HQTRACK!!','').\
+                replace('[HD]','').replace('(HD)','').replace('HD','').replace(' HD','').replace('ABC -','').replace('STUDIOQUALITY','').\
+                replace('[HQ]','').replace('(HQ)','').replace('HQT','').replace('HQ','').replace(' HQ','').replace('HQTRACK!!','').\
                 replace('PIANO UNPLUGGED EXCLUSIVE','').replace('LOWER SCALE','').replace('AJU_STRINGS','').replace('D MAJOR','').\
                 replace('JEX','').replace('QSQT','').replace('OST ','').replace('VERSION','').replace('UNPLUGGED','').replace('DJ','').\
                 replace('[M]','').replace('[T]','').replace('[F]','').replace('LOW SCALE','').replace('REPRISE','').replace('MASHUP','').\
@@ -56,7 +56,7 @@ def remove_words(title):
                 replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').\
                 replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').\
                 replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
-                replace('   ',' ').replace('  ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','')
+                replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('HH','')
 
     return result
 
@@ -77,6 +77,7 @@ def standardize_short(title):
                 replace('SHORT_2','[SHORT]').\
                 replace('SHORT_3','[SHORT]').\
                 replace('SHORT','[SHORT]').\
+                replace('KISHORT','KI [SHORT]').\
                 replace('[[SHORT]]','[SHORT]')
 
     return result

@@ -14,16 +14,16 @@ def fetchDBPerformancesOrig(username,maxperf=9999):
     return performances
 
 # Method to query performances for a user
-def fetchDBPerformances(username,maxperf=9999):
+def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01"):
     global performances
     performances = []
     i = 0
 
     # Build appropriate query - if username = 'KaushalSheth1', then don't apply any filters
     if username == 'KaushalSheth1':
-        sqlquery = "select * from my_performances"
+        sqlquery = "select * from my_performances where created_at between '" + fromdate + "' and '" + todate + "'"
     else:
-        sqlquery = "select * from my_performances where owner_handle = '" + username + "'"
+        sqlquery = "select * from my_performances where created_at between '" + fromdate + "' and '" + todate + "' and owner_handle = '" + username + "'"
     # Append ORDER BY clause
     sqlquery += " order by created_at desc"
 

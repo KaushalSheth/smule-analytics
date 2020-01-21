@@ -37,12 +37,15 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user
+        global user, numrows, search_user, startoffset, fromdate, todate
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
             search_user = user
             numrows = int(request.form['numrows'])
+            startoffset = int(request.form['startoffset'])
+            fromdate = request.form['fromdate']
+            todate = request.form['todate']
             error = None
 
             if not user:
@@ -52,10 +55,12 @@ def create_app(test_config=None):
             if error is None:
                 if request.form['btn'] == 'Search Smule':
                     return redirect(url_for('query_smule_performances'))
+                if request.form['btn'] == 'Search Favorites':
+                    return redirect(url_for('query_smule_favorites'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 else:
-                    error = "Invalid source - valid options are 'smule' and 'db'"
+                    error = "Invalid source - valid options are 'smule' (performances or favorites) and 'db'"
 
             # If any errors were detected during the post, disaply the erorr message
             flash(error, 'error')
@@ -72,13 +77,24 @@ def create_app(test_config=None):
         user = username
         return redirect(url_for('query_smule_performances'))
 
-    # This executes the smule function to fetch performances using global variables set previously
+    # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances
+        global user, numrows, performances, startoffset
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"performances")
+        flash(f"{len(performances)} performances fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This executes the smule function to fetch favorite performances using global variables set previously
+    # Luckily for us, the struvture of all performances and favorite performances is the same, so we can reuse the objects
+    @app.route('/query_smule_favorites')
+    def query_smule_favorites():
+        global user, numrows, performances, startoffset
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchSmulePerformances(user,numrows,startoffset,"favorites")
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
@@ -92,10 +108,10 @@ def create_app(test_config=None):
     # This executes the db function to fetch performances using global variables set previously
     @app.route('/query_db_performances')
     def query_db_performances():
-        global user, numrows, performances
+        global user, numrows, performances, fromdate, todate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows)
+        performances = fetchDBPerformances(user,numrows,fromdate,todate)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
@@ -140,9 +156,7 @@ def create_app(test_config=None):
         global performances
         i = 0
         for performance in performances:
-            downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
-            i += 1
+            i += downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
         return f"Successfully downloaded {i} songs to /tmp"
 
     return app
-

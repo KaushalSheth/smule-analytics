@@ -22,12 +22,36 @@
         </div>
       </div>
 
+      <div class="field">
+        <label class="label" for="startoffset">Starting Offset (Smule only)</label>
+        <div class="control">
+          <input name="startoffset" value="0" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="fromdate">From Date (DB only)</label>
+        <div class="control">
+          <input name="fromdate" value="2018-01-01" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="todate">To Date (DB only)</label>
+        <div class="control">
+          <input name="todate" value="2030-01-01" type="input" class="input" required></input>
+        </div>
+      </div>
+
       <div class="field is-grouped">
         <div class="control">
           <input type="submit" name="btn" value="Search DB" class="button is-link" />
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Search Smule" class="button is-link" />
+        </div>
+        <div class="control">
+          <input type="submit" name="btn" value="Search Favorites" class="button is-link" />
         </div>
       </div>
     </form>
