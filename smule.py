@@ -139,7 +139,7 @@ def downloadSong(web_url,filename,performance):
         af["\xa9nam"] = performance["title"]
         af["\xa9ART"] = performance["performers"]
         # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule"
-        af["\xa9ALB"] = "Smule"
+        af["\xa9alb"] = "Smule"
         af["purd"] = performance["created_at"]
 
         # Write the JPEG to the M4A file as album cover
