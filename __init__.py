@@ -80,10 +80,10 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances, startoffset
+        global user, numrows, performances, startoffset, fromdate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"performances")
+        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
