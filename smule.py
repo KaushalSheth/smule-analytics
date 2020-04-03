@@ -46,6 +46,10 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             pic_filename = filename_base + ".jpg"
             web_url = f"https://www.smule.com{performance['web_url']}"
             created_at = performance['created_at']
+            # As soon as create_at is less than the min date, break out of the loop
+            if created_at < mindate:
+                stop = True
+                break
             try:
                 ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
                 performanceList.append({\
@@ -89,10 +93,6 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
                 pass
             # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
             if i >= maxperf:
-                stop = True
-                break
-            # As soon as create_at is less than the min date, break out of the loop
-            if created_at < mindate:
                 stop = True
                 break
         # If step variable is set, break out of the main loop, otherwise, set the next_offset so we can fetch the next batch

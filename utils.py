@@ -5,33 +5,38 @@ def fix_title(title):
     ttable = title.maketrans(\
             '🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
             'ELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '​🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '​😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
-    result = title.translate(ttable).upper()
+    r1 = title.translate(ttable).upper()
 
     # Standardize all versions of "short" to "[Short]" - first time for initial pass
-    result = standardize_short(result)
+    r2 = standardize_short(r1)
 
     # Remove unnecessary words
-    result = remove_words(result)
+    r3 = remove_words(r2)
 
     # Standardize all versions of "short" to "[Short]" - second time after unnecessary words are removed
-    result = standardize_short(result)
+    r4 = standardize_short(r3)
+
+    # Remove unnecessary words
+    r5 = remove_words(r4)
 
     # Convert to Init Cap
-    result = result.title()
+    r6 = r5.title()
 
     # If [Short] is anywhere in the name, remove it and add it to the end of the title
-    if "[Short]" in result:
-        result = (result.replace("[Short]","") + " [Short]").strip().replace('[ ]','')
+    if "[Short]" in r6:
+        r7 = (r6.replace("[Short]","") + " [Short]").strip().replace('[ ]','')
+    else:
+        r7 = r6
 
     # Strip any leading/trailing whitespace, remove any leading "-", and if the name contains any "-", strip anything after the first "-" (remove movie names)
-    result = result.strip().lstrip('-').split("-")[0].strip()
+    r8 = r7.strip().lstrip('-').split("-")[0].strip()
 
     # Fix spellings of commonly mis-spelled words
-    result = fix_spellings(result)
+    result = fix_spellings(r8)
 
     return result
 
@@ -43,7 +48,7 @@ def remove_words(title):
                 replace('JEX','').replace('QSQT','').replace('OST ','').replace('VERSION','').replace('UNPLUGGED','').replace('DJ','').\
                 replace('[M]','').replace('[T]','').replace('[F]','').replace('LOW SCALE','').replace('REPRISE','').replace('MASHUP','').\
                 replace('[BEST]','').replace('{BEST TRACK}','').replace('(CLEAN TRACK)','').replace('CLEAN FIX','').replace('SHORT HQ)','(SHORT)').\
-                replace('(DUET)','').replace('DUET','').replace('{DUET}','').replace('[CLEAN DUET]','').replace('(MINI)','').\
+                replace('(DUET)','').replace('{DUET}','').replace('[CLEAN DUET]','').replace('(MINI)','').replace('(DUET & DIALOGUE)','').replace('DUET','').\
                 replace('100%','').replace('FULL&HIGH','').replace('(FULL)','').replace('(FULL SONG)','').replace('[FULL]','').replace('FULL','').\
                 replace('(100%PURE)','').replace('(CRYSTAL CLEAR)','').replace('[ORIGINAL MUSIC]','').replace('(ORIGINAL TRACK)','').\
                 replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').\
@@ -56,13 +61,14 @@ def remove_words(title):
                 replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').\
                 replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').\
                 replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
-                replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('HH','')
-
+                replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('HH','').replace('(583)','').replace('(1)','').\
+                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','')
     return result
 
 def standardize_short(title):
     result = title.\
                 replace('(SHORT-HD)','[SHORT]').\
+                replace('(SHORT HD)','[SHORT]').\
                 replace('-SHORT','[SHORT]').\
                 replace('SHORT-','[SHORT]').\
                 replace('[SSSF-SHORT]','[SHORT]').\
@@ -74,12 +80,12 @@ def standardize_short(title):
                 replace('(SHORT COVER)','[SHORT]').\
                 replace('(SHORT )','[SHORT]').\
                 replace('(SHORT & CLEAN)','[SHORT]').\
+                replace('SHORT1','[SHORT]').\
                 replace('SHORT_2','[SHORT]').\
                 replace('SHORT_3','[SHORT]').\
                 replace('SHORT','[SHORT]').\
                 replace('KISHORT','KI [SHORT]').\
                 replace('[[SHORT]]','[SHORT]')
-
     return result
 
 def fix_spellings(title):
@@ -108,6 +114,7 @@ def spelling_dict():
             "Adpyar ": "Pyar",\
             "Toh ": "To ",\
             "Ankho ": "Ankhon ",\
+            "Janeman": "Jaaneman",\
             "Ayeae ": "Ae ",\
             "Aye Ho": "Aaye Ho",\
             "Aye ": "Ae ",\
