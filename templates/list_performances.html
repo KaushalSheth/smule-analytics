@@ -8,9 +8,10 @@
   {% endif %}
 
   <form method="post" action="{{ url_for('submit_performances') }}">
-  <input type="submit" name="btn" value="Save To DB" class="button is-link" />
+  <input type="submit" name="btn" value="Save Performances" class="button is-link" />
   <input type="submit" name="btn" value="Download All" class="button is-link" />
   <input type="submit" name="btn" value="Show Map" class="button is-link" />
+  <input type="submit" name="btn" value="Save Favorites" class="button is-link" />
   <a href="/search_db_user/{{ search_user}}">Results for {{ search_user}}</a>
   <br>
 

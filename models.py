@@ -19,7 +19,7 @@ class Performance(db.Model):
     media_url = db.Column(db.String(200), nullable=True)
     video_media_url = db.Column(db.String(200), nullable=True)
     video_media_mp4_url = db.Column(db.String(200), nullable=True)
-    web_url = db.Column(db.String(200), nullable=True)
+    web_url = db.Column(db.String(300), nullable=True)
     cover_url = db.Column(db.String(200), nullable=True)
     total_performers = db.Column(db.Integer, nullable=True)
     total_listens = db.Column(db.Integer, nullable=True)
@@ -28,7 +28,7 @@ class Performance(db.Model):
     total_commenters = db.Column(db.Integer, nullable=True)
     performed_by = db.Column(db.String(50), nullable=True)
     performed_by_url = db.Column(db.String(50), nullable=True)
-    owner_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), nullable=False)
+    owner_account_id = db.Column(db.BigInteger, db.ForeignKey('singer.account_id'), nullable=False)
     owner_handle = db.Column(db.String(50), nullable=True)
     owner_pic_url = db.Column(db.String(200), nullable=True)
     owner_lat = db.Column(db.Float, nullable=True)
@@ -38,7 +38,7 @@ class Performance(db.Model):
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
 class Singer(db.Model):
-    account_id = db.Column(db.Integer, primary_key=True)
+    account_id = db.Column(db.BigInteger, primary_key=True)
     performed_by = db.Column(db.String(50), nullable=True)
     url = db.Column(db.String(50), nullable=True)
     first_name = db.Column(db.String(50), nullable=True)
@@ -53,6 +53,12 @@ class Singer(db.Model):
 
 class PerformanceSinger(db.Model):
     performance_key = db.Column(db.String(30), db.ForeignKey('performance.key'), primary_key=True)
-    singer_account_id = db.Column(db.Integer, db.ForeignKey('singer.account_id'), primary_key=True)
+    singer_account_id = db.Column(db.BigInteger, db.ForeignKey('singer.account_id'), primary_key=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class PerformanceFavorite(db.Model):
+    favorited_by_username = db.Column(db.String(50), primary_key=True)
+    performance_key = db.Column(db.String(30), db.ForeignKey('performance.key'), primary_key=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

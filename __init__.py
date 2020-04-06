@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong
-from .db import fetchDBPerformances, saveDBPerformances
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites
 
 # Set defaults for global variable that are used in the app
 user = None
@@ -80,10 +80,10 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances, startoffset, fromdate
+        global user, numrows, performances, startoffset, fromdate, todate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
@@ -91,10 +91,10 @@ def create_app(test_config=None):
     # Luckily for us, the struvture of all performances and favorite performances is the same, so we can reuse the objects
     @app.route('/query_smule_favorites')
     def query_smule_favorites():
-        global user, numrows, performances, startoffset
+        global user, numrows, performances, startoffset, fromdate, todate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"favorites",fromdate)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"favorites",fromdate,todate)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
@@ -118,10 +118,12 @@ def create_app(test_config=None):
     # Thsi method allows us to take various actions on the list of performances displayed
     @app.route('/submit_performances', methods=('GET','POST'))
     def submit_performances():
-        global performances
-        # We can save the listed performances to the DB, download them all, or display them on a map (using leaflet)
-        if request.form['btn'] == 'Save To DB':
-            message = saveDBPerformances(performances)
+        global user, performances
+        # We can save the listed performances/favorites to the DB, download them all, or display them on a map (using leaflet)
+        if request.form['btn'] == 'Save Performances':
+            message = saveDBPerformances(user,performances)
+        elif request.form['btn'] == 'Save Favorites':
+            message = saveDBFavorites(user,performances)
         elif request.form['btn'] == 'Download All':
             message = download_all_performances()
         elif request.form['btn'] == 'Show Map':

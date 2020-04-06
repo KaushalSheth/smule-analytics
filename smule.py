@@ -16,12 +16,12 @@ def getJSON(username,type="performances",offset=0):
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
-def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01'):
+def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31'):
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
     next_offset = startoffset
     # We use i to keep track of how many performances we have fetched so far, and break out of the loop when we reach the maxperf desired
-    i = next_offset
+    i = 0
     # Iinitialize all other variables used in the method
     stop = False
     performanceList = []
@@ -33,6 +33,15 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
 
         # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
         for performance in performances['list']:
+            created_at = performance['created_at']
+            # As soon as created_at is less than the min date, break out of the loop
+            if created_at < mindate:
+                stop = True
+                break
+            # If the created_at is greater than the max date, then skip it and proceed with next one
+            if created_at > maxdate:
+                continue
+                print('Skipped')
             i += 1
             title = fix_title(performance['title'])
             # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
@@ -45,11 +54,14 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             filename = filename_base + ".m4a"
             pic_filename = filename_base + ".jpg"
             web_url = f"https://www.smule.com{performance['web_url']}"
-            created_at = performance['created_at']
-            # As soon as create_at is less than the min date, break out of the loop
-            if created_at < mindate:
-                stop = True
-                break
+            # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
+            try:
+                orig_track_city = performance['orig_track_city']['city']
+                orig_track_country = performance['orig_track_city']['country']
+            except:
+                orig_track_city = "Unknown"
+                orig_track_country = "Unknown"
+            # Try appending the performance to the list and ignore any errors that occur
             try:
                 ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
                 performanceList.append({\
@@ -62,8 +74,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
                     'child_count':performance['child_count'],\
                     'app_uid':performance['app_uid'],\
                     'arr_key':performance['arr_key'],\
-                    'orig_track_city':performance['orig_track_city']['city'],\
-                    'orig_track_country':performance['orig_track_city']['country'],\
+                    'orig_track_city':orig_track_city,\
+                    'orig_track_country':orig_track_country,\
                     'media_url':performance['media_url'],\
                     'video_media_url':performance['video_media_url'],\
                     'video_media_mp4_url':performance['video_media_mp4_url'],\

@@ -1,5 +1,6 @@
-from .models import db, Performance, Singer, PerformanceSinger
+from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite
 from .utils import fix_title
+from sqlalchemy import text
 
 # Method to query performances for a user
 def fetchDBPerformancesOrig(username,maxperf=9999):
@@ -56,12 +57,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     return performances
 
 # Save the performances queried from Smule to the DB
-def saveDBPerformances(performances):
-    # TODO: Optimize to not query all data from DB, but only a subset that is relevant
-    singers = db.session.query(Singer).all()
-    db_performances = db.session.query(Performance).all()
-    db_perfsingers = db.session.query(PerformanceSinger).all()
-
+def saveDBPerformances(username,performances):
     i = 0
     # Loop through each performance that has been queried
     for p in performances:
@@ -122,7 +118,35 @@ def saveDBPerformances(performances):
             # If any errors are encountered for the performance, roll back all DB changes made for that performance
             db.session.rollback()
             # Uncomment following line for debugging purposes only
-            #raise
+            raise
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"
+
+# Save the performances queried from Smule to the DB
+def saveDBFavorites(username,performances):
+    i = 0
+    # Loop through each performance that has been queried
+    for p in performances:
+        # Use a try block because we want to ignore performances with bad data
+        # If any error occurs when processing the performance, simply skip it
+        # TODO: Use more granular error checks
+        try:
+            # Process the PerformanceSinger record for the owner of the performance
+            perfFavorite = PerformanceFavorite(\
+                        favorited_by_username = username,\
+                        performance_key = p['key'],\
+                        created_at = p['created_at'],\
+                        )
+            db.session.merge(perfFavorite)
+            # Commit all the changes for the performance if no errors were encountered
+            db.session.commit()
+            i += 1
+        except:
+            # If any errors are encountered for the performance, roll back all DB changes made for that performance
+            db.session.rollback()
+            # Uncomment following line for debugging purposes only
+            #raise
+
+    # Return a message indicating how many performances were successfully processed out of the total
+    return f"{i} out of {len(performances)} favorites processed"
