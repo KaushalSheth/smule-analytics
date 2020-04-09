@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong
+from .smule import fetchSmulePerformances, downloadSong, crawlFavorites
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites
 
 # Set defaults for global variable that are used in the app
@@ -37,7 +37,7 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
@@ -47,6 +47,7 @@ def create_app(test_config=None):
             fromdate = request.form['fromdate']
             todate = request.form['todate']
             error = None
+            searchtype = 'PERFORMANCES'
 
             if not user:
                 error = "Username is required."
@@ -54,8 +55,10 @@ def create_app(test_config=None):
             # Depending on which button was clicked, take the appropriate action
             if error is None:
                 if request.form['btn'] == 'Search Smule':
+                    searchtype = 'PERFORMANCES'
                     return redirect(url_for('query_smule_performances'))
                 if request.form['btn'] == 'Search Favorites':
+                    searchtype = 'FAVORITES'
                     return redirect(url_for('query_smule_favorites'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
@@ -73,9 +76,22 @@ def create_app(test_config=None):
     # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
     @app.route('/search_smule_user/<username>')
     def search_smule_user(username):
-        global user
+        global user, searchtype
         user = username
-        return redirect(url_for('query_smule_performances'))
+        if searchtype == 'FAVORITES':
+            return redirect(url_for('query_smule_favorites'))
+        else:
+            return redirect(url_for('query_smule_performances'))
+
+    # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
+    @app.route('/crawl_favorites/<username>')
+    def crawl_favorites(username):
+        global user, numrows, performances, startoffset, fromdate, todate
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        message = crawlFavorites(username,performances,numrows,startoffset,fromdate,todate)
+        flash(message)
+        return redirect(url_for('list_performances'))
 
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
@@ -136,9 +152,9 @@ def create_app(test_config=None):
     # Generic route for displaying performances using global variable
     @app.route('/list_performances')
     def list_performances():
-        global performances, search_user
+        global performances, search_user, user
         # This assumes that the performances global variable is set by the time we get here
-        return render_template('list_performances.html', performances=performances, search_user=search_user)
+        return render_template('list_performances.html', performances=performances, search_user=search_user, user=user)
 
     # Method to download the performance to local disk
     @app.route('/download_performance/<key>')

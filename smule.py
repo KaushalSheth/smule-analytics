@@ -4,6 +4,7 @@ import json, re
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
+from .db import saveDBPerformances, saveDBFavorites
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -12,6 +13,46 @@ def getJSON(username,type="performances",offset=0):
         data = json.loads(url.read())
 
     return data
+
+# Method to crawl favorites for the specified user
+# This method assumes a list of performances is already queried and loops through the partners and fetches their favorites and saves them to DB
+def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='2018-01-01',maxdate='2030-12-31'):
+    message = "Crawled the following users: "
+    # Save the original performance list
+    orig_performances = performances
+
+    try:
+        # Loop through all the performances to build a list of users to crawl
+        userList = []
+        for p in performances:
+            # Get performers string and split into individual users
+            performers = p['performers'].split(" and ")
+            # For each user in the list add to the list of users unless it is the same as the username passed in or it already exists in teh list
+            for u in performers:
+                if (u != username) and (u not in userList):
+                    userList.append(u)
+        # Loop through the users and process each one individually
+        for u in userList:
+            try:
+                # Fetch the performances for the user and save them
+                perf = fetchSmulePerformances(u,maxperf,startoffset,"favorites",mindate,maxdate)
+                m = saveDBPerformances(u,perf)
+                m = saveDBFavorites(u,perf)
+                # The first word in the message returned indicates the number of favorites processed successfully - save that
+                n = m.split()[0]
+            except:
+                raise
+            message += u + " (" + n + "), "
+
+        # Remove the last comma
+        message = message.rstrip(", ")
+
+    # If any exceptions happen, simply ignore it so that the golbal performances can be set back to the original value and return
+    except:
+        raise
+
+    performances = orig_performances
+    return message
 
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
@@ -54,6 +95,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             filename = filename_base + ".m4a"
             pic_filename = filename_base + ".jpg"
             web_url = f"https://www.smule.com{performance['web_url']}"
+            web_url = web_url[:300]
             # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
             try:
                 orig_track_city = performance['orig_track_city']['city']

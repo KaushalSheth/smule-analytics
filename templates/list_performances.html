@@ -12,7 +12,15 @@
   <input type="submit" name="btn" value="Download All" class="button is-link" />
   <input type="submit" name="btn" value="Show Map" class="button is-link" />
   <input type="submit" name="btn" value="Save Favorites" class="button is-link" />
-  <a href="/search_db_user/{{ search_user}}">Results for {{ search_user}}</a>
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td><a href="/crawl_favorites/{{ user}}">Crawl favorites for {{ user }}</a></td>
+              <td><a href="/search_smule_user/{{ search_user}}">Return to results for {{ search_user }}</a></td>
+          </tr>
+      </tbody>
+  </table>
   <br>
 
   <table style="width:100%">
@@ -23,7 +31,9 @@
           <td>{{ loop.index }}</td>
           <td>{{ performance.title }}</td>
           <td>{{ performance.created_at }}</td>
-          <td><a href="/search_smule_user/{{ performance.owner_handle }}"><img src="{{performance.owner_pic_url}}" height="120" width="80"><br>{{ performance.owner_handle }}</a></td>
+          <td>
+              <a href="/search_smule_user/{{ performance.owner_handle }}"><img src="{{performance.owner_pic_url}}" height="120" width="80"><br>{{ performance.owner_handle }}</a><br>
+          </td>
           <td>{{ performance.orig_track_city }}, {{ performance.orig_track_country }}</td>
           <td>{{ performance.total_loves }}</td>
           <td><a href="{{ performance.web_url }}">Listen</a></td>
