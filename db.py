@@ -1,6 +1,7 @@
 from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite
 from .utils import fix_title
 from sqlalchemy import text
+import copy
 
 # Method to query performances for a user
 def fetchDBPerformancesOrig(username,maxperf=9999):
@@ -39,6 +40,9 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['pic_filename'] = ""
         d['fixed_title'] = ""
         d['partner_name'] = ""
+        # TODO: Need to figure out how to get the partner handle and pic_URL here
+        d['display_handle'] = d['owner_handle']
+        d['display_pic_url'] = d['owner_pic_url']
         performances.append(d)
         i += 1
         if i >= maxperf:
@@ -59,8 +63,10 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 # Save the performances queried from Smule to the DB
 def saveDBPerformances(username,performances):
     i = 0
+    # Need to use deepcopy to copy the list of objects so that the original list does not get overwritten
+    db_performances = copy.deepcopy(performances)
     # Loop through each performance that has been queried
-    for p in performances:
+    for p in db_performances:
         # Use a try block because we want to ignore performances with bad data
         # If any error occurs when processing the performance, simply skip it
         # TODO: Use more granular error checks
@@ -73,6 +79,8 @@ def saveDBPerformances(username,performances):
             del p['pic_filename']
             del p['fixed_title']
             del p['partner_name']
+            del p['display_handle']
+            del p['display_pic_url']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed
@@ -126,8 +134,10 @@ def saveDBPerformances(username,performances):
 # Save the performances queried from Smule to the DB
 def saveDBFavorites(username,performances):
     i = 0
+    # Need to use deepcopy to copy the list of objects so that the original list does not get overwritten
+    db_performances = copy.deepcopy(performances)
     # Loop through each performance that has been queried
-    for p in performances:
+    for p in db_performances:
         # Use a try block because we want to ignore performances with bad data
         # If any error occurs when processing the performance, simply skip it
         # TODO: Use more granular error checks

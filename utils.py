@@ -3,9 +3,9 @@
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'QELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '​❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            'Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'RQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '​🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
@@ -42,7 +42,7 @@ def fix_title(title):
 
 def remove_words(title):
     result = title.\
-                replace('[HD]','').replace('(HD)','').replace('HD','').replace(' HD','').replace('ABC -','').replace('STUDIOQUALITY','').\
+                replace('HDR','').replace('(HD)','').replace('HD','').replace(' HD','').replace('ABC -','').replace('STUDIOQUALITY','').\
                 replace('[HQ]','').replace('(HQ)','').replace('HQT','').replace('HQ','').replace(' HQ','').replace('HQTRACK!!','').\
                 replace('PIANO UNPLUGGED EXCLUSIVE','').replace('LOWER SCALE','').replace('AJU_STRINGS','').replace('D MAJOR','').\
                 replace('JEX','').replace('QSQT','').replace('OST ','').replace('VERSION','').replace('UNPLUGGED','').replace('DJ','').\
@@ -54,7 +54,7 @@ def remove_words(title):
                 replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').\
                 replace('CLEAR','').replace('COVER','').replace('TRACK','').replace('ORIGINAL MUSIC','').replace('DIL CHAHTA HAI','').\
                 replace('""','').replace(' _ ',' ').replace('_1','').replace('_2','').replace('REMIX','').replace('SMC','').replace('+LIRIK','').\
-                replace('(AAR PAR)','').replace('(ARTH','').replace('(ARTH)','').replace('(BOMBAY)','').replace('LAWARIS','').\
+                replace('(AAR PAR)','').replace('(ARTH','').replace('(ARTH)','').replace('(BOMBAY)','').replace('LAWARIS','').replace('(SOLO BY MUKESH)','').\
                 replace('(JAANWAR)','').replace('(ARADHANA)','').replace('(LOOTERA)','').replace('(NAU 2 GYARA)','').replace('(SHOR)','').\
                 replace('(TEESRI MANZIL)','').replace('(CHORI CHORI)','').replace('(KASHMIR KI KALI)','').replace('(WITH ALAP SPACE)','').\
                 replace('(KALA BAZAR)','').replace('NAYA DAUR (1957)','').replace('MAJOR SAAB','').replace('AASHIQUI 2','').\
@@ -62,12 +62,13 @@ def remove_words(title):
                 replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').\
                 replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
                 replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('HH','').replace('(583)','').replace('(1)','').\
-                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','')
+                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','').replace('(131)','').replace('(80)','').replace('(30)','')
     return result
 
 def standardize_short(title):
     result = title.\
                 replace('(SHORT-HD)','[SHORT]').\
+                replace('*SHORT*','[SHORT]').\
                 replace('(SHORT HD)','[SHORT]').\
                 replace('-SHORT','[SHORT]').\
                 replace('SHORT-','[SHORT]').\

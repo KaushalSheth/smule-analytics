@@ -54,6 +54,138 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
     performances = orig_performances
     return message
 
+# Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
+def parseEnsembles(username,web_url):
+    ensembleList = []
+
+    print("================== Ensembles Start ====================")
+    try:
+        # The web_url returns an HTML page that contains the link to the content we wish to download
+        with request.urlopen(web_url) as url:
+            # Print out the web_url for debugging purposes
+            # TODO: Convert to debug message?
+            print(web_url)
+            # First get the HTML for the web_url
+            htmlstr = str(url.read())
+            # Next, parse the HTML to extract the JSON string for performances
+            # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
+            performancesStr = re.sub(r'\\x..', '', re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1))
+            # Process the performanceJSON and construct the ensembleList
+            responseList = createPerformanceList(username,json.loads(performancesStr))
+            ensembleList = responseList[2]
+    except:
+        print("Failed to parse ensembles")
+        raise
+
+    print("================== Ensembles End ====================")
+    return ensembleList
+
+# Create performance list out of a performances JSON that is passed in
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999):
+    performanceList = []
+    stop = False
+    i = n
+
+    # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
+    for performance in performancesJSON['list']:
+        created_at = performance['created_at']
+        # As soon as created_at is less than the min date, break out of the loop
+        if created_at < mindate:
+            stop = True
+            break
+        # If the created_at is greater than the max date, then skip it and proceed with next one
+        if created_at > maxdate:
+            continue
+            print('Skipped')
+        i += 1
+        web_url = f"https://www.smule.com{performance['web_url']}"
+        # If the web_url ends in "/ensembles" then process the ensembles and append to the performance list
+        if web_url.endswith("/ensembles"):
+            ensembleList = parseEnsembles(username,web_url)
+            performanceList.extend(ensembleList)
+            # We don't want to include the base recording for the ensembles, so continue to the next iteration of the loop
+            continue
+        title = fix_title(performance['title'])
+        # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
+        owner = performance['owner']['handle']
+        display_user = owner
+        owner_pic_url = performance['owner']['pic_url']
+        display_pic_url = owner_pic_url
+        performers = owner
+        op = performance['other_performers']
+        # TODO: If there is more than one other performer, do we wish to include in the filename?
+        if len(op) > 0:
+            partner = op[0]['handle']
+            partner_pic_url = op[0]['pic_url']
+            performers += " and " + partner
+            # If the owner is the username we are processing, switch the display user to the first other performer
+            if owner == username:
+                display_user = partner
+                display_pic_url = partner_pic_url
+        filename_base = f"{title} - {performers}"
+        filename = filename_base + ".m4a"
+        pic_filename = filename_base + ".jpg"
+        # Truncate web_url to 300 characters to avoid DB error when saving
+        web_url = web_url[:300]
+        # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
+        try:
+            orig_track_city = performance['orig_track_city']['city']
+            orig_track_country = performance['orig_track_city']['country']
+        except:
+            orig_track_city = "Unknown"
+            orig_track_country = "Unknown"
+        # Try appending the performance to the list and ignore any errors that occur
+        try:
+            ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
+            performanceList.append({\
+                'key':performance['key'],\
+                'type':performance['type'],\
+                'created_at':created_at,\
+                'title':performance['title'],\
+                'artist':performance['artist'],\
+                'ensemble_type':performance['ensemble_type'],\
+                'child_count':performance['child_count'],\
+                'app_uid':performance['app_uid'],\
+                'arr_key':performance['arr_key'],\
+                'orig_track_city':orig_track_city,\
+                'orig_track_country':orig_track_country,\
+                'media_url':performance['media_url'],\
+                'video_media_url':performance['video_media_url'],\
+                'video_media_mp4_url':performance['video_media_mp4_url'],\
+                'web_url':web_url,\
+                'cover_url':performance['cover_url'],\
+                'total_performers':performance['stats']['total_performers'],\
+                'total_listens':performance['stats']['total_listens'],\
+                'total_loves':performance['stats']['total_loves'],\
+                'total_comments':performance['stats']['total_comments'],\
+                'total_commenters':performance['stats']['total_commenters'],\
+                'performed_by':performance['performed_by'],\
+                'performed_by_url':performance['performed_by_url'],\
+                'owner_account_id':performance['owner']['account_id'],\
+                'owner_handle':owner,\
+                'owner_pic_url':owner_pic_url,\
+                'display_handle':display_user,\
+                'display_pic_url':display_pic_url,\
+                'owner_lat':performance['owner']['lat'],\
+                'owner_lon':performance['owner']['lon'],\
+                'filename':filename,\
+                'other_performers':op,\
+                'performers':performers,\
+                'pic_filename':pic_filename,\
+                'fixed_title':title,\
+                'partner_name':performers\
+                })
+        # If any errors occur, simply ignore them - losing some data is acceptable
+        except:
+            pass
+            raise
+        # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
+        if i >= maxperf:
+            stop = True
+            break
+
+    return [ stop, i, performanceList ]
+
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
@@ -71,84 +203,14 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     while next_offset >= 0:
         # Get the next batch of results from Smule
         performances = getJSON(username,type,next_offset)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf)
 
-        # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
-        for performance in performances['list']:
-            created_at = performance['created_at']
-            # As soon as created_at is less than the min date, break out of the loop
-            if created_at < mindate:
-                stop = True
-                break
-            # If the created_at is greater than the max date, then skip it and proceed with next one
-            if created_at > maxdate:
-                continue
-                print('Skipped')
-            i += 1
-            title = fix_title(performance['title'])
-            # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
-            performers = performance['owner']['handle']
-            op = performance['other_performers']
-            if len(op) > 0:
-                performers += " and " + op[0]['handle']
-            # TODO: If there is more than one other performer, do we wish to include in the filename?
-            filename_base = f"{title} - {performers}"
-            filename = filename_base + ".m4a"
-            pic_filename = filename_base + ".jpg"
-            web_url = f"https://www.smule.com{performance['web_url']}"
-            web_url = web_url[:300]
-            # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
-            try:
-                orig_track_city = performance['orig_track_city']['city']
-                orig_track_country = performance['orig_track_city']['country']
-            except:
-                orig_track_city = "Unknown"
-                orig_track_country = "Unknown"
-            # Try appending the performance to the list and ignore any errors that occur
-            try:
-                ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
-                performanceList.append({\
-                    'key':performance['key'],\
-                    'type':performance['type'],\
-                    'created_at':created_at,\
-                    'title':performance['title'],\
-                    'artist':performance['artist'],\
-                    'ensemble_type':performance['ensemble_type'],\
-                    'child_count':performance['child_count'],\
-                    'app_uid':performance['app_uid'],\
-                    'arr_key':performance['arr_key'],\
-                    'orig_track_city':orig_track_city,\
-                    'orig_track_country':orig_track_country,\
-                    'media_url':performance['media_url'],\
-                    'video_media_url':performance['video_media_url'],\
-                    'video_media_mp4_url':performance['video_media_mp4_url'],\
-                    'web_url':web_url,\
-                    'cover_url':performance['cover_url'],\
-                    'total_performers':performance['stats']['total_performers'],\
-                    'total_listens':performance['stats']['total_listens'],\
-                    'total_loves':performance['stats']['total_loves'],\
-                    'total_comments':performance['stats']['total_comments'],\
-                    'total_commenters':performance['stats']['total_commenters'],\
-                    'performed_by':performance['performed_by'],\
-                    'performed_by_url':performance['performed_by_url'],\
-                    'owner_account_id':performance['owner']['account_id'],\
-                    'owner_handle':performance['owner']['handle'],\
-                    'owner_pic_url':performance['owner']['pic_url'],\
-                    'owner_lat':performance['owner']['lat'],\
-                    'owner_lon':performance['owner']['lon'],\
-                    'filename':filename,\
-                    'other_performers':op,\
-                    'performers':performers,\
-                    'pic_filename':pic_filename,\
-                    'fixed_title':title,\
-                    'partner_name':performers\
-                    })
-            # If any errors occur, simply ignore them - losing some data is acceptable
-            except:
-                pass
-            # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
-            if i >= maxperf:
-                stop = True
-                break
+        # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
+        stop = responseList[0]
+        i = responseList[1]
+        # Add each element of the returned list of performances to the performanceList variable
+        performanceList.extend(responseList[2])
+
         # If step variable is set, break out of the main loop, otherwise, set the next_offset so we can fetch the next batch
         if stop:
             break
