@@ -58,13 +58,12 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
 def parseEnsembles(username,web_url):
     ensembleList = []
 
-    print("================== Ensembles Start ====================")
     try:
         # The web_url returns an HTML page that contains the link to the content we wish to download
         with request.urlopen(web_url) as url:
             # Print out the web_url for debugging purposes
             # TODO: Convert to debug message?
-            print(web_url)
+            #print(web_url)
             # First get the HTML for the web_url
             htmlstr = str(url.read())
             # Next, parse the HTML to extract the JSON string for performances
@@ -77,17 +76,20 @@ def parseEnsembles(username,web_url):
         print("Failed to parse ensembles")
         raise
 
-    print("================== Ensembles End ====================")
     return ensembleList
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all"):
     performanceList = []
     stop = False
     i = n
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
+        # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
+        if i >= maxperf:
+            stop = True
+            break
         created_at = performance['created_at']
         # As soon as created_at is less than the min date, break out of the loop
         if created_at < mindate:
@@ -96,15 +98,19 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If the created_at is greater than the max date, then skip it and proceed with next one
         if created_at > maxdate:
             continue
-            print('Skipped')
-        i += 1
         web_url = f"https://www.smule.com{performance['web_url']}"
+        #print(f"{i}: {web_url}")
         # If the web_url ends in "/ensembles" then process the ensembles and append to the performance list
         if web_url.endswith("/ensembles"):
             ensembleList = parseEnsembles(username,web_url)
             performanceList.extend(ensembleList)
-            # We don't want to include the base recording for the ensembles, so continue to the next iteration of the loop
+            # We don't want to include the base recording for the ensembles, so continue to the next iteration of the loop, but still increment count
+            i += 1
             continue
+        elif filterType == "ensembles":
+            # If the performance is not an ensemble, but we specified we want only ensembles, skip the performance and don't increment the count
+            continue
+        i += 1
         title = fix_title(performance['title'])
         # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
         owner = performance['owner']['handle']
@@ -179,10 +185,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         except:
             pass
             raise
-        # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
-        if i >= maxperf:
-            stop = True
-            break
 
     return [ stop, i, performanceList ]
 
@@ -198,12 +200,16 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     # Iinitialize all other variables used in the method
     stop = False
     performanceList = []
-
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
+        print(f"======== {next_offset} {i} {stop} {maxperf} =======")
         # Get the next batch of results from Smule
-        performances = getJSON(username,type,next_offset)
-        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf)
+        if type == "ensembles":
+            fetchType = "performances"
+        else:
+            fetchType = type
+        performances = getJSON(username,fetchType,next_offset)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
         stop = responseList[0]

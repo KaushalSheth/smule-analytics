@@ -57,9 +57,12 @@ def create_app(test_config=None):
                 if request.form['btn'] == 'Search Smule':
                     searchtype = 'PERFORMANCES'
                     return redirect(url_for('query_smule_performances'))
-                if request.form['btn'] == 'Search Favorites':
+                elif request.form['btn'] == 'Search Favorites':
                     searchtype = 'FAVORITES'
                     return redirect(url_for('query_smule_favorites'))
+                elif request.form['btn'] == 'Search Ensembles':
+                    searchtype = 'ENSEMBLES'
+                    return redirect(url_for('query_smule_ensembles'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 else:
@@ -80,6 +83,8 @@ def create_app(test_config=None):
         user = username
         if searchtype == 'FAVORITES':
             return redirect(url_for('query_smule_favorites'))
+        elif searchtype == 'ENSEMBLES':
+            return redirect(url_for('query_smule_ensembles'))
         else:
             return redirect(url_for('query_smule_performances'))
 
@@ -104,13 +109,24 @@ def create_app(test_config=None):
         return redirect(url_for('list_performances'))
 
     # This executes the smule function to fetch favorite performances using global variables set previously
-    # Luckily for us, the struvture of all performances and favorite performances is the same, so we can reuse the objects
+    # Luckily for us, the structure of all performances and favorite performances is the same, so we can reuse the objects
     @app.route('/query_smule_favorites')
     def query_smule_favorites():
         global user, numrows, performances, startoffset, fromdate, todate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"favorites",fromdate,todate)
+        flash(f"{len(performances)} performances fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This executes the smule function to fetch favorite ensemble performances using global variables set previously
+    # This basically queries all performances but then only includes the ones that are ensembles
+    @app.route('/query_smule_ensembles')
+    def query_smule_ensembles():
+        global user, numrows, performances, startoffset, fromdate, todate
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchSmulePerformances(user,numrows,startoffset,"ensembles",fromdate,todate)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
