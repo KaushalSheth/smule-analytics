@@ -22,7 +22,7 @@
     var markers = L.markerClusterGroup();
     {% for performance in performances %}
     //markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip("<strong>{{ performance.owner_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}</strong>"));
-    markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.owner_pic_url}}" height="120" width="80"><br>{{ performance.owner_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}'));
+    markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.display_pic_url}}" height="120" width="80"><br>{{ performance.display_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}'));
     {% endfor %}
     map.addLayer(markers);
 

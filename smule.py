@@ -61,25 +61,25 @@ def parseEnsembles(username,web_url):
     try:
         # The web_url returns an HTML page that contains the link to the content we wish to download
         with request.urlopen(web_url) as url:
-            # Print out the web_url for debugging purposes
-            # TODO: Convert to debug message?
-            #print(web_url)
             # First get the HTML for the web_url
             htmlstr = str(url.read())
             # Next, parse the HTML to extract the JSON string for performances
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
-            performancesStr = re.sub(r'\\x..', '', re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1))
+            performancesStr = re.sub(r'\\''','', (re.sub(r'\\x..', '', re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1))))
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr))
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble")
             ensembleList = responseList[2]
     except:
+        # DEBUG MESSAGE
+        print("============")
+        print(performancesStr)
         print("Failed to parse ensembles")
         raise
 
     return ensembleList
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all"):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular"):
     performanceList = []
     stop = False
     i = n
@@ -104,8 +104,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if web_url.endswith("/ensembles"):
             ensembleList = parseEnsembles(username,web_url)
             performanceList.extend(ensembleList)
-            # We don't want to include the base recording for the ensembles, so continue to the next iteration of the loop, but still increment count
-            i += 1
+            # We don't want to include the actual ensemble, but we do want to increment the count by the number of joins and then continue
+            i += len(ensembleList)
             continue
         elif filterType == "ensembles":
             # If the performance is not an ensemble, but we specified we want only ensembles, skip the performance and don't increment the count
@@ -179,7 +179,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'performers':performers,\
                 'pic_filename':pic_filename,\
                 'fixed_title':title,\
-                'partner_name':performers\
+                'partner_name':performers,\
+                'create_type':createType\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:

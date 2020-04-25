@@ -5,7 +5,7 @@ def fix_title(title):
     ttable = title.maketrans(\
             'Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
             'RQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '​🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '​🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
@@ -60,7 +60,7 @@ def remove_words(title):
                 replace('(KALA BAZAR)','').replace('NAYA DAUR (1957)','').replace('MAJOR SAAB','').replace('AASHIQUI 2','').\
                 replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').\
                 replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').\
-                replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
+                replace('\t',' ').replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
                 replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('HH','').replace('(583)','').replace('(1)','').\
                 replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','').replace('(131)','').replace('(80)','').replace('(30)','')
     return result

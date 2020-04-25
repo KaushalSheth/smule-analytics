@@ -40,6 +40,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['pic_filename'] = ""
         d['fixed_title'] = ""
         d['partner_name'] = ""
+        d['create_type'] = ""
         # TODO: Need to figure out how to get the partner handle and pic_URL here
         d['display_handle'] = d['owner_handle']
         d['display_pic_url'] = d['owner_pic_url']
@@ -81,6 +82,7 @@ def saveDBPerformances(username,performances):
             del p['partner_name']
             del p['display_handle']
             del p['display_pic_url']
+            del p['create_type']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed
