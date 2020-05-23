@@ -63,6 +63,9 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search Ensembles':
                     searchtype = 'ENSEMBLES'
                     return redirect(url_for('query_smule_ensembles'))
+                elif request.form['btn'] == 'Search Invites':
+                    searchtype = 'INVITES'
+                    return redirect(url_for('query_smule_invites'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 else:
@@ -107,6 +110,16 @@ def create_app(test_config=None):
         performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
+
+    # This executes the smule function to fetch all performances using global variables set previously
+    @app.route('/query_smule_invites')
+    def query_smule_invites():
+        global user, numrows, performances, startoffset, fromdate, todate, invites
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchSmulePerformances(user,numrows,startoffset,"invites",fromdate,todate)
+        flash(f"{len(performances)} invites fetched from Smule")
+        return redirect(url_for('list_invites'))
 
     # This executes the smule function to fetch favorite performances using global variables set previously
     # Luckily for us, the structure of all performances and favorite performances is the same, so we can reuse the objects
@@ -172,6 +185,13 @@ def create_app(test_config=None):
         # This assumes that the performances global variable is set by the time we get here
         return render_template('list_performances.html', performances=performances, search_user=search_user, user=user)
 
+    # Generic route for displaying performances using global variable
+    @app.route('/list_invites')
+    def list_invites():
+        global performances, search_user, user, invites
+        # This assumes that the performances global variable is set by the time we get here
+        return render_template('list_invites.html', performances=performances, search_user=search_user, user=user)
+
     # Method to download the performance to local disk
     @app.route('/download_performance/<key>')
     def download_performance(key):
@@ -190,7 +210,11 @@ def create_app(test_config=None):
         global performances
         i = 0
         for performance in performances:
-            i += downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
-        return f"Successfully downloaded {i} songs to /tmp"
+            # Only download joins for ensembles, not the invite itself
+            if performance["create_type"] != "invite":
+                i += downloadSong(performance["web_url"], "/tmp/" + performance['filename'],performance)
+        retVal = f"Successfully downloaded {i} songs to /tmp"
+        print(retVal)
+        return retVal
 
     return app

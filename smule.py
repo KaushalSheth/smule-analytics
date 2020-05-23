@@ -9,6 +9,7 @@ from .db import saveDBPerformances, saveDBFavorites
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
     urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+    print(urlstring)
     with request.urlopen(urlstring) as url:
         data = json.loads(url.read())
 
@@ -64,8 +65,11 @@ def parseEnsembles(username,web_url):
             # First get the HTML for the web_url
             htmlstr = str(url.read())
             # Next, parse the HTML to extract the JSON string for performances
+            performancesBytes = bytes(re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1),'latin')
+            performancesStr = performancesBytes.decode('utf8')
+            #print(performancesStr)
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
-            performancesStr = re.sub(r'\\''','', (re.sub(r'\\x..', '', re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1))))
+            performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             # Process the performanceJSON and construct the ensembleList
             responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble")
             ensembleList = responseList[2]
@@ -86,6 +90,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
+        ct = createType
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
             stop = True
@@ -100,15 +105,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             continue
         web_url = f"https://www.smule.com{performance['web_url']}"
         #print(f"{i}: {web_url}")
-        # If the web_url ends in "/ensembles" then process the ensembles and append to the performance list
+        # If the web_url ends in "/ensembles" then set ct to be "invite"
         if web_url.endswith("/ensembles"):
-            ensembleList = parseEnsembles(username,web_url)
-            performanceList.extend(ensembleList)
-            # We don't want to include the actual ensemble, but we do want to increment the count by the number of joins and then continue
-            i += len(ensembleList)
-            continue
-        elif filterType == "ensembles":
-            # If the performance is not an ensemble, but we specified we want only ensembles, skip the performance and don't increment the count
+            ct = "invite"
+        elif filterType == "ensembles" or filterType == "invites":
+            # If the performance is not an ensemble, but we specified we want only ensembles or invites, skip the performance and don't increment the count
             continue
         i += 1
         title = fix_title(performance['title'])
@@ -180,12 +181,19 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'pic_filename':pic_filename,\
                 'fixed_title':title,\
                 'partner_name':performers,\
-                'create_type':createType\
+                'create_type':ct,\
+                'perf_status':performance['perf_status']\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
             pass
             raise
+
+        # If ct is "invite" then process the joins and append to the performance list
+        if ct == "invite" and filterType != "invites":
+            ensembleList = parseEnsembles(username,web_url)
+            performanceList.extend(ensembleList)
+            i += len(ensembleList)
 
     return [ stop, i, performanceList ]
 
@@ -205,7 +213,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     while next_offset >= 0:
         print(f"======== {next_offset} {i} {stop} {maxperf} =======")
         # Get the next batch of results from Smule
-        if type == "ensembles":
+        if type == "ensembles" or type == "invites":
             fetchType = "performances"
         else:
             fetchType = type
@@ -271,7 +279,7 @@ def downloadSong(web_url,filename,performance):
         af["purd"] = performance["created_at"]
 
         # Write the JPEG to the M4A file as album cover
-        pic_url = performance['owner_pic_url']
+        pic_url = performance['display_pic_url']
         img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
         af["covr"] = [img]
 

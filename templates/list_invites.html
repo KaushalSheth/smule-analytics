@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not performances %}
+    <div class="content">
+      <p>No performances found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+  <form method="post" action="{{ url_for('submit_performances') }}">
+  <input type="submit" name="btn" value="Save Performances" class="button is-link" />
+  <input type="submit" name="btn" value="Download All" class="button is-link" />
+  <input type="submit" name="btn" value="Show Map" class="button is-link" />
+  <input type="submit" name="btn" value="Save Favorites" class="button is-link" />
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td><a href="/crawl_favorites/{{ user}}">Crawl favorites for {{ user }}</a></td>
+              <td><a href="/search_smule_user/{{ search_user}}">Return to results for {{ search_user }}</a></td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+
+  <table style="width:100%">
+    <thead><tr bgcolor="DarkGray"><th>Song name - Join URL</th></thead>
+    <tbody>
+      {% for performance in performances %}
+        {% if performance.perf_status == "c" %}
+            <tr bgcolor="Aquamarine">
+        {% elif performance.perf_status == "e" %}
+            <tr bgcolor="LightPink">
+        {% else %}
+            <tr>
+        {% endif %}
+              <td><a href="https://www.smule.com/c/{{ performance.key }}">{{ performance.fixed_title }} - https://www.smule.com/c/{{ performance.key }}</a></td>
+            </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}
