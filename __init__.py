@@ -4,12 +4,14 @@ from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites
+from datetime import datetime
 
 # Set defaults for global variable that are used in the app
 user = None
 search_user = None
 performances = None
 numrows = 200
+currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
 # Create the app and set up all the routes for the avarious actions that can be taken
 def create_app(test_config=None):
@@ -190,7 +192,7 @@ def create_app(test_config=None):
     def list_invites():
         global performances, search_user, user, invites
         # This assumes that the performances global variable is set by the time we get here
-        return render_template('list_invites.html', performances=performances, search_user=search_user, user=user)
+        return render_template('list_invites.html', performances=performances, search_user=search_user, user=user, currtime=currtime)
 
     # Method to download the performance to local disk
     @app.route('/download_performance/<key>')
