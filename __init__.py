@@ -190,7 +190,9 @@ def create_app(test_config=None):
     # Generic route for displaying performances using global variable
     @app.route('/list_invites')
     def list_invites():
-        global performances, search_user, user, invites
+        global performances, search_user, user, invites, currtime
+        currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+
         # This assumes that the performances global variable is set by the time we get here
         return render_template('list_invites.html', performances=performances, search_user=search_user, user=user, currtime=currtime)
 

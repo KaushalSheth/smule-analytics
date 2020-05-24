@@ -24,9 +24,9 @@
   <br>
 
   <table style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>Song name - Join URL: Open Invites as of {{ currtime }}</th></thead>
+    <thead><tr bgcolor="DarkGray"><th>Song Cover</th><th>Open Invites as of {{ currtime }}</th><th>Join URL</th></thead>
     <tbody>
-      {% for performance in performances %}
+      {% for performance in performances if performance.perf_status != "e" %}
         {% if performance.perf_status == "c" %}
             <tr bgcolor="Aquamarine">
         {% elif performance.perf_status == "e" %}
@@ -34,7 +34,11 @@
         {% else %}
             <tr>
         {% endif %}
-              <td><a href="https://www.smule.com/c/{{ performance.key }}">{{ performance.fixed_title }} - https://www.smule.com/c/{{ performance.key }}</a></td>
+              <td>
+                  <a href="https://www.smule.com/c/{{ performance.key }}"><img src="{{performance.cover_url}}" height="120" width="80"></a><br>
+              </td>
+              <td><a href="https://www.smule.com/c/{{ performance.key }}">{{ performance.fixed_title }}</a></td>
+              <td><a href="https://www.smule.com/c/{{ performance.key }}">https://www.smule.com/c/{{ performance.key }}</a></td>
             </tr>
       {% endfor %}
     </tbody>
