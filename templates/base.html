@@ -25,7 +25,6 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="{{ url_for('index') }}">Home</a>
-
           <div class="navbar-burger" data-target="navMenu">
             <span></span>
             <span></span>
@@ -34,9 +33,12 @@
         </div>
         <div class="navbar-menu" id="navMenu">
           <div class="navbar-end">
-            <a class="navbar-item" href="{{ url_for('search') }}">
-                Search
-              </a>
+            <a class="navbar-item" href="{{ url_for('analytics') }}">Analytics</a>
+          </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="{{ url_for('search') }}">Search</a>
           </div>
         </div>
       </div>

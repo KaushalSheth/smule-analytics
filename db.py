@@ -62,6 +62,38 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 
     return performances
 
+# Method to query performances for a user
+def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-01-01"):
+    global analytics
+    analytics = []
+    i = 0
+
+    # Build appropriate query
+    # Start with the base query
+    sqlquery = f"""
+        select  case when {groupbycolumn} != '{username}' then {groupbycolumn} else owner_handle end as group_by_column,
+                count(*) as count_all_time,
+                count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
+                count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
+                count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
+                count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older
+        from all_performances
+        where created_at between '{fromdate}' and '{todate}'
+        and (owner_handle = '{username}' or partner_name = '{username}')
+        """
+    # Append GROUP BY/ORDER BY clause
+    sqlquery += " group by 1 order by 4 desc, 2 desc"
+
+    # Check the PerformanceSinger table for existence of the singer on the performance
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        # Add the keys to the dict that are not saved to the DB but used for other processing
+        analytics.append(d)
+
+    return analytics
+
 # Save the performances queried from Smule to the DB
 def saveDBPerformances(username,performances):
     i = 0

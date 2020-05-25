@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -71,7 +71,7 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 else:
-                    error = "Invalid source - valid options are 'smule' (performances or favorites) and 'db'"
+                    error = "Invalid selection"
 
             # If any errors were detected during the post, disaply the erorr message
             flash(error, 'error')
@@ -92,6 +92,69 @@ def create_app(test_config=None):
             return redirect(url_for('query_smule_ensembles'))
         else:
             return redirect(url_for('query_smule_performances'))
+
+    # The Analytics page allows you to choose one of the analytics "reports" you wish to display
+    @app.route('/analytics', methods=('GET','POST'))
+    def analytics():
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticslabel, currtime
+        # When the form is posted, store the form field values into global variables
+        if request.method == 'POST':
+            user = request.form['username']
+            fromdate = request.form['fromdate']
+            todate = request.form['todate']
+            error = None
+            searchtype = 'PERFORMANCES'
+
+            if not user:
+                error = "Username is required."
+
+            # Depending on which button was clicked, take the appropriate action
+            if error is None:
+                if request.form['btn'] == 'Title Counts':
+                    analyticslabel = "Song Name"
+                    return redirect(url_for('query_title_counts'))
+                elif request.form['btn'] == 'Partner Counts':
+                    analyticslabel = "Partner Username"
+                    return redirect(url_for('query_partner_counts'))
+                else:
+                    error = "Invalid selection"
+
+            # If any errors were detected during the post, disaply the erorr message
+            flash(error, 'error')
+
+        # When the form is fetched, initialize the global variables and display the search form
+        user = None
+        performances = None
+        return render_template('analytics_choice.html')
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/query_title_counts')
+    def query_title_counts():
+        global user, fromdate, todate, analytics
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        analytics = fetchDBAnalytics("fixed_title",user,fromdate,todate)
+        flash(f"{len(analytics)} titles fetched from database")
+        return redirect(url_for('analytics_output'))
+
+    # This method queries the DB for partner analytics using the relevant global variables
+    @app.route('/query_partner_counts')
+    def query_partner_counts():
+        global user, fromdate, todate, analytics
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        analytics = fetchDBAnalytics("partner_name",user,fromdate,todate)
+        flash(f"{len(analytics)} partners fetched from database")
+        return redirect(url_for('analytics_output'))
+
+    # Generic route for displaying performances using global variable
+    @app.route('/analytics_output')
+    def analytics_output():
+        global analytics, user, currtime, analyticslabel
+        currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+
+        # This assumes that the performances global variable is set by the time we get here
+        return render_template('analytics_output.html', analytics=analytics, user=user, currtime=currtime, analyticslabel=analyticslabel)
 
     # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
     @app.route('/crawl_favorites/<username>')

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="columns is-desktop">
+  <div class="column"></div>
+  <div class="column is-half-desktop">
+    <h2 class="is-size-3">Analytics</h2>
+
+    <form method="post" action="{{ url_for('analytics') }}">
+      <div class="field">
+        <label class="label" for="username">Username</label>
+        <div class="control">
+          <input name="username" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="fromdate">From Date</label>
+        <div class="control">
+          <input name="fromdate" value="2018-07-01" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="todate">To Date</label>
+        <div class="control">
+          <input name="todate" value="2030-12-31" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <input type="submit" name="btn" value="Title Counts" class="button is-link" />
+        </div>
+        <div class="control">
+          <input type="submit" name="btn" value="Partner Counts" class="button is-link" />
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column"></div>
+</div>
+
+{% endblock %}

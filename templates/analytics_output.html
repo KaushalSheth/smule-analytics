@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not analytics %}
+    <div class="content">
+      <p>No analytics found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td>Analytics as of {{ currtime }}</td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+
+  <table style="width:100%">
+    <thead><tr bgcolor="DarkGray"><th>{{ analyticslabel }}</th><th>All-Time Count</th><th>Last 30 Days Count</th><th>Last 90 Days Count</th><th>Last 180 Days Count</th><th>Older Than 180 Days Count</th></thead>
+    <tbody>
+      {% for row in analytics %}
+        <tr>
+          <td>{{ row.group_by_column }}</td>
+          <td>{{ row.count_all_time }}</td>
+          <td>{{ row.count_30_days }}</td>
+          <td>{{ row.count_90_days }}</td>
+          <td>{{ row.count_180_days }}</td>
+          <td>{{ row.count_older }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}
