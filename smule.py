@@ -91,6 +91,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
         ct = createType
+        perfStatus = performance['perf_status']
+
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
             stop = True
@@ -108,6 +110,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If the web_url ends in "/ensembles" then set ct to be "invite"
         if web_url.endswith("/ensembles"):
             ct = "invite"
+            # If filterType is Invites, only include the invites that are still open - skip invites where perf_status = "e" (expired)
+            if filterType == "invites" and perfStatus == "e":
+                continue
         elif filterType == "ensembles" or filterType == "invites":
             # If the performance is not an ensemble, but we specified we want only ensembles or invites, skip the performance and don't increment the count
             continue
@@ -182,7 +187,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'fixed_title':title,\
                 'partner_name':performers,\
                 'create_type':ct,\
-                'perf_status':performance['perf_status']\
+                'perf_status':perfStatus\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:

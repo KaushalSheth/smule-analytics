@@ -26,7 +26,7 @@
   <table style="width:100%">
     <thead><tr bgcolor="DarkGray"><th>Song Cover</th><th>Open Invites as of {{ currtime }}</th><th>Join URL</th></thead>
     <tbody>
-      {% for performance in performances if performance.perf_status != "e" %}
+      {% for performance in performances %}
         {% if performance.perf_status == "c" %}
             <tr bgcolor="Aquamarine">
         {% elif performance.perf_status == "e" %}
