@@ -24,7 +24,7 @@
   <br>
 
   <table style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>#</th><th>Title</th><th>Created Time</th><th>Performed By</th><th>City</th><th>Listens</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
+    <thead><tr bgcolor="DarkGray"><th>#</th><th>Title</th><th>Created Time</th><th>Performed By</th><th>Listens</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
     <tbody>
       {% for performance in performances %}
         {% if performance.create_type == "ensemble" %}
@@ -38,9 +38,8 @@
               <td>{{ performance.title }}</td>
               <td>{{ performance.created_at }}</td>
               <td>
-                  <a href="/search_smule_user/{{ performance.display_handle }}"><img src="{{performance.display_pic_url}}" height="120" width="80"><br>{{ performance.display_handle }}</a><br>
+                  <a href="/search_smule_user/{{ performance.display_handle }}"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a><br>
               </td>
-              <td>{{ performance.orig_track_city }}, {{ performance.orig_track_country }}<br>({{ performance.owner_lat }}, {{ performance.owner_lon}})</td>
               <td>{{ performance.total_listens }}</td>
               <td>{{ performance.total_loves }}</td>
               <td><a href="{{ performance.web_url }}">Listen</a></td>

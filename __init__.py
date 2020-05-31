@@ -11,7 +11,10 @@ user = None
 search_user = None
 performances = None
 numrows = 200
-currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+
+def update_currtime():
+    global currtime
+    currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
 # Create the app and set up all the routes for the avarious actions that can be taken
 def create_app(test_config=None):
@@ -34,12 +37,14 @@ def create_app(test_config=None):
     # Main home page of the app
     @app.route('/')
     def index():
+        update_currtime()
         return render_template('index.html')
 
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
         global user, numrows, search_user, startoffset, fromdate, todate, searchtype
+        update_currtime()
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
@@ -96,7 +101,8 @@ def create_app(test_config=None):
     # The Analytics page allows you to choose one of the analytics "reports" you wish to display
     @app.route('/analytics', methods=('GET','POST'))
     def analytics():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticslabel, currtime
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticslabel
+        update_currtime()
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
@@ -151,7 +157,6 @@ def create_app(test_config=None):
     @app.route('/analytics_output')
     def analytics_output():
         global analytics, user, currtime, analyticslabel
-        currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
         # This assumes that the performances global variable is set by the time we get here
         return render_template('analytics_output.html', analytics=analytics, user=user, currtime=currtime, analyticslabel=analyticslabel)
@@ -254,7 +259,6 @@ def create_app(test_config=None):
     @app.route('/list_invites')
     def list_invites():
         global performances, search_user, user, invites, currtime
-        currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
         # This assumes that the performances global variable is set by the time we get here
         return render_template('list_invites.html', performances=performances, search_user=search_user, user=user, currtime=currtime)
