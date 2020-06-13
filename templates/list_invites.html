@@ -24,7 +24,7 @@
   <br>
 
   <table style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>Song Cover</th><th>Open Invites as of {{ currtime }}</th><th>Join URL</th></thead>
+    <thead><tr bgcolor="DarkGray"><th>Song Cover</th><th>Open Invites as of {{ currtime }}</th><th>Join URL</th><th>Expires At</th><th># Joins</th></thead>
     <tbody>
       {% for performance in performances %}
         {% if performance.perf_status == "c" %}
@@ -39,6 +39,8 @@
               </td>
               <td><a href="https://www.smule.com/c/{{ performance.key }}">{{ performance.fixed_title }}</a></td>
               <td><a href="https://www.smule.com/c/{{ performance.key }}">https://www.smule.com/c/{{ performance.key }}</a></td>
+              <td>{{ performance.expire_at }}</td>
+              <td>{{ performance.child_count }}</td>
             </tr>
       {% endfor %}
     </tbody>

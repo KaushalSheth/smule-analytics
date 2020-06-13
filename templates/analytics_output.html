@@ -18,7 +18,7 @@
   <br>
 
   <table style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>{{ analyticslabel }}</th><th>All-Time Count</th><th>Last 30 Days Count</th><th>Last 90 Days Count</th><th>Last 180 Days Count</th><th>Older Than 180 Days Count</th></thead>
+    <thead><tr bgcolor="DarkGray"><th>{{ analyticslabel }}</th><th>All-Time Count</th><th>Last 30 Days Count</th><th>Last 90 Days Count</th><th>Last 180 Days Count</th><th>Older Than 180 Days Count</th><th>Join List</th></thead>
     <tbody>
       {% for row in analytics %}
         <tr>
@@ -28,6 +28,7 @@
           <td>{{ row.count_90_days }}</td>
           <td>{{ row.count_180_days }}</td>
           <td>{{ row.count_older }}</td>
+          <td>{{ row.join_list }}</td>
         </tr>
       {% endfor %}
     </tbody>

@@ -36,12 +36,9 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d = dict(r.items())
         # Add the keys to the dict that are not saved to the DB but used for other processing
         d['other_performers'] = ""
-        d['performers'] = ""
         d['pic_filename'] = ""
-        d['fixed_title'] = ""
         d['partner_name'] = ""
         d['create_type'] = ""
-        d['perf_status'] = ""
         # TODO: Need to figure out how to get the partner handle and pic_URL here
         d['display_handle'] = d['owner_handle']
         d['display_pic_url'] = d['owner_pic_url']
@@ -67,6 +64,10 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
     global analytics
     analytics = []
     i = 0
+    if groupbycolumn == "partner_name":
+        othercolumn = "fixed_title"
+    else:
+        othercolumn = "partner_name"
 
     # Build appropriate query
     # Start with the base query
@@ -76,7 +77,8 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
                 count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
                 count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
                 count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
-                count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older
+                count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older,
+                string_agg(distinct case when {othercolumn} != '{username}' then {othercolumn} else owner_handle end,', ') as join_list
         from all_performances
         where created_at between '{fromdate}' and '{todate}'
         and (owner_handle = '{username}' or partner_name = '{username}')
@@ -109,14 +111,11 @@ def saveDBPerformances(username,performances):
             other_performers = p['other_performers']
             del p['other_performers']
             # Delete performers and pic_filename as well since that is not part of the DB table
-            del p['performers']
             del p['pic_filename']
-            del p['fixed_title']
             del p['partner_name']
             del p['display_handle']
             del p['display_pic_url']
             del p['create_type']
-            del p['perf_status']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

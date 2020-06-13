@@ -112,7 +112,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             ct = "invite"
             # If filterType is Invites, only include the invites that are still open - skip invites where perf_status = "e" (expired)
             if filterType == "invites" and perfStatus == "e":
-                continue
+                #continue
+                pass
         elif filterType == "ensembles" or filterType == "invites":
             # If the performance is not an ensemble, but we specified we want only ensembles or invites, skip the performance and don't increment the count
             continue
@@ -187,7 +188,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'fixed_title':title,\
                 'partner_name':performers,\
                 'create_type':ct,\
-                'perf_status':perfStatus\
+                'perf_status':perfStatus,\
+                'expire_at':performance['expire_at']\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
