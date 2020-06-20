@@ -3,8 +3,8 @@
 def fix_title(title):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🅿🆉ᴿ🇶Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'PZRQRQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '🆇🅿🆉ᴿ🇶Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'XPZRQRQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
             '🖤💌🙃💓🙇‍♀️🌺​ᵈⁱᵍⁱᵗᵃˡ⏏️☞📌🎭🐎☺️ᵀᴹ★👱🙅‍♂️🕊+🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
@@ -50,19 +50,19 @@ def remove_words(title):
                 replace('[BEST]','').replace('{BEST TRACK}','').replace('(CLEAN TRACK)','').replace('CLEAN FIX','').replace('SHORT HQ)','(SHORT)').\
                 replace('(DUET)','').replace('{DUET}','').replace('[CLEAN DUET]','').replace('(MINI)','').replace('(DUET & DIALOGUE)','').replace('DUET','').\
                 replace('100%','').replace('FULL&HIGH','').replace('(FULL)','').replace('(FULL SONG)','').replace('[FULL]','').replace('FULL','').\
-                replace('(100%PURE)','').replace('(CRYSTAL CLEAR)','').replace('[ORIGINAL MUSIC]','').replace('(ORIGINAL TRACK)','').\
-                replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').\
-                replace('CLEAR','').replace('COVER','').replace('TRACK','').replace('ORIGINAL MUSIC','').replace('DIL CHAHTA HAI','').\
+                replace('(100%PURE)','').replace('(CRYSTAL CLEAR)','').replace('[ORIGINAL MUSIC]','').replace('(ORIGINAL TRACK)','').replace('(DUET-ORIGINAL)','').\
+                replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').replace('HINDI SONG','').\
+                replace('CLEAR','').replace('COVER','').replace('TRACK','').replace('ORIGINAL MUSIC','').replace('DIL CHAHTA HAI','').replace('ZEHREELA INSAAN','').\
                 replace('""','').replace(' _ ',' ').replace('_1','').replace('_2','').replace('REMIX','').replace('SMC','').replace('+LIRIK','').\
                 replace('(AAR PAR)','').replace('(ARTH','').replace('(ARTH)','').replace('(BOMBAY)','').replace('LAWARIS','').replace('(SOLO BY MUKESH)','').\
-                replace('(JAANWAR)','').replace('(ARADHANA)','').replace('(LOOTERA)','').replace('(NAU 2 GYARA)','').replace('(SHOR)','').\
-                replace('(TEESRI MANZIL)','').replace('(CHORI CHORI)','').replace('(KASHMIR KI KALI)','').replace('(WITH ALAP SPACE)','').\
-                replace('(KALA BAZAR)','').replace('NAYA DAUR (1957)','').replace('MAJOR SAAB','').replace('AASHIQUI 2','').\
-                replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').\
-                replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').\
-                replace('\t',' ').replace('        ',' ').replace('      ',' ').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
+                replace('(JAANWAR)','').replace('(ARADHANA)','').replace('(LOOTERA)','').replace('(NAU 2 GYARA)','').replace('(SHOR)','').replace('(MANZIL)','').\
+                replace('(TEESRI MANZIL)','').replace('(CHORI CHORI)','').replace('(KASHMIR KI KALI)','').replace('(WITH ALAP SPACE)','').replace('SILSILA - 1981','').\
+                replace('(KALA BAZAR)','').replace('NAYA DAUR (1957)','').replace('MAJOR SAAB','').replace('AASHIQUI 2','').replace('UNPLUGEG','').\
+                replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').replace('KEDARNATH','').\
+                replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').replace('KISHORE KUMAR','').\
+                replace('\t',' ').replace('        ',' ').replace('      ',' ').replace('(  )','').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
                 replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('(583)','').replace('(1)','').replace('(60)','').replace('(463)','').\
-                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','').replace('(131)','').replace('(80)','').replace('(30)','')
+                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','').replace('(131)','').replace('(80)','').replace('(30)','').replace('( ','').replace('(','')
     return result
 
 def standardize_short(title):
@@ -133,6 +133,7 @@ def spelling_dict():
             "Churaake": "Chura Ke",\
             "Churakedil": "Chura Ke Dil",\
             "Kauntujhe": "Kaun Tujhe",\
+            "Rooptera": "Roop Tera",\
             "(Pure) Uthe Sab Ke Kadam": "Uthe Sab Ke Kadam",\
             "Aa Bhi Jaa Aa Jaa": "Aa Bhi Jaa",\
             "Aa Bhi Jaa Aa Bhi Jaa": "Aa Bhi Jaa",\
@@ -156,8 +157,7 @@ def spelling_dict():
             "Aap Ki Aakhon Main": "Aap Ki Aankho",\
             "Aap Ki Aankho Kuch": "Aap Ki Aankho",\
             "Aap Ki Ankhon Mein Kuch": "Aap Ki Aankho",\
-            "Aaye Ho Mere Jindagi Me": "Aaye Ho Meri",\
-            "Aaye Ho Meri Zindagi Mein": "Aaye Ho Meri",\
+            "Aaye Ho Mere Jindagi Me": "Aaye Ho Meri Zindagi Mein",\
             "Accha Ji Main Haari Hq": "Accha Ji Main Haari",\
             "Accha To Hum Chalte Hai": "Achha To Hum Chalte Hain",\
             "Acha To Hum Chalte Hai Accha Toh": "Achha To Hum Chalte Hain",\
@@ -169,8 +169,8 @@ def spelling_dict():
             "Ae Ajnabi Awaaz De Kahin Se": "Ae Ajnabi",\
             "Ae Ajnabi Tu Bhi Kabhi Awaaz De Kahin Se": "Ae Ajnabi",\
             "Ae Ajnabi Tu Bhi Kabhi": "Ae Ajnabi",\
-            "Ae Dil Laya Hai Bahaar Kya Kehna": "Ae Dil",\
-            "Ae Dil Laya Hai, Kya Kehna": "Ae Dil",\
+            "Ae Dil Laya Hai Bahaar Kya Kehna": "Ae Dil Laya Hai Bahaar",\
+            "Ae Dil Laya Hai, Kya Kehna": "Ae Dil Laya Hai Bahaar",\
             "Ae Mere Humsafar Aye": "Ae Mere Humsafar",\
             "Ae Mere Zohra Zabeen": "Ae Meri Zohra Zabeen",\
             "Ae Meri Johra Jabee": "Ae Meri Zohra Zabeen",\
@@ -341,6 +341,7 @@ def spelling_dict():
             "Is Shava": "Ishq Shava",\
             "Isbina (Taal)": "Ishq Bina",\
             "Isshava": "Ishq Shava",\
+            "Isharon Isharon Mein Isharon Mein": "Isharon Isharon Mein",\
             "Itna Na Mujhse To Pyarr Badha": "Itna Na Mujhse Tu Pyar Badha",\
             "Jaadu Hai Ns": "Jaadu Hai Nasha Hai",\
             "Jaane Chaman Shola Jane": "Jaane Chaman Shola Badan",\
@@ -505,6 +506,7 @@ def spelling_dict():
             "Tere Mast Mast Do Naain": "Tere Mast Mast Do Nain",\
             "Tere Mere Milan Ki Yeh Raina(Abhimaan)": "Tere Mere Milan Ki Ye Raina",\
             "Tere Mere Sapne Ab Ek Rang Hai (Guide)": "Tere Mere Sapne",\
+            "Teri Bindiya Re Teri Bindya Re": "Teri Bindiya Re",\
             "Teri Chunariya Dil Le Gayi": "Teri Chunariya",\
             "Teri Chunariya Dil Le": "Teri Chunariya",\
             "Teri Chunariya Gayi": "Teri Chunariya",\

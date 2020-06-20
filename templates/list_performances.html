@@ -23,14 +23,14 @@
   </table>
   <br>
 
-  <table style="width:100%">
+  <table id="mytable" class="display" style="width:100%">
     <thead><tr bgcolor="DarkGray"><th>#</th><th>Title</th><th>Created Time</th><th>Performed By</th><th>Listens</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
     <tbody>
       {% for performance in performances %}
         {% if performance.create_type == "ensemble" %}
-            <tr bgcolor="DarkSeaGreen">
+            <tr style="color:Green">
         {% elif performance.create_type == "invite" %}
-            <tr bgcolor="PaleTurquoise">
+            <tr style="color:Turquoise">
         {% else %}
             <tr>
         {% endif %}

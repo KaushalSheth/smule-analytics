@@ -23,24 +23,26 @@
   </table>
   <br>
 
-  <table style="width:100%">
+  <table id="mytable" class="display" style="width:100%">
     <thead><tr bgcolor="DarkGray"><th>Song Cover</th><th>Open Invites as of {{ currtime }}</th><th>Join URL</th><th>Expires At</th><th># Joins</th></thead>
     <tbody>
       {% for performance in performances %}
-        {% if performance.perf_status == "c" %}
-            <tr bgcolor="Aquamarine">
+        {% if performance.child_count == 0 %}
+            <tr style="color:Red">
+        {% elif performance.perf_status == "c" %}
+            <tr style="color:Black">
         {% elif performance.perf_status == "e" %}
-            <tr bgcolor="LightPink">
+            <tr style="color:Turquoise">
         {% else %}
             <tr>
         {% endif %}
-              <td>
-                  <a href="https://www.smule.com/c/{{ performance.key }}"><img src="{{performance.cover_url}}" height="120" width="120"></a><br>
-              </td>
-              <td><a href="https://www.smule.com/c/{{ performance.key }}">{{ performance.fixed_title }}</a></td>
-              <td><a href="https://www.smule.com/c/{{ performance.key }}">https://www.smule.com/c/{{ performance.key }}</a></td>
-              <td>{{ performance.expire_at }}</td>
-              <td>{{ performance.child_count }}</td>
+                <td>
+                    <a href="{{performance.web_url}}"><img src="{{performance.cover_url}}" height="120" width="120"></a><br>
+                </td>
+                <td><a href="{{performance.web_url}}">{{ performance.fixed_title }}</a></td>
+                <td><a href="https://www.smule.com/c/{{ performance.key }}">https://www.smule.com/c/{{ performance.key }}</a></td>
+                <td>{{ performance.expire_at }}</td>
+                <td>{{ performance.child_count }}</td>
             </tr>
       {% endfor %}
     </tbody>

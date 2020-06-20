@@ -56,7 +56,7 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
     return message
 
 # Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
-def parseEnsembles(username,web_url):
+def parseEnsembles(username,web_url,fixedTitle):
     ensembleList = []
 
     try:
@@ -71,7 +71,7 @@ def parseEnsembles(username,web_url):
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble")
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",fixedTitle=fixedTitle)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
@@ -83,7 +83,7 @@ def parseEnsembles(username,web_url):
     return ensembleList
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular"):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",fixedTitle=""):
     performanceList = []
     stop = False
     i = n
@@ -118,7 +118,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             # If the performance is not an ensemble, but we specified we want only ensembles or invites, skip the performance and don't increment the count
             continue
         i += 1
-        title = fix_title(performance['title'])
+        # If we're processing ensembles, the fixed title will be passed in, so use that to override the performance title because ensemble titles strip out special characters
+        if fixedTitle == "":
+            title = fix_title(performance['title'])
+        else:
+            title = fixedTitle
         # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
         owner = performance['owner']['handle']
         display_user = owner
@@ -198,7 +202,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
         # If ct is "invite" then process the joins and append to the performance list
         if ct == "invite" and filterType != "invites":
-            ensembleList = parseEnsembles(username,web_url)
+            ensembleList = parseEnsembles(username,web_url,title)
             performanceList.extend(ensembleList)
             i += len(ensembleList)
 
