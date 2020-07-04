@@ -1,7 +1,16 @@
-from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite
+from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping
 from .utils import fix_title
 from sqlalchemy import text
 import copy
+
+# Method to feth Title Mappings
+def fetchTitleMappings():
+    global titleMappings
+    titleMappings = dict()
+    result = db.session.execute("select smule_title,mapped_title from title_mapping order by length(smule_title) desc")
+    for r in result:
+        titleMappings[r['smule_title']] = r['mapped_title']
+    return titleMappings
 
 # Method to query performances for a user
 def fetchDBPerformancesOrig(username,maxperf=9999):
@@ -59,11 +68,10 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 
     return performances
 
-# Method to query performances for a user
+# Method to query title and partner analytics for a user
 def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-01-01"):
     global analytics
     analytics = []
-    i = 0
     if groupbycolumn == "partner_name":
         othercolumn = "fixed_title"
     else:
@@ -86,7 +94,7 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
     # Append GROUP BY/ORDER BY clause
     sqlquery += " group by 1 order by 4 desc, 2 desc"
 
-    # Check the PerformanceSinger table for existence of the singer on the performance
+    # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
     for r in result:
         # Convert the result row into a dict we can add to performances
@@ -95,6 +103,35 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
         analytics.append(d)
 
     return analytics
+
+# Method to query longevity analytics
+def fethLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
+    global analytics
+    analytics = []
+    sqlquery = f"""
+        select  fixed_title,
+                count(*) as count_all_time,
+                min(created_at) as first_date,
+                max(created_at) as last_date,
+                date_part('day',max(created_at)-min(created_at)) as longevity,
+                count(distinct case when partner_name != '{username}' then partner_name else owner_handle end) as num_partners,
+                string_agg(distinct case when partner_name != '{username}' then partner_name else owner_handle end,', ') as join_list
+        from all_performances
+        where created_at between '{fromdate}' and '{todate}'
+        and (owner_handle = '{username}' or partner_name = '{username}')
+        group by 1 order by 4,3 desc
+        """
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        # Add the keys to the dict that are not saved to the DB but used for other processing
+        analytics.append(d)
+
+    return analytics
+
+
 
 # Save the performances queried from Smule to the DB
 def saveDBPerformances(username,performances):

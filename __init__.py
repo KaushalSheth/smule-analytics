@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fethLongevityAnalytics
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -11,6 +11,7 @@ user = None
 search_user = None
 performances = None
 numrows = 200
+titleMappings = None
 
 def update_currtime():
     global currtime
@@ -45,6 +46,7 @@ def create_app(test_config=None):
     def search():
         global user, numrows, search_user, startoffset, fromdate, todate, searchtype
         update_currtime()
+
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             user = request.form['username']
@@ -61,6 +63,7 @@ def create_app(test_config=None):
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:
+                # Refresh title mappings
                 if request.form['btn'] == 'Search Smule':
                     searchtype = 'PERFORMANCES'
                     return redirect(url_for('query_smule_performances'))
@@ -122,6 +125,9 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Partner Counts':
                     analyticslabel = "Partner Username"
                     return redirect(url_for('query_partner_counts'))
+                elif request.form['btn'] == 'Longevity':
+                    analyticslabel = "Song Name"
+                    return redirect(url_for('query_longevity'))
                 else:
                     error = "Invalid selection"
 
@@ -132,6 +138,16 @@ def create_app(test_config=None):
         user = None
         performances = None
         return render_template('analytics_choice.html')
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/query_longevity')
+    def query_longevity():
+        global user, fromdate, todate, analytics
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        analytics = fethLongevityAnalytics(user,fromdate,todate)
+        flash(f"{len(analytics)} titles fetched from database")
+        return redirect(url_for('analytics_longevity'))
 
     # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_title_counts')
@@ -154,11 +170,17 @@ def create_app(test_config=None):
         return redirect(url_for('analytics_output'))
 
     # Generic route for displaying performances using global variable
+    @app.route('/analytics_longevity')
+    def analytics_longevity():
+        global analytics, user, currtime, analyticslabel
+        # This assumes that the analytics global variable is set by the time we get here
+        return render_template('analytics_longevity.html', analytics=analytics, user=user, currtime=currtime)
+
+    # Generic route for displaying performances using global variable
     @app.route('/analytics_output')
     def analytics_output():
         global analytics, user, currtime, analyticslabel
-
-        # This assumes that the performances global variable is set by the time we get here
+        # This assumes that the analytics global variable is set by the time we get here
         return render_template('analytics_output.html', analytics=analytics, user=user, currtime=currtime, analyticslabel=analyticslabel)
 
     # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed

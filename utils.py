@@ -1,73 +1,90 @@
+import re
+from .models import db
+
 # The title field we get from Smule for performances contains many letters and words that are not appropriate for the filename
 # Fix the title to remove/replace these so that we can use this "fixed" title in the filename
-def fix_title(title):
+def fix_title(title,titleMappings):
     # Define translation table to translate all graphical letters to actual letters, and strip out all the symbols
     ttable = title.maketrans(\
-            '🆇🅿🆉ᴿ🇶Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
-            'XPZRQRQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '🖤💌🙃💓🙇‍♀️🌺​ᵈⁱᵍⁱᵗᵃˡ⏏️☞📌🎭🐎☺️ᵀᴹ★👱🙅‍♂️🕊+🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"<>[]|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '🄷🅀🆇🅿🆉ᴿ🇶Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
+            'HQXPZRQRQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
+            '♾️😢😪🖤💌🙃💓🙇‍♀️🌺​ᵈⁱᵍⁱᵗᵃˡ⏏️☞📌🎭🐎☺️ᵀᴹ★👱🙅‍♂️🕊+🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
 
     # Do the translation and convert to uppercase temporarily
     r1 = title.translate(ttable).upper()
 
-    # Standardize all versions of "short" to "[Short]" - first time for initial pass
-    r2 = standardize_short(r1)
+    # Standardize all versions of "short" to "`Short`"
+    r2 = standardize_short(r1,'`','`')
+
+    # Remove brackets
+    r3 = remove_brackets(r2)
 
     # Remove unnecessary words
-    r3 = remove_words(r2)
-
-    # Standardize all versions of "short" to "[Short]" - second time after unnecessary words are removed
-    r4 = standardize_short(r3)
-
-    # Remove unnecessary words
-    r5 = remove_words(r4)
+    r4 = remove_words(r3)
 
     # Convert to Init Cap
-    r6 = r5.title()
-
-    # If [Short] is anywhere in the name, remove it and add it to the end of the title
-    if "[Short]" in r6:
-        r7 = (r6.replace("[Short]","") + " [Short]").strip().replace('[ ]','')
-    else:
-        r7 = r6
+    r5 = r4.title()
 
     # Strip any leading/trailing whitespace, remove any leading "-", and if the name contains any "-", strip anything after the first "-" (remove movie names)
-    r8 = r7.strip().lstrip('-').split("-")[0].strip()
+    r6 = r5.strip().lstrip('-').split("-")[0].strip()
 
     # Fix spellings of commonly mis-spelled words
-    result = fix_spellings(r8)
+    result = map_titles(r6,titleMappings)
+
+    '''
+    print("----------------------")
+    print(title)
+    print(f"Translate {r1}")
+    print(f"Standardize Short {r2}")
+    print(f"Remove Brackets {r3}")
+    print(f"Remove Words {r4}")
+    print(f"Title {r5}")
+    print(f"Strip {r6}")
+    print(f"Fix Spellings {result}")
+    '''
+
+    return result
+
+def remove_brackets(title):
+    # First, replace double parentheses or brackets with single ones
+    result = title.replace('[[','').replace(']]','').replace('{{','').replace('}}','').replace('((','').replace('))','')
+    # Next, remove any words enclosed in parentheses or brackets
+    result = re.sub('\<.*?\>','',re.sub('\{.*?\}','',re.sub('\[.*?\]','',re.sub('\(.*?\)','',result))))
+
+    # If [Short] is anywhere in the name, remove it and add it to the end of the title
+    if "`SHORT`" in result:
+        result = (result.replace("`SHORT`","").strip() + " [SHORT]")
 
     return result
 
 def remove_words(title):
-    result = title.\
-                replace('HDR','').replace('(HD)','').replace('HD','').replace(' HD','').replace('ABC -','').replace('STUDIOQUALITY','').\
-                replace('[HQ]','').replace('(HQ)','').replace('HQT','').replace('HQ','').replace(' HQ','').replace('HQTRACK!!','').replace('[HH]','').\
-                replace('PIANO UNPLUGGED EXCLUSIVE','').replace('LOWER SCALE','').replace('AJU_STRINGS','').replace('D MAJOR','').\
-                replace('JEX','').replace('QSQT','').replace('OST ','').replace('VERSION','').replace('UNPLUGGED','').replace('DJ','').\
-                replace('[M]','').replace('[T]','').replace('[F]','').replace('LOW SCALE','').replace('REPRISE','').replace('MASHUP','').\
-                replace('[BEST]','').replace('{BEST TRACK}','').replace('(CLEAN TRACK)','').replace('CLEAN FIX','').replace('SHORT HQ)','(SHORT)').\
-                replace('(DUET)','').replace('{DUET}','').replace('[CLEAN DUET]','').replace('(MINI)','').replace('(DUET & DIALOGUE)','').replace('DUET','').\
-                replace('100%','').replace('FULL&HIGH','').replace('(FULL)','').replace('(FULL SONG)','').replace('[FULL]','').replace('FULL','').\
-                replace('(100%PURE)','').replace('(CRYSTAL CLEAR)','').replace('[ORIGINAL MUSIC]','').replace('(ORIGINAL TRACK)','').replace('(DUET-ORIGINAL)','').\
-                replace('(2 STANZA)','').replace('KARAOKE','').replace('(FEMALE)','').replace('{MINI}','').replace('(MALEFEMALE)','').replace('HINDI SONG','').\
-                replace('CLEAR','').replace('COVER','').replace('TRACK','').replace('ORIGINAL MUSIC','').replace('DIL CHAHTA HAI','').replace('ZEHREELA INSAAN','').\
-                replace('""','').replace(' _ ',' ').replace('_1','').replace('_2','').replace('REMIX','').replace('SMC','').replace('+LIRIK','').\
-                replace('(AAR PAR)','').replace('(ARTH','').replace('(ARTH)','').replace('(BOMBAY)','').replace('LAWARIS','').replace('(SOLO BY MUKESH)','').\
-                replace('(JAANWAR)','').replace('(ARADHANA)','').replace('(LOOTERA)','').replace('(NAU 2 GYARA)','').replace('(SHOR)','').replace('(MANZIL)','').\
-                replace('(TEESRI MANZIL)','').replace('(CHORI CHORI)','').replace('(KASHMIR KI KALI)','').replace('(WITH ALAP SPACE)','').replace('SILSILA - 1981','').\
-                replace('(KALA BAZAR)','').replace('NAYA DAUR (1957)','').replace('MAJOR SAAB','').replace('AASHIQUI 2','').replace('UNPLUGEG','').\
-                replace('(PAYING GUEST)','').replace('(HUM DIL DE)','').replace('(ANARI)','').replace('(DEEWANA HUA BAADAL)','').replace('KEDARNATH','').\
-                replace('JAB TAK HAI JAN','').replace('(SAHEB BIWI AUR GHULAM)','').replace('ARIJIT SINGH','').replace('LOVERATRI','').replace('KISHORE KUMAR','').\
-                replace('\t',' ').replace('        ',' ').replace('      ',' ').replace('(  )','').replace('( )','').replace('()','').replace('{ }','').replace('{}','').\
-                replace('   ',' ').replace('  ',' ').replace('[ ]','').replace('[]','').replace('(583)','').replace('(1)','').replace('(60)','').replace('(463)','').\
-                replace('(Famale)','').replace('ORIGINAL','').replace('(61)','').replace('BEST','').replace('(131)','').replace('(80)','').replace('(30)','').replace('( ','').replace('(','')
+    # Define lsit of words to remove and then loop through and remove them
+    words = [\
+        'HDR','HD','H D','ABC -','STUDIOQUALITY','HQTRACK!!','HQT','HQ','H Q','PIANO UNPLUGGED EXCLUSIVE','LOWER SCALE','AJU_STRINGS','D MAJOR',\
+        'JEX','QSQT',' OST','VERSION','UNPLUGGED','DJ','LOW SCALE','REPRISE','MASHUP','CLEAN FIX','DUET','100%','FULL&HIGH','FULL',\
+        'HINDI SONG','CLEAR','COVER','TRACK','ORIGINAL MUSIC','ZEHREELA INSAAN','""',' _','_1','_2','REMIX','SMC','+LIRIK',\
+        'NAYA DAUR','MAJOR SAAB','AASHIQUI 2','UNPLUGEG','JAB TAK HAI JAN','ARIJIT SINGH','LOVERATRI','KISHORE KUMAR','ORIGINAL','BEST',\
+        'FIX','SANAM FT SANAH MOIDUTTY','BHAI BHAI','FIZA','AIRLIFT','MUKESH','LATA','RAFI','JAGJIT SINGH','MUKESH','HEMANT','KARAOKE','DSJ',\
+        'UDIT NARAYAN','ALKA YAGNIK','SONU NIGAM'\
+        ]
+    sorted_words = sorted(words,reverse=True,key=len)
+    result = title
+    for word in sorted_words:
+        result = result.replace(word,'')
+
+    # Remove any leading HH
+    result = re.sub('^HH','',result)
+
+    # Finally, clean up the witespace
+    result = re.sub('[\t ]+',' ',result)
     return result
 
-def standardize_short(title):
+def standardize_short(title,openquote='[',closequote=']'):
     result = title.\
+                replace('`SHORT`','[SHORT]').\
                 replace('(SHORT-HD)','[SHORT]').\
+                replace('SHORT HQ)','[SHORT]').\
                 replace('*SHORT*','[SHORT]').\
                 replace('(SHORT HD)','[SHORT]').\
                 replace('-SHORT','[SHORT]').\
@@ -87,13 +104,15 @@ def standardize_short(title):
                 replace('SHORT_3','[SHORT]').\
                 replace('SHORT','[SHORT]').\
                 replace('KISHORT','KI [SHORT]').\
-                replace('[[SHORT]]','[SHORT]')
+                replace('[[SHORT]]','[SHORT]').\
+                replace('[SHORT]',openquote + 'SHORT' + closequote)
     return result
 
-def fix_spellings(title):
-    d = spelling_dict()
+def map_titles(title,titleMappings):
     result = title
-    for fromstr,tostr in d.items():
+    #d = spelling_dict()
+    #d = fetchTitleMappings()
+    for fromstr,tostr in titleMappings.items():
         result = result.replace(fromstr,tostr)
     return result
 
@@ -123,15 +142,21 @@ def spelling_dict():
             "Babu Ji ": "Babuji ",\
             "Chahu ": "Chanun ",\
             "Chhu Kar": "Chhookar",\
-            "Jao Chor Kar": "Jao Chodkar",\
+            "Jao Chor Kar": "Jao Chhod Kar",\
             "Chhukarmere": "Chhookar Mere",\
             "Chhukar": "Chhookar",\
+            "Cu ": "Chhu ",\
+            "Cukar": "Chhookar",\
             "Chod Do": "Chhod Do",\
+            "Cod Do": "Chhod Do",\
             "Chookar": "Chhookar",\
             "Chorichori": "Chori Chori",\
             "Chu Kar": "Chhookar",\
             "Churaake": "Chura Ke",\
             "Churakedil": "Chura Ke Dil",\
+            "Hiaana": "Hi Aana",\
+            "Hum Ko": "Humko",\
+            "Humkohumise": "Humko Hamise",\
             "Kauntujhe": "Kaun Tujhe",\
             "Rooptera": "Roop Tera",\
             "(Pure) Uthe Sab Ke Kadam": "Uthe Sab Ke Kadam",\
@@ -247,6 +272,7 @@ def spelling_dict():
             "Dekho Maine Dekha Hai Ye Ik Sapna": "Dekho Maine Dekha Hai",\
             "Dekho Maine Dekha Hai Ye Ik": "Dekho Maine Dekha Hai",\
             "Dheere Dheere Chal Chaand Gagan Mein": "Dheere Dheere Chal Chand Gagan Mein",\
+            "Dheeredheer Se Dheere": "Dheere Dheere Se",\
             "Dil Hai Tumhara  Hindi Song": "Dil Hai Tumhara",\
             "Dil Hai Tumhara Dil Hai": "Dil Hai Tumhara",\
             "Dil Ka Bhanwar Kare Pukar ,Tere Ghar Ke Samne": "Dil Ka Bhanwar Kare Pukar",\
@@ -332,10 +358,10 @@ def spelling_dict():
             "Humein Tumse Pyaar Kitna Kitna Recreation": "Humein Tumse Pyaar Kitna",\
             "Humein Tumse Pyaar Kitna Kitna": "Humein Tumse Pyaar Kitna",\
             "Humein Tumse Pyaar Kitna Recreation": "Humein Tumse Pyaar Kitna",\
-            "Humko Humise Chura Lo Humise Humise": "Hum Ko Humise Chura Lo",\
-            "Humko Humise Chura Lo": "Hum Ko Humise Chura Lo",\
-            "Humko Humise Churalo": "Hum Ko Humise Chura Lo",\
-            "Humkohumise Chura Chura": "Hum Ko Humise Chura Lo",\
+            "Humko Humise Chura Lo Humise Humise": "Humko Humise Chura Lo",\
+            "Humko Humise Chura Lo": "Humko Humise Chura Lo",\
+            "Humko Humise Churalo": "Humko Humise Chura Lo",\
+            "Humkohumise Chura Chura": "Humko Humise Chura Lo",\
             "Humyaar Hai Tumhare": "Hum Yaar Hai Tumhare",\
             "Is Bina (Taal)": "Ishq Bina",\
             "Is Shava": "Ishq Shava",\

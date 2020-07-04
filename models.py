@@ -38,6 +38,7 @@ class Performance(db.Model):
     filename = db.Column(db.String(200), nullable=True)
     performers = db.Column(db.String(100), nullable=True)
     fixed_title = db.Column(db.String(100), nullable=True)
+    short_ind = db.Column(db.String(1), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
@@ -64,5 +65,11 @@ class PerformanceSinger(db.Model):
 class PerformanceFavorite(db.Model):
     favorited_by_username = db.Column(db.String(50), primary_key=True)
     performance_key = db.Column(db.String(30), db.ForeignKey('performance.key'), primary_key=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class TitleMapping(db.Model):
+    smule_title = db.Column(db.String(100), primary_key=True)
+    mapped_title = db.Column(db.String(100), nullable=False)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

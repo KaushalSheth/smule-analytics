@@ -4,7 +4,10 @@ import json, re
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
-from .db import saveDBPerformances, saveDBFavorites
+from .db import saveDBPerformances, saveDBFavorites, fetchTitleMappings
+from datetime import datetime, timedelta
+
+DATEFORMAT = '%Y-%m-%d'
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -56,7 +59,7 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
     return message
 
 # Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
-def parseEnsembles(username,web_url,fixedTitle):
+def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01'):
     ensembleList = []
 
     try:
@@ -71,19 +74,20 @@ def parseEnsembles(username,web_url,fixedTitle):
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",fixedTitle=fixedTitle)
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
         print("============")
-        print(performancesStr)
+        print(web_url)
         print("Failed to parse ensembles")
-        raise
+        print("============")
+        #raise
 
     return ensembleList
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",fixedTitle=""):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01'):
     performanceList = []
     stop = False
     i = n
@@ -98,14 +102,14 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             stop = True
             break
         created_at = performance['created_at']
-        # As soon as created_at is less than the min date, break out of the loop
-        if created_at < mindate:
+        web_url = f"https://www.smule.com{performance['web_url']}"
+        # As soon as created_at is less than the ensemble min date, break out of the loop
+        if created_at < ensembleMinDate:
             stop = True
             break
         # If the created_at is greater than the max date, then skip it and proceed with next one
         if created_at > maxdate:
             continue
-        web_url = f"https://www.smule.com{performance['web_url']}"
         #print(f"{i}: {web_url}")
         # If the web_url ends in "/ensembles" then set ct to be "invite"
         if web_url.endswith("/ensembles"):
@@ -117,12 +121,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         elif filterType == "ensembles" or filterType == "invites":
             # If the performance is not an ensemble, but we specified we want only ensembles or invites, skip the performance and don't increment the count
             continue
+        # If created_at is less than the mindate, don't include include it in the performance list, unless it is an ensemble (invite)
+        if ((created_at < mindate) and (not ct == "invite")):
+            continue
         i += 1
-        # If we're processing ensembles, the fixed title will be passed in, so use that to override the performance title because ensemble titles strip out special characters
-        if fixedTitle == "":
-            title = fix_title(performance['title'])
+        # If we're processing ensembles, the parent title will be passed in, so use that to override the performance title because ensemble titles strip out special characters
+        if parentTitle == "":
+            fixedTitle = fix_title(performance['title'],titleMappings)
         else:
-            title = fixedTitle
+            fixedTitle = parentTitle
         # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
         owner = performance['owner']['handle']
         display_user = owner
@@ -139,9 +146,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             if owner == username:
                 display_user = partner
                 display_pic_url = partner_pic_url
-        filename_base = f"{title} - {performers}"
+        filename_base = f"{fixedTitle} - {performers}"
         filename = filename_base + ".m4a"
         pic_filename = filename_base + ".jpg"
+        # Once filename is constructed, strip out the "[Short]" from the fixedTitle and set the short_ind accordingly
+        if "[Short]" in fixedTitle:
+            fixedTitle = fixedTitle.replace(" [Short]","")
+            shortInd = "Y"
+        else:
+            shortInd = "N"
         # Truncate web_url to 300 characters to avoid DB error when saving
         web_url = web_url[:300]
         # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
@@ -189,7 +202,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'other_performers':op,\
                 'performers':performers,\
                 'pic_filename':pic_filename,\
-                'fixed_title':title,\
+                'fixed_title':fixedTitle,\
+                'short_ind':shortInd,\
                 'partner_name':performers,\
                 'create_type':ct,\
                 'perf_status':perfStatus,\
@@ -202,7 +216,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
         # If ct is "invite" then process the joins and append to the performance list
         if ct == "invite" and filterType != "invites":
-            ensembleList = parseEnsembles(username,web_url,title)
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate)
             performanceList.extend(ensembleList)
             i += len(ensembleList)
 
@@ -215,11 +229,15 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
     next_offset = startoffset
+    # Since ensembles are good for 7 days typically, calculate ensembleMinDate as the minDate - 7 days
+    # This will allow us to pick up any new joins for older ensembles
+    ensembleMinDate = (datetime.strptime(mindate,DATEFORMAT) - timedelta(7)).strftime(DATEFORMAT)
     # We use i to keep track of how many performances we have fetched so far, and break out of the loop when we reach the maxperf desired
     i = 0
     # Iinitialize all other variables used in the method
     stop = False
     performanceList = []
+    titleMappings = fetchTitleMappings()
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
         print(f"======== {next_offset} {i} {stop} {maxperf} =======")
@@ -229,7 +247,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
         else:
             fetchType = type
         performances = getJSON(username,fetchType,next_offset)
-        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
         stop = responseList[0]
@@ -283,7 +301,7 @@ def downloadSong(web_url,filename,performance):
     try:
         # Write the tags for the M4A file
         af = MP4(filename)
-        af["\xa9nam"] = performance["title"]
+        af["\xa9nam"] = performance["fixed_title"]
         af["\xa9ART"] = performance["performers"]
         # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule"
         af["\xa9alb"] = "Smule"

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not analytics %}
+    <div class="content">
+      <p>No analytics found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td>Analytics as of {{ currtime }}</td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+
+  <table id="mytable" class="display" style="width:100%">
+    <thead><tr bgcolor="DarkGray"><th>Song Name</th><th>All-Time Count</th><th>First Performed</th><th>Last Performed</th><th>Longevity</th><th>Partner Count</th><th>Partner List</th></thead>
+    <tbody>
+      {% for row in analytics %}
+        <tr>
+          <td>{{ row.fixed_title }}</td>
+          <td>{{ row.count_all_time }}</td>
+          <td>{{ row.first_date }}</td>
+          <td>{{ row.last_date }}</td>
+          <td>{{ row.longevity }}</td>
+          <td>{{ row.num_partners }}</td>
+          <td>{{ row.join_list }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}
