@@ -396,6 +396,12 @@ Humko Humeese Chura Lo|Humko Hamise Chura Lo
 Humko Humise Chura Lo|Humko Hamise Chura Lo
 Humko Humise Chura Lo Humise|Humko Hamise Chura Lo
 Humko Humise Chura Lo Humko|Humko Hamise Chura Lo
+Humko Hamise Chura Lo Lo Humise|Humko Hamise Chura Lo
+Humko Hamise Chura Lo Lo Humise Humise|Humko Hamise Chura Lo
+Humko Humise Chura Lo Lo Humise Humise|Humko Hamise Chura Lo
+Humko Humise Chura Lo Humise Humise|Humko Hamise Chura Lo
+Humkohumise Chura Lo|Humko Hamise Chura Lo
+Humkohumise Chura|Humko Hamise Chura Lo
 Koi Hero Yahan, Koi Zero Yahan I Am The|I Am The Best
 I Can't Help Falling In Love|I Can't Help Falling In Love
 I Just Called To Say I Love You|I Just Called To Say I Love You
@@ -494,6 +500,7 @@ Kabhi Kabhi|Kabhi Kabhi
 Kabhi Kabhie Mere Dil Mein|Kabhi Kabhi
 Kabhi Mere Dil Mein Mukesh|Kabhi Kabhi
 Kabira|Kabira
+Kabke Bice Hue Aaj|Kabke Bichde Hue Aaj
 Kahin Door Jab Din Dhal Jaye|Kahin Door Jab Din Dhal Jaye
 Kahin Door Jab Din Dhal Jaye Kahi Mukesh|Kahin Door Jab Din Dhal Jaye
 Kaho Na Kaho|Kaho Na Kaho
@@ -682,6 +689,7 @@ Na Tum Hamein Jaano|Na Tum Hamein Jaano
 Na Tum Humein Hemant Kumar Na|Na Tum Hamein Jaano
 Na Tum Humein Hemant Kumar Nahamen|Na Tum Hamein Jaano
 Na Tum Humein Jano|Na Tum Hamein Jaano
+Na Tum Humein Nahamen|Na Tum Hamein Jaano
 Femalemale Na Tum Jaano Na Hum|Na Tum Jaano Na Hum
 Na Tum Jaano Na Hum|Na Tum Jaano Na Hum
 Na Tum Jano Na Hum Na Tum|Na Tum Jaano Na Hum

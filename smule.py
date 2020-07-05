@@ -132,8 +132,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             fixedTitle = parentTitle
         # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
         owner = performance['owner']['handle']
-        display_user = owner
         owner_pic_url = performance['owner']['pic_url']
+        display_user = owner
         display_pic_url = owner_pic_url
         performers = owner
         op = performance['other_performers']
