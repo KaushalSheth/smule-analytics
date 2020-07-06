@@ -1,5 +1,4 @@
 import re
-from .models import db
 
 # The title field we get from Smule for performances contains many letters and words that are not appropriate for the filename
 # Fix the title to remove/replace these so that we can use this "fixed" title in the filename

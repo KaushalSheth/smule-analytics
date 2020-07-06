@@ -4,7 +4,7 @@ from sqlalchemy import text
 import copy
 
 # Method to feth Title Mappings
-def fetchTitleMappings():
+def fetchDBTitleMappings():
     global titleMappings
     titleMappings = dict()
     result = db.session.execute("select smule_title,mapped_title from title_mapping order by length(smule_title) desc")

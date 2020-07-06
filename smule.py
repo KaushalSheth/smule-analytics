@@ -1,10 +1,10 @@
 from urllib import request
 from urllib.parse import unquote
-import json, re
+import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchTitleMappings
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings
 from datetime import datetime, timedelta
 
 DATEFORMAT = '%Y-%m-%d'
@@ -222,6 +222,18 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
     return [ stop, i, performanceList ]
 
+# Method to fetch Title Mappings from text file
+def fetchFileTitleMappings(filename):
+    titleMappings = {}
+    # First, load the data into a list and sort it by length of the first column
+    f = open(filename,'r')
+    fc = csv.reader(f,delimiter="|")
+    sfc = sorted(fc, key = lambda row: len(row[0]))
+    # Next, loop through the sorted list and build the dict
+    for row in sfc:
+        titleMappings[row[0]] = row[1]
+    return titleMappings
+
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
@@ -237,7 +249,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     # Iinitialize all other variables used in the method
     stop = False
     performanceList = []
-    titleMappings = fetchTitleMappings()
+    #titleMappings = fetchDBTitleMappings()
+    titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
         print(f"======== {next_offset} {i} {stop} {maxperf} =======")
