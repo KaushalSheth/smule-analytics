@@ -24,7 +24,11 @@
   <br>
 
   <table id="mytable" class="display" style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>#</th><th>Title</th><th>Created Time</th><th>Performed By</th><th>Listens</th><th>Loves</th><th>Play Song</th><th>Download Song</th></thead>
+    {% if offline %}
+      <thead><tr bgcolor="DarkGray"><th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th></thead>
+    {% else %}
+      <thead><tr bgcolor="DarkGray"><th>#</th><th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th></thead>
+    {% endif %}
     <tbody>
       {% for performance in performances %}
         {% if performance.create_type == "ensemble" %}
@@ -34,16 +38,29 @@
         {% else %}
             <tr>
         {% endif %}
-              <td>{{ loop.index }}</td>
-              <td>{{ performance.title }}</td>
+              {% if offline %}
+              {% else %}
+                <td>{{ loop.index }}</td>
+              {% endif %}
               <td>{{ performance.created_at }}</td>
-              <td>
-                  <a href="/search_smule_user/{{ performance.display_handle }}"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a><br>
-              </td>
+              <td><a href="{{ performance.web_url }}">{{ performance.title }}</a></td>
+              {% if offline %}
+                  <td>
+                      <a href="{{ performance.web_url }}"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>
+                  </td>
+              {% else %}
+                  <td>
+                      <a href="/search_smule_user/{{ performance.display_handle }}"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>
+                  </td>
+              {% endif %}
               <td>{{ performance.total_listens }}</td>
               <td>{{ performance.total_loves }}</td>
-              <td><a href="{{ performance.web_url }}">Listen</a></td>
-              <td><a href="/download_performance/{{ performance.key }}">{{ performance.filename }}</a></td>
+              {% if offline %}
+                <td><a href="{{ performance.web_url }}">Play only</a></td>
+              {% else %}
+                <td><a href="/download_performance/{{ performance.key }}">Download</a></td>
+              {% endif %}
+              <td><a href="{{ performance.web_url }}">{{ performance.filename }}</a></td>
             </tr>
       {% endfor %}
     </tbody>

@@ -104,7 +104,9 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('SHORT','[SHORT]').\
                 replace('KISHORT','KI [SHORT]').\
                 replace('[[SHORT]]','[SHORT]').\
+                replace('[[[[[  DHADAK  ]]]]]','DHADAK').\
                 replace('[SHORT]',openquote + 'SHORT' + closequote)
+
     return result
 
 def map_titles(title,titleMappings):

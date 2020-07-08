@@ -7,6 +7,7 @@ from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchD
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
+offline = True
 user = None
 search_user = None
 performances = None
@@ -44,11 +45,15 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
+            if request.form.get('offline'):
+                offline = True
+            else:
+                offline = False
             user = request.form['username']
             search_user = user
             numrows = int(request.form['numrows'])
@@ -273,9 +278,9 @@ def create_app(test_config=None):
     # Generic route for displaying performances using global variable
     @app.route('/list_performances')
     def list_performances():
-        global performances, search_user, user
+        global performances, search_user, user, download, offline
         # This assumes that the performances global variable is set by the time we get here
-        return render_template('list_performances.html', performances=performances, search_user=search_user, user=user)
+        return render_template('list_performances.html', performances=performances, search_user=search_user, user=user, offline=offline)
 
     # Generic route for displaying performances using global variable
     @app.route('/list_invites')

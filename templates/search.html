@@ -9,6 +9,13 @@
 
     <form method="post" action="{{ url_for('search') }}">
       <div class="field">
+        <label class="label" for="offline"></label>
+        <div class="control">
+          <input name="offline" type="checkbox" checked>&nbsp;Offline Access</input>
+        </div>
+      </div>
+
+      <div class="field">
         <label class="label" for="username">Username</label>
         <div class="control">
           <input name="username" type="input" class="input" required></input>
