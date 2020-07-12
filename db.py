@@ -131,7 +131,20 @@ def fethLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
 
     return analytics
 
+# Method to query invite analytics
+def fetchInviteAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
+    global analytics
+    analytics = []
+    sqlquery = f"select * from my_invite_analysis"
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        # Add the keys to the dict that are not saved to the DB but used for other processing
+        analytics.append(d)
 
+    return analytics
 
 # Save the performances queried from Smule to the DB
 def saveDBPerformances(username,performances):

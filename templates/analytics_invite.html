@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not analytics %}
+    <div class="content">
+      <p>No analytics found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td>Analytics as of {{ currtime }}</td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+
+  <table id="mytable" class="display" style="width:100%">
+    <thead><tr bgcolor="DarkGray">
+        <th>Song Name</th>
+        <th>Total Score</th>
+        <th>Invite Score</th>
+        <th>Popularity Score</th>
+        <th>Performance Score</th>
+        <th># Performances</th>
+        <th># Invites</th>
+        <th># Partners</th>
+        <th>First Invite</th>
+        <th>Last Invite</th>
+        <th>First Performance</th>
+        <th>Last Performance</th>
+    </thead>
+    <tbody>
+      {% for row in analytics %}
+        <tr>
+          <td>{{ row.fixed_title }}</td>
+          <td>{{ row.total_score }}</td>
+          <td>{{ row.invite_recency_score }}</td>
+          <td>{{ row.popularity_score }}</td>
+          <td>{{ row.perfromance_recency_score }}</td>
+          <td>{{ row.num_all_performances }}</td>
+          <td>{{ row.num_invites }}</td>
+          <td>{{ row.num_partners }}</td>
+          <td>{{ row.first_invite_time }}</td>
+          <td>{{ row.last_invite_time }}</td>
+          <td>{{ row.first_performance_time }}</td>
+          <td>{{ row.last_performance_time }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

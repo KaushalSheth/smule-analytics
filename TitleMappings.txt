@@ -9,6 +9,7 @@
 _Itna Na Mujhse|Itna Na Mujhse Tu Pyar Badha
 A Groovy Kind Of Love|Groovy Kind Of Love
 Aa Bhi Jaa Bhi Ja Bhi Bhi|Aa Bhi Jaa
+Aa Bhi Ja Aa Bhi Ja|Aa Bhi Jaa
 Aa Bhi Jaa Bhi Jaa Bhi|Aa Bhi Jaa
 Aa Chal Ke Tujhe Me Leke Chalu|Aa Chal Ke Tujhe
 Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah|Aaja Aaja Re Tujhko Mera Pyaar Pukare
@@ -360,6 +361,8 @@ H Qpiyubole|Piyu Bole
 Haal Kaisa Hai Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka|Haal Kaisa Hai Janaab Ka
 Haal Kaisa Hai|Haal Kaisa Hai Janaab Ka
 Haal Kesa Hai Janab Ka|Haal Kaisa Hai Janaab Ka
+Haal Kaisa Hai Janaab Ka Janab Ka|Haal Kaisa Hai Janaab Ka
+Haal Kaisa Hai Janab Ka|Haal Kaisa Hai Janaab Ka
 Hadh Kar Di Aapne|Hadh Kar Di Aapne
 Hai Apna Dil To Awara|Hai Apna Dil To Awara
 Hai Hai Re Ladka Yeh Ladka Hai Dewa|Yeh Ladka Hai Deewana
@@ -708,6 +711,7 @@ Nasha|Pehla Nasha
 Nazm Nazm Mere Sa Mere Sa|Nazm Nazm
 Nazm Nazm Mere|Nazm Nazm
 Nazm Nazm|Nazm Nazm
+Nazm Nazm Sa|Nazm Nazm
 Na Tum Jano Na Hum Na Tum|Na Tum Jaano Na Hum
 Neend Na Mujhko Aaye|Neend Na Mujhko Aaye
 New Vs Old Bollywood Songs|New Vs Old Bollywood Songs
