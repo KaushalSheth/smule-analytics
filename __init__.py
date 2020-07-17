@@ -2,8 +2,8 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlFavorites
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fethLongevityAnalytics, fetchInviteAnalytics
+from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fethLongevityAnalytics, fetchInviteAnalytics, fixDBTitles
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -83,6 +83,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_smule_invites'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
+                elif request.form['btn'] == 'Fix Titles':
+                    return redirect(url_for('fix_db_titles'))
                 else:
                     error = "Invalid selection"
 
@@ -276,6 +278,17 @@ def create_app(test_config=None):
         performances = fetchDBPerformances(user,numrows,fromdate,todate)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
+
+    # This executes the db function to fix titles in the DB
+    @app.route('/fix_db_titles')
+    def fix_db_titles():
+        global titleMappings
+        # Load global variable for title mappings from file
+        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        # Fix the titles using this global variable
+        fixCount = fixDBTitles(titleMappings)
+        flash(f"{fixCount} titles fixed in database")
+        return redirect(url_for('search'))
 
     # Thsi method allows us to take various actions on the list of performances displayed
     @app.route('/submit_performances', methods=('GET','POST'))

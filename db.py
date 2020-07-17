@@ -1,6 +1,6 @@
 from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping
 from .utils import fix_title
-from sqlalchemy import text
+from sqlalchemy import text, Table, Column
 import copy
 
 # Method to feth Title Mappings
@@ -11,6 +11,35 @@ def fetchDBTitleMappings():
     for r in result:
         titleMappings[r['smule_title']] = r['mapped_title']
     return titleMappings
+
+# Method to fix DB Titles using title Mappings
+def fixDBTitles(titleMappings):
+    fixCount = 0
+    # Define a title mapping temp table with the data in the dict sent in
+    tblTitleMapping = Table("tmp_title_mapping", db.metadata,
+        Column("smule_title", db.String(100)),
+        Column("mapped_title", db.String(100)),
+        prefixes=["TEMPORARY"],extend_existing=True,
+        )
+    # Create the temp table
+    tblTitleMapping.create(bind=db.session.get_bind())
+    # Insert all titleMappings into the table
+    result = db.session.execute(tblTitleMapping.insert().values([{"smule_title": s, "mapped_title": m} for s,m in titleMappings.items()]))
+    # Update rows where title matches a row in temp table
+    updateSQL = """
+    update  performance p
+    set     fixed_title = tmp.mapped_title,
+            filename = replace(filename,tmp.smule_title,tmp.mapped_title),
+            updated_at = now()
+    from    tmp_title_mapping tmp
+    where   p.fixed_title = tmp.smule_title
+    and     p.fixed_title != tmp.mapped_title
+    """
+    fixCount = db.session.execute(updateSQL).rowcount
+    print(f"Rows updated = {fixCount}")
+    db.session.commit()
+
+    return fixCount
 
 # Method to query performances for a user
 def fetchDBPerformancesOrig(username,maxperf=9999):

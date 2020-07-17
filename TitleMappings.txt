@@ -39,6 +39,8 @@ Aankhon Se Tune Ye|Aankhon Se Tune Ye
 Aankhon Se Tune|Aankhon Se Tune Ye
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Ka Aana Dil Dhadkana|Aap Ka Aana Dil Dhadkana
+Aapki Aakhon Main Kuch|Aap Ki Aankhon Mein Kuch
+Aap Ki Aankon Mein Kuch|Aap Ki Aankhon Mein Kuch
 Aap Ki Aakhon Me Kuch|Aap Ki Aankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch Gharmusicoolpiyush_|Aap Ki Aankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein Kuch
@@ -49,6 +51,7 @@ Aapkinazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aat Ke Humsafar|Raat Ke Humsafar
 Aati Kya Khandala Ghulam|Aati Kya Khandala
 Aati Kya Khandala|Aati Kya Khandala
+Ay Kya Bolti Tu|Aati Kya Khandala
 Aawara Bhawre|Aawara Bhawre
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Mein
 Aaye Ho Meri Zindagi|Aaye Ho Meri Zindagi Mein
@@ -74,6 +77,7 @@ Ae Dil Hai Mushkil|Ae Dil Hai Mushkil
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai Bahaar
 Ae Dil Mujhe Bata De|Ae Dil Mujhe Bata De
 Ae Dilhai Mushkil|Ae Dil Hai Mushkil
+𝔖𝐡𝐨𝐫𝐭 Aye Mere Humsafar|Ae Mere Humsafar
 Ae Mere Humsafar Ae Mere|Ae Mere Humsafar
 Ae Mere Humsafar|Ae Mere Humsafar
 Ae Mere Zohra Jabeen|Ae Meri Zohra Jabeen
@@ -152,6 +156,7 @@ Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bole Chudiyan|Bole Chudiyan
 Bole Chudiy|Bole Chudiyan
+Bole Chudiyan Bole Kangna|Bole Chudiyan
 Can't Help Falling In Love|Can't Help Falling In Love
 Chaand Mera|Chaand Mera
 Chaand Ne Kuch Kaha Karaoke|Chaand Ne Kuch Kaha
@@ -171,6 +176,7 @@ Chandi Jaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chandijaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chanun Main Ya Na|Chahun Main Ya Na
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
+Chaudavi Ka Chaand Ho|Chaudhvin Ka Chand Ho
 Chehra Hai Ya Chand|Chehra Hai Ya Chaand
 Chhod Do Aanchal|Chhod Do Aanchal
 Chhoo Kar Mere Man Ko|Chhookar Mere Man Ko
@@ -437,6 +443,7 @@ Is Wala Love|Ishq Wala Love
 Isharon Isharon Mein|Isharon Isharon Mein
 Isharon Isharon Men Dil Lenewale|Isharon Isharon Mein
 Ishq Shava|Ishq Shava
+Itna Na Mujhse Tu Pyaar Badha|Itna Na Mujhse Tu Pyar Badha
 Itna Na Mujhse Tu Pyar Bada|Itna Na Mujhse Tu Pyar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Badha
 Jaadu Hai Nasha Hai Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai
@@ -479,6 +486,9 @@ Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisi Ki Taraf Dil|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisiki Taraf Dil Jhukne|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisiki Taraf Dil|Jab Kisi Ki Taraf Dil Jhukne Lage
+Jab Koi Baat Bigad Jaaye|Jab Koi Baat Bigad Jaaye
+Jab Koi Baat Bigad|Jab Koi Baat Bigad Jaaye
+Jab_Koibaat_Bigadjaaye|Jab Koi Baat Bigad Jaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Baat Bigad Jaaye
 Jab Koi Baat Jaye|Jab Koi Baat Bigad Jaaye
 Jab Koi Baat Koi Baat Koi Baat Koyi|Jab Koi Baat Bigad Jaaye
@@ -753,6 +763,7 @@ Pehela Nasha Pehela Khumar|Pehla Nasha
 Pehla Nasha Khummar|Pehla Nasha
 Pehla Nashakhumaar Nasha Khumaar|Pehla Nasha
 Pehla Nasha|Pehla Nasha
+🐧🐧 Pahla Pahla Pyaar Hai|Pehla Pehla Pyar Hai
 Pehla Pehla Pyar Hai Karaoke|Pehla Pehla Pyar Hai
 Pehla Pehla Pyar Hai|Pehla Pehla Pyar Hai
 Pehlanasha Pehla Khumaar Khumar|Pehla Nasha
@@ -798,6 +809,7 @@ Raatke Humsafar|Raat Ke Humsafar
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Raja Ko Rani Se|Raja Ko Rani Se
 Ramta Jogi|Ramta Jogi
+Hhrim Jhim Rim Jhim Rimjhim|Rim Jhim Rim Jhim
 Rhim Jhim Rhim Jhim|Rim Jhim Rim Jhim
 Rim Jhim Rim Jhim|Rim Jhim Rim Jhim
 Rimjhim Gire Sawan|Rimjhim Gire Sawan
@@ -835,6 +847,7 @@ Saree Ke Fall Sa|Saree Ke Fall Sa
 Sari Ke Fall Sa|Saree Ke Fall Sa
 Sathiya Tune Kya Kiya|Sathiya Tune Kya Kiya
 Sau Saal Pehle|Sau Saal Pehle
+~Sawarloon|Sawaar Loon
 Sawaar Loon|Sawaar Loon
 Sawan Barse Tarse Dil|Saawan Barse Tarse Dil
 Sawan Ka 🎆Mahina Karaoke Milan|Saawan Ka Mahina
@@ -866,6 +879,8 @@ Sunn Raha Hai|Sun Raha Hai
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Suna|Suno Kaho Kaha Suna
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
+`Suraj Hua Madham|Suraj Hua Maddham
+Suraj Hua Madham|Suraj Hua Maddham
 Suraj Hua Maddham K3G Ed|Suraj Hua Maddham
 Suraj Hua Maddham Sound|Suraj Hua Maddham
 Suraj Hua Maddham|Suraj Hua Maddham
@@ -954,6 +969,8 @@ Tujh Main Rab Dikhta Hei|Tujh Mein Rab Dikhta Hai
 Tujh Me Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai Female|Tujh Mein Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai
+Tujhe Dekha Toh|Tujhe Dekha To Yeh Jaana Sanam
+Tujhe Dekha To Ye Jaana Sanam|Tujhe Dekha To Yeh Jaana Sanam
 Tujhe Dekha To Ddlj Tujhedekha|Tujhe Dekha To Yeh Jaana Sanam
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Yeh Jaana Sanam
 Tujhe Dekha To Yeh|Tujhe Dekha To Yeh Jaana Sanam
@@ -982,6 +999,7 @@ Tum Bin|Tum Bin Jaaoon Kahan
 Tum Dil Ki Dhadkan Mein|Tum Dil Ki Dhadkan Mein
 Tum Dil Ki Dhadkan|Tum Dil Ki Dhadkan Mein
 Tum Dil Ki Mein|Tum Dil Ki Dhadkan Mein
+Tum Hi Aana Sad|Tum Hi Aana
 Tum Hi Aana Tum Hi Tum Hi Tum|Tum Hi Aana
 Tum Hi Aana Tum Hi Tum Hi|Tum Hi Aana
 Tum Hi Aana Tum Hi|Tum Hi Aana
