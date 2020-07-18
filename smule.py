@@ -5,7 +5,7 @@ from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
 from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 
 DATEFORMAT = '%Y-%m-%d'
 
@@ -316,9 +316,14 @@ def downloadSong(web_url,filename,performance):
         af = MP4(filename)
         af["\xa9nam"] = performance["fixed_title"]
         af["\xa9ART"] = performance["performers"]
-        # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule"
-        af["\xa9alb"] = "Smule"
-        af["purd"] = performance["created_at"]
+        # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule" followed by current date
+        today = date.today().strftime('%Y%m%d')
+        af["\xa9alb"] = f"Smule - {today}"
+        thisyear = date.today().strftime('%Y')
+        af["\xa9day"] = f"{thisyear}"
+        createdat = performance["created_at"]
+        af["purd"] = createdat
+        af["\xa9cmt"] = f"Performed on {createdat}"
 
         # Write the JPEG to the M4A file as album cover
         pic_url = performance['display_pic_url']
