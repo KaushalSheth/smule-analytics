@@ -64,7 +64,7 @@ Note: On my Mac at least, I had an issue installing psycopg2, and the workaround
 
 **Run the Flask app**
 
-```flask run --host=0.0.0.0 --port=5432```
+```flask run --host=0.0.0.0 --port=3000```
 
 **Access your app in your browser using the below URL**
 
