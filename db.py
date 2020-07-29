@@ -19,7 +19,7 @@ def fixDBTitles(titleMappings):
     tblTitleMapping = Table("tmp_title_mapping", db.metadata,
         Column("smule_title", db.String(100)),
         Column("mapped_title", db.String(100)),
-        prefixes=["TEMPORARY"],extend_existing=True,
+        extend_existing=True,
         )
     # Create the temp table
     tblTitleMapping.create(bind=db.session.get_bind())
@@ -38,6 +38,7 @@ def fixDBTitles(titleMappings):
     fixCount = db.session.execute(updateSQL).rowcount
     print(f"Rows updated = {fixCount}")
     db.session.commit()
+    tblTitleMapping.drop(bind=db.session.get_bind())
 
     return fixCount
 

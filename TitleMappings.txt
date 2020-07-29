@@ -213,10 +213,12 @@ Chura Ke Dil Mera|Chura Ke Dil Mera
 Chura Liya Hai Tum Ne Tum Ne Tum Ne Tum Ne Tum Ne Tum Ne Tum Ne Hai Tum Ne Tum Ne|Chura Liya
 Chura Liya Hai Tum Ne|Chura Liya
 Chura Liya Hai Tumne Jo Dil|Chura Liya
+Chura Liya Hai Tumne Jo Dil Ko|Chura Liya
 Chura Liya Hai|Chura Liya
 Chura Liya|Chura Liya
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Sanam
 Churalo Na Dil Mera Sanam|Chura Lo Na Dil Mera Sanam
+Chura Lo Na Dil Mera Kareeb|Chura Lo Na Dil Mera Sanam
 Dafli Wale Dafli Baja|Dafli Wale
 Dagabaaz Re Karaoke Dabangg 2|Dagabaaz Re
 Dagabaaz Re|Dagabaaz Re
@@ -547,6 +549,7 @@ Kalho Na Hoho Na Ho Ho Na Ho|Kal Ho Na Ho
 Karvatein Badalte|Karvatein Badalte
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Tuje|Kaun Tujhe
+Kon Tujhe Yu Pyaar Karega|Kaun Tujhe
 Kaun Tujhe Female|Kaun Tujhe
 Kaun Tujhe Yun Pyar|Kaun Tujhe
 Kaun Tujhe Yun|Kaun Tujhe
