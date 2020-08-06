@@ -7,7 +7,7 @@ from os import path
 from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings
 from datetime import datetime, timedelta, date
 
-DATEFORMAT = '%Y-%m-%d'
+DATEFORMAT = '%Y-%m-%dT%H:%M'
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -217,8 +217,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If ct is "invite" then process the joins and append to the performance list
         if ct == "invite" and filterType != "invites":
             ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate)
-            performanceList.extend(ensembleList)
-            i += len(ensembleList)
+            # If there are no matching joins for an invite, remove the invite.  Otherwise, add the joins to the performance list
+            if len(ensembleList) == 0:
+                del performanceList[-1]
+            else:
+                performanceList.extend(ensembleList)
+                i += len(ensembleList)
 
     return [ stop, i, performanceList ]
 
@@ -243,6 +247,11 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     next_offset = startoffset
     # Since ensembles are good for 7 days typically, calculate ensembleMinDate as the minDate - 7 days
     # This will allow us to pick up any new joins for older ensembles
+    # If mindate only has date and no time, append 00:00 for time so that strptime does not fail
+    if len(mindate) == 10:
+        mindate += "T00:00"
+    else:
+        mindate = mindate.replace(" ","T")
     ensembleMinDate = (datetime.strptime(mindate,DATEFORMAT) - timedelta(7)).strftime(DATEFORMAT)
     # We use i to keep track of how many performances we have fetched so far, and break out of the loop when we reach the maxperf desired
     i = 0
