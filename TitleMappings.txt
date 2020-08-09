@@ -13,7 +13,9 @@ Aa Bhi Ja Aa Bhi Ja|Aa Bhi Jaa
 Aa Bhi Jaa Bhi Jaa Bhi|Aa Bhi Jaa
 Aa Chal Ke Tujhe Me Leke Chalu|Aa Chal Ke Tujhe
 Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah|Aaja Aaja Re Tujhko Mera Pyaar Pukare
-Aa Kahin Door Chale Jaye Hum Lawaris|Aa Kahin Door Chale Jaye Hum
+Aa Kahin Door Chale Jaye Hum Lawaris|Aa Kahin Door
+Aa Kahin Door Chale Jaayein Hum|Aa Kahin Door
+Aa Kahin Door Chale Jaye Hum|Aa Kahin Door
 Aadha Hai Raat Aadhi Aadhee Navrang|Aadha Hai Chandrama
 Aaiye Meharbaan|Aaiye Meherbaan
 Aaiye Meherbaan Baithiye|Aaiye Meherbaan
@@ -569,6 +571,7 @@ Karvatein Badalte|Karvatein Badalte
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Tuje|Kaun Tujhe
 Kon Tujhe Yu Pyaar Karega|Kaun Tujhe
+Kaun Tujhe Yun Pyar Karega|Kaun Tujhe
 Kaun Tujhe Female|Kaun Tujhe
 Kaun Tujhe Yun Pyar|Kaun Tujhe
 Kaun Tujhe Yun|Kaun Tujhe
@@ -713,6 +716,7 @@ Meri Jaan Mujhe Jaan Na Kaho|Mujhe Jaan Na Kaho Meri Jaan
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
 Mile Ho Tum Humko|Mile Ho Tum Humko
+_Mile_Ho Tum_Humko|Mile Ho Tum Humko
 Mile Ho Tum|Mile Ho Tum Humko
 Mile Hotum Humko|Mile Ho Tum Humko
 Mileho Tum Humko Ho Tum Humko Hamko|Mile Ho Tum Humko
@@ -773,6 +777,7 @@ O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil|O Mere Dil Ke Chain
 O Rey Chori|O Rey Chhori
 O Saathi Re|O Saathi Re
+O Saathi Re O Re|O Saathi Re
 Odh Li Chunariya|Odh Li Chunariya
 Oh Hansini|O Hansini
 Oh Hasina Zulfon Wali|O Haseena Zulfon Wali

@@ -96,6 +96,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     for performance in performancesJSON['list']:
         ct = createType
         perfStatus = performance['perf_status']
+        joiners = ""
+        partner = ""
 
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
@@ -204,10 +206,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'pic_filename':pic_filename,\
                 'fixed_title':fixedTitle,\
                 'short_ind':shortInd,\
-                'partner_name':performers,\
+                'partner_name':partner,\
                 'create_type':ct,\
                 'perf_status':perfStatus,\
-                'expire_at':performance['expire_at']\
+                'expire_at':performance['expire_at'],\
+                'joiners':joiners\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
@@ -215,14 +218,21 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             raise
 
         # If ct is "invite" then process the joins and append to the performance list
-        if ct == "invite" and filterType != "invites":
+        if ct == "invite":
             ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate)
-            # If there are no matching joins for an invite, remove the invite.  Otherwise, add the joins to the performance list
-            if len(ensembleList) == 0:
-                del performanceList[-1]
+            # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
+            if filterType == "invites":
+                for j in ensembleList:
+                    joiners += j['partner_name'] + ", "
+                joiners.strip(", ")
+                performanceList[-1]['joiners'] = joiners
             else:
-                performanceList.extend(ensembleList)
-                i += len(ensembleList)
+                # If there are no matching joins for an invite, remove the invite.  Otherwise, add the joins to the performance list
+                if len(ensembleList) == 0:
+                    del performanceList[-1]
+                else:
+                    performanceList.extend(ensembleList)
+                    i += len(ensembleList)
 
     return [ stop, i, performanceList ]
 
