@@ -37,6 +37,7 @@ Aaja Tujhko Pukare U|Aaja Tujhko Pukare Mere Geet Re
 Aakhon Se Tuneost: Ghulam|Aankhon Se Tune
 Aanewala Pal Jaanewala Hai|Aane Wala Pal
 Aanewala Pal|Aane Wala Pal
+Aanewala Pal Janewala Hai|Aane Wala Pal
 Aankho Me Kya Ji Rupehla Badal|Aankhon Mein Kya Ji
 Aankho Se Tune Ye|Aankhon Se Tune Ye
 Aankhon Ki Gustakhiyaan|Aankhon Ki Gustakhiyan
@@ -218,6 +219,7 @@ Chukar Mere Man Ko|Chhookar Mere Man Ko
 Chukar Mere Manko|Chhookar Mere Man Ko
 Chukarmere Man Ko|Chhookar Mere Man Ko
 Chupke Se Koi Aayega|Chupke Se Koi Aayega
+¹ Chupke Se Koi Aayega 1|Chupke Se Koi Aayega
 Chupke Se Sun|Chupke Se Sun
 Chupke Se Unpluged|Chupke Se
 Chura K Dil Mera|Chura Ke Dil Mera
@@ -267,6 +269,8 @@ Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Chal Chand Gagan Mein|Dheere Dheere Chal Chand Gagan Mein
 Dheere Dheere Chal Chaand Gagan Mein|Dheere Dheere Chal Chand Gagan Mein
 Dheere Dheere Se|Dheere Dheere Se
+Dheere Dheere Se Meri Zindagi Mein Aana|Dheere Dheere Se
+Dheere Se|Dheere Dheere Se
 Dheere Seaashiqui|Dheere Se
 Dholna Karaoke|Dholna
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
@@ -376,6 +380,7 @@ Group Aankhein Khuli|Aankhein Khuli
 Gulabi Aankhen Jo Teri Dekhi|Gulabi Aankhen
 Gulabi Aankhen Retro Mix|Gulabi Aankhen
 Gulabi Aankhen|Gulabi Aankhen
+Gulabi Aankhen Ankhen|Gulabi Aankhen
 Gulabiaankhen|Gulabi Aankhen
 Gun Guna Rahe Hai Bhanware|Gunguna Rahe Hain Bhanwre
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre
@@ -436,6 +441,7 @@ Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
 Hume Tumsepyar Kitna|Humein Tumse Pyaar Kitna
 Humein Tumse Pyaar Kitna|Humein Tumse Pyaar Kitna
 Humein Tumse Pyaar|Humein Tumse Pyaar Kitna
+Hume Tumse Pyaar Kitna|Humein Tumse Pyaar Kitna
 Humein Tumse Pyar Kitna|Humein Tumse Pyaar Kitna
 Humko Hamise Chura Chura|Humko Hamise Chura Lo
 Humko Hamise Chura Lo Lo Humise Humise|Humko Hamise Chura Lo
@@ -486,11 +492,14 @@ Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Woh Din
 Jaane Kahan Gaye Wo Din|Jaane Kaha Gaye Woh Din
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar|Jaane Kaha Mera Jigar Gaya Ji
+Jane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
+Jaane Kahan Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
 Jaane Kahaan Gaye Woh Din,|Jaane Kaha Gaye Woh Din
 Jaane Kaise Kab Jaane|Jaane Kaise Kab Kaha
 Jaane Kaise Kab Kaha Iqraar Ho Gaya|Jaane Kaise Kab Kaha
 Jaane Kaise Kab Kaha Iqrar Ho Gaya|Jaane Kaise Kab Kaha
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Kaha
+Jaane Kaise Kab Kahan|Jaane Kaise Kab Kaha
 Jaane Kaise Kab|Jaane Kaise Kab Kaha
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tuney Kahi|Jaane Kya Tune Kahi
@@ -657,6 +666,7 @@ Main Duniya Bhula Doonga|Main Duniya Bhula Doonga
 Main Duniya Bhula Dunga|Main Duniya Bhula Doonga
 Main Duniya Bhula|Main Duniya Bhula Doonga
 Main Duniya Bhula Dungi Female Cove|Main Duniya Bhula Doonga
+Main Duniya Bhula Doonga Doonga|Main Duniya Bhula Doonga
 Main Hoo Na>> Main|Main Hoon Na
 Main Hoon Na|Main Hoon Na
 Main Koi Aisa Geet Gaaon|Main Koi Aisa Geet Gaaon
@@ -820,17 +830,20 @@ Pyaar Hua Ikraar Hua Hai|Pyaar Hua Iqraar Hua
 Pyaar Hua Ikraar Hua Hua Hai|Pyaar Hua Iqraar Hua
 Pyaar Hua Iqraar Hua|Pyaar Hua Iqraar Hua
 Pyaar Karne Waale|Pyaar Karne Waale
+Pyaar Karne Wale|Pyaar Karne Waale
+Pyar Karne Wale Kabhi Darte Nahi|Pyaar Karne Wale
 Pyaar Kiya To Nibhana|Pyaar Kiya To Nibhana
 Pyar Deewana Hota Haissgn_Chamsmanoj|Pyaar Deewana Hota Hai
 Pyar Deewana Hota Hai|Pyaar Deewana Hota Hai
+Pyar Diwana Hota Hai|Pyaar Deewana Hota Hai
 Pyar Hua Chupke Se|Pyaar Hua Chupke Se
 Pyar Hua Ikraar Hua|Pyaar Hua Iqraar Hua
 Pyar Hua Ikrar Hua Hai|Pyaar Hua Iqraar Hua
 Pyar Hua Ikrar Hua|Pyaar Hua Iqraar Hua
 Pyar Hua Iqrar Hua|Pyaar Hua Iqraar Hua
-Pyar Karne Wale Kabhi Darte Nahi|Pyaar Karne Wale
 Pyar Ki Kashti Mein|Pyaar Ki Kashti Mein
 Pyar Ko Ho Jaane Do Dushman|Pyaar Ko Ho Jaane Do
+Pyar Ko Ho Jane Do|Pyaar Ko Ho Jaane Do
 Pyar Ko Ho Jaane Do|Pyaar Ko Ho Jaane Do
 Pyar Mujhse Jo Kiya Tumne|Pyaar Mujhse Jo Kiya Tumne
 Qaafirana Female|Qaafirana
@@ -846,6 +859,7 @@ Raat Ke Raat Ke Raat Ke Ke|Raat Ke Humsafar
 Raatke Humsafar|Raat Ke Humsafar
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Raja Ko Rani Se|Raja Ko Rani Se
+Raja Ko Rani Se Ko Rani Se|Raja Ko Rani Se
 Ramta Jogi|Ramta Jogi
 Hhrim Jhim Rim Jhim Rimjhim|Rim Jhim Rim Jhim
 Rhim Jhim Rhim Jhim|Rim Jhim Rim Jhim
@@ -864,6 +878,7 @@ Ruk Jaana Nahin|Ruk Jaana Nahin
 Ruk Jaana Nahi|Ruk Jaana Nahin
 Saagar Kinare|Saagar Kinare
 Saans Me Teri|Saans
+Saans Mein|Saans
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat Hai Jaise
 Saanson Ko Saanson Mein Dal Ne Karaoke|Saanson Ko Saanson Mein Dal Ne
 Saari Ke Fall Sa|Saree Ke Fall Sa
@@ -960,6 +975,9 @@ Tere Jaisa Yaar Kahan|Tere Jaisa Yaar Kahan
 Tere Liye Karaoke|Tere Liye
 Tere Liye Liye Liye|Tere Liye
 Tere Liye|Tere Liye
+Tere Liye Hum Hain Jiye|Tere Liye
+Tere Liye Song|Tere Liye
+Tere Liye Veer Zaara|Tere Liye
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mere Hothon Pe|Tere Mere Hothon Pe
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Ye Raina
