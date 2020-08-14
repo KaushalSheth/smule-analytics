@@ -224,7 +224,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             if filterType == "invites":
                 for j in ensembleList:
                     joiners += j['partner_name'] + ", "
-                joiners.strip(", ")
+                joiners = joiners.strip(", ")
                 performanceList[-1]['joiners'] = joiners
             else:
                 # If there are no matching joins for an invite, remove the invite.  Otherwise, add the joins to the performance list
