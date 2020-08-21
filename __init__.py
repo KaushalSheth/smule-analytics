@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Set defaults for global variable that are used in the app
 offline = True
-videosOnly = False
+contentType = "both"
 user = None
 search_user = None
 performances = None
@@ -46,7 +46,7 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline, videosOnly
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline, contentType
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
@@ -55,10 +55,14 @@ def create_app(test_config=None):
                 offline = True
             else:
                 offline = False
-            if request.form.get('videos'):
-                videosOnly = True
+            if request.form.get('audio') and request.form.get('videos'):
+                contentType = "both"
+            elif request.form.get('audio'):
+                contentType = "audio"
+            elif request.form.get('videos'):
+                contentType = "video"
             else:
-                videosOnly = False
+                contentType = "none"
             user = request.form['username']
             search_user = user
             numrows = int(request.form['numrows'])
@@ -228,10 +232,10 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances, startoffset, fromdate, todate, videosOnly
+        global user, numrows, performances, startoffset, fromdate, todate, contentType
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,videosOnly)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,contentType)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 

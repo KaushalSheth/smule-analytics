@@ -59,7 +59,7 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
     return message
 
 # Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
-def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',videosOnly=False):
+def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',contentType="both"):
     ensembleList = []
 
     try:
@@ -74,7 +74,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,videosOnly=videosOnly)
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,contentType=contentType)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
@@ -87,7 +87,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
     return ensembleList
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',videosOnly=False):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',contentType="both"):
     performanceList = []
     stop = False
     i = n
@@ -118,6 +118,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             ct = "invite"
             # If filterType is Invites, only include the invites that are still open - skip invites where perf_status = "e" (expired)
             if filterType == "invites" and perfStatus == "e":
+                # We are now including everything, so technically, this IF block can be removed - leaving it in just so we can easily flip it if needed for a specific use case
                 #continue
                 pass
         elif filterType == "ensembles" or filterType == "invites":
@@ -126,8 +127,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If created_at is less than the mindate, don't include include it in the performance list, unless it is an ensemble (invite)
         if ((created_at < mindate) and (not ct == "invite")):
             continue
-        # Check videosOnly flag and skip everything else if needed
-        if videosOnly and (performance["type"] != "video"):
+        # Check contentType and skip content if needed - either contentType must be set to "both" or the performance type should be the same as the contentType specified
+        if (contentType == "both") or (performance["type"] == contentType):
+            pass
+        else:
             continue
         i += 1
         # If we're processing ensembles, the parent title will be passed in, so use that to override the performance title because ensemble titles strip out special characters
@@ -222,7 +225,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
         # If ct is "invite" then process the joins and append to the performance list
         if ct == "invite":
-            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,videosOnly=videosOnly)
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,contentType=contentType)
             # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
             if filterType == "invites":
                 for j in ensembleList:
@@ -254,7 +257,7 @@ def fetchFileTitleMappings(filename):
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
-def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',videosOnly=False):
+def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',contentType="both"):
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
     next_offset = startoffset
@@ -276,7 +279,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
-        print(f"======== {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
+        print(f"======== {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
         # Get the next batch of results from Smule
         if type == "ensembles" or type == "invites":
             fetchType = "performances"
@@ -285,7 +288,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
         performances = getJSON(username,fetchType,next_offset)
         for performance in performances['list']:
             last_created_date = performance['created_at']
-        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,videosOnly=videosOnly)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,contentType=contentType)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
         stop = responseList[0]
@@ -303,12 +306,10 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
 # Download the specified web_url to the filename specified; return 1 if downloaded or 0 if failed/exists
 def downloadSong(web_url,baseFolder,file,performance):
     # Construct full path to filename
+    filename = baseFolder + file
+    # For videos, replace the last character of the filename (extension) from "a" to "v"
     if performance["type"] == "video":
-        filename = baseFolder + "video/" + file
-        # Also replace the last character of the filename (extension) from "a" to "v"
         filename = filename[:-1] + "v"
-    else:
-        filename = baseFolder + file
     # Print filename
     print("========================")
     print(filename)
@@ -341,7 +342,7 @@ def downloadSong(web_url,baseFolder,file,performance):
             f.close()
     except:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
-        raise
+        #raise
         return 0
 
     try:
