@@ -248,10 +248,10 @@ def fetchFileTitleMappings(filename):
     # First, load the data into a list and sort it by length of the first column
     f = open(filename,'r')
     fc = csv.reader(f,delimiter="|")
-    sfc = sorted(fc, key = lambda row: len(row[0]))
+    sfc = sorted(fc, key = lambda row: len(row[1]))
     # Next, loop through the sorted list and build the dict
     for row in sfc:
-        titleMappings[row[0]] = row[1]
+        titleMappings[row[1]] = row[0]
     return titleMappings
 
 # Method to fetch performances for the specific user upto the max specified
