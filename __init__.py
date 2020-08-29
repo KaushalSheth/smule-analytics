@@ -335,7 +335,7 @@ def create_app(test_config=None):
     # Method to download the performance to local disk
     @app.route('/download_performance/<key>')
     def download_performance(key):
-        global performances
+        global performances, user
         # Look up the performance by key in the global list of performances
         performance = next(item for item in performances if item['key'] == key)
         # Downlod the song to /tmp (hardcoded for now)
@@ -347,12 +347,12 @@ def create_app(test_config=None):
     # Route to downlaod all performances - this could potentially be moved to the smule module
     @app.route('/download_all_performances')
     def download_all_performances():
-        global performances
+        global performances, user
         i = 0
         for performance in performances:
             # Only download joins for ensembles, not the invite itself
             if performance["create_type"] != "invite":
-                i += downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance)
+                i += downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance,user)
         retVal = f"Successfully downloaded {i} songs to /tmp"
         print(retVal)
         return retVal

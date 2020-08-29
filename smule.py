@@ -138,22 +138,24 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             fixedTitle = fix_title(performance['title'],titleMappings)
         else:
             fixedTitle = parentTitle
-        # Initialize performers to the handle of the owner, and then append the handle of the first other performer to it
+        # If possible, we want to set performers to a value other than the username we are searching for
+        # We will set the performers to either the partner (if there is any) or to the owner - whichever is not the username
         owner = performance['owner']['handle']
         owner_pic_url = performance['owner']['pic_url']
         display_user = owner
         display_pic_url = owner_pic_url
+        # Initialize performers to owner - we will overwrite it if we find a partner that is not the same as username
         performers = owner
         op = performance['other_performers']
         # TODO: If there is more than one other performer, do we wish to include in the filename?
         if len(op) > 0:
             partner = op[0]['handle']
             partner_pic_url = op[0]['pic_url']
-            performers += " and " + partner
             # If the owner is the username we are processing, switch the display user to the first other performer
             if owner == username:
                 display_user = partner
                 display_pic_url = partner_pic_url
+                performers = partner
         filename_base = f"{fixedTitle} - {performers}"
         filename = filename_base + ".m4a"
         pic_filename = filename_base + ".jpg"
@@ -304,7 +306,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     return performanceList
 
 # Download the specified web_url to the filename specified; return 1 if downloaded or 0 if failed/exists
-def downloadSong(web_url,baseFolder,file,performance):
+def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
     # For videos, replace the last character of the filename (extension) from "a" to "v"
@@ -346,16 +348,21 @@ def downloadSong(web_url,baseFolder,file,performance):
         return 0
 
     try:
+        # Calculate necessary dates
+        createdat = performance["created_at"]
+        perfdate = datetime.strptime(createdat[0:10],"%Y-%m-%d")
+        # Set the album date to the start of the week on which the song was created
+        albumdate = (perfdate - timedelta(days=perfdate.weekday())).strftime("%Y-%m-%d")
+        albumyear = createdat[0:4]
         # Write the tags for the M4A file
         af = MP4(filename)
         af["\xa9nam"] = performance["fixed_title"]
         af["\xa9ART"] = performance["performers"]
-        # Android seems to have a bug where wrong art is displayed is "Album" tag is empty so set it to "Smule" followed by current date
-        today = date.today().strftime('%Y%m%d')
-        af["\xa9alb"] = f"Smule - {today}"
-        thisyear = date.today().strftime('%Y')
-        af["\xa9day"] = f"{thisyear}"
-        createdat = performance["created_at"]
+        # Set Album Artist to the username we searched for
+        af["aART"] = username
+        # Android seems to have a bug where wrong art is displayed if "Album" tag is empty so set it to "Smule" followed by current date
+        af["\xa9alb"] = f"Smule - {albumdate}"
+        af["\xa9day"] = f"{albumyear}"
         af["purd"] = createdat
         af["\xa9cmt"] = f"Performed on {createdat}"
 
