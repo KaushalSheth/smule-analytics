@@ -73,3 +73,9 @@ class TitleMapping(db.Model):
     mapped_title = db.Column(db.String(100), nullable=False)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class SongList(db.Model):
+    list_type = db.Column(db.String(100), primary_key=True)
+    fixed_title = db.Column(db.String(100), primary_key=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

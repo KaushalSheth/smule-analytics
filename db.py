@@ -166,7 +166,7 @@ def fethLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
 def fetchInviteAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
     global analytics
     analytics = []
-    sqlquery = f"select * from my_invite_analysis"
+    sqlquery = f"select * from my_invite_analysis where fixed_title not in (select fixed_title from song_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')"
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
     for r in result:
