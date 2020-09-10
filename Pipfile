@@ -8,7 +8,7 @@ python-dotenv = "*"
 
 [packages]
 flask = "*"
-psycopg2-binary = "*"
+psycopg2-binary = "2.8.5"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 python-dotenv = "*"
@@ -24,6 +24,7 @@ matplotlib = "*"
 descartes = "*"
 libmagic = "*"
 mutagen = "*"
+requests-html = "*"
 
 [requires]
 python_version = "3.7"

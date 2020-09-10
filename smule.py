@@ -4,8 +4,10 @@ import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta
 from datetime import datetime, timedelta, date
+from requests_html import HTMLSession, AsyncHTMLSession
+import asyncio
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 
@@ -17,6 +19,24 @@ def getJSON(username,type="performances",offset=0):
         data = json.loads(url.read())
 
     return data
+
+# Method to get comments for specified recording
+def getComments(web_url):
+    print(web_url)
+    commentStr = ""
+    session = HTMLSession()
+    # Get the HTML and render it (apply javascript)
+    r = session.get(web_url)
+    r.html.render()
+    # Get list of users, comments and time of comment (offset from current time)
+    usersList = r.html.find('._iap8hd')
+    commentsList = r.html.find('._1822wnk')
+    timeList = r.html.find('._1gqeov3')
+    # Loop through the list and construct comment string (pipe-delimited columns, semi-colon separated lines)
+    for i in range(0,len(commentsList)):
+        commentStr += f"{timeList[i].text}|{usersList[i].text}|{commentsList[i].text};\n"
+    print(commentStr)
+    return commentStr.strip(";\n")
 
 # Method to crawl favorites for the specified user
 # This method assumes a list of performances is already queried and loops through the partners and fetches their favorites and saves them to DB

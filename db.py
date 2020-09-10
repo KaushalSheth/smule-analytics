@@ -12,6 +12,34 @@ def fetchDBTitleMappings():
         titleMappings[r['smule_title']] = r['mapped_title']
     return titleMappings
 
+# Calculate and return date difference
+def dateDelta(input_date,deltaStr,deltaOp='+'):
+    calc_date = null
+    # First, separate the numeric and non-numeric portion of string to determine hour, day, month or year
+    deltaNum = ""
+    period = ""
+    for c in deltaStr:
+        if not c.isdigit:
+            period += c
+        else:
+            deltaNum += c
+    # Fix the periods to valid postgres values
+    if period == "h":
+        period = "hour"
+    elif period == "d":
+        period = "day"
+    elif period == "mo":
+        period = "month"
+    elif period == "yr":
+        period = "year"
+    # Build the query and execute it to get the result
+    query = f"select '{input_date}'::timestamp {deltaOp} '{deltaNum} {period}' as calc_date"
+    result = db.session.execute(query)
+    for r in result:
+        calc_date = r['calc_date']
+    # Return the calculated date
+    return calc_date
+
 # Method to fix DB Titles using title Mappings
 def fixDBTitles(titleMappings):
     fixCount = 0

@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings
+from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings, getComments
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fethLongevityAnalytics, fetchInviteAnalytics, fixDBTitles
 from datetime import datetime
 
@@ -46,7 +46,7 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline, contentType
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline, contentType, comments, weburl
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
@@ -55,6 +55,10 @@ def create_app(test_config=None):
                 offline = True
             else:
                 offline = False
+            if request.form.get('comments'):
+                comments = True
+            else:
+                comments = False
             if request.form.get('audio') and request.form.get('videos'):
                 contentType = "both"
             elif request.form.get('audio'):
@@ -69,6 +73,7 @@ def create_app(test_config=None):
             startoffset = int(request.form['startoffset'])
             fromdate = request.form['fromdate']
             todate = request.form['todate']
+            weburl = request.form['weburl']
             error = None
             searchtype = 'PERFORMANCES'
 
@@ -94,6 +99,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_db_performances'))
                 elif request.form['btn'] == 'Fix Titles':
                     return redirect(url_for('fix_db_titles'))
+                elif request.form['btn'] == 'Get Comments':
+                    return redirect(url_for('get_comments'))
                 else:
                     error = "Invalid selection"
 
@@ -299,7 +306,16 @@ def create_app(test_config=None):
         flash(f"{fixCount} titles fixed in database")
         return redirect(url_for('search'))
 
-    # Thsi method allows us to take various actions on the list of performances displayed
+    # This gets the comments for the specified web url
+    @app.route('/get_comments')
+    def get_comments():
+        global weburl
+        # Load global variable for title mappings from file
+        commentStr = getComments(weburl)
+        flash(f"{commentStr}")
+        return redirect(url_for('search'))
+
+    # This method allows us to take various actions on the list of performances displayed
     @app.route('/submit_performances', methods=('GET','POST'))
     def submit_performances():
         global user, performances

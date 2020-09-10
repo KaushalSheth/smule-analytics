@@ -107,6 +107,7 @@ Acchha Ji Main Haari|Accha Ji Main Haari Chalo
 Acchha Ji Main Haari|Acha Ji Main Haarichalomaan Jao Na
 Acchha Ji Main Haari|Achha Ji Main Haari
 Acchha Ji Main Haari|Dsj Achha Ji Main Haari
+Acchha Ji Main Haari|Achha Ji Main Haari Cholo
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -131,14 +132,17 @@ Ae Mere Humsafar|Ae Mere Humsafar Aye
 Ae Mere Humsafar|Aye Mere Humsafar Hum Safar
 Ae Mere Humsafar|Aye Mere Humsafar
 Ae Mere Humsafar|𝔖𝐡𝐨𝐫𝐭 Aye Mere Humsafar
+Ae Mere Humsafar|Ayeae Mere Humsafar
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
 Ae Meri Zohra Jabeen|Ae Meri Zohra Zabeen
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le Take
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagaa Le
+Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagale
 Aesis Membership Audition|Aesis Membership Audition
 Agar Tum Na Hote|Agar Tum Na Hote
+Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
 Agar Tum Saath Ho|Agar Tumsaath_Ho_
@@ -467,9 +471,11 @@ Gaata Rahe Mera Dil|Gata Rahe Mera Dil
 Gerua|Gerua
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Amaal Mallik
+Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Se Nikalte Hi
 Ghazab Ka Hai Din|Gajab Ka Hai Din
 Ghazab Ka Hai Din|Gazab Ka Hai Din
 Ghazab Ka Hai Din|Ghazab Ka Hai Din
+Ghungroo Ki Tarah|Ghungrookitarah
 Give Me Some Sunshine|Give Me Some Sunshine
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada Pyara
@@ -544,6 +550,7 @@ Humein Tumse Pyaar Kitna|Humein Tumse Pyaar Kitna
 Humein Tumse Pyaar Kitna|Humein Tumse Pyaar Kitna
 Humein Tumse Pyaar Kitna|Humein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Newhumein Tumse Pyar Kitna
+Humein Tumse Pyaar Kitna|Humetumse Pyar Pyaar Kitna
 Humko Hamise Chura Lo|Humko Hamise Chura
 Humko Hamise Chura Lo|Humko Hamise Chura Chura
 Humko Hamise Chura Lo|Humko Hamise Chura Lo
@@ -593,6 +600,9 @@ Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai ᵁᴺᵂᴵᴺd
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaduhai Nasha Hai Nasha
 Jaadu Hai Nasha Hai|Part Jaadu Hai Nasha Hai
+Jaaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
+Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jayenge
+Jaaiye Aap Kaha Jayenge|Jaaiye Aap Kahan Jayenge
 Jaan Pehchan Ho|Jaan Pehchan Ho
 Jaanam Dekh Lo|Drjaanam Dekhlo Mit Gayi
 Jaanam Dekh Lo|Jaanam Dekh Lo
@@ -657,20 +667,20 @@ Jab Koi Baat Bigad Jaaye|Jab_Koibaat_Bigadjaaye
 Jab Koi Baat Bigad Jaaye|Jab Koibaat Bigaaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Baat Bigad Jaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Baat Bigadjaaye_
+Jab Koi Baat Bigad Jaaye|Jab Koi Baat Bigar Jae
 Jabse Tere Naina|Jab Se Tere Naina
 Jabse Tere Naina|Jab Se Tere Naina Saawariya
 Jabse Tere Naina|Jabse Tere Naina
 Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
 Jahan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
-Jaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
-Jaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jayenge
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
 Janam Dekh Lo|Janam Dekh Lo Udit Narayan
 Janam Dekh Lo|Janam Dekhlo Mit
 Jawani Jaaneman|Jawani Jaaneman
 Jawani Jaaneman|Jawani Jaaneman Haseen Dilruba
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
+Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Par
 Jee Le Zaraa|Jee Le Zaraa
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
@@ -680,7 +690,9 @@ Jhumka Gira Re|Jhoomka Gira Re
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jitni Dafa|°Jitni Dafa°
 Jitni Dafa|Jitni Dafa Dekhu Tumhe
+Jitni Dafa|Jitni Dafa Dafa
 Jiya Beqarar Hai|Jiya Beqarar Hai
+Jiya Re|Jiya Re
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -695,6 +707,7 @@ Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Kabhie Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
+Kabhi Kabhi|Kabhi Kabhi Mere Dil
 Kabira|Kabira
 Kabke Bichde Hue Aaj|Kabke Bice Hue Aaj
 Kahin Door Jab Din Dhal Jaye|Kahin Door Jab Din Dhal Jaye
@@ -831,6 +844,7 @@ Main Duniya Bhula Doonga|Main Duniya Bhula Dunga
 Main Duniya Bhula Doonga|Main Duniya Bhula Dungi Female Cove
 Main Duniya Bhula Doonga|Mainduniya Duniya Bhula
 Main Duniya Bhula Doonga|Mᴀɪɴ Dᴜɴɪʏᴀ Bhula Doonga
+Main Duniya Bhula Doonga|Mainduniya Bhula
 Main Hoon Na|H Qmainhoon Na, Main Hoo Na Main Hoo Na
 Main Hoon Na|Main Hoo Na>> Main
 Main Hoon Na|Main Hoon Na
@@ -873,6 +887,7 @@ Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
 Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai
+Mera Dil Bhi Kitna|Mera Dil Bhi
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Naam Chin Chin Chu|Mera Naam Chin Chin Chu
 Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
@@ -914,6 +929,7 @@ Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaagedum Laga Ke Haisha
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
+Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
 Mujhe Neend Na Aaye|Mujhe Neend Na
@@ -1090,6 +1106,7 @@ Raat Ke Humsafar|H D Raat Ke Humsafar
 Raat Ke Humsafar|Raat Ke Humsafar
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke Ke
 Raat Ke Humsafar|Raatke Humsafar
+Raat Ke Humsafar|Raat Ke Humsafaran Evening In Paris
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Raja Ko Rani Se|Raja Ko Rani Se
@@ -1248,6 +1265,7 @@ Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mere Hothon Pe|Tere Mere Hothon Pe
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Ye Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
+Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek Rang Hai
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek Rang Hain
@@ -1312,6 +1330,8 @@ Tu Tu Hai Wahi|Tu Tu Hai Wahi ( Shot Karaoke
 Tu Tu Hai Wahi|Tu Tu Hai Wahi Clean Shot
 Tu Tu Hai Wahi|Tu Tu Hai Wahi The Unwind Mix
 Tu Tu Hai Wahi|Tu Tu Hai Wohi The Unwind Mix
+Tu Tu Hai Wahi|Tu Tu Hai Wohi
+Tu Tu Hai Wahi|Tu Tu Hain Wahi
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai
@@ -1411,9 +1431,11 @@ Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Vaaste|Vaaste
 Vaaste|Vaste
-Wada Kar Le Saajna|Dsj Wada Kar Le Saajna
-Wada Kar Le Saajna|Wada Karle Saajna
-Wada Kar Le Saajna|Wada Karle Wada Karle
+Wada Karle Saajna|Wada Kar Le Saajna
+Wada Karle Saajna|Dsj Wada Kar Le Saajna
+Wada Karle Saajna|Wada Karle Saajna
+Wada Karle Saajna|Wada Karle Wada Karle
+Wada Karle Saajna|Wada Karle
 Wada Raha Sanam|Wada Raha Sanam
 Wanted|Wanted
 Waqt Ne Kiya|Waqt Ne Kiya
@@ -1459,6 +1481,7 @@ Yeh Jeevan Hai|Yeh Jeevan Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat
+Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Kaali Kaali Aankhen|Ye Kaali Kaali Aankhen
 Yeh Kaali Kaali Aankhen|Ye Kaali Kaali Ankhen
 Yeh Kaali Kaali Aankhen|Ye Kali Kali Ankhein
@@ -1476,6 +1499,7 @@ Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Dil|Ye Mera Dil
+Yeh Mera Dil|Yeh Mera Dil Don
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed Rafi
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padh Kar
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padhkar
@@ -1525,6 +1549,7 @@ Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main(Kara
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon(Kara
 Zara Zara Bahekta Hai|Zara Zara
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai
+Zara Zara Bahekta Hai|Zara Behekta Hai
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhana
@@ -1539,4 +1564,5 @@ Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
 Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka
 Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka Geet Hai
 Zindagi Pyar Ka Geet Hai|Zindagi Pyaar Ka Geet Hai
+Zindagi Pyar Ka Geet Hai|Newzindagi Pyar Ka Geet Hai
 Zoobi Doobi|Zoobi Doobi

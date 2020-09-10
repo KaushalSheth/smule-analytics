@@ -4,20 +4,21 @@
 
 <div class="columns is-desktop">
   <div class="column"></div>
-  <div class="column is-half-desktop">
-    <h2 class="is-size-3">Search</h2>
 
     <form method="post" action="{{ url_for('search') }}">
-      <div class="field">
-        <label class="label" for="offline"></label>
+      <div class="field is-grouped">
+        <label class="label" for="checkboxes"></label>
         <div class="control">
-          <input name="offline" type="checkbox" checked>&nbsp;Offline Access</input>
+            <input name="offline" type="checkbox" checked>&nbsp;Offline Access</input>
         </div>
         <div class="control">
-          <input name="videos" type="checkbox" checked>&nbsp;Include Video Content</input>
+            <input name="comments" type="checkbox">&nbsp;Include Comments</input>
         </div>
         <div class="control">
-          <input name="audio" type="checkbox" checked>&nbsp;Include Audio Content</input>
+            <input name="videos" type="checkbox" checked>&nbsp;Include Video Content</input>
+        </div>
+        <div class="control">
+            <input name="audio" type="checkbox" checked>&nbsp;Include Audio Content</input>
         </div>
       </div>
 
@@ -76,8 +77,19 @@
           <input type="submit" name="btn" value="Fix Titles" class="button is-link" />
         </div>
       </div>
+
+      <div class="field is-grouped">
+        <label class="label" for="weburl">Web URL</label>
+        <div class="control">
+          <input name="weburl" value="" type="input" class="input"></input>
+        </div>
+        <div class="control">
+          <input type="submit" name="btn" value="Get Comments" class="button is-link" />
+        </div>
+      </div>
+
+
     </form>
-  </div>
   <div class="column"></div>
 </div>
 
