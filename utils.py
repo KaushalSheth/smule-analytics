@@ -87,6 +87,8 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('(SHORT HD)','[SHORT]').\
                 replace('-SHORT','[SHORT]').\
                 replace('SHORT-','[SHORT]').\
+                replace('`SHORT`','[SHORT]').\
+                replace('S H O R T','[SHORT]').\
                 replace('[SSSF-SHORT]','[SHORT]').\
                 replace('SHORTNSWEET','[SHORT]').\
                 replace('{{SHORT}}','[SHORT]').\

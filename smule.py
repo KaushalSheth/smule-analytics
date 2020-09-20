@@ -125,6 +125,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             break
         created_at = performance['created_at']
         web_url = f"https://www.smule.com{performance['web_url']}"
+        print(web_url)
         # As soon as created_at is less than the ensemble min date, break out of the loop
         if created_at < ensembleMinDate:
             stop = True
@@ -187,13 +188,19 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             shortInd = "N"
         # Truncate web_url to 300 characters to avoid DB error when saving
         web_url = web_url[:300]
-        # It seems like sometimes orig_track_city is not present - in this case set the city and country to Unknown
+        # It seems like sometimes orig_track_city and few other values are not present - in this case set the them to Unknown
         try:
             orig_track_city = performance['orig_track_city']['city']
             orig_track_country = performance['orig_track_city']['country']
         except:
             orig_track_city = "Unknown"
             orig_track_country = "Unknown"
+        try:
+            owner_lat = performance['owner']['lat']
+            owner_lon = performance['owner']['lon']
+        except:
+            owner_lat = "0.00"
+            owner_lon = "0.00"
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -226,8 +233,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'owner_pic_url':owner_pic_url,\
                 'display_handle':display_user,\
                 'display_pic_url':display_pic_url,\
-                'owner_lat':performance['owner']['lat'],\
-                'owner_lon':performance['owner']['lon'],\
+                'owner_lat':owner_lat,\
+                'owner_lon':owner_lon,\
                 'filename':filename,\
                 'other_performers':op,\
                 'performers':performers,\
