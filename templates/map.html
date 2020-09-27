@@ -21,8 +21,11 @@
 
     var markers = L.markerClusterGroup();
     {% for performance in performances %}
-    //markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip("<strong>{{ performance.owner_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}</strong>"));
-    markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.display_pic_url}}" height="120" width="80"><br>{{ performance.display_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}'));
+        // Only display performances that are not invites
+        {% if performance.create_type != "invite" %}
+            //markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip("<strong>{{ performance.owner_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}</strong>"));
+            markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.display_pic_url}}" height="120" width="80"><br>{{ performance.display_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}'));
+        {% endif %}
     {% endfor %}
     map.addLayer(markers);
 
