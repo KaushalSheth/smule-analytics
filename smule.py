@@ -14,7 +14,7 @@ DATEFORMAT = '%Y-%m-%dT%H:%M'
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
     urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
-    print(urlstring)
+    #print(urlstring)
     with request.urlopen(urlstring) as url:
         data = json.loads(url.read())
 
@@ -125,7 +125,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             break
         created_at = performance['created_at']
         web_url = f"https://www.smule.com{performance['web_url']}"
-        print(web_url)
+        #print(web_url)
         # As soon as created_at is less than the ensemble min date, break out of the loop
         if created_at < ensembleMinDate:
             stop = True
