@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings, getComments
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fethLongevityAnalytics, fetchInviteAnalytics, fixDBTitles
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fetchLongevityAnalytics, fetchInviteAnalytics, fixDBTitles, fetchRepeatAnalytics
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -158,6 +158,9 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Invite':
                     analyticslabel = "Song Name"
                     return redirect(url_for('query_invite_analysis'))
+                elif request.form['btn'] == 'Repeat':
+                    analyticslabel = "Song Name"
+                    return redirect(url_for('query_repeat_analysis'))
                 else:
                     error = "Invalid selection"
 
@@ -185,9 +188,19 @@ def create_app(test_config=None):
         global user, fromdate, todate, analytics
         # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
-        analytics = fethLongevityAnalytics(user,fromdate,todate)
+        analytics = fetchLongevityAnalytics(user,fromdate,todate)
         flash(f"{len(analytics)} titles fetched from database")
         return redirect(url_for('analytics_longevity'))
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/query_repeat_analysis')
+    def query_repeat_analysis():
+        global user, fromdate, todate, analytics
+        # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
+        analytics = fetchRepeatAnalytics(user,fromdate,todate)
+        flash(f"{len(analytics)} titles fetched from database")
+        return redirect(url_for('analytics_repeat'))
 
     # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_title_counts')
@@ -208,6 +221,13 @@ def create_app(test_config=None):
         analytics = fetchDBAnalytics("partner_name",user,fromdate,todate)
         flash(f"{len(analytics)} partners fetched from database")
         return redirect(url_for('analytics_output'))
+
+    # Route for displaying repeat analytics using global variable
+    @app.route('/analytics_repeat')
+    def analytics_repeat():
+        global analytics, user, currtime, analyticslabel
+        # This assumes that the analytics global variable is set by the time we get here
+        return render_template('analytics_repeat.html', analytics=analytics, user=user, currtime=currtime)
 
     # Route for displaying longevity analytics using global variable
     @app.route('/analytics_longevity')

@@ -132,27 +132,36 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
     global analytics
     analytics = []
     if groupbycolumn == "partner_name":
-        othercolumn = "fixed_title"
+        selcol = "performers"
+        listcol = "fixed_title"
     else:
-        othercolumn = "partner_name"
+        selcol = "fixed_title"
+        listcol = "performers"
+
+    joinClause = f"""
+        inner join (
+            select {selcol},{listcol},lpad(count(*)::varchar,2,'0') || '-' || {listcol} as list_col, count(*) as num_performances
+            from my_performances
+            group by 1,2
+            ) grp on grp.{selcol} = p.{selcol} and grp.{listcol} = p.{listcol}
+            """
 
     # Build appropriate query
     # Start with the base query
     sqlquery = f"""
-        select  case when {groupbycolumn} != '{username}' then {groupbycolumn} else owner_handle end as group_by_column,
+        select  grp.{selcol} as group_by_column,
                 count(*) as count_all_time,
                 count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
                 count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
                 count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
                 count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older,
-                string_agg(distinct case when {othercolumn} != '{username}' then {othercolumn} else owner_handle end,', ') as join_list
-        from all_performances
-        where created_at between '{fromdate}' and '{todate}'
-        and (owner_handle = '{username}' or partner_name = '{username}')
+                string_agg(distinct grp.list_col,', 'order by grp.list_col desc) as join_list
+        from my_performances p {joinClause}
+        where p.created_at between '{fromdate}' and '{todate}'
         """
     # Append GROUP BY/ORDER BY clause
     sqlquery += " group by 1 order by 4 desc, 2 desc"
-
+    print(sqlquery)
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
     for r in result:
@@ -164,7 +173,7 @@ def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-0
     return analytics
 
 # Method to query longevity analytics
-def fethLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
+def fetchLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
     global analytics
     analytics = []
     sqlquery = f"""
@@ -179,6 +188,29 @@ def fethLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
         where created_at between '{fromdate}' and '{todate}'
         and (owner_handle = '{username}' or partner_name = '{username}')
         group by 1 order by 4,3 desc
+        """
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        # Add the keys to the dict that are not saved to the DB but used for other processing
+        analytics.append(d)
+
+    return analytics
+
+# Method to query longevity analytics
+def fetchRepeatAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
+    global analytics
+    analytics = []
+    sqlquery = f"""
+        select  performers as main_performer, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
+        from    my_performances
+        where   created_at between '{fromdate}' and '{todate}'
+        and     performers != '{username}'
+        group by 1,2
+        having count(*) > 1
+        order by 3 desc
         """
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)

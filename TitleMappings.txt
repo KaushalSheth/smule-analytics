@@ -359,9 +359,12 @@ Deewana Hua Baadal|Deewana Hua Badal Kashmir Ki Kali
 Deewana Hua Baadal|Deewana Hua Badal Pallavi
 Deewana Hua Baadal|Diwana Hua Badal
 Deewani Mastani|Deewani Mastani
-Dekha Ek Khwaab To Yeh Silsile|Dekha Ek Khwaab To Yeh Silsile
-Dekha Ek Khwaab To Yeh Silsile|Dekha Ek Khwaab To Yeh Silsile Hue
-Dekha Ek Khwaab To Yeh Silsile|Dekha Ek Khwaab To Yeh Silsile I
+Dekha Ek Khwaab To|Dekha Ek Khwaab To
+Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile
+Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile Hue
+Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile I
+Dekha Ek Khwaab To|Dekha Ek Khwab
+Dekha Ek Khwaab To|Dekha Ek Khwaab Khwab
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
 Dekha Hazaro Dafaa|Dekha Hazaro Dafa
@@ -698,6 +701,7 @@ Jaane Kaise Kab Kaha|Jane Kaise Kab Kaha
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
 Jaane Kya Tune Kahi|Jaane Kyaa Toone Kahi
+Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyu Log Pyaar Karte Hai
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyu Log Pyar Karte Hain
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyaar
@@ -1043,6 +1047,7 @@ Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaagedum Laga Ke Haisha
 Moh Moh Ke Dhaage|Moh Moh Ke Dhagedum Laga Ke Haisha
+Moh Moh Ke Dhaage|Moh Moh Ke Dhage
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
