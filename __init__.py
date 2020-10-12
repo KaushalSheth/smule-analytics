@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings, getComments
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fetchLongevityAnalytics, fetchInviteAnalytics, fixDBTitles, fetchRepeatAnalytics
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -131,7 +131,7 @@ def create_app(test_config=None):
     # The Analytics page allows you to choose one of the analytics "reports" you wish to display
     @app.route('/analytics', methods=('GET','POST'))
     def analytics():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticslabel
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticstitle
         update_currtime()
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
@@ -144,25 +144,11 @@ def create_app(test_config=None):
             if not user:
                 error = "Username is required."
 
-            # Depending on which button was clicked, take the appropriate action
+            analyticstitle = request.form['btn']
+
+            # If no errors on page, query analytics
             if error is None:
-                if request.form['btn'] == 'Title Counts':
-                    analyticslabel = "Song Name"
-                    return redirect(url_for('query_title_counts'))
-                elif request.form['btn'] == 'Partner Counts':
-                    analyticslabel = "Partner Username"
-                    return redirect(url_for('query_partner_counts'))
-                elif request.form['btn'] == 'Longevity':
-                    analyticslabel = "Song Name"
-                    return redirect(url_for('query_longevity'))
-                elif request.form['btn'] == 'Invite':
-                    analyticslabel = "Song Name"
-                    return redirect(url_for('query_invite_analysis'))
-                elif request.form['btn'] == 'Repeat':
-                    analyticslabel = "Song Name"
-                    return redirect(url_for('query_repeat_analysis'))
-                else:
-                    error = "Invalid selection"
+                return redirect(url_for('query_analytics'))
 
             # If any errors were detected during the post, disaply the erorr message
             flash(error, 'error')
@@ -173,82 +159,21 @@ def create_app(test_config=None):
         return render_template('analytics_choice.html')
 
     # This method queries the DB for title analytics using the relevant global variables
-    @app.route('/query_invite_analysis')
-    def query_invite_analysis():
-        global user, fromdate, todate, analytics
+    @app.route('/query_analytics')
+    def query_analytics():
+        global user, fromdate, todate, analytics, headings, analyticstitle
         # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
-        analytics = fetchInviteAnalytics(user,fromdate,todate)
-        flash(f"{len(analytics)} titles fetched from database")
-        return redirect(url_for('analytics_invite'))
-
-    # This method queries the DB for title analytics using the relevant global variables
-    @app.route('/query_longevity')
-    def query_longevity():
-        global user, fromdate, todate, analytics
-        # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
-        # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
-        analytics = fetchLongevityAnalytics(user,fromdate,todate)
-        flash(f"{len(analytics)} titles fetched from database")
-        return redirect(url_for('analytics_longevity'))
-
-    # This method queries the DB for title analytics using the relevant global variables
-    @app.route('/query_repeat_analysis')
-    def query_repeat_analysis():
-        global user, fromdate, todate, analytics
-        # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
-        # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
-        analytics = fetchRepeatAnalytics(user,fromdate,todate)
-        flash(f"{len(analytics)} titles fetched from database")
-        return redirect(url_for('analytics_repeat'))
-
-    # This method queries the DB for title analytics using the relevant global variables
-    @app.route('/query_title_counts')
-    def query_title_counts():
-        global user, fromdate, todate, analytics
-        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
-        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        analytics = fetchDBAnalytics("fixed_title",user,fromdate,todate)
-        flash(f"{len(analytics)} titles fetched from database")
+        headings,analytics = fetchDBAnalytics(analyticstitle,user,fromdate,todate)
+        flash(f"{len(analytics)} rows fetched from database")
         return redirect(url_for('analytics_output'))
 
-    # This method queries the DB for partner analytics using the relevant global variables
-    @app.route('/query_partner_counts')
-    def query_partner_counts():
-        global user, fromdate, todate, analytics
-        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
-        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        analytics = fetchDBAnalytics("partner_name",user,fromdate,todate)
-        flash(f"{len(analytics)} partners fetched from database")
-        return redirect(url_for('analytics_output'))
-
-    # Route for displaying repeat analytics using global variable
-    @app.route('/analytics_repeat')
-    def analytics_repeat():
-        global analytics, user, currtime, analyticslabel
-        # This assumes that the analytics global variable is set by the time we get here
-        return render_template('analytics_repeat.html', analytics=analytics, user=user, currtime=currtime)
-
-    # Route for displaying longevity analytics using global variable
-    @app.route('/analytics_longevity')
-    def analytics_longevity():
-        global analytics, user, currtime, analyticslabel
-        # This assumes that the analytics global variable is set by the time we get here
-        return render_template('analytics_longevity.html', analytics=analytics, user=user, currtime=currtime)
-
-    # Route for displaying invite analytics using global variable
-    @app.route('/analytics_invite')
-    def analytics_invite():
-        global analytics, user, currtime, analyticslabel
-        # This assumes that the analytics global variable is set by the time we get here
-        return render_template('analytics_invite.html', analytics=analytics, user=user, currtime=currtime)
-
-    # Generic route for displaying performances using global variable
+    # Generic route for displaying analytics using global variables
     @app.route('/analytics_output')
     def analytics_output():
-        global analytics, user, currtime, analyticslabel
+        global analytics, user, currtime, headings, analyticstitle
         # This assumes that the analytics global variable is set by the time we get here
-        return render_template('analytics_output.html', analytics=analytics, user=user, currtime=currtime, analyticslabel=analyticslabel)
+        return render_template('analytics_output.html', headings=headings, analytics=analytics, user=user, currtime=currtime, analyticstitle=analyticstitle)
 
     # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
     @app.route('/crawl_favorites/<username>')

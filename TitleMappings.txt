@@ -218,6 +218,7 @@ Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
 Babuji Dheere Chalna|Babuji Dheere Chalna
 Bachna Ae Haseeno|Bachna Ai Hasino
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
+Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
 Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Baharon Phool Barsao|Baharon Phool Barsao
@@ -246,6 +247,7 @@ Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bheege Hoth Tere|Bheege Hoth Tere_Fth
 Bheege Hoth Tere|Bheege Hoth Tere_Fth___
 Bholi Si Surat|Bholi Si Surat
+Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bole Chudiyan|Bole Chudiy
@@ -253,21 +255,22 @@ Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
 Can't Help Falling In Love|Can't Help Falling In Love
 Can't Help Falling In Love|Can'T Help Falling In Love
+Chaahun Main Ya Na|>> Chahun Main Ya Na
+Chaahun Main Ya Na|Chahu Main Ya Na
+Chaahun Main Ya Na|Chahu Main Ya Na U
+Chaahun Main Ya Na|Chahun Mai Ya Na
+Chaahun Main Ya Na|Chahun Main Ya Na
+Chaahun Main Ya Na|Chahun Main Ya Na Aashiqui2
+Chaahun Main Ya Na|Chahun Mein Ya Na
+Chaahun Main Ya Na|Chanun Main Ya Na
+Chaahun Main Ya Na|>> Chahun Main Ya Naa
+Chaahun Main Ya Na|Chahun Mai Ya Na Aashiqui2
 Chaand Mera|Chaand Mera
 Chaand Ne Kuch Kaha|Chaand Ne Kuch Kaha Karaoke
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Taare Tod Laun|Chaand Taare Tod Laun Karaoke
-Chahun Main Ya Na|>> Chahun Main Ya Na
-Chahun Main Ya Na|Chahu Main Ya Na
-Chahun Main Ya Na|Chahu Main Ya Na U
-Chahun Main Ya Na|Chahun Mai Ya Na
-Chahun Main Ya Na|Chahun Main Ya Na
-Chahun Main Ya Na|Chahun Main Ya Na Aashiqui2
-Chahun Main Ya Na|Chahun Mein Ya Na
-Chahun Main Ya Na|Chanun Main Ya Na
-Chahun Main Ya Na|>> Chahun Main Ya Naa
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
 Chala Jata Hoon|Chala Jaata Hoon Kisi Ki Dhun Me
@@ -306,6 +309,7 @@ Chhookar Mere Man Ko|Chookar Mere Man Ko
 Chhookar Mere Man Ko|Chukar Mere Man Ko
 Chhookar Mere Man Ko|Chukar Mere Manko
 Chhookar Mere Man Ko|Chukarmere Man Ko
+Chhookar Mere Man Ko|Chukar Mere Mann Ko
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chup Gaya Badli Mein
@@ -673,6 +677,7 @@ Jaanam Dekh Lo|Drjaanam Dekhlo Mit Gayi
 Jaanam Dekh Lo|Jaanam Dekh Lo
 Jaanam Dekh Lo|Janam Dekh Lo
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan
+Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondata
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondta
@@ -708,6 +713,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyaar
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyar
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte Hain
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyaar Karte Hain
+Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere
@@ -1621,6 +1627,7 @@ Yamma Yamma|Yamma Yamma
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
 Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan
+Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare Dil Kya Kare

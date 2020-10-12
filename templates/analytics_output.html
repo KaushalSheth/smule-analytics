@@ -11,26 +11,28 @@
   <table style="width:100%">
       <tbody>
           <tr>
-              <td>Analytics as of {{ currtime }}</td>
+              <td>{{ analyticstitle }} Analytics as of {{ currtime }}</td>
           </tr>
       </tbody>
   </table>
   <br>
 
   <table id="mytable" class="display" style="width:100%">
-    <thead><tr bgcolor="DarkGray"><th>{{ analyticslabel }}</th><th>All-Time Count</th><th>Last 30 Days Count</th><th>Last 90 Days Count</th><th>Last 180 Days Count</th><th>Older Than 180 Days Count</th><th>Join List</th></thead>
-    <tbody>
-      {% for row in analytics %}
-        <tr>
-          <td>{{ row.group_by_column }}</td>
-          <td>{{ row.count_all_time }}</td>
-          <td>{{ row.count_30_days }}</td>
-          <td>{{ row.count_90_days }}</td>
-          <td>{{ row.count_180_days }}</td>
-          <td>{{ row.count_older }}</td>
-          <td>{{ row.join_list }}</td>
+    <thead>
+        <tr bgcolor="DarkGray">
+            {% for h in headings %}
+            <th>{{ h }}</th>
+            {% endfor %}
         </tr>
-      {% endfor %}
+    </thead>
+    <tbody>
+        {% for row in analytics %}
+        <tr>
+            {% for v in row.values() %}
+            <td>{{ v }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
     </tbody>
   </table>
 

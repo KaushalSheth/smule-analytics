@@ -128,114 +128,107 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     return performances
 
 # Method to query title and partner analytics for a user
-def fetchDBAnalytics(groupbycolumn,username,fromdate="2018-01-01",todate="2030-01-01"):
-    global analytics
+def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-01-01"):
+    global analytics, headings
     analytics = []
-    if groupbycolumn == "partner_name":
-        selcol = "performers"
-        listcol = "fixed_title"
-    else:
-        selcol = "fixed_title"
-        listcol = "performers"
-
-    joinClause = f"""
-        inner join (
-            select {selcol},{listcol},lpad(count(*)::varchar,2,'0') || '-' || {listcol} as list_col, count(*) as num_performances
-            from my_performances
+    headings = []
+    # Build appropriate query based on analytics title passed in.  Set headings accordingly
+    if analyticstitle in ['Partner Count','Title Count']:
+        if analyticstitle == 'Partner Count':
+            headings = ['Partner','All-Time Count','Last 30 Days','Last 90 Days','Last 180 Days','Older Than 180 Days','Join List']
+            selcol = "performers"
+            listcol = "fixed_title"
+        else:
+            headings = ['Song Name','All-Time Count','Last 30 Days','Last 90 Days','Last 180 Days','Older Than 180 Days','Join List']
+            selcol = "fixed_title"
+            listcol = "performers"
+        joinClause = f"""
+            inner join (
+                select {selcol},{listcol},lpad(count(*)::varchar,2,'0') || '-' || {listcol} as list_col, count(*) as num_performances
+                from my_performances
+                group by 1,2
+                ) grp on grp.{selcol} = p.{selcol} and grp.{listcol} = p.{listcol}
+                """
+        # Build appropriate query
+        # Start with the base query
+        sqlquery = f"""
+            select  grp.{selcol} as group_by_column,
+                    count(*) as count_all_time,
+                    count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
+                    count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
+                    count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
+                    count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older,
+                    string_agg(distinct grp.list_col,', 'order by grp.list_col desc) as join_list
+            from my_performances p {joinClause}
+            where p.created_at between '{fromdate}' and '{todate}'
+            """
+        # Append GROUP BY/ORDER BY clause
+        sqlquery += " group by 1 order by 4 desc, 2 desc"
+    elif analyticstitle == 'Longevity':
+        headings = ['Song Name', 'All-Time Count', 'First Performed', 'Last Performed', 'Longevity', 'Partner Count', 'Partner List']
+        sqlquery = f"""
+            select  fixed_title,
+                    count(*) as count_all_time,
+                    min(created_at) as first_date,
+                    max(created_at) as last_date,
+                    date_part('day',max(created_at)-min(created_at)) as longevity,
+                    count(distinct case when partner_name != '{username}' then partner_name else owner_handle end) as num_partners,
+                    string_agg(distinct case when partner_name != '{username}' then partner_name else owner_handle end,', ') as join_list
+            from all_performances
+            where created_at between '{fromdate}' and '{todate}'
+            and (owner_handle = '{username}' or partner_name = '{username}')
+            group by 1 order by 4,3 desc
+            """
+    elif analyticstitle == 'Invite':
+        headings = [\
+            'Song Name', 'Total Score', 'Invite Score', 'Popularity Score', 'First Performance Score', 'Last Performance Score', \
+            '# Performances', '# Partners', '# Invites', '# Joins', 'First Performance', 'Last Performance'\
+            ]
+        sqlquery = f"""
+            select  fixed_title, total_score, invite_recency_score, popularity_score, first_performance_score,
+                    performance_recency_score, num_all_performances, num_partners, num_invites, num_joins,
+                    first_performance_time, last_performance_time
+            from    my_invite_analysis
+            where   fixed_title not in (select fixed_title from song_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
+            """
+    elif analyticstitle == 'Repeat':
+        headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
+        sqlquery = f"""
+            select  performers as main_performer, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
+            from    my_performances
+            where   created_at between '{fromdate}' and '{todate}'
+            and     performers != '{username}'
             group by 1,2
-            ) grp on grp.{selcol} = p.{selcol} and grp.{listcol} = p.{listcol}
+            having count(*) > 1
+            order by 3 desc
+            """
+    elif analyticstitle == "First Performance":
+        headings = ['Song Name','First Performance Month','First Performance Time','First Partner','# Performances','LastPerformance Time']
+        sqlquery = f"""
+            with
+            perf_stats as (
+                select  fixed_title,
+                        first_value(created_at) over w_ord as first_performance_time,
+                        first_value(performers) over w_ord as first_partner,
+                        row_number() over w_ord as rn,
+                        count(1) over w_all as num_performances,
+                        max(created_at) over w_all as last_performance_time
+                from    my_performances
+                window  w_ord as (partition by fixed_title order by created_at), w_all as (partition by fixed_title)
+                ),
+            first_perf as (select *, to_char(first_performance_time,'YYYY-MM') as first_performance_month from perf_stats where rn = 1)
+            select  fixed_title, first_performance_month, first_performance_time, first_partner, num_performances, last_performance_time
+            from    first_perf
+            where   first_performance_time between '{fromdate}' and '{todate}'
             """
 
-    # Build appropriate query
-    # Start with the base query
-    sqlquery = f"""
-        select  grp.{selcol} as group_by_column,
-                count(*) as count_all_time,
-                count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
-                count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
-                count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
-                count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older,
-                string_agg(distinct grp.list_col,', 'order by grp.list_col desc) as join_list
-        from my_performances p {joinClause}
-        where p.created_at between '{fromdate}' and '{todate}'
-        """
-    # Append GROUP BY/ORDER BY clause
-    sqlquery += " group by 1 order by 4 desc, 2 desc"
-    print(sqlquery)
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
     for r in result:
         # Convert the result row into a dict we can add to performances
         d = dict(r.items())
-        # Add the keys to the dict that are not saved to the DB but used for other processing
         analytics.append(d)
-
-    return analytics
-
-# Method to query longevity analytics
-def fetchLongevityAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
-    global analytics
-    analytics = []
-    sqlquery = f"""
-        select  fixed_title,
-                count(*) as count_all_time,
-                min(created_at) as first_date,
-                max(created_at) as last_date,
-                date_part('day',max(created_at)-min(created_at)) as longevity,
-                count(distinct case when partner_name != '{username}' then partner_name else owner_handle end) as num_partners,
-                string_agg(distinct case when partner_name != '{username}' then partner_name else owner_handle end,', ') as join_list
-        from all_performances
-        where created_at between '{fromdate}' and '{todate}'
-        and (owner_handle = '{username}' or partner_name = '{username}')
-        group by 1 order by 4,3 desc
-        """
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        # Add the keys to the dict that are not saved to the DB but used for other processing
-        analytics.append(d)
-
-    return analytics
-
-# Method to query longevity analytics
-def fetchRepeatAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
-    global analytics
-    analytics = []
-    sqlquery = f"""
-        select  performers as main_performer, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
-        from    my_performances
-        where   created_at between '{fromdate}' and '{todate}'
-        and     performers != '{username}'
-        group by 1,2
-        having count(*) > 1
-        order by 3 desc
-        """
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        # Add the keys to the dict that are not saved to the DB but used for other processing
-        analytics.append(d)
-
-    return analytics
-
-# Method to query invite analytics
-def fetchInviteAnalytics(username,fromdate="2018-01-01",todate="2030-01-01"):
-    global analytics
-    analytics = []
-    sqlquery = f"select * from my_invite_analysis where fixed_title not in (select fixed_title from song_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')"
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        # Add the keys to the dict that are not saved to the DB but used for other processing
-        analytics.append(d)
-
-    return analytics
+    return headings,analytics
 
 # Save the performances queried from Smule to the DB
 def saveDBPerformances(username,performances):
