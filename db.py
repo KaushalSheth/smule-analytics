@@ -203,7 +203,10 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
             order by 3 desc
             """
     elif analyticstitle == "First Performance":
-        headings = ['Song Name','First Performance Month','First Performance Time','First Partner','# Performances','LastPerformance Time']
+        headings = ['Song Name','First Performance Month','First Partner','# Performances',\
+            '1 Day','5 Day','10 Day','30 Day','60 Day','90 Day',\
+            'First Performance Time','LastPerformance Time'\
+            ]
         sqlquery = f"""
             with
             perf_stats as (
@@ -211,14 +214,30 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
                         first_value(created_at) over w_ord as first_performance_time,
                         first_value(performers) over w_ord as first_partner,
                         row_number() over w_ord as rn,
-                        count(1) over w_all as num_performances,
+                        count(1) over w_all as num_performances_total,
                         max(created_at) over w_all as last_performance_time
                 from    my_performances
                 window  w_ord as (partition by fixed_title order by created_at), w_all as (partition by fixed_title)
                 ),
-            first_perf as (select *, to_char(first_performance_time,'YYYY-MM') as first_performance_month from perf_stats where rn = 1)
-            select  fixed_title, first_performance_month, first_performance_time, first_partner, num_performances, last_performance_time
-            from    first_perf
+            first_perf as (select *, to_char(first_performance_time,'YYYY-MM') as first_performance_month from perf_stats where rn = 1),
+            title_stats as (
+                select  mp.fixed_title,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 1 then 1 else null end) as num_performances_1_day,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 5 then 1 else null end) as num_performances_5_day,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 10 then 1 else null end) as num_performances_10_day,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 30 then 1 else null end) as num_performances_30_day,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 60 then 1 else null end) as num_performances_60_day,
+                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 90 then 1 else null end) as num_performances_90_day
+                from    my_performances mp
+                        inner join first_perf fp on fp.fixed_title = mp.fixed_title
+                group by 1
+                )
+            select  fp.fixed_title, fp.first_performance_month, fp.first_partner, fp.num_performances_total,
+                    ts.num_performances_1_day,ts.num_performances_5_day,ts.num_performances_10_day,
+                    ts.num_performances_30_day,ts.num_performances_60_day,ts.num_performances_90_day,
+                    fp.first_performance_time, fp.last_performance_time
+            from    first_perf fp
+                    inner join title_stats ts on ts.fixed_title = fp.fixed_title
             where   first_performance_time between '{fromdate}' and '{todate}'
             """
 
