@@ -83,7 +83,28 @@ def fetchDBPerformancesOrig(username,maxperf=9999):
     return performances
 
 # Method to query performances for a user
-def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01"):
+def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
+    performers = []
+    sqlquery = f"""
+        select  p.performers, s.pic_url as display_pic_url,
+                lpad(count(*)::varchar,3,'0') || '-' || p.performers as display_handle,
+                max(p.created_at) as last_performance_time
+        from    my_performances p
+                inner join singer s on s.performed_by = p.performers
+        where   p.created_at between '{fromdate}' and '{todate}'
+        group by 1, 2
+        order by 4 desc
+        """
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        performers.append(d)
+    return performers
+
+# Method to query performances for a user
+def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01",titleMappings=[]):
     global performances
     performances = []
     i = 0
@@ -119,7 +140,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     for performance in performances:
         filename_parts = performance['filename'].split(' - ')
         #title = fix_title(filename_parts[0])
-        title = fix_title(performance['title'])
+        title = fix_title(performance['title'],titleMappings)
         performers = filename_parts[1]
         filename = f"{title} - {performers}"
         performances[i]['filename'] = filename

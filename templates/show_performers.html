@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not performers %}
+    <div class="content">
+      <p>No thumbnails found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+<table>
+  <tr>
+  {% for p in performers %}
+    <td style="text-align:center;">
+        <img src="{{p.display_pic_url}}" height="400" width="400"><br>{{p.display_handle}}
+    </td>
+    {% if loop.index % 5 == 0 %}
+        </tr>
+        <tr>
+    {% endif %}
+  {% endfor %}
+  </tr>
+</table>
+
+{% endblock %}

@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings, getComments
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -42,6 +42,20 @@ def create_app(test_config=None):
     def index():
         update_currtime()
         return render_template('index.html')
+
+    # This displays performer thumbnails using the existing performances list
+    @app.route('/show_performers')
+    def show_performers():
+        global performances
+        update_currtime()
+        return render_template('show_performers.html', performers=performances)
+
+    # This method queries the DB for performer thumbnails and basic stats
+    @app.route('/query_performers')
+    def query_performers():
+        performers = fetchDBPerformers(fromdate, todate)
+        update_currtime()
+        return render_template('show_performers.html', performers=performers)
 
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
@@ -99,6 +113,8 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search Invites':
                     searchtype = 'INVITES'
                     return redirect(url_for('query_smule_invites'))
+                elif request.form['btn'] == 'Search Performers':
+                    return redirect(url_for('query_performers'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 elif request.form['btn'] == 'Fix Titles':
@@ -237,10 +253,12 @@ def create_app(test_config=None):
     # This executes the db function to fetch performances using global variables set previously
     @app.route('/query_db_performances')
     def query_db_performances():
-        global user, numrows, performances, fromdate, todate
+        global user, numrows, performances, fromdate, todate, titleMappings
+        # Load global variable for title mappings from file
+        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate)
+        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
