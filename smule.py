@@ -14,6 +14,7 @@ DATEFORMAT = '%Y-%m-%dT%H:%M'
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
     urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+    #urlstring = f"https://205.143.41.226/{username}/{type}/json?offset={offset}"
     #print(urlstring)
     with request.urlopen(urlstring) as url:
         data = json.loads(url.read())
