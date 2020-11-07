@@ -178,7 +178,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 display_pic_url = partner_pic_url
                 performers = partner
         filename_base = f"{fixedTitle} - {performers}"
-        filename = filename_base + ".m4a"
+        # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
+        if performance['type'] == "video":
+            filename = filename_base + ".m4v"
+        else:
+            filename = filename_base + ".m4a"
         pic_filename = filename_base + ".jpg"
         # If we only want solos, skip the performance if performers is not username
         if solo and username != performers:
@@ -343,9 +347,6 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
 def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
-    # For videos, replace the last character of the filename (extension) from "a" to "v"
-    if performance["type"] == "video":
-        filename = filename[:-1] + "v"
     # Print filename
     print("========================")
     print(filename)

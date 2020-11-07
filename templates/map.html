@@ -24,7 +24,7 @@
         // Only display performances that are not invites
         {% if performance.create_type != "invite" %}
             //markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip("<strong>{{ performance.owner_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}</strong>"));
-            markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.display_pic_url}}" height="120" width="80"><br>{{ performance.display_handle }} - {{ performance.orig_track_city }} - {{ performance.title }}'));
+            markers.addLayer(L.marker([{{ performance.owner_lat }}, {{ performance.owner_lon}}]).addTo(map).bindTooltip('<img src="{{performance.display_pic_url}}" height="240" width="240"><br>{{ performance.display_handle }} - {{ performance.orig_track_city }} - {{ performance.fixed_title }}'));
         {% endif %}
     {% endfor %}
     map.addLayer(markers);
