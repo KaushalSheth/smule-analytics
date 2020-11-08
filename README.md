@@ -11,7 +11,8 @@ UPDATE: I have finally implemented the mapping feature using [Leaflet](https://l
 
 **Run PostgreSQL using a single Docker command**
 
-```docker run -d --name my_postgres -v my_dbdata:/var/lib/postgresql/data -p 5432:5432 postgres:11```
+```docker run --name my_postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -v /c/00data/postgres/data:/var/lib/postgresql/data -d postgres:11```
+```OBSOLETE: docker run -d --name my_postgres -v my_dbdata:/var/lib/postgresql/data -p 5432:5432 postgres:11```
 
 **Confirm that PostgreSQL is running**
 
