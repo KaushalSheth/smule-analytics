@@ -286,11 +286,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 def fetchFileTitleMappings(filename):
     titleMappings = {}
     # First, load the data into a list and sort it by length of the first column
-    f = open(filename,'r')
+    f = open(filename,'r',encoding='UTF-8')
     fc = csv.reader(f,delimiter="|")
     sfc = sorted(fc, key = lambda row: len(row[1]))
+    #sfc = fc
     # Next, loop through the sorted list and build the dict
     for row in sfc:
+        #print(row[1])
         titleMappings[row[1]] = row[0]
     return titleMappings
 

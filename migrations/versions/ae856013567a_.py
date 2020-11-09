@@ -25,7 +25,7 @@ def upgrade():
     sa.Column('updated_at', sa.DateTime(), server_default=sa.text('now()'), nullable=True),
     sa.PrimaryKeyConstraint('list_type', 'fixed_title')
     )
-    op.drop_table('bkp20200630_performance')
+    #op.drop_table('bkp20200630_performance')
     # ### end Alembic commands ###
 
 
