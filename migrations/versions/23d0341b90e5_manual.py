@@ -19,32 +19,6 @@ depends_on = None
 def upgrade():
     op.alter_column(table_name='performance',column_name='web_url',type_=sa.String(length=300))
     sql = """
-create or replace view my_performances as
-with performances as (
-    select  *
-    from    performance p
-    where   1 = 1
-    AND     p.key in (
-                select  ps.performance_key
-                from    performance_singer ps
-                        inner join singer s on s.account_id = ps.singer_account_id
-                where   s.performed_by = 'KaushalSheth1'
-                )
-),
-partners as (
-    select  owner_handle,
-            lpad(cast(count(*) as varchar),3,'0') || '-' || owner_handle as partner_name
-    FROM    performances
-    group by 1
-)
-select  p.*, ptr.partner_name,
-        trim(replace(substr(filename,1,position('-' in filename)-1),'[Short]', '')) as fixed_title
-from    performances p
-        inner join partners ptr on ptr.owner_handle = p.owner_handle
-"""
-    op.execute(sql)
-
-    sql = """
 CREATE OR REPLACE FUNCTION update_modified_column()
 RETURNS TRIGGER AS $$
 BEGIN

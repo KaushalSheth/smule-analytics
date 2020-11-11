@@ -8,8 +8,8 @@ my_perf as (
             coalesce(max(case when web_url like '%/ensembles' then created_at else null end),'2000-01-01'::timestamp) as last_invite_time,
             min(created_at) as first_performance_time,
             max(created_at) as last_performance_time,
-            count(distinct partner_name) as num_partners,
-            string_agg(distinct partner_name,', ') partner_list,
+            count(distinct partner_alltime) as num_partners,
+            string_agg(distinct partner_alltime,', ') partner_list,
             sum(child_count) AS num_joins
     from    my_performances
     group by 1

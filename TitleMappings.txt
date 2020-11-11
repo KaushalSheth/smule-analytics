@@ -47,6 +47,7 @@ Aaja Shaam Hone Aayi|Aaja Shaam Hone Ayee
 Aaja Shaam Hone Aayi|ᴴᴰ Aaja shaam hone aayi ( clear karaoke )
 Aaja Tujhko Pukare Mere Geet Re|Aaja Tujhko Pukare U
 Aake Teri Baahon Mein|Aake Teri Baahon Mein Cove
+Aake Teri Baahon Mein|Aake Teri Baahon Main Digi
 Aane Wala Pal|Aanewala Pal
 Aane Wala Pal|Aanewala Pal Jaanewala Hai
 Aane Wala Pal|Aanewala Pal Janewala Hai
@@ -165,6 +166,7 @@ Ae Dil Hai Mushkil|Ae Dil Hai Mushkil Title
 Ae Dil Hai Mushkil|Ae Dilhai Mushkil
 Ae Dil Hai Mushkil|Aedil Hai Mushkil
 Ae Dil Hai Mushkil|~ Ae Dil Hai Mushkil
+Ae Dil Hai Mushkil|Ae Dil Hai Muskil
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai Bahaar
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai, Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahaar Kya Kehna
@@ -222,6 +224,7 @@ Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai
 Akele Hain To Kya Gam Hai|New Akele Hain To Kya
+Akele Hain To Kya Gam Hai|Akele Hai To Kya Gam Hai
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi
 Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
@@ -591,6 +594,7 @@ Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujh Par
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujh Par Hoga Mujh Par
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujhpar
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujhpe
+Ehsaan Tera Hoga Mujh Par|Eshaan Tera Hoga Mujh Par
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena Se
 Ek Ajnabi Haseena Se|Ek Ajnabi Haseena Se
@@ -680,6 +684,7 @@ Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Yaha Pyaar
 Har Kisi Ko Nahi Milta|Har Kisiko Nahi
 Har Kisi Ko Nahi Milta|Harkisiko Nahi Milta Old
 Har Kisi Ko Nahi Milta|HD® Har kisi ko nahi milta yaha pyar{Janbaaz}
+Har Kisi Ko Nahi Milta|Har Kisko Nahi Milta
 Haule Haule|Haule Haule
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua हाय रामा ये क्या हुआ
@@ -780,6 +785,9 @@ Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyaar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Bada
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Badha
+Jaan Nisaar|Jaan 'Nisaar
+Jaan Nisaar|Jaan Nisaar
+Jaan Pehchan Ho|Jaan Pehchan Ho
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai Jaadu Hai Nasha Hai
@@ -797,10 +805,6 @@ Jaaiye Aap Kaha Jayenge|Jaaiye Aap Kahan Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jaaiye
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jayenge
-Jaan Pehchan Ho|Jaan Pehchan Ho
-Jaanam Dekh Lo|Drjaanam Dekhlo Mit Gayi
-Jaanam Dekh Lo|Jaanam Dekh Lo
-Jaanam Dekh Lo|Janam Dekh Lo
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
@@ -1008,6 +1012,7 @@ Khairiyat|Khairiyatsingh
 Khairiyat|Khariyat
 Khairiyat|Sʜᴏʀᴛ Khairiyat Poocho
 Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
+Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
 Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
@@ -1152,6 +1157,8 @@ Main Yahan Hoon|Janam Dekh Lo Udit Narayan
 Main Yahan Hoon|Janam Dekhlo Mit
 Main Yahan Hoon|Main Yahaan Hoon
 Main Yahan Hoon|Main Yahan Hoon
+Main Yahan Hoon|Drjaanam Dekhlo Mit Gayi
+Main Yahan Hoon|Janam Dekh Lo
 Maine Kasam Li|Hey Maine Kasam Li
 Maine Kya Socha Tha|Maine Kya Socha Tha
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
@@ -1224,6 +1231,7 @@ Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein|Merisaanson Mein
+Meri Saanson Mein|Meri Sanson Mein
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
 Mile Ho Tum Humko|_Mile_Ho Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum
@@ -1292,6 +1300,7 @@ Na Ye Chand Hoga Na Taare Rahenge|Na Yeh Chand Hoga
 Naam Gum Jayega|Naam Ghum Jayega
 Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
+Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Nasha Yeh Pyar Ka Nasha Hai|Nasha Yeh Pyar Ka Nasha Hai
 Nazar Ke Saamne|H D Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Saamne Jigar Ke Paas
@@ -1341,6 +1350,7 @@ O Saathi Re|O Saathi Re O Re
 O Saathi Re|O Sathi Re
 O Saathi Re|O Sathi Re Muqaddar Ka Sikandar
 O Saathi Re|O Sathire Tere Bina
+O Saathi Re|O Saathi Re O Sathi Re
 Odh Li Chunariya|Odh Ii Chunariya
 Odh Li Chunariya|Odh Li Chunariya
 Only Time|Only Time
@@ -1457,6 +1467,7 @@ Raat Ke Humsafar|Raatke Humsafar
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Rahein Na Rahein Hum|Rahein Na Rahein Hum
+Rahein Na Rahein Hum|Rahen Na Rahen Hum
 Raja Ko Rani Se|Raja Ko Rani Se
 Raja Ko Rani Se|Raja Ko Rani Se Ko
 Raja Ko Rani Se|Raja Ko Rani Se Ko Rani Se
@@ -1576,8 +1587,10 @@ Soch Na Sake|Soch Na Sake Clean
 Soch Na Sake|Soch Na Sake Na Sake
 Soch Na Sake|Soch Na Sake…
 Soch Na Sake|Soch Naa Sake
+Soch Na Sake|Soch Na Sake Soch Soch
 Socha Hai|Socha Hai
 Socha Hai|Socha Hai Keh Doon Tumhe
+Socha Hai|Keoon Tumhe
 Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
@@ -1987,11 +2000,14 @@ Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Retro
 Yeh Raatein Yeh Mausam|Yeh Ratein
 Yeh Raatein Yeh Mausam|Yeh Ratein Yeh Mausam
 Yeh Raatein Yeh Mausam|😍 Yeh Raatein Yeh Mausam HD Original Track
-Yeh Sama|Ye Sama
-Yeh Sama|Ye Sama Sama
-Yeh Sama|Yeh Sama Female
-Yeh Sama|Yeh Sama Sama Hai Ye
-Yeh Sama|Yeh Sama Sama Hai Ye Sama Hai Ye Pyar Ka
+Yeh Samaa|Yeh Samaa
+Yeh Samaa|Yeh Sama
+Yeh Samaa|Ye Sama
+Yeh Samaa|Ye Sama Sama
+Yeh Samaa|Yeh Sama Female
+Yeh Samaa|Yeh Sama Sama Hai Ye
+Yeh Samaa|Yeh Sama Sama Hai Ye Sama Hai Ye Pyar Ka
+Yeh Samaa|Ye Sama Sama Hai
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani
