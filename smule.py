@@ -1,5 +1,5 @@
-from urllib import request
 from urllib.parse import unquote
+from urllib import request
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
@@ -80,7 +80,7 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
     return message
 
 # Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
-def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',contentType="both",solo=False):
+def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',searchOptions={}):
     ensembleList = []
 
     try:
@@ -95,7 +95,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,contentType=contentType,solo=solo)
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
@@ -107,11 +107,25 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
 
     return ensembleList
 
+# Method to extract values from search options
+def extractSearchOptions(searchOptions):
+    if searchOptions == {}:
+        contentType = "both"
+        solo = False
+        joins = True
+    else:
+        contentType = searchOptions['contentType']
+        solo = searchOptions['solo']
+        joins = searchOptions['joins']
+
+    return contentType, solo, joins
+
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',contentType="both",solo=False):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
     performanceList = []
     stop = False
     i = n
+    contentType, solo, joins = extractSearchOptions(searchOptions)
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
@@ -128,7 +142,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         web_url = f"https://www.smule.com{performance['web_url']}"
         #print(web_url)
         # As soon as created_at is less than the ensemble min date, break out of the loop
-        if created_at < ensembleMinDate:
+        # In case we don't care for joins, then break out as soon as we reach the mindate (no need to process extra days)
+        if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
             stop = True
             break
         # If the created_at is greater than the max date, then skip it and proceed with next one
@@ -260,9 +275,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             pass
             raise
 
-        # If ct is "invite" then process the joins and append to the performance list
-        if ct == "invite":
-            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,contentType=contentType,solo=solo)
+        # If ct is "invite" and joins flag is True, then process the joins and append to the performance list
+        if ct == "invite" and joins:
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
             # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
             if filterType == "invites":
                 for j in ensembleList:
@@ -299,7 +314,8 @@ def fetchFileTitleMappings(filename):
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
-def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',contentType="both",solo=False):
+def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
+    contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
     next_offset = startoffset
@@ -330,7 +346,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
         performances = getJSON(username,fetchType,next_offset)
         for performance in performances['list']:
             last_created_date = performance['created_at']
-        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,contentType=contentType,solo=solo)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
         stop = responseList[0]

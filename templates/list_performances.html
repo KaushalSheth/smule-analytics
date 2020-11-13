@@ -25,7 +25,7 @@
   <br>
 
   <table id="mytable" class="display" style="width:100%">
-    {% if offline %}
+    {% if searchOptions['offline'] %}
       <thead><tr bgcolor="DarkGray"><th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th></thead>
     {% else %}
       <thead><tr bgcolor="DarkGray"><th>#</th><th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th></thead>
@@ -39,13 +39,13 @@
         {% else %}
             <tr>
         {% endif %}
-              {% if offline %}
+              {% if searchOptions['offline'] %}
               {% else %}
                 <td>{{ loop.index }}</td>
               {% endif %}
               <td>{{ performance.created_at }}</td>
               <td><a href="{{ performance.web_url }}">{{ performance.title }}</a></td>
-              {% if offline %}
+              {% if searchOptions['offline'] %}
                   <td>
                       <a href="{{ performance.web_url }}"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>
                   </td>
@@ -56,7 +56,7 @@
               {% endif %}
               <td>{{ performance.total_listens }}</td>
               <td>{{ performance.total_loves }}</td>
-              {% if offline %}
+              {% if searchOptions['offline'] %}
                 <td><a href="{{ performance.web_url }}">Play only</a></td>
               {% else %}
                 <td><a href="/download_performance/{{ performance.key }}">Download</a></td>

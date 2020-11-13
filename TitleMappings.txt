@@ -347,6 +347,7 @@ Chalte Chalte|Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Ye
 Chalte Chalte|Chalte Chalte Mere Ye Geet
 Chalte Chalte|S H O R T Chalte Chalte
+Chalte Chalte|Chalte Chalte Mere Yeh Geet
 Chand Aahen Bharega|Chand Aahen Bharega Chaand
 Chand Phir Nikla|Chand Phir Nikla
 Chand Sitare|Chaand Sitaare
@@ -719,6 +720,7 @@ Hum To Deewane Hue Yaar|Hum To Deewane
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey Mein Band Ho
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey
 Hum Tum Ek Kamrey Mein Band Ho|Humtum Ek Kamrey Mein
+Hum Tum|Hum Tum
 Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
@@ -1034,6 +1036,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Koi Fariyaad|Koi Fariyaad
+Koi Fariyaad|Koi Fariyad
 Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Ladki Hai|Koi Ladki Hai
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
@@ -1098,6 +1101,7 @@ Le Gayi Le Gayi|Le Gayi Le Gayi
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
+Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahin
@@ -1549,6 +1553,7 @@ Salame Ishq Meri Jaan|Salaam E Is Meri Jaan Jan
 Salame Ishq Meri Jaan|Salame Is Meri Jaan
 Salame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
+Sama Hai Suhana Suhana|Sama Hai Suhana
 Samjhawan|Samjhawan
 Sandese Aate Hai|Sandese Aate Hai
 Sandese Aate Hai|Sandese Aate Hain
@@ -1591,6 +1596,7 @@ Soch Na Sake|Soch Na Sake Soch Soch
 Socha Hai|Socha Hai
 Socha Hai|Socha Hai Keh Doon Tumhe
 Socha Hai|Keoon Tumhe
+Soldier Soldier|Soldier Soldier
 Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
@@ -2021,6 +2027,7 @@ Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh To Sach Hai Ki Bhagwan Hai
+Yeh To Sach Hai Ki Bhagwan Hai|Yeh Toh Sach Hai Ki Bhagwan Hai
 Yeh Vaada Raha|Yeh Vaada Raha
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai

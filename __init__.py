@@ -7,8 +7,7 @@ from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchD
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
-offline = True
-contentType = "both"
+searchOptions = {'solo':False,'contentType':"both",'joins':True}
 user = None
 search_user = None
 performances = None
@@ -60,31 +59,42 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, offline, contentType, comments, weburl, solo
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, weburl, searchOptions
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
+            # Initialize search options dict to empty
+            searchOptions = {}
+
             if request.form.get('offline'):
-                offline = True
+                searchOptions['offline'] = True
             else:
-                offline = False
+                searchOptions['offline'] = False
+
             if request.form.get('solo'):
-                solo = True
+                searchOptions['solo'] = True
             else:
-                solo = False
+                searchOptions['solo'] = False
+
+            if request.form.get('joins'):
+                searchOptions['joins'] = True
+            else:
+                searchOptions['joins'] = False
+
             if request.form.get('comments'):
-                comments = True
+                searchOptions['comments'] = True
             else:
-                comments = False
+                searchOptions['comments'] = False
+
             if request.form.get('audio') and request.form.get('videos'):
-                contentType = "both"
+                searchOptions['contentType'] = "both"
             elif request.form.get('audio'):
-                contentType = "audio"
+                searchOptions['contentType'] = "audio"
             elif request.form.get('videos'):
-                contentType = "video"
+                searchOptions['contentType'] = "video"
             else:
-                contentType = "none"
+                searchOptions['contentType'] = "none"
             user = request.form['username']
             search_user = user
             numrows = int(request.form['numrows'])
@@ -204,10 +214,10 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances, startoffset, fromdate, todate, contentType
+        global user, numrows, performances, startoffset, fromdate, todate, searchOptions
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,contentType,solo)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,searchOptions)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
@@ -303,9 +313,9 @@ def create_app(test_config=None):
     # Generic route for displaying performances using global variable
     @app.route('/list_performances')
     def list_performances():
-        global performances, search_user, user, download, offline
+        global performances, search_user, user, download, searchOptions
         # This assumes that the performances global variable is set by the time we get here
-        return render_template('list_performances.html', performances=performances, search_user=search_user, user=user, offline=offline)
+        return render_template('list_performances.html', performances=performances, search_user=search_user, user=user, searchOptions=searchOptions)
 
     # Generic route for displaying performances using global variable
     @app.route('/list_invites')
