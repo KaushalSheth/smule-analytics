@@ -1741,6 +1741,7 @@ Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega Mera Saaya
 Tu Mera Jaanu Hai|Tu Mera Jaanu Hai
 Tu Mere Samne|Tu Mere Samne
+Tu Mere Samne|Tu Mere Samne Darr
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai
 Tu Meri Zindagi Hai|Tumerizindagihai
 Tu Mile Dil Khile|Tu Mile Dil Khile
@@ -1787,6 +1788,7 @@ Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi
+Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaee
 Tujhko Pukare Mera Pyar|Tujhko Pukare Mera Pyar
 Tujhko Pukare Mera Pyar|Tujko Pukare Mera Pyar
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naaraz Nahin Zindagi
@@ -1826,6 +1828,7 @@ Tum Hi Aana|Tum Hi Aana Tum Hi Tum Hi Tum Hi
 Tum Hi Aana|Tum Hi Aanatum
 Tum Hi Aana|Tum Hiaana
 Tum Hi Aana|Tumhi Aana Tum Hi Tum
+Tum Hi Aana|Tum Hi Aanatum Hi Tum Hi Jubin
 Tum Hi Ho|TUM HI HO ❤️☀️❤️TUM HI HO❤️☀️❤️TUM HI HO❤️☀️❤
 Tum Hi Ho|Tum Hi Ho
 Tum Hi Ho|Tum Hi Ho Hi Ho
@@ -1896,6 +1899,7 @@ Waada Raha Sanam|Wada Raha Sanam
 Wanted|Wanted
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
+We Didn't Start The Fire|We Didn'T Start The Fire
 With Or Without You|With Or Without You
 Woh Chand Khila|Woh Chand Khila Woh Taare Haanse
 Woh Hai Zara Khafa Khafa|Woh Hai Zara
