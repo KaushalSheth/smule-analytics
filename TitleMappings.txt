@@ -413,6 +413,7 @@ Chupke Se|Chupke Se Unpluged
 Chura Ke Dil Mera|Chura K Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera
 Chura Ke Dil Mera|Churake Dil Mera
+Chura Ke Dil Mera|Chura Ke Dil Mera Goriya Chali
 Chura Liya|Chura Liya
 Chura Liya|Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne
@@ -599,6 +600,7 @@ Ehsaan Tera Hoga Mujh Par|Eshaan Tera Hoga Mujh Par
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena Se
 Ek Ajnabi Haseena Se|Ek Ajnabi Haseena Se
+Ek Akela Is Shehar Mein|Ek Akela Is Shehar Mein
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko Mil Jayenge (YES BOSS)
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko Mil Jayenge (Yes Boss)
@@ -807,6 +809,7 @@ Jaaiye Aap Kaha Jayenge|Jaaiye Aap Kahan Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jaaiye
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jayenge
+Jaaiye Aap Kaha Jayenge|Jaayiye Aap Kahan Jayenge
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
@@ -1596,6 +1599,7 @@ Soch Na Sake|Soch Na Sake Soch Soch
 Socha Hai|Socha Hai
 Socha Hai|Socha Hai Keh Doon Tumhe
 Socha Hai|Keoon Tumhe
+Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Soldier Soldier|Soldier Soldier
 Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
@@ -1718,6 +1722,7 @@ The Medley Mujhse Dosti Karoge|The Medley Mujhse Dosti Karoge
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Me
 Theheriye Hosh Mein Aa Loon|Theheriye Hosh Mein Aa Loon
 Theheriye Hosh Mein Aa Loon|Thehriye Hosh Mein Aa Loon
+Theheriye Hosh Mein Aa Loon|Thahariye Hosh Mein Aa Lun
 Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai Lirik
@@ -1804,6 +1809,7 @@ Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahin Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraz
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraz Nahi Zindagi
+Tujhse Naaraaz Nahi Zindagi|Tujshe Naraaz Nahi Jindagi
 Tum Aa Gaye Ho|Tum Aa Gaye
 Tum Aa Gaye Ho|Tum Aa Gaye Ho
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Aandhi
@@ -1921,6 +1927,7 @@ Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yamma Yamma|Yamma Yamma
+Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
@@ -2010,6 +2017,7 @@ Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Retro
 Yeh Raatein Yeh Mausam|Yeh Ratein
 Yeh Raatein Yeh Mausam|Yeh Ratein Yeh Mausam
 Yeh Raatein Yeh Mausam|😍 Yeh Raatein Yeh Mausam HD Original Track
+Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Nadi Ka
 Yeh Samaa|Yeh Samaa
 Yeh Samaa|Yeh Sama
 Yeh Samaa|Ye Sama
@@ -2018,11 +2026,13 @@ Yeh Samaa|Yeh Sama Female
 Yeh Samaa|Yeh Sama Sama Hai Ye
 Yeh Samaa|Yeh Sama Sama Hai Ye Sama Hai Ye Pyar Ka
 Yeh Samaa|Ye Sama Sama Hai
+Yeh Samaa|Yeh Sama Sama Hai Ye Pyar Ka
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani
 Yeh Shaam Mastaani|Yeh Sham Mastani
 Yeh Shaam Mastaani|Yesham Mastani Ye Sham
+Yeh Shaam Mastaani|Ye Sham Mastani
 Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
