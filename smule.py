@@ -39,9 +39,9 @@ def getComments(web_url):
     print(commentStr)
     return commentStr.strip(";\n")
 
-# Method to crawl favorites for the specified user
-# This method assumes a list of performances is already queried and loops through the partners and fetches their favorites and saves them to DB
-def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='2018-01-01',maxdate='2030-12-31'):
+# Method to crawl favorites/performances for the specified user
+# This method assumes a list of performances is already queried and loops through the partners and fetches their favorites/performances and saves them to DB
+def crawlUsers(username,performances,maxperf=9999,startoffset=0,mindate='2018-01-01',maxdate='2030-12-31',searchType='favorites'):
     message = "Crawled the following users: "
     # Save the original performance list
     orig_performances = performances
@@ -60,9 +60,11 @@ def crawlFavorites(username,performances,maxperf=9999,startoffset=0,mindate='201
         for u in userList:
             try:
                 # Fetch the performances for the user and save them
-                perf = fetchSmulePerformances(u,maxperf,startoffset,"favorites",mindate,maxdate)
+                perf = fetchSmulePerformances(u,maxperf,startoffset,searchType,mindate,maxdate,searchOptions={'contentType':"both",'solo':False,"joins":False})
                 m = saveDBPerformances(u,perf)
-                m = saveDBFavorites(u,perf)
+                # Also save to favories if searchType is favorites
+                if searchType =="favorites":
+                    m = saveDBFavorites(u,perf)
                 # The first word in the message returned indicates the number of favorites processed successfully - save that
                 n = m.split()[0]
             except:
@@ -191,6 +193,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             if owner == username:
                 display_user = partner
                 display_pic_url = partner_pic_url
+            if performers == owner and username != 'KaushalSheth1':
                 performers = partner
         filename_base = f"{fixedTitle} - {performers}"
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
@@ -337,7 +340,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
-        print(f"======== {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
+        print(f"======== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
         # Get the next batch of results from Smule
         if type == "ensembles" or type == "invites":
             fetchType = "performances"

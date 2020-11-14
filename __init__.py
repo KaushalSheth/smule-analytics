@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlFavorites, fetchFileTitleMappings, getComments
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers
 from datetime import datetime
 
@@ -201,13 +201,23 @@ def create_app(test_config=None):
         # This assumes that the analytics global variable is set by the time we get here
         return render_template('analytics_output.html', headings=headings, analytics=analytics, user=user, currtime=currtime, analyticstitle=analyticstitle)
 
-    # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
+    # This method is referenced in the list_performances HTML page in order to fetch favorites for the owner listed
     @app.route('/crawl_favorites/<username>')
     def crawl_favorites(username):
         global user, numrows, performances, startoffset, fromdate, todate
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        message = crawlFavorites(username,performances,numrows,startoffset,fromdate,todate)
+        message = crawlUsers(username,performances,numrows,startoffset,fromdate,todate,searchType="favorites")
+        flash(message)
+        return redirect(url_for('list_performances'))
+
+    # This method is referenced in the list_performances HTML page in order to fetch performances for the owner listed
+    @app.route('/crawl_performances/<username>')
+    def crawl_performances(username):
+        global user, numrows, performances, startoffset, fromdate, todate
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        message = crawlUsers(username,performances,numrows,startoffset,fromdate,todate,searchType="performances")
         flash(message)
         return redirect(url_for('list_performances'))
 
