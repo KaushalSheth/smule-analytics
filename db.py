@@ -104,6 +104,25 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     return performers
 
 # Method to query performances for a user
+def fetchDBJoiners(username,fromdate="2018-01-01",todate="2030-01-01"):
+    joiners = []
+    sqlquery = f"""
+        select  distinct p.performers as joiner
+        from    performance p
+        where   p.owner_handle = '{username}'
+        and     p.created_at between '{fromdate}' and '{todate}'
+        and     p.performers != '{username}'
+        order by 1
+        """
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        joiners.append(d)
+    return joiners
+
+# Method to query performances for a user
 def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01",titleMappings=[]):
     global performances
     performances = []
@@ -113,7 +132,17 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     if username == 'KaushalSheth1':
         sqlquery = "select * from my_performances where created_at between '" + fromdate + "' and '" + todate + "'"
     else:
-        sqlquery = "select * from my_performances where created_at between '" + fromdate + "' and '" + todate + "' and owner_handle = '" + username + "'"
+        sqlquery = f"""
+            select  p.*
+            from    all_performances p
+            where   p.created_at between '{fromdate}' and '{todate}'
+            and     exists (
+                        select  1
+                        from    performance_singer ps
+                                inner join singer s on s.account_id = ps.singer_account_id and performed_by = '{username}'
+                        where   ps.performance_key = p.key
+                        )
+            """
     # Append ORDER BY clause
     sqlquery += " order by created_at desc"
 
@@ -336,7 +365,7 @@ def saveDBPerformances(username,performances):
             # If any errors are encountered for the performance, roll back all DB changes made for that performance
             db.session.rollback()
             # Uncomment following line for debugging purposes only
-            raise
+            #raise
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"

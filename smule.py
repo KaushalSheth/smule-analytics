@@ -4,20 +4,25 @@ import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
+CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
-    urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
-    #urlstring = f"https://205.143.41.226/{username}/{type}/json?offset={offset}"
-    #print(urlstring)
-    with request.urlopen(urlstring) as url:
-        data = json.loads(url.read())
+    data = None
+    try:
+        urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        #urlstring = f"https://205.143.41.226/{username}/{type}/json?offset={offset}"
+        #print(urlstring)
+        with request.urlopen(urlstring) as url:
+            data = json.loads(url.read())
+    except:
+        pass
 
     return data
 
@@ -38,6 +43,26 @@ def getComments(web_url):
         commentStr += f"{timeList[i].text}|{usersList[i].text}|{commentsList[i].text};\n"
     print(commentStr)
     return commentStr.strip(";\n")
+
+# Method to crawl performances of joiners of the specified user
+def crawlJoiners(username,mindate='2018-01-01',maxdate='2030-12-31'):
+    message = "Crawled the following users: "
+    n = "0"
+    # Fetch list of joiners from DB
+    joiners = fetchDBJoiners(username,mindate,maxdate)
+    # Loop through all joiners and fetch their performances.  We will only use the date range, so set other variables to default values
+    for j in joiners:
+        try:
+            u = j['joiner']
+            # Fetch the performances for the user and save them
+            perf = fetchSmulePerformances(u,9999,0,"performances",mindate,maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+            m = saveDBPerformances(u,perf)
+            # The first word in the message returned indicates the number of favorites processed successfully - save that
+            n = m.split()[0]
+        except:
+            raise
+        message += u + " (" + n + "), "
+    return message
 
 # Method to crawl favorites/performances for the specified user
 # This method assumes a list of performances is already queried and loops through the partners and fetches their favorites/performances and saves them to DB
@@ -60,7 +85,7 @@ def crawlUsers(username,performances,maxperf=9999,startoffset=0,mindate='2018-01
         for u in userList:
             try:
                 # Fetch the performances for the user and save them
-                perf = fetchSmulePerformances(u,maxperf,startoffset,searchType,mindate,maxdate,searchOptions={'contentType':"both",'solo':False,"joins":False})
+                perf = fetchSmulePerformances(u,maxperf,startoffset,searchType,mindate,maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
                 m = saveDBPerformances(u,perf)
                 # Also save to favories if searchType is favorites
                 if searchType =="favorites":
@@ -347,6 +372,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
         else:
             fetchType = type
         performances = getJSON(username,fetchType,next_offset)
+        if performances == None:
+            break
         for performance in performances['list']:
             last_created_date = performance['created_at']
         responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)

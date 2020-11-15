@@ -2,7 +2,7 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers
 from datetime import datetime
 
@@ -127,6 +127,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_performers'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
+                elif request.form['btn'] == 'Crawl Joiners':
+                    return redirect(url_for('crawl_joiners', username=user))
                 elif request.form['btn'] == 'Fix Titles':
                     return redirect(url_for('fix_db_titles'))
                 elif request.form['btn'] == 'Get Comments':
@@ -200,6 +202,15 @@ def create_app(test_config=None):
         global analytics, user, currtime, headings, analyticstitle
         # This assumes that the analytics global variable is set by the time we get here
         return render_template('analytics_output.html', headings=headings, analytics=analytics, user=user, currtime=currtime, analyticstitle=analyticstitle)
+
+    # This method is referenced in the list_performances HTML page in order to fetch favorites for the owner listed
+    @app.route('/crawl_joiners/<username>')
+    def crawl_joiners(username):
+        global fromdate, todate
+        # Call method that will fetch joiner list from DB and then fetch all performances for these joiners within specified date range
+        message = crawlJoiners(username,fromdate,todate)
+        flash(message)
+        return redirect(url_for('search'))
 
     # This method is referenced in the list_performances HTML page in order to fetch favorites for the owner listed
     @app.route('/crawl_favorites/<username>')
