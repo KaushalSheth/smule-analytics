@@ -37,6 +37,8 @@ class Performance(db.Model):
     owner_lon = db.Column(db.Float, nullable=True)
     filename = db.Column(db.String(200), nullable=True)
     performers = db.Column(db.String(100), nullable=True)
+    performer_ids = db.Column(db.String(200), nullable=True)
+    performer_handles = db.Column(db.String(200), nullable=True)
     fixed_title = db.Column(db.String(100), nullable=True)
     short_ind = db.Column(db.String(1), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())

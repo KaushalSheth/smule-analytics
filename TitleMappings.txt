@@ -383,6 +383,8 @@ Chhookar Mere Man Ko|Chukar Mere Man Ko
 Chhookar Mere Man Ko|Chukar Mere Manko
 Chhookar Mere Man Ko|Chukar Mere Mann Ko
 Chhookar Mere Man Ko|Chukarmere Man Ko
+Chhookar Mere Man Ko|Chookar Mere Manko
+Chhookar Mere Man Ko|Chokar Mere Mann Ko
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
@@ -563,6 +565,7 @@ Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
 Do Deewane Shaher Mein|Do Deewane Shaher Mein
+Do Deewane Shaher Mein|Do Diwane Shehar Mein
 Do Dil Mil Rahe Hai|>> Do Dil Mil Rahe Hai
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hai
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hai Quality
@@ -740,6 +743,7 @@ Humein Tumse Pyaar Kitna|Humein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Humein Tumse Pyar
 Humein Tumse Pyaar Kitna|Humetumse Pyar Pyaar Kitna
 Humein Tumse Pyaar Kitna|Newhumein Tumse Pyar Kitna
+Humein Tumse Pyaar Kitna|Humetumse Pyaar Pyar Kitna
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo & Baadalon Me Chup Raha
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo (film Mohabbatein)
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lohumko Humko Humko Humko
@@ -855,6 +859,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyar
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte Hain
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने जिगर Jaane Na Nazar
+Jaane Na Nazar Pahchane Jigar|Jane Na Nazar Pehchane Jigar
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere
@@ -1619,6 +1624,7 @@ Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na T
 Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Short Cover
 Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tun Rozana
 Sun Raha Hai|Sunn Raha Hai
+Sun Raha Hai|Sun Raha Hai Sun Sun
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
@@ -1924,6 +1930,7 @@ Yaad Kiya Dil Ne|(SHORT) Yaad Kiya Dil Ne (duet) hindi song
 Yaad Kiya Dil Ne|Newyaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
+Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yamma Yamma|Yamma Yamma
@@ -2004,6 +2011,7 @@ Yeh Nayan Dare Dare|Yeh Nain Dare Dare
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Chori
+Yeh Raat Bheegi Bheegi|Ye Raat Bheegi
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni Phir Kaha
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni
 Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni

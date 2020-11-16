@@ -11,6 +11,7 @@ import asyncio
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
+MYSELF = 'KaushalSheth1'
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -159,7 +160,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         ct = createType
         perfStatus = performance['perf_status']
         joiners = ""
-        partner = ""
+        partnerHandle = ""
 
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
@@ -203,23 +204,35 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             fixedTitle = parentTitle
         # If possible, we want to set performers to a value other than the username we are searching for
         # We will set the performers to either the partner (if there is any) or to the owner - whichever is not the username
-        owner = performance['owner']['handle']
+        ownerHandle = performance['owner']['handle']
+        ownerId = performance['owner']['account_id']
         owner_pic_url = performance['owner']['pic_url']
-        display_user = owner
+        display_user = ownerHandle
         display_pic_url = owner_pic_url
         # Initialize performers to owner - we will overwrite it if we find a partner that is not the same as username
-        performers = owner
+        performers = ownerHandle
+        # Initialize list of perfomer IDs and Handles to the owner ID and Handle - we will append other performers to this
+        performerIds = str(ownerId)
+        performerHandles = ownerHandle
         op = performance['other_performers']
-        # TODO: If there is more than one other performer, do we wish to include in the filename?
-        if len(op) > 0:
-            partner = op[0]['handle']
-            partner_pic_url = op[0]['pic_url']
-            # If the owner is the username we are processing, switch the display user to the first other performer
-            if owner == username:
-                display_user = partner
+        # Loop through partners and process them
+        partnerIndex = 0
+        for ptr in op:
+            partnerIndex += 1
+            partnerId = str(ptr['account_id'])
+            partnerHandle = ptr['handle']
+            # Append the ID and handle of the partner to the list, but only if both string lengths are still less than 200 (max size of the columns)
+            tmpIds = performerIds + "," + partnerId
+            tmpHandles = performerHandles + "," + partnerHandle
+            if len(tmpIds) <= 200 and len(tmpHandles) <= 200:
+                performerIds = tmpIds
+                performerHandles = tmpHandles
+            partner_pic_url = ptr['pic_url']
+            # Set display user and performer to the first partner unless the partner is myself
+            if (partnerIndex == 1) and (partnerHandle != MYSELF):
+                display_user = partnerHandle
                 display_pic_url = partner_pic_url
-            if performers == owner and username != 'KaushalSheth1':
-                performers = partner
+                performers = partnerHandle
         filename_base = f"{fixedTitle} - {performers}"
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -279,8 +292,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'total_commenters':performance['stats']['total_commenters'],\
                 'performed_by':performance['performed_by'],\
                 'performed_by_url':performance['performed_by_url'],\
-                'owner_account_id':performance['owner']['account_id'],\
-                'owner_handle':owner,\
+                'owner_account_id':ownerId,\
+                'owner_handle':ownerHandle,\
                 'owner_pic_url':owner_pic_url,\
                 'display_handle':display_user,\
                 'display_pic_url':display_pic_url,\
@@ -292,11 +305,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'pic_filename':pic_filename,\
                 'fixed_title':fixedTitle,\
                 'short_ind':shortInd,\
-                'partner_name':partner,\
+                'partner_name':partnerHandle,\
                 'create_type':ct,\
                 'perf_status':perfStatus,\
                 'expire_at':performance['expire_at'],\
-                'joiners':joiners\
+                'joiners':joiners,
+                'performer_ids':performerIds,\
+                'performer_handles':performerHandles\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
@@ -315,7 +330,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             else:
                 # If there are no matching joins for an invite, remove the invite
                 # Also delete the invite if we are only getting solos and the owner is the username
-                if ((len(ensembleList) == 0) or (solo and owner == username)):
+                if ((len(ensembleList) == 0) or (solo and ownerHandle == username)):
                     del performanceList[-1]
                     i -= 1
                 # If ensembleList is not empty, add the joins to the performance list
