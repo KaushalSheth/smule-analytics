@@ -91,12 +91,18 @@
       </div>
 
       <div class="field is-grouped">
-        <label class="label" for="weburl">Web URL</label>
+        <label class="label" for="weburl">Partner Query</label>
         <div class="control">
-          <input name="weburl" value="" type="input" class="input"></input>
+          <textarea name="partnersql" rows="10" cols="80">
+select partner_name, max(created_at) as created_at
+from my_favorites
+group by 1
+order by 2 desc
+limit 10
+          </textarea>
         </div>
         <div class="control">
-          <input type="submit" name="btn" value="Get Comments" class="button is-link" />
+          <input type="submit" name="btn" value="Partner Invites" class="button is-link" />
         </div>
       </div>
 

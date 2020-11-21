@@ -426,6 +426,7 @@ Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
 Chhup Gaya Badli Mein|Chup Gaya Badli Mein
+Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
 Chithi Na Koi Sandesh|Chithhi Na Koi S Chithi
 Chithi Na Koi Sandesh|Chithi Na Koi Sandesh
 Chogada Tara|Chogada
@@ -944,6 +945,7 @@ Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
+Jab Deep Jale Aana|Jabdeep Jale Deep Jale
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage
@@ -1353,6 +1355,7 @@ Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Aye
 Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Dil
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye
 Mujhe Neend Na Aaye|Mujhe Nind Na Aaye
+Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
@@ -1802,6 +1805,7 @@ Tere Liye|Tere Liye Liye Liye
 Tere Liye|Tere Liye Song
 Tere Liye|Tere Liye Veer Zaara
 Tere Liye|✔🇹 🇪 🇷 🇪  LIYE✔✔✔✔✔✔✔Tere Liye✔Tere Liye✔
+Tere Liye|Tere Liye Hum
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain Dabang
 Tere Mast Mast Do Nain|Tere Mast Mast Do Naain
@@ -2062,6 +2066,7 @@ Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
 Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
+Yaadon Ki Baarat|Yaadon Ki Baarat
 Yamma Yamma|Yamma Yamma
 Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma

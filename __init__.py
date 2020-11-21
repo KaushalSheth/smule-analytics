@@ -2,8 +2,8 @@ import os
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -59,7 +59,7 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, weburl, searchOptions
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, partnersql, searchOptions
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
@@ -101,7 +101,7 @@ def create_app(test_config=None):
             startoffset = int(request.form['startoffset'])
             fromdate = request.form['fromdate']
             todate = request.form['todate']
-            weburl = request.form['weburl']
+            partnersql = request.form['partnersql']
             error = None
             searchtype = 'PERFORMANCES'
 
@@ -131,8 +131,8 @@ def create_app(test_config=None):
                     return redirect(url_for('crawl_joiners', username=user))
                 elif request.form['btn'] == 'Fix Titles':
                     return redirect(url_for('fix_db_titles'))
-                elif request.form['btn'] == 'Get Comments':
-                    return redirect(url_for('get_comments'))
+                elif request.form['btn'] == 'Partner Invites':
+                    return redirect(url_for('query_partner_invites'))
                 else:
                     error = "Invalid selection"
 
@@ -230,6 +230,14 @@ def create_app(test_config=None):
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         message = crawlUsers(username,performances,numrows,startoffset,fromdate,todate,searchType="performances")
         flash(message)
+        return redirect(url_for('list_performances'))
+
+    # This method fetches a list of partners using specified partnersql and then fetches all invites by these partners
+    @app.route('/query_partner_invites')
+    def query_partner_invites():
+        global performances, partnersql
+        performances = fetchPartnerInvites(partnersql)
+        flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
     # This executes the smule function to fetch all performances using global variables set previously

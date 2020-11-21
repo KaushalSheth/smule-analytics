@@ -82,7 +82,7 @@ def fetchDBPerformancesOrig(username,maxperf=9999):
 
     return performances
 
-# Method to query performances for a user
+# Method to query performers
 def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = []
     sqlquery = f"""
@@ -102,6 +102,17 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
         d = dict(r.items())
         performers.append(d)
     return performers
+
+# Method to execute specified query and return result as a list of rows
+def execDBQuery(sqlquery):
+    results = []
+    # Execute the query and build the analytics list
+    result = db.session.execute(sqlquery)
+    for r in result:
+        # Convert the result row into a dict we can add to performances
+        d = dict(r.items())
+        results.append(d)
+    return results
 
 # Method to query performances for a user
 def fetchDBJoiners(username,fromdate="2018-01-01",todate="2030-01-01"):

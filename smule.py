@@ -4,7 +4,7 @@ import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
@@ -353,6 +353,39 @@ def fetchFileTitleMappings(filename):
         #print(row[1])
         titleMappings[row[1]] = row[0]
     return titleMappings
+
+# Method to fetch invites for partners identified by the partner SQL passed in
+def fetchPartnerInvites(partnersql):
+    # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 7 days
+    currTime = datetime.now()
+    mindate = (currTime - timedelta(7)).strftime(DATEFORMAT)
+    maxdate = currTime.strftime(DATEFORMAT)
+    performanceList = []
+
+    # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
+    performedList = []
+    performedResultset = execDBQuery("select distinct performers || '|' || fixed_title as performed from my_performances")
+    for p in performedResultset:
+        performedList.append(p['performed'])
+
+    # Fetch the list of partners by executing the partnersql query
+    partners = execDBQuery(partnersql)
+    for ptr in partners:
+        # Fetch all invites for the partner
+        # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
+        partnerList = fetchSmulePerformances(next(iter(ptr.values())),maxperf=9999,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+        # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
+        finalPartnerList = []
+        for p in partnerList:
+            # Construct the performed string to match our query above
+            performed = p['performers'] + "|" + p['fixed_title']
+            # As long as this is not on the already performed list, append it to the final list
+            if performed not in performedList:
+                finalPartnerList.append(p)
+        # Extend the peformance list by adding the final partner list to it
+        performanceList.extend(finalPartnerList)
+
+    return performanceList
 
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
