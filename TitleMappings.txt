@@ -333,6 +333,7 @@ Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
 Bole Chudiyan|Bole Chudiy
 Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
+Bole Chudiyan|Bole Chudiyan Bole
 Can't Help Falling In Love|Can'T Help Falling In Love
 Can't Help Falling In Love|Can't Help Falling In Love
 Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
@@ -851,6 +852,7 @@ Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyaar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Bada
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr Badha
+Ja Re Ja Re Ud Ja Re Panchhi|Ja Re Ja Re Ud Ja Re Panchhi
 Jaan Nisaar|Jaan 'Nisaar
 Jaan Nisaar|Jaan Nisaar
 Jaan Pehchan Ho|Jaan Pehchan Ho
@@ -1874,6 +1876,7 @@ Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
+Tu Jaane Na|Tu Jaane Na Ver
 Tu Jahaan Jahaan Chalega|[Short®️] Tu jahan jahan chalega mera saaya
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega Mera Saaya
@@ -1993,6 +1996,7 @@ Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho Muskura Rahe Ho
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho Muskura Rahe Ho Muskura Rahe ho(Arth
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Muskura Rahe Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Female
+Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Gaye Ho
 Tum Mile Dil Khile|Tum Mile Dil
 Tum Mile Dil Khile|Tum Mile Dil Khile
 Tum Mile Dil Khile|Tum Mile Dil Khile Criminal

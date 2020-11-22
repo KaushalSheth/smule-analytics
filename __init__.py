@@ -364,7 +364,8 @@ def create_app(test_config=None):
         # TODO: Allow specification of download folder as well as add error handling for key not found
         downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance,user)
         flash("Successfully downloaded to /tmp/" + performance['filename'])
-        return redirect(url_for('list_performances'))
+        #return redirect(url_for('list_performances'))
+        return "1"
 
     # Route to downlaod all performances - this could potentially be moved to the smule module
     @app.route('/download_all_performances')
