@@ -423,6 +423,7 @@ Chhookar Mere Man Ko|Chokar Mere Mann Ko
 Chhookar Mere Man Ko|Chookar Mere Mann
 Chhookar Mere Man Ko|Chookar Mere Mann Ko Karan Nawani
 Chhookar Mere Man Ko|Chookar Mere Mann Ko
+Chhookar Mere Man Ko|Chookar Mere Manko Dr Mahi
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
@@ -1490,9 +1491,11 @@ Pardesi Pardesi|Pardesi Pardesi Jana Nahi
 Pardesiya|Pardesiya
 Pardesiya|Pardesiya Ye Sach Hai Piya
 Pardesiya|Pardesiya Yeh Sach Hain Piya
-Payalay Chunmun|Payalay Chunmun
-Payalay Chunmun|Payalay Chunmun Virasat
-Payalay Chunmun|Payali Chunmun
+Paayalein Chunmun|Paayalein Chunmun
+Paayalein Chunmun|Payalay Chunmun
+Paayalein Chunmun|Payalay Chunmun Virasat
+Paayalein Chunmun|Payali Chunmun
+Paayalein Chunmun|Payalein Chun Mun
 Pehla Nasha|Nasha
 Pehla Nasha|Pehela Nasha Pehela Khumar
 Pehla Nasha|Pehla Nasha
@@ -1521,6 +1524,7 @@ Phoolon Ka Taaron Ka|Phoolon Ka Taroon Ka
 Phoolon Ka Taaron Ka|Phoolonkataaro Ka Taaro
 Phoolon Ke Rang Se|Phoolon Ke Rang Se
 Phoolon Ke Rang Se|Phoolon Ke Rang Se Dil Ki Kalam Se
+Piya Tu Ab To Aaja|Piya Tu Ab To Aaja
 Piyu Bole|H Qpiyubole
 Piyu Bole|Piyu Bole
 Piyu Bole|Piyu Bole Piya Bole
@@ -1721,6 +1725,7 @@ Socha Hai|Socha Hai Keh Doon Tumhe
 Socha Hai|Keoon Tumhe
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Soldier Soldier|Soldier Soldier
+Soldier Soldier|Soldier
 Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
@@ -1989,6 +1994,7 @@ Tum Hi Ho|Tum Hi Ho Tum Hi Tum
 Tum Hi Ho|Tum Hi Hohi Ho Hi Ho
 Tum Hi Ho|Tum Hi Hohi Ho Hi Ho
 Tum Hi Ho|Tum Hi Ho Tum Hi Tum
+Tum Hi Ho|Um Hilow Keyho
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Ghazal
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho
@@ -2016,6 +2022,7 @@ Tumhe Apna Banane Ki|~Tumhe Apna Banane Ki Kasam
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha Karaoke
 Tumhi Mere Mandir|Tumhi Mere Mandir
+Tumhi Mere Mandir|Tumhi Mere Mandir Mangeshkar
 Tumko Dekha To|Tum Ko Dekha To Ye Khayal
 Tumko Dekha To|Tum Ko Dekha To Yeh Khayal Aaya
 Tumko Dekha To|Tumko Dekha To
