@@ -45,6 +45,7 @@ partners AS (
 joiner_stats AS (
     SELECT  p.performers,
             lpad(count(*)::text,3,'0') as joiner_alltime_cnt,
+            lpad(count(case when p.created_at > (now() - interval '7 days') then 1 else null end)::text,3,'0') as joiner_7day_cnt,
             lpad(count(case when p.created_at > (now() - interval '30 days') then 1 else null end)::text,3,'0') as joiner_30day_cnt,
             lpad(count(case when p.created_at > (now() - interval '90 days') then 1 else null end)::text,3,'0') as joiner_90day_cnt
     FROM    perf p
@@ -53,9 +54,9 @@ joiner_stats AS (
     ),
 joiners AS (
     SELECT  js.performers,
-            js.joiner_alltime_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_90day_cnt || '-' || js.performers as joiner_alltime,
-            js.joiner_90day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_90days,
-            js.joiner_30day_cnt || '-' || js.joiner_90day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_30days
+            js.joiner_alltime_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_90day_cnt || '-' || js.performers as joiner_alltime,
+            js.joiner_90day_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_90days,
+            js.joiner_30day_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_90day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_30days
     FROM    joiner_stats js
     )
 SELECT  p.*,
