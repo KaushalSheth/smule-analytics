@@ -59,7 +59,7 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, partnersql, searchOptions
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, partnersql, searchOptions, knowntitles
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
@@ -87,6 +87,11 @@ def create_app(test_config=None):
             else:
                 searchOptions['comments'] = False
 
+            if request.form.get('knowntitles'):
+                knowntitles = True
+            else:
+                knowntitles = False
+
             if request.form.get('audio') and request.form.get('videos'):
                 searchOptions['contentType'] = "both"
             elif request.form.get('audio'):
@@ -95,6 +100,7 @@ def create_app(test_config=None):
                 searchOptions['contentType'] = "video"
             else:
                 searchOptions['contentType'] = "none"
+
             user = request.form['username']
             search_user = user
             numrows = int(request.form['numrows'])
@@ -235,8 +241,8 @@ def create_app(test_config=None):
     # This method fetches a list of partners using specified partnersql and then fetches all invites by these partners
     @app.route('/query_partner_invites')
     def query_partner_invites():
-        global performances, partnersql
-        performances = fetchPartnerInvites(partnersql)
+        global performances, partnersql, numrows, knowntitles
+        performances = fetchPartnerInvites(partnersql,numrows,knowntitles)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 

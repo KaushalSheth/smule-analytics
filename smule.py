@@ -355,7 +355,7 @@ def fetchFileTitleMappings(filename):
     return titleMappings
 
 # Method to fetch invites for partners identified by the partner SQL passed in
-def fetchPartnerInvites(partnersql):
+def fetchPartnerInvites(partnersql,numrows,knowntitles):
     # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 7 days
     currTime = datetime.now()
     mindate = (currTime - timedelta(7)).strftime(DATEFORMAT)
@@ -364,26 +364,37 @@ def fetchPartnerInvites(partnersql):
 
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     performedList = []
-    performedResultset = execDBQuery("select distinct performers || '|' || fixed_title as performed from my_performances")
+    titleList = []
+    performedResultset = execDBQuery("select distinct performers || '|' || fixed_title as performed, fixed_title from my_performances")
     for p in performedResultset:
         performedList.append(p['performed'])
+        # Build the known title list for use later
+        t = p['fixed_title']
+        if t not in titleList:
+            titleList.append(t)
 
     # Fetch the list of partners by executing the partnersql query
     partners = execDBQuery(partnersql)
     for ptr in partners:
         # Fetch all invites for the partner
         # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
-        partnerList = fetchSmulePerformances(next(iter(ptr.values())),maxperf=9999,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+        partnerList = fetchSmulePerformances(next(iter(ptr.values())),maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
         # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
         finalPartnerList = []
         for p in partnerList:
+            t = p['fixed_title']
             # Construct the performed string to match our query above
-            performed = p['performers'] + "|" + p['fixed_title']
+            performed = p['performers'] + "|" + t
             # As long as this is not on the already performed list, append it to the final list
             if performed not in performedList:
-                finalPartnerList.append(p)
+                # Additional check - if knowntitles flag is set, check that the title is in our list of known titles
+                if (((knowntitles) and (t in titleList)) or ((not knowntitles) and (t not in titleList))):
+                    finalPartnerList.append(p)
         # Extend the peformance list by adding the final partner list to it
         performanceList.extend(finalPartnerList)
+        # As soon as we exceed the number of rows specified, break out of the loop
+        if (len(performanceList) >= numrows):
+            break
 
     return performanceList
 

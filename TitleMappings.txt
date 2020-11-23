@@ -843,6 +843,7 @@ Isharon Isharon Mein|Isharon Isharon Mein Dil Lene
 Ishq Bina|Is Bina
 Ishq Bina|Is Bina Kiya Jeena
 Ishq Hua|Is Hua
+Ishq Hua|Is Hua Kaise Hua
 Ishq Shava|Is Shava
 Ishq Shava|Ishq Shava
 Ishq Wala Love|Is Wala Love
@@ -1283,6 +1284,7 @@ Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai
 Mera Dil Bhi Kitna|Mera Dil Bhi
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal
 Mera Dil Bhi Kitna|Mera Dil Meradilbhikitna
+Mera Dil Bhi Kitna|Mera Dil Bhi मेरा दिल भी
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Naam Chin Chin Chu|Mera Naam Chin Chin Chu

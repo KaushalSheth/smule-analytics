@@ -94,12 +94,16 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="10" cols="80">
-select partner_name, max(created_at) as created_at
-from my_favorites
+select performers as partner_name, max(created_at) as created_at
+from my_performances
+where performers != 'KaushalSheth1'
 group by 1
 order by 2 desc
-limit 10
+limit 200
           </textarea>
+        </div>
+        <div class="control">
+            <input name="knowntitles" type="checkbox" checked>&nbsp;Known Titles only</input>
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Partner Invites" class="button is-link" />
