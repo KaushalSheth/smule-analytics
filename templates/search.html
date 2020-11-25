@@ -94,12 +94,12 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="10" cols="80">
-select performers as partner_name, max(created_at) as created_at
-from my_performances
-where performers != 'KaushalSheth1'
-group by 1
-order by 2 desc
-limit 200
+select partner_name, rating * random()  as rnd
+from favorite_partner
+where partner_name != 'KaushalSheth1'
+and rating >= 4
+order by 2
+limit 100
           </textarea>
         </div>
         <div class="control">

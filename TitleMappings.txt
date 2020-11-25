@@ -147,6 +147,7 @@ Aaye Ho Meri Zindagi Mein|Aye Ho Meri Zindagi
 Aaye Ho Meri Zindagi Mein|Aye Ho Merimeri Ho Ho
 Aaye Ho Meri Zindagi Mein|Ayeho Meriho Meri Ho
 Aayega Aane Wala|Aaega Aane Wala
+Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Aa Gaye Hum
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye
@@ -251,6 +252,7 @@ Akele Hain To Kya Gam Hai|New Akele Hain To Kya
 Akele Hain To Kya Gam Hai|Akele Hai To Kya Gam Hai
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi
 Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
+Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -586,6 +588,7 @@ Dil Kya Kare|Dil Kya Kare Jab Kisi Se Julie
 Dil Leke Darde Dil|Dil Leke Dard
 Dil Leke Darde Dil|Dil Leke Darde Dil
 Dil Leke Darde Dil|Dil Leke Darde Dil Degaye
+Dil Leke Darde Dil|Wanted
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha
@@ -827,6 +830,7 @@ I Can't Help Falling In Love|I Can't Help Falling In Love
 I Just Called To Say I Love You|I Just Called To Say I Love You
 I Love My India|>> I Love My India
 I Love My India|I Love My India Pardes
+Ik Raasta Hai Zindagi|Ik Rasta Hai Zindagi
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke Umrao Jaan
 In Aankhon Ki Masti|In Ankhon Ki Masti
 Intehaan Ho Gayi|Inteha Ho Gai Intezaar Ki
@@ -868,6 +872,7 @@ Jaadu Hai Nasha Hai|Jaadu Hai Ns Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaduhai Nasha Hai Nasha
 Jaadu Hai Nasha Hai|Part Jaadu Hai Nasha Hai
+Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
 Jaadu Teri Nazar|Jadu Teri Nazar
 Jaadu Teri Nazar|Jadu Teri Nazar Part 3
 Jaadu Teri Nazar|Jadu Teri Nazar Teri
@@ -1194,6 +1199,7 @@ Lamha Lamha|Lamha Lamha Doorie
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum
+Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
@@ -1251,6 +1257,8 @@ Main Tenu Samjhawan|Main Tenu Samjhawan
 Main Tenu Samjhawan|Main Tenu Samjhawan Ki
 Main Tenu Samjhawan|Maintenu Samjhawa Ki
 Main Tenu Samjhawan|Mein Tenu Samjava
+Main Tenu Samjhawan|Alia Bhatt Samjhawan
+Main Tenu Samjhawan|Samjhawan
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main Yahan Hoon|Jaanam Dekh Lo
 Main Yahan Hoon|Janam Dekh Lo Udit Narayan
@@ -1645,6 +1653,7 @@ Ruk Jaana Nahin|Ruk Jaana Nahi Tu Kahin Haarke
 Ruk Jaana Nahin|Ruk Jaana Nahin
 Ruk Jaana Nahin|Ruk Jana Nahin
 Ruk Jaana Nahin|Rukjaananahin Tu Kahin
+Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
 Saagar Jaisi Aankhon Wali|Sagar Jaisi Aankhon Wali
 Saagar Kinare|Saagar Kinare
@@ -1681,7 +1690,6 @@ Salame Ishq Meri Jaan|Salame Is Meri Jaan
 Salame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
 Sama Hai Suhana Suhana|Sama Hai Suhana
-Samjhawan|Samjhawan
 Sandese Aate Hai|Sandese Aate Hai
 Sandese Aate Hai|Sandese Aate Hain
 Sandese Aate Hai|Sandeseaate Hain Hai
@@ -1934,6 +1942,7 @@ Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha Todekha
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha Toh
 Tujhe Dekha To Yeh Jaana Sanam|💙⚘TUJHE DEKHA TO⚘💙=========> TUJHE DEKHA TO
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ye Jana Sanam
+Tujhe Na Dekhu To Chain|Tujhe Na Dekhu To Chain
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
@@ -2057,7 +2066,6 @@ Waada Karle Saajna|Wada Karle Sajna
 Waada Karle Saajna|Wada Karle Wada Karle
 Waada Karle Saajna|Wada Karle
 Waada Raha Sanam|Wada Raha Sanam
-Wanted|Wanted
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
 We Didn't Start The Fire|We Didn'T Start The Fire

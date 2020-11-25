@@ -222,8 +222,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             partnerId = str(ptr['account_id'])
             partnerHandle = ptr['handle']
             # Append the ID and handle of the partner to the list, but only if both string lengths are still less than 200 (max size of the columns)
-            tmpIds = performerIds + "," + partnerId
-            tmpHandles = performerHandles + "," + partnerHandle
+            # If MYSELF is the only entry so far, then add the other performer to the front
+            if (performerHandles == MYSELF):
+                tmpIds = partnerId + "," + performerIds
+                tmpHandles = partnerHandle + "," + performerHandles
+            else:
+                tmpIds = performerIds + "," + partnerId
+                tmpHandles = performerHandles + "," + partnerHandle
             if len(tmpIds) <= 200 and len(tmpHandles) <= 200:
                 performerIds = tmpIds
                 performerHandles = tmpHandles
