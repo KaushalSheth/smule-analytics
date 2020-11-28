@@ -1164,6 +1164,7 @@ Kuch Na Kaho|Kuch Na Kaho Na Kaho
 Kuch Na Kaho|Kuchh Na Kaho
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
+Kuch To Log Kahenge|Kuchh To Log Kahenge
 Kya Hua Tera Waada|H D Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Waada ???
 Kya Kehna|Kya Kehna
@@ -1375,6 +1376,7 @@ Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Dil
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye
 Mujhe Neend Na Aaye|Mujhe Nind Na Aaye
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
+Mujhe Neend Na Aaye|Mujhe Neendna Aaye
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
@@ -2085,6 +2087,7 @@ Woh Hai Zara Khafa Khafa|Woh Hai Zara
 Woh Hai Zara Khafa Khafa|Woh Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa
+Woh Jab Yaad Aaye Bahut Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
 Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaad Aa Raha Hai Tera Pyaar

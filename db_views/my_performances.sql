@@ -59,7 +59,8 @@ joiners AS (
     SELECT  js.performers,
             js.joiner_alltime_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_90day_cnt || '-' || js.performers as joiner_alltime,
             js.joiner_90day_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_90days,
-            js.joiner_30day_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_90day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_30days
+            js.joiner_30day_cnt || '-' || js.joiner_7day_cnt || '-' || js.joiner_90day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_30days,
+            js.joiner_7day_cnt || '-' || js.joiner_30day_cnt || '-' || js.joiner_90day_cnt || '-' || js.joiner_alltime_cnt || '-' || js.performers as joiner_7days
     FROM    joiner_stats js
     )
 SELECT  p.*,
@@ -72,7 +73,8 @@ SELECT  p.*,
         j.joiner_alltime,
         j.joiner_30days,
         j.joiner_90days,
-        case when owner_handle = (select handle from myself) then split_part(performer_ids,',',1)::bigint else owner_account_id end as partner_account_id
+        case when owner_handle = (select handle from myself) then split_part(performer_ids,',',1)::bigint else owner_account_id end as partner_account_id,
+        j.joiner_7days
 FROM    perf p
         INNER JOIN partners ptr ON ptr.performers = p.performers
         INNER JOIN titles t ON t.fixed_title = p.fixed_title

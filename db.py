@@ -87,13 +87,14 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = []
     sqlquery = f"""
         select  p.performers, s.pic_url as display_pic_url,
-                lpad(count(*)::varchar,3,'0') || '-' || p.performers as display_handle,
+                substr(p.joiner_7days,1,15) as joiner_stats,
+                substr(p.partner_30days,1,11) as partner_stats,
                 max(p.created_at) as last_performance_time
         from    my_performances p
                 inner join singer s on s.performed_by = p.performers
         where   p.created_at between '{fromdate}' and '{todate}'
-        group by 1, 2
-        order by 4 desc
+        group by 1, 2, 3, 4
+        order by 5 desc
         """
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
@@ -194,52 +195,60 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
     analytics = []
     headings = []
     # Build appropriate query based on analytics title passed in.  Set headings accordingly
-    if analyticstitle in ['Partner Count','Title Count']:
-        if analyticstitle == 'Partner Count':
-            headings = ['Partner','All-Time Count','Last 30 Days','Last 90 Days','Last 180 Days','Older Than 180 Days','Join List']
+    if analyticstitle in ['Partner Stats','Title Stats']:
+        if analyticstitle == 'Partner Stats':
+            headings = ['Partner           ','LastTime     ','First Time   ','First Title      ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Title List']
             selcol = "performers"
             listcol = "fixed_title"
         else:
-            headings = ['Song Name','All-Time Count','Last 30 Days','Last 90 Days','Last 180 Days','Older Than 180 Days','Join List']
+            headings = ['Song Name         ','Last Time     ','First Time   ','First Partner   ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Partner List']
             selcol = "fixed_title"
             listcol = "performers"
-        joinClause = f"""
-            inner join (
-                select {selcol},{listcol},lpad(count(*)::varchar,2,'0') || '-' || {listcol} as list_col, count(*) as num_performances
-                from my_performances
-                group by 1,2
-                ) grp on grp.{selcol} = p.{selcol} and grp.{listcol} = p.{listcol}
-                """
         # Build appropriate query
         # Start with the base query
         sqlquery = f"""
-            select  grp.{selcol} as group_by_column,
-                    count(*) as count_all_time,
-                    count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) as count_30_days,
-                    count(case when created_at > (now() - '90 days'::interval day) then 1 else null end) as count_90_days,
-                    count(case when created_at > (now() - '180 days'::interval day) then 1 else null end) as count_180_days,
-                    count(case when created_at <= (now() - '180 days'::interval day) then 1 else null end) as count_older,
-                    string_agg(distinct grp.list_col,', 'order by grp.list_col desc) as join_list
-            from my_performances p {joinClause}
-            where p.created_at between '{fromdate}' and '{todate}'
+            with
+            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and performers != 'KaushalSheth1'),
+            perf_stats as (
+                select  {selcol},
+                        lpad((count(*) over w_list)::varchar,2,'0') || '-' || {listcol} as list_col,
+                        first_value(created_at) over w_asc as first_performance_time,
+                        first_value(created_at) over w_desc as last_performance_time,
+                        first_value({listcol}) over w_asc as first_list_col,
+                        count(1) over w_all as performance_cnt,
+                        count(case when owner_handle = 'KaushalSheth1' then 1 else null end) over w_all as join_cnt,
+                        count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as perf_last_30_days,
+                        count(case when owner_handle = 'KaushalSheth1' and created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as join_last_30_days
+                from    my_performances
+                where   performers != 'KaushalSheth1'
+                window  w_asc as (partition by {selcol} order by created_at),
+                        w_desc as (partition by {selcol} order by created_at desc),
+                        w_all as (partition by {selcol}),
+                        w_list as (partition by {selcol},{listcol})
+                order by {selcol}
+                ),
+            summary as (
+                select  ps.{selcol},
+                        min(ps.first_performance_time) as first_performance_time,
+                        max(ps.last_performance_time) as last_performance_time,
+                        min(ps.first_list_col) as first_list_col,
+                        min(ps.performance_cnt) as performance_cnt,
+                        min(ps.join_cnt) as join_cnt,
+                        min(ps.perf_last_30_days) as perf_last_30_days,
+                        min(ps.join_last_30_days) as join_last_30_days,
+                        string_agg(distinct ps.list_col,', ' order by ps.list_col desc) as join_list
+                from    perf_stats ps
+                group by 1
+                )
+            select  s.{selcol}, s.last_performance_time, s.first_performance_time, s.first_list_col, s.performance_cnt, s.join_cnt,
+                    count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
+                    s.perf_last_30_days, s.join_last_30_days, s.join_list
+            from    summary s
+                    inner join perf p on p.{selcol} = s.{selcol}
+            group by 1, 2, 3, 4, 5, 6, 8, 9, 10
+            order by 2 desc
             """
-        # Append GROUP BY/ORDER BY clause
-        sqlquery += " group by 1 order by 4 desc, 2 desc"
-    elif analyticstitle == 'Longevity':
-        headings = ['Song Name', 'All-Time Count', 'First Performed', 'Last Performed', 'Longevity', 'Partner Count', 'Partner List']
-        sqlquery = f"""
-            select  fixed_title,
-                    count(*) as count_all_time,
-                    min(created_at) as first_date,
-                    max(created_at) as last_date,
-                    date_part('day',max(created_at)-min(created_at)) as longevity,
-                    count(distinct case when partner_name != '{username}' then partner_name else owner_handle end) as num_partners,
-                    string_agg(distinct case when partner_name != '{username}' then partner_name else owner_handle end,', ') as join_list
-            from all_performances
-            where created_at between '{fromdate}' and '{todate}'
-            and (owner_handle = '{username}' or partner_name = '{username}')
-            group by 1 order by 4,3 desc
-            """
+        print(sqlquery)
     elif analyticstitle == 'Invite':
         headings = [\
             'Song Name', 'Total Score', 'Invite Score', 'Popularity Score', 'First Performance Score', 'Last Performance Score', \
@@ -262,44 +271,6 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
             group by 1,2
             having count(*) > 1
             order by 3 desc
-            """
-    elif analyticstitle == "First Performance":
-        headings = ['Song Name','First Performance Month','First Partner','# Performances',\
-            '1 Day','5 Day','10 Day','30 Day','60 Day','90 Day',\
-            'First Performance Time','LastPerformance Time'\
-            ]
-        sqlquery = f"""
-            with
-            perf_stats as (
-                select  fixed_title,
-                        first_value(created_at) over w_ord as first_performance_time,
-                        first_value(performers) over w_ord as first_partner,
-                        row_number() over w_ord as rn,
-                        count(1) over w_all as num_performances_total,
-                        max(created_at) over w_all as last_performance_time
-                from    my_performances
-                window  w_ord as (partition by fixed_title order by created_at), w_all as (partition by fixed_title)
-                ),
-            first_perf as (select *, to_char(first_performance_time,'YYYY-MM') as first_performance_month from perf_stats where rn = 1),
-            title_stats as (
-                select  mp.fixed_title,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 1 then 1 else null end) as num_performances_1_day,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 5 then 1 else null end) as num_performances_5_day,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 10 then 1 else null end) as num_performances_10_day,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 30 then 1 else null end) as num_performances_30_day,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 60 then 1 else null end) as num_performances_60_day,
-                        count(case when date_part('day',mp.created_at - fp.first_performance_time) < 90 then 1 else null end) as num_performances_90_day
-                from    my_performances mp
-                        inner join first_perf fp on fp.fixed_title = mp.fixed_title
-                group by 1
-                )
-            select  fp.fixed_title, fp.first_performance_month, fp.first_partner, fp.num_performances_total,
-                    ts.num_performances_1_day,ts.num_performances_5_day,ts.num_performances_10_day,
-                    ts.num_performances_30_day,ts.num_performances_60_day,ts.num_performances_90_day,
-                    fp.first_performance_time, fp.last_performance_time
-            from    first_perf fp
-                    inner join title_stats ts on ts.fixed_title = fp.fixed_title
-            where   first_performance_time between '{fromdate}' and '{todate}'
             """
 
     # Execute the query and build the analytics list
