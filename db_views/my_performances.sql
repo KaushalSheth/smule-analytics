@@ -1,5 +1,8 @@
 CREATE OR REPLACE VIEW my_performances AS
 WITH
+myself as (
+    select  'KaushalSheth1' as handle
+),
 perf AS (
     SELECT  p.*,
             split_part((p.key)::text, '_'::text, 1) AS instance_key
@@ -8,7 +11,7 @@ perf AS (
     AND     exists (
                 select  1
                 from    performance_singer ps
-                        inner join singer s on s.account_id = ps.singer_account_id and s.performed_by = 'KaushalSheth1'
+                        inner join singer s on s.account_id = ps.singer_account_id and s.performed_by = (select handle from myself)
                 where   ps.performance_key = p.key
                 )
     ),
@@ -49,7 +52,7 @@ joiner_stats AS (
             lpad(count(case when p.created_at > (now() - interval '30 days') then 1 else null end)::text,3,'0') as joiner_30day_cnt,
             lpad(count(case when p.created_at > (now() - interval '90 days') then 1 else null end)::text,3,'0') as joiner_90day_cnt
     FROM    perf p
-    where   p.owner_handle = 'KaushalSheth1'
+    where   p.owner_handle = (select handle from myself)
     GROUP BY p.performers
     ),
 joiners AS (
@@ -68,7 +71,8 @@ SELECT  p.*,
         ptr.partner_90days,
         j.joiner_alltime,
         j.joiner_30days,
-        j.joiner_90days
+        j.joiner_90days,
+        case when owner_handle = (select handle from myself) then split_part(performer_ids,',',1)::bigint else owner_account_id end as partner_account_id
 FROM    perf p
         INNER JOIN partners ptr ON ptr.performers = p.performers
         INNER JOIN titles t ON t.fixed_title = p.fixed_title

@@ -23,9 +23,13 @@ def getJSON(username,type="performances",offset=0):
         with request.urlopen(urlstring) as url:
             data = json.loads(url.read())
     except:
+        # Ignore any errors
         pass
-
     return data
+
+# Get list of people the user is following
+def fetchUserFollowing(username):
+    return getJSON(username,type="following")['list']
 
 # Method to get comments for specified recording
 def getComments(web_url):
@@ -361,11 +365,13 @@ def fetchFileTitleMappings(filename):
 
 # Method to fetch invites for partners identified by the partner SQL passed in
 def fetchPartnerInvites(partnersql,numrows,knowntitles):
-    # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 7 days
+    # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
     currTime = datetime.now()
-    mindate = (currTime - timedelta(7)).strftime(DATEFORMAT)
+    mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
     maxdate = currTime.strftime(DATEFORMAT)
     performanceList = []
+    # Get list of handles of users I'm following
+    followingHandles = [d['handle'] for d in fetchUserFollowing(MYSELF)]
 
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     performedList = []
@@ -378,12 +384,18 @@ def fetchPartnerInvites(partnersql,numrows,knowntitles):
         if t not in titleList:
             titleList.append(t)
 
+    i = 0
     # Fetch the list of partners by executing the partnersql query
     partners = execDBQuery(partnersql)
     for ptr in partners:
+        partnerHandle = list(iter(ptr.values()))[0]
+        partnerSort = list(iter(ptr.values()))[1]
+        # If the partner is not someone I'm following, then skip this partner
+        if partnerHandle not in followingHandles:
+            continue
         # Fetch all invites for the partner
         # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
-        partnerList = fetchSmulePerformances(next(iter(ptr.values())),maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+        partnerList = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
         # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
         finalPartnerList = []
         for p in partnerList:
@@ -397,6 +409,8 @@ def fetchPartnerInvites(partnersql,numrows,knowntitles):
                     finalPartnerList.append(p)
         # Extend the peformance list by adding the final partner list to it
         performanceList.extend(finalPartnerList)
+        i += 1
+        print(f"-- {i}: {len(performanceList)} after {partnerHandle} ({partnerSort})")
         # As soon as we exceed the number of rows specified, break out of the loop
         if (len(performanceList) >= numrows):
             break

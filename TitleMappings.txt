@@ -22,6 +22,7 @@ Aaiye Meherbaan|Aaiye Meherbaan Baithiye
 Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
+Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Karaoke
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Ki Charche
@@ -240,6 +241,7 @@ Aji Roothkar|Aji Roothkar Ab 2
 Aji Roothkar|Aji Ruth Kar Ab
 Aji Roothkar|Aji Ruth Kar Ab Kaha Jaiyega
 Aji Roothkar|Aji Ruthkar Ab
+Aji Roothkar|Aji Rooth Kar Ab Kahan Jaiyega
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
@@ -313,6 +315,7 @@ Bahut Pyaar Karte Hai|Bahut Pyar Karte Hai Tumko Sanam
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
 Bas Itna Sa Khwaab Hai|Bas Itna Sa Khwaab Hai
+Bedardi Baalma Tujhko|Bedardi Baalma Tujhko
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
 Bekhudi Mein Sanam|Bekhudi Mein Sanam Lata Rafi
@@ -505,7 +508,6 @@ Dekha Hazaro Dafaa|Dekha Hazaro Dafaa
 Dekha Hazaro Dafaa|Dekha Hazaron Dafa
 Dekha Jo Tumko|Dekha Jo Tumko
 Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
-Dekha Tujhko To|Dekha Tujhko To
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
@@ -858,6 +860,7 @@ Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyaar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Bada
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr Badha
+Ja Ja Ja Bewafa|Ja Ja Ja Bewafa
 Ja Re Ja Re Ud Ja Re Panchhi|Ja Re Ja Re Ud Ja Re Panchhi
 Jaan Nisaar|Jaan 'Nisaar
 Jaan Nisaar|Jaan Nisaar
@@ -1006,6 +1009,7 @@ Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jitni Dafa|Jitni Dafa Dafa
 Jitni Dafa|Jitni Dafa Dekhu Tumhe
 Jitni Dafa|°Jitni Dafa°
+Jitni Dafa|Jitni Dafa Female
 Jiya Beqarar Hai|Jiya Beqarar Hai
 Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
@@ -1021,6 +1025,7 @@ Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
 Jo Wada Kiya Woh|Jo Wada Kiya Woh
 Joote Do Paise Lo|Joote Do Paise Lo
+Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
 Kabhi Alvida Na Kehna|Kabhi Alvida
@@ -1198,6 +1203,7 @@ Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
+Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
 Lekar Hum Deewana Dil|Lekar Hum
 Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
@@ -1277,7 +1283,7 @@ Maine Poochha Chand Se|Maine Pucha Chand Se
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
 Maine Tere Liye|Maine Tere Liye Hi
-Mapped Title|Smule Title
+Mast Baharon Ka Main Aashiq|Mast Baharon Ka Main Aashiq
 Mastana Mausam Hai|Mastana Mausam Hai
 Masti Bhara Hai Sama|Masti Bhara Hai Sama
 Mausam Ke Sargam|Mausam Ke Sargam
@@ -1920,6 +1926,7 @@ Tu Tu Hai Wahi|Tu Tu Hain Wahi
 Tu Tu Hai Wahi|¹ Tu Tu Hai Wahi
 Tu Tu Hai Wahi|🖐✊Tu Tu Hai Wahi
 Tu Tu Hai Wahi|Tu Tu Hai Wahi ( Shot
+Tu Tu Hai Wahi|Yeh Vaada Raha
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
@@ -1942,6 +1949,7 @@ Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha Todekha
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha Toh
 Tujhe Dekha To Yeh Jaana Sanam|💙⚘TUJHE DEKHA TO⚘💙=========> TUJHE DEKHA TO
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ye Jana Sanam
+Tujhe Dekha To Yeh Jaana Sanam|Dekha Tujhko To
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhu To Chain
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
@@ -2041,6 +2049,8 @@ Tumko Dekha To|Tumko Dekha To Ye
 Tumko Dekha To|Tumko Dekha To Ye Khayaal Aaya
 Tumko Dekha To|Tumko Dekha To Ye Khayal
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
+Tumsa Nahin Dekha|Yoon To Humne Laakh
+Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
@@ -2213,7 +2223,6 @@ Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh To Sach Hai Ki Bhagwan Hai
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh Toh Sach Hai Ki Bhagwan Hai
-Yeh Vaada Raha|Yeh Vaada Raha
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953

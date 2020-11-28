@@ -108,6 +108,7 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('KISHORT','KI [SHORT]').\
                 replace('[[SHORT]]','[SHORT]').\
                 replace('[[[[[  DHADAK  ]]]]]','DHADAK').\
+                replace('- SIMMBA',' SIMMBA').\
                 replace('{HQ{','HQ ').\
                 replace('[SHORT]',openquote + 'SHORT' + closequote)
 
