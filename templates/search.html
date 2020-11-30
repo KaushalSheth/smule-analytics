@@ -94,20 +94,10 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="20" cols="80">
-with joiners as (
-select performers as partner_name,count(*)*10 as sort_order
-from my_performances
-where owner_handle = 'KaushalSheth1' and performers != 'KaushalSheth1'
-and created_at > now() - interval '14 days'
-group by 1
-)
-select * from joiners
-UNION ALL
-select partner_name, rating * random()  as sort_order
+select partner_name, rating + (5*random())  as sort_order
 from favorite_partner
 where partner_name != 'KaushalSheth1'
-and partner_name not in (select partner_name from joiners)
-and rating >= 2
+and rating >= 0
 order by 2 desc
           </textarea>
         </div>

@@ -85,9 +85,10 @@ class SongList(db.Model):
 class FavoritePartner(db.Model):
     account_id = db.Column(db.BigInteger, primary_key=True)
     partner_name = db.Column(db.String(50), nullable=True)
-    rating = db.Column(db.Integer, nullable=True)
+    rating = db.Column(db.Numeric(10,2), nullable=True)
     manual_override_ind = db.Column(db.Boolean, nullable=True)
     performance_cnt = db.Column(db.Integer, nullable=True)
     favorite_cnt = db.Column(db.Integer, nullable=True)
+    join_cnt = db.Column(db.Integer, nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
