@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2020-11-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2020-12-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -97,7 +97,7 @@
 select partner_name, rating + (5*random())  as sort_order
 from favorite_partner
 where partner_name != 'KaushalSheth1'
-and rating >= 0
+and rating > 0
 order by 2 desc
           </textarea>
         </div>

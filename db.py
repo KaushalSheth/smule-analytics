@@ -169,6 +169,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['partner_name'] = ""
         d['create_type'] = ""
         d['joiners'] = ""
+        d['recording_url'] = d['web_url'].replace("/ensembles","")
         # TODO: Need to figure out how to get the partner handle and pic_URL here
         d['display_handle'] = d['owner_handle']
         d['display_pic_url'] = d['owner_pic_url']
@@ -208,7 +209,7 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
         # Start with the base query
         sqlquery = f"""
             with
-            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and performers != 'KaushalSheth1'),
+            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and web_url not like '%ensembles'),
             perf_stats as (
                 select  {selcol},
                         lpad((count(*) over w_list)::varchar,2,'0') || '-' || {listcol} as list_col,
@@ -220,7 +221,7 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
                         count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as perf_last_30_days,
                         count(case when owner_handle = 'KaushalSheth1' and created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as join_last_30_days
                 from    my_performances
-                where   performers != 'KaushalSheth1'
+                where   1 = 1
                 window  w_asc as (partition by {selcol} order by created_at),
                         w_desc as (partition by {selcol} order by created_at desc),
                         w_all as (partition by {selcol}),
@@ -302,6 +303,7 @@ def saveDBPerformances(username,performances):
             del p['display_pic_url']
             del p['create_type']
             del p['joiners']
+            del p['recording_url']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed
@@ -347,7 +349,7 @@ def saveDBPerformances(username,performances):
             # If any errors are encountered for the performance, roll back all DB changes made for that performance
             db.session.rollback()
             # Uncomment following line for debugging purposes only
-            #raise
+            raise
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"

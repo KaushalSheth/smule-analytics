@@ -49,7 +49,7 @@
                 <td>{{ loop.index }}</td>
               {% endif %}
               <td>{{ performance.created_at }}</td>
-              <td><a href="{{ performance.web_url }}" target="_blank">{{ performance.title }}</a></td>
+              <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a></td>
               {% if searchOptions['offline'] %}
                   <td>
                       <a href="{{ performance.web_url }}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>

@@ -147,6 +147,7 @@ Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Mein Zindagi Mein Mein
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri Zindagi
 Aaye Ho Meri Zindagi Mein|Aye Ho Merimeri Ho Ho
 Aaye Ho Meri Zindagi Mein|Ayeho Meriho Meri Ho
+Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aayega Aane Wala|Aaega Aane Wala
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein
@@ -295,6 +296,7 @@ Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
 Baazigar O Baazigar|Baazigar O Baazigar
 Babuji Dheere Chalna|Babuji Dheere Chalna
 Bachna Ae Haseeno|Bachna Ai Hasino
+Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
@@ -303,6 +305,7 @@ Badi Sooni Sooni Hai|Badi Sooni Sooni Suni
 Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Baharon Phool Barsao|Baharon Phool Barsao
+Baharon Phool Barsao|Baharon Phool Barsao Phool
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Male
@@ -332,6 +335,7 @@ Bheege Hoth Tere|Bheege Hoth Tere_Fth___
 Bheege Hoth Tere|Bheege Hoth Tere
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Mein
 Bholi Si Surat|Bholi Si Surat
+Bholi Si Surat|Bholi Si Surat Re
 Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
@@ -357,6 +361,8 @@ Chaahun Main Ya Na|Chahun Main Ya Na Aashiqui2
 Chaahun Main Ya Na|Chahun Mein Ya Na
 Chaahun Main Ya Na|Chanun Main Ya Na
 Chaahun Main Ya Na|Chahun Main Ya Naa
+Chaahunga Main Tujhe|Chahunga Main Tujhe
+Chaand Aahen Bharega|Chand Aahen Bharega Chaand
 Chaand Chhupaa Baadal Mein|Chaand Chhupa Badal
 Chaand Chhupaa Baadal Mein|Chaand Chhupa Badal Me
 Chaand Chhupaa Baadal Mein|Chaand Chhupaa Baadal Mein
@@ -371,8 +377,13 @@ Chaand Ne Kuch Kaha|Chaand Ne Kuch Kaha Karaoke
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
+Chaand Phir Nikla|Chand Phir Nikla
+Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
+Chaand Sitare|Chaand Sitaare
+Chaand Sitare|Chand Sitare
 Chaand Taare Tod Laun|Chaand Taare Tod Laun Karaoke
 Chaand Taare Tod Laun|Chand Taare Tod Laun
+Chaand Taare Tod Laun|Chand Tare Tod Laun
 Chain Se Humko Kabhi|Chain Se Hamko Kabhi
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
@@ -386,11 +397,6 @@ Chalte Chalte|Chalte Chalte Mere Ye
 Chalte Chalte|Chalte Chalte Mere Ye Geet
 Chalte Chalte|S H O R T Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Yeh Geet
-Chand Aahen Bharega|Chand Aahen Bharega Chaand
-Chand Phir Nikla|Chand Phir Nikla
-Chand Sitare|Chaand Sitaare
-Chand Sitare|Chand Sitare
-Chand Taare Tod Laun|Chand Tare Tod Laun
 Chanda Chamke|Chanda Chamke Fanaa
 Chanda O Chanda|Chanda O Chanda
 Chandan Sa Badan|Chandan Sa Badan Mukesh
@@ -1059,6 +1065,7 @@ Kaho Na Pyaar Hai|Kaho Na Pyar Hai Pyar Hain Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyar Hai [}
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
+Kaisi Paheli Zindagani|Kaisi Paheli Zindagani Parineeta
 Kajra Mohabbat Wala|Kajra Mohabbat Wala
 Kajra Mohabbat Wala|Kajra Mohabbatwala
 Kal Ho Na Ho|Har Ghadi
@@ -1240,6 +1247,7 @@ Main Hoon Na|Main Hoon Na
 Main Hoon Na|Main Hoon Na Main
 Main Hoon Na|Mainhoon Namain Na Main
 Main Hoon Na|Mainhoon Na, Main Hoo Na Mai Hoo Na
+Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet
@@ -1317,6 +1325,7 @@ Mere Haath Mein|Merehath Mein Me
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khwabon Mein Jo Aaye|Mere Khwaabon Mein Jo ☕
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein Jo Aaye
+Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein
 Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat
 Mere Mehboob Qayamat Hogi|Mere Mehboob
 Mere Mehboob Qayamat Hogi|Mere Mehboob Kayamat Hogi
@@ -1785,6 +1794,7 @@ Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taarif Karoon Kya Uski|Taarif Karoon Kya Uski
+Taaron Main Sajke|[} Taron Main Sajke
 Tasveer Teri Dil Mein|Tasveer Teri Dil Mein
 Tauba Tumhare Yeh Ishare|Drtauba Tumhare Yeh Ishare
 Tauba Tumhare Yeh Ishare|Tauba Tumare Yeh Ishare
@@ -2192,6 +2202,7 @@ Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Chori
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi
+Yeh Raat Khushnaseeb Hai|Yeh Raat Khushnaseeb Hai
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni Phir Kaha
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni
 Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni

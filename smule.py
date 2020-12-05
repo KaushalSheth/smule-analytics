@@ -173,6 +173,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         created_at = performance['created_at']
         web_url = f"https://www.smule.com{performance['web_url']}"
         #print(web_url)
+        # Set recording URL to strip out the "/ensembles" at the end if it exists
+        recording_url = web_url.replace("/ensembles","")
         # As soon as created_at is less than the ensemble min date, break out of the loop
         # In case we don't care for joins, then break out as soon as we reach the mindate (no need to process extra days)
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
@@ -320,7 +322,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'expire_at':performance['expire_at'],\
                 'joiners':joiners,
                 'performer_ids':performerIds,\
-                'performer_handles':performerHandles\
+                'performer_handles':performerHandles,\
+                'recording_url': recording_url\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
