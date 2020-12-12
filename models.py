@@ -76,19 +76,8 @@ class TitleMapping(db.Model):
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
-class SongList(db.Model):
+class ExcludeList(db.Model):
     list_type = db.Column(db.String(100), primary_key=True)
-    fixed_title = db.Column(db.String(100), primary_key=True)
-    created_at = db.Column(db.DateTime, server_default=db.func.now())
-    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
-
-class FavoritePartner(db.Model):
-    account_id = db.Column(db.BigInteger, primary_key=True)
-    partner_name = db.Column(db.String(50), nullable=True)
-    rating = db.Column(db.Numeric(10,2), nullable=True)
-    manual_override_ind = db.Column(db.Boolean, nullable=True)
-    performance_cnt = db.Column(db.Integer, nullable=True)
-    favorite_cnt = db.Column(db.Integer, nullable=True)
-    join_cnt = db.Column(db.Integer, nullable=True)
+    item_name = db.Column(db.String(100), primary_key=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

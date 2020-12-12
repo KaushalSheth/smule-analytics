@@ -278,6 +278,7 @@ Are Re Are Ye Kya Hua|Arey Re Arey Ye Kya Hua
 Are Re Are Ye Kya Hua|Arre Re Arre Ye Kya Huaa
 Aur Ahista|Aur Aahista Kijiye Baatein
 Aur Ahista|Aur Ahista
+Aur Is Dil Mein|Aur Is Dil Mein
 Baa Baa Black Sheep|Baa Baa Black Sheep
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
@@ -652,6 +653,7 @@ Do Pal Ruka|Do Pal Ruka Khwabon Ka Do Pal Ruka Pal Ruka
 Do Sitaron Ka Zameen Par Hai Milan|Do Sitaron Ka Zameen Par Hai Milan
 Donna|Donna
 Dost Dost Na|Dost Dost Na
+Dukhi Man Mere Sun Mera Kehna|Dukhi Man Mere Sun Mera Kehna
 Dum Bhar Jo Udhar|Dambhar Jo Udhar
 Dum Bhar Jo Udhar|Dum Bhar Jo Udhar
 Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
@@ -707,6 +709,7 @@ Every Breath You Take|Every Breath You Take
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
+Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Amaal Mallik
@@ -1005,6 +1008,7 @@ Jee Le Zaraa|Jee Le Zaraa
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Par
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
+Jeevan Se Na Haar|Jeevan Se Na Haar
 Jhanak Jhanak Tori Baaje Payaliya|Jhanak Jhanak Tori Baje Payelia
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan
@@ -1035,6 +1039,7 @@ Joote Do Paise Lo|Joote Do Paise Lo
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
+Kabhi Aar Kabhi Paar|Kabhi Aar Kabhi Paar
 Kabhi Alvida Na Kehna|Kabhi Alvida
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna Kabhi Alvida
@@ -1580,6 +1585,7 @@ Pyaar Hua Iqraar Hua|Pyar Hua Iqrar Hua
 Pyaar Hua Iqraar Hua|Pyar Hua Iqrar Ikraar Hai
 Pyaar Hua Iqraar Hua|Ad Pyar Hua Ikrar Hua Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai
+Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat
 Pyaar Karne Waale|Pyaar Karne Waale
 Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Wale|Pyar Karne Wale Kabhi Darte Nahi
@@ -1712,6 +1718,7 @@ Sama Hai Suhana Suhana|Sama Hai Suhana
 Sandese Aate Hai|Sandese Aate Hai
 Sandese Aate Hai|Sandese Aate Hain
 Sandese Aate Hai|Sandeseaate Hain Hai
+Sandli Sandli Laung Laachi|Sandli Sandli Laung Laachi
 Sar Pe Topi Laal|Sar Par Topi Lal
 Sar Pe Topi Laal|Sar Pe Topi
 Sar Pe Topi Laal|Sar Pe Topi Sar Par Topi
@@ -1972,6 +1979,7 @@ Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaee
 Tujhko Pukare Mera Pyar|Tujhko Pukare Mera Pyar
 Tujhko Pukare Mera Pyar|Tujko Pukare Mera Pyar
+Tujhko Pukare Mera Pyar|Tujhko Pukare Mera Pyaar
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naaraz Nahin Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Nahin
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Zindagi
