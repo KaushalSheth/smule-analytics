@@ -388,6 +388,7 @@ def fetchPartnerInvites(partnersql,numrows,knowntitles):
             titleList.append(t)
 
     i = 0
+    numPerf = 0
     # Fetch the list of partners by executing the partnersql query
     partners = execDBQuery(partnersql)
     for ptr in partners:
@@ -413,7 +414,9 @@ def fetchPartnerInvites(partnersql,numrows,knowntitles):
         # Extend the peformance list by adding the final partner list to it
         performanceList.extend(finalPartnerList)
         i += 1
-        print(f"-- {i}: {len(performanceList)} after {partnerHandle} ({partnerSort})")
+        if len(performanceList) != numPerf:
+            numPerf = len(performanceList)
+            print(f"-- {i}: {numPerf} after {partnerHandle} ({partnerSort})")
         # As soon as we exceed the number of rows specified, break out of the loop
         if (len(performanceList) >= numrows):
             break

@@ -573,6 +573,7 @@ Dil Hai Ke Maanta Nahin|Dil Hai Ki Maanta Nahi
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
+Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Ka Bhanwar Kare Pukar
@@ -1305,10 +1306,12 @@ Masti Bhara Hai Sama|Masti Bhara Hai Sama
 Mausam Ke Sargam|Mausam Ke Sargam
 Maye Ni Maye|Maye Ni Maye
 Medley Shahruk Khan|Medley Shahruk Khan
+Medley Old Songs|Medley Old S
 Mehbooba Mehbooba|Mehbooba Mehbooba
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
 Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mehndi Lagake
+Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai
 Mera Dil Bhi Kitna|Mera Dil Bhi
@@ -1360,6 +1363,7 @@ Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Me
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Mein
 Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
+Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Neendon Mein Tum|Meri Neendon Mein Tum

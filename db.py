@@ -86,15 +86,21 @@ def fetchDBPerformancesOrig(username,maxperf=9999):
 def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = []
     sqlquery = f"""
-        select  p.performers, s.pic_url as display_pic_url,
-                substr(p.joiner_7days,1,15) as joiner_stats,
-                substr(p.partner_30days,1,11) as partner_stats,
-                max(p.created_at) as last_performance_time
-        from    my_performances p
-                inner join singer s on s.performed_by = p.performers
-        where   p.created_at between '{fromdate}' and '{todate}'
-        group by 1, 2, 3, 4
-        order by 5 desc
+        select * from (
+            select  p.performers, s.pic_url as display_pic_url,
+                    substr(p.joiner_7days,1,15) as joiner_stats,
+                    substr(p.partner_30days,1,11) as partner_stats,
+                    first_value(p.created_at) over w as last_performance_time,
+                    first_value(p.orig_track_city) over w as city,
+                    first_value(p.orig_track_country) over w as country,
+                    row_number() over w as rn
+            from    my_performances p
+                    inner join singer s on s.performed_by = p.performers
+            where   p.created_at between '{fromdate}' and '{todate}'
+            window w as (partition by p.performers order by case when p.owner_handle = 'KaushalSheth1' then '2000-01-01'::timestamp else p.created_at end desc, p.created_at desc)
+            ) a
+        where a.rn = 1
+        order by last_performance_time desc
         """
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
@@ -260,7 +266,7 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
                     performance_recency_score, num_all_performances, num_partners, num_invites, num_joins,
                     first_performance_time, last_performance_time
             from    my_invite_analysis
-            where   fixed_title not in (select fixed_title from song_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
+            where   fixed_title not in (select item_name from exclude_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
             """
     elif analyticstitle == 'Repeat':
         headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
