@@ -94,15 +94,17 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="20" cols="80">
-select partner_name, rating + (5*random())  as sort_order
+select partner_name, recency_score, rating
 from favorite_partner
 where partner_name != 'KaushalSheth1'
-and rating > 0
-order by 2 desc
+and recency_score between 0 and 9999
+order by 2 desc, 3 desc
           </textarea>
         </div>
         <div class="control">
-            <input name="knowntitles" type="checkbox" checked>&nbsp;Known Titles only</input>
+            <input name="knowntitles" type="checkbox" checked>&nbsp;Include Known Titles</input><br>
+            <input name="unknowntitles" type="checkbox" checked>&nbsp;Include Unknown Titles</input><br>
+            <input name="repeats" type="checkbox">&nbsp;Include Repeats</input><br>
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Partner Invites" class="button is-link" />

@@ -197,12 +197,20 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     return performances
 
 # Method to query title and partner analytics for a user
-def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-01-01"):
+def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-01-01",todate="2030-01-01"):
     global analytics, headings
     analytics = []
     headings = []
+    # Extract variables from the options parameter for use later in the method
+    analyticstitle = analyticsOptions['analyticstitle']
+    username = analyticsOptions['username']
+    fromdate = analyticsOptions['fromdate']
+    todate = analyticsOptions['todate']
     # Build appropriate query based on analytics title passed in.  Set headings accordingly
-    if analyticstitle in ['Partner Stats','Title Stats']:
+    if analyticstitle == "Custom":
+        headings = analyticsOptions['headings']
+        sqlquery = analyticsOptions['analyticssql']
+    elif analyticstitle in ['Partner Stats','Title Stats']:
         if analyticstitle == 'Partner Stats':
             headings = ['Partner           ','LastTime     ','First Time   ','First Title      ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Title List']
             selcol = "performers"
@@ -223,9 +231,9 @@ def fetchDBAnalytics(analyticstitle,username,fromdate="2018-01-01",todate="2030-
                         first_value(created_at) over w_desc as last_performance_time,
                         first_value({listcol}) over w_asc as first_list_col,
                         count(1) over w_all as performance_cnt,
-                        count(case when owner_handle = 'KaushalSheth1' then 1 else null end) over w_all as join_cnt,
+                        count(case when owner_handle = 'KaushalSheth1' and web_url not like '%ensembles' then 1 else null end) over w_all as join_cnt,
                         count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as perf_last_30_days,
-                        count(case when owner_handle = 'KaushalSheth1' and created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as join_last_30_days
+                        count(case when owner_handle = 'KaushalSheth1' and web_url not like '%ensembles' and created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as join_last_30_days
                 from    my_performances
                 where   1 = 1
                 window  w_asc as (partition by {selcol} order by created_at),

@@ -367,7 +367,12 @@ def fetchFileTitleMappings(filename):
     return titleMappings
 
 # Method to fetch invites for partners identified by the partner SQL passed in
-def fetchPartnerInvites(partnersql,numrows,knowntitles):
+def fetchPartnerInvites(inviteOptions,numrows):
+    # Extract relevent parametrs from invite options
+    partnersql = inviteOptions['partnersql']
+    knowntitles = inviteOptions['knowntitles']
+    unknowntitles = inviteOptions['unknowntitles']
+    repeats = inviteOptions['repeats']
     # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
     currTime = datetime.now()
     mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
@@ -402,15 +407,31 @@ def fetchPartnerInvites(partnersql,numrows,knowntitles):
         partnerList = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
         # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
         finalPartnerList = []
+        partnerCount = 0
+        unknownCount = 0
         for p in partnerList:
             t = p['fixed_title']
-            # Construct the performed string to match our query above
-            performed = p['performers'] + "|" + t
-            # As long as this is not on the already performed list, append it to the final list
-            if performed not in performedList:
-                # Additional check - if knowntitles flag is set, check that the title is in our list of known titles
-                if (((knowntitles) and (t in titleList)) or ((not knowntitles) and (t not in titleList))):
+            isRepeat = (p['performers'] + "|" + t) in performedList
+            isUnknown = (t not in titleList)
+            # We will include the performance only if repeats are allowed or if the performance is not in the list of already performed performances
+            if (repeats or not isRepeat):
+                # We will include known/unknown titles based on options set
+                if ( (knowntitles and not isUnknown) or (unknowntitles and isUnknown) ):
+                    # We want a maximum of 1 Unknown title from each partner (if any are allowed), so continue to next title if that max is reached
+                    if isUnknown:
+                        unknownCount += 1
+                        if unknownCount > 1:
+                            continue
+                    # Append appropriate indicators to title
+                    if isRepeat:
+                        p['title'] += " (REPEAT)"
+                    if isUnknown:
+                        p['title'] += " (UNKNOWN)"
                     finalPartnerList.append(p)
+                    partnerCount += 1
+                    # We will limit each partner to max 3 invites, so break out of loop when count reaches or exceeds 3
+                    if partnerCount >= 3:
+                        break
         # Extend the peformance list by adding the final partner list to it
         performanceList.extend(finalPartnerList)
         i += 1

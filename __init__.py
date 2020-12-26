@@ -1,4 +1,5 @@
 import os
+import ast
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
@@ -8,6 +9,8 @@ from datetime import datetime
 
 # Set defaults for global variable that are used in the app
 searchOptions = {'solo':False,'contentType':"both",'joins':True}
+analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
+inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
 search_user = None
 performances = None
@@ -59,39 +62,32 @@ def create_app(test_config=None):
     # The search page allows you to search for performances either in the Smule site or the DB
     @app.route('/search', methods=('GET','POST'))
     def search():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, partnersql, searchOptions, knowntitles
+        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, searchOptions, inviteOptions
         update_currtime()
 
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
             # Initialize search options dict to empty
             searchOptions = {}
+            error = None
 
+            # Set all search options
             if request.form.get('offline'):
                 searchOptions['offline'] = True
             else:
                 searchOptions['offline'] = False
-
             if request.form.get('solo'):
                 searchOptions['solo'] = True
             else:
                 searchOptions['solo'] = False
-
             if request.form.get('joins'):
                 searchOptions['joins'] = True
             else:
                 searchOptions['joins'] = False
-
             if request.form.get('comments'):
                 searchOptions['comments'] = True
             else:
                 searchOptions['comments'] = False
-
-            if request.form.get('knowntitles'):
-                knowntitles = True
-            else:
-                knowntitles = False
-
             if request.form.get('audio') and request.form.get('videos'):
                 searchOptions['contentType'] = "both"
             elif request.form.get('audio'):
@@ -100,19 +96,30 @@ def create_app(test_config=None):
                 searchOptions['contentType'] = "video"
             else:
                 searchOptions['contentType'] = "none"
-
             user = request.form['username']
+            if not user:
+                error = "Username is required."
             search_user = user
             numrows = int(request.form['numrows'])
             startoffset = int(request.form['startoffset'])
             fromdate = request.form['fromdate']
             todate = request.form['todate']
-            partnersql = request.form['partnersql']
-            error = None
             searchtype = 'PERFORMANCES'
 
-            if not user:
-                error = "Username is required."
+            # Set all invite options
+            inviteOptions['partnersql'] = request.form['partnersql']
+            if request.form.get('knowntitles'):
+                inviteOptions['knowntitles'] = True
+            else:
+                inviteOptions['knowntitles']  = False
+            if request.form.get('unknowntitles'):
+                inviteOptions['unknowntitles'] = True
+            else:
+                inviteOptions['unknowntitles']  = False
+            if request.form.get('repeats'):
+                inviteOptions['repeats'] = True
+            else:
+                inviteOptions['repeats']  = False
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:
@@ -165,20 +172,32 @@ def create_app(test_config=None):
     # The Analytics page allows you to choose one of the analytics "reports" you wish to display
     @app.route('/analytics', methods=('GET','POST'))
     def analytics():
-        global user, numrows, search_user, startoffset, fromdate, todate, searchtype, analyticstitle
+        global user, searchtype, analyticsOptions
         update_currtime()
+        searchtype = 'ANALYTICS'
+
         # When the form is posted, store the form field values into global variables
         if request.method == 'POST':
-            user = request.form['username']
-            fromdate = request.form['fromdate']
-            todate = request.form['todate']
             error = None
-            searchtype = 'PERFORMANCES'
-
+            user = request.form['username']
             if not user:
                 error = "Username is required."
 
-            analyticstitle = request.form['btn']
+            analyticsOptions['username'] = user
+            analyticsOptions['fromdate'] = request.form['fromdate']
+            analyticsOptions['todate'] = request.form['todate']
+            analyticsTitle = request.form['btn']
+            analyticsOptions['analyticstitle'] = analyticsTitle
+
+            if (analyticsTitle == "Custom"):
+                headingsStr = request.form['headings']
+                if not headingsStr:
+                    error = "Column Headings is required and needs to be specified as list of strings matching the output of the SQL"
+                else:
+                    # The assumption is that the heading string will be a list, so evaluate it and convert it to a list to pass as the headings option
+                    headingsList =  ast.literal_eval(headingsStr)
+                    analyticsOptions['headings'] = headingsList
+                    analyticsOptions['analyticssql'] = request.form['analyticssql']
 
             # If no errors on page, query analytics
             if error is None:
@@ -189,25 +208,25 @@ def create_app(test_config=None):
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
-        performances = None
+        analytics = None
         return render_template('analytics_choice.html')
 
     # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_analytics')
     def query_analytics():
-        global user, fromdate, todate, analytics, headings, analyticstitle
+        global headings, analytics, analyticsOptions
         # Fetch the analytics into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for analytics allows us to easily reuse the same HTML page for listing analytics
-        headings,analytics = fetchDBAnalytics(analyticstitle,user,fromdate,todate)
+        headings,analytics = fetchDBAnalytics(analyticsOptions)
         flash(f"{len(analytics)} rows fetched from database")
         return redirect(url_for('analytics_output'))
 
     # Generic route for displaying analytics using global variables
     @app.route('/analytics_output')
     def analytics_output():
-        global analytics, user, currtime, headings, analyticstitle
+        global analytics, user, currtime, headings, analyticsOptions
         # This assumes that the analytics global variable is set by the time we get here
-        return render_template('analytics_output.html', headings=headings, analytics=analytics, user=user, currtime=currtime, analyticstitle=analyticstitle)
+        return render_template('analytics_output.html', headings=headings, analytics=analytics, user=user, currtime=currtime, analyticstitle=analyticsOptions['analyticstitle'])
 
     # This method is referenced in the list_performances HTML page in order to fetch favorites for the owner listed
     @app.route('/crawl_joiners/<username>')
@@ -241,8 +260,8 @@ def create_app(test_config=None):
     # This method fetches a list of partners using specified partnersql and then fetches all invites by these partners
     @app.route('/query_partner_invites')
     def query_partner_invites():
-        global performances, partnersql, numrows, knowntitles
-        performances = fetchPartnerInvites(partnersql,numrows,knowntitles)
+        global performances, inviteOptions, numrows
+        performances = fetchPartnerInvites(inviteOptions,numrows)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
