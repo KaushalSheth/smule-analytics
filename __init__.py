@@ -120,6 +120,10 @@ def create_app(test_config=None):
                 inviteOptions['repeats'] = True
             else:
                 inviteOptions['repeats']  = False
+            if request.form.get('notfollowing'):
+                inviteOptions['notfollowing'] = True
+            else:
+                inviteOptions['notfollowing']  = False
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:

@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2020-12-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2021-01-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -94,17 +94,18 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="20" cols="80">
-select partner_name, recency_score, rating
+select partner_name, partner_account_id, recency_score, rating
 from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999
-order by 2 desc, 3 desc
+order by 3 desc, 4 desc
           </textarea>
         </div>
         <div class="control">
             <input name="knowntitles" type="checkbox" checked>&nbsp;Include Known Titles</input><br>
-            <input name="unknowntitles" type="checkbox" checked>&nbsp;Include Unknown Titles</input><br>
+            <input name="unknowntitles" type="checkbox">&nbsp;Include Unknown Titles</input><br>
             <input name="repeats" type="checkbox">&nbsp;Include Repeats</input><br>
+            <input name="notfollowing" type="checkbox">&nbsp;Not Following Only</input><br>
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Partner Invites" class="button is-link" />

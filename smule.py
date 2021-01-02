@@ -12,6 +12,8 @@ import asyncio
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
+MAX_KNOWN = 2
+MAX_UNKNOWN = 1
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -239,11 +241,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 performerIds = tmpIds
                 performerHandles = tmpHandles
             partner_pic_url = ptr['pic_url']
-            # Set display user and performer to the first partner unless the partner is myself
+            # Set performer to the first partner unless the partner is myself
             if (partnerIndex == 1) and (partnerHandle != MYSELF):
-                display_user = partnerHandle
-                display_pic_url = partner_pic_url
                 performers = partnerHandle
+                # If the partner is not the username we searched for, set hte display username to that partner as well
+                if (partnerHandle != username):
+                    display_user = partnerHandle
+                    display_pic_url = partner_pic_url
         filename_base = f"{fixedTitle} - {performers}"
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -373,13 +377,17 @@ def fetchPartnerInvites(inviteOptions,numrows):
     knowntitles = inviteOptions['knowntitles']
     unknowntitles = inviteOptions['unknowntitles']
     repeats = inviteOptions['repeats']
+    notfollowing = inviteOptions['notfollowing']
     # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
     currTime = datetime.now()
     mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
     maxdate = currTime.strftime(DATEFORMAT)
     performanceList = []
+    # If neither known or unknown titles is set, just return with empty list because there will be no matches
+    if (not knowntitles) and (not unknowntitles):
+        return performanceList
     # Get list of handles of users I'm following
-    followingHandles = [d['handle'] for d in fetchUserFollowing(MYSELF)]
+    followingAccountIds = [d['account_id'] for d in fetchUserFollowing(MYSELF)]
 
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     performedList = []
@@ -398,18 +406,22 @@ def fetchPartnerInvites(inviteOptions,numrows):
     partners = execDBQuery(partnersql)
     for ptr in partners:
         partnerHandle = list(iter(ptr.values()))[0]
-        partnerSort = list(iter(ptr.values()))[1]
-        # If the partner is not someone I'm following, then skip this partner
-        if partnerHandle not in followingHandles:
+        partnerAccountId = list(iter(ptr.values()))[1]
+        partnerSort = list(iter(ptr.values()))[2]
+        isFollowing = partnerAccountId in followingAccountIds
+        # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
+        # If the conditions are not met, skip this partner and process next one
+        if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
             continue
         # Fetch all invites for the partner
         # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
         partnerList = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
         # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
         finalPartnerList = []
-        partnerCount = 0
+        knownCount = 0
         unknownCount = 0
-        for p in partnerList:
+        # Loop through the partenr list in reverse order so that we process the oldest invites first
+        for p in reversed(partnerList):
             t = p['fixed_title']
             isRepeat = (p['performers'] + "|" + t) in performedList
             isUnknown = (t not in titleList)
@@ -420,17 +432,18 @@ def fetchPartnerInvites(inviteOptions,numrows):
                     # We want a maximum of 1 Unknown title from each partner (if any are allowed), so continue to next title if that max is reached
                     if isUnknown:
                         unknownCount += 1
-                        if unknownCount > 1:
+                        if unknownCount > MAX_UNKNOWN:
                             continue
+                    else:
+                        knownCount += 1
                     # Append appropriate indicators to title
                     if isRepeat:
                         p['title'] += " (REPEAT)"
                     if isUnknown:
                         p['title'] += " (UNKNOWN)"
                     finalPartnerList.append(p)
-                    partnerCount += 1
-                    # We will limit each partner to max 3 invites, so break out of loop when count reaches or exceeds 3
-                    if partnerCount >= 3:
+                    # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
+                    if knownCount >= MAX_KNOWN:
                         break
         # Extend the peformance list by adding the final partner list to it
         performanceList.extend(finalPartnerList)

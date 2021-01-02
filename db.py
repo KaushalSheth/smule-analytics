@@ -263,7 +263,6 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             group by 1, 2, 3, 4, 5, 6, 8, 9, 10
             order by 2 desc
             """
-        print(sqlquery)
     elif analyticstitle == 'Invite':
         headings = [\
             'Song Name', 'Total Score', 'Invite Score', 'Popularity Score', 'First Performance Score', 'Last Performance Score', \
@@ -288,6 +287,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
 
+    #print(sqlquery)
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
     for r in result:

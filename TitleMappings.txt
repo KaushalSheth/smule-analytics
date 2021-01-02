@@ -64,6 +64,7 @@ Aake Teri Baahon Mein|Aake Teri Baahon Main
 Aane Wala Pal|Aanewala Pal
 Aane Wala Pal|Aanewala Pal Jaanewala Hai
 Aane Wala Pal|Aanewala Pal Janewala Hai
+Aane Wala Pal|Aane Wala Pal Jaane Wala Hai
 Aankhen Khuli Ho Ya Ho Band|>> Ankhein Khuli Ho
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhen Khuli Ho Ya Ho Band
@@ -92,6 +93,7 @@ Aankhon Se Tune Ye|Ankhon Se Tune Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye Kya
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Jaisa Koi|😋Aap Jaisa Koi
+Aap Jaisa Koi|Aap Jaisa Koi Meri
 Aap Ka Aana|Aap Ka Aana Dil Dhadkana
 Aap Ka Aana|Aap Ka Aana Kurukshetra
 Aap Ka Aana|Aap Ka Aana
@@ -159,6 +161,7 @@ Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein To
 Ab Tere Dil Mein Hum Aa Gaye|🧡Ab Tere Dil Mein
 Abhi Mujh Mein|Abhi Mujh Mein
+Abhi Mujh Mein|Abhi Mujh Mein Kahin
 Abhi Na Jao Chhod Kar|Abhi Na Jao
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kaar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kar
@@ -231,6 +234,7 @@ Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aisi Deewanagi|Aisi Deewanagi
 Aisi Deewanagi|Aisi Deewangi
 Aisi Deewanagi|Aisi Deewangi Aisi
+Aisi Deewanagi|Aisi Deewangi Deewana
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -265,6 +269,7 @@ Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokon Se
+Akhiyon Ke Jharokhon Se|Rp Ankhiyon Ke Jharokhon Se
 Akhiyon Se Goli Maare|Ankhiyon Se Goli Mare
 Always|Always
 An Evening In Paris|An Evening In Paris
@@ -338,6 +343,7 @@ Beqarar Karke Hamein|Bekarar Karke
 Beqarar Karke Hamein|Bekarar Karke Hame
 Beqarar Karke Hamein|Beqarar Karke Hamen
 Beqarar Karke Hamein|Dsj Bekarar Karke Hame
+Beqarar Karke Hamein|Beqarar Karke Hamen Yun Na Jaiye
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bheege Hoth Tere|Bheege Hoth Tere_Fth
@@ -406,8 +412,12 @@ Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
 Chalte Chalte|Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Ye
 Chalte Chalte|Chalte Chalte Mere Ye Geet
+Chalte Chalte|Chalte Chalte Mere Yeh Geet Yaad Rakhna
 Chalte Chalte|S H O R T Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Yeh Geet
+Chalte Chalte Yunhi|Chalte Chalte Yunhi
+Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
+Chalte Chalte Yunhi|Chalte Chalte Yuhi
 Chanda Chamke|Chanda Chamke Fanaa
 Chanda O Chanda|Chanda O Chanda
 Chandan Sa Badan|Chandan Sa Badan Mukesh
@@ -447,11 +457,13 @@ Chhookar Mere Man Ko|Chookar Mere Mann
 Chhookar Mere Man Ko|Chookar Mere Mann Ko Karan Nawani
 Chhookar Mere Man Ko|Chookar Mere Mann Ko
 Chhookar Mere Man Ko|Chookar Mere Manko Dr Mahi
+Chhookar Mere Man Ko|Chhukar Mere Man Ko Mere Man Ko
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
 Chhup Gaya Badli Mein|Chup Gaya Badli Mein
 Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
+Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
 Chithi Na Koi Sandesh|Chithhi Na Koi S Chithi
 Chithi Na Koi Sandesh|Chithi Na Koi Sandesh
 Chogada Tara|Chogada
@@ -531,6 +543,7 @@ Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
+Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Dekho Maine Maine
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
@@ -559,7 +572,6 @@ Dheere Dheere Se|Dheere Dheere Se Meri
 Dheere Dheere Se|Dheere Se
 Dheere Dheere Se|Dheere Seaashiqui
 Dheere Dheere Se|Dheeredheer Se Dheere
-Dholna|Dholna Karaoke
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -642,6 +654,7 @@ Dil To Pagal Hai|Dil Toh Pagal Hai
 Dil To Pagal Hai|Dil To Paagal Hai Dil Deewana Hai
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
+Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
 Do Deewane Shaher Mein|Do Deewane Shaher Mein
@@ -684,6 +697,7 @@ Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujhpar
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujhpe
 Ehsaan Tera Hoga Mujh Par|Eshaan Tera Hoga Mujh Par
 Ehsaan Tera Hoga Mujh Par|Ehsan Tera Hoga Mujh Par
+Ehsaan Tera Hoga Mujh Par|Ehasaan Tera Hoga Mujh Par
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena
 Ek Ajnabi Haseena Se|Ek Ajnabee Haseena Se
 Ek Ajnabi Haseena Se|Ek Ajnabi Haseena Se
@@ -750,6 +764,7 @@ Gulabi Aankhen|Gulabi Aankhen Jo Teri Dekhi
 Gulabi Aankhen|Gulabi Aankhen Retro Mix
 Gulabi Aankhen|Gulabi Ankhen
 Gulabi Aankhen|Gulabiaankhen
+Gulabi Aankhen|Gulabi Ankhein Retro Mix
 Gunguna Rahe Hain Bhanwre|[HD] gun guna rahe hai bhanware (aaradhna)
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hai Bhanware
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe
@@ -801,6 +816,7 @@ Honthon Se Chhu Lo Tum|Hoton Se Chulo Tum Ghazal
 Hoshwalon Ko Khabar Kya|Hosh Walo Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hosh Walon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
+Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Female
 Hotel California|Hotel California
 Hum Aap Ki Aankhon Mein|Hum Aap Ki Aankhon Mein
 Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein
@@ -1058,6 +1074,7 @@ Joote Do Paise Lo|Joote Do Paise Lo
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
+Kab Tak Chup Baithe|Dholna Karaoke
 Kabhi Aar Kabhi Paar|Kabhi Aar Kabhi Paar
 Kabhi Alvida Na Kehna|Kabhi Alvida
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna
@@ -1073,6 +1090,7 @@ Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
 Kabira|Kabira
 Kabke Bichde Hue Aaj|Kabke Bice Hue Aaj
+Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
 Kahin Deep Jale Kahin Dil|Kahin Deep Jale Kahin Dil 720P
 Kahin Deep Jale Kahin Dil|2 Kahin Deep Jale Kahin Dil
 Kahin Door Jab Din Dhal Jaaye|[Short™] Kahin door Jab Dil Dhal Jaye (Anand)
@@ -1082,6 +1100,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaaye
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi Mukesh
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi
+Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
 Kaho Na Kaho|Kaho Na Kaho
 Kaho Na Pyaar Hai|Kaho Na Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai
@@ -1111,6 +1130,7 @@ Kalank|Kalanktitle
 Kalank|K͙A͙L͙A͙N͙K͙ T͎I͎T͎L͎E͎ T͎R͎A͎C͎K͎
 Kalank|ᴋᴀʟᴀɴᴋ Title
 Kalank|꧁꧂Kalank
+Kalank|Kalank Title
 Karvatein Badalte|Karvatein Badalte
 Karvatein Badalte|Karvatein Badalte Rahein
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
@@ -1245,6 +1265,7 @@ Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
+Maahi Ve|Mahi Ve
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahin
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar Nehi Meri Pyaari Bindu
@@ -1427,9 +1448,11 @@ Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
 Musafir Hoon Yaaron|Musafir Hoon Ya
 Musafir Hoon Yaaron|Musafir Hoon Yaaro
 Musafir Hoon Yaaron|Musafir Hoon Yaaro 1972
+Musafir Hoon Yaaron|Musafir Hoon Yaron
 My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
+My Heart Will Go On|My Heart Will Go On Titanic Celin Dion
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
 Na Jaane Mere|@MSMT [HD] Na Jaane Mere Dil Ko Kya Ho Gaya
@@ -1534,6 +1557,7 @@ Paan Khaaye Saiyaan Hamaro|Paan Khaye Saiyan Hamarao
 Paaon Chhoo Lene Do|Paaon Chhoo Lene Do
 Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
+Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Pal Dil Ke Paas|@SMC {Short} Pal Pal Dil Ke Paas Tum Rahti Ho
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas
@@ -1546,6 +1570,7 @@ Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas Tum Rehti Ho
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas Dil
 Pal Pal Pal Pal Har Pal|Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal
+Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal Har Pal
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kaaala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
@@ -1595,6 +1620,7 @@ Piyu Bole|Piyu Bole
 Piyu Bole|Piyu Bole Piya Bole
 Piyu Bole|Piyubole
 Puchho Zara Pucho|Pucho Zara Pucho
+Puchho Zara Pucho|Pucho Zara Pucho Zara Zara
 Pukarta Chala Hoon Main|Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
@@ -1621,6 +1647,7 @@ Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat
 Pyaar Karne Waale|Pyaar Karne Waale
 Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Wale|Pyar Karne Wale Kabhi Darte Nahi
+Pyaar Karne Wale|Pyar Karne Wale
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyar Kiya To Darna Kya|Pyar Kiya To Darna Kya
 Pyaar Kiya To Nibhana|Kehta Hai Pal Pal
@@ -1650,6 +1677,7 @@ Raat Kali|Raat Kali Ek Khwab Mein Aai
 Raat Kali|Raat Kali Ek Khwab Men Aai
 Raat Kali|Raat Kali Ek Khwab
 Raat Kali|Raat Kali Ek
+Raat Kali|Raat Kali Ek Khwab Mein Aayi
 Raat Ke Humsafar|Aat Ke Humsafar
 Raat Ke Humsafar|Aat Ke Humsafar Ke Humsafar
 Raat Ke Humsafar|H D Raat Ke Humsafar
@@ -1704,6 +1732,7 @@ Roop Tera Mastana|Roop Tera Tera Mastana Mastana Mastana Mastana Mastana Mastana
 Roop Tera Mastana|Rooptera Mastana
 Roop Tera Mastana|Roop Tera Mastaana
 Roop Tera Mastana|Roop Tera Mastana Tera Mastana
+Roop Tera Mastana|Roop Tera Masthana
 Rooth Na Jana|Rooth Na Jana
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
@@ -1750,6 +1779,7 @@ Salame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
 Sama Hai Suhana Suhana|Sama Hai Suhana
 Sama Hai Suhana Suhana|Shama Hai Suhana Suhana
+Sambhala Hai Maine|Sambhala Hai Maine Customized
 Sandese Aate Hai|Sandese Aate Hai
 Sandese Aate Hai|Sandese Aate Hain
 Sandese Aate Hai|Sandeseaate Hain Hai
@@ -1837,7 +1867,6 @@ Suraj Hua Maddham|Suraj Huaziyadnoor
 Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
-Taarif Karoon Kya Uski|Taarif Karoon Kya Uski
 Taaron Main Sajke|[} Taron Main Sajke
 Tasveer Teri Dil Mein|Tasveer Teri Dil Mein
 Tauba Tumhare Yeh Ishare|Drtauba Tumhare Yeh Ishare
@@ -1859,8 +1888,9 @@ Tera Chehra|Tera Chehra
 Tera Chehra|Tera Chehraadnan Sami
 Tera Hone Laga Hoon|Tera Hone Laga Hoon
 Tera Hone Laga Hoon|Tera Hone Laga Hun
-Tera Mera Pyare Amar|Tera Mera Pyar Amar
-Tera Mera Pyare Amar|Tera Mera Pyare Amar
+Tera Mera Pyaar Amar|Tera Mera Pyar Amar
+Tera Mera Pyaar Amar|Tera Mera Pyare Amar
+Tera Mera Pyaar Amar|Tera Mera Pyaar Amar
 Tera Mujhse Hai|Tera Mujhse Hai
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
@@ -1869,6 +1899,7 @@ Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koyi
 Tere Bina Zindagi Se Koi|Tere Bina Zindgi Se Koi
 Tere Bina Zindagi Se Koi|Tere Bina Zindgi Se Koyi
 Tere Bina Zindagi Se Koi|Tere Binazindagi Se
+Tere Bina Zindagi Se Koi|Tere Binazindagise Koyi
 Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
@@ -1949,6 +1980,7 @@ Trouble Me|Trouble Me
 Tu Cheez Badi Hai Mast Mast|Tu Cheez Badi Hai
 Tu Cheez Badi Hai Mast Mast|Tu Cheez Badi Hai Mohra
 Tu Cheez Badi Hai Mast Mast|Tu Cheezbadi Hai Mast
+Tu Cheez Badi Hai Mast Mast|Cheez Badi Machine
 Tu Hi Hai|Tu Hi Hai
 Tu Hi Re|Tu Hi Re
 Tu Hi Re|Tu Hi Re Female
@@ -2110,6 +2142,7 @@ Tumko Dekha To|Tumko Dekha To
 Tumko Dekha To|Tumko Dekha To Ye
 Tumko Dekha To|Tumko Dekha To Ye Khayaal Aaya
 Tumko Dekha To|Tumko Dekha To Ye Khayal
+Tumko Sirf Tumko|Tumko Sirf Tumko Kkkm
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
@@ -2166,6 +2199,7 @@ Yaadon Ki Baarat|Yaadon Ki Baarat
 Yamma Yamma|Yamma Yamma
 Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
+Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
 Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan
@@ -2222,6 +2256,7 @@ Yeh Kahaan Aa Gaye Hum|Ye Kahan Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kaha Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kahan Aa Gaye Hum
 Yeh Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
+Yeh Kya Hua Kaise Hua|Ye Kya Hua
 Yeh Ladka Hai Deewana|Hai Hai Re Ladka Yeh Ladka Hai Dewa
 Yeh Ladka Hai Deewana|Yeh Ladka Hai Deewana
 Yeh Ladka Haye Allah|[Short®️] Ye Ladka Haye Allah Kaisa Hai Deewa
