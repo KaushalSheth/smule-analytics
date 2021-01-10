@@ -94,7 +94,7 @@
         <label class="label" for="weburl">Partner Query</label>
         <div class="control">
           <textarea name="partnersql" rows="20" cols="80">
-select partner_name, partner_account_id, recency_score, rating
+select partner_name, partner_account_id, recency_score, rating, join_cnt
 from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999

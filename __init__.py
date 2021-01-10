@@ -8,7 +8,7 @@ from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchD
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
-searchOptions = {'solo':False,'contentType':"both",'joins':True}
+searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
@@ -264,7 +264,8 @@ def create_app(test_config=None):
     # This method fetches a list of partners using specified partnersql and then fetches all invites by these partners
     @app.route('/query_partner_invites')
     def query_partner_invites():
-        global performances, inviteOptions, numrows
+        global performances, inviteOptions, numrows, searchOptions
+        searchOptions['searchType'] = "partnerinvites"
         performances = fetchPartnerInvites(inviteOptions,numrows)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
@@ -273,6 +274,7 @@ def create_app(test_config=None):
     @app.route('/query_smule_performances')
     def query_smule_performances():
         global user, numrows, performances, startoffset, fromdate, todate, searchOptions
+        searchOptions['searchType'] = "normal"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,searchOptions)
@@ -282,7 +284,8 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_invites')
     def query_smule_invites():
-        global user, numrows, performances, startoffset, fromdate, todate, invites
+        global user, numrows, performances, startoffset, fromdate, todate, invites, searchOptions
+        searchOptions['searchType'] = "normal"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"invites",fromdate,todate)
@@ -293,7 +296,8 @@ def create_app(test_config=None):
     # Luckily for us, the structure of all performances and favorite performances is the same, so we can reuse the objects
     @app.route('/query_smule_favorites')
     def query_smule_favorites():
-        global user, numrows, performances, startoffset, fromdate, todate
+        global user, numrows, performances, startoffset, fromdate, todate, searchOptions
+        searchOptions['searchType'] = "normal"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"favorites",fromdate,todate)

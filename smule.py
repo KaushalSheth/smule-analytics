@@ -12,8 +12,6 @@ import asyncio
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
-MAX_KNOWN = 2
-MAX_UNKNOWN = 1
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -372,6 +370,10 @@ def fetchFileTitleMappings(filename):
 
 # Method to fetch invites for partners identified by the partner SQL passed in
 def fetchPartnerInvites(inviteOptions,numrows):
+    # Define constants used in this method
+    MAX_KNOWN = 1
+    MAX_UNKNOWN = 1
+
     # Extract relevent parametrs from invite options
     partnersql = inviteOptions['partnersql']
     knowntitles = inviteOptions['knowntitles']
@@ -408,6 +410,8 @@ def fetchPartnerInvites(inviteOptions,numrows):
         partnerHandle = list(iter(ptr.values()))[0]
         partnerAccountId = list(iter(ptr.values()))[1]
         partnerSort = list(iter(ptr.values()))[2]
+        joinCount = int(list(iter(ptr.values()))[4])
+
         isFollowing = partnerAccountId in followingAccountIds
         # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
         # If the conditions are not met, skip this partner and process next one
@@ -441,6 +445,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
                         p['title'] += " (REPEAT)"
                     if isUnknown:
                         p['title'] += " (UNKNOWN)"
+                    # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
+                    p['total_listens'] = joinCount
+                    p['total_loves'] = partnerSort
                     finalPartnerList.append(p)
                     # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
                     if knownCount >= MAX_KNOWN:
@@ -483,7 +490,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
-        print(f"======== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
+        print(f"====================================== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
         # Get the next batch of results from Smule
         if type == "ensembles" or type == "invites":
             fetchType = "performances"
@@ -514,7 +521,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
     # Print filename
-    print("========================")
+    print("=======================================================================")
     print(filename)
 
     # If the file already exists, skip it

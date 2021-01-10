@@ -291,6 +291,7 @@ Are Re Are Ye Kya Hua|Arre Re Arre Ye Kya Huaa
 Aur Ahista|Aur Aahista Kijiye Baatein
 Aur Ahista|Aur Ahista
 Aur Is Dil Mein|Aur Is Dil Mein
+Aur Kya|Aur Kya Aur Kya Aur Kya
 Baa Baa Black Sheep|Baa Baa Black Sheep
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
@@ -487,6 +488,7 @@ Chori Kiya Re Jiya|Chori Kiya Re Jiya
 Chupke Se Koi Aayega|Chupke Se Koi Aayega
 Chupke Se Koi Aayega|¹ Chupke Se Koi Aayega 1
 Chupke Se Sun|Chupke Se Sun
+Chupke Se Sun|Inst Chupke Se Sun
 Chupke Se|Chupke Se Saathiya
 Chupke Se|Chupke Se Unpluged
 Chura Ke Dil Mera|Chura K Dil Mera
@@ -1335,10 +1337,12 @@ Main Yahan Hoon|Main Yahaan Hoon
 Main Yahan Hoon|Main Yahan Hoon
 Main Yahan Hoon|Drjaanam Dekhlo Mit Gayi
 Main Yahan Hoon|Janam Dekh Lo
+Main Zindagi Ka Saath Nibhata|Mai Zindagi Ka Saath Nibhata
 Maine Kasam Li|Hey Maine Kasam Li
 Maine Kya Socha Tha|Maine Kya Socha Tha
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai
+Maine Payal Hai Chhankai|Maine Payal Hai Chhankai Ed
 Maine Poochha Chand Se|Maine Poocha Chand Se
 Maine Poochha Chand Se|Maine Poochha Chand Se
 Maine Poochha Chand Se|Maine Pucha Chand Se
@@ -1805,6 +1809,7 @@ Sau Saal Pehle|Sau Saal Pehle Sau
 Sawaar Loon|Sawaar Loon
 Sawaar Loon|~Sawarloon
 Say Shava Shava|Say Shava Shava
+Say You Say Me|Say You Say Me
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -1827,6 +1832,7 @@ Socha Hai|Socha Hai
 Socha Hai|Socha Hai Keh Doon Tumhe
 Socha Hai|Keoon Tumhe
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
+Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Someone Like You|Someone Like You
