@@ -70,18 +70,6 @@ def fixDBTitles(titleMappings):
 
     return fixCount
 
-# Method to query performances for a user
-def fetchDBPerformancesOrig(username,maxperf=9999):
-    global performances
-
-    # Check the PerformanceSinger table for existence of the singer on the performance
-    performances = db.session.query(Performance).\
-            join(PerformanceSinger).\
-            join(Singer).\
-            filter_by(performed_by = username).all()
-
-    return performances
-
 # Method to query performers
 def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = []
@@ -160,7 +148,6 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         sqlquery += " and " + dbfilter
     # Append ORDER BY clause
     sqlquery += " order by created_at desc"
-    print(sqlquery)
 
     # Check the PerformanceSinger table for existence of the singer on the performance
     result = db.session.execute(sqlquery)
