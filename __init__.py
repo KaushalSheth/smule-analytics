@@ -8,7 +8,7 @@ from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchD
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
-searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal"}
+searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
@@ -105,6 +105,9 @@ def create_app(test_config=None):
             fromdate = request.form['fromdate']
             todate = request.form['todate']
             searchtype = 'PERFORMANCES'
+            dbfilter = request.form['dbfilter']
+            if dbfilter:
+                searchOptions['dbfilter'] = dbfilter
 
             # Set all invite options
             inviteOptions['partnersql'] = request.form['partnersql']
@@ -325,12 +328,12 @@ def create_app(test_config=None):
     # This executes the db function to fetch performances using global variables set previously
     @app.route('/query_db_performances')
     def query_db_performances():
-        global user, numrows, performances, fromdate, todate, titleMappings
+        global user, numrows, performances, fromdate, todate, titleMappings, searchOptions
         # Load global variable for title mappings from file
         titleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings)
+        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings,searchOptions)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 

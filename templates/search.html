@@ -9,7 +9,7 @@
       <div class="field is-grouped">
         <label class="label" for="checkboxes"></label>
         <div class="control">
-            <input name="offline" type="checkbox" checked>&nbsp;Offline Access</input>
+            <input name="offline" type="checkbox">&nbsp;Offline Access</input>
         </div>
         <div class="control">
             <input name="comments" type="checkbox">&nbsp;Include Comments</input>
@@ -38,7 +38,7 @@
       <div class="field">
         <label class="label" for="numrows"># rows to fetch</label>
         <div class="control">
-          <input name="numrows" value="100" type="input" class="input" required></input>
+          <input name="numrows" value="50" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -60,6 +60,13 @@
         <label class="label" for="todate">To Date</label>
         <div class="control">
           <input name="todate" value="2030-12-31" type="input" class="input" required></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="dbfilter">DB Filter</label>
+        <div class="control">
+          <input name="dbfilter" value="1=1" type="input" class="input"></input>
         </div>
       </div>
 

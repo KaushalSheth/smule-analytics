@@ -100,7 +100,7 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
             window w as (partition by p.performers order by case when p.owner_handle = 'KaushalSheth1' then '2000-01-01'::timestamp else p.created_at end desc, p.created_at desc)
             ) a
         where a.rn = 1
-        order by last_performance_time desc
+        order by performers
         """
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
@@ -141,28 +141,25 @@ def fetchDBJoiners(username,fromdate="2018-01-01",todate="2030-01-01"):
     return joiners
 
 # Method to query performances for a user
-def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01",titleMappings=[]):
+def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030-01-01",titleMappings=[],searchOptions={'dbfilter':"1=1"}):
     global performances
     performances = []
     i = 0
 
-    # Build appropriate query - if username = 'KaushalSheth1', then don't apply any filters
-    if username == 'KaushalSheth1':
-        sqlquery = "select * from my_performances where created_at between '" + fromdate + "' and '" + todate + "'"
-    else:
-        sqlquery = f"""
-            select  p.*
-            from    all_performances p
-            where   p.created_at between '{fromdate}' and '{todate}'
-            and     exists (
-                        select  1
-                        from    performance_singer ps
-                                inner join singer s on s.account_id = ps.singer_account_id and performed_by = '{username}'
-                        where   ps.performance_key = p.key
-                        )
-            """
+    # Build base query
+    sqlquery = f"""
+        select  p.*
+        from    all_performances p
+        where   p.created_at between '{fromdate}' and '{todate}'
+        and     (p.owner_handle = '{username}' or p.performers = '{username}')
+        """
+    # Check if there is any dbfilter to be added and if so, add it to the query
+    dbfilter = searchOptions['dbfilter']
+    if dbfilter != "":
+        sqlquery += " and " + dbfilter
     # Append ORDER BY clause
     sqlquery += " order by created_at desc"
+    print(sqlquery)
 
     # Check the PerformanceSinger table for existence of the singer on the performance
     result = db.session.execute(sqlquery)
@@ -172,27 +169,20 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         # Add the keys to the dict that are not saved to the DB but used for other processing
         d['other_performers'] = ""
         d['pic_filename'] = ""
-        d['partner_name'] = ""
         d['create_type'] = ""
         d['joiners'] = ""
         d['recording_url'] = d['web_url'].replace("/ensembles","")
-        # TODO: Need to figure out how to get the partner handle and pic_URL here
-        d['display_handle'] = d['owner_handle']
-        d['display_pic_url'] = d['owner_pic_url']
+        # Set display handle and pic_url based on user we are searching for
+        if d['owner_handle'] == username:
+            d['display_handle'] = d['partner_name']
+            d['display_pic_url'] = d['partner_pic_url']
+        else:
+            d['display_handle'] = d['owner_handle']
+            d['display_pic_url'] = d['owner_pic_url']
         performances.append(d)
         i += 1
         if i >= maxperf:
             break
-
-    i = 0
-    for performance in performances:
-        filename_parts = performance['filename'].split(' - ')
-        #title = fix_title(filename_parts[0])
-        title = fix_title(performance['title'],titleMappings)
-        performers = filename_parts[1]
-        filename = f"{title} - {performers}"
-        performances[i]['filename'] = filename
-        i += 1
 
     return performances
 

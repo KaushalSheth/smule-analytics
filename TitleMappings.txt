@@ -131,9 +131,9 @@ Aawaara Bhanware|Awara Bhawre Sapnay
 Aawaara Hoon|Awaara Hoon
 Aawaara Hoon|Awara Hoon
 Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hame Tum Song
-Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulao
-Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulao
 Aawaaz Deke Hamein Tum Bulao|Awaz Deke Hame Tum Song
+Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulao
+Aawaaz Deke Hamein Tum Bulao|Aawaz Deke Hamein Tum Bulao
 Aawaaz Do Humko|Aawaz Do Humko Aawaz Do Humko
 Aawaaz Do Humko|Aawaz Do Humko
 Aawaaz Do Humko|Awaaz Do Humko
@@ -641,6 +641,7 @@ Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hain Dil Se 2
 Dil Ne Yeh Kaha|Dilne Ye Kaha He Dilse
 Dil Ne Yeh Kaha|Dilne Yeh Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dilneyeh Kaha Hain Dil Se Kaha Hain 2
+Dil Ne Yeh Kaha|Dil Ne Yehadkan
 Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke Keh Raha Hai
@@ -655,6 +656,7 @@ Dil To Pagal Hai|Dil To Pagal He
 Dil To Pagal Hai|Dil Toh Pagal Hai
 Dil To Pagal Hai|Dil To Paagal Hai Dil Deewana Hai
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
+Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
@@ -681,6 +683,7 @@ Do Pal Ruka|Do Pal Ruka Veer Veer Veer
 Do Pal Ruka|Do Pal Ruka Veer Zara
 Do Pal Ruka|Do Palruka Khwabon Ka Karwan Veer Pal Pal
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Do Pal Ruka Pal Ruka
+Do Pal Ruka|Do Pal Ruka Khwabon Ka Karwan
 Do Sitaron Ka Zameen Par Hai Milan|Do Sitaron Ka Zameen Par Hai Milan
 Donna|Donna
 Dost Dost Na|Dost Dost Na
@@ -1103,6 +1106,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi Mukesh
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
+Kahin Door Jab Din Dhal Jaaye|Kahi Door Jab
 Kaho Na Kaho|Kaho Na Kaho
 Kaho Na Pyaar Hai|Kaho Na Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai
@@ -1545,6 +1549,7 @@ O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Re Kanchi|O Re Kanchi
 O Rey Chhori|O Rey Chori
 O Saathi Chal|O Saathi Chal
+O Saathi Chal|Hawa Ke Saath Saath
 O Saathi Re|O Saathi Re
 O Saathi Re|O Saathi Re O Re
 O Saathi Re|O Sathi Re
@@ -1653,7 +1658,8 @@ Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Wale|Pyar Karne Wale Kabhi Darte Nahi
 Pyaar Karne Wale|Pyar Karne Wale
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
-Pyar Kiya To Darna Kya|Pyar Kiya To Darna Kya
+Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
+Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
 Pyaar Kiya To Nibhana|Kehta Hai Pal Pal
 Pyaar Kiya To Nibhana|Kehta Hai Pal Pal Tumse
 Pyaar Kiya To Nibhana|Pyaar Kiya To Nibhana
@@ -1757,6 +1763,7 @@ Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saanson Ki Zaroorat Hai Jaise|Ln Sanson Ki Zaroorat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Jarurat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat Hai Jaise
+Saanson Ki Zaroorat Hai Jaise|Sanson Ki Zaroorath Kumar Sanu
 Saanson Ko Saanson Mein|(Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein Dal Ne Karaoke
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein
@@ -2157,6 +2164,7 @@ Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeelekaisa Jaadu Kiya
+Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Asia Jadu
 Ude Jab Jab Zulfein Teri|>> Ude Jab Jab Zulfein
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfe Teri
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfein Teri
@@ -2265,11 +2273,13 @@ Yeh Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Kya Hua Kaise Hua|Ye Kya Hua
 Yeh Ladka Hai Deewana|Hai Hai Re Ladka Yeh Ladka Hai Dewa
 Yeh Ladka Hai Deewana|Yeh Ladka Hai Deewana
-Yeh Ladka Haye Allah|[Short®️] Ye Ladka Haye Allah Kaisa Hai Deewa
-Yeh Ladka Haye Allah|Ye Ladka Haye Allah
-Yeh Ladka Haye Allah|Ye Ladka Haye Allah Kaisa Hai Deewa
-Yeh Ladka Haye Allah|Yeh Ladka Hai Allah
-Yeh Ladka Haye Allah|Yeladkahaye Allah
+Yeh Ladka Hai Deewana|Yeh Ladka Hai Deewana Hai
+Yeh Ladka Haaye Allah|Yeh Ladka Haye Allah
+Yeh Ladka Haaye Allah|[Short®️] Ye Ladka Haye Allah Kaisa Hai Deewa
+Yeh Ladka Haaye Allah|Ye Ladka Haye Allah
+Yeh Ladka Haaye Allah|Ye Ladka Haye Allah Kaisa Hai Deewa
+Yeh Ladka Haaye Allah|Yeh Ladka Hai Allah
+Yeh Ladka Haaye Allah|Yeladkahaye Allah
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
