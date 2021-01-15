@@ -151,7 +151,8 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         select  p.*
         from    all_performances p
         where   p.created_at between '{fromdate}' and '{todate}'
-        and     (p.owner_handle = '{username}' or p.performers = '{username}')
+        and     p.performer_handles ilike '%{username}%'
+        and     p.web_url not like '%ensembles'
         """
     # Check if there is any dbfilter to be added and if so, add it to the query
     dbfilter = searchOptions['dbfilter']
@@ -176,6 +177,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
             d['display_pic_url'] = d['partner_pic_url']
+            d['filename'] = "(JOIN) " + d['filename']
         else:
             d['display_handle'] = d['owner_handle']
             d['display_pic_url'] = d['owner_pic_url']
