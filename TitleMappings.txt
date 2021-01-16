@@ -231,6 +231,7 @@ Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
 Agar Tum Saath Ho|Agar Tumsaath Ho
 Agar Tum Saath Ho|Agar Tumsaath_Ho_
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
+Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
 Aisi Deewanagi|Aisi Deewanagi
 Aisi Deewanagi|Aisi Deewangi
 Aisi Deewanagi|Aisi Deewangi Aisi
@@ -430,6 +431,7 @@ Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
+Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhod Do Aanchal|Chhod Do Aanchal
@@ -1846,6 +1848,7 @@ Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam
+Suhani Chandni Raatein|Suhani Chandni Raatein
 Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
 Sun Mere Humsafar|Sun Mere Humsafar

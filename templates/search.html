@@ -38,7 +38,7 @@
       <div class="field">
         <label class="label" for="numrows"># rows to fetch</label>
         <div class="control">
-          <input name="numrows" value="50" type="input" class="input" required></input>
+          <input name="numrows" value="75" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -104,7 +104,7 @@
 select partner_name, partner_account_id, recency_score, rating, join_cnt
 from favorite_partner
 where partner_name != 'KaushalSheth1'
-and recency_score between 0 and 9999
+and recency_score between 0 and 9999999
 order by 3 desc, 4 desc
           </textarea>
         </div>
