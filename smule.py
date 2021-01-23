@@ -2,12 +2,13 @@ from urllib.parse import unquote
 from urllib import request
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
-from .utils import fix_title
+from .utils import fix_title,build_comment
 from os import path
 from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
+import random
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
@@ -247,6 +248,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     display_user = partnerHandle
                     display_pic_url = partner_pic_url
         filename_base = f"{fixedTitle} - {performers}"
+        # Set comment dictionary appropriately based on owner
+        if ownerHandle == username:
+            comment = build_comment('@' + performers + ' thanks for joining...')
+        else:
+            comment = build_comment('@' + performers + ' thanks for the invite...')
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
             filename = filename_base + ".m4v"
@@ -325,7 +331,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'joiners':joiners,
                 'performer_ids':performerIds,\
                 'performer_handles':performerHandles,\
-                'recording_url': recording_url\
+                'recording_url': recording_url,\
+                'comment':comment\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
@@ -424,8 +431,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
         finalPartnerList = []
         knownCount = 0
         unknownCount = 0
-        # Loop through the partenr list in reverse order so that we process the oldest invites first
-        for p in reversed(partnerList):
+        # Loop through the partenr list in random order
+        random.shuffle(partnerList)
+        for p in partnerList:
             t = p['fixed_title']
             isRepeat = (p['performers'] + "|" + t) in performedList
             isUnknown = (t not in titleList)
@@ -457,7 +465,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
         i += 1
         if len(performanceList) != numPerf:
             numPerf = len(performanceList)
-            print(f"-- {i}: {numPerf} after {partnerHandle} ({partnerSort})")
+            print(f"-- {i}: {numPerf} after {partnerHandle} - {len(partnerList)} ({partnerSort})")
         # As soon as we exceed the number of rows specified, break out of the loop
         if (len(performanceList) >= numrows):
             break

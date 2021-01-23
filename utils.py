@@ -1,4 +1,22 @@
 import re
+import random
+
+COMMENTS = {\
+    'awesome':['flawless performance 👌👌👌 loved it thoroughly','simply amazing performance 👌👌👌'],\
+    'good':['very nicely sung 👌👌','superb singing 👌👌','very nice performance 👌👌','very well sung 👌👌','very nice rendition 👌👌'],\
+    'average':['lovely singing 👌','nicely sung 👌','lovely performance 👌'],\
+    'ok':['good attempt']
+    }
+
+# Build comment dictionary by randomly selecting a comment for each category
+def build_comment(prefix=""):
+    comment = {\
+        'awesome':prefix + random.choice(COMMENTS['awesome']),\
+        'good':prefix + random.choice(COMMENTS['good']),\
+        'average':prefix + random.choice(COMMENTS['average']),\
+        'ok':prefix + random.choice(COMMENTS['ok'])\
+        }
+    return comment
 
 # The title field we get from Smule for performances contains many letters and words that are not appropriate for the filename
 # Fix the title to remove/replace these so that we can use this "fixed" title in the filename

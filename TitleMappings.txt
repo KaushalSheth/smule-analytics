@@ -37,6 +37,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Ki Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aj Kal Tera Mera
 Aaj Kal Tere Mere Pyaar Ke Charche|Ajkal Tere Mere Pyaar
+Aaj Kal Tere Mere Pyaar Ke Charche|Aajkalteremerepyarkecharche
 Aaj Madhosh Hua Jaye Re|Aaj Madhosh Hua Jaayere
 Aaj Madhosh Hua Jaye Re|Aaj Madhosh Hua Jaayere Jaye Re
 Aaj Main Upar|Aaj Mein Upar
@@ -400,6 +401,7 @@ Chaand Phir Nikla|Chand Phir Nikla
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
 Chaand Sitare|Chaand Sitaare
 Chaand Sitare|Chand Sitare
+Chaand Sitare|Drchaand Sitare Phool Aur Khushboo
 Chaand Taare Tod Laun|Chaand Taare Tod Laun Karaoke
 Chaand Taare Tod Laun|Chand Taare Tod Laun
 Chaand Taare Tod Laun|Chand Tare Tod Laun
@@ -408,6 +410,7 @@ Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
 Chala Jata Hoon|Chala Jaata Hoon Kisi Ki Dhun Me
 Chala Jata Hoon|Chala Jata Hoon
+Chali Chali Re Patang|Chali Chali Re Patang
 Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Dildar Chalo|Chalo Dildar Chalo
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
@@ -440,6 +443,7 @@ Chhod Do Aanchal|Chod Do Aanchal Zamana
 Chhod Do Aanchal|Chhod Do Aanchal Zamana
 Chhod Do Aanchal|Chod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal
+Chhodo Kal Ki Baate|Chodo Kal Ki Baate
 Chhookar Mere Man Ko|[HQ™] Chukar Mere Man Ko [Full Track] Yaarana
 Chhookar Mere Man Ko|Chhoo Kar Mere Man Ko
 Chhookar Mere Man Ko|Chhookar Mere Man Ko
@@ -576,6 +580,7 @@ Dheere Dheere Se|Dheere Dheere Se Meri
 Dheere Dheere Se|Dheere Se
 Dheere Dheere Se|Dheere Seaashiqui
 Dheere Dheere Se|Dheeredheer Se Dheere
+Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -628,6 +633,7 @@ Dil Leke Darde Dil|Dil Leke Dard
 Dil Leke Darde Dil|Dil Leke Darde Dil
 Dil Leke Darde Dil|Dil Leke Darde Dil Degaye
 Dil Leke Darde Dil|Wanted
+Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha
@@ -808,6 +814,7 @@ Haye Rama Ye Kya Hua|Hai Rama Yeh Kya Hua Edited
 Haye Rama Ye Kya Hua|Haye Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Haye Rama Yeh Kya Hua
 Haye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
+Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
 Hello|Hello
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajana
@@ -1186,6 +1193,7 @@ Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
 Khoya Khoya Chaand|Newkhoya Khoya Chand
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya Koi Haqeeqat
+Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
 Kisi Din Banoongi|Kisi Din Banoongi Main
 Kisi Ki Muskarahaton|Jeena Isi Ka Naam Hai
 Kisi Ki Muskarahaton|Kisi Ke Muskarahaton Pe Ho Nisaar
@@ -1376,6 +1384,7 @@ Mera Dil Bhi Kitna|Mera Dil Bhi मेरा दिल भी
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Naam Chin Chin Chu|Mera Naam Chin Chin Chu
+Mera Pyaar Bhi Tu Hai|Mera Pyar Bhi Tu Hai
 Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
@@ -1971,6 +1980,7 @@ Teri Chunariya|Teri Chunariya Dil Le
 Teri Meri Prem Kahani|Teri Meri
 Teri Meri Prem Kahani|Teri Meri Prem Kahani
 Teri Meri Prem Kahani|Teri Meri Prem Kahanigpsi
+Teri Mitti|Teri Mitti
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
@@ -2164,6 +2174,7 @@ Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
+Tumse Milke Aisa Laga Tumse|Tumse Milke Aisa Laga Tumse
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeelekaisa Jaadu Kiya

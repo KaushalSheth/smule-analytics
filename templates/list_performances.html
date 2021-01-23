@@ -54,7 +54,13 @@
         <td>{{ loop.index }}</td>
   {% endif %}
         <td>{{ performance.created_at }}</td>
-        <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a></td>
+        <td>
+          <a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
+          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a>
+          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a>
+          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a>
+          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+        </td>
   {% if searchOptions['offline'] %}
         <td>
           <a href="{{ performance.web_url }}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>

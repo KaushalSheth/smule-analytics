@@ -2,7 +2,7 @@ CREATE OR REPLACE VIEW favorite_partner AS
 with
 perf as (
     select  p.*,
-            greatest(1,100-p.days_since_performance) as performance_weight_nbr,
+            greatest(1,30-p.days_since_performance) as performance_weight_nbr,
             case when f.performance_key is not null then 1 else 0 end favorite_ind,
             case when p.owner_handle = 'KaushalSheth1' then 1 else 0 end join_ind
     from    my_performances p

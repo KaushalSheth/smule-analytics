@@ -25,6 +25,7 @@ descartes = "*"
 libmagic = "*"
 mutagen = "*"
 requests-html = "*"
+pyperclip = "*"
 
 [requires]
 python_version = "3.8"

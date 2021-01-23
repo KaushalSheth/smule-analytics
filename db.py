@@ -1,5 +1,5 @@
 from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping
-from .utils import fix_title
+from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
 
@@ -88,7 +88,7 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
             window w as (partition by p.performers order by case when p.owner_handle = 'KaushalSheth1' then '2000-01-01'::timestamp else p.created_at end desc, p.created_at desc)
             ) a
         where a.rn = 1
-        order by performers
+        order by case when joiner_stats is null then '0' else '1' end, replace(performers,'_','0')
         """
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
@@ -165,9 +165,13 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
             d['display_handle'] = d['partner_name']
             d['display_pic_url'] = d['partner_pic_url']
             d['filename'] = "(JOIN) " + d['filename']
+            # Construct comment for joiner
+            d['comment'] = build_comment('@' + d['display_handle'] + ' thanks for joining...')
         else:
             d['display_handle'] = d['owner_handle']
             d['display_pic_url'] = d['owner_pic_url']
+            # Construct comment for partner
+            d['comment'] = build_comment('@' + d['display_handle'] + ' thanks for the invite...')
         performances.append(d)
         i += 1
         if i >= maxperf:
@@ -297,6 +301,7 @@ def saveDBPerformances(username,performances):
             del p['create_type']
             del p['joiners']
             del p['recording_url']
+            del p['comment']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed
