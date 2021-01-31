@@ -56,10 +56,12 @@
         <td>{{ performance.created_at }}</td>
         <td>
           <a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
+{% if not searchOptions['offline'] %}
           <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a>
           <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a>
           <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a>
           <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+{% endif %}
         </td>
   {% if searchOptions['offline'] %}
         <td>
