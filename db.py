@@ -159,6 +159,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['pic_filename'] = ""
         d['create_type'] = ""
         d['joiners'] = ""
+        d['web_url_full'] = d['web_url']
         d['recording_url'] = d['web_url'].replace("/ensembles","")
         # Set display handle and pic_url based on user we are searching for
         if d['owner_handle'] == username:
@@ -302,6 +303,7 @@ def saveDBPerformances(username,performances):
             del p['joiners']
             del p['recording_url']
             del p['comment']
+            del p['web_url_full']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

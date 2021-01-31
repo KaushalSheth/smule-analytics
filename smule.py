@@ -172,10 +172,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             stop = True
             break
         created_at = performance['created_at']
-        web_url = f"https://www.smule.com{performance['web_url']}"
-        #print(web_url)
+        web_url_full = f"https://www.smule.com{performance['web_url']}"
+        #print(web_url_full)
         # Set recording URL to strip out the "/ensembles" at the end if it exists
-        recording_url = web_url.replace("/ensembles","")
+        recording_url = web_url_full.replace("/ensembles","")
         # As soon as created_at is less than the ensemble min date, break out of the loop
         # In case we don't care for joins, then break out as soon as we reach the mindate (no need to process extra days)
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
@@ -184,9 +184,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If the created_at is greater than the max date, then skip it and proceed with next one
         if created_at > maxdate:
             continue
-        #print(f"{i}: {web_url}")
-        # If the web_url ends in "/ensembles" then set ct to be "invite"
-        if web_url.endswith("/ensembles"):
+        #print(f"{i}: {web_url_full}")
+        # If the web_url_full ends in "/ensembles" then set ct to be "invite"
+        if web_url_full.endswith("/ensembles"):
             ct = "invite"
             # If filterType is Invites, only include the invites that are still open - skip invites where perf_status = "e" (expired)
             if filterType == "invites" and perfStatus == "e":
@@ -269,8 +269,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             shortInd = "Y"
         else:
             shortInd = "N"
-        # Truncate web_url to 300 characters to avoid DB error when saving
-        web_url = web_url[:300]
+        # Truncate web_url_full to 500 characters to avoid DB error when saving
+        web_url = web_url_full[:500]
         # It seems like sometimes orig_track_city and few other values are not present - in this case set the them to Unknown
         try:
             orig_track_city = performance['orig_track_city']['city']
@@ -303,6 +303,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'video_media_url':performance['video_media_url'],\
                 'video_media_mp4_url':performance['video_media_mp4_url'],\
                 'web_url':web_url,\
+                'web_url_full':web_url_full,\
                 'cover_url':performance['cover_url'],\
                 'total_performers':performance['stats']['total_performers'],\
                 'total_listens':performance['stats']['total_listens'],\
@@ -341,7 +342,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
         # If ct is "invite" and joins flag is True, then process the joins and append to the performance list
         if ct == "invite" and joins:
-            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
+            ensembleList = parseEnsembles(username,web_url_full,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
             # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
             if filterType == "invites":
                 for j in ensembleList:
@@ -524,7 +525,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             next_offset = performances['next_offset']
     return performanceList
 
-# Download the specified web_url to the filename specified; return 1 if downloaded or 0 if failed/exists
+# Download the specified web_url to the filename specified; return 1 if critical error or 0 otherwise
 def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
@@ -538,18 +539,18 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         return 0
 
     try:
+        # Print out the web_url for debugging purposes
+        # TODO: Convert to debug message?
+        print(web_url)
         # The web_url returns an HTML page that contains the link to the content we wish to download
         with request.urlopen(web_url) as url:
-            # Print out the web_url for debugging purposes
-            # TODO: Convert to debug message?
-            #print(web_url)
             # First get the HTML for the web_url
             htmlstr = str(url.read())
-
+            #print(htmlstr)
             # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
             # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
             media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-
+            print(media_url)
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
             #print(media_url)
@@ -561,7 +562,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     except:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         #raise
-        return 0
+        return 1
 
     try:
         # Calculate necessary dates
@@ -595,4 +596,4 @@ def downloadSong(web_url,baseFolder,file,performance,username):
 
     # Print pic URL for debugging purposes
     # print(pic_url)
-    return 1
+    return 0

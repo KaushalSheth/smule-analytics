@@ -400,21 +400,30 @@ def create_app(test_config=None):
         performance = next(item for item in performances if item['key'] == key)
         # Downlod the song to /tmp (hardcoded for now)
         # TODO: Allow specification of download folder as well as add error handling for key not found
-        downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance,user)
-        flash("Successfully downloaded to /tmp/" + performance['filename'])
+        retVal = downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance,user)
+        if retVal == 0:
+            flash("Successfully downloaded to /tmp/" + performance['filename'])
         #return redirect(url_for('list_performances'))
-        return "1"
+        return str(retVal)
 
     # Route to downlaod all performances - this could potentially be moved to the smule module
     @app.route('/download_all_performances')
     def download_all_performances():
         global performances, user
         i = 0
+        failedSongs = []
         for performance in performances:
+            result = 0
             # Only download joins for ensembles, not the invite itself
             if performance["create_type"] != "invite":
-                i += downloadSong(performance["web_url"], "/tmp/", performance['filename'],performance,user)
+                result += downloadSong(performance["web_url_full"], "/tmp/", performance['filename'],performance,user)
+                if result == 0:
+                    i += 1
+                else:
+                    failedSongs.append(performance['filename'])
         retVal = f"Successfully downloaded {i} songs to /tmp"
+        if len(failedSongs) > 0:
+            retVal += "\nFailed to download: " + '.'.join(failedSongs)
         print(retVal)
         return retVal
 

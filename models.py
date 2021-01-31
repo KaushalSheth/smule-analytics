@@ -21,7 +21,7 @@ class Performance(db.Model):
     media_url = db.Column(db.String(200), nullable=True)
     video_media_url = db.Column(db.String(200), nullable=True)
     video_media_mp4_url = db.Column(db.String(200), nullable=True)
-    web_url = db.Column(db.String(300), nullable=True)
+    web_url = db.Column(db.String(500), nullable=True)
     cover_url = db.Column(db.String(200), nullable=True)
     total_performers = db.Column(db.Integer, nullable=True)
     total_listens = db.Column(db.Integer, nullable=True)
