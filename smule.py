@@ -378,8 +378,8 @@ def fetchFileTitleMappings(filename):
 # Method to fetch invites for partners identified by the partner SQL passed in
 def fetchPartnerInvites(inviteOptions,numrows):
     # Define constants used in this method
-    MAX_KNOWN = 1
-    MAX_UNKNOWN = 1
+    MAX_KNOWN = int(inviteOptions['maxknown'])
+    MAX_UNKNOWN = int(inviteOptions['maxunknown'])
 
     # Extract relevent parametrs from invite options
     partnersql = inviteOptions['partnersql']

@@ -127,6 +127,8 @@ def create_app(test_config=None):
                 inviteOptions['notfollowing'] = True
             else:
                 inviteOptions['notfollowing']  = False
+            inviteOptions['maxknown'] = request.form['maxknown']
+            inviteOptions['maxunknown'] = request.form['maxunknown']
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:
