@@ -17,22 +17,35 @@
   </table>
   <br>
 
+{%- if analyticstitle == "Title Stats" -%}
+  {%- set search_type = "&type=song" -%}
+{%- elif analyticstitle == "Partner Stats" -%}
+  {%- set search_type = "&type=recording" -%}
+{%- else -%}
+  {%- set search_type = "" -%}
+{%- endif -%}
+
   <table id="mytable" class="display" style="width:100%">
     <thead>
         <tr bgcolor="DarkGray">
-            {% for h in headings %}
+{%- for h in headings -%}
             <th>{{ h }}</th>
-            {% endfor %}
+{%- endfor -%}
         </tr>
     </thead>
     <tbody>
-        {% for row in analytics %}
+{% for row in analytics %}
         <tr>
-            {% for v in row.values() %}
+  {%- for k,v in row.items() -%}
+    {%- if k == "search_text" -%}
+      {%- set search_string =  v.replace(" ","+") %}
+            <td><a href="https://www.smule.com/search?q={{search_string}}{{search_type}}" target="_blank">{{ v }}</a></td>
+    {%- else -%}
             <td>{{ v }}</td>
-            {% endfor %}
+    {%- endif -%}
+  {% endfor %}
         </tr>
-        {% endfor %}
+{% endfor %}
     </tbody>
   </table>
 

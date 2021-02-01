@@ -239,7 +239,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 from    perf_stats ps
                 group by 1
                 )
-            select  s.{selcol}, s.last_performance_time, s.first_performance_time, s.first_list_col, s.performance_cnt, s.join_cnt,
+            select  s.{selcol} as search_text, s.last_performance_time, s.first_performance_time, s.first_list_col, s.performance_cnt, s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.join_list
             from    summary s
