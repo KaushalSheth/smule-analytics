@@ -20,7 +20,8 @@ perf_stats as (
             sum(case when days_since_performance <= 14 then 1 else 0 end) as performance_last_14_days_cnt,
             sum(case when days_since_performance <= 14 then join_ind else 0 end) as join_last_14_days_cnt,
             sum(performance_weight_nbr*(case favorite_ind when 1 then 20 else 1 end)*(case join_ind when 1 then 10 else 1 end)) as recency_score,
-            max(case when join_ind = 0 then created_at else '2000-01-01'::timestamp end) as last_performance_time
+            max(case when join_ind = 0 then created_at else '2000-01-01'::timestamp end) as last_performance_time,
+            min(created_at) as first_performance_time
     from 	perf
     group by 1, 2
 )
@@ -39,6 +40,7 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
             (1.0*p.performance_last_14_days_cnt/2) +
             p.join_last_14_days_cnt as rating,
             p.recency_score,
-            last_performance_time
+            last_performance_time,
+            first_performance_time
 from 	perf_stats p
 ;

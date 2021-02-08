@@ -17,7 +17,7 @@
   </table>
   <br>
 
-{%- if analyticstitle == "Title Stats" -%}
+{%- if (analyticstitle == "Title Stats") or (analyticstitle == "Custom") -%}
   {%- set search_type = "&type=song" -%}
 {%- elif analyticstitle == "Partner Stats" -%}
   {%- set search_type = "&type=recording" -%}

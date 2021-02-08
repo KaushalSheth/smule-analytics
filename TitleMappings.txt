@@ -181,6 +181,7 @@ Acchha Ji Main Haari|Achha Ji Main Haari Chalo
 Acchha Ji Main Haari|Achha Ji Main Haari Cholo
 Acchha Ji Main Haari|Dsj Achha Ji Main Haari
 Acchha Ji Main Haari|Acha Ji Mai Haarichalomaan Jao Na
+Acchha Ji Main Haari|AᑕᑕHa Ji ᗰAiᑎ Haari
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -576,6 +577,7 @@ Dhak Dhak Karne Laga|Dhakdhak Karne Laga
 Dhal Gaya Din|Dhal Gaya Din
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
 Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
+Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
 Dheere Dheere Chal|Dheere Chal Chaandgagan Mein
 Dheere Dheere Chal|Dheere Dheere Chal Chaand Gagan Mein
 Dheere Dheere Chal|Dheere Dheere Chal Chand
@@ -901,6 +903,7 @@ I Love My India|I Love My India Pardes
 Ik Raasta Hai Zindagi|Ik Rasta Hai Zindagi
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke Umrao Jaan
 In Aankhon Ki Masti|In Ankhon Ki Masti
+In Aankhon Ki Masti|In Aankhon Ki Masti Ke
 Intehaan Ho Gayi|Inteha Ho Gai Intezaar Ki
 Intehaan Ho Gayi|Inteha Ho Gayi
 Intehaan Ho Gayi|Intehan Ho Gayi
@@ -1249,6 +1252,7 @@ Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
 Kya Hua Tera Waada|H D Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Waada ???
+Kya Hua Tera Waada|Kya Hua Tera Vada
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Jaanu
 Kya Kehna|Kya Kehna
 Kya Kehna|Kya Kehna Kya Kehna
@@ -1281,6 +1285,7 @@ Lag Ja Gale|Lagja Gale
 Lag Ja Gale|Lg Jaa Gale Gale Ja Gale Ja Gale
 Laila Main Laila|Laila Main Laila
 Laila Main Laila|Laila O Lailaqurbanilaila Main Laila
+Laila Main Laila|Laila O Laila Laila Main Laila
 Lakdi Ki Kathi|Lakdi Ki Kathi
 Lakhon Hain Nigahon Mein|Lakhon Hain Nigahon Mein
 Lamha Lamha|Lamha Lamha
@@ -1365,6 +1370,7 @@ Main Yahan Hoon|Main Yahan Hoon
 Main Yahan Hoon|Drjaanam Dekhlo Mit Gayi
 Main Yahan Hoon|Janam Dekh Lo
 Main Zindagi Ka Saath Nibhata|Mai Zindagi Ka Saath Nibhata
+Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhaata
 Maine Kasam Li|Hey Maine Kasam Li
 Maine Kya Socha Tha|Maine Kya Socha Tha
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
@@ -1612,6 +1618,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kaaala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
+Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
 Pardesi Pardesi|Pardesi Pardesi
 Pardesi Pardesi|Pardesi Pardesi Jana Nahi
 Pardesiya|Pardesiya
@@ -1897,6 +1904,7 @@ Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na T
 Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na Tun Rozana
 Sun Raha Hai|Sunn Raha Hai
 Sun Raha Hai|Sun Raha Hai Sun Sun
+Sun Raha Hai|Sun Rahahai Na Tu
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
@@ -2211,6 +2219,7 @@ Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen Teri
 Ude Jab Jab Zulfein Teri|Ude Jab Zulfein Teri
 Ude Jab Jab Zulfein Teri|Ure Jab Jab Zulfein Teri
 Ude Jab Jab Zulfein Teri|🌺Ude Jab Jab Zulfein🍁 Teri🍁 (High Quality)
+Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Vaada Tera Vaada|Vaada Tera Vaada
@@ -2267,6 +2276,7 @@ Yeh Dil Na Hota Bechara|Ye Dil Na
 Yeh Dil Na Hota Bechara|Yeil Na Hota Bechara
 Yeh Dil Sun Raha Hai|Yeh Dil Sun Raha Hai
 Yeh Dil Sun Raha Hai|Yeil Sun Raha Hai
+Yeh Dil Sun Raha Hai|Yeil
 Yeh Dil Tum Binn|Ye Dil Tum Bin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Yeh
@@ -2326,6 +2336,7 @@ Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
 Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jaadu Hai Mitwa
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
+Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He
 Yeh Mera Dil|Ye Mera Dil
 Yeh Mera Dil|Yeh Mera Dil Don
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed Rafi
