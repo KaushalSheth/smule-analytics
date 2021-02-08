@@ -530,7 +530,6 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
     # Print filename
-    print("=======================================================================")
     print(filename)
 
     # If the file already exists, skip it
@@ -541,7 +540,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     try:
         # Print out the web_url for debugging purposes
         # TODO: Convert to debug message?
-        print(web_url)
+        #print(web_url)
         # The web_url returns an HTML page that contains the link to the content we wish to download
         with request.urlopen(web_url) as url:
             # First get the HTML for the web_url
@@ -550,7 +549,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
             # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
             media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-            print(media_url)
+            #print(media_url)
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
             #print(media_url)

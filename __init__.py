@@ -413,6 +413,8 @@ def create_app(test_config=None):
         i = 0
         failedSongs = []
         for performance in performances:
+            print("=======================================================================")
+            print(f"{i} - {performance['web_url_full']}")
             result = 0
             # Only download joins for ensembles, not the invite itself
             if performance["create_type"] != "invite":
