@@ -617,6 +617,7 @@ Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
 Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Hai Tumhara|Mastana Mausam Hai
+Dil Hai Tumhara|Dil Hai Tumhaara
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Ka Bhanwar Kare Pukar
@@ -839,6 +840,7 @@ Honthon Se Chhu Lo Tum|Hothon Se Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Hothonse Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Hoton Se Chulo Tum Ghazal
 Honthon Se Chhu Lo Tum|Hoton Se Chhulo Tum
+Honthon Se Chhu Lo Tum|Hoton Se Chhu Lo Tum
 Hoshwalon Ko Khabar Kya|Hosh Walo Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hosh Walon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
@@ -1444,6 +1446,7 @@ Mere Rashke Qamar|Mere Rashke Qamar Mix
 Mere Samne Wali Khidki Mein|Mere Samne Wali
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Me
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Mein
+Mere Samne Wali Khidki Mein|मेरे सामने वाली खिड़की में एक चाँद का
 Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
@@ -1482,6 +1485,7 @@ Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
 Mujhe Neend Na Aaye|Mujhe Neendna Aaye
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
+Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo Hamrahi
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
 Musafir Hoon Yaaron|Musafir Hoon Ya
 Musafir Hoon Yaaron|Musafir Hoon Yaaro
@@ -1715,6 +1719,7 @@ Qaafirana|Qaafirana Female
 Qaafirana|Qaafirana Karaoke
 Qaafirana|Qaafirana Kedarnath
 Qaafirana|Qafirana
+Qaafirana|Qaafirana Chillout Mix
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Ka Nasha|Raat Ka Nasha Abhi
@@ -1905,6 +1910,7 @@ Sun Raha Hai|Sun Raha Hai Na Tu Na Tu Na Tu Na Tu Na Tu Na Tu Na T
 Sun Raha Hai|Sunn Raha Hai
 Sun Raha Hai|Sun Raha Hai Sun Sun
 Sun Raha Hai|Sun Rahahai Na Tu
+Sun Raha Hai|Sun Raha Hai Na Tu
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
