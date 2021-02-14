@@ -27,58 +27,49 @@
 
   <table id="mytable" class="display" style="width:100%">
     <thead><tr bgcolor="DarkGray">
-{% if not searchOptions['offline'] %}
+{%- if not searchOptions['offline'] -%}
       <th>#</th>
-{% endif %}
-{% if searchOptions['searchType'] == "partnerinvites" %}
+{%- endif -%}
+{%- if searchOptions['searchType'] == "partnerinvites" -%}
       <th>Created Time</th><th>Title</th><th>Partner</th><th>Total Joins</th><th>Recency Score</th><th>Download Link</th><th>Play Song</th>
-{% else %}
+{%- else -%}
       <th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th>
-{% endif %}
+{%- endif -%}
     </thead>
     <tbody>
-{% for performance in performances %}
+{%- for performance in performances -%}
   {% if performance.create_type == "ensemble" %}
       <tr style="color:Green">
-  {% elif performance.create_type == "invite" %}
+  {%- elif performance.create_type == "invite" -%}
     {% if performance.perf_status == "e" %}
       <tr style="color:Red">
     {% else %}
       <tr style="color:Turquoise">
-    {% endif %}
+    {%- endif -%}
   {% else %}
       <tr>
-  {% endif %}
-  {% if searchOptions['offline'] %}
+  {%- endif -%}
+  {%- if searchOptions['offline'] -%}
   {% else %}
         <td>{{ loop.index }}</td>
   {% endif %}
         <td>{{ performance.created_at }}</td>
-        <td>
-          <a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
-{% if not searchOptions['offline'] %}
-          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a>
-          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a>
-          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a>
-          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
-{% endif %}
+        <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
+{%- if not searchOptions['offline'] -%}
+          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+{%- endif -%}
         </td>
-  {% if searchOptions['offline'] %}
-        <td>
-          <a href="{{ performance.web_url }}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>
-        </td>
-  {% else %}
-        <td>
-          <a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a>
-        </td>
-  {% endif %}
-        <td>{{ performance.total_listens }}</td>
-        <td>{{ performance.total_loves }}</td>
-  {% if searchOptions['offline'] %}
+  {%- if searchOptions['offline'] -%}
+        <td><a href="{{ performance.web_url }}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
+  {%- else -%}
+        <td><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
+  {%- endif -%}
+        <td>{{ performance.total_listens }}</td><td>{{ performance.total_loves }}</td>
+  {%- if searchOptions['offline'] -%}
         <td><a href="{{ performance.web_url }}" target="_blank">Play only</a></td>
-  {% else %}
+  {%- else -%}
         <td><a href="/download_performance/{{ performance.key }}" target="_blank">Download</a></td>
-  {% endif %}
+  {%- endif -%}
         <td><a href="{{ performance.web_url }}" target="_blank">{{ performance.filename }}</a></td>
       </tr>
 {% endfor %}

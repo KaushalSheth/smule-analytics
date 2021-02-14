@@ -253,7 +253,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             '# Performances', '# Partners', '# Invites', '# Joins', 'First Performance', 'Last Performance'\
             ]
         sqlquery = f"""
-            select  fixed_title, total_score, invite_recency_score, popularity_score, first_performance_score,
+            select  fixed_title as search_text, total_score, invite_recency_score, popularity_score, first_performance_score,
                     performance_recency_score, num_all_performances, num_partners, num_invites, num_joins,
                     first_performance_time, last_performance_time
             from    my_invite_analysis
@@ -262,7 +262,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle == 'Repeat':
         headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
         sqlquery = f"""
-            select  performers as main_performer, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
+            select  performers as search_text, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
             from    my_performances
             where   created_at between '{fromdate}' and '{todate}'
             and     performers != '{username}'

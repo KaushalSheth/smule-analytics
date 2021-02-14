@@ -13,6 +13,7 @@ Aa Jaane Jaan|Aa Jaane
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
+Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet
 Aadha Hai Chandrama|Aadha Hai Raat Aadhi Aadhee Navrang
 Aadha Hai Chandrama|Adha Hai Chandrama
 Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu
@@ -123,6 +124,7 @@ Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
 Aap Ki Nazron Ne Samjha|Aapki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aapkinazron Ne Samjha
 Aap Ki Nazron Ne Samjha|App Ki Nazaro Ne Samjha
+Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aati Kya Khandala|Aati Kya Khandala
 Aati Kya Khandala|Aati Kya Khandala Ghulam
 Aati Kya Khandala|Ay Kya Bolti Tu
@@ -644,6 +646,7 @@ Dil Leke Darde Dil|Dil Leke Dard
 Dil Leke Darde Dil|Dil Leke Darde Dil
 Dil Leke Darde Dil|Dil Leke Darde Dil Degaye
 Dil Leke Darde Dil|Wanted
+Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
@@ -814,6 +817,7 @@ Hai Mera Dil|Hai Mera Dil Josh
 Hamein Aur Jeene|Hame Aur Jeene Hume
 Hangover|Hangover
 Hangover|Hangover Kick
+Har Kasam Se Badi Hain Kasam Pyar Ki|Har Kasam Se Badi Hain Kasam Pyar Ki
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Yaha Pyaar
 Har Kisi Ko Nahi Milta|Har Kisiko Nahi
 Har Kisi Ko Nahi Milta|Harkisiko Nahi Milta Old
@@ -895,6 +899,7 @@ Humko Hamise Chura Lo|Humkohumise Chura
 Humko Hamise Chura Lo|Humkohumise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Chura Lo Chura Lo
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
+Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
@@ -1117,6 +1122,7 @@ Kabhi Kabhi|Kabhi Kabhie Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
+Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabira|Kabira
 Kabke Bichde Hue Aaj|Kabke Bice Hue Aaj
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
@@ -1410,6 +1416,7 @@ Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
+Mere Ghar Aayi Ek Nanhi Pari|Mere Ghar Aayi Ek Nanhi Pari
 Mere Haath Mein|Mere Haath Mein
 Mere Haath Mein|Mere Haath Mein Tera Hath Ho
 Mere Haath Mein|Mere Haath Mere Haath Mere Haath
@@ -1455,6 +1462,7 @@ Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein|Merisaanson Mein
 Meri Saanson Mein|Meri Sanson Mein
+Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
 Mile Ho Tum Humko|_Mile_Ho Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum
@@ -1914,6 +1922,7 @@ Sun Raha Hai|Sun Raha Hai Na Tu
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
+Suno Na Sangemarmar|Suno Na Sangemarmar
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
 Suraj Hua Maddham|`Suraj Hua Madham
 Suraj Hua Maddham|Suraj Hua
