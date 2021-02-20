@@ -5,13 +5,14 @@ myself as (
 ),
 perf AS (
     SELECT  p.*,
-            split_part((p.key)::text, '_'::text, 1) AS instance_key
-    FROM    performance p
+            split_part((p.key)::text, '_'::text, 1) AS instance_key,
+            case when owner_handle = m.handle and web_url not like '%ensembles' then 1 else 0 end join_ind
+    FROM    performance p cross join myself m
     WHERE   1 = 1
     AND     exists (
                 select  1
                 from    performance_singer ps
-                        inner join singer s on s.account_id = ps.singer_account_id and s.performed_by = (select handle from myself)
+                        inner join singer s on s.account_id = ps.singer_account_id and s.performed_by = m.handle
                 where   ps.performance_key = p.key
                 )
     ),

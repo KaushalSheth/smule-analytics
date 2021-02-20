@@ -426,6 +426,7 @@ Chalte Chalte|Chalte Chalte Mere Ye Geet
 Chalte Chalte|Chalte Chalte Mere Yeh Geet Yaad Rakhna
 Chalte Chalte|S H O R T Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Yeh Geet
+Chalte Chalte|Chalte Chalte Meri Yeh Geet
 Chalte Chalte Yunhi|Chalte Chalte Yunhi
 Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
 Chalte Chalte Yunhi|Chalte Chalte Yuhi
@@ -436,6 +437,7 @@ Chandan Sa Badan|Chandan Sa Badan Mukesh
 Chandi Jaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|Chandijaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|𝐇𝐃 Chandi Jaisa Rang Hai Tera
+Chandni Raat Hai|Chandni Raat Hai
 Chaudhvin Ka Chand Ho|Chaudavi Ka Chaand Ho
 Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
@@ -767,6 +769,7 @@ Every Breath You Take|Every Breath You Take
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
+Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chaand Nikla
 Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
@@ -1064,7 +1067,8 @@ Jabse Tere Naina|Jab Se Tere Naina Saawariya
 Jabse Tere Naina|Jabse Tere Naina
 Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
-Jahaan Main Jaati Hun|Jahan Main Jaati Hun
+Jahaan Main Jaati Hoon|Jahan Main Jaati Hun
+Jahaan Main Jaati Hoon|Jahan Main Jati Hoon
 Jahaan Main Jaati Hun|जहाँ मैं जाती हूँ वहीं चले आते हो Jahan Main
 Jahan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
@@ -1350,6 +1354,7 @@ Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaoon
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shayar Hoon
+Main Phir Bhi Tumko Chahunga|Mai Fir Bhi Tumko Chahunga
 Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
@@ -1457,6 +1462,7 @@ Mere Samne Wali Khidki Mein|मेरे सामने वाली खिड़�
 Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
+Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
@@ -1683,6 +1689,7 @@ Pukarta Chala Hoon Main|Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main Clean
+Pukarta Chala Hoon Main|Pukarta Chala Hu Main
 Pyaar Deewana Hota Hai|Adpyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Haissgn_Chamsmanoj
@@ -1937,6 +1944,7 @@ Suraj Hua Maddham|Suraj Hua Madham Sound
 Suraj Hua Maddham|Suraj Huamadham Maddham
 Suraj Hua Maddham|Suraj Huaziyadnoor
 Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
+Surmaiye Ankhiyon Mein|Surmai Akhiyoon Mein
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
@@ -2100,6 +2108,7 @@ Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Female
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Tujh
 Tujh Mein Rab Dikhta Hai|Tujhme Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujme Rab Dikhta Hai
+Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Tujh Mein Rab
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Deka
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ddlj Tujhedekha
@@ -2439,6 +2448,7 @@ Zindagi Ke Safar Mein|Zindagi Ke Safar Me,,
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
+Zindagi Milke Bitayenge|Zindagi Milke Bitayenge
 Zindagi Pyar Ka Geet Hai|Newzindagi Pyar Ka Geet Hai
 Zindagi Pyar Ka Geet Hai|Zindagi Pyaar Ka Geet Hai
 Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka
