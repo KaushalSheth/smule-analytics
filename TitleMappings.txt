@@ -13,6 +13,7 @@ Aa Jaane Jaan|Aa Jaane
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
+Aa Lag Ja Gale Dilruba|Aa Lag Ja Gale Dilruba
 Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet
 Aadha Hai Chandrama|Aadha Hai Raat Aadhi Aadhee Navrang
 Aadha Hai Chandrama|Adha Hai Chandrama
@@ -252,6 +253,7 @@ Ajeeb Dastaan Hai Yeh|Ajeeb Dastaan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajeeb Dastan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajib Dastan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Fᴜʟʟajeeb Dastaandastaan Hai Yeh
+Ajeeb Dastaan Hai Yeh|Ajeeb Daastaan
 Aji Roothkar|Aji Rooth Kar Ab
 Aji Roothkar|Aji Roothkar
 Aji Roothkar|Aji Roothkar Ab Kahan Jaiyega
@@ -737,6 +739,7 @@ Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko Mil Jayenge (YES BOSS)
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko Mil Jayenge (Yes Boss)
 Ek Din Aap Yoon Humko|Ek Din Aap Youn Humko
 Ek Din Aap Yoon Humko|Ek Din Aap Yun
+Ek Din Aap Yoon Humko|Maine Kya Socha Tha
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhagi Si
@@ -746,6 +749,7 @@ Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha To Aisa Laga
 Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha To Aisa Laga Toh Aisa Laga
 Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha Toh Aisa Laga
 Ek Main Aur Ek Tu|Ek Main Aur Ek Tu
+Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Ye Kahani Banegi
 Ek Pardesi Mera Dil Le Gaya|Ek Pardesi Mera Dil Le Gaya
 Ek Pyaar Ka Nagma Hain|[HQ] Ek Pyaar Ka Nagma Hai 💝 Shor 1972 Full
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai
@@ -796,6 +800,7 @@ Gulabi Aankhen|Gulabi Aankhen Retro Mix
 Gulabi Aankhen|Gulabi Ankhen
 Gulabi Aankhen|Gulabiaankhen
 Gulabi Aankhen|Gulabi Ankhein Retro Mix
+Gulabi Aankhen|Gulaabi Aankhein
 Gunguna Rahe Hain Bhanwre|[HD] gun guna rahe hai bhanware (aaradhna)
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hai Bhanware
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe
@@ -827,6 +832,8 @@ Har Kisi Ko Nahi Milta|Harkisiko Nahi Milta Old
 Har Kisi Ko Nahi Milta|HD® Har kisi ko nahi milta yaha pyar{Janbaaz}
 Har Kisi Ko Nahi Milta|Har Kisko Nahi Milta
 Haule Haule|Haule Haule
+Hawa Ke Saath Saath|O Saathi Chal
+Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua हाय रामा ये क्या हुआ
 Haye Rama Ye Kya Hua|Hai Rama Yeh Kya Hua Edited
@@ -1385,7 +1392,6 @@ Main Yahan Hoon|Janam Dekh Lo
 Main Zindagi Ka Saath Nibhata|Mai Zindagi Ka Saath Nibhata
 Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhaata
 Maine Kasam Li|Hey Maine Kasam Li
-Maine Kya Socha Tha|Maine Kya Socha Tha
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai Ed
@@ -1428,6 +1434,7 @@ Mere Haath Mein|Mere Haath Mere Haath Mere Haath
 Mere Haath Mein|Mere Hath Mein
 Mere Haath Mein|Merehath Mein Me
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
+Mere Khawabon Mein Tu|Mere Khawabon Me Tu
 Mere Khwabon Mein Jo Aaye|Mere Khwaabon Mein Jo ☕
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein Jo Aaye
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein
@@ -1469,6 +1476,7 @@ Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein|Merisaanson Mein
 Meri Saanson Mein|Meri Sanson Mein
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
+Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
 Mile Ho Tum Humko|_Mile_Ho Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum
@@ -1599,8 +1607,6 @@ O Meri Soni Mere|O Meri Soni Mere
 O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Re Kanchi|O Re Kanchi
 O Rey Chhori|O Rey Chori
-O Saathi Chal|O Saathi Chal
-O Saathi Chal|Hawa Ke Saath Saath
 O Saathi Re|O Saathi Re
 O Saathi Re|O Saathi Re O Re
 O Saathi Re|O Sathi Re
@@ -1870,6 +1876,7 @@ Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiya
 Sau Aasmaan|Sau Asmaan
 Sau Aasmaan|Sau Aasmaan
+Sau Aasmaan|Sau Aasman Baar Baar Dekho
 Sau Saal Pehle|100 Saal Pahele
 Sau Saal Pehle|Sau Saal Pehle
 Sau Saal Pehle|Sau Saal Pehle Sau
@@ -1984,6 +1991,7 @@ Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
 Tere Chehre Se|Tere Chehre Se Rits
+Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
 Tere Ghar Ke Saamne|Tere Ghar Ke Saamne
 Tere Ghar Ke Saamne|Tere Ghar Ke Saamne Ek Ghar Banaunga
@@ -2071,6 +2079,7 @@ Tu Is Tarah|Tu Is Tarah Se Meri
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
+Tu Jaane Na|Tera Hone Laga Tu Jaane Na
 Tu Jahaan Jahaan Chalega|[Short®️] Tu jahan jahan chalega mera saaya
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega Mera Saaya
@@ -2085,6 +2094,7 @@ Tu Mile Dil Khile|Tu Mile Dil Khile Or Jeene
 Tu Mile Dil Khile|Tu Mile Dil Mile
 Tu Mile Dil Khile|Tum Mile Dil Khile
 Tu Mile Dil Khile|Tum Mile Dil Khile New
+Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi
 Tu Pyaar Ka Saagar Hai|Tu Pyaar Ka Saagar Hai
 Tu Pyaar Ka Saagar Hai|Tu Pyar Ka Sagar Hai
 Tu Tu Hai Wahi|[HQ™] Tu Tu Hai Wohi The Unwind Mix Original
@@ -2410,6 +2420,7 @@ Yeh Shaam Mastaani|Yeh Shaam Mastani
 Yeh Shaam Mastaani|Yeh Sham Mastani
 Yeh Shaam Mastaani|Yesham Mastani Ye Sham
 Yeh Shaam Mastaani|Ye Sham Mastani
+Yeh Shaam Mastaani|Ye Shaam Mastani
 Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
