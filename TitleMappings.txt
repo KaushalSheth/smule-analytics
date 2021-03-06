@@ -119,6 +119,7 @@ Aap Ki Aankhon Mein Kuch|Aapki Aankhon Mein Kuch Gharmusicoolpiyush_
 Aap Ki Aankhon Mein Kuch|Aapki Aankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aapki Ankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aapki Ankhon
+Aap Ki Aankhon Mein Kuch|Aapki Aankhon
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -162,6 +163,7 @@ Aaye Ho Meri Zindagi Mein|Ayeho Meriho Meri Ho
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aayega Aane Wala|Aaega Aane Wala
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
+Ab Tere Bin|Ab Tere Bin
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Aa Gaye Hum
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye
@@ -266,6 +268,7 @@ Aji Roothkar|Aji Rooth Kar Ab Kahan Jaiyega
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
+Akele Hai Chale Aao|Akele Hai Chale Aao
 Akele Hain To Kya Gam Hai|Akele Hain To Kya
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai
@@ -407,12 +410,14 @@ Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
 Chaand Phir Nikla|Chand Phir Nikla
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
+Chaand Sifarish Jo Karta Hamari|Chand Sifarish
 Chaand Sitare|Chaand Sitaare
 Chaand Sitare|Chand Sitare
 Chaand Sitare|Drchaand Sitare Phool Aur Khushboo
 Chaand Taare Tod Laun|Chaand Taare Tod Laun Karaoke
 Chaand Taare Tod Laun|Chand Taare Tod Laun
 Chaand Taare Tod Laun|Chand Tare Tod Laun
+Chaand Taare Tod Laun|Chand Tare
 Chain Se Humko Kabhi|Chain Se Hamko Kabhi
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
@@ -443,6 +448,7 @@ Chandni Raat Hai|Chandni Raat Hai
 Chaudhvin Ka Chand Ho|Chaudavi Ka Chaand Ho
 Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
+Chaudhvin Ka Chand Ho|Chaudvin Ka Chand
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
@@ -482,6 +488,7 @@ Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
 Chhup Gaya Badli Mein|Chup Gaya Badli Mein
 Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
+Chingari Koi Badke|Chingari Koi Badke
 Chithi Na Koi Sandesh|Chithhi Na Koi S Chithi
 Chithi Na Koi Sandesh|Chithi Na Koi Sandesh
 Chogada Tara|Chogada
@@ -720,6 +727,8 @@ Dum Bhar Jo Udhar|Dum Bhar Jo Udhar
 Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
 Dum Dum Diga Diga|Dum Dum Diga Diga
 Dum Maro Dum|Dum Maro Dum
+Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
+Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Edelweiss|Edelweiss
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Hoga
@@ -961,6 +970,7 @@ Jaadu Hai Nasha Hai|Jaadu Hai Ns Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaduhai Nasha Hai Nasha
 Jaadu Hai Nasha Hai|Part Jaadu Hai Nasha Hai
+Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai Nasha Hai Nasha
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
 Jaadu Teri Nazar|Jadu Teri Nazar
 Jaadu Teri Nazar|Jadu Teri Nazar Part 3
@@ -1068,6 +1078,7 @@ Jab Koi Baat Bigad Jaaye|Jab Koi Baat Koi Baat Koi Baat Koyi
 Jab Koi Baat Bigad Jaaye|Jab Koibaat Bigaaaye
 Jab Koi Baat Bigad Jaaye|Jab_Koibaat_Bigadjaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Bat Bigad Jaye Rits
+Jab Mohabbat Jawan Hoti Hai|Jab Muhabbat Jawan Hoti Hai
 Jab Pyaar Kiya To Darna Kya|Jab Pyar Kiya Toarna Kya
 Jabse Tere Naina|Jab Se Tere Naina
 Jabse Tere Naina|Jab Se Tere Naina Saawariya
@@ -1688,6 +1699,7 @@ Piyu Bole|H Qpiyubole
 Piyu Bole|Piyu Bole
 Piyu Bole|Piyu Bole Piya Bole
 Piyu Bole|Piyubole
+Piyu Bole|Piyu Bole Piya Bole Parineeta
 Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
@@ -2044,6 +2056,7 @@ Teri Meri Prem Kahani|Teri Meri
 Teri Meri Prem Kahani|Teri Meri Prem Kahani
 Teri Meri Prem Kahani|Teri Meri Prem Kahanigpsi
 Teri Mitti|Teri Mitti
+Teri Mitti|Teri Mitti Kesari
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
@@ -2256,6 +2269,7 @@ Ude Jab Jab Zulfein Teri|🌺Ude Jab Jab Zulfein🍁 Teri🍁 (High Quality)
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
+Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
 Vaada Tera Vaada|Vaada Tera Vaada
 Vaaste|Vaaste
 Vaaste|Vaaste Vaaste
@@ -2300,6 +2314,7 @@ Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
 Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan
+Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan Chehra
 Yeh Dil Kya Kare|Ye Dil Kya Kare
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare
