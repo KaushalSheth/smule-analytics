@@ -271,6 +271,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             shortInd = "N"
         # Truncate web_url_full to 500 characters to avoid DB error when saving
         web_url = web_url_full[:500]
+        yt_search = "https://www.youtube.com/results?search_query=" + fixedTitle.replace(" ","+") + "+lyrics"
         # It seems like sometimes orig_track_city and few other values are not present - in this case set the them to Unknown
         try:
             orig_track_city = performance['orig_track_city']['city']
@@ -333,7 +334,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'performer_ids':performerIds,\
                 'performer_handles':performerHandles,\
                 'recording_url': recording_url,\
-                'comment':comment\
+                'comment':comment,\
+                'yt_search':yt_search\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:

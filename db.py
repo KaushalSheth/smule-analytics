@@ -161,6 +161,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['joiners'] = ""
         d['web_url_full'] = d['web_url']
         d['recording_url'] = d['web_url'].replace("/ensembles","")
+        d['yt_search'] = "https://www.youtube.com/results?search_query=" + d['fixed_title'].replace(" ","+") + "+lyrics"
         # Set display handle and pic_url based on user we are searching for
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
@@ -303,6 +304,7 @@ def saveDBPerformances(username,performances):
             del p['joiners']
             del p['recording_url']
             del p['comment']
+            del p['yt_search']
             del p['web_url_full']
 
             # Create/Update the Singer record for the performance owner
