@@ -380,20 +380,13 @@ def fetchFileTitleMappings(filename):
 
 # Method to fetch invites for partners identified by the partner SQL passed in
 def fetchPartnerInvites(inviteOptions,numrows):
-    # Define constants used in this method
-    MAX_KNOWN = int(inviteOptions['maxknown'])
-    MAX_UNKNOWN = int(inviteOptions['maxunknown'])
-
     # Extract relevent parametrs from invite options
+    partnerchoice = inviteOptions['partnerchoice']
     partnersql = inviteOptions['partnersql']
     knowntitles = inviteOptions['knowntitles']
     unknowntitles = inviteOptions['unknowntitles']
     repeats = inviteOptions['repeats']
     notfollowing = inviteOptions['notfollowing']
-    # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
-    currTime = datetime.now()
-    mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
-    maxdate = currTime.strftime(DATEFORMAT)
     performanceList = []
     # If neither known or unknown titles is set, just return with empty list because there will be no matches
     if (not knowntitles) and (not unknowntitles):
@@ -411,68 +404,108 @@ def fetchPartnerInvites(inviteOptions,numrows):
         t = p['fixed_title']
         if t not in titleList:
             titleList.append(t)
-
+    # Initialize counters
     i = 0
     numPerf = 0
-    # Fetch the list of partners by executing the partnersql query
-    partners = execDBQuery(partnersql)
-    for ptr in partners:
-        partnerHandle = list(iter(ptr.values()))[0]
-        partnerAccountId = list(iter(ptr.values()))[1]
-        partnerSort = list(iter(ptr.values()))[2]
-        joinCount = int(list(iter(ptr.values()))[4])
+    # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to suppose some of the choices
+    partnersTop = execDBQuery(partnersql)
+    partnersBottom = partnersTop[::-1]
+    # Set the Max rows for Top and Bottom lists
+    if partnerchoice == "top":
+        topRows = numrows
+    elif partnerchoice == "mixed80":
+        topRows = int(numrows * 0.8)
+    elif partnerchoice == "mixed60":
+        topRows = int(numrows * 0.6)
+    elif partnerchoice == "mixed40":
+        topRows = int(numrows * 0.4)
+    elif partnerchoice == "mixed20":
+        topRows = int(numrows * 0.2)
+    elif partnerchoice == "bottom":
+        topRows = 0
 
-        isFollowing = partnerAccountId in followingAccountIds
-        # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
-        # If the conditions are not met, skip this partner and process next one
-        if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
-            continue
-        # Fetch all invites for the partner
-        # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
-        partnerList = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
-        # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
-        finalPartnerList = []
-        knownCount = 0
-        unknownCount = 0
-        # Loop through the partenr list in random order
-        random.shuffle(partnerList)
-        for p in partnerList:
-            t = p['fixed_title']
-            isRepeat = (p['performers'] + "|" + t) in performedList
-            isUnknown = (t not in titleList)
-            # We will include the performance only if repeats are allowed or if the performance is not in the list of already performed performances
-            if (repeats or not isRepeat):
-                # We will include known/unknown titles based on options set
-                if ( (knowntitles and not isUnknown) or (unknowntitles and isUnknown) ):
-                    # We want a maximum of 1 Unknown title from each partner (if any are allowed), so continue to next title if that max is reached
-                    if isUnknown:
-                        unknownCount += 1
-                        if unknownCount > MAX_UNKNOWN:
-                            continue
-                    else:
-                        knownCount += 1
-                    # Append appropriate indicators to title
-                    if isRepeat:
-                        p['title'] += " (REPEAT)"
-                    if isUnknown:
-                        p['title'] += " (UNKNOWN)"
-                    # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
-                    p['total_listens'] = joinCount
-                    p['total_loves'] = partnerSort
-                    finalPartnerList.append(p)
-                    # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
-                    if knownCount >= MAX_KNOWN:
-                        break
-        # Extend the peformance list by adding the final partner list to it
-        performanceList.extend(finalPartnerList)
-        i += 1
-        if len(performanceList) != numPerf:
-            numPerf = len(performanceList)
-            print(f"-- {i}: {numPerf} after {partnerHandle} - {len(partnerList)} ({partnerSort})")
-        # As soon as we exceed the number of rows specified, break out of the loop
-        if (len(performanceList) >= numrows):
-            break
+    # Define a function to process a partner list to build a performance list for the number of rows specified
+    def createList(partners,numrows):
+        # Edge case - if numrows = 0 then exit method immediately
+        if numrows == 0:
+            return
 
+        # Define all the non-local variables to inherit from parent method
+        nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf
+
+        # Define constants used in this method
+        MAX_KNOWN = int(inviteOptions['maxknown'])
+        MAX_UNKNOWN = int(inviteOptions['maxunknown'])
+        # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
+        currTime = datetime.now()
+        mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
+        maxdate = currTime.strftime(DATEFORMAT)
+
+        # Loop through the partner list and process it
+        for ptr in partners:
+            partnerHandle = list(iter(ptr.values()))[0]
+            partnerAccountId = list(iter(ptr.values()))[1]
+            partnerSort = list(iter(ptr.values()))[2]
+            joinCount = int(list(iter(ptr.values()))[3])
+
+            isFollowing = partnerAccountId in followingAccountIds
+            # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
+            # If the conditions are not met, skip this partner and process next one
+            if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
+                continue
+            # Fetch all invites for the partner
+            # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
+            partnerList = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+            # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
+            finalPartnerList = []
+            knownCount = 0
+            unknownCount = 0
+            # Loop through the partenr list in random order
+            random.shuffle(partnerList)
+            for p in partnerList:
+                t = p['fixed_title']
+                isRepeat = (p['performers'] + "|" + t) in performedList
+                isUnknown = (t not in titleList)
+                # We will include the performance only if repeats are allowed or if the performance is not in the list of already performed performances
+                if (repeats or not isRepeat):
+                    # We will include known/unknown titles based on options set
+                    if ( (knowntitles and not isUnknown) or (unknowntitles and isUnknown) ):
+                        # We want a maximum of 1 Unknown title from each partner (if any are allowed), so continue to next title if that max is reached
+                        if isUnknown:
+                            unknownCount += 1
+                            if unknownCount > MAX_UNKNOWN:
+                                continue
+                        else:
+                            knownCount += 1
+                        # Append appropriate indicators to title
+                        if isRepeat:
+                            p['title'] += " (REPEAT)"
+                        if isUnknown:
+                            p['title'] += " (UNKNOWN)"
+                        # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
+                        p['total_listens'] = joinCount
+                        p['total_loves'] = partnerSort
+                        finalPartnerList.append(p)
+                        # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
+                        if knownCount >= MAX_KNOWN:
+                            break
+            # Extend the peformance list by adding the final partner list to it
+            performanceList.extend(finalPartnerList)
+            i += 1
+            # If the number of performances changes, then update the variable and print out a message indicating how many performances were added
+            if (numPerf != len(performanceList)):
+                numPerf = len(performanceList)
+                print(f"-- {i}: {numPerf} after {partnerHandle} - {knownCount + unknownCount} / {len(partnerList)} ({partnerSort})")
+            # As soon as we exceed the number of rows specified, break out of the loop
+            if (numPerf >= numrows):
+                break
+        return
+
+    # First, call the createList method for the top rows; next call it using the reversed list and the total number of rows to fill in the remainder
+    print("============= PROCESSING TOP PARTNERS ==============")
+    createList(partnersTop,topRows)
+    print("============= PROCESSING BOTTOM PARTNERS ==============")
+    createList(partnersBottom,numrows)
     return performanceList
 
 # Method to fetch performances for the specific user upto the max specified

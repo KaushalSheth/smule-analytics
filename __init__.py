@@ -110,6 +110,7 @@ def create_app(test_config=None):
                 searchOptions['dbfilter'] = dbfilter
 
             # Set all invite options
+            inviteOptions['partnerchoice'] = request.form['partnerchoice']
             inviteOptions['partnersql'] = request.form['partnersql']
             if request.form.get('knowntitles'):
                 inviteOptions['knowntitles'] = True

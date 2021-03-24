@@ -254,6 +254,7 @@ Aisi Deewanagi|Aisi Deewangi
 Aisi Deewanagi|Aisi Deewangi Aisi
 Aisi Deewanagi|Aisi Deewangi Deewana
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahin
+Aisi Deewanagi|Aisi Deewangi Deewangi
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -747,6 +748,7 @@ Dum Maro Dum|Dum Maro Dum
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
+Dushman Na Kare Dost Ne|Dushman Na
 Edelweiss|Edelweiss
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Hoga
@@ -1549,6 +1551,7 @@ Mujhe Neend Na Aaye|Mujhe Nind Na Aaye
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
 Mujhe Neend Na Aaye|Mujhe Neendna Aaye
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
+Mujhe Rang De|Mujhe Rang De
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo Hamrahi
@@ -1739,6 +1742,7 @@ Piyu Bole|Piyu Bole Piya Bole Parineeta
 Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
+Puchho Zara Puchho|Poocho Zara Poocho
 Pukarta Chala Hoon Main|Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
@@ -2092,6 +2096,7 @@ Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri Bindya Re
+Teri Bindiya Re|H‌Q‌Teri Bindiya Re
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane

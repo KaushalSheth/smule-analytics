@@ -98,14 +98,23 @@
       </div>
 
       <div class="field is-grouped">
-        <label class="label" for="weburl">Partner Query</label>
         <div class="control">
-          <textarea name="partnersql" rows="20" cols="80">
-select partner_name, partner_account_id, recency_score, rating, join_cnt
+          <label for=partnerchoice">Select Partner Mix</label>
+          <select name="partnerchoice" id="partnerchoice">
+              <option value="top">Top Partners</option>
+              <option value="mixed80">Mixed Partners (80/20)</option>
+              <option value="mixed60">Mixed Partners (60/40)</option>
+              <option value="mixed40">Mixed Partners (40/60)</option>
+              <option value="mixed20">Mixed Partners (20/80)</option>
+              <option value="bottom">Bottom Partners</option>
+          </select><br>
+          <label for="partnersql">Partner SQL</label><br>
+          <textarea name="partnersql" rows="10" cols="80">
+select partner_name, partner_account_id, recency_score, join_cnt
 from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999999
-and (favorite_cnt > 5 or first_performance_time > now() - interval '5 days' or last_performance_time <= now() - interval '5 days')
+and (always_include_ind = 1 or favorite_cnt > 5 or first_performance_time > now() - interval '5 days' or last_performance_time <= now() - interval '5 days')
 order by 3 desc, 4 desc
           </textarea>
         </div>
