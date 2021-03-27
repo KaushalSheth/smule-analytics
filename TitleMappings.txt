@@ -1079,6 +1079,7 @@ Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
+Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo
 Jab Deep Jale Aana|Jabdeep Jale Deep Jale
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
@@ -1197,6 +1198,7 @@ Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani Parineeta
 Kajra Mohabbat Wala|Kajra Mohabbat Wala
 Kajra Mohabbat Wala|Kajra Mohabbatwala
+Kajra Re|Kajra Re
 Kal Ho Na Ho|Har Ghadi
 Kal Ho Na Ho|Har Ghadi Badal Rahi Hai
 Kal Ho Na Ho|Kal Ho Na Ho
@@ -1357,6 +1359,7 @@ Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
 Lekar Hum Deewana Dil|Lekar Hum
 Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
+Lut Gaye|Lut Gaye
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
@@ -1394,6 +1397,7 @@ Main Hoon Na|Main Hoon Na
 Main Hoon Na|Main Hoon Na Main
 Main Hoon Na|Mainhoon Namain Na Main
 Main Hoon Na|Mainhoon Na, Main Hoo Na Mai Hoo Na
+Main Jis Din Bhulaa Du|Main Jis Din Bhulaa Du
 Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
@@ -1450,6 +1454,7 @@ Masti Bhara Hai Sama|Masti Bhara Hai Sama
 Mausam Ke Sargam|Mausam Ke Sargam
 Medley Shahruk Khan|Medley Shahruk Khan
 Medley Old Songs|Medley Old S
+Megha Re Megha Re|Megha Re Megha Re
 Mehbooba Mehbooba|Mehbooba Mehbooba
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
 Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
@@ -1513,6 +1518,7 @@ Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
+Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
@@ -1864,6 +1870,7 @@ Roop Tera Mastana|Roop Tera Mastaana
 Roop Tera Mastana|Roop Tera Mastana Tera Mastana
 Roop Tera Mastana|Roop Tera Masthana
 Rooth Na Jana|Rooth Na Jana
+Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Jaana Nahin|Ruk Jaana Nahi
@@ -1873,6 +1880,7 @@ Ruk Jaana Nahin|Ruk Jana Nahin
 Ruk Jaana Nahin|Rukjaananahin Tu Kahin
 Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
+Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Saagar Jaisi Aankhon Wali|Sagar Jaisi Aankhon Wali
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
@@ -1880,6 +1888,7 @@ Saagar Kinare|Sagar Kinare Dil Ye Pukare
 Saagar Kinare|Sagar Kinare Dil Ye
 Saagar Kinare|Sagar Kinare Orginal
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
+Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
 Saanson Ki Zaroorat Hai Jaise|Ln Sanson Ki Zaroorat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Jarurat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat Hai Jaise
@@ -2041,6 +2050,7 @@ Tera Mera Pyaar Amar|Tera Mera Pyar Amar
 Tera Mera Pyaar Amar|Tera Mera Pyare Amar
 Tera Mera Pyaar Amar|Tera Mera Pyaar Amar
 Tera Mujhse Hai|Tera Mujhse Hai
+Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka Naata
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Bina Koi Jindgi
@@ -2445,6 +2455,7 @@ Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jaadu Hai Mitwa
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He
+Yeh Mera Deewanapan Hai|ये मेरा दीवानापन है या मुहब्बत का सुरूर
 Yeh Mera Dil|Ye Mera Dil
 Yeh Mera Dil|Yeh Mera Dil Don
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed Rafi

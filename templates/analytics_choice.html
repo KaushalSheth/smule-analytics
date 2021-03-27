@@ -32,7 +32,7 @@
       <div class="field">
         <label class="label" for="headings">Column Headings</label>
         <div class="control">
-          <input name="headings" value="['Partner','Recency Score','Ranking','# Performances', '#Joins', '# Favorites','14 days Perf Count','14 days Join Count']" type="input" class="input"></input>
+          <input name="headings" value="['Song','First Performance Time']" type="input" class="input"></input>
         </div>
       </div>
 
@@ -40,9 +40,10 @@
         <label class="label" for="todate">To Date</label>
         <div class="control">
           <textarea name="analyticssql" rows="20" cols="80">
-select partner_name, recency_score, round(rating,2), performance_cnt, join_cnt, favorite_cnt,
-       performance_last_14_days_cnt,join_last_14_days_cnt
-from favorite_partner
+select fixed_title,min(created_at)
+from my_performances
+group by 1
+having min(created_at) > now() - interval '3 days'
           </textarea>
         </div>
       </div>
