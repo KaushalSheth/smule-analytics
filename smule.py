@@ -407,12 +407,17 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Initialize counters
     i = 0
     numPerf = 0
+    bottomRows = 1
+    stopScore = 999999
+    stopHandle = ""
+
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to suppose some of the choices
     partnersTop = execDBQuery(partnersql)
     partnersBottom = partnersTop[::-1]
     # Set the Max rows for Top and Bottom lists
     if partnerchoice == "top":
         topRows = numrows
+        bottomRows = 0
     elif partnerchoice == "mixed80":
         topRows = int(numrows * 0.8)
     elif partnerchoice == "mixed60":
@@ -423,15 +428,16 @@ def fetchPartnerInvites(inviteOptions,numrows):
         topRows = int(numrows * 0.2)
     elif partnerchoice == "bottom":
         topRows = 0
+        bottomRows = 100
 
     # Define a function to process a partner list to build a performance list for the number of rows specified
-    def createList(partners,numrows):
+    def createList(partners,numrows,checkstop=False):
         # Edge case - if numrows = 0 then exit method immediately
         if numrows == 0:
             return
 
         # Define all the non-local variables to inherit from parent method
-        nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf
+        nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf,stopScore,stopHandle
 
         # Define constants used in this method
         MAX_KNOWN = int(inviteOptions['maxknown'])
@@ -441,12 +447,17 @@ def fetchPartnerInvites(inviteOptions,numrows):
         mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
         maxdate = currTime.strftime(DATEFORMAT)
 
+        partnerSort = stopScore
         # Loop through the partner list and process it
         for ptr in partners:
             partnerHandle = list(iter(ptr.values()))[0]
             partnerAccountId = list(iter(ptr.values()))[1]
             partnerSort = list(iter(ptr.values()))[2]
             joinCount = int(list(iter(ptr.values()))[3])
+
+            # Break out of loop if partnerSort is higher than the stopScore (only if we are checking stop score)
+            if (checkstop and ((partnerSort > stopScore) or (stopHandle == partnerHandle))):
+                break
 
             isFollowing = partnerAccountId in followingAccountIds
             # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
@@ -499,13 +510,16 @@ def fetchPartnerInvites(inviteOptions,numrows):
             # As soon as we exceed the number of rows specified, break out of the loop
             if (numPerf >= numrows):
                 break
+        # Keep track of the score at which to stop for second run
+        stopScore = partnerSort
+        stopHandle = partnerHandle
         return
 
     # First, call the createList method for the top rows; next call it using the reversed list and the total number of rows to fill in the remainder
     print("============= PROCESSING TOP PARTNERS ==============")
-    createList(partnersTop,topRows)
+    createList(partnersTop,topRows,False)
     print("============= PROCESSING BOTTOM PARTNERS ==============")
-    createList(partnersBottom,numrows)
+    createList(partnersBottom,numrows,True)
     return performanceList
 
 # Method to fetch performances for the specific user upto the max specified

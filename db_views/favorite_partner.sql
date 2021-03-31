@@ -7,11 +7,11 @@ perf as (
             case when l.item_name is not null then 1 else 0 end always_include_ind
     from    my_performances p
     left outer join performance_favorite f on f.performance_key = p.key
-    left outer join exclude_list l on l.list_type = 'INCLUDE_PARTNER' and l.item_name ilike p.performers
+    left outer join smule_list l on l.list_type = 'INCLUDE_PARTNER' and l.item_name ilike p.performers
             -- Eclude my performances
     where   performers != 'KaushalSheth1'
             -- Exclude performers in the exclude list
-    and     performers not in (select item_name from exclude_list where list_type = 'EXCLUDE_PARTNER')
+    and     performers not in (select item_name from smule_list where list_type = 'EXCLUDE_PARTNER')
 ),
 perf_stats as (
     select 	partner_account_id, performers as partner_name, always_include_ind,

@@ -1676,6 +1676,7 @@ Only Time|Only Time
 Open Mic|Open Mic 2 Min
 Open Mic|Open Mic
 Paan Khaaye Saiyaan Hamaro|Paan Khaye Saiyan Hamarao
+Paan Khaaye Saiyaan Hamaro|Paan Khaaye Sainyaan Hamaro
 Paaon Chhoo Lene Do|Paaon Chhoo Lene Do
 Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
@@ -2376,6 +2377,7 @@ Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
 Yamma Yamma|Yamma Yamma
+Yamma Yamma|Yammayamma
 Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
 Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma

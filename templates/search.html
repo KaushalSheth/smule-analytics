@@ -115,7 +115,7 @@ from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999999
 and (always_include_ind = 1 or favorite_cnt > 5 or first_performance_time > now() - interval '5 days' or last_performance_time <= now() - interval '5 days')
-order by 3 desc, 4 desc
+order by 3 desc, 4 desc, 1
           </textarea>
         </div>
         <div class="control">

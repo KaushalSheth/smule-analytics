@@ -258,7 +258,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     performance_recency_score, num_all_performances, num_partners, num_invites, num_joins,
                     first_performance_time, last_performance_time
             from    my_invite_analysis
-            where   fixed_title not in (select item_name from exclude_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
+            where   fixed_title not in (select item_name from smule_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
             """
     elif analyticstitle == 'Repeat':
         headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
@@ -270,6 +270,13 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             group by 1,2
             having count(*) > 1
             order by 3 desc
+            """
+    elif analyticstitle == 'Favorite Songs':
+        headings = ['Song Name', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        sqlquery = f"""
+            select  fixed_title as search_text, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            from    favorite_song
+            order by weighted_cnt desc
             """
 
     #print(sqlquery)
