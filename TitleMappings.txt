@@ -287,6 +287,7 @@ Akele Hain To Kya Gam Hai|Akele Hai To Kya Gam Hai
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi
 Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
 Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
+Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi Raja
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -355,6 +356,7 @@ Bahut Pyaar Karte Hai|Bahutpyaar Karte Hai Saajan
 Bahut Pyaar Karte Hai|Bahutpyar Karte Hai
 Bahut Pyaar Karte Hai|Drbohut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyar Karte Hai Tumko Sanam
+Bairi Piya|Bairi Piya
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
 Bas Itna Sa Khwaab Hai|Bas Itna Sa Khwaab Hai
@@ -960,6 +962,7 @@ Intehaan Ho Gayi|Intehan Ho Gayi
 Ironic|Ironic
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
+Is This Love|Is This Love
 Isharon Isharon Mein|Dsj Isharon Isharon Mein Dil Lene
 Isharon Isharon Mein|Isharon Isharon Mein
 Isharon Isharon Mein|Isharon Isharon Mein Isharon Mein
@@ -1360,6 +1363,7 @@ Lekar Hum Deewana Dil|Lekar Hum
 Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
 Lut Gaye|Lut Gaye
+Lut Gaye|Lut Gaye Emraan Hashmi
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
@@ -1588,6 +1592,7 @@ Na Kajre Ki Dhaar|Na Kajreki Dhar
 Na Kajre Ki Dhaar|Nakajre Ki Dhar
 Na Na Karte|Na Na Karte
 Na Na Karte|Na Na Karte Pyar Tumhi
+Na Na Karte|Na Na Karte Pyaar
 Na Tum Humein Jaano|Na Tum Hamein Jaano
 Na Tum Humein Jaano|Na Tum Hamein Jano
 Na Tum Humein Jaano|Na Tum Humein Hemant Kumar Na
@@ -1711,6 +1716,7 @@ Paayalein Chunmun|Payalay Chunmun
 Paayalein Chunmun|Payalay Chunmun Virasat
 Paayalein Chunmun|Payali Chunmun
 Paayalein Chunmun|Payalein Chun Mun
+Peete Peete Kabhi Kabhi|Peete Peete Kabhi Kabhi
 Pehla Nasha|Nasha
 Pehla Nasha|Pehela Nasha Pehela Khumar
 Pehla Nasha|Pehla Nasha
@@ -1805,6 +1811,7 @@ Qaafirana|Qaafirana Chillout Mix
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
+Raat Akeli Hai|Raat Akeli Hai N
 Raat Ka Nasha|Raat Ka Nasha Abhi
 Raat Kali|Raat Kali
 Raat Kali|Raat Kali Ek Khwab Me Aayi
@@ -1870,6 +1877,7 @@ Roop Tera Mastana|Rooptera Mastana
 Roop Tera Mastana|Roop Tera Mastaana
 Roop Tera Mastana|Roop Tera Mastana Tera Mastana
 Roop Tera Mastana|Roop Tera Masthana
+Roop Tera Mastana|Roop_Tera_Mastana
 Rooth Na Jana|Rooth Na Jana
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
@@ -1948,6 +1956,7 @@ Sau Aasmaan|Sau Aasman Baar Baar Dekho
 Sau Saal Pehle|100 Saal Pahele
 Sau Saal Pehle|Sau Saal Pehle
 Sau Saal Pehle|Sau Saal Pehle Sau
+Sau Saal Pehle|Sau Saal Pehle Mujhe Tumse Pyaar Tha
 Sawaar Loon|Sawaar Loon
 Sawaar Loon|~Sawarloon
 Say Shava Shava|Say Shava Shava
@@ -2007,6 +2016,7 @@ Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
+Suno Kaho Kaha Suna|Suno Kaho
 Suno Na Sangemarmar|Suno Na Sangemarmar
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
 Suraj Hua Maddham|`Suraj Hua Madham
@@ -2027,6 +2037,7 @@ Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
 Tanha Tanha Yahaan Pe Jeena|Tanha Tanha Yahan Pe Jeena
+Tanhayee|Tanhayee
 Tasveer Teri Dil Mein|Tasveer Teri Dil Mein
 Tauba Tumhare Yeh Ishare|Drtauba Tumhare Yeh Ishare
 Tauba Tumhare Yeh Ishare|Tauba Tumare Yeh Ishare
@@ -2213,7 +2224,9 @@ Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha Toh
 Tujhe Dekha To Yeh Jaana Sanam|💙⚘TUJHE DEKHA TO⚘💙=========> TUJHE DEKHA TO
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ye Jana Sanam
 Tujhe Dekha To Yeh Jaana Sanam|Dekha Tujhko To
+Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Yeh Jana Sanam Jkk
 Tujhe Jeevan Ki Dor|Tujhe Jeevan Ki Dor Jeewan
+Tujhe Jeevan Ki Dor|Tujhe Jeevan Ki Dor Se
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhu To Chain
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
@@ -2231,6 +2244,7 @@ Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahin Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraz
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraz Nahi Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujshe Naraaz Nahi Jindagi
+Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Rits
 Tum Aa Gaye Ho|Tum Aa Gaye
 Tum Aa Gaye Ho|Tum Aa Gaye Ho
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Aandhi
@@ -2354,6 +2368,7 @@ Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
 We Didn't Start The Fire|We Didn'T Start The Fire
 With Or Without You|With Or Without You
+Woh Beete Din Yaad Hai|Wo Beete Din Yaad Hai
 Woh Chand Khila|Woh Chand Khila Woh Taare Haanse
 Woh Hai Zara Khafa Khafa|Woh Hai Zara
 Woh Hai Zara Khafa Khafa|Woh Hai Zara Khafa Khafa
