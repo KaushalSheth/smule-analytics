@@ -252,7 +252,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
-            comment = build_comment('@' + performers + ' thanks for the invite...')
+            comment = build_comment('@' + performers + ' ')
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
             filename = filename_base + ".m4v"

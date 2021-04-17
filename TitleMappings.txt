@@ -319,6 +319,7 @@ Aur Ahista|Aur Ahista
 Aur Is Dil Mein|Aur Is Dil Mein
 Aur Kya|Aur Kya Aur Kya Aur Kya
 Baa Baa Black Sheep|Baa Baa Black Sheep
+Baadal Yun Garajta Hai|Badal Yun Garajta Hai
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Mein Bahar
@@ -581,6 +582,7 @@ Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile Hue
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile I
 Dekha Ek Khwaab To|Dekha Ek Khwab
 Dekha Ek Khwaab To|Dekha Ek Khwaab
+Dekha Ek Khwaab To|Dekha Ek Khwab To Ye Silsile Hue
 Dekha Hai Pehli Baar|[SHORT] 💞 Dekha Hai Pehli Baar Ost Saajan
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
@@ -1038,6 +1040,7 @@ Jaane Kaha Gaye Woh Din|Jaane Kahan Gaye Wo Din
 Jaane Kaha Gaye Woh Din|Jaane Kahaan Gaye Woin,
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Wo Din
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Woin
+Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Jaane Wo
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar Gaya Ji
@@ -1123,7 +1126,8 @@ Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
 Jahaan Main Jaati Hoon|Jahan Main Jaati Hun
 Jahaan Main Jaati Hoon|Jahan Main Jati Hoon
-Jahaan Main Jaati Hun|जहाँ मैं जाती हूँ वहीं चले आते हो Jahan Main
+Jahaan Main Jaati Hoon|जहाँ मैं जाती हूँ वहीं चले आते हो Jahan Main
+Jahaan Main Jaati Hoon|Jahaan Main Jaati Hun
 Jahan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
 Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
@@ -1380,6 +1384,7 @@ Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahin
+Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi Kya Mera
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar Nehi Meri Pyaari Bindu
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar
 Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar Nahin
@@ -1445,6 +1450,7 @@ Main Tenu Samjhawan|Mein Tenu Samjava
 Main Tenu Samjhawan|Alia Bhatt Samjhawan
 Main Tenu Samjhawan|Samjhawan
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
+Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
 Main Yahan Hoon|Jaanam Dekh Lo
 Main Yahan Hoon|Janam Dekh Lo Udit Narayan
 Main Yahan Hoon|Janam Dekhlo Mit
@@ -1499,6 +1505,7 @@ Mere Haath Mein|Mere Hath Mein
 Mere Haath Mein|Merehath Mein Me
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khawabon Mein Tu|Mere Khawabon Me Tu
+Mere Khawabon Mein Tu|Mere Khwabon Mein Tu
 Mere Khwabon Mein Jo Aaye|Mere Khwaabon Mein Jo ☕
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein Jo Aaye
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein
@@ -1673,6 +1680,7 @@ O Haseena Zulfon Wali|O Hasina Julfo Wali Jaane Jaha
 O Haseena Zulfon Wali|O Hasina Zulfon Wali
 O Haseena Zulfon Wali|Oh Hasina Zulfon Wali
 O Leke Pahla Pahla Pyaar|O Leke Pahla Pahla Pyaar
+O Leke Pahla Pahla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
 O Mere Dil Ke Chain|O Mere Dil
 O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
@@ -1766,6 +1774,7 @@ Piyu Bole|Piyu Bole
 Piyu Bole|Piyu Bole Piya Bole
 Piyu Bole|Piyubole
 Piyu Bole|Piyu Bole Piya Bole Parineeta
+Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Hua
 Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
@@ -2027,6 +2036,7 @@ Sun Raha Hai|Sunn Raha Hai
 Sun Raha Hai|Sun Raha Hai Sun Sun
 Sun Raha Hai|Sun Rahahai Na Tu
 Sun Raha Hai|Sun Raha Hai Na Tu
+Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
@@ -2353,7 +2363,8 @@ Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
-Tumse Milke Aisa Laga Tumse|Tumse Milke Aisa Laga Tumse
+Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse
+Tumse Milke Aisa Laga|Tumse Milke Aisa Laga
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeelekaisa Jaadu Kiya
