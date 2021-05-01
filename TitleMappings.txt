@@ -68,6 +68,7 @@ Aake Teri Baahon Mein|Aake Teri Baahon Mein Cove
 Aake Teri Baahon Mein|Aake Teri Baahon Main Digi
 Aake Teri Baahon Mein|Aake Teri Baahon Main
 Aake Teri Baahon Mein|Aake Teri Bahon Mein
+Aane Se Uske Aye Bahaar|Aane Se Uske Aye Bahar
 Aane Wala Pal|Aanewala Pal
 Aane Wala Pal|Aanewala Pal Jaanewala Hai
 Aane Wala Pal|Aanewala Pal Janewala Hai
@@ -240,11 +241,13 @@ Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagale
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Lagaa Le
 Ae Zindagi Gale Laga Le|Arijit Ae Zindagi Gale Lagale
+Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le Arijit
 Aesis Membership Audition|Aesis Membership Audition
 Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
 Agar Tum Na Hote|Moodsagar Tum Na Hote
+Agar Tum Na Hote|Hume Aur Jeene Ki
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -306,6 +309,7 @@ Andekhi Anjaani Si|Reff Andekhi Anjaani Si
 Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hai Ke I Love You
 Ankahee|Ankahee
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
+Apne Hothon Par Sajaana|Apne Hothon Par Sajana
 Apun Bola|Apun Bola
 Apun Bola|Apun Bola Tu Meri Laila
 Apun Bola|Apun Bola Tu Meri Laila Josh
@@ -401,6 +405,7 @@ Can't Help Falling In Love|Can't Help Falling In Love
 Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
 Can't Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
 Can't Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
+Centerfold|Centerfold
 Chaahun Main Ya Na|>> Chahun Main Ya Na
 Chaahun Main Ya Na|>> Chahun Main Ya Naa
 Chaahun Main Ya Na|Chahu Main Ya Na
@@ -558,6 +563,7 @@ Chura Liya|Churaliya Hai Tumne
 Chura Liya|Liya Liya Chura Liya Part
 Chura Liya|New▶Chura Liya Hai◀
 Chura Liya|Chura Lia Hai
+Chura Liya|Chura Liya Hai Tumne Jo
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Kareeb
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Sanam
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera
@@ -741,6 +747,7 @@ Do Dil Mil Rahe Hai|Dodilmilrahe Hain
 Do Lafzon Ki Hai|Do Lafzon Ki Hai
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Asha Bhosle
 Do Lafzon Ki Hai|Do Lafzonki Hai Asha Bholse
+Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahaani
 Do Pal Ruka|Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Karwan Veer Veer Veer
@@ -1054,6 +1061,7 @@ Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|R Jane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar
+Jaane Kaha Mera Jigar Gaya Ji|Jane Kahan Mera Jigar Gay
 Jaane Kaise Kab Kaha|Jaane Kaise Kab
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Jaane
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Kaha
@@ -1341,6 +1349,7 @@ Kuch To Log Kahenge|Kuchh To Log Kahenge
 Kya Hua Tera Waada|H D Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Vada
+Kya Hua Tujhe|Kya Hua Tujhe
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Jaanu
 Kya Kehna|Kya Kehna
 Kya Kehna|Kya Kehna Kya Kehna
@@ -1422,6 +1431,7 @@ Main Duniya Bhula Doonga|Main Duniyan Bhula Dungi
 Main Duniya Bhula Doonga|Mainduniya Bhula
 Main Duniya Bhula Doonga|Mainduniya Duniya Bhula
 Main Duniya Bhula Doonga|Mᴀɪɴ Dᴜɴɪʏᴀ Bhula Doonga
+Main Har Ek Pal Ka Shaayar Hun|Main Har Ek Pal Ka Shaayar Hun
 Main Hoon Na|Drmain Hoon Na
 Main Hoon Na|H Qmainhoon Na, Main Hoo Na Main Hoo Na
 Main Hoon Na|Main Hoo Na>> Main
@@ -1463,6 +1473,7 @@ Main Tenu Samjhawan|Alia Bhatt Samjhawan
 Main Tenu Samjhawan|Samjhawan
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
+Main To Raste Se Ja Raha Tha|Main Toh Raste Se Ja Raha Tha
 Main Yahan Hoon|Jaanam Dekh Lo
 Main Yahan Hoon|Janam Dekh Lo Udit Narayan
 Main Yahan Hoon|Janam Dekhlo Mit
@@ -1483,6 +1494,8 @@ Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
 Maine Tere Liye|Maine Tere Liye Hi
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
+Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
+Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
 Mast Baharon Ka Main Aashiq|Mast Baharon Ka Main Aashiq
 Masti Bhara Hai Sama|Masti Bhara Hai Sama
 Mausam Ke Sargam|Mausam Ke Sargam
@@ -1557,6 +1570,7 @@ Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
 Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
+Meri Mehbooba|Kisi Roz Tumse
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
 Meri Saanson Mein Basa Hai|Merisaanson Mein
@@ -1608,6 +1622,7 @@ My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
 My Heart Will Go On|My Heart Will Go On Titanic Celin Dion
+Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuch Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
 Na Jaane Mere|@MSMT [HD] Na Jaane Mere Dil Ko Kya Ho Gaya
@@ -2024,11 +2039,13 @@ Socha Hai|Keoon Tumhe
 Socha Hai|Newkeoon Tumhe
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
+Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
+Subah Se Lekar Shaam Tak|Subah Se Lekar Sham Tak
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Ye Mausam Haseen
 Suhani Chandni Raatein|Suhani Chandni Raatein
@@ -2072,6 +2089,7 @@ Suraj Hua Maddham|Suraj Huamadham Maddham
 Suraj Hua Maddham|Suraj Huaziyadnoor
 Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
 Surmaiye Ankhiyon Mein|Surmai Akhiyoon Mein
+Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
@@ -2104,6 +2122,7 @@ Tera Mera Pyaar Amar|Tera Mera Pyare Amar
 Tera Mera Pyaar Amar|Tera Mera Pyaar Amar
 Tera Mujhse Hai|Tera Mujhse Hai
 Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka Naata
+Tera Yaar Hoon Main|Tera Yaar Hoon Main
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Bina Koi Jindgi
@@ -2425,6 +2444,7 @@ Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajeeb Thi
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Hai Tera Pyaar
+Yaad Aa Raha Hai Tera Pyaar|~ Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaadaa Rahihai

@@ -3,7 +3,7 @@ import ast
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from datetime import datetime
 
@@ -56,6 +56,15 @@ def create_app(test_config=None):
     @app.route('/query_performers')
     def query_performers():
         performers = fetchDBPerformers(fromdate, todate)
+        update_currtime()
+        return render_template('show_performers.html', performers=performers)
+
+    # This method checks the list of partners using specified partnersql and lists all the partners I am not following
+    @app.route('/check_partners')
+    def check_partners():
+        global performances, inviteOptions, numrows, searchOptions, performers
+        searchOptions['searchType'] = "checkpartners"
+        performers = checkPartners(inviteOptions)
         update_currtime()
         return render_template('show_performers.html', performers=performers)
 
@@ -156,6 +165,8 @@ def create_app(test_config=None):
                     return redirect(url_for('fix_db_titles'))
                 elif request.form['btn'] == 'Partner Invites':
                     return redirect(url_for('query_partner_invites'))
+                elif request.form['btn'] == 'Check Partners':
+                    return redirect(url_for('check_partners'))
                 else:
                     error = "Invalid selection"
 

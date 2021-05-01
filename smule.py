@@ -32,6 +32,26 @@ def getJSON(username,type="performances",offset=0):
 def fetchUserFollowing(username):
     return getJSON(username,type="following")['list']
 
+# Method to query performers
+def checkPartners(inviteOptions):
+    performers = []
+    sqlquery = inviteOptions['partnersql']
+    # Get list of handles of users I'm following
+    followingAccountIds = [d['account_id'] for d in fetchUserFollowing(MYSELF)]
+    # Execute the query and build the analytics list
+    partners = execDBQuery(sqlquery)
+    for p in partners:
+        # Append the row to list of performers if I am not following this account
+        if p['partner_account_id'] not in followingAccountIds:
+            # Put in dummy values for joiner and partner stats since we are sharing the same HTML template
+            p['performers'] = p['partner_name']
+            p['joiner_stats'] = f"Joins: {p['join_cnt']}"
+            p['partner_stats'] = f"Score: {p['recency_score']}"
+            p['city'] = "Unknown"
+            p['country'] = "Unknown"
+            performers.append(p)
+    return performers
+
 # Method to get comments for specified recording
 def getComments(web_url):
     print(web_url)
@@ -393,13 +413,15 @@ def fetchPartnerInvites(inviteOptions,numrows):
         return performanceList
     # Get list of handles of users I'm following
     followingAccountIds = [d['account_id'] for d in fetchUserFollowing(MYSELF)]
+    # print(followingAccountIds)
+    # return performanceList
 
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     performedList = []
     titleList = []
-    performedResultset = execDBQuery("select distinct performers || '|' || fixed_title as performed, fixed_title from my_performances")
+    performedResultset = execDBQuery("select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances group by 1,2")
     for p in performedResultset:
-        performedList.append(p['performed'])
+        performedList.append(p)
         # Build the known title list for use later
         t = p['fixed_title']
         if t not in titleList:
@@ -463,6 +485,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
             # If the conditions are not met, skip this partner and process next one
             if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
+                #print(f"--- NOT FOLLOWING {partnerHandle}")
                 continue
             # Fetch all invites for the partner
             # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
@@ -475,7 +498,12 @@ def fetchPartnerInvites(inviteOptions,numrows):
             random.shuffle(partnerList)
             for p in partnerList:
                 t = p['fixed_title']
-                isRepeat = (p['performers'] + "|" + t) in performedList
+                ptrTitle = p['performers'] + "|" + t
+                isRepeat = any(p['performed'] == ptrTitle for p in performedList)
+                if isRepeat:
+                    rptLastTime = [p['last_time'] for p in performedList if p['performed'] == ptrTitle][0]
+                else:
+                    rptLastTime = ""
                 isUnknown = (t not in titleList)
                 # We will include the performance only if repeats are allowed or if the performance is not in the list of already performed performances
                 if (repeats or not isRepeat):
@@ -490,7 +518,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
                             knownCount += 1
                         # Append appropriate indicators to title
                         if isRepeat:
-                            p['title'] += " (REPEAT)"
+                            p['title'] += f" (RPT:{rptLastTime})"
                         if isUnknown:
                             p['title'] += " (UNKNOWN)"
                         # Store join count in "Total_listens" field, and partner Sort field in "total_loves"

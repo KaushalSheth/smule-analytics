@@ -79,11 +79,12 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
                     substr(p.joiner_7days,1,15) as joiner_stats,
                     substr(p.partner_30days,1,11) as partner_stats,
                     first_value(p.created_at) over w as last_performance_time,
-                    first_value(p.orig_track_city) over w as city,
-                    first_value(p.orig_track_country) over w as country,
+                    l.city,
+                    l.country,
                     row_number() over w as rn
             from    my_performances p
                     inner join singer s on s.performed_by = p.performers
+                    left outer join locations l on l.lat = s.lat and l.lon = s.lon
             where   p.created_at between '{fromdate}' and '{todate}'
             window w as (partition by p.performers order by case when p.owner_handle = 'KaushalSheth1' then '2000-01-01'::timestamp else p.created_at end desc, p.created_at desc)
             ) a

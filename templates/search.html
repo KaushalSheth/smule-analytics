@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2021-04-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2021-05-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -110,7 +110,7 @@
           </select><br>
           <label for="partnersql">Partner SQL</label><br>
           <textarea name="partnersql" rows="10" cols="80">
-select partner_name, partner_account_id, recency_score, join_cnt
+select partner_name, partner_account_id, recency_score, join_cnt, display_pic_url
 from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999999
@@ -128,6 +128,8 @@ order by 3 desc, 4 desc, 1
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Partner Invites" class="button is-link" />
+          <br><br>
+          <input type="submit" name="btn" value="Check Partners" class="button is-link" />
         </div>
       </div>
 

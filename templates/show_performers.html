@@ -11,7 +11,7 @@
   <tr>
   {% for p in performers %}
     <td style="text-align:center;">
-        <a href="https://www.smule.com/{{p.performers}}" target="_blank"><img src="{{p.display_pic_url}}" height="400" width="400"><br><b>{{p.performers}}</b><br>{{p.city}}, {{p.country}}<br>J: {{p.joiner_stats}}<br>P: {{p.partner_stats}}</a>
+        <a href="https://www.smule.com/{{p.performers}}" target="_blank"><img src="{{p.display_pic_url}}" height="300" width="300"><br><b>{{p.performers}}</b><br>{{p.city}}, {{p.country}}<br>J: {{p.joiner_stats}}<br>P: {{p.partner_stats}}</a>
     </td>
     {% if loop.index % 5 == 0 %}
         </tr>
