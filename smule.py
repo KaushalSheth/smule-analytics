@@ -429,17 +429,32 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Initialize counters
     i = 0
     numPerf = 0
-    bottomRows = 1
     stopScore = 999999
     stopHandle = ""
 
-    # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to suppose some of the choices
+    # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     partnersTop = execDBQuery(partnersql)
     partnersBottom = partnersTop[::-1]
-    # Set the Max rows for Top and Bottom lists
-    if partnerchoice == "top":
+    # Set the Max rows for Top list
+    if partnerchoice == "middle":
+        # Skip Top
+        toprows = 0
+        # Construct a list to use for processing middle partners
+        midPoint = int(len(partnersTop)/2)
+        # Construct one list from middle to bottom (mb) and one reversed list from middle to top (mt)
+        mb = partnersTop[midPoint:]
+        mt = partnersTop[midPoint-1::-1]
+        # Interleave the mt and mb lists so we basically start from the middle and work towards the top and bottom alternately
+        partnersMiddle = []
+        lt = len(mt)
+        lb = len(mb)
+        for i in range(max(lb,lt)):
+            if i < lt:
+                partnersMiddle.append(mt[i])
+            if i < lb:
+                partnersMiddle.append(mb[i])
+    elif partnerchoice == "top":
         topRows = numrows
-        bottomRows = 0
     elif partnerchoice == "mixed80":
         topRows = int(numrows * 0.8)
     elif partnerchoice == "mixed60":
@@ -450,16 +465,15 @@ def fetchPartnerInvites(inviteOptions,numrows):
         topRows = int(numrows * 0.2)
     elif partnerchoice == "bottom":
         topRows = 0
-        bottomRows = 100
 
     # Define a function to process a partner list to build a performance list for the number of rows specified
     def createList(partners,numrows,checkstop=False):
-        # Edge case - if numrows = 0 then exit method immediately
-        if numrows == 0:
-            return
-
         # Define all the non-local variables to inherit from parent method
         nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf,stopScore,stopHandle
+
+        # Edge case - if numrows = 0 then exit method immediately or number of performances is already at the max
+        if (numrows == 0) or (numPerf >= numrows):
+            return
 
         # Define constants used in this method
         MAX_KNOWN = int(inviteOptions['maxknown'])
@@ -543,11 +557,16 @@ def fetchPartnerInvites(inviteOptions,numrows):
         stopHandle = partnerHandle
         return
 
-    # First, call the createList method for the top rows; next call it using the reversed list and the total number of rows to fill in the remainder
-    print("============= PROCESSING TOP PARTNERS ==============")
-    createList(partnersTop,topRows,False)
-    print("============= PROCESSING BOTTOM PARTNERS ==============")
-    createList(partnersBottom,numrows,True)
+    # If we chose to process partners from the middle out, don't need to process top and bottom separately
+    if (partnerchoice == "middle"):
+        print("============= PROCESSING MIDDLE PARTNERS ==============")
+        createList(partnersMiddle,numrows,False)
+    else:
+        # Otherwise, call the createList method for the top rows; next call it using the reversed list and the total number of rows to fill in the remainder
+        print("============= PROCESSING TOP PARTNERS ==============")
+        createList(partnersTop,topRows,False)
+        print("============= PROCESSING BOTTOM PARTNERS ==============")
+        createList(partnersBottom,numrows,True)
     return performanceList
 
 # Method to fetch performances for the specific user upto the max specified
