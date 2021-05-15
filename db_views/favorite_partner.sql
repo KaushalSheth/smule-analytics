@@ -47,4 +47,10 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
             s.pic_url as display_pic_url
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
+-- Include all users I'm following with whom I don't have any performances yet
+UNION ALL
+select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 1, 999999, 999999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url
+from    singer_following
+where   is_following and is_vip
+and     handle not in (select performers from my_performances)
 ;

@@ -76,8 +76,22 @@ class TitleMapping(db.Model):
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
-class ExcludeList(db.Model):
+class SmuleList(db.Model):
     list_type = db.Column(db.String(100), primary_key=True)
     item_name = db.Column(db.String(100), primary_key=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class SingerFollowing(db.Model):
+    account_id = db.Column(db.BigInteger, primary_key=True)
+    handle = db.Column(db.String(50), nullable=True)
+    url = db.Column(db.String(50), nullable=True)
+    first_name = db.Column(db.String(50), nullable=True)
+    last_name = db.Column(db.String(50), nullable=True)
+    pic_url = db.Column(db.String(200), nullable=True)
+    is_following = db.Column(db.Boolean, nullable=True)
+    is_vip = db.Column(db.Boolean, nullable=True)
+    is_verified = db.Column(db.Boolean, nullable=True)
+    verified_type = db.Column(db.String(50), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

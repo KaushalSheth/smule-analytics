@@ -222,6 +222,7 @@ Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahaar Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Kya Kehna
 Ae Dil Mujhe Bata De|Ae Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|Aye Dil Mujhe Bata De
+Ae Dil Mujhe Bata De|ऐ दिल मुझे बता दे Aye Dil Mujhe Bata
 Ae Gulbadan Ae Gulbadan|Ae Gulbadan Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Mere Humsafar|Ae Mere Humsafar
@@ -774,6 +775,7 @@ Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
 Dum Dum Diga Diga|Dum Dum Diga Diga
 Dum Maro Dum|Dum Maro Dum
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
+Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
@@ -826,6 +828,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Carvaan Lounge
 Ek Pyaar Ka Nagma Hain|Ekpyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Un🅟lugg🅔dek Pyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagma
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Song
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
@@ -875,6 +878,7 @@ Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Janab Ka Janab Ka Janab Ka Jan
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kesa Hai Janab Ka
+Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Chalti Ka Naam Gadi
 Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Hadh Kar Di Aapne|Hadh Kar Di Aapne
 Hadh Kar Di Aapne|Hadh Kardi Aapne
@@ -1452,6 +1456,7 @@ Main Hoon Na|Main Hoon Na Main
 Main Hoon Na|Mainhoon Namain Na Main
 Main Hoon Na|Mainhoon Na, Main Hoo Na Mai Hoo Na
 Main Jis Din Bhulaa Du|Main Jis Din Bhulaa Du
+Main Jis Din Bhulaa Du|Mein Jis Din Bhula Dun Tera Pyar Dilse
 Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
@@ -1762,6 +1767,7 @@ Pal Pal Dil Ke Paas|Palpaldilke Paas
 Pal Pal Dil Ke Paas|{Short} Pal Pal Dil Ke Paas Tum Rahati Ho
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas Tum Rehti Ho
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas Dil
+Pal Pal Dil Ke Paas|Pal Pal Dil Ke Pass Song
 Pal Pal Pal Pal Har Pal|Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal Har Pal
@@ -1881,6 +1887,7 @@ Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Akeli Hai|Raat Akeli Hai N
+Raat Baki Baat Baki|Raat Baki Baat Baki
 Raat Ka Nasha|Raat Ka Nasha Abhi
 Raat Kali|Raat Kali
 Raat Kali|Raat Kali Ek Khwab Me Aayi
@@ -1950,6 +1957,7 @@ Roop Tera Mastana|Roop Tera Masthana
 Roop Tera Mastana|Roop_Tera_Mastana
 Rooth Na Jana|Rooth Na Jana
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
+Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Jaana Nahin|Ruk Jaana Nahi
@@ -1968,6 +1976,8 @@ Saagar Kinare|Sagar Kinare Dil Ye
 Saagar Kinare|Sagar Kinare Orginal
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
+Saamne Yeh Kaun Aaya|Samne Ye Kaun Aya
+Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aaya
 Saanson Ki Zaroorat Hai Jaise|Ln Sanson Ki Zaroorat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Jarurat Hai Jaise
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat Hai Jaise
@@ -2270,6 +2280,7 @@ Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi
 Tu Pyaar Ka Saagar Hai|Tu Pyaar Ka Saagar Hai
 Tu Pyaar Ka Saagar Hai|Tu Pyar Ka Sagar Hai
 Tu Pyaar Tu Preet|Tu Pyaar Tu Preet
+Tu Shaayar Hai|Tu Shayar He
 Tu Tu Hai Wahi|[HQ™] Tu Tu Hai Wohi The Unwind Mix Original
 Tu Tu Hai Wahi|Tu Tu Hai Clean
 Tu Tu Hai Wahi|Tu Tu Hai Wahi
@@ -2512,6 +2523,7 @@ Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Lagta Nahin Hum Kya
 Yeh Dil Tum Bin|Yeh Dil Tum Binn
 Yeh Dil Tum Bin|Yeil Tum Bin Kahin Lagta Nahi
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Lagta
+Yeh Dil Tum Bin|Yeil Tum Bin Kahin
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
 Yeh Dosti|Yeh Dosti

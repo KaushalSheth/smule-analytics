@@ -3,7 +3,7 @@ import ast
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from datetime import datetime
 
@@ -163,6 +163,8 @@ def create_app(test_config=None):
                     return redirect(url_for('crawl_joiners', username=user))
                 elif request.form['btn'] == 'Fix Titles':
                     return redirect(url_for('fix_db_titles'))
+                elif request.form['btn'] == 'Update Following':
+                    return redirect(url_for('update_singer_following'))
                 elif request.form['btn'] == 'Partner Invites':
                     return redirect(url_for('query_partner_invites'))
                 elif request.form['btn'] == 'Check Partners':
@@ -360,6 +362,15 @@ def create_app(test_config=None):
         # Fix the titles using this global variable
         fixCount = fixDBTitles(titleMappings)
         flash(f"{fixCount} titles fixed in database")
+        return redirect(url_for('search'))
+
+    # This executes the db function to update Singer_Following in the DB
+    @app.route('/update_singer_following')
+    def update_singer_following():
+        global user
+        # Update Singer Following
+        msg = saveSingerFollowing(user)
+        flash(f"{msg}")
         return redirect(url_for('search'))
 
     # This gets the comments for the specified web url

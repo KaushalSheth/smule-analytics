@@ -1,4 +1,4 @@
-from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping
+from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing
 from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
@@ -393,3 +393,52 @@ def saveDBFavorites(username,performances):
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} favorites processed"
+
+# Insert/Update data into Singer_Following table
+def saveDBSingerFollowing(userFollowing):
+    i = 0
+    # First, update all rows to set isFollowing to Flase
+    db.session.execute("update singer_following set is_following = False, updated_at = now()")
+    # Next, loop through and insert/update all the rows
+    for u in userFollowing:
+        # It is possible that first_name and or last_name are missing - in that case, simply set them to ""
+        try:
+            first_name = u['first_name']
+        except:
+            first_name = ""
+        try:
+            last_name = u['last_name']
+        except:
+            last_name = ""
+        handle = u['handle']
+        is_following = True
+
+        # Use a try block because we want to ignore bad data
+        # If any error occurs when processing the user, simply skip it
+        # TODO: Use more granular error checks
+        try:
+            # Process the PerformanceSinger record for the owner of the performance
+            sf = SingerFollowing(\
+                        account_id = u['account_id'],\
+                        handle = handle,\
+                        url = u['url'],\
+                        first_name = first_name,\
+                        last_name = last_name,\
+                        pic_url = u['pic_url'],\
+                        is_following = is_following,\
+                        is_vip = u['is_vip'],\
+                        is_verified = u['is_verified'],\
+                        verified_type = u['verified_type'],\
+                        )
+            db.session.merge(sf)
+            # Commit all the changes for the performance if no errors were encountered
+            db.session.commit()
+            i += 1
+        except:
+            # If any errors are encountered for the performance, roll back all DB changes made for that performance
+            db.session.rollback()
+            # Uncomment following line for debugging purposes only
+            raise
+
+    # Return a message indicating how many performances were successfully processed out of the total
+    return f"{i} out of {len(userFollowing)} SingerFollowing processed"

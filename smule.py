@@ -4,7 +4,7 @@ import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title,build_comment
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
@@ -32,12 +32,22 @@ def getJSON(username,type="performances",offset=0):
 def fetchUserFollowing(username):
     return getJSON(username,type="following")['list']
 
+# Save list of people user is following
+def saveSingerFollowing(username):
+    sf = fetchUserFollowing(username)
+    #print(sf[:10])
+    return saveDBSingerFollowing(sf)
+
 # Method to query performers
 def checkPartners(inviteOptions):
     performers = []
     sqlquery = inviteOptions['partnersql']
     # Get list of handles of users I'm following
-    followingAccountIds = [d['account_id'] for d in fetchUserFollowing(MYSELF)]
+    rs = execDBQuery("select account_id from singer_following where is_following")
+    followingAccountIds = []
+    for r in rs:
+        followingAccountIds.append(r['account_id'])
+    #print(followingAccountIds)
     # Execute the query and build the analytics list
     partners = execDBQuery(sqlquery)
     for p in partners:
