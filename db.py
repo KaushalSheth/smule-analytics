@@ -398,7 +398,7 @@ def saveDBFavorites(username,performances):
 def saveDBSingerFollowing(userFollowing):
     i = 0
     # First, update all rows to set isFollowing to Flase
-    db.session.execute("update singer_following set is_following = False, updated_at = now()")
+    db.session.execute("update singer_following set is_following = False, updated_at = now() where is_following")
     # Next, loop through and insert/update all the rows
     for u in userFollowing:
         # It is possible that first_name and or last_name are missing - in that case, simply set them to ""

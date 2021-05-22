@@ -633,6 +633,7 @@ Dhal Gaya Din|Dhal Gaya Din
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
 Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
+Dheere Dheere Aap Mere|Dheeredheere Aap Mere
 Dheere Dheere Bol|Dheere Dheere Bol
 Dheere Dheere Chal|Dheere Chal Chaandgagan Mein
 Dheere Dheere Chal|Dheere Dheere Chal Chaand Gagan Mein
@@ -1074,6 +1075,7 @@ Jaane Kaha Mera Jigar Gaya Ji|Jane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|R Jane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar
 Jaane Kaha Mera Jigar Gaya Ji|Jane Kahan Mera Jigar Gay
+Jaane Kaha Mera Jigar Gaya Ji|Jane Kahan Mera Jigar Gaya Ji
 Jaane Kaise Kab Kaha|Jaane Kaise Kab
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Jaane
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Kaha
@@ -1146,6 +1148,7 @@ Jab Koi Baat Bigad Jaaye|Jab Koi Baat Koi Baat Koi Baat Koyi
 Jab Koi Baat Bigad Jaaye|Jab Koibaat Bigaaaye
 Jab Koi Baat Bigad Jaaye|Jab_Koibaat_Bigadjaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Bat Bigad Jaye Rits
+Jab Koi Baat Bigad Jaaye|Jabkoi_Baat
 Jab Mohabbat Jawan Hoti Hai|Jab Muhabbat Jawan Hoti Hai
 Jab Pyaar Kiya To Darna Kya|Jab Pyar Kiya Toarna Kya
 Jabse Tere Naina|Jab Se Tere Naina
@@ -1222,6 +1225,7 @@ Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabira|Kabira
 Kabke Bichde Hue Aaj|Kabke Bice Hue Aaj
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
+Kahaan Tak Ye Man Ko|Kahan Tak
 Kahin Deep Jale Kahin Dil|Kahin Deep Jale Kahin Dil 720P
 Kahin Deep Jale Kahin Dil|2 Kahin Deep Jale Kahin Dil
 Kahin Door Jab Din Dhal Jaaye|[Short™] Kahin door Jab Dil Dhal Jaye (Anand)
@@ -1234,6 +1238,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahi Door Jab
 Kahin Na Jaa|Kahin Na Jaa
+Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
 Kaho Na Kaho|Kaho Na Kaho
 Kaho Na Pyaar Hai|Kaho Na Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai
@@ -1336,6 +1341,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
 Koi Humdam Na Raha|Koi Humdam Na Raha
+Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Ladki Hai|Koi Ladki Hai
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
 Koi Sone Ke Dil Wala|Koi Sone Ke Dil Wala
@@ -2044,6 +2050,7 @@ Sawaar Loon|Sawaar Loon
 Sawaar Loon|~Sawarloon
 Say Shava Shava|Say Shava Shava
 Say You Say Me|Say You Say Me
+Sayonara Sayonara|Sayonara Sayonara
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -2077,6 +2084,7 @@ Someone Like You|Someone Like You
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
 SP Balasubramaniam Medley|Spb Medley Babunmi'S
 Subah Se Lekar Shaam Tak|Subah Se Lekar Sham Tak
+Subah Se Lekar Shaam Tak|Subah Se Lekar
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Ye Mausam Haseen
 Suhani Chandni Raatein|Suhani Chandni Raatein
@@ -2242,6 +2250,7 @@ Thodi Der Aur Thehar Ja|Thodi Der Half Girlfriend
 Thodi Der Aur Thehar Ja|Tu Thodi Der Half Girlfriend
 Thodi Si Jo Pi Li Hai|Thodi Si Jo Pi Li Hai
 Time After Time|Time After Time
+Tip Tip Barsa Paani|Tip Tip Barsa Paani
 Titli|Bann Ke Titli
 Titli|Titli
 Trouble Me|Trouble Me
@@ -2630,6 +2639,7 @@ Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh To Sach Hai Ki Bhagwan Hai
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh Toh Sach Hai Ki Bhagwan Hai
+Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi Hai
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
