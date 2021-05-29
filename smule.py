@@ -60,6 +60,7 @@ def checkPartners(inviteOptions):
             p['city'] = "Unknown"
             p['country'] = "Unknown"
             performers.append(p)
+    print(len(performers))
     return performers
 
 # Method to get comments for specified recording

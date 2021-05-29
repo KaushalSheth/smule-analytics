@@ -209,7 +209,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         # Start with the base query
         sqlquery = f"""
             with
-            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and web_url not like '%ensembles'),
+            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and web_url not like '%ensembles' and performers != '{username}'),
             perf_stats as (
                 select  {selcol},
                         lpad((count(*) over w_list)::varchar,2,'0') || '-' || {listcol} as list_col,
@@ -279,7 +279,60 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             from    favorite_song
             order by weighted_cnt desc
             """
-
+    elif analyticstitle == 'Monthly Stats':
+        headings = ['#','Month','# Performances','Total Performances','# Invites','Total Invites','# Joins','Total Joins','Joins Per Invite','Join %','New Titles','Total Titles','New Partners','Total Partners']
+        sqlquery = f"""
+            with
+            perf as (select * from my_performances),
+            title_stats as (
+            	select first_perf_month, count(*) as new_title_cnt
+            	from (
+            		select 	fixed_title,
+            				to_char(min(created_at),'YYYY-MM') as first_perf_month
+            		from 	perf
+            		group by 1
+            		) a
+            	group by 1
+            	),
+            partner_stats as (
+            	select first_perf_month, count(*) as new_partner_cnt
+            	from (
+            		select 	performers,
+            				to_char(min(created_at),'YYYY-MM') as first_perf_month
+            		from 	perf
+            		group by 1
+            		) a
+            	group by 1
+            	),
+            perf_stats as (
+            	select 	to_char(created_at,'YYYY-MM') perf_month,
+            			count(*) as perf_cnt,
+            			count(distinct performers) as partner_cnt,
+            			count(distinct fixed_title) as title_cnt,
+            			sum(invite_ind) invite_cnt,
+            			count(case when join_ind = 1 and performers != 'KaushalSheth1' then 1 else null end) as join_cnt
+            	from 	perf
+            	group by 1
+            	)
+            select 	row_number() over() as rownum,
+                    ps.perf_month,
+            		to_char(ps.perf_cnt,'9,999') as perf_cnt,
+            		to_char(sum(ps.perf_cnt) over(order by ps.perf_month),'99,999') as total_perf_cnt,
+            		ps.invite_cnt,
+            		to_char(sum(ps.invite_cnt) over(order by ps.perf_month),'99,999') as total_invite_cnt,
+            		ps.join_cnt,
+            		to_char(sum(ps.join_cnt) over(order by ps.perf_month),'99,999') as total_join_cnt,
+            		round(case when ps.invite_cnt > 0 then (1.0*ps.join_cnt/ps.invite_cnt) else 0.0 end,2) as join_per_invite_cnt,
+            		round(case when ps.join_cnt > 0 then (1.0*ps.join_cnt/ps.perf_cnt) else 0.0 end * 100,2) as join_performance_pct,
+            		ts.new_title_cnt,
+            		to_char(sum(ts.new_title_cnt) over(order by ts.first_perf_month),'99,999') as total_title_cnt,
+            		ptrs.new_partner_cnt,
+            		to_char(sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_month),'99,999') as total_partner_cnt
+            from 	perf_stats ps
+            		left outer join title_stats ts on ts.first_perf_month = ps.perf_month
+            		left outer join partner_stats ptrs on ptrs.first_perf_month = ps.perf_month
+            order by 1 desc;
+            """
     #print(sqlquery)
     # Execute the query and build the analytics list
     result = db.session.execute(sqlquery)
@@ -397,8 +450,9 @@ def saveDBFavorites(username,performances):
 # Insert/Update data into Singer_Following table
 def saveDBSingerFollowing(userFollowing):
     i = 0
-    # First, update all rows to set isFollowing to Flase
-    db.session.execute("update singer_following set is_following = False, updated_at = now() where is_following")
+    # First, update all rows to set isFollowing to False
+    # TODO: Since we seem to be getting partial lists, disable setting is_following to false - we will handle that manually in DB directly when needed
+    #db.session.execute("update singer_following set is_following = False, updated_at = now() where is_following")
     # Next, loop through and insert/update all the rows
     for u in userFollowing:
         # It is possible that first_name and or last_name are missing - in that case, simply set them to ""
