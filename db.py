@@ -273,14 +273,14 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Adjusted Weighted Count', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as search_text, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            select  fixed_title as search_text, adj_weighted_cnt, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
             order by weighted_cnt desc
             """
     elif analyticstitle == 'Monthly Stats':
-        headings = ['#','Month','# Performances','Total Performances','# Invites','Total Invites','# Joins','Total Joins','Joins Per Invite','Join %','New Titles','Total Titles','New Partners','Total Partners']
+        headings = ['#','Month','# Performances','Total Performances','# Invites','Total Invites','# Joins','Total Joins','Joins Per Invite','Join %','New Titles','Total Titles','New Partners','Total Partners','New Joiners','Total Joiners']
         sqlquery = f"""
             with
             perf as (select * from my_performances),
@@ -294,16 +294,23 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             		) a
             	group by 1
             	),
-            partner_stats as (
-            	select first_perf_month, count(*) as new_partner_cnt
-            	from (
+                partner_dates as (
             		select 	performers,
-            				to_char(min(created_at),'YYYY-MM') as first_perf_month
+            				to_char(min(created_at),'YYYY-MM') as first_perf_month,
+                            to_char(min(case when join_ind = 1 then created_at else null end),'YYYY-MM') as first_join_month
             		from 	perf
             		group by 1
-            		) a
+                    ),
+            partner_stats as (
+            	select first_perf_month, count(*) as new_partner_cnt
+            	from partner_dates
             	group by 1
             	),
+            joiner_stats as (
+            	select first_join_month, count(*) as new_joiner_cnt
+            	from partner_dates
+            	group by 1
+                ),
             perf_stats as (
             	select 	to_char(created_at,'YYYY-MM') perf_month,
             			count(*) as perf_cnt,
@@ -327,11 +334,14 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             		ts.new_title_cnt,
             		to_char(sum(ts.new_title_cnt) over(order by ts.first_perf_month),'99,999') as total_title_cnt,
             		ptrs.new_partner_cnt,
-            		to_char(sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_month),'99,999') as total_partner_cnt
+            		to_char(case when ptrs.new_partner_cnt is not null then sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_month) end,'99,999') as total_partner_cnt,
+            		js.new_joiner_cnt,
+            		to_char(case when js.new_joiner_cnt is not null then sum(js.new_joiner_cnt) over(order by js.first_join_month) end,'99,999') as total_joiner_cnt
             from 	perf_stats ps
             		left outer join title_stats ts on ts.first_perf_month = ps.perf_month
             		left outer join partner_stats ptrs on ptrs.first_perf_month = ps.perf_month
-            order by 1 desc;
+                    left outer join joiner_stats js on js.first_join_month = ps.perf_month
+            order by 2 desc;
             """
     #print(sqlquery)
     # Execute the query and build the analytics list

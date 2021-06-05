@@ -1,3 +1,4 @@
+drop view favorite_song;
 CREATE OR REPLACE VIEW favorite_song AS
 with
 perf_day_counts as (
@@ -11,22 +12,42 @@ perf_day_counts as (
 	group by 1,2
 	),
 perf_stats as (
-	select 	fixed_title, min(created_at) as first_performance_time,
-			max(perf_30day_cnt) as perf_30day_cnt,
-			max(perf_10day_cnt) as perf_10day_cnt,
-			max(perf_5day_cnt) as perf_5day_cnt,
-			max(perf_1day_cnt) as perf_1day_cnt,
-			count(*) as perf_cnt
-	from 	perf_day_counts
-	group by 1
+	select 	fixed_title, first_performance_time,
+			round(adj_perf_1day_cnt::decimal,2) as adj_perf_1day_cnt,
+			round(adj_perf_5day_cnt::decimal,2) as adj_perf_5day_cnt,
+			round(adj_perf_10day_cnt::decimal,2) as adj_perf_10day_cnt,
+			round(adj_perf_30day_cnt::decimal,2) as adj_perf_30day_cnt,
+			perf_30day_cnt, perf_10day_cnt, perf_5day_cnt, perf_1day_cnt, perf_cnt
+	from 	(
+				select 	fixed_title, min(created_at) as first_performance_time,
+						max(perf_30day_cnt) as perf_30day_cnt,
+						max(perf_10day_cnt) as perf_10day_cnt,
+						max(perf_5day_cnt) as perf_5day_cnt,
+						max(perf_1day_cnt) as perf_1day_cnt,
+						-- Older counts are worth less than recent counts, so reduce older counts accordingly
+						max(greatest(0,(perf_30day_cnt::float - date_part('day',now()-created_at)/20.0))) as adj_perf_30day_cnt,
+						max(greatest(0,(perf_10day_cnt::float - date_part('day',now()-created_at)/30.0))) as adj_perf_10day_cnt,
+						max(greatest(0,(perf_5day_cnt::float - date_part('day',now()-created_at)/50.0))) as adj_perf_5day_cnt,
+						max(greatest(0,(perf_1day_cnt::float - date_part('day',now()-created_at)/100.0))) as adj_perf_1day_cnt,
+						count(*) as perf_cnt
+				from 	perf_day_counts
+				group by 1
+			) a
 	)
 select 	ps.fixed_title, ps.first_performance_time, ps.perf_cnt,
 		ps.perf_30day_cnt, ps.perf_10day_cnt, ps.perf_5day_cnt, ps.perf_1day_cnt,
 		(
-			(ps.perf_1day_cnt*300) +
-			(ps.perf_5day_cnt*60) +
-            (ps.perf_10day_cnt*30) +
-            (ps.perf_30day_cnt*10) +
+			(ps.adj_perf_1day_cnt::decimal*300) +
+			(ps.adj_perf_5day_cnt::decimal*60) +
+            (ps.adj_perf_10day_cnt::decimal*30) +
+            (ps.adj_perf_30day_cnt::decimal*10) +
+			ps.perf_cnt
+		) adj_weighted_cnt,
+		(
+			(ps.perf_1day_cnt::decimal*300) +
+			(ps.perf_5day_cnt::decimal*60) +
+            (ps.perf_10day_cnt::decimal*30) +
+            (ps.perf_30day_cnt::decimal*10) +
 			ps.perf_cnt
 		) weighted_cnt
 from 	perf_stats ps
