@@ -688,9 +688,12 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             f = open(filename,'w+b')
             f.write(request.urlopen(media_url).read())
             f.close()
-    except:
+    except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
-        #raise
+        print(str(e))
+        print("-----")
+        if not "HTTP Error 410" in str(e):
+            raise
         return 1
 
     try:
