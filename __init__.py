@@ -3,7 +3,7 @@ import ast
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from datetime import datetime
 
@@ -211,6 +211,7 @@ def create_app(test_config=None):
             analyticsOptions['todate'] = request.form['todate']
             analyticsTitle = request.form['btn']
             analyticsOptions['analyticstitle'] = analyticsTitle
+            analyticsOptions['timeperiod'] = request.form['timeperiod']
 
             if (analyticsTitle == "Custom"):
                 headingsStr = request.form['headings']
@@ -294,6 +295,7 @@ def create_app(test_config=None):
     def query_smule_performances():
         global user, numrows, performances, startoffset, fromdate, todate, searchOptions
         searchOptions['searchType'] = "normal"
+        fetchPartnerInfo()
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,searchOptions)

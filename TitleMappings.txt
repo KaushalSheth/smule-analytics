@@ -8,6 +8,7 @@ Aa Bhi Jaa|Aa Bhi Jaa Female
 Aa Bhi Jaa|Bhi Jaa
 Aa Bhi Jaa|ᗩᗩ ᗷᕼᎥ ᒎᗩᗩ Åå Βȟȋ Jåå
 Aa Bhi Jaa|Aa Bhi Jaa Aa Βhi Jaa
+Aa Bhi Jaa|0Aa Bhi Jaa
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
 Aa Jaane Jaan|Aa Jaane
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
@@ -379,6 +380,7 @@ Bairi Piya|Bairi Piya
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
 Bas Itna Sa Khwaab Hai|Bas Itna Sa Khwaab Hai
+Bechara Dil Kya Kare|Bechara Dil Kya Kare
 Bedardi Baalma Tujhko|Bedardi Baalma Tujhko
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
@@ -465,6 +467,7 @@ Chale Jaise Hawayein|Chale Jaise Hawayein
 Chali Chali Re Patang|Chali Chali Re Patang
 Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Dildar Chalo|Chalo Dildar Chalo
+Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
 Chalte Chalte|Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Ye
@@ -476,6 +479,7 @@ Chalte Chalte|Chalte Chalte Meri Yeh Geet
 Chalte Chalte Yunhi|Chalte Chalte Yunhi
 Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
 Chalte Chalte Yunhi|Chalte Chalte Yuhi
+Chamakte Chaand Ko|Chamakte Chaand Ko
 Chanda Chamke|Chanda Chamke Fanaa
 Chanda O Chanda|Chanda O Chanda
 Chanda Taare|Chanda Taare Yaadein
@@ -683,6 +687,7 @@ Dil Hai Tumhara|Dilhai Tumhara
 Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Hai Tumhara|Mastana Mausam Hai
 Dil Hai Tumhara|Dil Hai Tumhaara
+Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Ka Bhanwar Kare Pukar
@@ -700,6 +705,7 @@ Dil Ki Nazar Se|Dil Ki Nazar Se Special Piano
 Dil Ki Nazar Se|Dil Ki Nazarse &
 Dil Ki Nazar Se|Srdil Ki Nazar Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
+Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
 Dil Kya Kare|Dil Kya Kare
 Dil Kya Kare|Dil Kya Kare D
 Dil Kya Kare|Dil Kya Kare Jab Kisi Ko
@@ -765,6 +771,7 @@ Do Lafzon Ki Hai|Do Lafzon Ki Hai Asha Bhosle
 Do Lafzon Ki Hai|Do Lafzonki Hai Asha Bholse
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahaani
 Do Naina Ek Kahaani|Do Naina Ek Kahani Masoom
+Do Naina Ek Kahaani|Do Naina Aur Ek Kahani
 Do Pal Ruka|Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Karwan Veer Veer Veer
@@ -1199,6 +1206,7 @@ Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
 Jhumka Gira Re|Jhoomka Gira Re
+Jhumka Gira Re|Jhumka Gira Re Bareilly Ke Bazar
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jis Gali Mein Tera Ghar|Jis Gali Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Galli Me Tera Ghar
@@ -1207,6 +1215,7 @@ Jitni Dafa|Jitni Dafa Dafa
 Jitni Dafa|Jitni Dafa Dekhu Tumhe
 Jitni Dafa|°Jitni Dafa°
 Jitni Dafa|Jitni Dafa Female
+Jitni Dafa|Jitni Dafa Clean
 Jiya Beqarar Hai|Jiya Beqarar Hai
 Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
@@ -1243,7 +1252,9 @@ Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
+Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabira|Kabira
+Kabira Naina Mixtape|Kabira Naina Mixtape T
 Kabke Bichde Hue Aaj|Kabke Bice Hue Aaj
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
 Kahaan Tak Ye Man Ko|Kahan Tak
@@ -1719,6 +1730,7 @@ Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
 Naino Mein Sapna|Naino Me Sapna Sapno Me Sajna
 Naino Mein Sapna|Naino Mein Sapna
+Nakhrewaali|Nakhrewali
 Nasha Yeh Pyar Ka Nasha Hai|Nasha Yeh Pyar Ka Nasha Hai
 Nazar Ke Saamne|H D Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Saamne Jigar Ke Paas
@@ -1766,6 +1778,7 @@ O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
 O Mere Dil Ke Chain|Mere Ke Chain
 O Mere Sona Re|O Mere Sona Re
+O Mere Sona Re|O Mere Sona Re Sona
 O Meri Soni Mere|O Meri Soni Mere
 O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Palanhare|O Palanhare
@@ -1940,6 +1953,7 @@ Raat Ke Humsafar|Raat Ke Humsafaran Evening In Paris
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke Ke
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke
 Raat Ke Humsafar|Raatke Humsafar
+Raat Shabnami|Raat Shabnami
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Rahein Na Rahein Hum|Rahein Na Rahein Hum
@@ -1978,6 +1992,7 @@ Rimjhim Rimjhim|Rimjhim Rimjhim 1942 Love Story
 Rimjhim Rimjhim|Rimjhimrim Jhim Hhrim
 Roja Jaaneman|Roja Jaaneman
 Roop Suhana Lagta Hai|Roop Suhana Lagta Hai
+Roop Suhana Lagta Hai|Roop Suhana Lagta
 Roop Tera Mastana|Roop Tera
 Roop Tera Mastana|Roop Tera Tera Mastana
 Roop Tera Mastana|Roop Tera Tera Mastana Mastana Mastana Mastana
@@ -2321,6 +2336,7 @@ Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi
 Tu Pyaar Ka Saagar Hai|Tu Pyaar Ka Saagar Hai
 Tu Pyaar Ka Saagar Hai|Tu Pyar Ka Sagar Hai
 Tu Pyaar Tu Preet|Tu Pyaar Tu Preet
+Tu Pyaar Tu Preet|Tu Pyar Tu Preet
 Tu Shaayar Hai|Tu Shayar He
 Tu Shaayar Hai|Tu Shayar Hai
 Tu Tu Hai Wahi|[HQ™] Tu Tu Hai Wohi The Unwind Mix Original
@@ -2469,6 +2485,7 @@ Tumko Dekha To|Tumko Dekha To Ye Khayaal Aaya
 Tumko Dekha To|Tumko Dekha To Ye Khayal
 Tumko Sirf Tumko|Tumko Sirf Tumko Kkkm
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
+Tumne Mujhe Dekha|Tumne Mujhe Dekha Hokar Meherban
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
@@ -2504,6 +2521,7 @@ Waada Karle Saajna|Wada Karle Sajna
 Waada Karle Saajna|Wada Karle Wada Karle
 Waada Karle Saajna|Wada Karle
 Waada Karo Jaanam|Waada Karo Janam
+Waada Karo Nahi Chhodoge Tum Mera Saath|Wada Karo
 Waada Raha Sanam|Wada Raha Sanam
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
@@ -2534,6 +2552,7 @@ Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
+Yaara Sili Sili|Yaara Sili Sili
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
 Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
@@ -2615,6 +2634,7 @@ Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
 Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jaadu Hai Mitwa
+Yeh Mausam Ka Jaadu|Ye Mousam Ka Jadoo Hai Mitwa
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He

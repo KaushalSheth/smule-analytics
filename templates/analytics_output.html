@@ -39,7 +39,7 @@
   {%- for k,v in row.items() -%}
     {%- if k == "search_text" -%}
       {%- set search_string =  v.replace(" ","+") %}
-            <td><a href="https://www.smule.com/search?q={{search_string}}{{search_type}}" target="_blank">{{ v }}</a></td>
+            <td><a href="https://www.youtube.com/results?search_query={{search_string}}+lyrics" target="_blank">{{ v }}</a></td>
     {%- else -%}
             <td>{{ v }}</td>
     {%- endif -%}

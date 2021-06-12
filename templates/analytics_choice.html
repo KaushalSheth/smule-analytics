@@ -37,6 +37,16 @@
       </div>
 
       <div class="field">
+        <label class="label" for="timeperiod">Select Period</label>
+        <select name="timeperiod" id="timeperiod">
+          <option value="YYYY-MM">Month</option>
+          <option value="YYYY-&quot;W&quot;WW">Week</option>
+          <option value="YYYY-&quot;Q&quot;Q">Quarter</option>
+          <option value="YYYY-MM-DD">Day</option>
+        </select><br>
+      </div>
+
+      <div class="field">
         <label class="label" for="todate">To Date</label>
         <div class="control">
           <textarea name="analyticssql" rows="20" cols="80">
@@ -66,7 +76,7 @@ having min(created_at) > now() - interval '3 days'
           <input type="submit" name="btn" value="Favorite Songs" class="button is-link" />
         </div>
         <div class="control">
-          <input type="submit" name="btn" value="Monthly Stats" class="button is-link" />
+          <input type="submit" name="btn" value="Period Stats" class="button is-link" />
         </div>
         <div class="control">
           <input type="submit" name="btn" value="Custom" class="button is-link" />

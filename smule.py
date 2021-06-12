@@ -184,6 +184,19 @@ def extractSearchOptions(searchOptions):
 
     return contentType, solo, joins
 
+def fetchPartnerInfo():
+    global rsPartnerInfo
+    # Get partner info to be used later
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
+    rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_14_days_cnt from favorite_partner")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+
+    return 0
+
+def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
+    global rsPartnerInfo
+    return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
+
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
     performanceList = []
@@ -283,7 +296,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
-            comment = build_comment('@' + performers + ' ')
+            joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
+            join14DayCount = getPartnerInfo("partner_name",performers,"join_last_14_days_cnt")
+            if joinCount == 0:
+                joinMessage = " Please do join some of my invites as well"
+            elif join14DayCount == 0:
+                joinMessage = " Please do join some of my invites again"
+            else:
+                joinMessage = " Please keep joining my invites as well"
+            comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
             filename = filename_base + ".m4v"
@@ -584,6 +605,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
+
     contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
@@ -604,9 +626,10 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     performanceList = []
     #titleMappings = fetchDBTitleMappings()
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
-        print(f"====================================== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
+        print(f"== {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =============== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
         # Get the next batch of results from Smule
         if type == "ensembles" or type == "invites":
             fetchType = "performances"
