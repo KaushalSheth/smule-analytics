@@ -282,7 +282,8 @@ Ajeeb Dastaan Hai Yeh|Ajib Dastan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Fᴜʟʟajeeb Dastaandastaan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajeeb Daastaan
 Ajeeb Dastaan Hai Yeh|Ajeeb Daastan Hai Yeh
-Ajeeb Dastan/Zindagi Kaisi Hai Paheli|Ajeeb Dastan Zindagi Kaisi Hai
+Ajeeb Dastan+Zindagi Kaisi Hai Paheli|Ajeeb Dastan/Zindagi Kaisi Hai Paheli
+Ajeeb Dastan+Zindagi Kaisi Hai Paheli|Ajeeb Dastan Zindagi Kaisi Hai
 Aji Roothkar|Aji Rooth Kar Ab
 Aji Roothkar|Aji Roothkar
 Aji Roothkar|Aji Roothkar Ab Kahan Jaiyega
