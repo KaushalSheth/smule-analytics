@@ -129,6 +129,7 @@ Aap Ki Aankhon Mein Kuch|Aapki Aankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aapki Ankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aapki Ankhon
 Aap Ki Aankhon Mein Kuch|Aapki Aankhon
+Aap Ki Aankhon Mein Kuch|Besaap Ki Ankhon Mein Kuch
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -281,6 +282,7 @@ Ajeeb Dastaan Hai Yeh|Ajib Dastan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Fᴜʟʟajeeb Dastaandastaan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajeeb Daastaan
 Ajeeb Dastaan Hai Yeh|Ajeeb Daastan Hai Yeh
+Ajeeb Dastan/Zindagi Kaisi Hai Paheli|Ajeeb Dastan Zindagi Kaisi Hai
 Aji Roothkar|Aji Rooth Kar Ab
 Aji Roothkar|Aji Roothkar
 Aji Roothkar|Aji Roothkar Ab Kahan Jaiyega
@@ -398,6 +400,8 @@ Bheege Hoth Tere|Bheege Hoth Tere_Fth
 Bheege Hoth Tere|Bheege Hoth Tere_Fth___
 Bheege Hoth Tere|Bheege Hoth Tere
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Mein
+Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raton Mein
+Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Me
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bholi Si Surat|Bholi Si Surat
@@ -480,6 +484,7 @@ Chalte Chalte Yunhi|Chalte Chalte Yunhi
 Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
 Chalte Chalte Yunhi|Chalte Chalte Yuhi
 Chamakte Chaand Ko|Chamakte Chaand Ko
+Chamakte Chaand Ko|Chamakte Chand Ko
 Chanda Chamke|Chanda Chamke Fanaa
 Chanda O Chanda|Chanda O Chanda
 Chanda Taare|Chanda Taare Yaadein
@@ -631,6 +636,7 @@ Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ik Sapna
 Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekhte Dekhte|Dekhtedekhte Atif
+Der Se Hua Par Pyaar Toh Hua|Der Se Hua Par Pyaar Toh Hua
 Dhadak|Dhadak
 Dhadak|Dhadak Female
 Dhadak|Dhadak Title Dhadak
@@ -657,6 +663,7 @@ Dheere Dheere Se|Dheere Dheere Se Meri
 Dheere Dheere Se|Dheere Se
 Dheere Dheere Se|Dheere Seaashiqui
 Dheere Dheere Se|Dheeredheer Se Dheere
+Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
@@ -681,6 +688,7 @@ Dil Hai Ke Maanta Nahin|Dilhain Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Sʜᴏʀᴛ Dil Hai Ki Maanta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Maanta Nahi
 Dil Hai Ke Maanta Nahin|Hil Hai Ki Manta Nahi
+Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi Dil Hai
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
@@ -719,6 +727,7 @@ Dil Leke Darde Dil|Dil Leke Darde Dil Degaye
 Dil Leke Darde Dil|Wanted
 Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
+Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha
@@ -1016,6 +1025,7 @@ In Aankhon Ki Masti|In Aankhon Ki Masti Ke
 Intehaan Ho Gayi|Inteha Ho Gai Intezaar Ki
 Intehaan Ho Gayi|Inteha Ho Gayi
 Intehaan Ho Gayi|Intehan Ho Gayi
+Intehaan Ho Gayi|Intehanho Gayi
 Ironic|Ironic
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
@@ -1194,6 +1204,7 @@ Jawaani Jaaneman|Jawani Jan
 Jawaani Jaaneman|Jawani Janeman
 Jawaani Jaaneman|Jawaani Jaaneman Haseen Dilruba
 Jee Le Zaraa|Jee Le Zaraa
+Jeena Yahan Marna Yahan|Jeena Yahan Marna Yahan
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Par
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
@@ -1557,6 +1568,8 @@ Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
 Mast Baharon Ka Main Aashiq|Mast Baharon Ka Main Aashiq
 Masti Bhara Hai Sama|Masti Bhara Hai Sama
+Masti Bhara Hai Sama|Masti Bhara Hai Saman
+Mausam Hai Aashiqana|Mausam Hai Ashiqana
 Mausam Ke Sargam|Mausam Ke Sargam
 Medley Shahruk Khan|Medley Shahruk Khan
 Medley Old Songs|Medley Old S
@@ -1878,6 +1891,7 @@ Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
 Puchho Zara Puchho|Poocho Zara Poocho
+Puchho Zara Puchho|Pucho Zara Poocho
 Pukarta Chala Hoon Main|Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
@@ -2021,6 +2035,7 @@ Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
 Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Saagar Jaisi Aankhon Wali|Sagar Jaisi Aankhon Wali
+Saagar Jaisi Aankhon Wali|Saagar Jaisi Aankhon Waali Unwind Mix
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
 Saagar Kinare|Sagar Kinare Dil Ye Pukare
@@ -2447,6 +2462,7 @@ Tum Hi Ho|Tum Hi Hohi Ho Hi Ho
 Tum Hi Ho|Tum Hi Hohi Ho Hi Ho
 Tum Hi Ho|Tum Hi Ho Tum Hi Tum
 Tum Hi Ho|Um Hilow Keyho
+Tum Hi Ho|Tum Hi Ho Female
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Ghazal
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho

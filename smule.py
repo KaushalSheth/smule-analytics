@@ -191,7 +191,7 @@ def fetchPartnerInfo():
     rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_14_days_cnt from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
 
-    return 0
+    return rsPartnerInfo
 
 def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     global rsPartnerInfo
@@ -451,7 +451,8 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     performedList = []
     titleList = []
-    performedResultset = execDBQuery("select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances group by 1,2")
+    performedSQL = "select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances group by 1,2"
+    performedResultset = execDBQuery(performedSQL)
     for p in performedResultset:
         performedList.append(p)
         # Build the known title list for use later
@@ -468,23 +469,43 @@ def fetchPartnerInvites(inviteOptions,numrows):
     partnersTop = execDBQuery(partnersql)
     partnersBottom = partnersTop[::-1]
     # Set the Max rows for Top list
-    if partnerchoice == "middle":
+    if partnerchoice.startswith("split"):
         # Skip Top
-        toprows = 0
-        # Construct a list to use for processing middle partners
-        midPoint = int(len(partnersTop)/2)
+        topRows = 0
+        # Construct a list to use for processing split partners
+        # First, determine the pslit point based on the choice
+        if partnerchoice == "splitmiddle":
+            splitPoint = int(len(partnersTop)/2)
+        elif partnerchoice == "splittopquarter":
+            splitPoint = int(len(partnersTop)/4)
+        elif partnerchoice == "splittop6th":
+            splitPoint = int(len(partnersTop)/6)
+        elif partnerchoice == "splittop3rd":
+            splitPoint = int(len(partnersTop)/3)
+        elif partnerchoice == "splittop3rd":
+            splitPoint = int(len(partnersTop)/3)
+        elif partnerchoice == "splitbottom3rd":
+            splitPoint = int(len(partnersTop)/3)*2
+        elif partnerchoice == "splitbottomquarter":
+            splitPoint = int(len(partnersTop)/4)*3
+        elif partnerchoice == "splitbottom6th":
+            splitPoint = int(len(partnersTop)/6)*5
+        # If bad split choice is sent in, do a random split
+        else:
+            splitPoint = random.randint(0,len(partnersTop))
+        print(f"SplitPoint = {splitPoint} / {len(partnersTop)}")
         # Construct one list from middle to bottom (mb) and one reversed list from middle to top (mt)
-        mb = partnersTop[midPoint:]
-        mt = partnersTop[midPoint-1::-1]
+        mb = partnersTop[splitPoint:]
+        mt = partnersTop[splitPoint-1::-1]
         # Interleave the mt and mb lists so we basically start from the middle and work towards the top and bottom alternately
-        partnersMiddle = []
+        partnersSplit = []
         lt = len(mt)
         lb = len(mb)
         for i in range(max(lb,lt)):
             if i < lt:
-                partnersMiddle.append(mt[i])
+                partnersSplit.append(mt[i])
             if i < lb:
-                partnersMiddle.append(mb[i])
+                partnersSplit.append(mb[i])
     elif partnerchoice == "top":
         topRows = numrows
     elif partnerchoice == "mixed80":
@@ -590,9 +611,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
         return
 
     # If we chose to process partners from the middle out, don't need to process top and bottom separately
-    if (partnerchoice == "middle"):
+    if (partnerchoice.startswith("split")):
         print("============= PROCESSING MIDDLE PARTNERS ==============")
-        createList(partnersMiddle,numrows,False)
+        createList(partnersSplit,numrows,False)
     else:
         # Otherwise, call the createList method for the top rows; next call it using the reversed list and the total number of rows to fill in the remainder
         print("============= PROCESSING TOP PARTNERS ==============")

@@ -16,6 +16,7 @@ search_user = None
 performances = None
 numrows = 200
 titleMappings = None
+rsPartnerInfo = None
 
 def update_currtime():
     global currtime
@@ -165,6 +166,8 @@ def create_app(test_config=None):
                     return redirect(url_for('fix_db_titles'))
                 elif request.form['btn'] == 'Update Following':
                     return redirect(url_for('update_singer_following'))
+                elif request.form['btn'] == 'Get Partner Info':
+                    return redirect(url_for('get_partner_info'))
                 elif request.form['btn'] == 'Partner Invites':
                     return redirect(url_for('query_partner_invites'))
                 elif request.form['btn'] == 'Check Partners':
@@ -290,12 +293,21 @@ def create_app(test_config=None):
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 
+    # This executes smule function to get partner information (number of joins, etc.)
+    @app.route('/get_partner_info')
+    def get_partner_info():
+        global rsPartnerInfo
+        rsPartnerInfo = fetchPartnerInfo()
+        flash(f"{len(rsPartnerInfo)} partner info rows retrieved from DB")
+        return redirect(url_for('search'))
+
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
-        global user, numrows, performances, startoffset, fromdate, todate, searchOptions
+        global user, numrows, performances, startoffset, fromdate, todate, searchOptions, rsPartnerInfo
         searchOptions['searchType'] = "normal"
-        fetchPartnerInfo()
+        if rsPartnerInfo == None:
+            rsPartnerInfo = fetchPartnerInfo()
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,searchOptions)
@@ -317,8 +329,10 @@ def create_app(test_config=None):
     # Luckily for us, the structure of all performances and favorite performances is the same, so we can reuse the objects
     @app.route('/query_smule_favorites')
     def query_smule_favorites():
-        global user, numrows, performances, startoffset, fromdate, todate, searchOptions
+        global user, numrows, performances, startoffset, fromdate, todate, searchOptions, rsPartnerInfo
         searchOptions['searchType'] = "normal"
+        if rsPartnerInfo == None:
+            rsPartnerInfo = fetchPartnerInfo()
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"favorites",fromdate,todate)

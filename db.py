@@ -199,13 +199,14 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         sqlquery = analyticsOptions['analyticssql']
     elif analyticstitle in ['Partner Stats','Title Stats']:
         if analyticstitle == 'Partner Stats':
-            headings = ['Partner           ','LastTime     ','First Time   ','First Title      ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Title List']
             selcol = "performers"
             listcol = "fixed_title"
+            headcol = "Partner           "
         else:
-            headings = ['Song Name         ','Last Time     ','First Time   ','First Partner   ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Partner List']
             selcol = "fixed_title"
             listcol = "performers"
+            headcol = "Song Name         "
+        headings = [headcol,'LastTime     ','First Time   ','First Title      ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time','Title List']
         # Build appropriate query
         # Start with the base query
         sqlquery = f"""
@@ -218,9 +219,10 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                         first_value(created_at) over w_desc as last_performance_time,
                         first_value({listcol}) over w_asc as first_list_col,
                         count(1) over w_all as performance_cnt,
-                        count(case when owner_handle = 'KaushalSheth1' and web_url not like '%ensembles' then 1 else null end) over w_all as join_cnt,
+                        sum(join_ind) over w_all as join_cnt,
                         count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as perf_last_30_days,
-                        count(case when owner_handle = 'KaushalSheth1' and web_url not like '%ensembles' and created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as join_last_30_days
+                        sum(case when created_at > (now() - '30 days'::interval day) then join_ind else 0 end) over w_all as join_last_30_days,
+                        max(case when join_ind = 1 then created_at else '2000-01-01'::timestamp end) over w_all as last_join_time
                 from    my_performances
                 where   1 = 1
                 window  w_asc as (partition by {selcol} order by created_at),
@@ -233,6 +235,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 select  ps.{selcol},
                         min(ps.first_performance_time) as first_performance_time,
                         max(ps.last_performance_time) as last_performance_time,
+                        max(ps.last_join_time) as last_join_time,
                         min(ps.first_list_col) as first_list_col,
                         min(ps.performance_cnt) as performance_cnt,
                         min(ps.join_cnt) as join_cnt,
@@ -244,10 +247,10 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 )
             select  s.{selcol} as search_text, s.last_performance_time, s.first_performance_time, s.first_list_col, s.performance_cnt, s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
-                    s.perf_last_30_days, s.join_last_30_days, s.join_list
+                    s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
                     inner join perf p on p.{selcol} = s.{selcol}
-            group by 1, 2, 3, 4, 5, 6, 8, 9, 10
+            group by 1, 2, 3, 4, 5, 6, 8, 9, 10, 11
             order by 2 desc
             """
     elif analyticstitle == 'Invite':
