@@ -201,12 +201,16 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         if analyticstitle == 'Partner Stats':
             selcol = "performers"
             listcol = "fixed_title"
-            headcol = "Partner           "
+            headcol1 = "Partner           "
+            headcol2 = "First Title       "
+            headcol3 = "# Titles"
         else:
             selcol = "fixed_title"
             listcol = "performers"
-            headcol = "Song Name         "
-        headings = [headcol,'LastTime     ','First Time   ','First Title      ','# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time','Title List']
+            headcol1 = "Song Name         "
+            headcol2 = "First Partner     "
+            headcol3 = "# Partners"
+        headings = [headcol1,'LastTime     ','First Time   ',headcol2,headcol3,'# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time','Title List']
         # Build appropriate query
         # Start with the base query
         sqlquery = f"""
@@ -245,12 +249,14 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 from    perf_stats ps
                 group by 1
                 )
-            select  s.{selcol} as search_text, s.last_performance_time, s.first_performance_time, s.first_list_col, s.performance_cnt, s.join_cnt,
+            select  s.{selcol} as search_text, s.last_performance_time, s.first_performance_time, s.first_list_col,
+                    (((length(s.join_list) - length(replace(s.join_list::varchar,', ',''))) / 2) + 1) as distinct_list_cnt,
+                    s.performance_cnt, s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
                     inner join perf p on p.{selcol} = s.{selcol}
-            group by 1, 2, 3, 4, 5, 6, 8, 9, 10, 11
+            group by 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12
             order by 2 desc
             """
     elif analyticstitle == 'Invite':

@@ -81,6 +81,7 @@ Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhen Khuli Ho Ya Ho Band
 Aankhen Khuli Ho Ya Ho Band|Group Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli Ho
+Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli Ho Ya Ho Band
 Aankhon Hi Aankhon Mein|Aankhon Hi Aankhon Mein Ishara
 Aankhon Hi Aankhon Mein|Ankhon Hi Ankhon Mein
 Aankhon Hi Aankhon Mein|Ankhonhi Ankhon Mein
@@ -319,6 +320,7 @@ An Evening In Paris|An Evening In Paris
 Andekhi Anjaani Si|Andekhi Anjaani Si
 Andekhi Anjaani Si|Reff Andekhi Anjaani Si
 Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hai Ke I Love You
+Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hain I Love You
 Ankahee|Ankahee
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
 Aao Na|Aao Na
@@ -403,6 +405,7 @@ Bheege Hoth Tere|Bheege Hoth Tere
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Mein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raton Mein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Me
+Bheegi Bheegi Raaton Mein|Bhigi Bhigi Raaton Me
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bholi Si Surat|Bholi Si Surat
@@ -637,7 +640,8 @@ Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ik Sapna
 Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekhte Dekhte|Dekhtedekhte Atif
-Der Se Hua Par Pyaar Toh Hua|Der Se Hua Par Pyaar Toh Hua
+Der Se Hua|Der Se Hua Par Pyaar Toh Hua
+Der Se Hua|Der Se Hua
 Dhadak|Dhadak
 Dhadak|Dhadak Female
 Dhadak|Dhadak Title Dhadak
@@ -745,6 +749,7 @@ Dil Ne Yeh Kaha|Dilne Ye Kaha He Dilse
 Dil Ne Yeh Kaha|Dilne Yeh Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dilneyeh Kaha Hain Dil Se Kaha Hain 2
 Dil Ne Yeh Kaha|Dil Ne Yehadkan
+Dil Ne Yeh Kaha|Dil Ne Ye Kahan Hai Dil Se
 Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke Keh Raha Hai
@@ -863,6 +868,7 @@ Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
+Gaata Rahe Mera Dil|Gaata Rahe
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chaand Nikla
 Gali Mein Aaj Chand Nikla|Br Gali Mein Aaj Chand Nikla
@@ -1238,6 +1244,7 @@ Jo Haal Dil Ka|Jo Haal Dil Ka Idhar Ho Raha Hai
 Jo Haal Dil Ka|Jo Haal Dil Ka Jo
 Jo Haal Dil Ka|Jo Haal Dil Ka Jo Haal Dil
 Jo Haal Dil Ka|Jo Haal Dil Ka Male
+Jo Haal Dil Ka|Jo Haal Dilka
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
@@ -1633,6 +1640,7 @@ Mere Rashke Qamar|Mere Rashke Hamar
 Mere Rashke Qamar|Mere Rashke Kamar
 Mere Rashke Qamar|Mere Rashke Qamar
 Mere Rashke Qamar|Mere Rashke Qamar Mix
+Mere Rashke Qamar|Mererashke Qamar
 Mere Samne Wali Khidki Mein|Mere Samne Wali
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Me
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Mein
@@ -1645,6 +1653,7 @@ Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Mehbooba|Kisi Roz Tumse
+Meri Neend Jaane Lagi Hai|Meri Neend Jaane Lagi Hai
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
 Meri Saanson Mein Basa Hai|Merisaanson Mein
@@ -1797,7 +1806,9 @@ O Meri Soni Mere|O Meri Soni Mere
 O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Palanhare|O Palanhare
 O Re Kanchi|O Re Kanchi
-O Rey Chhori|O Rey Chori
+O Re Chhori|O Rey Chori
+O Re Chhori|O Ri Chhori Maan Bhi Le Baat Mori
+O Re Chhori|O Rey Chhori
 O Saathi Re|O Saathi Re
 O Saathi Re|O Saathi Re O Re
 O Saathi Re|O Sathi Re
@@ -1904,6 +1915,7 @@ Pyaar Deewana Hota Hai|Pyar Deewana Hota Haissgn_Chamsmanoj
 Pyaar Deewana Hota Hai|Pyar Deewana Hota
 Pyaar Deewana Hota Hai|Pyar Diwana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Diwana Hota Haissgn_Chamsmanoj
+Pyaar Deewana Hota Hai|Pyar Diwana Hota Hai *
 Pyaar Hua Chupke Se|Pyaar Hua Chupke Se
 Pyaar Hua Chupke Se|Pyar Hua Chupke Se
 Pyaar Hua Iqraar Hua|Pyaar Hua Ikraar Hua Hai
@@ -2215,6 +2227,8 @@ Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　 In 
 Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　　Tears In
 Tears In Heaven|Tears In Tears In
 Tears In Heaven|Tears In Heaven Tears In
+Tera Ban Jaaunga|Tera Ban Jaunga Kabir Singh
+Tera Ban Jaaunga|Tera Ban Jaunga Tera Ban Jaunga
 Tera Chehra|Tera Chehra
 Tera Chehra|Tera Chehraadnan Sami
 Tera Hone Laga Hoon|Tera Hone Laga Hoon

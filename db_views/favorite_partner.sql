@@ -1,3 +1,4 @@
+drop view favorite_partner;
 CREATE OR REPLACE VIEW favorite_partner AS
 with
 perf as (
@@ -44,12 +45,14 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
             p.recency_score,
             p.last_performance_time,
             p.first_performance_time,
-            s.pic_url as display_pic_url
+            s.pic_url as display_pic_url,
+            coalesce(sf.is_following,false) as is_following
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
+        left outer join singer_following sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
-select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 1, 999999, 999999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url
+select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 1, 999999, 999999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)
