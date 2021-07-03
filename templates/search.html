@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2021-06-10" type="input" class="input" required></input>
+          <input name="fromdate" value="2021-07-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -129,7 +129,7 @@ from favorite_partner
 where partner_name != 'KaushalSheth1'
 and is_following
 and recency_score between 0 and 9999999
--- and (always_include_ind = 1 or favorite_cnt > 5 or first_performance_time > now() - interval '5 days' or last_performance_time <= now() - interval '5 days')
+and (always_include_ind = 1 or first_performance_time > now() - interval '5 days' or last_performance_time <= now() - interval '1 days')
 order by 3 desc, 4 desc, 1
           </textarea>
         </div>

@@ -204,13 +204,15 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             headcol1 = "Partner           "
             headcol2 = "First Title       "
             headcol3 = "# Titles"
+            headcol4 = "Title List"
         else:
             selcol = "fixed_title"
             listcol = "performers"
             headcol1 = "Song Name         "
             headcol2 = "First Partner     "
             headcol3 = "# Partners"
-        headings = [headcol1,'LastTime     ','First Time   ',headcol2,headcol3,'# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time','Title List']
+            headcol4 = "Partner List"
+        headings = [headcol1,'LastTime     ','First Time   ',headcol2,headcol3,'# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time',headcol4]
         # Build appropriate query
         # Start with the base query
         sqlquery = f"""
