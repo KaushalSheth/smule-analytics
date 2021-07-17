@@ -300,6 +300,7 @@ Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
 Akele Hai Chale Aao|Akele Hai Chale Aao
+Akele Hai Chale Aao|Akele Hain Chale Aao
 Akele Hain To Kya Gam Hai|Akele Hain To Kya
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai
@@ -701,6 +702,7 @@ Dil Hai Ke Maanta Nahin|Sʜᴏʀᴛ Dil Hai Ki Maanta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Maanta Nahi
 Dil Hai Ke Maanta Nahin|Hil Hai Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi Dil Hai
+Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
@@ -1058,6 +1060,7 @@ Ishq Bina|Is Bina
 Ishq Bina|Is Bina Kiya Jeena
 Ishq Hua|Is Hua
 Ishq Hua|Is Hua Kaise Hua
+Ishq Hua|Is Hua Kaise Hua Is
 Ishq Shava|Is Shava
 Ishq Shava|Ishq Shava
 Ishq Wala Love|Is Wala Love
@@ -1385,6 +1388,7 @@ Khairiyat|Sʜᴏʀᴛ Khairiyat Poocho
 Khairiyat|Khairiyat Poocho
 Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
+Khilte Hain Gul Yahan|Khilte Hai Gul Yahan
 Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
@@ -1481,6 +1485,7 @@ Lamha Lamha|Lamha Lamha
 Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
 Le Gayi Le Gayi|Le Gayi Le Gayi
+Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Le Mazaa Le|Le Le Mazaa Le
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
@@ -2311,6 +2316,7 @@ Tere Sang Yaara|Tere Sang Yaara Sang
 Tere Sang Yaara|Tere Sang Yara
 Tere Sang Yaara|Ad Tere Sang Yaara
 Teri Aankhon Ke Siva|Teri Ankhon Ke Siva
+Teri Aankhon Ke Siva|Teri Ankho Ke Siva
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re
@@ -2547,6 +2553,7 @@ Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga
 Tumse Milne Ki Tamanna Hai|Tumse Milne Ki Tamanna Hai
+Tumse Milne Ki Tamanna Hai|Tumsemilne Ki Tamanna Hai Tumse
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeelekaisa Jaadu Kiya

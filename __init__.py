@@ -3,7 +3,7 @@ import ast
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from datetime import datetime
 
@@ -153,6 +153,8 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search Ensembles':
                     searchtype = 'ENSEMBLES'
                     return redirect(url_for('query_smule_ensembles'))
+                elif request.form['btn'] == 'DB Invite Joins':
+                    return redirect(url_for('db_invite_joins'))
                 elif request.form['btn'] == 'Search Invites':
                     searchtype = 'INVITES'
                     return redirect(url_for('query_smule_invites'))
@@ -348,6 +350,16 @@ def create_app(test_config=None):
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchSmulePerformances(user,numrows,startoffset,"ensembles",fromdate,todate)
         flash(f"{len(performances)} performances fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This executes the smule function to fetch DB invites and then look for new joins in Smule
+    @app.route('/db_invite_joins')
+    def db_invite_joins():
+        global user, performances, fromdate, todate
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchDBInviteJoins(user,fromdate,todate)
+        flash(f"{len(performances)} joins fetched from Smule")
         return redirect(url_for('list_performances'))
 
     # This method is not currently used - created it just for symmetry - may be removed later if no use is found

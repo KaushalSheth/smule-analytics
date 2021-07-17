@@ -171,6 +171,43 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
 
     return ensembleList
 
+# Fetch invites from DB within date range and then parse ensembles to see if there are new joins.  This is primarily used to load joins for expired invites
+def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
+    performances = []
+    sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}'"
+    invites = execDBQuery(sqlquery)
+    print("Start")
+    titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+    for i in invites:
+        web_url = i['web_url']
+        childCount = i['child_count']
+        createdAt = i['created_at']
+        fixedTitle = i['fixed_title']
+        collabCount = 0
+        try:
+            # The web_url returns an HTML page that contains the link to the content we wish to download
+            with request.urlopen(web_url) as url:
+                # First get the HTML for the web_url
+                htmlstr = str(url.read())
+                # Next, parse the HTML to extract the JSON string for performances
+                performancesBytes = bytes(re.search('"mobile-show">(.*?) collab',htmlstr).group(1),'latin')
+                collabCount = int(performancesBytes.decode('utf8'))
+        except:
+            # DEBUG MESSAGE
+            print("============")
+            print(web_url)
+            print("Failed to parse web_url")
+            #raise
+        if (collabCount > 0) and (childCount != collabCount):
+            print("============")
+            print(web_url)
+            print(f"Counts differ - need to parse ensembles for this invite: createdAt = {createdAt}, ChildCount = {childCount}, collabCount = {collabCount}")
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings)
+            performances.extend(ensembleList)
+            print("Done")
+
+    return performances
+
 # Method to extract values from search options
 def extractSearchOptions(searchOptions):
     if searchOptions == {}:
