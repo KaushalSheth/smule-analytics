@@ -147,14 +147,17 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     dbfilter = searchOptions['dbfilter']
     if dbfilter != "":
         sqlquery += " and " + dbfilter
-    # Append ORDER BY clause
-    sqlquery += " order by created_at desc"
+    # Append ORDER BY clause - but only if the dbfilter does not already contain an ORDER BY clause
+    if "order by" not in dbfilter.lower():
+        sqlquery += " order by created_at desc"
 
     # Check the PerformanceSinger table for existence of the singer on the performance
     result = db.session.execute(sqlquery)
     for r in result:
         # Convert the result row into a dict we can add to performances
         d = dict(r.items())
+        # Convert created_at to string
+        d['created_at'] = d['created_at'].strftime("%Y-%m-%dT%H:%M:%S")
         # Add the keys to the dict that are not saved to the DB but used for other processing
         d['other_performers'] = ""
         d['pic_filename'] = ""

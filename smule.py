@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
 import random
+import webbrowser
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
@@ -748,9 +749,17 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             f.close()
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
-        print(str(e))
+        if "'NoneType' object has no attribute 'group'" in str(e):
+            media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+            # webbrowser registration does not seem to be needed
+            #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
+            #webbrowser.get('chrome').open(media_url)
+            webbrowser.open(media_url)
+            #print(f"NEED TO PLAY: {media_url}")
+        else:
+            print(str(e))
         print("-----")
-        if not "HTTP Error 410" in str(e):
+        if (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
             raise
         return 1
 
@@ -780,8 +789,9 @@ def downloadSong(web_url,baseFolder,file,performance,username):
 
         # Save the updated tags to the file
         af.save()
-    except:
+    except Exception as e:
         print("FAILED TO UPDATE TAGS!!!")
+        print(str(e))
         return 0
 
     # Print pic URL for debugging purposes
