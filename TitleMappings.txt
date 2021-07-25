@@ -522,6 +522,7 @@ Chhod Do Aanchal|Chhod Do Aanchal Zamana
 Chhod Do Aanchal|Chod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal
 Chhodo Kal Ki Baate|Chodo Kal Ki Baate
+Chhodo Kal Ki Baate|Chhodo Kal Ki Baatein Kal Ki Baat Purani
 Chhookar Mere Man Ko|[HQ™] Chukar Mere Man Ko [Full Track] Yaarana
 Chhookar Mere Man Ko|Chhoo Kar Mere Man Ko
 Chhookar Mere Man Ko|Chhookar Mere Man Ko
@@ -678,6 +679,7 @@ Dheere Dheere Se|Dheere Seaashiqui
 Dheere Dheere Se|Dheeredheer Se Dheere
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
+Dil Apna Aur Preet Paraai|दिल अपना और प्रीत पराई
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -1168,6 +1170,7 @@ Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere Do Nain
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere Do Nayan
 Jaaneman Jaaneman Tere Do Nayan|Janeman Janeman Tere
 Jaata Kahaan Hai Deewane|Jaata Kahan Hai Deewane
+Jaata Kahaan Hai Deewane|Jata Kahan Hai Deewane
 Jaati Hoon Main|Jaati Hoon Main
 Jaati Hoon Main|Jaati Hoon Main Hoon Main
 Jaati Hoon Main|Jaati Hoon Mein
@@ -1556,6 +1559,7 @@ Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shayar Hoon
 Main Phir Bhi Tumko Chahunga|Mai Fir Bhi Tumko Chahunga
+Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahunga 1
 Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
@@ -1877,6 +1881,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
+Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan
 Pardesi Pardesi|Pardesi Pardesi
 Pardesi Pardesi|Pardesi Pardesi Jana Nahi
 Pardesiya|Pardesiya
@@ -2008,6 +2013,7 @@ Raat Ke Humsafar|Raat Ke Humsafaran Evening In Paris
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke Ke
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke
 Raat Ke Humsafar|Raatke Humsafar
+Raat Ke Humsafar|Newraat Ke Humsafar
 Raat Shabnami|Raat Shabnami
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
@@ -2618,6 +2624,7 @@ Yaara Sili Sili|Yaara Sili Sili
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
 Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
+Yashomati Maiya|Yasomatimaiya Se
 Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
