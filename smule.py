@@ -199,7 +199,7 @@ def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
             print(web_url)
             print("Failed to parse web_url")
             #raise
-        if (collabCount > 0) and (childCount != collabCount):
+        if (collabCount > 0) and (childCount < collabCount):
             print("============")
             print(web_url)
             print(f"Counts differ - need to parse ensembles for this invite: createdAt = {createdAt}, ChildCount = {childCount}, collabCount = {collabCount}")
@@ -373,8 +373,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             owner_lat = performance['owner']['lat']
             owner_lon = performance['owner']['lon']
         except:
-            owner_lat = "0.00"
-            owner_lon = "0.00"
+            try:
+                # On 8/2/2021, noticed that latitude and longitude seem to be stored in price and discount columns for some reason
+                owner_lat = performance['owner']['price']
+                owner_lon = performance['owner']['discount']
+            except:
+                owner_lat = "0.00"
+                owner_lon = "0.00"
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list

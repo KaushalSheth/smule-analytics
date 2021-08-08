@@ -52,6 +52,8 @@ Aaj Main Upar|Aaj Mein Upar
 Aaj Main Upar|Aaj Mein Upper Aasma Niche
 Aaj Phir Jeene Ki Tamanna Hai|Aaj Phir Jeene Ki Tamanna Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aya Hai
+Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
+Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Re Ab Mera Dil Pukara|Aaja Re Ab Mera Dil Pukare
@@ -510,6 +512,7 @@ Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudvin Ka Chand
 Chaudhvin Ka Chand Ho|Chaudhavi Ka Chaand
+Chaudhvin Ka Chand Ho|Chaudavi Ka Chand Ho
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
@@ -761,7 +764,9 @@ Dil Ne Yeh Kaha|Dilne Yeh Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dilneyeh Kaha Hain Dil Se Kaha Hain 2
 Dil Ne Yeh Kaha|Dil Ne Yehadkan
 Dil Ne Yeh Kaha|Dil Ne Ye Kahan Hai Dil Se
+Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hain Dil Se
 Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
+Dil Pukaare Aa Re Aa Re|Dil Pukare Aa Re Aare
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke Keh Raha Hai
 Dil To Baccha Hai Ji|Dil To Baccha Hai Ji
@@ -1240,6 +1245,7 @@ Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
 Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Teri Aankhe
 Jeevan Se Bhari Teri Aankhein|Shorjeevan Se Bhari Teri Aankhe
 Jeevan Se Na Haar|Jeevan Se Na Haar
+Jeevan Se Na Haar|Jeevan Se Na Haar O Jeenewale
 Jhanak Jhanak Tori Baaje Payaliya|Jhanak Jhanak Tori Baje Payelia
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan
@@ -2135,6 +2141,7 @@ Sandese Aate Hai|Sandese Aate Hain
 Sandese Aate Hai|Sandeseaate Hain Hai
 Sandli Sandli Laung Laachi|Sandli Sandli Laung Laachi
 Sandli Sandli Laung Laachi|Sandli Sandli
+Sandli Sandli Laung Laachi|Sandli Sandli Laung Lachi
 Sar Pe Topi Laal|Sar Par Topi Lal
 Sar Pe Topi Laal|Sar Pe Topi
 Sar Pe Topi Laal|Sar Pe Topi Sar Par Topi
@@ -2578,6 +2585,7 @@ Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
 Vaada Tera Vaada|Vaada Tera Vaada
+Vaada Tera Vaada|Vada Tera Vada
 Vaaste|Vaaste
 Vaaste|Vaaste Vaaste
 Vaaste|Vaste
