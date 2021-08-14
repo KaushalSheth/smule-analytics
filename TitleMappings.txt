@@ -44,6 +44,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Ki Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aj Kal Tera Mera
 Aaj Kal Tere Mere Pyaar Ke Charche|Ajkal Tere Mere Pyaar
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkalteremerepyarkecharche
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere Jaye Re
@@ -178,6 +179,7 @@ Aaye Ho Meri Zindagi Mein|Aye Ho Merimeri Ho Ho
 Aaye Ho Meri Zindagi Mein|Ayeho Meriho Meri Ho
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aayega Aane Wala|Aaega Aane Wala
+Aayega Aane Wala|आएगा, आएगा, आएगा आने वाला आएगा
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Tere Bin|Ab Tere Bin
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein
@@ -432,6 +434,7 @@ Can't Help Falling In Love|Can't Help Falling In Love
 Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
 Can't Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
 Can't Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
+Can't Help Falling In Love|I Can't Help Falling In Love
 Centerfold|n Ya Na|>> Chahun Main Ya Na
 Chaahun Main Ya Na|>> Chahun Main Ya Naa
 Chaahun Main Ya Na|Chahu Main Ya Na
@@ -1190,6 +1193,7 @@ Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
 Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo
 Jab Deep Jale Aana|Jabdeep Jale Deep Jale
+Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil
@@ -1555,6 +1559,7 @@ Main Hoon Na|Mainhoon Na, Main Hoo Na Mai Hoo Na
 Main Jis Din Bhulaa Du|Main Jis Din Bhulaa Du
 Main Jis Din Bhulaa Du|Mein Jis Din Bhula Dun Tera Pyar Dilse
 Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
+Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet
@@ -1817,6 +1822,7 @@ Neend Na Mujhko Aaye|Neend Na Mujhko Aaye
 Neend Na Mujhko Aaye|O Neend Na Mujhko Aaye
 New Vs Old Bollywood Songs|New Vs Old Bollywood Songs
 New Vs Old Bollywood Mashup|Drnew Vs Old Bollywood Mashup
+Nimbooda Nimbooda|Nimbooda Nimbooda
 Noorie Noorie|Noorie Noorie
 O Hansini|Hansini
 O Hansini|O Hansini
@@ -1885,6 +1891,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kaaala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
+Papa Kehte Hai|Papa Kehte Hai
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan
@@ -1976,6 +1983,7 @@ Pyaar Karne Wale|Pyar Karne Wale
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
+Pyaar Kiya To Darna Kya|Pyar Kiya Toarna Kya
 Pyaar Kiya To Nibhana|Kehta Hai Pal Pal
 Pyaar Kiya To Nibhana|Kehta Hai Pal Pal Tumse
 Pyaar Kiya To Nibhana|Pyaar Kiya To Nibhana
@@ -2047,6 +2055,7 @@ Rimjhim Gire Saawan|Rimjhim Gire Sawan
 Rimjhim Gire Saawan|Rim Jhim Gire Saawan
 Rimjhim Gire Saawan|Rimjhim Gire Swn
 Rimjhim Gire Saawan|Imjhim Gire Sawan
+Rimjhim Gire Saawan|Kishorkumar Rimjhim Gire Saawan
 Rimjhim Rimjhim|[Short™] Rimjhim Rimjhim Ost 1942 Love Story
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim Rimjhim
@@ -2248,6 +2257,7 @@ Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
+Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
 Tanha Tanha|Tanha Tanha Yahaan Pe Jeena
 Tanha Tanha|Tanha Tanha
@@ -2562,6 +2572,7 @@ Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Hokar Meherban
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
+Tumsa Nahin Dekha|Yun To Humne Lakh Haseen Dekhe Hain
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achcha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
@@ -2794,6 +2805,7 @@ Zara Zara Bahekta Hai|Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai
 Zara Zara Bahekta Hai|Zara Zara Behekta Hai
+Zara Zara Bahekta Hai|Zara Zara Behakta Hai
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha
