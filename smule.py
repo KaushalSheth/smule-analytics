@@ -226,7 +226,7 @@ def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_14_days_cnt from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_30_days_cnt as recent_join_cnt from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
 
     return rsPartnerInfo
@@ -335,7 +335,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
             joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
-            join14DayCount = getPartnerInfo("partner_name",performers,"join_last_14_days_cnt")
+            join14DayCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
             if joinCount == 0:
                 joinMessage = " Please do join some of my invites as well"
             elif join14DayCount == 0:

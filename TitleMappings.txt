@@ -57,8 +57,10 @@ Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
+Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
 Aaja Re Ab Mera Dil Pukara|Aaja Re Ab Mera Dil Pukare
 Aaja Re Pardesi|Aaja Re Pardesi
+Aaja Re Pardesi|Aaja Re Pardesi Mai To Kabse Khadi Is
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Chandni Chandni Chandni Chandni Chandni Chandni Chandni
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Men
@@ -263,6 +265,7 @@ Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
 Agar Tum Na Hote|Moodsagar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki
+Agar Tum Na Hote|Humein Aur Jeene Ki
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -370,6 +373,7 @@ Babuji Dheere Chalna|Babuji Dheere Chalna
 Bachna Ae Haseeno|Bachna Ai Hasino
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
+Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
@@ -408,6 +412,7 @@ Bhanware Ki Gunjan|Bhanware Ki Gunjan
 Bheege Hoth Tere|Bheege Hoth Tere_Fth
 Bheege Hoth Tere|Bheege Hoth Tere_Fth___
 Bheege Hoth Tere|Bheege Hoth Tere
+Bheege Hoth Tere|Bheege Honth Tere
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Mein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raton Mein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Me
@@ -434,7 +439,7 @@ Can't Help Falling In Love|Can't Help Falling In Love
 Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
 Can't Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
 Can't Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
-Can't Help Falling In Love|I Can't Help Falling In Love
+Can't Help Falling In Love|I Can''t Help Falling In Love
 Centerfold|n Ya Na|>> Chahun Main Ya Na
 Chaahun Main Ya Na|>> Chahun Main Ya Naa
 Chaahun Main Ya Na|Chahu Main Ya Na
@@ -1287,6 +1292,7 @@ Jo Wada Kiya Woh|Jo Wada Kiya Wo Nibhana
 Joote Do Paise Lo|Joote Do Paise Lo
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
+Kaanchi Re Kaanchi|Kanchi Re Kanchi Re
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
 Kab Tak Chup Baithe|Dholna Karaoke
 Kabhi Aar Kabhi Paar|Kabhi Aar Kabhi Paar
@@ -1811,6 +1817,7 @@ Nazm Nazm|Nazm Nazm Sa Mere
 Nazm Nazm|Tu Nazm Nazm Mere
 Nazm Nazm|Tu Nazm Nazm Sa Mere
 Nazm Nazm|Nazm Nazm Sa Mere Sa Mere Sa
+Nazm Nazm|Nazm Nazm Feat Sumedha Karmahe
 Nazrein Mili Dil Dhadka|Nazrein Mili Dil Dhadka Raja
 Neele Neele Ambar Par|Neele Neele Ambar
 Neele Neele Ambar Par|Neele Neele Ambar Par
@@ -1824,6 +1831,7 @@ New Vs Old Bollywood Songs|New Vs Old Bollywood Songs
 New Vs Old Bollywood Mashup|Drnew Vs Old Bollywood Mashup
 Nimbooda Nimbooda|Nimbooda Nimbooda
 Noorie Noorie|Noorie Noorie
+Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
 O Hansini|Hansini
 O Hansini|O Hansini
 O Hansini|O Hansini Karaoke
@@ -2056,6 +2064,7 @@ Rimjhim Gire Saawan|Rim Jhim Gire Saawan
 Rimjhim Gire Saawan|Rimjhim Gire Swn
 Rimjhim Gire Saawan|Imjhim Gire Sawan
 Rimjhim Gire Saawan|Kishorkumar Rimjhim Gire Saawan
+Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyare Geet Liye
 Rimjhim Rimjhim|[Short™] Rimjhim Rimjhim Ost 1942 Love Story
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim Rimjhim
@@ -2359,6 +2368,7 @@ Teri Meri Prem Kahani|Teri Meri Prem Kahani
 Teri Meri Prem Kahani|Teri Meri Prem Kahanigpsi
 Teri Mitti|Teri Mitti
 Teri Mitti|Teri Mitti Kesari
+Teri Mitti|Teri Mitti Female Kesari
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
