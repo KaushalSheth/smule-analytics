@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not toolsOutput %}
+    <div class="content">
+      <p>No output found! <a href="{{ url_for('utilities') }}">Try another tool search</a>
+    </div>
+  {% endif %}
+
+  <br><br>
+  <table style="width:100%">
+      <tbody>
+          <tr>
+              <td>Output for {{ title }} generated on {{ currtime }}</td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+
+<br>
+Owners:&nbsp;
+{% for row in toolsOutput["owners"] %}
+    {{ row }},&nbsp;
+{% endfor %}
+<br><br>
+Joiners:&nbsp;
+{% for row in toolsOutput["joiners"] %}
+    {{ row }},&nbsp;
+{% endfor %}
+
+{% endblock %}

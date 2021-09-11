@@ -1,15 +1,18 @@
 import os
 import ast
+import asyncio
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
+from .tools import loadDynamicHtml, titlePerformers, getHtml
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
 searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
+utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular'}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
 search_user = None
@@ -197,6 +200,28 @@ def create_app(test_config=None):
         else:
             return redirect(url_for('query_smule_performances'))
 
+    # The utilities page allows you to execute one of the utilities
+    @app.route('/utilities', methods=('GET','POST'))
+    def utilities():
+        global user, utilitiesOptions
+        update_currtime()
+
+        # When the form is posted, store the form field values into global variables
+        if request.method == 'POST':
+            toolName = request.form["btn"]
+            utilitiesOptions['title'] = request.form["title"].replace(" ","+")
+            utilitiesOptions['url'] = request.form["url"]
+            if toolName == "Recent Performers":
+                return redirect(url_for('title_performers', sort='recent'))
+            elif toolName == "Popular Performers":
+                return redirect(url_for('title_performers', sort='popular'))
+            if toolName == "Get HTML":
+                return redirect(url_for('get_html'))
+
+        # When the form is fetched, initialize the global variables and display the search form
+        user = None
+        return render_template('utilities_choice.html')
+
     # The Analytics page allows you to choose one of the analytics "reports" you wish to display
     @app.route('/analytics', methods=('GET','POST'))
     def analytics():
@@ -241,6 +266,24 @@ def create_app(test_config=None):
         return render_template('analytics_choice.html')
 
     # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/title_performers/<sort>')
+    def title_performers(sort):
+        global toolsOutput, utilitiesOptions
+        utilitiesOptions['sort'] = sort
+        toolsOutput = titlePerformers(utilitiesOptions)
+        flash(f"{len(toolsOutput['owners'])} owners and {len(toolsOutput['joiners'])} joiners fetched from Smule")
+        return redirect(url_for('tools_output'))
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/get_html')
+    def get_html():
+        global toolsOutput, utilitiesOptions
+
+        toolsOutput = getHtml(utilitiesOptions)
+        flash(f"{len(toolsOutput['owners'])} owners and {len(toolsOutput['joiners'])} joiners fetched from Smule")
+        return redirect(url_for('tools_output'))
+
+    # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_analytics')
     def query_analytics():
         global headings, analytics, analyticsOptions
@@ -249,6 +292,13 @@ def create_app(test_config=None):
         headings,analytics = fetchDBAnalytics(analyticsOptions)
         flash(f"{len(analytics)} rows fetched from database")
         return redirect(url_for('analytics_output'))
+
+    # Generic route for displaying analytics using global variables
+    @app.route('/tools_output')
+    def tools_output():
+        global toolsOutput, currtime, utilitiesOptions
+        # This assumes that the analytics global variable is set by the time we get here
+        return render_template('tools_output.html', toolsOutput=toolsOutput, currtime=currtime, title=utilitiesOptions["title"])
 
     # Generic route for displaying analytics using global variables
     @app.route('/analytics_output')

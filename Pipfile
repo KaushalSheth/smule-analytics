@@ -7,7 +7,7 @@ verify_ssl = true
 python-dotenv = "*"
 
 [packages]
-flask = "*"
+flask = {extras = ["async"], version = "*"}
 psycopg2-binary = "2.8.5"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
@@ -26,6 +26,7 @@ libmagic = "*"
 mutagen = "*"
 requests-html = "*"
 pyperclip = "*"
+pyppeteer = "*"
 
 [requires]
 python_version = "3.8"

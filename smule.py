@@ -495,6 +495,8 @@ def fetchPartnerInvites(inviteOptions,numrows):
     performedList = []
     titleList = []
     performedSQL = "select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances group by 1,2"
+    # Debugging SQL below - comment out above line and uncomment below line for debugging
+    #performedSQL = "select 'a|b' as performed, 'b' as fixed_title, '2020-01-01' as last_time"
     performedResultset = execDBQuery(performedSQL)
     for p in performedResultset:
         performedList.append(p)
@@ -604,9 +606,12 @@ def fetchPartnerInvites(inviteOptions,numrows):
             finalPartnerList = []
             knownCount = 0
             unknownCount = 0
-            # Loop through the partenr list in random order
-            random.shuffle(partnerList)
-            for p in partnerList:
+            # Sort partner list in random order
+            #sortedPartnerList = random.sample(partnerList,len(partnerList))
+            # Sort partner list by created timestamp (oldest first)
+            sortedPartnerList = sorted(partnerList, key=lambda k: k['created_at'])
+            # Loop through the sorted partenr list
+            for p in sortedPartnerList:
                 t = p['fixed_title']
                 ptrTitle = p['performers'] + "|" + t
                 isRepeat = any(p['performed'] == ptrTitle for p in performedList)

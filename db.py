@@ -43,30 +43,28 @@ def dateDelta(input_date,deltaStr,deltaOp='+'):
 # Method to fix DB Titles using title Mappings
 def fixDBTitles(titleMappings):
     fixCount = 0
-    # Define a title mapping temp table with the data in the dict sent in
-    tblTitleMapping = Table("tmp_title_mapping", db.metadata,
-        Column("smule_title", db.String(100)),
+    # Define a title mapping table with the data in the dict sent in
+    tblTitleMapping = Table("title_mapping", db.metadata,
+        Column("smule_title", db.String(100), primary_key=True),
         Column("mapped_title", db.String(100)),
         extend_existing=True,
         )
-    # Create the temp table
-    tblTitleMapping.create(bind=db.session.get_bind())
-    # Insert all titleMappings into the table
+    # Truncate teh table and load all titleMappings into the table
+    result = db.session.execute('truncate table title_mapping')
     result = db.session.execute(tblTitleMapping.insert().values([{"smule_title": s, "mapped_title": m} for s,m in titleMappings.items()]))
     # Update rows where title matches a row in temp table
     updateSQL = """
     update  performance p
-    set     fixed_title = tmp.mapped_title,
-            filename = replace(filename,tmp.smule_title,tmp.mapped_title),
+    set     fixed_title = tm.mapped_title,
+            filename = replace(filename,tm.smule_title,tm.mapped_title),
             updated_at = now()
-    from    tmp_title_mapping tmp
-    where   p.fixed_title = tmp.smule_title
-    and     p.fixed_title != tmp.mapped_title
+    from    title_mapping tm
+    where   p.fixed_title = tm.smule_title
+    and     p.fixed_title != tm.mapped_title
     """
     fixCount = db.session.execute(updateSQL).rowcount
     print(f"Rows updated = {fixCount}")
     db.session.commit()
-    tblTitleMapping.drop(bind=db.session.get_bind())
 
     return fixCount
 
@@ -91,12 +89,8 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
         where a.rn = 1
         order by case when joiner_stats is null then '0' else '1' end, replace(performers,'_','0')
         """
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        performers.append(d)
+    # Execute the query and build the performers list
+    performers = execDBQuery(sqlquery)
     return performers
 
 # Method to execute specified query and return result as a list of rows
@@ -106,7 +100,7 @@ def execDBQuery(sqlquery):
     result = db.session.execute(sqlquery)
     for r in result:
         # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
+        d = r._asdict()
         results.append(d)
     return results
 
@@ -121,12 +115,8 @@ def fetchDBJoiners(username,fromdate="2018-01-01",todate="2030-01-01"):
         and     p.performers != '{username}'
         order by 1
         """
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        joiners.append(d)
+    # Execute the query and build the joiners list
+    joiners = execDBQuery(sqlquery)
     return joiners
 
 # Method to query performances for a user
@@ -155,7 +145,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     result = db.session.execute(sqlquery)
     for r in result:
         # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
+        d = r._asdict()
         # Convert created_at to string
         d['created_at'] = d['created_at'].strftime("%Y-%m-%dT%H:%M:%S")
         # Add the keys to the dict that are not saved to the DB but used for other processing
@@ -363,11 +353,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     #print(sqlquery)
     # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = dict(r.items())
-        analytics.append(d)
+    analytics = execDBQuery(sqlquery)
     return headings,analytics
 
 # Save the performances queried from Smule to the DB
