@@ -337,11 +337,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
             join14DayCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
             if joinCount == 0:
-                joinMessage = " Please do join some of my invites as well"
+                # No longer want to send join messages
+                #joinMessage = " Please do join some of my invites as well"
+                joinMessage = ""
             elif join14DayCount == 0:
-                joinMessage = " Please do join some of my invites again"
+                #joinMessage = " Please do join some of my invites again"
+                joinMessage = ""
             else:
-                joinMessage = " Please keep joining my invites as well"
+                #joinMessage = " Please keep joining my invites as well"
+                joinMessage = ""
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":

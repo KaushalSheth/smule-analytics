@@ -60,6 +60,7 @@ Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
+Aaja Re Aaja Re O Mere Dilbar|Aaja Re Aaja Re O Mere
 Aaja Re Ab Mera Dil Pukara|Aaja Re Ab Mera Dil Pukare
 Aaja Re Pardesi|Aaja Re Pardesi
 Aaja Re Pardesi|Aaja Re Pardesi Mai To Kabse Khadi Is
@@ -111,6 +112,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Ye Kya Keh Diyah Kya Keh Diya
 Aankhon Se Tune Ye|Aankhon Se Tune Ye Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye Kya
+Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aap Aaye Bahaar Aayi|Aap Aaye Bahaar Aayi 41
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Jaisa Koi|😋Aap Jaisa Koi
@@ -139,6 +141,7 @@ Aap Ki Aankhon Mein Kuch|Aapki Ankhon
 Aap Ki Aankhon Mein Kuch|Aapki Aankhon
 Aap Ki Aankhon Mein Kuch|Besaap Ki Ankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Akhon Me Kuch
+Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein Kuchh
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -424,6 +427,7 @@ Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raton Mein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Me
 Bheegi Bheegi Raaton Mein|Bhigi Bhigi Raaton Me
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton Mein Unwind Mix
+Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raat Mein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bholi Si Surat|Bholi Si Surat
@@ -753,6 +757,7 @@ Dil Ki Nazar Se|Dil Ki Nazarse &
 Dil Ki Nazar Se|Srdil Ki Nazar Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
+Dil Ko Karaar Aaya|Dil Ko Karaar Aaya
 Dil Kya Kare|Dil Kya Kare
 Dil Kya Kare|Dil Kya Kare D
 Dil Kya Kare|Dil Kya Kare Jab Kisi Ko
@@ -982,6 +987,7 @@ Haye Rama Ye Kya Hua|Haye Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Haye Rama Yeh Kya Hua
 Haye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
+Haye Rama Ye Kya Hua|Hai Rama Yet Rangeela
 Hazaar Raahe Mud Ke Dekhi|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hello|Hello
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
@@ -997,6 +1003,7 @@ Honthon Se Chhu Lo Tum|Hothonse Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Hoton Se Chulo Tum Ghazal
 Honthon Se Chhu Lo Tum|Hoton Se Chhulo Tum
 Honthon Se Chhu Lo Tum|Hoton Se Chhu Lo Tum
+Honthon Se Chhu Lo Tum|Hothon Se Chhu
 Hoshwalon Ko Khabar Kya|Hosh Walo Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hosh Walon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
@@ -1493,6 +1500,7 @@ Kuch Na Kaho|Kuch Na Kaho Kuch Na
 Kuch Na Kaho|Kuch Na Kaho Na Kaho
 Kuch Na Kaho|Kuchh Na Kaho
 Kuch Na Kaho|Kuch Naa Kaho Title
+Kuch Na Kaho|Kuch Na Kaho Kuch Naa
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -1531,6 +1539,7 @@ Lag Ja Gale|Lag Jaa Gale
 Lag Ja Gale|Lag Jaa Gale Piano Woh Kaun Thi
 Lag Ja Gale|Lagja Gale
 Lag Ja Gale|Lg Jaa Gale Gale Ja Gale Ja Gale
+Lag Ja Gale|Lag Ja Gale Lag Ja Gale
 Laila Main Laila|Laila Main Laila
 Laila Main Laila|Laila O Lailaqurbanilaila Main Laila
 Laila Main Laila|Laila O Laila Laila Main Laila
@@ -1861,6 +1870,7 @@ Nazm Nazm|Tu Nazm Nazm Mere
 Nazm Nazm|Tu Nazm Nazm Sa Mere
 Nazm Nazm|Nazm Nazm Sa Mere Sa Mere Sa
 Nazm Nazm|Nazm Nazm Feat Sumedha Karmahe
+Nazm Nazm|Nazm Nazm Sa Barelee Ki Barfi
 Nazrein Mili Dil Dhadka|Nazrein Mili Dil Dhadka Raja
 Neele Neele Ambar Par|Neele Neele Ambar
 Neele Neele Ambar Par|Neele Neele Ambar Par
@@ -2063,6 +2073,7 @@ Qaafirana|Qaafirana Chillout Mix
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
+Raataan Lambiyan|Raatan Lambiyan
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Akeli Hai|Raat Akeli Hai N
@@ -2145,6 +2156,7 @@ Roop Tera Mastana|Roop Tera Masthana
 Roop Tera Mastana|Roop_Tera_Mastana
 Roop Tera Mastana|Roop Tera Mastana Rock Series
 Rooth Na Jana|Rooth Na Jana
+Roshni Se|Roshni Se
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
@@ -2348,6 +2360,7 @@ Tera Ban Jaaunga|Tera Ban Jaunga Kabir Singh
 Tera Ban Jaaunga|Tera Ban Jaunga Tera Ban Jaunga
 Tera Chehra|Tera Chehra
 Tera Chehra|Tera Chehraadnan Sami
+Tera Chehra|Tera Chehra Jab Nazar
 Tera Hone Laga Hoon|Tera Hone Laga Hoon
 Tera Hone Laga Hoon|Tera Hone Laga Hun
 Tera Mera Pyaar Amar|Tera Mera Pyar Amar
