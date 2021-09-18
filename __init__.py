@@ -512,6 +512,7 @@ def create_app(test_config=None):
     def download_all_performances():
         global performances, user
         i = 0
+        numFails = 0
         failedSongs = []
         for performance in performances:
             print("=======================================================================")
@@ -519,14 +520,15 @@ def create_app(test_config=None):
             result = 0
             # Only download joins for ensembles, not the invite itself
             if performance["create_type"] != "invite":
-                result += downloadSong(performance["web_url_full"], "/tmp/", performance['filename'],performance,user)
+                result = downloadSong(performance["web_url_full"], "/tmp/", performance['filename'],performance,user)
                 if result == 0:
                     i += 1
                 else:
+                    numFails += 1
                     failedSongs.append(performance['filename'])
-        retVal = f"Successfully downloaded {i} songs to /tmp"
+        retVal = f"Successfully downloaded {i} songs to /tmp; {numFails} downloads failed"
         if len(failedSongs) > 0:
-            retVal += "\nFailed to download: " + '.'.join(failedSongs)
+            retVal += "\nFailed to download: " + ', '.join(failedSongs)
         print(retVal)
         return retVal
 

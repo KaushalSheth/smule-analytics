@@ -764,6 +764,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         if "'NoneType' object has no attribute 'group'" in str(e):
+            print("Recording not available - attempting to play in order to make it available")
             media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
             # webbrowser registration does not seem to be needed
             #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
@@ -773,8 +774,8 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         else:
             print(str(e))
         print("-----")
-        if (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
-            raise
+        #if (not "HTTP Error 504" in str(e)) and (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
+            #raise
         return 1
 
     try:
