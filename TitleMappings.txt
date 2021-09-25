@@ -113,6 +113,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Ye Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye Kya
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
+Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aap Aaye Bahaar Aayi|Aap Aaye Bahaar Aayi 41
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Jaisa Koi|😋Aap Jaisa Koi
@@ -186,6 +187,7 @@ Aaye Ho Meri Zindagi Mein|Ayeho Meriho Meri Ho
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aayega Aane Wala|Aaega Aane Wala
 Aayega Aane Wala|आएगा, आएगा, आएगा आने वाला आएगा
+Aayega Aane Wala|Aayega Aayega Aanewala
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Tere Bin|Ab Tere Bin
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein
@@ -222,6 +224,7 @@ Ae Ajnabi|Aye Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|E Ajnabi
 Ae Ajnabi|Aye Ajnabi
 Ae Ajnabi|Ae Ajnabee Tu Bhi Kabhi
+Ae Ajnabi|Ae Ajnabi Tu Bhi Kabhi
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
@@ -855,6 +858,7 @@ Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
+Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo
 Edelweiss|Edelweiss
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Hoga
@@ -907,6 +911,7 @@ Ek Pyaar Ka Nagma Hain|Ekpyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Un🅟lugg🅔dek Pyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagma
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Song
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hain
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
@@ -1400,6 +1405,7 @@ Kanha Maane Na|Kanha Maane Na
 Kanha Maane Na|Kanha Mane Na
 Karvatein Badalte|Karvatein Badalte
 Karvatein Badalte|Karvatein Badalte Rahein
+Karvatein Badalte|Karvate Badalte Rahe Karwate
 Kathai Aankhoon Wali Ek Ladki|Kathai Aankhoon Wali Ek Ladki
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya I
