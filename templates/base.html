@@ -19,16 +19,21 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='bulma.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='highlight.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.2.0/css/fixedHeader.dataTables.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/fixedheader/3.2.0/js/dataTables.fixedHeader.min.js"></script>
     <script type="text/javascript" charset="utf8" src="../static/utils.js"></script>
 	<script type=text/javascript>
 		$(document).ready(function() {
-            $('#mytable').DataTable( {
+            var table = $('#mytable').DataTable( {
+                "responsive": true,
+                "pging": false,
                 "lengthMenu": [[50, 100, 150, 200, -1], [50, 100, 150, 200, "All"]],
                 "order": [[ 1, "desc" ]]
-            } );
+                } );
+            new $.fn.dataTable.FixedHeader( table );
         } );
 	</script>
   </head>

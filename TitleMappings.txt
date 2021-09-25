@@ -60,7 +60,6 @@ Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
-Aaja Re Aaja Re O Mere Dilbar|Aaja Re Aaja Re O Mere
 Aaja Re Ab Mera Dil Pukara|Aaja Re Ab Mera Dil Pukare
 Aaja Re Pardesi|Aaja Re Pardesi
 Aaja Re Pardesi|Aaja Re Pardesi Mai To Kabse Khadi Is
@@ -1892,6 +1891,8 @@ New Vs Old Bollywood Mashup|New Vs Old Bollywood Songs Mashup
 Nimbooda Nimbooda|Nimbooda Nimbooda
 Noorie Noorie|Noorie Noorie
 Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
+Noorie Noorie|Aaja Re Aaja Re O Mere Dilbar
+Noorie Noorie|Aaja Re Aaja Re O Mere
 O Hansini|Hansini
 O Hansini|O Hansini
 O Hansini|O Hansini Karaoke
