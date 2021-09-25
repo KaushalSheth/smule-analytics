@@ -732,13 +732,14 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
 def downloadSong(web_url,baseFolder,file,performance,username):
     # Construct full path to filename
     filename = baseFolder + file
-    # Print filename
-    print(filename)
 
     # If the file already exists, skip it
     if path.exists(filename):
-        print("ALREADY EXISTS")
+        print(f"ALREADY EXISTS - {filename}")
         return 0
+
+    # Print filename
+    print(f"Downloading {filename}")
 
     try:
         # Print out the web_url for debugging purposes
