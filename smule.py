@@ -39,15 +39,19 @@ def saveSingerFollowing(username):
     #print(sf[:10])
     return saveDBSingerFollowing(sf)
 
+def fetchDBUserFollowing():
+    rs = execDBQuery("select account_id from singer_following where is_following")
+    followingAccountIds = []
+    for r in rs:
+        followingAccountIds.append(r['account_id'])
+    return followingAccountIds
+
 # Method to query performers
 def checkPartners(inviteOptions):
     performers = []
     sqlquery = inviteOptions['partnersql']
     # Get list of handles of users I'm following
-    rs = execDBQuery("select account_id from singer_following where is_following")
-    followingAccountIds = []
-    for r in rs:
-        followingAccountIds.append(r['account_id'])
+    followingAccountIds = fetchDBUserFollowing()
     #print(followingAccountIds)
     # Execute the query and build the analytics list
     partners = execDBQuery(sqlquery)
@@ -491,7 +495,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
     if (not knowntitles) and (not unknowntitles):
         return performanceList
     # Get list of handles of users I'm following
-    followingAccountIds = [d['account_id'] for d in fetchUserFollowing(MYSELF)]
+    followingAccountIds = fetchDBUserFollowing()
     # print(followingAccountIds)
     # return performanceList
 
@@ -601,7 +605,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
             # If the conditions are not met, skip this partner and process next one
             if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
-                #print(f"--- NOT FOLLOWING {partnerHandle}")
+                print(f"--- NOT FOLLOWING {partnerHandle}")
                 continue
             # Fetch all invites for the partner
             # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name

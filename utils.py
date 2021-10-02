@@ -2,8 +2,8 @@ import re
 import random
 
 COMMENTS = {\
-    'awesome':['exceptional performance 👌👌👌 loved it!','amazing performance 👌👌👌 loved it!','awesome performance 👌👌👌 loved it!'],\
-    'good':['very nicely sung 👌👌','superb singing 👌👌','very nice performance 👌👌','very well sung 👌👌','very nice rendition 👌👌'],\
+    'awesome':['fantastic performance 👌👌👌 loved it!','amazing performance 👌👌👌 loved it!','awesome performance 👌👌👌 loved it!'],\
+    'good':['very nicely sung 👌👌','superb singing 👌👌','very nice performance 👌👌','very well sung 👌👌','very nice rendition 👌👌','beautifully sung 👌👌'],\
     'average':['lovely singing 👌','nicely sung 👌','lovely performance 👌'],\
     'ok':['good attempt']
     }
