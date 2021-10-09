@@ -96,12 +96,16 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
 # Method to execute specified query and return result as a list of rows
 def execDBQuery(sqlquery):
     results = []
-    # Execute the query and build the analytics list
-    result = db.session.execute(sqlquery)
-    for r in result:
-        # Convert the result row into a dict we can add to performances
-        d = r._asdict()
-        results.append(d)
+    # Some queries (like updates) don't return any results, so catch and ignore those errors
+    try:
+        result = db.session.execute(sqlquery)
+        for r in result:
+            # Convert the result row into a dict we can add to performances
+            d = r._asdict()
+            results.append(d)
+    except Exception as e:
+        # If an exception happened, we likely executed an INSERT or UPDATE, so commit it
+        db.session.commit()
     return results
 
 # Method to query performances for a user

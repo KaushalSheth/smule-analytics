@@ -272,6 +272,7 @@ Ae Zindagi Gale Laga Le|Aye Zindagi Gale Lagaa Le
 Ae Zindagi Gale Laga Le|Arijit Ae Zindagi Gale Lagale
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le Arijit
 Aesis Membership Audition|Aesis Membership Audition
+Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
 Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
@@ -332,6 +333,7 @@ Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi
 Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
 Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi Raja
+Akhiyan Milaon Kabhi|Ankhiyaan Milaaoon Kabhi
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -655,6 +657,7 @@ Deewana Hua Baadal|Diwana Hua Badal Pallavi
 Deewana Mastaana|दीवाना मस्ताना हुआ दिल जाने कहाँ हो के
 Deewana Mastaana|Deewana Mastana Hua Dildeewana Mastana
 Deewani Mastani|Deewani Mastani
+Deewani Mastani|Deewani Mastani Without Chorus
 Dekha Ek Khwaab To|Dekha Ek Khwaab Khwab
 Dekha Ek Khwaab To|Dekha Ek Khwaab To
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile
@@ -684,6 +687,7 @@ Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekhte Dekhte|Dekhtedekhte Atif
 Der Se Hua|Der Se Hua Par Pyaar Toh Hua
 Der Se Hua|Der Se Hua
+Desi Girl|: My Desi Girl
 Dhadak|Dhadak
 Dhadak|Dhadak Female
 Dhadak|Dhadak Title Dhadak
@@ -696,6 +700,7 @@ Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Se Dhadakna Bhula De
 Dhak Dhak Karne Laga|Dhakdhak Karne Laga
 Dhal Gaya Din|Dhal Gaya Din
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
+Dhal Gaya Din|Dhal Gaya Din Ho Gayee Shaam
 Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
 Dheere Dheere Aap Mere|Dheeredheere Aap Mere
@@ -972,6 +977,7 @@ Haal Kaisa Hai Janaab Ka|Haal Kesa Hai Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Chalti Ka Naam Gadi
 Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Haay Haay Ye Majboori|Haay Haay Ye Majboorihay Hay Ye Majboori
+Haay Haay Ye Majboori|Haye Haye Yeh Majboori
 Hadh Kar Di Aapne|Hadh Kar Di Aapne
 Hadh Kar Di Aapne|Hadh Kardi Aapne
 Hai Apna Dil To Awara|Hai Apna Dil
@@ -1449,6 +1455,7 @@ Kehna Hi Kya|Kehna Hi Kya
 Kehna Hi Kya|Kehna Hi Kya ~ Unwind
 Kehta Hai Pal Pal|Kehta Hai Pal Pal
 Kehta Hai Pal Pal|Kehta Hai Pal Pal Tumse
+Khaike Paan Banaraswala|Khaike Paan Banaraswala
 Khairiyat|_Khairiyat_Puchho
 Khairiyat|Khairiyat
 Khairiyat|Khairiyat Bonus Karaoke
@@ -1783,6 +1790,7 @@ Meri Saanson Mein Basa Hai|Meri Saanson Mein Basahai
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
+Mil Kar Judaa Huye To|Mil Kar Juda Huay To
 Mile Ho Tum Humko|_Mile_Ho Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum
 Mile Ho Tum Humko|Mile Ho Tum Humko
@@ -1825,6 +1833,7 @@ Musafir Hoon Yaaron|Musafir Hoon Yaaro
 Musafir Hoon Yaaron|Musafir Hoon Yaaro 1972
 Musafir Hoon Yaaron|Musafir Hoon Yaron
 Muthukodi Kawari Hada|Muthu Kodi Kawari Hada
+My Favorite Things|My Favorite Things
 My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
@@ -2203,6 +2212,7 @@ Saagar Kinare|Sagar Kinare Dil Ye Pukare
 Saagar Kinare|Sagar Kinare Dil Ye
 Saagar Kinare|Sagar Kinare Orginal
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
+Saal Bhar Mein|Saal Bhar Mein
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
 Saamne Yeh Kaun Aaya|Samne Ye Kaun Aya
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aaya
@@ -2256,6 +2266,7 @@ Sar Pe Topi Laal|Sar Par Topi Lal
 Sar Pe Topi Laal|Sar Pe Topi
 Sar Pe Topi Laal|Sar Pe Topi Sar Par Topi
 Sar Pe Topi Laal|Sar Pe Topi Lal Haath Mein
+Sar Se Sarke Chunariya|Sar Se Sarke Chunariya
 Saree Ke Fall Sa|Saari Ke Fall Sa
 Saree Ke Fall Sa|Saree Ke Fall Sa
 Saree Ke Fall Sa|Sari Ke Fal Sa
@@ -2389,6 +2400,7 @@ Tera Chehra|Tera Chehraadnan Sami
 Tera Chehra|Tera Chehra Jab Nazar
 Tera Hone Laga Hoon|Tera Hone Laga Hoon
 Tera Hone Laga Hoon|Tera Hone Laga Hun
+Tera Hone Laga Hoon|Tera Hone Laga Hu
 Tera Mera Pyaar Amar|Tera Mera Pyar Amar
 Tera Mera Pyaar Amar|Tera Mera Pyare Amar
 Tera Mera Pyaar Amar|Tera Mera Pyaar Amar
@@ -2436,6 +2448,7 @@ Tere Mere Hothon Pe|Tere Mere Hothon Pegeet Meetwaáa
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Ye Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
+Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Abhimaan
 Tere Mere Sapne Ab Ek Rang Hai|[HD] Tere Mere Sapne Ab Ek Rang Hai (Guide)
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek
@@ -2471,6 +2484,7 @@ Teri Mitti|Teri Mitti Kesari
 Teri Mitti|Teri Mitti Female Kesari
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
+Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
 The Breakup Song|The Breakup Song With Rap

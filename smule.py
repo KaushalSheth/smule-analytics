@@ -179,7 +179,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
 # Fetch invites from DB within date range and then parse ensembles to see if there are new joins.  This is primarily used to load joins for expired invites
 def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
     performances = []
-    sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}'"
+    sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
     invites = execDBQuery(sqlquery)
     print("Start")
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
@@ -188,6 +188,7 @@ def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
         childCount = i['child_count']
         createdAt = i['created_at']
         fixedTitle = i['fixed_title']
+        perfKey = i['key']
         collabCount = 0
         try:
             # The web_url returns an HTML page that contains the link to the content we wish to download
@@ -200,15 +201,16 @@ def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
         except:
             # DEBUG MESSAGE
             print("============")
-            print(web_url)
+            print(f"createdAt = {createdAt}, web_url = {web_url}")
             print("Failed to parse web_url")
             #raise
         if (collabCount > 0) and (childCount < collabCount):
             print("============")
-            print(web_url)
-            print(f"Counts differ - need to parse ensembles for this invite: createdAt = {createdAt}, ChildCount = {childCount}, collabCount = {collabCount}")
+            print(f"createdAt = {createdAt}, web_url = {web_url}")
+            print(f"Counts differ - need to parse ensembles for this invite: ChildCount = {childCount}, collabCount = {collabCount}")
             ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings)
             performances.extend(ensembleList)
+            res = execDBQuery(f"update performance set child_count = {collabCount}, updated_at = current_timestamp where key = '{perfKey}'")
             print("Done")
 
     return performances
