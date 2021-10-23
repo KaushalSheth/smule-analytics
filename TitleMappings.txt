@@ -242,7 +242,7 @@ Ae Dil Hai Mushkil|Ae Dilhai Mushkil
 Ae Dil Hai Mushkil|Aedil Hai Mushkil
 Ae Dil Hai Mushkil|~ Ae Dil Hai Mushkil
 Ae Dil Hai Mushkil|Ae Dil Hai Muskil
-Ae Dil Hai Mushkil|The Breakup Song
+Ae Dil Hai Mushkil|~ Aedil Hai Mushkil
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai Bahaar
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai, Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahaar Kya Kehna
@@ -648,7 +648,8 @@ Dagabaaz Re|Dagabaaz Re Karaoke Dabangg 2
 Dagabaaz Re|Tore Naina Bade Dagabaaz Re
 Dance Pe Chance|Dance Pe Chance
 Dance Pe Chance|Left Leg Aage Aage,Right Leg Piche Piche
-Dard Karara|Dard Karara
+Dard Karaara|Dard Karara
+Dard Karaara|Dard Karaara
 Darde Dil Darde Jigar|Darde Dil Darde Jigar
 Darde Dil Darde Jigar|Darde Dil
 Darling|Darling
@@ -848,6 +849,7 @@ Do Lafzon Ki Hai|Do Lafzonki Hai Asha Bholse
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahaani
 Do Lafzon Ki Hai|Do Lafzon Ki Hai The Great Gambler
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil
+Do Lafzon Ki Hai|Do Lafzon Ki Ye Dil
 Do Naina Ek Kahaani|Do Naina Ek Kahani Masoom
 Do Naina Ek Kahaani|Do Naina Aur Ek Kahani
 Do Pal Ruka|Do Pal Ruka
@@ -969,7 +971,9 @@ Gulabi Aankhen|Gulabi Ankhen
 Gulabi Aankhen|Gulabiaankhen
 Gulabi Aankhen|Gulabi Ankhein Retro Mix
 Gulabi Aankhen|Gulaabi Aankhein
-Gum Hai Kisi Ke|Gum Hai Kisi Ke
+Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
+Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisike Pyaar Mein
+Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
 Gunguna Rahe Hain Bhanwre|[HD] gun guna rahe hai bhanware (aaradhna)
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hai Bhanware
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe
@@ -1174,6 +1178,7 @@ Jaane Chaman Shola Badan|Jaane Chaman Shola Jane
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein
+Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se
 Jaane Jaan Dhoondta|Jaane Ja Dhoondta Phir Raha [Theme Remix]
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondata
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondta
@@ -1298,6 +1303,7 @@ Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Bhigi Bhigi Raton
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
+Jalte Hai Jiske Liye|Jalte Hain Kiske Liye
 Jawaani Jaaneman|Jawaani Jaaneman
 Jawaani Jaaneman|Jawani Jaaneman
 Jawaani Jaaneman|Jawani Jaaneman Haseen Dilruba
@@ -1593,6 +1599,7 @@ Lakhon Hain Nigahon Mein|Laakhon Hai Nigaah Mein Zindagipwdlh 1963
 Lamha Lamha|Lamha Lamha
 Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
+Lamha Lamha|Lamha Lamha Doori Gangster
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Le Mazaa Le|Le Le Mazaa Le
@@ -1794,6 +1801,7 @@ Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
+Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Se
 Meri Duniya Hai|Meri Duniya Hai
 Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
@@ -2320,6 +2328,7 @@ Shola Jo Bhadke|Shola Jo Bhadke
 Shola Jo Bhadke|Shola Jo Bhadke Dil Mera Dhadke
 Silsila Ye Chaahat Ka|Silsila Ye Chahat Ka
 Silsila Ye Chaahat Ka|Silsila Yeh Chaahat Ka
+Silsila Ye Chaahat Ka|Silsila Yeh Chahat Ka
 Soch Na / Sab Tera|Soch Na Sake Sab Tera T
 Soch Na Sake|Airlift
 Soch Na Sake|Soch Na Sake Airlift
@@ -2508,6 +2517,7 @@ Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
+The Breakup Song|The Breakup Song
 The Breakup Song|The Breakup Song With Rap
 The Medley Mujhse Dosti Karoge|The Medley Mujhse Dosti Karoge
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Me
@@ -2737,6 +2747,7 @@ Tumse Achha Kaun Hai|Tumse Achcha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga
+Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse Milke
 Tumse Milne Ki Tamanna Hai|Tumse Milne Ki Tamanna Hai
 Tumse Milne Ki Tamanna Hai|Tumsemilne Ki Tamanna Hai Tumse
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
@@ -2785,6 +2796,7 @@ Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
 Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
+Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajeeb Thi
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Hai Tera Pyaar
