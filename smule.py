@@ -502,18 +502,20 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # return performanceList
 
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
-    performedList = []
     titleList = []
     performedSQL = "select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances group by 1,2"
     # Debugging SQL below - comment out above line and uncomment below line for debugging
     #performedSQL = "select 'a|b' as performed, 'b' as fixed_title, '2020-01-01' as last_time"
-    performedResultset = execDBQuery(performedSQL)
-    for p in performedResultset:
-        performedList.append(p)
+    performedList = execDBQuery(performedSQL)
+    for p in performedList:
         # Build the known title list for use later
         t = p['fixed_title']
         if t not in titleList:
             titleList.append(t)
+
+    # Get list of titles performed this month
+    currMonthTitles = execDBQuery("select distinct fixed_title from my_performances where to_char(created_at,'YYYYMM') = to_char(current_timestamp,'YYYYMM')")
+
     # Initialize counters
     i = 0
     numPerf = 0
@@ -577,7 +579,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Define a function to process a partner list to build a performance list for the number of rows specified
     def createList(partners,numrows,checkstop=False):
         # Define all the non-local variables to inherit from parent method
-        nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf,stopScore,stopHandle
+        nonlocal i,followingAccountIds,inviteOptions,performedList,titleList,knowntitles,unknowntitles,repeats,notfollowing,numPerf,stopScore,stopHandle,currMonthTitles
 
         # Edge case - if numrows = 0 then exit method immediately or number of performances is already at the max
         if (numrows == 0) or (numPerf >= numrows):
@@ -630,6 +632,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
                 else:
                     rptLastTime = ""
                 isUnknown = (t not in titleList)
+                isNewTitle = not any(ct['fixed_title'] == t for ct in currMonthTitles)
                 # We will include the performance only if repeats are allowed or if the performance is not in the list of already performed performances
                 if (repeats or not isRepeat):
                     # We will include known/unknown titles based on options set
@@ -646,6 +649,8 @@ def fetchPartnerInvites(inviteOptions,numrows):
                             p['title'] += f" (RPT:{rptLastTime})"
                         if isUnknown:
                             p['title'] += " (UNKNOWN)"
+                        if isNewTitle:
+                            p['title'] += " (NEW)"
                         # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
                         p['total_listens'] = joinCount
                         p['total_loves'] = partnerSort
