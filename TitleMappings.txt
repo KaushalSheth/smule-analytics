@@ -220,6 +220,7 @@ Acchha Ji Main Haari|Dsj Achha Ji Main Haari
 Acchha Ji Main Haari|Acha Ji Mai Haarichalomaan Jao Na
 Acchha Ji Main Haari|AᑕᑕHa Ji ᗰAiᑎ Haari
 Acchha Ji Main Haari|Achha Ji Main Haari Chalo Maan Jao Na
+Acchha Ji Main Haari|Accha Ji Mai
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -274,6 +275,7 @@ Ae Zindagi Gale Laga Le|Arijit Ae Zindagi Gale Lagale
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le Arijit
 Aesis Membership Audition|Aesis Membership Audition
 Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
+Agar Mujh Se Mohabbat Hai|Agar Mujhse Mohabbat Hai
 Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
@@ -492,6 +494,7 @@ Chaand Ne Kuch Kaha|Chaand Ne Kuch Kaha Karaoke
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
+Chaand Ne Kuch Kaha|Chand Ne Kuch
 Chaand Phir Nikla|Chand Phir Nikla
 Chaand Si Mehbooba Ho Meri|Chand Si Mehbooba Ho Meri
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
@@ -515,6 +518,7 @@ Chali Chali Re Patang|Chali Chali Re Patang
 Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
 Chalo Dildar Chalo|Chalo Dildar Chalo
+Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
 Chalte Chalte|Chalte Chalte
@@ -726,6 +730,7 @@ Dheere Dheere Se|Dheere Dheere Se Song
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
 Dil Apna Aur Preet Paraai|दिल अपना और प्रीत पराई
+Dil Bekarar Sa Hai|Dil Bekarar Sa Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -829,6 +834,7 @@ Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
+Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
 Do Deewane Shaher Mein|Do Deewane Shaher Mein
@@ -932,6 +938,8 @@ Ek Pyaar Ka Nagma Hain|Un🅟lugg🅔dek Pyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagma
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Song
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hain
+Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
+Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
@@ -1047,6 +1055,8 @@ Hum Aapke Hain Kaun|Hum Aapke Hain Koun Kaun
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun
 Hum Bewafaa|Hum Bewafa
 Hum Dono Do Premi|Hum Dono Do Premi
+Hum Pyaar Mein Jalne Waalon Ko|Hum Pyar Mein Jalnewalon Ko
+Hum Tere Bin Kahin|Hum Tere Bin Kahin
 Hum To Deewane Hue Yaar|Hum To Deewane Baadshah
 Hum To Deewane Hue Yaar|Hum To Deewane Baadshah Jkk
 Hum To Deewane Hue Yaar|Hum To Deewane Hue Yaar
@@ -1345,6 +1355,7 @@ Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
 Jiya Re|Jiya Re
 Jiye To Jiye Kaise|Jiye To Jiye Kaise
+Jo Bhi Kasmein|Jo Bhi Kasmein
 Jo Haal Dil Ka|Jo Haal Dil Ka
 Jo Haal Dil Ka|Jo Haal Dil Ka Idhar Ho Raha Hai
 Jo Haal Dil Ka|Jo Haal Dil Ka Jo
@@ -1410,6 +1421,7 @@ Kaho Na Pyaar Hai|Kaho Na Pyar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai Pyar Hain Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyar Hai [}
+Kaise Mizaj Aapke Hai|Kaise Mizaj Aapke Haishor
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani Parineeta
 Kajra Lagake Gajra Sajake|Kajra Lagake Gajra Sajake
@@ -1441,6 +1453,7 @@ Kalank|Kalank Title
 Kamli Kamli|Kamli Kamli
 Kanha Maane Na|Kanha Maane Na
 Kanha Maane Na|Kanha Mane Na
+Kanha Maane Na|Kanha
 Karvatein Badalte|Karvatein Badalte
 Karvatein Badalte|Karvatein Badalte Rahein
 Karvatein Badalte|Karvate Badalte Rahe Karwate
@@ -1679,6 +1692,7 @@ Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahunga 1
 Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
+Main Rahoon Ya Na Rahoon|Main Rahu Ya Na Rahu
 Main Rang Sharbaton Ka|Main Rang Sharbaton Ka
 Main Rang Sharbaton Ka|Mei Rang Sharbaton Ka
 Main Rang Sharbaton Ka|Mein Rang Sharbaton Ka
@@ -1887,6 +1901,7 @@ Na Koi Umang Hai|Na Koi Umang Hai
 Na Na Karte|Na Na Karte
 Na Na Karte|Na Na Karte Pyar Tumhi
 Na Na Karte|Na Na Karte Pyaar
+Na Na Karte|Na Na Karte Pyar
 Na Tum Humein Jaano|Na Tum Hamein Jaano
 Na Tum Humein Jaano|Na Tum Hamein Jano
 Na Tum Humein Jaano|Na Tum Humein Hemant Kumar Na
@@ -1918,6 +1933,7 @@ Nazar Ke Saamne|H D Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Saamne Jigar Ke Paas
 Nazar Ke Saamne|Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Samnenazar Ke
+Nazar Ke Saamne|Nazar Ke Samne Aashiqui
 Nazm Nazm|Nazm Nazm
 Nazm Nazm|Nazm Nazm Mere
 Nazm Nazm|Nazm Nazm Mere Sa Mere Sa
@@ -2164,7 +2180,8 @@ Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Rahein Na Rahein Hum|Rahein Na Rahein Hum
 Rahein Na Rahein Hum|Rahen Na Rahen Hum
-Raina Biti Jaye|Raina Biti Jaye Sham Na Aaye
+Raina Beeti Jaaye|Raina Biti Jaye
+Raina Beeti Jaaye|Raina Biti Jaye Sham Na Aaye
 Raja Ko Rani Se|Raja Ko Rani Se
 Raja Ko Rani Se|Raja Ko Rani Se Ko
 Raja Ko Rani Se|Raja Ko Rani Se Ko Rani Se
@@ -2377,6 +2394,7 @@ Sun Raha Hai|Sun Rahahai Na Tu
 Sun Raha Hai|Sun Raha Hai Na Tu
 Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
+Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
@@ -2912,6 +2930,7 @@ Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padh Kar
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padhkar
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patra Padhkar
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed
+Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patra
 Yeh Nayan Dare Dare|Ye Nayan Dare
 Yeh Nayan Dare Dare|Ye Nayan Dare Dare
 Yeh Nayan Dare Dare|Ye Nayan Dare Dare,
@@ -2971,6 +2990,7 @@ You Are My Sonia|You Are My Sonia
 You Are My Sonia|You Are My Soniya
 Yun Bheegi Bheegi Si Barsaat|Yun Bheegi Bheegi Si Barsat
 Yunhi Tum Mujhse Baat|Yunhi Tum Mujhse Baat Yun Hi
+Yunhi Tum Mujhse Baat|Yuhi Tum Mujhse Baat Karti Ho
 Zalima|Zaalima
 Zalima|Zalima
 Zameen Se Hamein Aasmaan Par|Zameen Se Hamein Aasmaan Par

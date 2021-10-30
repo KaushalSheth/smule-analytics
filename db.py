@@ -197,6 +197,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle in ['Partner Stats','Title Stats']:
         if analyticstitle == 'Partner Stats':
             selcol = "performers"
+            col1alias = "user_search"
+            col2alias = "title_search"
             listcol = "fixed_title"
             headcol1 = "Partner           "
             headcol2 = "First Title       "
@@ -204,6 +206,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             headcol4 = "Title List"
         else:
             selcol = "fixed_title"
+            col1alias = "title_search"
+            col2alias = "user_search"
             listcol = "performers"
             headcol1 = "Song Name         "
             headcol2 = "First Partner     "
@@ -248,7 +252,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 from    perf_stats ps
                 group by 1
                 )
-            select  s.{selcol} as search_text, s.last_performance_time, s.first_performance_time, s.first_list_col,
+            select  s.{selcol} as {col1alias}, s.last_performance_time, s.first_performance_time, s.first_list_col as {col2alias},
                     (((length(s.join_list) - length(replace(s.join_list::varchar,', ',''))) / 2) + 1) as distinct_list_cnt,
                     s.performance_cnt, s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
@@ -264,7 +268,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             'Last Performance Score', '# Performances', '# Partners', '# Invites', '# Joins', 'First Performance', 'Last Performance'\
             ]
         sqlquery = f"""
-            select  fixed_title as search_text, total_score, invite_recency_score, favorite_score_nbr, popularity_score,
+            select  fixed_title as title_search, total_score, invite_recency_score, favorite_score_nbr, popularity_score,
                     first_performance_score, performance_recency_score, num_all_performances, num_partners, num_invites,
                     num_joins, first_performance_time, last_performance_time
             from    my_invite_analysis
@@ -273,7 +277,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle == 'Repeat':
         headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
         sqlquery = f"""
-            select  performers as search_text, fixed_title, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
+            select  performers as user_search, fixed_title as title_search, count(*) num_performances, min(created_at) as first_performance_time, max(created_at) as last_performance_time
             from    my_performances
             where   created_at between '{fromdate}' and '{todate}'
             and     performers != '{username}'
@@ -284,7 +288,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle == 'Favorite Songs':
         headings = ['Song Name', 'Adjusted Weighted Count', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as search_text, adj_weighted_cnt, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            select  fixed_title as title_search, adj_weighted_cnt, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
             order by weighted_cnt desc
             """

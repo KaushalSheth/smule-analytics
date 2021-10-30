@@ -37,9 +37,18 @@
 {% for row in analytics %}
         <tr>
   {%- for k,v in row.items() -%}
-    {%- if k == "search_text" -%}
+    {%- if k == "title_search" -%}
       {%- set search_string =  v.replace(" ","+") %}
-            <td><a href="https://www.youtube.com/results?search_query={{search_string}}+lyrics" target="_blank">{{ v }}</a></td>
+            <td>
+                <a href="https://www.smule.com/search?q={{search_string}}&type=active_seed&sort=popular" target="_blank">{{ v }}</a><br>
+                <a href="https://www.youtube.com/results?search_query={{search_string}}+lyrics" target="_blank">Youtube</a>
+            </td>
+    {%- elif k == "user_search" -%}
+      {%- set search_string =  v.replace(" ","+") %}
+            <td>
+                <a href="https://www.smule.com/{{search_string}}" target="_blank">{{ v }}</a><br>
+                <a href="https://www.smule.com/search?q={{search_string}}&type=active_seed&sort=popular" target="_blank">Invites</a><br>
+            </td>
     {%- else -%}
             <td>{{ v }}</td>
     {%- endif -%}
