@@ -809,11 +809,13 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         af["purd"] = createdat
         af["\xa9cmt"] = f"Performed on {createdat}"
 
-        # Write the JPEG to the M4A file as album cover
-        pic_url = performance['display_pic_url']
-        img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
-        af["covr"] = [img]
-
+        # Write the JPEG to the M4A file as album cover. Ignore any errors reading the image
+        try:
+            pic_url = performance['display_pic_url']
+            img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
+            af["covr"] = [img]
+        except:
+            pass
         # Save the updated tags to the file
         af.save()
     except Exception as e:
