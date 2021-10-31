@@ -12,7 +12,7 @@ perf_day_counts as (
 	group by 1,2
 	),
 perf_stats as (
-	select 	fixed_title, first_performance_time,
+	select 	fixed_title, first_performance_time, current_month_ind,
 			round(adj_perf_1day_cnt::decimal,2) as adj_perf_1day_cnt,
 			round(adj_perf_5day_cnt::decimal,2) as adj_perf_5day_cnt,
 			round(adj_perf_10day_cnt::decimal,2) as adj_perf_10day_cnt,
@@ -20,6 +20,7 @@ perf_stats as (
 			perf_30day_cnt, perf_10day_cnt, perf_5day_cnt, perf_1day_cnt, perf_cnt
 	from 	(
 				select 	fixed_title, min(created_at) as first_performance_time,
+						case when to_char(max(created_at),'YYYY-MM') = to_char(current_timestamp,'YYYY-MM') then 1 else 0 end current_month_ind,
 						max(perf_30day_cnt) as perf_30day_cnt,
 						max(perf_10day_cnt) as perf_10day_cnt,
 						max(perf_5day_cnt) as perf_5day_cnt,
@@ -49,6 +50,7 @@ select 	ps.fixed_title, ps.first_performance_time, ps.perf_cnt,
             (ps.perf_10day_cnt::decimal*30) +
             (ps.perf_30day_cnt::decimal*10) +
 			ps.perf_cnt
-		) weighted_cnt
+		) weighted_cnt,
+		ps.current_month_ind
 from 	perf_stats ps
 ;

@@ -43,11 +43,11 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
             end +
             (1.0*p.performance_last_14_days_cnt/2) +
             p.join_last_14_days_cnt as rating,
-            p.recency_score,
-            p.last_performance_time,
-            p.first_performance_time,
-            s.pic_url as display_pic_url,
-            coalesce(sf.is_following,false) as is_following
+        p.recency_score,
+        p.last_performance_time,
+        p.first_performance_time,
+        s.pic_url as display_pic_url,
+        coalesce(sf.is_following,false) as is_following
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join singer_following sf on sf.account_id = p.partner_account_id

@@ -213,7 +213,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             headcol2 = "First Partner     "
             headcol3 = "# Partners"
             headcol4 = "Partner List"
-        headings = [headcol1,'LastTime     ','First Time   ',headcol2,headcol3,'# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time',headcol4]
+        headings = [headcol1,'LastTime     ','First Time   ','Score',headcol2,headcol3,'# Perf','# Joins','P: 1st 30 Days','P: Last 30 Days', 'J: Last 30 days','Last Join Time',headcol4]
         # Build appropriate query
         # Start with the base query
         sqlquery = f"""
@@ -252,14 +252,16 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 from    perf_stats ps
                 group by 1
                 )
-            select  s.{selcol} as {col1alias}, s.last_performance_time, s.first_performance_time, s.first_list_col as {col2alias},
+            select  s.{selcol} as {col1alias}, s.last_performance_time, s.first_performance_time, coalesce(fp.recency_score, fs.adj_weighted_cnt, 0) as score, s.first_list_col as {col2alias},
                     (((length(s.join_list) - length(replace(s.join_list::varchar,', ',''))) / 2) + 1) as distinct_list_cnt,
                     s.performance_cnt, s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
                     inner join perf p on p.{selcol} = s.{selcol}
-            group by 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12
+                    left outer join favorite_partner fp on fp.partner_name = s.{selcol}
+                    left outer join favorite_song fs on fs.fixed_title = s.{selcol}
+            group by 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13
             order by 2 desc
             """
     elif analyticstitle == 'Invite':
@@ -286,11 +288,21 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Adjusted Weighted Count', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Current Month', 'Adjusted Weighted Count', 'Weighted Count', 'First Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, adj_weighted_cnt, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, weighted_cnt, first_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
-            order by weighted_cnt desc
+            order by adj_weighted_cnt desc
+            """
+    elif analyticstitle == 'Favorite Partners':
+        headings = ['Partner', 'Recency Score', 'Rating', 'First Perf Time', '# Performances', '# Joins', '# Favorites', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following']
+        sqlquery = f"""
+            select  partner_name,
+                    round(case when recency_score > 100000 then recency_score - 100000 when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
+                    round(case when rating = 99999 then 0 else rating end, 2) as rating,
+                    first_performance_time, performance_cnt, join_cnt, favorite_cnt, last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following
+            from    favorite_partner
+            order by recency_score desc
             """
     elif analyticstitle == 'Period Stats':
         headings = ['#','Period','# Performances','Total Performances','# Invites','Total Invites','# Joins','Total Joins','Joins Per Invite','Join %',\
