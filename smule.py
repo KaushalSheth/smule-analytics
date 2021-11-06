@@ -639,7 +639,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     # Debugging SQL below - uncomment it to override above SQL
-    partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'SonuJohn15'"
+    #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'KaushalSheth1'"
     print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
     partnersTop = execDBQuery(partnersql)
 
