@@ -282,6 +282,10 @@ Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
 Agar Tum Na Hote|Moodsagar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki
 Agar Tum Na Hote|Humein Aur Jeene Ki
+Agar Tum Na Hote|Hame Aur Jeene Hume
+Agar Tum Na Hote|Hamein Aur Jeene
+Agar Tum Na Hote|Hamein Aur Jeene Ki
+Agar Tum Na Hote|Humein Aur Jeene Ki
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -879,6 +883,7 @@ Dum Bhar Jo Udhar|Dum Bhar Jo Udhar
 Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
 Dum Dum Diga Diga|Dum Dum Diga Diga
 Dum Maro Dum|Dum Maro Dum
+Dum Maro Dum|Dum Maaro Dum Hare Krishna Hare R
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
@@ -940,6 +945,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Song
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hain
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
+Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
@@ -982,6 +988,7 @@ Gulabi Aankhen|Gulaabi Aankhein
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisike Pyaar Mein
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
+Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke Pyar Mein
 Gunguna Rahe Hain Bhanwre|[HD] gun guna rahe hai bhanware (aaradhna)
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hai Bhanware
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe
@@ -1068,9 +1075,6 @@ Hum Tum Ek Kamrey Mein Band Ho|Humtum Ek Kamrey Mein
 Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
-Humein Aur Jeene Ki|Hame Aur Jeene Hume
-Humein Aur Jeene Ki|Hamein Aur Jeene
-Humein Aur Jeene Ki|Hamein Aur Jeene Ki
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
 Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
@@ -1370,6 +1374,7 @@ Jo Wada Kiya Woh|Jo Wada Kiya Woh
 Jo Wada Kiya Woh|Jo Wada Kiya Wo Nibhana
 Joote Do Paise Lo|Joote Do Paise Lo
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
+Kaali Ghata Chhaye|Kaali Ghata Chaye Mora Jiya Tarasaye
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Re
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
@@ -1401,6 +1406,7 @@ Kab Ke Bichde Hue Aaj|Kab Ke Biche Hue Ham
 Kahaan Se Aaye Badra|Kahan Se Aaye Badra
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
 Kahaan Tak Ye Man Ko|Kahan Tak
+Kahaan Tak Ye Man Ko|Kahan Tak Yeh Man Ko Andhere Hindi Lyrics
 Kahin Deep Jale Kahin Dil|Kahin Deep Jale Kahin Dil 720P
 Kahin Deep Jale Kahin Dil|2 Kahin Deep Jale Kahin Dil
 Kahin Door Jab Din Dhal Jaaye|[Short™] Kahin door Jab Dil Dhal Jaye (Anand)
@@ -1534,6 +1540,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
+Kitni Bechain Hoke|Kitni Bechain Hoke
 Koi Bata De Dil Hai Jahaan|Koi Bata De Dil Hai Jahan
 Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
@@ -2832,6 +2839,7 @@ Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
+Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai
 Yaara Sili Sili|Yaara Sili Sili
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
@@ -2887,6 +2895,7 @@ Yeh Haseen Wadiyan|Yeh Haseen Wadiyan
 Yeh Haseen Wadiyan|Yeh Haseen Waadiya Yeh Haseen Wadiya
 Yeh Haseen Wadiyan|Yeh Haseen Vadiyan Yeh Khula Aasman
 Yeh Jeevan Hai|Yeh Jeevan Hai
+Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat Hai
