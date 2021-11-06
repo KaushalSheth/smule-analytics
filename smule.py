@@ -239,6 +239,9 @@ def fetchPartnerInfo():
 
 def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     global rsPartnerInfo
+    # If rsPartnerInfo is not defined, then populate it
+    try: rsPartnerInfo
+    except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
 
 # Create performance list out of a performances JSON that is passed in
