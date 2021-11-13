@@ -86,6 +86,7 @@ Aane Wala Pal|Aanewala Pal Jaanewala Hai
 Aane Wala Pal|Aanewala Pal Janewala Hai
 Aane Wala Pal|Aane Wala Pal Jaane Wala Hai
 Aane Wala Pal|Aanewala Pal Janewala
+Aankh Maare|Aankh Maare
 Aankhen Khuli Ho Ya Ho Band|>> Ankhein Khuli Ho
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhen Khuli Ho Ya Ho Band
@@ -398,6 +399,7 @@ Bachna Ae Haseeno|Bachna Ai Hasino
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
+Bade Acchhe Lagate Hain|Bade Ache Lagte Hai :
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
@@ -406,6 +408,7 @@ Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Baharon Phool Barsao|Baharon Phool Barsao
 Baharon Phool Barsao|Baharon Phool Barsao Phool
+Bahut Dur Mujhe|Bahut Dur Mujhe
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Male
@@ -713,6 +716,7 @@ Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Karaoke
 Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Laga
 Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Se Dhadakna Bhula De
 Dhak Dhak Karne Laga|Dhakdhak Karne Laga
+Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Dhak Dhak
 Dhal Gaya Din|Dhal Gaya Din
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Shaam
@@ -917,6 +921,7 @@ Ek Din Aap Yoon Humko|Maine Socha Na Tha
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhagi Si
+Ek Ladki Bheegi Bhaagi Si|Mz Ek Ladki Bheegi Bhaagi Si
 Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha
 Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha 1942 A Love Story
 Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha To Aisa Laga
@@ -1375,6 +1380,7 @@ Jo Wada Kiya Woh|Jo Wada Kiya Wo Nibhana
 Joote Do Paise Lo|Joote Do Paise Lo
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Kaali Ghata Chhaye|Kaali Ghata Chaye Mora Jiya Tarasaye
+Kaali Ghata Chhaye|Kaali Ghata Chhaaye Mora Jiya : Sujata
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Re
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
@@ -2157,6 +2163,7 @@ Qaafirana|Qaafirana Karaoke
 Qaafirana|Qaafirana Kedarnath
 Qaafirana|Qafirana
 Qaafirana|Qaafirana Chillout Mix
+Qaafirana|Qaafirana Rip Sushantsinghrajput
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
@@ -2788,6 +2795,7 @@ Ude Jab Jab Zulfein Teri|Ude Jab Zulfein Teri
 Ude Jab Jab Zulfein Teri|Ure Jab Jab Zulfein Teri
 Ude Jab Jab Zulfein Teri|🌺Ude Jab Jab Zulfein🍁 Teri🍁 (High Quality)
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
+Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
@@ -2923,6 +2931,7 @@ Yeh Ladka Haaye Allah|Yeh Ladka Hai Allah
 Yeh Ladka Haaye Allah|Yeladkahaye Allah
 Yeh Ladka Haaye Allah|Ye Ladka Hai Allah Kaisaasha Bhonsle
 Yeh Ladka Haaye Allah|Ye Ladka Hai Allah
+Yeh Ladka Haaye Allah|Ye Ladka Haye
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
@@ -3012,6 +3021,7 @@ Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lun Mai
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Mein
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lu Main
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main Ultra Clean
+Zara Saamne To Aao Chhaliye|Zara Saamne To Aao Chhaliye
 Zara Zara Bahekta Hai|Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai
