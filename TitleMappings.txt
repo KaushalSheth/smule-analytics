@@ -252,6 +252,7 @@ Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Kya Kehna
 Ae Dil Mujhe Bata De|Ae Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|Aye Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|ऐ दिल मुझे बता दे Aye Dil Mujhe Bata
+Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe
 Ae Gulbadan Ae Gulbadan|Ae Gulbadan Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Mere Humsafar|Ae Mere Humsafar
@@ -343,6 +344,7 @@ Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
 Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi Raja
 Akhiyan Milaon Kabhi|Ankhiyaan Milaaoon Kabhi
+Akhiyan Milaon Kabhi|Akhiyan Milau Kabhi
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -387,6 +389,8 @@ Baahon Ke Darmiyaan|Bahon Ke Darmiyan
 Baahon Ke Darmiyaan|Bahonke Darmiyan Khamoshi Movie
 Baahon Ke Darmiyaan|Digibahon Ke Darmiyan
 Baahon Ke Darmiyaan|Baahon Ke Darmiyan
+Baahon Ke Darmiyaan|Bahon Ke Darmiyankhamoshi
+Baahon Ke Darmiyaan|Bahon Ke Darmiyanme
 Baahon Mein Chale Aao|Bahon Mein Chale Aao
 Baahon Mein Chale Aao|Bahon Mein Chali Aao Sweet
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
@@ -458,6 +462,7 @@ Bhumro Bhumro|Bumbro Bumbro
 Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
+Bol Na Halke Halke|Bolna Halke Halke
 Bole Chudiyan|Bole Chudiy
 Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
@@ -1147,6 +1152,7 @@ Isharon Isharon Mein|Isharon Isharon Mein
 Isharon Isharon Mein|Isharon Isharon Mein Isharon Mein
 Isharon Isharon Mein|Isharon Isharon Men Dil Lenewale
 Isharon Isharon Mein|Isharon Isharon Mein Dil Lene
+Isharon Isharon Mein|Isharon Isharon Me Dil Lene Wale Bata
 Ishq Bina|Is Bina
 Ishq Bina|Is Bina Kiya Jeena
 Ishq Hua|Is Hua
@@ -1189,6 +1195,7 @@ Jaan Nisaar|Jaan 'Nisaar
 Jaan Nisaar|Jaan Nisaar
 Jaan Nisaar|Jaan ‘Nisaar
 Jaan Nisaar|Jaan Nisar Hai
+Jaan Nisaar|Jaan Nisar
 Jaan Pehchan Ho|Jaan Pehchan Ho
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
@@ -1620,6 +1627,7 @@ Laila Main Laila|Laila Main Laila
 Laila Main Laila|Laila O Lailaqurbanilaila Main Laila
 Laila Main Laila|Laila O Laila Laila Main Laila
 Lakdi Ki Kathi|Lakdi Ki Kathi
+Lakdi Ki Kathi|Lakdi Ki Kathi Kathi Pe Ghoda
 Lakhon Hain Nigahon Mein|Lakhon Hain Nigahon Mein
 Lakhon Hain Nigahon Mein|Laakhon Hai Nigaah Mein Zindagipwdlh 1963
 Lamha Lamha|Lamha Lamha
@@ -1688,6 +1696,7 @@ Main Hoon Na|Mainhoon Na, Main Hoo Na Mai Hoo Na
 Main Hoon Shab|Main Hoon Shab
 Main Jis Din Bhulaa Du|Main Jis Din Bhulaa Du
 Main Jis Din Bhulaa Du|Mein Jis Din Bhula Dun Tera Pyar Dilse
+Main Jis Din Bhulaa Du|Main Jis Din Bhula Du
 Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
@@ -1773,6 +1782,7 @@ Mera Dil Bhi Kitna|Mera Dil Meradilbhikitna
 Mera Dil Bhi Kitna|Mera Dil Bhi मेरा दिल भी
 Mera Dil Bhi Kitna|Mera Dil_Bhi_Kitna
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
+Mera Jeevan Kora Kaagaz|Mera Jeevan Kora Kagaz
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Joota Hai Japani|Mera Joota Hai Jaapani
 Mera Naam Chin Chin Chu|Mera Naam Chin Chin Chu
@@ -1936,6 +1946,7 @@ Na Ye Chand Hoga Na Taare Rahenge|Na Yeh Chand Hoga
 Naam Gum Jayega|Naam Ghum Jayega
 Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
+Naina|Naina
 Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
 Naino Mein Sapna|Naino Me Sapna Sapno Me Sajna
@@ -2593,6 +2604,7 @@ Tu Jahaan Jahaan Chalega|[Short®️] Tu jahan jahan chalega mera saaya
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega Mera Saaya
 Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mai Sur Mila Le
+Tu Jo Mere Sur Mein|~ Tu Jo Mere Sur Mein
 Tu Mera Jaanu Hai|Tu Mera Jaanu Hai
 Tu Mera Jaanu Hai|Tu Mera Janu Hai
 Tu Mere Samne|Tu Mere Samne
@@ -2904,6 +2916,7 @@ Yeh Haseen Wadiyan|Yeh Haseen Waadiya Yeh Haseen Wadiya
 Yeh Haseen Wadiyan|Yeh Haseen Vadiyan Yeh Khula Aasman
 Yeh Jeevan Hai|Yeh Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
+Yeh Jeevan Hai|ये जीवन है
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat Hai
@@ -3039,6 +3052,7 @@ Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri
 Zindagi Ka Safar|Zindagi Ka Safar
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Manna Dey
+Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Haye
 Zindagi Ke Safar Mein|Zindagi Ke Safar Me,,
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha

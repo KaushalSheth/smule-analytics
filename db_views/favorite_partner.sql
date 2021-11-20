@@ -7,7 +7,7 @@ perf as (
             case when f.performance_key is not null then 1 else 0 end favorite_ind,
             case when l.item_name is not null then 1 else 0 end always_include_ind
     from    my_performances p
-    left outer join performance_favorite f on f.performance_key = p.key
+    left outer join performance_favorite f on f.performance_key = p.key and f.rating_nbr = 5
     left outer join smule_list l on l.list_type = 'INCLUDE_PARTNER' and l.item_name ilike p.performers
             -- Eclude my performances
     where   performers != 'KaushalSheth1'

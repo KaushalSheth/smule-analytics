@@ -31,9 +31,9 @@
       <th>#</th>
 {%- endif -%}
 {%- if searchOptions['searchType'] == "partnerinvites" -%}
-      <th>Created Time</th><th>Title</th><th>Partner</th><th>Total Joins</th><th>Recency Score</th><th>Download Link</th><th>Play Song</th>
+      <th>Created Time</th><th>Title</th><th>Partner</th><th>Total Joins</th><th>Recency Score</th><th>Action</th><th>Play Song</th>
 {%- else -%}
-      <th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Download Link</th><th>Play Song</th>
+      <th>Created Time</th><th>Title</th><th>Partner</th><th>Listens</th><th>Loves</th><th>Action</th><th>Play Song</th>
 {%- endif -%}
     </thead>
     <tbody>
@@ -56,7 +56,7 @@
         <td>{{ performance.created_at }}</td>
         <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
 {%- if not searchOptions['offline'] -%}
-          <a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+          <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
 {%- endif -%}
         </td>
   {%- if searchOptions['offline'] -%}
@@ -68,7 +68,7 @@
   {%- if searchOptions['offline'] -%}
         <td><a href="{{ performance.web_url }}" target="_blank">Play only</a></td>
   {%- else -%}
-        <td><a href="/download_performance/{{ performance.key }}" target="_blank">Download</a></td>
+        <td><a href="/download_performance/{{ performance.key }}" target="_blank">Download</a><br>Rating:<a href="/save_db_favorite/{{ performance.key }}/5" target="_blank"> 5 |</a><a href="/save_db_favorite/{{ performance.key }}/4" target="_blank"> 4 |</a><a href="/save_db_favorite/{{ performance.key }}/3" target="_blank"> 3 |</a><a href="/save_db_favorite/{{ performance.key }}/2" target="_blank"> 2 |</a><a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 1</a></td>
   {%- endif -%}
         <td><a href="{{ performance.yt_search }}" target="_blank">{{ performance.filename }}</a></td>
       </tr>

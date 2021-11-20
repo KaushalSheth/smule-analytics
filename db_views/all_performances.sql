@@ -6,5 +6,5 @@ SELECT  p.*,
         case when pf.performance_key is not null then 1 else 0 end favorite_ind
 FROM    performance p
         left outer join singer s on s.performed_by = p.performers
-        left join performance_favorite pf on pf.performance_key = p.key
+        left join performance_favorite pf on pf.performance_key = p.key and pf.rating_nbr = 5
 ;

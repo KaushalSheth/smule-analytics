@@ -67,6 +67,7 @@ class PerformanceSinger(db.Model):
 class PerformanceFavorite(db.Model):
     favorited_by_username = db.Column(db.String(50), primary_key=True)
     performance_key = db.Column(db.String(30), db.ForeignKey('performance.key'), primary_key=True)
+    rating_nbr = db.Column(db.Integer, nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 

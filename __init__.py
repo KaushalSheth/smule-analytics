@@ -5,7 +5,7 @@ import asyncio
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
 from .tools import loadDynamicHtml, titlePerformers, getHtml
 from datetime import datetime
 
@@ -418,6 +418,13 @@ def create_app(test_config=None):
         global user
         user = username
         return redirect(url_for('query_db_performances'))
+
+    # This method tags the specified performance as a favorite
+    @app.route('/save_db_favorite/<perfkey>/<rating>')
+    def save_db_favorite(perfkey,rating):
+        global user, performances
+        retVal = saveDBFavorite(user,perfkey,rating)
+        return str(retVal)
 
     # This executes the db function to fetch performances using global variables set previously
     @app.route('/query_db_performances')

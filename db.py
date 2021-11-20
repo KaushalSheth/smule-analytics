@@ -452,33 +452,36 @@ def saveDBPerformances(username,performances):
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"
 
-# Save the performances queried from Smule to the DB
+# Save the favorite performances using performance key and other attributes
+def saveDBFavorite(username,performanceKey,rating):
+    # Use a try block because we want to ignore performances with bad data
+    # If any error occurs when processing the performance, simply skip it
+    # TODO: Use more granular error checks
+    try:
+        # Process the PerformanceSinger record for the owner of the performance
+        perfFavorite = PerformanceFavorite(\
+                    favorited_by_username = username,\
+                    performance_key = performanceKey,\
+                    rating_nbr = rating\
+                    )
+        db.session.merge(perfFavorite)
+        # Commit all the changes for the performance if no errors were encountered
+        db.session.commit()
+        retVal = 1
+    except:
+        # If any errors are encountered for the performance, roll back all DB changes made for that performance
+        db.session.rollback()
+        retVal = 0
+        # Uncomment following line for debugging purposes only
+        #raise
+    return retVal
+
+# Save the favorite performances using the performance list queried from Smule
 def saveDBFavorites(username,performances):
     i = 0
-    # Need to use deepcopy to copy the list of objects so that the original list does not get overwritten
-    db_performances = copy.deepcopy(performances)
     # Loop through each performance that has been queried
-    for p in db_performances:
-        # Use a try block because we want to ignore performances with bad data
-        # If any error occurs when processing the performance, simply skip it
-        # TODO: Use more granular error checks
-        try:
-            # Process the PerformanceSinger record for the owner of the performance
-            perfFavorite = PerformanceFavorite(\
-                        favorited_by_username = username,\
-                        performance_key = p['key'],\
-                        created_at = p['created_at'],\
-                        )
-            db.session.merge(perfFavorite)
-            # Commit all the changes for the performance if no errors were encountered
-            db.session.commit()
-            i += 1
-        except:
-            # If any errors are encountered for the performance, roll back all DB changes made for that performance
-            db.session.rollback()
-            # Uncomment following line for debugging purposes only
-            #raise
-
+    for p in performances:
+        i += saveDBFavorite(username,p['key'],5)
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} favorites processed"
 
