@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not performers %}
+    <div class="content">
+      <p>No performers found! <a href="{{ url_for('search') }}">Try another search</a>
+    </div>
+  {% endif %}
+
+<table width:100%>
+  <tr>
+  {% for p in performers if p.monthly_rank == 1 %}
+    <th style="text-align:center;">{{p.perf_month_str}}</th>
+  {% endfor %}
+  </tr>
+  <tr>
+  {% for p in performers %}
+    <td style="text-align:center;">
+        <a href="https://www.smule.com/{{p.performers}}" target="_blank"><img src="{{p.pic_url}}" height="125" width="125"><br><b>{{p.performers}}</b><br># Perf: {{p.perf_cnt}}</a>
+    </td>
+    {% if loop.index % 20 == 0 %}
+        </tr>
+        <tr>
+    {% endif %}
+  {% endfor %}
+  </tr>
+</table>
+
+{% endblock %}

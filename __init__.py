@@ -5,7 +5,7 @@ import asyncio
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, execDBQuery
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery
 from .tools import loadDynamicHtml, titlePerformers, getHtml
 from datetime import datetime
 
@@ -62,6 +62,13 @@ def create_app(test_config=None):
         performers = fetchDBPerformers(fromdate, todate)
         update_currtime()
         return render_template('show_performers.html', performers=performers)
+
+    # This method queries the DB for top monthly performers for last 20 months
+    @app.route('/query_top_performers')
+    def query_top_performers():
+        performers = fetchDBTopPerformers()
+        update_currtime()
+        return render_template('top_performers.html', performers=performers)
 
     # This method checks the list of partners using specified partnersql and lists all the partners I am not following
     @app.route('/check_partners')
@@ -163,6 +170,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_smule_invites'))
                 elif request.form['btn'] == 'Search Performers':
                     return redirect(url_for('query_performers'))
+                elif request.form['btn'] == 'Top Performers':
+                    return redirect(url_for('query_top_performers'))
                 elif request.form['btn'] == 'Search DB':
                     return redirect(url_for('query_db_performances'))
                 elif request.form['btn'] == 'Crawl Joiners':

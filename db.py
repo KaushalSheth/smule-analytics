@@ -93,6 +93,40 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = execDBQuery(sqlquery)
     return performers
 
+def fetchDBTopPerformers():
+    performers = []
+    sqlquery = f"""
+        with
+        perf as (
+        	select 	*, date_trunc('MON',created_at) as perf_month
+        	from 	my_performances
+        	-- Ignore joins - only want to count performances that I have joined
+        	where 	join_ind = 0
+        	and 	performers != 'KaushalSheth1'
+        	-- Look at the last 20 months ending last month
+        	and 	created_at >= date_trunc('MON',current_timestamp) - interval '20 months'
+        	and 	created_at < date_trunc('MON',current_timestamp)
+        	),
+        perf_counts as (
+        	select 	perf_month, performers, owner_account_id, count(*) perf_cnt
+        	from 	perf
+        	group by 1,2,3 order by 1,4 desc
+        	),
+        perf_ranked as (
+        	select	*,
+        			row_number() over(partition by perf_month order by perf_cnt desc) as monthly_rank
+        	from 	perf_counts
+        	)
+        select 	pr.*, s.pic_url, to_char(perf_month,'Mon YYYY') as perf_month_str
+        from 	perf_ranked pr
+        		inner join singer s on s.account_id = pr.owner_account_id
+        where 	monthly_rank <= 10
+        order by monthly_rank, perf_month desc;
+        """
+    # Execute the query and build the performers list
+    performers = execDBQuery(sqlquery)
+    return performers
+
 # Method to execute specified query and return result as a list of rows
 def execDBQuery(sqlquery):
     results = []

@@ -1,6 +1,12 @@
 drop view favorite_song;
 CREATE OR REPLACE VIEW favorite_song AS
 with
+perf as (
+	select 	*
+	from 	my_performances
+	-- Exclude joins because that is not something I control and should not factor into favorite song
+	where 	join_ind = 0
+	),
 perf_day_counts as (
 	select a.fixed_title,a.created_at,
 		-- Older counts are worth less than recent counts, so reduce older counts accordingly
@@ -15,11 +21,8 @@ perf_day_counts as (
 		count(case when b.created_at <= a.created_at + interval '10 days' then 1 else null end) as perf_10day_cnt,
 		count(case when b.created_at <= a.created_at + interval '5 days' then 1 else null end) as perf_5day_cnt,
 		count(case when b.created_at <= a.created_at + interval '1 days' then 1 else null end) as perf_1day_cnt
-	from my_performances a
-		inner join my_performances b on b.fixed_title = a.fixed_title and b.created_at between a.created_at and a.created_at + interval '30 days'
-	-- Exclude joins because that is not something I control and should not factor into favorite song
-	where 	a.join_ind = 0
-	and 	b.join_ind = 0
+	from perf a
+		inner join perf b on b.fixed_title = a.fixed_title and b.created_at between a.created_at and a.created_at + interval '30 days'
 	group by 1,2, 3
 	),
 perf_stats as (
