@@ -1,4 +1,4 @@
-from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing
+from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing, GeoCache
 from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
@@ -508,6 +508,30 @@ def saveDBFavorite(username,performanceKey,rating):
         retVal = 0
         # Uncomment following line for debugging purposes only
         #raise
+    return retVal
+
+# Save GeoCache data
+def saveDBGeoCache(lat,lon,city,country):
+    # Use a try block because we want to ignore bad data
+    # If any error occurs when processing the GeoCache, simply skip it
+    try:
+        # Process the PerformanceSinger record for the owner of the performance
+        geoCache = GeoCache(\
+                    lat = lat,\
+                    lon = lon,\
+                    city = city,\
+                    country = country\
+                    )
+        db.session.merge(geoCache)
+        # Commit all the changes for the performance if no errors were encountered
+        db.session.commit()
+        retVal = 1
+    except:
+        # If any errors are encountered for the performance, roll back all DB changes made for that performance
+        db.session.rollback()
+        retVal = 0
+        # Uncomment following line for debugging purposes only
+        raise
     return retVal
 
 # Save the favorite performances using the performance list queried from Smule

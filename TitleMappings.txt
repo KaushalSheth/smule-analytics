@@ -1365,6 +1365,7 @@ Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jis Gali Mein Tera Ghar|Jis Gali Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Galli Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Gali Mein
+Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Na Ho Baalma
 Jitni Dafa|Jitni Dafa Dafa
 Jitni Dafa|Jitni Dafa Dekhu Tumhe
 Jitni Dafa|°Jitni Dafa°
@@ -1792,6 +1793,7 @@ Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Joota Hai Japani|Mera Joota Hai Jaapani
 Mera Naam Chin Chin Chu|Mera Naam Chin Chin Chu
 Mera Pyaar Bhi Tu Hai|Mera Pyar Bhi Tu Hai
+Mera Pyaar Bhi Tu Hai|Mera Pyar Bhi Tu
 Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
@@ -2520,6 +2522,7 @@ Tere Liye|Tere Liye Hum
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain Dabang
 Tere Mast Mast Do Nain|Tere Mast Mast Do Naain
+Tere Mast Mast Do Nain|Tere Mast Mast Do Nain Clean
 Tere Mere Beech Mein|Tere Mere Beech Mein
 Tere Mere Hothon Pe|Tere Mere Hothon Pe
 Tere Mere Hothon Pe|Tere Mere Honthon Pe
@@ -2754,6 +2757,7 @@ Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho Muskura Rahe Ho
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho Muskura Rahe Ho Muskura Rahe ho(Arth
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Muskura Rahe Ho
+Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Muskuraa Rahe Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Female
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Gaye Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Carvaan Lounge
@@ -2832,6 +2836,7 @@ Waada Karle Saajna|Wada Karle
 Waada Karo Jaanam|Waada Karo Janam
 Waada Karo Nahi Chhodoge Tum Mera Saath|Wada Karo
 Waada Raha Sanam|Wada Raha Sanam
+Wah Wah Ramji|Wah Wah Ramji
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
 We Didn't Start The Fire|We Didn'T Start The Fire

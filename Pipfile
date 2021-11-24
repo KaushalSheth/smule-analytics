@@ -27,6 +27,7 @@ mutagen = "*"
 requests-html = "*"
 pyperclip = "*"
 pyppeteer = "*"
+geocoder = "*"
 
 [requires]
 python_version = "3.8"

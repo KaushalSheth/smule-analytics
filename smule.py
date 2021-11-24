@@ -4,12 +4,13 @@ import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .utils import fix_title,build_comment
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing, saveDBGeoCache
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
 import random
 import webbrowser
+import geocoder
 
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
@@ -244,12 +245,29 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
 
+def fetchGeoCache():
+    global rsGeoCache
+    # Get partner info to be used later
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch GeoCache")
+    rsGeoCache = execDBQuery("select lat, lon, city, country from geo_cache")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+
+    return rsGeoCache
+
+def getGeoCache():
+    global rsGeoCache
+    # If rsPartnerInfo is not defined, then populate it
+    try: rsGeoCache
+    except NameError: fetchGeoCache()
+    return rsGeoCache
+
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
     performanceList = []
     stop = False
     i = n
     contentType, solo, joins = extractSearchOptions(searchOptions)
+    geoCache = getGeoCache()
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
@@ -377,12 +395,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         yt_search = "https://www.youtube.com/results?search_query=" + fixedTitle.replace(" ","+") + "+lyrics"
         # It seems like sometimes orig_track_city and few other values are not present - in this case set the them to Unknown
         try:
-            orig_track_city = performance['orig_track_city']['city']
-            orig_track_country = performance['orig_track_city']['country']
-        except:
-            orig_track_city = "Unknown"
-            orig_track_country = "Unknown"
-        try:
             owner_lat = performance['owner']['lat']
             owner_lon = performance['owner']['lon']
         except:
@@ -393,6 +405,40 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             except:
                 owner_lat = "0.00"
                 owner_lon = "0.00"
+        # If City and Country are not available, try using lat/lon to lookup city and country
+        try:
+            orig_track_city = performance['orig_track_city']['city']
+            orig_track_country = performance['orig_track_city']['country']
+        except:
+            # Initialzie the values to "Unknown"
+            orig_track_city = "Unknown"
+            orig_track_country = "Unknown"
+            try:
+                # Check if the lat/lon combination exists in geoCache
+                gdb = next((g for g in geoCache if g['lat'] == str(owner_lat) and g['lon'] == str(owner_lon)), None)
+                if gdb is not None:
+                    orig_track_city = gdb['city']
+                    orig_track_country = gdb['country']
+                # If not, use geocoder to look it up and also to store it in cache
+                else:
+                    print(f"geocoder lookup {owner_lat}, {owner_lon}")
+                    g = geocoder.osm([owner_lat,owner_lon], method='reverse')
+                    gjson = g.json
+                    gkeys = gjson.keys()
+                    citykeylist = [ 'city', 'town', 'village', 'municipality', 'hamlet', 'farm', 'state_district', 'county', 'state' ]
+                    # Extract the first key from list above that exists in JSON and break out of loop
+                    for ck in citykeylist:
+                        if ck in gkeys:
+                            orig_track_city = gjson[ck]
+                            break
+                    if 'country' in gjson:
+                        orig_track_country = gjson['country']
+                saveDBGeoCache(str(owner_lat),str(owner_lon),orig_track_city,orig_track_country)
+                geoCache.append({"lat":str(owner_lat),"lon":str(owner_lon),"city":orig_track_city,"country":orig_track_country})
+            except:
+                orig_track_city = "Unknown"
+                orig_track_country = "Unknown"
+                raise
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list

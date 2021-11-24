@@ -96,3 +96,11 @@ class SingerFollowing(db.Model):
     verified_type = db.Column(db.String(50), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class GeoCache(db.Model):
+    lat = db.Column(db.String(10), primary_key=True)
+    lon = db.Column(db.String(10), primary_key=True)
+    city = db.Column(db.String(40), nullable=True)
+    country = db.Column(db.String(40), nullable=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
