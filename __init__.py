@@ -159,7 +159,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_smule_performances'))
                 elif request.form['btn'] == 'Search Favorites':
                     searchtype = 'FAVORITES'
-                    return redirect(url_for('query_smule_favorites'))
+                    #return redirect(url_for('query_smule_favorites'))
+                    return redirect(url_for('query_db_favorites'))
                 elif request.form['btn'] == 'Search Ensembles':
                     searchtype = 'ENSEMBLES'
                     return redirect(url_for('query_smule_ensembles'))
@@ -441,6 +442,20 @@ def create_app(test_config=None):
         global user, numrows, performances, fromdate, todate, titleMappings, searchOptions
         # Load global variable for title mappings from file
         titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings,searchOptions)
+        flash(f"{len(performances)} performances fetched from database")
+        return redirect(url_for('list_performances'))
+
+    # This executes the db function to fetch favorites from DB using global variables set previously
+    @app.route('/query_db_favorites')
+    def query_db_favorites():
+        global user, numrows, performances, fromdate, todate, titleMappings, searchOptions
+        # Load global variable for title mappings from file
+        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        # Set DB Filter to only include favorites
+        searchOptions['dbfilter'] = "favorite_ind = 1"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings,searchOptions)
