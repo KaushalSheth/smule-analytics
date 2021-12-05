@@ -25,6 +25,7 @@ Aaiye Meherbaan|Aaiye Meharbaan
 Aaiye Meherbaan|Aaiye Meherbaan
 Aaiye Meherbaan|Aaiye Meherbaan Baithiye
 Aaiye Meherbaan|Ad Aaiye Maherbaan Baithiye
+Aaiye Meherbaan|Aaiye Meharban
 Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
@@ -334,6 +335,7 @@ Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Ja Rahe Ho
 Akele Hai Chale Aao|Akele Hai Chale Aao
 Akele Hai Chale Aao|Akele Hain Chale Aao
+Akele Hai Chale Aao|Akele Hai Chaley Aao
 Akele Hain To Kya Gam Hai|Akele Hain To Kya
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai
@@ -374,6 +376,7 @@ Are Re Are Ye Kya Hua|Arerearedil To Pagal Hai Song
 Are Re Are Ye Kya Hua|Arereare🎆Dil To Pagal Hai Song
 Are Re Are Ye Kya Hua|Arey Re Arey Ye Kya Hua
 Are Re Are Ye Kya Hua|Arre Re Arre Ye Kya Huaa
+Are Re Are Ye Kya Hua|Arre Re Are Ye Kya Hua
 Asha Ji Songs Medley|Asha Ji Songs Medley
 Aur Ahista|Aur Aahista Kijiye Baatein
 Aur Ahista|Aur Ahista
@@ -414,7 +417,8 @@ Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Baharon Phool Barsao|Baharon Phool Barsao
 Baharon Phool Barsao|Baharon Phool Barsao Phool
-Bahut Dur Mujhe|Bahut Dur Mujhe
+Bahut Door Mujhe|Bahut Dur Mujhe
+Bahut Door Mujhe|Bahut Door Mujhey Chale
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Male
@@ -557,6 +561,7 @@ Chandi Jaisa Rang Hai Tera|𝐇𝐃 Chandi Jaisa Rang Hai Tera
 Chandni Raat Hai|Chandni Raat Hai
 Chandni Raat Mein Ek Baar|Chandani Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar
+Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
 Chaudhvin Ka Chand Ho|Chaudavi Ka Chaand Ho
 Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudhvin Ka Chand Ho
@@ -746,6 +751,7 @@ Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
 Dil Apna Aur Preet Paraai|दिल अपना और प्रीत पराई
 Dil Bekarar Sa Hai|Dil Bekarar Sa Hai
+Dil Bekarar Sa Hai|Dil Bekarar Sa Hai Ishaara
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -1047,6 +1053,7 @@ Haye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
 Haye Rama Ye Kya Hua|Hai Rama Yet Rangeela
 Hazaar Raahe Mud Ke Dekhi|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
+Hazaar Raahe Mud Ke Dekhi|Hazaar Raahein Mud Ke
 Hello|Hello
 Hey Naam Re|Hey Naam Re
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
@@ -1127,6 +1134,7 @@ Humko Hamise Chura Lo|Humko Humise Chura Lo Chura Lo
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humma Humma|Humma Humma
+Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai In Aankhon Mein
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
 Humne Tumko Dekha|)Humne Tumko Dekha
 I Am The Best|I Am The
@@ -1266,6 +1274,7 @@ Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने जिगर Jaane Na Nazar
 Jaane Na Nazar Pahchane Jigar|Jane Na Nazar Pehchane Jigar
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
+Jaane Woh Kaise Log The|Jane Woh Kaise Log The Jinke
 Jaanu Meri Jaan|Janu Meri Jaan
 Jaanu Meri Jaan|Jaanu Meri Jaan Song Movie Shaan
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman
@@ -1534,6 +1543,8 @@ Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
 Khoya Khoya Chaand|Newkhoya Khoya Chand
+Khuda Jaane|Khuda Jaane
+Khuda Jaane|Khuda Jaane Ke
 Khullam Khulla Pyaar|Khullam Khulla Pyaar
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya Koi Haqeeqat
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
@@ -1717,6 +1728,7 @@ Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shayar Hoon
 Main Phir Bhi Tumko Chahunga|Mai Fir Bhi Tumko Chahunga
 Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahunga 1
+Main Pyaar Ka Raahi Hoon|Mai Pyar Ka Rahi Hun
 Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
@@ -1913,6 +1925,7 @@ Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuch Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
 Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
+Na Jaane Kyu Hota Hai|Na Jaane Kyun
 Na Jaane Mere|@MSMT [HD] Na Jaane Mere Dil Ko Kya Ho Gaya
 Na Jaane Mere|Na Jaane Mere
 Na Jaane Mere|Na Jaane Mere Dil Ko
@@ -2213,6 +2226,7 @@ Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
 Rahein Na Rahein Hum|Rahein Na Rahein Hum
 Rahein Na Rahein Hum|Rahen Na Rahen Hum
+Rahein Na Rahein Hum|रहें ना रहें हम महका Rahen Na Rahe Hum
 Raina Beeti Jaaye|Raina Biti Jaye
 Raina Beeti Jaaye|Raina Biti Jaye Sham Na Aaye
 Raja Ko Rani Se|Raja Ko Rani Se
@@ -2425,6 +2439,7 @@ Sun Raha Hai|Sunn Raha Hai
 Sun Raha Hai|Sun Raha Hai Sun Sun
 Sun Raha Hai|Sun Rahahai Na Tu
 Sun Raha Hai|Sun Raha Hai Na Tu
+Sun Raha Hai|Sun Raha Hai Sun Raha Hai
 Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
@@ -2498,6 +2513,7 @@ Tere Bina Zindagi Se Koi|Tere Bina Zindgi Se Koi
 Tere Bina Zindagi Se Koi|Tere Bina Zindgi Se Koyi
 Tere Bina Zindagi Se Koi|Tere Binazindagi Se
 Tere Bina Zindagi Se Koi|Tere Binazindagise Koyi
+Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koyi Shikwa To Nahi
 Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
@@ -2678,6 +2694,7 @@ Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ye Jana Sanam Song
 Tujhe Jeevan Ki Dor|Tujhe Jeevan Ki Dor Jeewan
 Tujhe Jeevan Ki Dor|Tujhe Jeevan Ki Dor Se
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhu To Chain
+Tujhe Na Dekhu To Chain|Tujhe Na Dekhu Toh
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
@@ -2771,6 +2788,7 @@ Tum Paas Aaye|Tum Paas Aaye Tum Aaye Tum
 Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
 Tum Paas Aaye|Tum Pass Ae
 Tum Paas Aaye|Tum Pass Aye
+Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai

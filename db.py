@@ -436,6 +436,7 @@ def saveDBPerformances(username,performances):
             del p['comment']
             del p['yt_search']
             del p['web_url_full']
+            del p['rating_nbr']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

@@ -489,7 +489,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'performer_handles':performerHandles,\
                 'recording_url': recording_url,\
                 'comment':comment,\
-                'yt_search':yt_search\
+                'yt_search':yt_search,\
+                'rating_nbr':"-"\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
