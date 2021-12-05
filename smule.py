@@ -552,6 +552,8 @@ def fetchPartnerInvites(inviteOptions,numrows):
         maxdate = currTime.strftime(DATEFORMAT)
 
         partnerSort = stopScore
+        print(f"# Partners = {len(partners)}")
+        partnerHandle = ""
         # Loop through the partner list and process it
         for ptr in partners:
             partnerHandle = list(iter(ptr.values()))[0]
@@ -689,7 +691,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     # Debugging SQL below - uncomment it to override above SQL
     #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'KaushalSheth1'"
-    print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
+    print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners: {partnersql}")
     partnersTop = execDBQuery(partnersql)
 
     print(f"{datetime.now().strftime('%H:%M:%S')} Processing partners")
