@@ -1135,6 +1135,7 @@ Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humma Humma|Humma Humma
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai In Aankhon Mein
+Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
 Humne Tumko Dekha|)Humne Tumko Dekha
 I Am The Best|I Am The
@@ -1454,6 +1455,7 @@ Kaho Na Pyaar Hai|Kaho Na Pyar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai Pyar Hain Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyar Hai [}
+Kaho Na Pyaar Hai|Kaho Na Pyar Hai E Sonpyaar Hain
 Kaise Mizaj Aapke Hai|Kaise Mizaj Aapke Haishor
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani Parineeta
@@ -1729,6 +1731,7 @@ Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shayar Hoon
 Main Phir Bhi Tumko Chahunga|Mai Fir Bhi Tumko Chahunga
 Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahunga 1
 Main Pyaar Ka Raahi Hoon|Mai Pyar Ka Rahi Hun
+Main Pyaar Ka Raahi Hoon|Main Pyaar Ka Rahi Hoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
@@ -2605,6 +2608,8 @@ Thodi Der Aur Thehar Ja|Tu Thodi Der Half Girlfriend
 Thodi Si Jo Pi Li Hai|Thodi Si Jo Pi Li Hai
 Time After Time|Time After Time
 Tip Tip Barsa Paani|Tip Tip Barsa Paani
+Tip Tip Barsa Paani|Tip Tip Song Barsa Paani
+Tip Tip Barsa Paani|Tip Tip Song Sooryavanshi New
 Titli|Bann Ke Titli
 Titli|Titli
 Trouble Me|Trouble Me
@@ -2879,6 +2884,7 @@ Yaad Aa Raha Hai Tera Pyaar|~ Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaadaa Rahihai
+Yaad Aa Rahi Hai|Yaad Araha Haiterapyardisco
 Yaad Kiya Dil Ne|(SHORT) Yaad Kiya Dil Ne (duet) hindi song
 Yaad Kiya Dil Ne|Newyaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne

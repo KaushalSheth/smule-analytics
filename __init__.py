@@ -225,8 +225,10 @@ def create_app(test_config=None):
                 return redirect(url_for('title_performers', sort='recent'))
             elif toolName == "Popular Performers":
                 return redirect(url_for('title_performers', sort='popular'))
-            if toolName == "Get HTML":
+            elif toolName == "Get HTML":
                 return redirect(url_for('get_html'))
+            elif toolName == "Download":
+                return redirect(url_for('download_song'))
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
@@ -536,6 +538,19 @@ def create_app(test_config=None):
         if retVal == 0:
             flash("Successfully downloaded to /tmp/" + performance['filename'])
         #return redirect(url_for('list_performances'))
+        return str(retVal)
+
+    # Method to download the performance to local disk
+    @app.route('/download_song')
+    def download_song():
+        global user, utilitiesOptions
+        web_url = utilitiesOptions["url"]
+        # Set filename to last part of the web_url, which should be the performace key
+        filename = web_url.split("/")[-1] + ".m4a"
+        # Downlod the song to /tmp (hardcoded for now)
+        retVal = downloadSong(web_url, "/tmp/", filename ,None, user)
+        if retVal == 0:
+            flash("Successfully downloaded to /tmp/" + filename)
         return str(retVal)
 
     # Route to downlaod all performances - this could potentially be moved to the smule module

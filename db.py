@@ -198,14 +198,13 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
             d['display_pic_url'] = d['partner_pic_url']
-            d['filename'] = "(JOIN) " + d['filename']
             # Construct comment for joiner
             d['comment'] = build_comment('@' + d['display_handle'] + ' thanks for joining...')
         else:
             d['display_handle'] = d['owner_handle']
             d['display_pic_url'] = d['owner_pic_url']
             # Construct comment for partner
-            d['comment'] = build_comment('@' + d['display_handle'] + ' thanks for the invite...')
+            d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
         performances.append(d)
         i += 1
         if i >= maxperf:
@@ -520,8 +519,8 @@ def saveDBGeoCache(lat,lon,city,country):
         geoCache = GeoCache(\
                     lat = lat,\
                     lon = lon,\
-                    city = city,\
-                    country = country\
+                    city = city[:40],\
+                    country = country[:40]\
                     )
         db.session.merge(geoCache)
         # Commit all the changes for the performance if no errors were encountered
