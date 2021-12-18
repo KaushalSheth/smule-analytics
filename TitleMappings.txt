@@ -354,6 +354,7 @@ Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokon Se
 Akhiyon Ke Jharokhon Se|Rp Ankhiyon Ke Jharokhon Se
+Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokho Se
 Akhiyon Se Goli Maare|Ankhiyon Se Goli Mare
 Always|Always
 An Evening In Paris|An Evening In Paris
@@ -364,6 +365,7 @@ Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hai Ke I Love You
 Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hain I Love You
 Ankahee|Ankahee
 Apne Hothon Par Sajaana|Apne Hothon Par Sajana
+Another Day In Paradise|Another Day In Paradise
 Apun Bola|Apun Bola
 Apun Bola|Apun Bola Tu Meri Laila
 Apun Bola|Apun Bola Tu Meri Laila Josh
@@ -538,6 +540,7 @@ Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
 Chalo Dildar Chalo|Chalo Dildar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
+Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
 Chalte Chalte|Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Ye
@@ -1230,6 +1233,7 @@ Jaane Jigar Jaaneman|Jane Jigar Janejigar
 Jaane Jigar Jaaneman|Jane Jigar Janeman
 Jaane Jigar Jaaneman|Janejigar Janeman
 Jaane Jigar Jaaneman|Jaanejigar Janeman
+Jaane Jigar Jaaneman|Jaane Jigar Jaaneman Aashiqi
 Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Woh Din
 Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Woh Din Mukesh
 Jaane Kaha Gaye Woh Din|Jaane Kahaan Gaye Woh Din,
@@ -1326,6 +1330,7 @@ Jab Koi Baat Bigad Jaaye|Jab Koibaat Bigaaaye
 Jab Koi Baat Bigad Jaaye|Jab_Koibaat_Bigadjaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Bat Bigad Jaye Rits
 Jab Koi Baat Bigad Jaaye|Jabkoi_Baat
+Jab Koi Baat Bigad Jaaye|Jab Koie Bat Bigad Jaaye
 Jab Mohabbat Jawan Hoti Hai|Jab Muhabbat Jawan Hoti Hai
 Jab Pyaar Kiya To Darna Kya|Jab Pyar Kiya Toarna Kya
 Jabse Tere Naina|Jab Se Tere Naina
@@ -1422,6 +1427,7 @@ Kabhi Kabhi|Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
+Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
@@ -1446,6 +1452,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi Mukesh
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahi Door Jab
+Kahin Door Jab Din Dhal Jaaye|Kahin Dur Jab Din Dhal Jaye
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
@@ -1668,6 +1675,7 @@ Loote Koi Man Ka Nagar|Loote Koyi Koi Man
 Love Mashup|Love Mashup
 Lut Gaye|Lut Gaye
 Lut Gaye|Lut Gaye Emraan Hashmi
+Lut Gaye|Lut Gaye Im_Mallik
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
@@ -2239,6 +2247,7 @@ Raja Ko Rani Se|Raja Ko Rani Se Pyaar
 Raja Ko Rani Se|Raja Ko Rani Se Pyar Ho Gaya
 Raja Ko Rani Se|Raja Ko Rani Se Pyar
 Ram Chahe Leela|Ram Chahe Leela
+Ramaiya Vastavaiya|Ramaiya Vastavaiya
 Ramta Jogi|Ramta Jogi
 Rangeela Re Tere Rang Mein|Rangeela Re Tere Rang Me
 Right Here Waiting|Right Here Waiting 　　　　　　　　　　　　　　　　　　 Waiting
@@ -2521,6 +2530,7 @@ Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
 Tere Chehre Se|Tere Chehre Se Rits
+Tere Chehre Se|)Tere Chehre Se Nazar
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
@@ -2538,6 +2548,7 @@ Tere Liye|Tere Liye Song
 Tere Liye|Tere Liye Veer Zaara
 Tere Liye|✔🇹 🇪 🇷 🇪  LIYE✔✔✔✔✔✔✔Tere Liye✔Tere Liye✔
 Tere Liye|Tere Liye Hum
+Tere Liye|Tere Liye Tere Liye
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain Dabang
 Tere Mast Mast Do Nain|Tere Mast Mast Do Naain
@@ -2610,6 +2621,8 @@ Time After Time|Time After Time
 Tip Tip Barsa Paani|Tip Tip Barsa Paani
 Tip Tip Barsa Paani|Tip Tip Song Barsa Paani
 Tip Tip Barsa Paani|Tip Tip Song Sooryavanshi New
+Tip Tip Barsa Paani|Tip Tip
+Tip Tip Barsa Paani|Tip Tip Barsa
 Titli|Bann Ke Titli
 Titli|Titli
 Trouble Me|Trouble Me
@@ -2872,6 +2885,7 @@ Woh Hai Zara Khafa Khafa|Woh Hai Zara
 Woh Hai Zara Khafa Khafa|Woh Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa
+Woh Hai Zara Khafa Khafa|Wo Hai Zara
 Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
@@ -2908,6 +2922,8 @@ Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
 Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan
 Yeh Chaand Sa Roshan Chehra|Yeh Chand Sa Roshan Chehra
+Yeh Chaand Sa Roshan Chehra|Tareef Karu Kya Uski𝗦𝗮𝗻𝗮𝗺 𝗣u𝗿𝗶
+Yeh Chaand Sa Roshan Chehra|Tareef Karu Kya Uskisanam Puri
 Yeh Dil Kya Kare|Ye Dil Kya Kare
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare
@@ -3092,6 +3108,7 @@ Zindagi Ke Safar Mein|Zindagi Ke Safar Me,,
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
+Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Gujar
 Zindagi Milke Bitayenge|Zindagi Milke Bitayenge
 Zindagi Pyar Ka Geet Hai|Newzindagi Pyar Ka Geet Hai
 Zindagi Pyar Ka Geet Hai|Zindagi Pyaar Ka Geet Hai

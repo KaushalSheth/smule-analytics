@@ -696,20 +696,6 @@ def fetchPartnerInvites(inviteOptions,numrows):
         # First, determine the pslit point based on the choice
         if partnerchoice == "splitmiddle":
             splitPoint = int(len(partnersTop)/2)
-        elif partnerchoice == "splittopquarter":
-            splitPoint = int(len(partnersTop)/4)
-        elif partnerchoice == "splittop6th":
-            splitPoint = int(len(partnersTop)/6)
-        elif partnerchoice == "splittop3rd":
-            splitPoint = int(len(partnersTop)/3)
-        elif partnerchoice == "splittop3rd":
-            splitPoint = int(len(partnersTop)/3)
-        elif partnerchoice == "splitbottom3rd":
-            splitPoint = int(len(partnersTop)/3)*2
-        elif partnerchoice == "splitbottomquarter":
-            splitPoint = int(len(partnersTop)/4)*3
-        elif partnerchoice == "splitbottom6th":
-            splitPoint = int(len(partnersTop)/6)*5
         # If bad split choice is sent in, do a random split
         else:
             splitPoint = random.randint(0,len(partnersTop))
@@ -728,16 +714,11 @@ def fetchPartnerInvites(inviteOptions,numrows):
                 partnersSplit.append(mb[i])
     elif partnerchoice == "top":
         topRows = numrows
-    elif partnerchoice == "mixed80":
-        topRows = int(numrows * 0.8)
-    elif partnerchoice == "mixed60":
-        topRows = int(numrows * 0.6)
-    elif partnerchoice == "mixed40":
-        topRows = int(numrows * 0.4)
-    elif partnerchoice == "mixed20":
-        topRows = int(numrows * 0.2)
     elif partnerchoice == "bottom":
         topRows = 0
+    elif partnerchoice == "random":
+        topRows = numrows
+        random.shuffle(partnersTop)
 
     # If we chose to process partners from the middle out, don't need to process top and bottom separately
     if (partnerchoice.startswith("split")):
