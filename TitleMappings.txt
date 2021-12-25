@@ -117,6 +117,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Ye Kya Keh Diyah Kya Keh Diya
 Aankhon Se Tune Ye|Aankhon Se Tune Ye Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye Kya
+Aankhon Se Tune Ye|Ankhon Se Tune
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
@@ -379,6 +380,7 @@ Are Re Are Ye Kya Hua|Arereare🎆Dil To Pagal Hai Song
 Are Re Are Ye Kya Hua|Arey Re Arey Ye Kya Hua
 Are Re Are Ye Kya Hua|Arre Re Arre Ye Kya Huaa
 Are Re Are Ye Kya Hua|Arre Re Are Ye Kya Hua
+Are Re Are Ye Kya Hua|Are Re Are Yeh Kya Hua
 Asha Ji Songs Medley|Asha Ji Songs Medley
 Aur Ahista|Aur Aahista Kijiye Baatein
 Aur Ahista|Aur Ahista
@@ -465,6 +467,7 @@ Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bholi Si Surat|Bholi Si Surat
 Bholi Si Surat|Bholi Si Surat Re
 Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
+Bhool Gaya Sab Kuch|Bhul Gaya Sab Kuch
 Bhumro Bhumro|Bhumro Bhumro Mission Kashmir
 Bhumro Bhumro|Bumbro Bumbro
 Bindiya Chamkegi|Bindiya Chamkegi
@@ -976,6 +979,7 @@ Gaata Rahe Mera Dil|Gaata Rahe
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chaand Nikla
 Gali Mein Aaj Chand Nikla|Br Gali Mein Aaj Chand Nikla
+Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand
 Galliyan|Galliyan
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
 Geet Gata Hoon Main|Geet Gata Hoon Main
@@ -1412,6 +1416,7 @@ Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Re
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
 Kab Tak Chup Baithe|Dholna Karaoke
+Kab Tak Chup Baithe|Dholna Dholnadholna Dholna
 Kabhi Aar Kabhi Paar|Kabhi Aar Kabhi Paar
 Kabhi Alvida Na Kehna|Kabhi Alvida
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna
@@ -1558,6 +1563,7 @@ Khullam Khulla Pyaar|Khullam Khulla Pyaar
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya Koi Haqeeqat
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
 Kisi Din Banoongi|Kisi Din Banoongi Main
+Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
 Kisi Ki Muskarahaton|Jeena Isi Ka Naam Hai
 Kisi Ki Muskarahaton|Kisi Ke Muskarahaton Pe Ho Nisaar
 Kisi Ki Muskarahaton|Kisi Ki Muskarahaton Muskurahaton
@@ -2301,6 +2307,7 @@ Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
+Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
 Ruk Jaana Nahin|Ruk Jaana Nahi
 Ruk Jaana Nahin|Ruk Jaana Nahi Tu Kahin Haarke
 Ruk Jaana Nahin|Ruk Jaana Nahin
@@ -2557,6 +2564,7 @@ Tere Mere Beech Mein|Tere Mere Beech Mein
 Tere Mere Hothon Pe|Tere Mere Hothon Pe
 Tere Mere Hothon Pe|Tere Mere Honthon Pe
 Tere Mere Hothon Pe|Tere Mere Hothon Pegeet Meetwaáa
+Tere Mere Hothon Pe|Tere Mere Hothon Pegeet Meetwaá
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Ye Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
@@ -2796,6 +2804,7 @@ Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Muskuraa Rahe Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Female
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Gaye Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Carvaan Lounge
+Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye
 Tum Mile Dil Khile|Tum Mile Dil
 Tum Mile Dil Khile|Tum Mile Dil Khile
 Tum Mile Dil Khile|Tum Mile Dil Khile Criminal
@@ -2807,6 +2816,7 @@ Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
 Tum Paas Aaye|Tum Pass Ae
 Tum Paas Aaye|Tum Pass Aye
 Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
+Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
@@ -3101,6 +3111,7 @@ Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhana
 Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri Bazm Mein
 Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri
 Zindagi Ka Safar|Zindagi Ka Safar
+Zindagi Ka Safar|Zindagi Ka Safarmusicoolpiyush_
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Manna Dey
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Haye

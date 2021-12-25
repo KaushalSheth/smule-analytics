@@ -103,7 +103,7 @@ def fetchDBTopPerformers():
         	-- Ignore joins - only want to count performances that I have joined
         	where 	join_ind = 0
         	and 	performers != 'KaushalSheth1'
-        	-- Look at the last 20 months ending last month
+        	-- Look at the last N months ending last month
         	and 	created_at >= date_trunc('MON',current_timestamp) - interval '20 months'
         	and 	created_at < date_trunc('MON',current_timestamp)
         	),
@@ -117,7 +117,8 @@ def fetchDBTopPerformers():
         			row_number() over(partition by perf_month order by perf_cnt desc) as monthly_rank
         	from 	perf_counts
         	)
-        select 	pr.*, s.pic_url, to_char(perf_month,'Mon YYYY') as perf_month_str
+        select 	pr.*, s.pic_url, to_char(perf_month,'Mon YYYY') as perf_month_str,
+        		row_number() over(partition by monthly_rank order by perf_month) as col_nbr
         from 	perf_ranked pr
         		inner join singer s on s.account_id = pr.owner_account_id
         where 	monthly_rank <= 10

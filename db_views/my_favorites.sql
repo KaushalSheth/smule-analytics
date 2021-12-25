@@ -8,6 +8,7 @@ SELECT  pf.favorited_by_username,
         s.performed_by AS partner_name,
         p.fixed_title,
         p.filename,
+        coalesce(pf.rating_nbr,0) as rating_nbr,
         count(pf.performance_key) OVER (PARTITION BY s.account_id) AS partner_favorite_cnt
 FROM    performance_favorite pf
         JOIN performance p ON p.key = pf.performance_key

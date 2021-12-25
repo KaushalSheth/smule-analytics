@@ -18,7 +18,7 @@
     <td style="text-align:center;">
         <a href="https://www.smule.com/{{p.performers}}" target="_blank"><img src="{{p.pic_url}}" height="125" width="125"><br><b>{{p.performers}}</b><br># Perf: {{p.perf_cnt}}</a>
     </td>
-    {% if loop.index % 20 == 0 %}
+    {% if p.col_nbr == 1 %}
         </tr>
         <tr>
     {% endif %}
