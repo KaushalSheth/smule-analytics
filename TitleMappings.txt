@@ -62,6 +62,7 @@ Aaj Rapat Jaayen|Aaj Rapat Jaayen
 Aaj Rapat Jaayen|Aaj Rapat Jaayen Toh
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
+Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hun Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
@@ -279,6 +280,7 @@ Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Lagaa Le
 Ae Zindagi Gale Laga Le|Arijit Ae Zindagi Gale Lagale
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le Arijit
+Ae Zindagi Gale Laga Le|Qq Aye Zindagi Gale Laga Le Sadma
 Aesis Membership Audition|Aesis Membership Audition
 Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
 Agar Mujh Se Mohabbat Hai|Agar Mujhse Mohabbat Hai
@@ -589,6 +591,7 @@ Chhod Do Aanchal|Chod Do Aanchal
 Chhodo Kal Ki Baate|Chodo Kal Ki Baate
 Chhodo Kal Ki Baate|Chhodo Kal Ki Baatein Kal Ki Baat Purani
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do Nazuk Honthon Ko
+Chhoo Lene Do Nazuk Honthon Ko|Chhoo Lene Do Naazuk Hothon Ko
 Chhookar Mere Man Ko|[HQ™] Chukar Mere Man Ko [Full Track] Yaarana
 Chhookar Mere Man Ko|Chhoo Kar Mere Man Ko
 Chhookar Mere Man Ko|Chhookar Mere Man Ko
@@ -742,6 +745,7 @@ Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
 Dheere Dheere Aap Mere|Dheeredheere Aap Mere
 Dheere Dheere Bol|Dheere Dheere Bol
+Dheere Dheere Bol|Dheere Dheere Bol Koi Sun Na Le
 Dheere Dheere Chal|Dheere Chal Chaandgagan Mein
 Dheere Dheere Chal|Dheere Dheere Chal Chaand Gagan Mein
 Dheere Dheere Chal|Dheere Dheere Chal Chand
@@ -1534,6 +1538,7 @@ Ke Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
 Kehna Hai Kehna Hai|Kehna Hai Kehna Hai
 Kehna Hi Kya|Kehna Hi Kya
 Kehna Hi Kya|Kehna Hi Kya ~ Unwind
+Kehna Hi Kya|Kehna Hi Kya Sanah
 Kehta Hai Pal Pal|Kehta Hai Pal Pal
 Kehta Hai Pal Pal|Kehta Hai Pal Pal Tumse
 Khaike Paan Banaraswala|Khaike Paan Banaraswala
@@ -1553,6 +1558,7 @@ Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lageen
 Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
 Khilte Hain Gul Yahan|Khilte Hai Gul Yahan
+Khilte Hain Gul Yahan|Khilte Hain
 Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
@@ -1705,6 +1711,7 @@ Madhosh Dil Ki Dhadkan|Madhosil Ki Dhadkan
 Main Aaya Hoon|Main Aaya Hoon Leke
 Main Agar Kahoon|Main Agar Kahoon
 Main Agar Kahoon|Tumko Paya Hai Nengfirna
+Main Agar Kahoon|Main Agar Kahoon Agar Kahun
 Main Chali Main Chali|Main Chali Main Chali:Professor
 Main Chali Main Chali|Main Chali Main Chali Dekho Pyaar Ki Gali
 Main Duniya Bhula Doonga|Mai Duniya Bhula Dunga_ Mini Song
@@ -1791,6 +1798,7 @@ Maine Poochha Chand Se|Maine Pucha Chand Se
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
 Maine Tere Liye|Maine Tere Liye Hi
+Maine Tere Liye|Maine Tere Liye Hi Saat Rang Anand
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
@@ -1977,6 +1985,7 @@ Na Tum Jaano Na Hum|Kyu Chalti Hai Pawan
 Na Tum Jaano Na Hum|Na Tum Jaano Na Hum
 Na Tum Jaano Na Hum|Na Tum Jano Na Hum
 Na Tum Jaano Na Hum|Na Tum Jano Na Hum Na Tum
+Na Tum Jaano Na Hum|Na Tum Jaano Na Hum Hindi
 Na Ye Chand Hoga Na Taare Rahenge|Na Ye Chand Hoga Na Taare
 Na Ye Chand Hoga Na Taare Rahenge|Na Ye Chand Hoga Na Taare Rahenge
 Na Ye Chand Hoga Na Taare Rahenge|Na Yeh Chand Hoga
@@ -2018,6 +2027,7 @@ Neend Na Mujhko Aaye|O Nind Na Mujh Ko Aye Dil Mera Ghabraye
 New Vs Old Bollywood Mashup|New Vs Old Bollywood Songs
 New Vs Old Bollywood Mashup|Drnew Vs Old Bollywood Mashup
 New Vs Old Bollywood Mashup|New Vs Old Bollywood Songs Mashup
+Ni Sultana Re|Ni Sultana Re
 Nimbooda Nimbooda|Nimbooda Nimbooda
 Noorie Noorie|Noorie Noorie
 Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
@@ -2038,6 +2048,7 @@ O Haseena Zulfon Wali|O Haseena Zulfonwali Dil Vil Pyar Vyar
 O Haseena Zulfon Wali|O Hasina Julfo Wali Jaane Jaha
 O Haseena Zulfon Wali|O Hasina Zulfon Wali
 O Haseena Zulfon Wali|Oh Hasina Zulfon Wali
+O Haseena Zulfon Wali|Ad O Haseena Zulfo Wali
 O Mere Dil Ke Chain|O Mere Dil
 O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
@@ -2938,6 +2949,7 @@ Yeh Dil Kya Kare|Ye Dil Kya Kare
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare Dil Kya Kare
+Yeh Dil Kya Kare|Yeil Kya Kare Jkk
 Yeh Dil Na Hota Bechara|Ye Dil Na Hota
 Yeh Dil Na Hota Bechara|Ye Dil Na Hota Bechara
 Yeh Dil Na Hota Bechara|Ye Dil Na
