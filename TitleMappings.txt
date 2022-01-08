@@ -709,6 +709,7 @@ Dekha Hai Pehli Baar|[SHORT] 💞 Dekha Hai Pehli Baar Ost Saajan
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
 Dekha Hai Pehli Baar|Dekhahai Pehli Baar Dekha
+Dekha Hai Pehli Baar|Dekha Hai Pehali Baar
 Dekha Hazaro Dafaa|Dekha Hazaro Dafa
 Dekha Hazaro Dafaa|Dekha Hazaro Dafaa
 Dekha Hazaro Dafaa|Dekha Hazaron Dafa
@@ -1104,6 +1105,7 @@ Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey
 Hum Tum Ek Kamrey Mein Band Ho|Humtum Ek Kamrey Mein
 Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
+Hum Tumse Na Kuch Keh Paaye|Hum Tumse Na Kuch Keh Paye
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
@@ -1462,6 +1464,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Kahi
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahi Door Jab
 Kahin Door Jab Din Dhal Jaaye|Kahin Dur Jab Din Dhal Jaye
+Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Gem
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
@@ -1946,6 +1949,7 @@ My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
 My Heart Will Go On|My Heart Will Go On Titanic Celin Dion
+My Heart Will Go On|My Heart Will Go On Courte Piano
 Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuch Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
@@ -2196,6 +2200,7 @@ Pyaar Karne Waale|Pyaar Karne Waale
 Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Wale|Pyar Karne Wale Kabhi Darte Nahi
 Pyaar Karne Wale|Pyar Karne Wale
+Pyaar Ki Dastaan|Pyaar Ki Dastaan
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
@@ -2232,6 +2237,7 @@ Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Akeli Hai|Raat Akeli Hai N
 Raat Baaki Baat Baaki|Raat Baki Baat Baki
 Raat Baaki Baat Baaki|Raat Baaki
+Raat Baaki Baat Baaki|Raatbaakiasha&Bappi
 Raat Ka Nasha|Raat Ka Nasha Abhi
 Raat Kali|Raat Kali
 Raat Kali|Raat Kali Ek Khwab Me Aayi
@@ -2316,6 +2322,7 @@ Roshni Se|Roshni Se
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
+Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
@@ -2581,6 +2588,7 @@ Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Abhimaan
 Tere Mere Sapne Ab Ek Rang Hai|[HD] Tere Mere Sapne Ab Ek Rang Hai (Guide)
+Tere Mere Sapne Ab Ek Rang Hai|Tere Meresapneguide Moviemo
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek Rang Hai
@@ -2595,6 +2603,7 @@ Tere Sang Yaara|Tere Sang Yara
 Tere Sang Yaara|Ad Tere Sang Yaara
 Teri Aankhon Ke Siva|Teri Ankhon Ke Siva
 Teri Aankhon Ke Siva|Teri Ankho Ke Siva
+Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniyachirag
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re
@@ -2615,6 +2624,7 @@ Teri Mitti|Teri Mitti Kesari
 Teri Mitti|Teri Mitti Female Kesari
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
+Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko Kisi Ki Najar
 Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
@@ -2674,13 +2684,6 @@ Tu Mere Samne|Tu Mere Saamne Mein Tere Samne
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai
 Tu Meri Zindagi Hai|Tumerizindagihai
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai Aashiqui Zindagi
-Tu Mile Dil Khile|Tu Mile Dil Khile
-Tu Mile Dil Khile|Tu Mile Dil Khile Criminal
-Tu Mile Dil Khile|Tu Mile Dil Khile Or Jeene
-Tu Mile Dil Khile|Tu Mile Dil Mile
-Tu Mile Dil Khile|Tum Mile Dil Khile
-Tu Mile Dil Khile|Tum Mile Dil Khile New
-Tu Mile Dil Khile|Tu Mile Dil Khile Song
 Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi
 Tu Pyaar Ka Saagar Hai|Tu Pyaar Ka Saagar Hai
 Tu Pyaar Ka Saagar Hai|Tu Pyar Ka Sagar Hai
@@ -2816,11 +2819,20 @@ Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Female
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Gaye Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Carvaan Lounge
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye
+Tum Mile Dil Khile|Tu Mile Dil Khile
+Tum Mile Dil Khile|Tu Mile Dil Khile Criminal
+Tum Mile Dil Khile|Tu Mile Dil Khile Or Jeene
+Tum Mile Dil Khile|Tu Mile Dil Mile
+Tum Mile Dil Khile|Tum Mile Dil Khile
+Tum Mile Dil Khile|Tum Mile Dil Khile New
+Tum Mile Dil Khile|Tu Mile Dil Khile Song
 Tum Mile Dil Khile|Tum Mile Dil
 Tum Mile Dil Khile|Tum Mile Dil Khile
 Tum Mile Dil Khile|Tum Mile Dil Khile Criminal
 Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile Khile Criminal
 Tum Mile Dil Khile|Tum Miledil Khile
+Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
+Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Paas Aaye|Tum Paas Aaye
 Tum Paas Aaye|Tum Paas Aaye Tum Aaye Tum
 Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
@@ -3041,6 +3053,7 @@ Yeh Nayan Dare Dare|Ye Nayan Dare Dare
 Yeh Nayan Dare Dare|Ye Nayan Dare Dare,
 Yeh Nayan Dare Dare|Ye Nayan Dare Yeh
 Yeh Nayan Dare Dare|Yeh Nain Dare Dare
+Yeh Nayan Dare Dare|Yeh Nayan Dare Darest
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Chori
@@ -3113,6 +3126,7 @@ Zara Zara Bahekta Hai|Zara Zara
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai
 Zara Zara Bahekta Hai|Zara Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara Behakta Hai
+Zara Zara Bahekta Hai|Zara Zara Behekta Hai Hindi
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha
