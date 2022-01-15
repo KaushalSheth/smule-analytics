@@ -90,6 +90,7 @@ Aane Wala Pal|Aanewala Pal Janewala Hai
 Aane Wala Pal|Aane Wala Pal Jaane Wala Hai
 Aane Wala Pal|Aanewala Pal Janewala
 Aankh Maare|Aankh Maare
+Aankh Maare|Aankh Maare O Ladka
 Aankhen Khuli Ho Ya Ho Band|>> Ankhein Khuli Ho
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhen Khuli Ho Ya Ho Band
@@ -153,6 +154,7 @@ Aap Ki Aankhon Mein Kuch|Aapki Aankhon
 Aap Ki Aankhon Mein Kuch|Besaap Ki Ankhon Mein Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Akhon Me Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein Kuchh
+Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein 8D
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -1126,6 +1128,7 @@ Humein Tumse Pyaar Kitna|Humetumse Pyar Pyaar Kitna
 Humein Tumse Pyaar Kitna|Newhumein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Humetumse Pyaar Pyar Kitna
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar
+Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Humein Tumse
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo & Baadalon Me Chup Raha
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo (film Mohabbatein)
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lohumko Humko Humko Humko
@@ -1272,6 +1275,7 @@ Jaane Kaise Kab Kaha|Jane Kaise Kab Kahan
 Jaane Kaise Kab Kaha|Jane Kaise Kab
 Jaane Kaise Kab Kaha|Jane Kaise Kab Kaha Iqrar Ho Gaya
 Jaane Kaise Kab Kaha|Jane Kaise Kab Jaane
+Jaane Kaise Kab Kaha|Jane Kaise Kab Kahan Iqraar
 Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
@@ -1310,6 +1314,7 @@ Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
 Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil
+Jaaun Kahaan Bata E Dil|Jaun Kaha Bata Ae Dil
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
@@ -2373,6 +2378,7 @@ Saawan Ka Mahina|Saawan Ka Mahina Karaoke
 Saawan Ka Mahina|Sawan Ka Mahina Milan
 Saawan Ka Mahina|Sawan Ka Mahina
 Saawan Ka Mahina|Sawan Ka 🎆Mahina Karaoke Milan
+Saaz E Dil Chhed De|Saaz E Dil Chhed De 116
 Sab Tera|Sab Tera
 Sab Tera|Sab Tera Karaoke
 Salaam|Salaam
@@ -2502,6 +2508,7 @@ Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
 Surmaiye Ankhiyon Mein|Surmai Akhiyoon Mein
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayee Akhiyon Mein 720P Yesudas
+Surmaiye Ankhiyon Mein|Surmayee Ankhiyon Mein
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
@@ -2542,6 +2549,7 @@ Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka Naata
 Tera Mujhse Hai|Tera Mujhse Hai Pehle
 Tera Yaar Hoon Main|Tera Yaar Hoon Main
 Tere Bina Jiya Jaaye Na|Tere Bina
+Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Bina Koi Jindgi
@@ -2842,6 +2850,7 @@ Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
+Tum Se Hi|Tum Se Hi
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki Kasam

@@ -166,8 +166,17 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 
     # Build base query
     sqlquery = f"""
-        select  p.*
+        with join_stats as (
+            select  s.performed_by,
+                    count(p.performers) as join_cnt,
+                    count(case when p.created_at > current_timestamp - interval '14 days' then 1 else null end) as join_14day_cnt
+            from    singer s
+                    left outer join performance p on p.performers = s.performed_by and p.owner_handle = '{username}'
+            group by 1
+            )
+        select  p.*, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.join_14day_cnt,0) as join_14day_cnt
         from    all_performances p
+                left outer join join_stats js on js.performed_by = p.partner_name
         where   p.created_at between '{fromdate}' and '{todate}'
         and     p.performer_handles ilike '%{username}%'
         and     p.web_url not like '%ensembles'
@@ -204,8 +213,18 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         else:
             d['display_handle'] = d['owner_handle']
             d['display_pic_url'] = d['owner_pic_url']
+            #d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
             # Construct comment for partner
-            d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
+            joinCount = d['join_cnt']
+            join14DayCount = d['join_14day_cnt']
+            if joinCount == 0:
+                joinMessage = " Please do join some of my invites too"
+            elif join14DayCount == 0:
+                joinMessage = " Please join some of my invites again"
+            else:
+                #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
+                joinMessage = " Please keep joining my invites too"
+            d['comment'] = build_comment('@' + d['display_handle'] + ' ', joinMessage)
         performances.append(d)
         i += 1
         if i >= maxperf:

@@ -16,6 +16,24 @@ DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
 
+# Populate the global rsPartnerInfo variable by querying the database
+def fetchPartnerInfo():
+    global rsPartnerInfo
+    # Get partner info to be used later
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
+    rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_30_days_cnt as recent_join_cnt from favorite_partner")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+
+    return rsPartnerInfo
+
+# Return the specified attribute from rsPartnerInfo
+def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
+    global rsPartnerInfo
+    # If rsPartnerInfo is not defined, then populate it
+    try: rsPartnerInfo
+    except NameError: fetchPartnerInfo()
+    return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
+
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
     data = None
@@ -47,7 +65,7 @@ def fetchDBUserFollowing():
         followingAccountIds.append(r['account_id'])
     return followingAccountIds
 
-# Method to query performers
+# Method to generate list of performers from partnerSQL that I am not following
 def checkPartners(inviteOptions):
     performers = []
     sqlquery = inviteOptions['partnersql']
@@ -59,10 +77,10 @@ def checkPartners(inviteOptions):
     for p in partners:
         # Append the row to list of performers if I am not following this account
         if p['partner_account_id'] not in followingAccountIds:
-            # Put in dummy values for joiner and partner stats since we are sharing the same HTML template
             p['performers'] = p['partner_name']
             p['joiner_stats'] = f"Joins: {p['join_cnt']}"
             p['partner_stats'] = f"Score: {p['recency_score']}"
+            # Put in dummy values for city and country since we are sharing the same HTML template
             p['city'] = "Unknown"
             p['country'] = "Unknown"
             performers.append(p)
@@ -229,22 +247,6 @@ def extractSearchOptions(searchOptions):
 
     return contentType, solo, joins
 
-def fetchPartnerInfo():
-    global rsPartnerInfo
-    # Get partner info to be used later
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id,partner_name,join_cnt,recency_score,join_last_30_days_cnt as recent_join_cnt from favorite_partner")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
-
-    return rsPartnerInfo
-
-def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
-    global rsPartnerInfo
-    # If rsPartnerInfo is not defined, then populate it
-    try: rsPartnerInfo
-    except NameError: fetchPartnerInfo()
-    return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
-
 def fetchGeoCache():
     global rsGeoCache
     # Get partner info to be used later
@@ -363,7 +365,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         else:
             joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
             join14DayCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
-            joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
+            if joinCount == 0:
+                joinMessage = " Please do join some of my invites too"
+            elif join14DayCount == 0:
+                joinMessage = " Please join some of my invites again"
+            else:
+                #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
+                joinMessage = " Please keep joining my invites too"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
