@@ -161,6 +161,7 @@ Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
 Aap Ki Nazron Ne Samjha|Aapki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aapkinazron Ne Samjha
 Aap Ki Nazron Ne Samjha|App Ki Nazaro Ne Samjha
+Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
 Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aate Jaate Hanste Gaate|Aate Jate Hanste Gaate
 Aati Kya Khandala|Aati Kya Khandala
@@ -334,6 +335,7 @@ Aji Roothkar|Aji Ruth Kar Ab
 Aji Roothkar|Aji Ruth Kar Ab Kaha Jaiyega
 Aji Roothkar|Aji Ruthkar Ab
 Aji Roothkar|Aji Rooth Kar Ab Kahan Jaiyega
+Aji Roothkar| Aji Rooth Kar Ab
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
@@ -411,6 +413,7 @@ Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
 Baawra Mann Dekhne Chala Ek Sapna|Baawra Mann Dekhne Chala Ek Sapna
 Baazigar O Baazigar|Baazigar O Baazigar
 Baazigar O Baazigar|Bazigar O Bazigar
+Baazigar O Baazigar|Baazigar O Baazigarbazigar S
 Babuji Dheere Chalna|Babuji Dheere Chalna
 Bachna Ae Haseeno|Bachna Ai Hasino
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
@@ -474,6 +477,7 @@ Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bhool Gaya Sab Kuch|Bhul Gaya Sab Kuch
 Bhumro Bhumro|Bhumro Bhumro Mission Kashmir
 Bhumro Bhumro|Bumbro Bumbro
+Bikhara Ke Julfein|Bikhara Ke Julfein Chaman Mein Na Jana
 Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
@@ -522,6 +526,7 @@ Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch
+Chaand Ne Kuch Kaha|Chand Ne Kuch Kahacomᵖcchaand
 Chaand Phir Nikla|Chand Phir Nikla
 Chaand Si Mehbooba Ho Meri|Chand Si Mehbooba Ho Meri
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
@@ -542,6 +547,7 @@ Chala Jata Hoon|Chala Jata Hoon
 Chale Jaise Hawayein|Chale Jaise Hawayein
 Chale Jaise Hawayein|Chale Jaise Hawaiian
 Chali Chali Re Patang|Chali Chali Re Patang
+Chali Chali Re Patang|Chali Chali Re Patang Meri Chali Re
 Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
 Chalo Dildar Chalo|Chalo Dildar Chalo
@@ -1240,6 +1246,7 @@ Jaane Jaan Dhoondta|Jaane Jaan Dhoondta Phir
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondta Phir Raha
 Jaane Jaan Dhoondta|Jane Jaan Dhoondta
 Jaane Jaan Dhoondta|Jane Jaan Dhoondta Phir Raha
+Jaane Jaan Dhoondta|109 Jaane Jaa Dhoondta Phir
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman
 Jaane Jigar Jaaneman|Jaane Jigar Janeman
 Jaane Jigar Jaaneman|Jane Jigar Janejigar
@@ -1912,6 +1919,7 @@ Mile Ho Tum Humko|Mile Ho Tum Humko
 Mile Ho Tum Humko|Mile Hotum Humko
 Mile Ho Tum Humko|Mileho Tum Humko Ho Tum Humko Hamko
 Mile Ho Tum Humko|Mileho_Tum_Humko
+Mile Ho Tum Humko|Mile Ho Tum Humko Hindi
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
@@ -2143,6 +2151,7 @@ Pehla Nasha|Pehlanasha
 Pehla Nasha|Pehlanasha Pehla Khumaar Khumar
 Pehla Nasha|Pahla Nasha
 Pehla Nasha|Pehla Nasha Pehla Khummar
+Pehla Nasha|Pehla Nasha Pehla
 Pehla Nasha X Gazab Ka Din Mashup|Pehla Nasha X Gazab Ka Din Amir Khan Mashup
 Pehla Pehla Pyar Hai|Pahla Pahla Pyaar Hai
 Pehla Pehla Pyar Hai|Pehla Pehla Pyar Hai
@@ -2675,6 +2684,7 @@ Tu Hi Re|Tu Hi Ree Bombay Movie In D
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri
+Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -2841,6 +2851,7 @@ Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile 
 Tum Mile Dil Khile|Tum Miledil Khile
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
+Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
 Tum Paas Aaye|Tum Paas Aaye
 Tum Paas Aaye|Tum Paas Aaye Tum Aaye Tum
 Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
@@ -3110,6 +3121,7 @@ Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh To Sach Hai Ki Bhagwan Hai
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh Toh Sach Hai Ki Bhagwan Hai
 Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi Hai
+Yeh Zameen Gaa Rahi Hai|Ye Zamin Gaa Rahi Hai
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
@@ -3136,6 +3148,7 @@ Zara Zara Bahekta Hai|Zara Zara Bahekta Hai
 Zara Zara Bahekta Hai|Zara Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara Behakta Hai
 Zara Zara Bahekta Hai|Zara Zara Behekta Hai Hindi
+Zara Zara Bahekta Hai|Zara Zara Bahekta Hai Rhtdm
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha

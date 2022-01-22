@@ -166,17 +166,18 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 
     # Build base query
     sqlquery = f"""
-        with join_stats as (
+        with perf_stats as (
             select  s.performed_by,
-                    count(p.performers) as join_cnt,
-                    count(case when p.created_at > current_timestamp - interval '14 days' then 1 else null end) as join_14day_cnt
+                    count(case when p.created_at > current_timestamp - interval '30 days' then p.performers else null end) as recent_perf_cnt,
+                    count(case when p.owner_handle = '{username}' then p.performers else null end) as join_cnt,
+                    count(case when p.owner_handle = '{username}' and p.created_at > current_timestamp - interval '30 days' then 1 else null end) as recent_join_cnt
             from    singer s
-                    left outer join performance p on p.performers = s.performed_by and p.owner_handle = '{username}'
+                    left outer join performance p on p.performers = s.performed_by
             group by 1
             )
-        select  p.*, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.join_14day_cnt,0) as join_14day_cnt
+        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt
         from    all_performances p
-                left outer join join_stats js on js.performed_by = p.partner_name
+                left outer join perf_stats js on js.performed_by = p.partner_name
         where   p.created_at between '{fromdate}' and '{todate}'
         and     p.performer_handles ilike '%{username}%'
         and     p.web_url not like '%ensembles'
@@ -216,14 +217,19 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
             #d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
             # Construct comment for partner
             joinCount = d['join_cnt']
-            join14DayCount = d['join_14day_cnt']
-            if joinCount == 0:
-                joinMessage = " Please do join some of my invites too"
-            elif join14DayCount == 0:
-                joinMessage = " Please join some of my invites again"
+            recentJoinCount = d['recent_join_cnt']
+            recentPerfCount = d['recent_perf_cnt']
+            # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
+            if recentPerfCount > 0:
+                joinMessage = ""
             else:
-                #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
-                joinMessage = " Please keep joining my invites too"
+                if joinCount == 0:
+                    joinMessage = " Please do join some of my invites too"
+                elif recentJoinCount == 0:
+                    joinMessage = " Please join some of my invites again"
+                else:
+                    #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
+                    joinMessage = " Please keep joining my invites too"
             d['comment'] = build_comment('@' + d['display_handle'] + ' ', joinMessage)
         performances.append(d)
         i += 1
