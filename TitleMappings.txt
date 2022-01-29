@@ -26,6 +26,7 @@ Aaiye Meherbaan|Aaiye Meherbaan
 Aaiye Meherbaan|Aaiye Meherbaan Baithiye
 Aaiye Meherbaan|Ad Aaiye Maherbaan Baithiye
 Aaiye Meherbaan|Aaiye Meharban
+Aaiye Meherbaan|Aayie Meharbaan
 Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
@@ -705,6 +706,7 @@ Deewana Mastaana|दीवाना मस्ताना हुआ दिल �
 Deewana Mastaana|Deewana Mastana Hua Dildeewana Mastana
 Deewani Mastani|Deewani Mastani
 Deewani Mastani|Deewani Mastani Without Chorus
+Dekh Humein Aawaaz Na Dena|Dekh Humen Aawaz Na Dena
 Dekha Ek Khwaab To|Dekha Ek Khwaab Khwab
 Dekha Ek Khwaab To|Dekha Ek Khwaab To
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile
@@ -735,7 +737,6 @@ Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekhte Dekhte|Dekhtedekhte Atif
 Der Se Hua|Der Se Hua Par Pyaar Toh Hua
 Der Se Hua|Der Se Hua
-Desi Girl|: My Desi Girl
 Dhadak|Dhadak
 Dhadak|Dhadak Female
 Dhadak|Dhadak Title Dhadak
@@ -796,6 +797,7 @@ Dil Hai Ke Maanta Nahin|Dil Hai Ki Maanta Nahi
 Dil Hai Ke Maanta Nahin|Hil Hai Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi Dil Hai
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta
+Dil Hai Ke Maanta Nahin|~ Dil Hai Ki Manta Nahi
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
@@ -1177,6 +1179,7 @@ Intehaan Ho Gayi|Intehan Ho Gayi
 Intehaan Ho Gayi|Intehanho Gayi
 Intehaan Ho Gayi|Inteha Ho Gayi Intezaar Ki
 Intehaan Ho Gayi|Inteha Ho Gayi Intezar Ki
+Intehaan Ho Gayi|Intehaan Hogayi Intezaar Ki
 Ironic|Ironic
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
@@ -1508,6 +1511,7 @@ Kal Ho Na Ho|Kalho Na Hoho Na Ho Ho Na Ho
 Kal Ho Na Ho|Kalho Na Hoho Na Hoho Na Ho
 Kal Ho Na Ho|Sonu Nigam Kal Ho Na Kal Na
 Kal Ho Na Ho|Kal Ho Na Ho Unwind
+Kal Ho Na Ho|Kal Ho Na Hoho Na Ho Ho Na Ho
 Kal Raat Zindagi Se Mulakaat|Kal Raat Zindagi Se Mulakaat
 Kalank|Kalank
 Kalank|Kalank Female
@@ -1957,6 +1961,9 @@ Musafir Hoon Yaaron|Musafir Hoon Yaaro 1972
 Musafir Hoon Yaaron|Musafir Hoon Yaron
 Musafir Hoon Yaaron|Musafir Hun Yaaro
 Muthukodi Kawari Hada|Muthu Kodi Kawari Hada
+My Desi Girl|: My Desi Girl
+My Desi Girl|My Desi Girl
+My Desi Girl|Desi Girl
 My Favorite Things|My Favorite Things
 My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
@@ -2121,6 +2128,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kaaala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
 Palkon Ke Peeche Se|Palkon Ke Peechhe Se
+Panna Ki Tamanna Hai|Panna Ki Tamanna Hai
 Papa Kehte Hai|Papa Kehte Hai
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takrai
@@ -2189,6 +2197,7 @@ Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main Clean
 Pukarta Chala Hoon Main|Pukarta Chala Hu Main
+Pukarta Chala Hoon Main|Pukarta Chala Hoon
 Pyaar Deewana Hota Hai|Adpyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Haissgn_Chamsmanoj
@@ -2573,6 +2582,7 @@ Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
 Tere Chehre Se|Tere Chehre Se Rits
 Tere Chehre Se|)Tere Chehre Se Nazar
+Tere Chehre Se|तेरे चेहरे से नज़र नहीं हटती
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
@@ -2851,6 +2861,7 @@ Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile 
 Tum Mile Dil Khile|Tum Miledil Khile
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
+Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
 Tum Paas Aaye|Tum Paas Aaye
 Tum Paas Aaye|Tum Paas Aaye Tum Aaye Tum
