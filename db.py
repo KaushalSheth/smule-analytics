@@ -354,14 +354,16 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by adj_weighted_cnt desc
             """
     elif analyticstitle == 'Favorite Partners':
-        headings = ['Partner', 'Recency Score', 'Rating', 'Perf/Join Ratio', 'First Perf Time', '# Performances', '# Joins', '# Favorites', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following']
+        headings = ['Partner', 'Recency Score', 'Rating', 'Perf/Join Ratio', 'First Perf Time', '# Performances', '# Joins', '# Favorites', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time']
         sqlquery = f"""
             select  partner_name as user_search,
                     round(case when recency_score > 100000 then recency_score - 100000 when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
                     round(case when rating = 99999 then 0 else rating end, 2) as rating,
-                    case when (join_cnt = 0 or join_cnt < performance_cnt/20.0) then round(performance_cnt/10.0,2) else round(performance_cnt/join_cnt,2) end as perf_join_ratio,
-                    first_performance_time, performance_cnt, join_cnt, favorite_cnt, last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following
+                    case when join_cnt = 0 then null else round(performance_cnt/(join_cnt*1.0),2) end as perf_join_ratio,
+                    first_performance_time, performance_cnt, join_cnt, favorite_cnt, last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
+                    days_till_first_join, first_join_time, last_join_time
             from    favorite_partner
+            where   performance_cnt > 0
             order by recency_score desc
             """
     elif analyticstitle == 'Period Stats':

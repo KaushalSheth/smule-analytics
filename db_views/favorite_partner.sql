@@ -23,7 +23,9 @@ perf_stats as (
             case when always_include_ind > 0 then 100000 else 0 end +
                 sum(performance_weight_nbr*(case favorite_ind when 1 then 20 else 1 end)*(case join_ind when 1 then 10 else 1 end)) as recency_score,
             max(case when join_ind = 0 then created_at else '2000-01-01'::timestamp end) as last_performance_time,
-            min(created_at) as first_performance_time
+            min(created_at) as first_performance_time,
+            min(case when join_ind = 1 then created_at else null end) as first_join_time,
+            max(case when join_ind = 1 then created_at else null end) as last_join_time
     from 	perf
     group by 1, 2, 3
 )
@@ -45,13 +47,15 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         p.last_performance_time,
         p.first_performance_time,
         s.pic_url as display_pic_url,
-        coalesce(sf.is_following,false) as is_following
+        coalesce(sf.is_following,false) as is_following,
+        extract(day from first_join_time - first_performance_time) days_till_first_join,
+        first_join_time, last_join_time
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join singer_following sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
-select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following
+select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)
