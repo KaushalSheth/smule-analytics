@@ -2,7 +2,7 @@ drop view favorite_partner;
 CREATE OR REPLACE VIEW favorite_partner AS
 with
 perf as (
-    select  p.*, pf.rating_nbr,
+    select  p.*, pf.rating_nbr, pf.created_at as rated_datetime,
             greatest(1,30-p.days_since_performance) as performance_weight_nbr,
             case when l.item_name is not null then 1 else 0 end always_include_ind
     from    my_performances p
@@ -27,7 +27,7 @@ perf_stats as (
             min(created_at) as first_performance_time,
             min(case when join_ind = 1 then created_at else null end) as first_join_time,
             max(case when join_ind = 1 then created_at else null end) as last_join_time,
-            count(case when rating_nbr < 5 then 1 else null end) as rated_song_cnt,
+            count(case when rated_datetime > '2021-11-20'::timestamp then 1 else null end) as rated_song_cnt,   -- We started rating songs on 11/20/2021
             round(coalesce(avg(rating_nbr),0.0),2) avg_rating_nbr
     from 	perf
     group by 1, 2, 3
@@ -55,7 +55,7 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         first_join_time, last_join_time,
         round(case
             when performance_cnt <= 5 then avg_rating_nbr - 1 -- Not enough performances to get accurate rating, so subtract 1
-            when rated_song_cnt = 0 then avg_rating_nbr - greatest((0.5 - favorite_cnt/(performance_cnt*1.0)),0)
+            when rated_song_cnt < (performance_cnt/3.0) then avg_rating_nbr - greatest((0.75 - favorite_cnt/(performance_cnt*1.0)),0)
             else avg_rating_nbr
         end, 2) as avg_rating_nbr,
         rated_song_cnt

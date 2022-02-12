@@ -121,6 +121,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Ye Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye
 Aankhon Se Tune Ye|Ankhon Se Tune Ye Kya
 Aankhon Se Tune Ye|Ankhon Se Tune
+Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
@@ -1184,6 +1185,7 @@ Intehaan Ho Gayi|Intehaan Hogayi Intezaar Ki
 Ironic|Ironic
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
+Is Mod Se Jaate Hain|Is Mod Se Jaate
 Is This Love|Is This Love
 Isharon Isharon Mein|Dsj Isharon Isharon Mein Dil Lene
 Isharon Isharon Mein|Isharon Isharon Mein
@@ -1243,6 +1245,7 @@ Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se
+Jaane Do Na|Jaane Do Naa
 Jaane Jaan Dhoondta|Jaane Ja Dhoondta Phir Raha [Theme Remix]
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondata
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondta
@@ -1357,6 +1360,7 @@ Jab Koi Baat Bigad Jaaye|Jab_Koibaat_Bigadjaaye
 Jab Koi Baat Bigad Jaaye|Jab Koi Bat Bigad Jaye Rits
 Jab Koi Baat Bigad Jaaye|Jabkoi_Baat
 Jab Koi Baat Bigad Jaaye|Jab Koie Bat Bigad Jaaye
+Jab Koi Baat Bigad Jaaye|111 Jab Koi Baat Bigad Jaye
 Jab Mohabbat Jawan Hoti Hai|Jab Muhabbat Jawan Hoti Hai
 Jab Pyaar Kiya To Darna Kya|Jab Pyar Kiya Toarna Kya
 Jabse Tere Naina|Jab Se Tere Naina
@@ -2384,6 +2388,7 @@ Saanson Ko Saanson Mein|Saanson Ko Saanson Mein Dal Ne
 Saanson Ko Saanson Mein|Sanson Ko Sanson Mein~Hum Tum
 Saanson Ko Saanson Mein|Hum Tum
 Saanson Ko Saanson Mein|Hum Tum Sanson Ko Sanson Mein
+Saanson Ko Saanson Mein|Sanson Ko Sanson Mein
 Saans|Saans Jab Tak Hai Jaan
 Saans|Saans Me Teri
 Saans|Saans Mein
@@ -2734,6 +2739,7 @@ Tu Tu Hai Wahi|¹ Tu Tu Hai Wahi
 Tu Tu Hai Wahi|🖐✊Tu Tu Hai Wahi
 Tu Tu Hai Wahi|Tu Tu Hai Wahi ( Shot
 Tu Tu Hai Wahi|Yeh Vaada Raha
+Tu Tu Hai Wahi|Tu Tu Hai Wahi Ye Wada Raha
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai

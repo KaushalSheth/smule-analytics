@@ -376,7 +376,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     joinMessage = " Please join some of my invites again"
                 else:
                     #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
-                    joinMessage = " Looking forward to more joins"
+                    joinMessage = " Looking forward to more joins from you as well"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -442,7 +442,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             except:
                 orig_track_city = "Unknown"
                 orig_track_country = "Unknown"
-                raise
+                #raise
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -696,7 +696,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     # Debugging SQL below - uncomment it to override above SQL
-    #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'KaushalSheth1'"
+    #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'OfficiallyDiva'"
     print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
     partnersTop = execDBQuery(partnersql)
 
