@@ -15,6 +15,12 @@ import geocoder
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
+groupHandles = ["TARAANAofficial","00_OFFICIALS_HLM","_SZ_official","H_D_OFFICIALS","SSZOFFICIAL","M_M_C_official_","STARZ___OFFICIAL",
+"YAARIYANofficial","Official_Unity","JhankaarOfficial","Dostana_official","Official_Goonj","OfficiallyDiva","SngtOfficial","__VosOfficial",
+"Official__Sonic","_AditiOfficial7_","_Official_RUM_","RaaG_Official","YAARIYANclassic","YAARIYAN_Idol","YAARIYAN_Queens","AshaBhosleFc",
+"RDBurmanFC","KhansFC","kishoreLoversFC","K4KishorFC","ARRandSPBfc","LataMangeshkarFc","alkayagnikfc","UditNarayanFC_","kishorekumarfc",
+"RafiFanClub","SPB_fanpage","AshaBhosleFans","QueensOf90s","KingsOf90s","Rocking__Raga","DUBAISMULEANS","GemsCommunity","ELITE_MUSICALS",
+"DA_DilkiAawaaz","AaoJhumeGayein","SurSnehi_Idol","BigB_FC"]
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
@@ -358,6 +364,14 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 if (partnerHandle != username):
                     display_user = partnerHandle
                     display_pic_url = partner_pic_url
+        # If performers is in list of GroupHandles, then look for the real performer in the message string
+        if performers in groupHandles:
+            msg = performance['message']
+            prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
+            # If message contains any wors starting with @, take the first one as the real performer handle. Strip out the leading @
+            if len(prf) > 0:
+                p = prf[0]
+                performers = p[1:]
         filename_base = f"{fixedTitle} - {performers}"
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:

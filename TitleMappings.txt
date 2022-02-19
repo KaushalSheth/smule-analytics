@@ -61,6 +61,7 @@ Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aya Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aaya Hai
 Aaj Rapat Jaayen|Aaj Rapat Jaayen
 Aaj Rapat Jaayen|Aaj Rapat Jaayen Toh
+Aaj Rapat Jaayen|Aaj Rapat Jaaye
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hun Pyar
@@ -163,6 +164,7 @@ Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
 Aap Ki Nazron Ne Samjha|Aapki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aapkinazron Ne Samjha
 Aap Ki Nazron Ne Samjha|App Ki Nazaro Ne Samjha
+Aap Ki Nazron Ne Samjha|R Aap Ki Nazron Ne Samjha
 Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
 Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aate Jaate Hanste Gaate|Aate Jate Hanste Gaate
@@ -299,6 +301,7 @@ Agar Tum Na Hote|Hame Aur Jeene Hume
 Agar Tum Na Hote|Hamein Aur Jeene
 Agar Tum Na Hote|Hamein Aur Jeene Ki
 Agar Tum Na Hote|Humein Aur Jeene Ki
+Agar Tum Na Hote|Agar Tum Na Hote ,
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -954,6 +957,7 @@ Ek Din Aap Yoon Humko|Ek Din Aap Youn Humko
 Ek Din Aap Yoon Humko|Ek Din Aap Yun
 Ek Din Aap Yoon Humko|Maine Kya Socha Tha
 Ek Din Aap Yoon Humko|Maine Socha Na Tha
+Ek Din Aap Yoon Humko|115 Ek Din Aap Yun
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhagi Si
@@ -1162,6 +1166,7 @@ Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humma Humma|Humma Humma
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai In Aankhon Mein
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai
+Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankho Ki
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
 Humne Tumko Dekha|)Humne Tumko Dekha
 I Am The Best|I Am The
@@ -1839,6 +1844,7 @@ Mehbooba Mehbooba|Mehbooba Mehbooba
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
 Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mehndi Lagake
+Mehndi Laga Ke Rakhna|Mehandi Laga Ke Rakhna
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai Female
@@ -1929,6 +1935,7 @@ Mile Ho Tum Humko|Mile Hotum Humko
 Mile Ho Tum Humko|Mileho Tum Humko Ho Tum Humko Hamko
 Mile Ho Tum Humko|Mileho_Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum Humko Hindi
+Mile Ho Tum Humko|Teri Yaad
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
@@ -2354,6 +2361,7 @@ Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
+Ruk Ja Raat Theher|रुक जा रात ठहर जा रे चंदा बीते ना मिलन
 Ruk Jaana Nahin|Ruk Jaana Nahi
 Ruk Jaana Nahin|Ruk Jaana Nahi Tu Kahin Haarke
 Ruk Jaana Nahin|Ruk Jaana Nahin
@@ -2866,6 +2874,7 @@ Tum Mile Dil Khile|Tum Mile Dil Khile
 Tum Mile Dil Khile|Tum Mile Dil Khile Criminal
 Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile Khile Criminal
 Tum Mile Dil Khile|Tum Miledil Khile
+Tum Mile Dil Khile|Tu Mile Dil Khile Tum Mile Dil
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
@@ -2877,6 +2886,7 @@ Tum Paas Aaye|Tum Pass Ae
 Tum Paas Aaye|Tum Pass Aye
 Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
+Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
 Tum Se Hi|Tum Se Hi
