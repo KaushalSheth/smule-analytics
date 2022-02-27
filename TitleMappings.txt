@@ -302,6 +302,7 @@ Agar Tum Na Hote|Hamein Aur Jeene
 Agar Tum Na Hote|Hamein Aur Jeene Ki
 Agar Tum Na Hote|Humein Aur Jeene Ki
 Agar Tum Na Hote|Agar Tum Na Hote ,
+Agar Tum Na Hote|Hame Aur Jine Ki Chahat
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -310,6 +311,7 @@ Agar Tum Saath Ho|Agar Tumsaath_Ho_
 Agar Tum Saath Ho|Agar Tum Saath Ho Tamasha
 Agar Tum Saath Ho|Agar Tum Sath Ho Agar Tum Sath Ho
 Aisa Lagta Hai|Aisa Lagta Hai
+Aisa Lagta Hai|Aisa Lagta Hai Jo Na Hua
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
 Aisi Deewanagi|Aisi Deewanagi
@@ -1018,6 +1020,7 @@ Ghazab Ka Hai Din|Ghazab Ka Hai Din
 Ghazab Ka Hai Din|Ghazab Ka Hai Din=Short Qayamat se Qayamat Tak
 Ghungroo Ki Tarah|Ghungrookitarah
 Give Me Some Sunshine|Give Me Some Sunshine
+Gori Ka Sajan Sajan Ki Gori|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada Pyara
 Groovy Kind Of Love|A Groovy Kind Of Love
@@ -1399,6 +1402,7 @@ Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
 Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Teri Aankhe
 Jeevan Se Bhari Teri Aankhein|Shorjeevan Se Bhari Teri Aankhe
+Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari
 Jeevan Se Na Haar|Jeevan Se Na Haar
 Jeevan Se Na Haar|Jeevan Se Na Haar O Jeenewale
 Jhanak Jhanak Tori Baaje Payaliya|Jhanak Jhanak Tori Baje Payelia
@@ -1649,6 +1653,7 @@ Kuch Na Kaho|Kuch Na Kaho Na Kaho
 Kuch Na Kaho|Kuchh Na Kaho
 Kuch Na Kaho|Kuch Naa Kaho Title
 Kuch Na Kaho|Kuch Na Kaho Kuch Naa
+Kuch Na Kaho|Kuchh Na Kaho Kuchh Bhi
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -1727,6 +1732,7 @@ Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi Kya Mera
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar Nehi Meri Pyaari Bindu
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar
 Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar Nahin
+Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar
 Maang Ke Saath Tumhara|Maang Ke Saath Mang
 Maang Ke Saath Tumhara|Maang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Ke Saath Tumhara:
@@ -2290,6 +2296,7 @@ Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke Ke
 Raat Ke Humsafar|Raat Ke Raat Ke Raat Ke
 Raat Ke Humsafar|Raatke Humsafar
 Raat Ke Humsafar|Newraat Ke Humsafar
+Raat Ke Humsafar|Raat Ke Humsafar Thak Ke Ghar
 Raat Shabnami|Raat Shabnami
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
@@ -2411,6 +2418,7 @@ Saawan Ka Mahina|Sawan Ka Mahina Milan
 Saawan Ka Mahina|Sawan Ka Mahina
 Saawan Ka Mahina|Sawan Ka 🎆Mahina Karaoke Milan
 Saaz E Dil Chhed De|Saaz E Dil Chhed De 116
+Saaz E Dil Chhed De|Saaz
 Sab Tera|Sab Tera
 Sab Tera|Sab Tera Karaoke
 Salaam|Salaam
@@ -2457,6 +2465,7 @@ Sawaar Loon|~Sawarloon
 Say Shava Shava|Say Shava Shava
 Say You Say Me|Say You Say Me
 Sayonara Sayonara|Sayonara Sayonara
+Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -2984,12 +2993,14 @@ Yaad Kiya Dil Ne|(SHORT) Yaad Kiya Dil Ne (duet) hindi song
 Yaad Kiya Dil Ne|Newyaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
+Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
 Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
 Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
 Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai
+Yaar Bina Chain|Yaar Bina Chain
 Yaara Sili Sili|Yaara Sili Sili
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
