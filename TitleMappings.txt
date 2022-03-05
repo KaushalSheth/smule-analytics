@@ -484,7 +484,9 @@ Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bhool Gaya Sab Kuch|Bhul Gaya Sab Kuch
 Bhumro Bhumro|Bhumro Bhumro Mission Kashmir
 Bhumro Bhumro|Bumbro Bumbro
-Bikhara Ke Julfein|Bikhara Ke Julfein Chaman Mein Na Jana
+Bikhara Ke Zulfein|Bikhara Ke Julfein Chaman Mein Na Jana
+Bikhara Ke Zulfein|Bikhra Ke Zulfein Chaman Mein Na Jana
+Bikhara Ke Zulfein|Bikhara Ke Julfein
 Bindiya Chamkegi|Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
@@ -866,6 +868,7 @@ Dil Ne Yeh Kaha|Dil Ne Ye Kahan Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hain Dil Se
 Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
 Dil Pukaare Aa Re Aa Re|Dil Pukare Aa Re Aare
+Dil Pukaare Aa Re Aa Re|Dil Pukare Are Are
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke
 Dil Tadap Tadap Ke|Dil Tadap Tadap Ke Keh Raha Hai
 Dil To Baccha Hai Ji|Dil To Baccha Hai Ji
@@ -1073,6 +1076,7 @@ Har Kisi Ko Nahi Milta|Har Kisko Nahi Milta
 Haule Haule|Haule Haule
 Hawa Ke Saath Saath|O Saathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Saath
+Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
 Haye Mera Dil|Hai Mera Dil
 Haye Mera Dil|Hai Mera Dil Josh
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua
@@ -1619,6 +1623,7 @@ Kismat Se Tum|Kismat Se Tum Pukar
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyara Waada|Kitna Pyara Waada
 Kitna Pyara Waada|Kitna Pyaara Wada
+Kitna Pyara Waada|Kitna Pyara Wadacarvaan
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
@@ -2147,6 +2152,8 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
 Palkon Ke Peeche Se|Palkon Ke Peechhe Se
 Panna Ki Tamanna Hai|Panna Ki Tamanna Hai
+Panna Ki Tamanna Hai|〘〙Panna Ki Tamanna
+Panna Ki Tamanna Hai|Panna Ki Tamanna
 Papa Kehte Hai|Papa Kehte Hai
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takrai
@@ -2945,6 +2952,7 @@ Ude Jab Jab Zulfein Teri|🌺Ude Jab Jab Zulfein🍁 Teri🍁 (High Quality)
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
 Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
+Us Mod Se Shuroo Karein|Us Mod Se Shuroo Karen
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
 Vaada Tera Vaada|Vaada Tera Vaada
@@ -3058,6 +3066,8 @@ Yeh Haseen Wadiyan|Yeh Haseen Waadiyaan
 Yeh Haseen Wadiyan|Yeh Haseen Wadiyan
 Yeh Haseen Wadiyan|Yeh Haseen Waadiya Yeh Haseen Wadiya
 Yeh Haseen Wadiyan|Yeh Haseen Vadiyan Yeh Khula Aasman
+Yeh Haseen Wadiyan|Yeh Hassen Wadiya Yeh Haseen Wadiya
+Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Jeevan Hai|Yeh Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
 Yeh Jeevan Hai|ये जीवन है
