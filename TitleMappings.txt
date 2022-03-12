@@ -488,6 +488,7 @@ Bikhara Ke Zulfein|Bikhara Ke Julfein Chaman Mein Na Jana
 Bikhara Ke Zulfein|Bikhra Ke Zulfein Chaman Mein Na Jana
 Bikhara Ke Zulfein|Bikhara Ke Julfein
 Bindiya Chamkegi|Bindiya Chamkegi
+Bindiya Chamkegi|~2 Bindiya Chamkegi
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
 Bol Na Halke Halke|Bolna Halke Halke
@@ -536,6 +537,7 @@ Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
 Chaand Ne Kuch Kaha|Chand Ne Kuchh Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kahacomᵖcchaand
+Chaand Ne Kuch Kaha|Chand Ne Kuch Kahacompactchaand
 Chaand Phir Nikla|Chand Phir Nikla
 Chaand Si Mehbooba Ho Meri|Chand Si Mehbooba Ho Meri
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
@@ -736,6 +738,7 @@ Dekha Jo Tumko|Dekha Jo Tumko
 Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
+Dekhne Walon Ne|Dekhne Walon Ne Dekh Ne Walon Ne
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
 Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
@@ -1607,6 +1610,7 @@ Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya Koi Haqeeqat
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
 Kisi Din Banoongi|Kisi Din Banoongi Main
 Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
+Kisi Disco Mein Jayein|]Kisi Disco Mein Jaye
 Kisi Ki Muskarahaton|Jeena Isi Ka Naam Hai
 Kisi Ki Muskarahaton|Kisi Ke Muskarahaton Pe Ho Nisaar
 Kisi Ki Muskarahaton|Kisi Ki Muskarahaton Muskurahaton
@@ -1939,6 +1943,7 @@ Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na
 Mil Gaya Humko Sathi|Mil Gaya Humko Sathi
 Mil Kar Judaa Huye To|Mil Kar Juda Huay To
+Mil Kar Judaa Huye To|Milkar Juda Hue To
 Mile Ho Tum Humko|_Mile_Ho Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum
 Mile Ho Tum Humko|Mile Ho Tum Humko
@@ -3104,6 +3109,7 @@ Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
 Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jaadu Hai Mitwa
 Yeh Mausam Ka Jaadu|Ye Mousam Ka Jadoo Hai Mitwa
+Yeh Mausam Ka Jaadu|H‌Q‌ Ye Mousam Ka Jaadu
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He
