@@ -183,6 +183,7 @@ Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hame Tum Song
 Aawaaz Deke Hamein Tum Bulao|Awaz Deke Hame Tum Song
 Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulao
 Aawaaz Deke Hamein Tum Bulao|Aawaz Deke Hamein Tum Bulao
+Aawaaz Di Hai Aaj Ek Nazar Ne|Awaaz Di Hai Aaj Ek Nazar Ne
 Aawaaz Do Humko|Aawaz Do Humko Aawaz Do Humko
 Aawaaz Do Humko|आवाज़ दो हमको, हम खो गये, कब नींद से जागे
 Aawaaz Do Humko|Aawaz Do Humko
@@ -463,6 +464,7 @@ Beqarar Karke Hamein|Beqarar Karke Hamen
 Beqarar Karke Hamein|Dsj Bekarar Karke Hame
 Beqarar Karke Hamein|Beqarar Karke Hamen Yun Na Jaiye
 Beqarar Karke Hamein|070 Bekarar Karke Hume Yun Na Jaiye
+Beqarar Karke Hamein|Bekararr Kar Ke Hume
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bhanware Ki Gunjan|Bhanware Ki Gunjan
@@ -660,6 +662,7 @@ Chori Chori Jab Nazrein Mili|Chori Chori Jab
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazrein Mili (Kareb 1998)
 Chori Chori Jab Nazrein Mili|Chorichori Jabnazrein Kareeb
 Chori Chori Jab Nazrein Mili|3Chori Chori Jab Nazrein Mili
+Chori Chori Jab Nazrein Mili|Chorichorijαв ɴαzreιɴ Мιlι
 Chori Chori Sapno Mein|Chori Chori Sapno Mein
 Chori Chori Sapno Mein|Chori Chori Sapnon Mein Aata Koi
 Chori Kiya Re Jiya|Chori Kiya Re Jiya
@@ -718,6 +721,7 @@ Deewana Mastaana|Deewana Mastana Hua Dildeewana Mastana
 Deewani Mastani|Deewani Mastani
 Deewani Mastani|Deewani Mastani Without Chorus
 Dekh Humein Aawaaz Na Dena|Dekh Humen Aawaz Na Dena
+Dekh Humein Aawaaz Na Dena|Dekh Hame Awaaz Na Dena
 Dekha Ek Khwaab To|Dekha Ek Khwaab Khwab
 Dekha Ek Khwaab To|Dekha Ek Khwaab To
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile
@@ -726,6 +730,7 @@ Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Silsile I
 Dekha Ek Khwaab To|Dekha Ek Khwab
 Dekha Ek Khwaab To|Dekha Ek Khwaab
 Dekha Ek Khwaab To|Dekha Ek Khwab To Ye Silsile Hue
+Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Slisile Hue
 Dekha Hai Pehli Baar|[SHORT] 💞 Dekha Hai Pehli Baar Ost Saajan
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
@@ -788,6 +793,7 @@ Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
 Dil Deewana|Dildeewa Maine Pyaar Kiya
+Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Hai Chhota Sa|Dil Hai Chhota Sa
 Dil Hai Chhota Sa|Dil Hai Chota Sa
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
@@ -1505,6 +1511,7 @@ Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
 Kaho Na Kaho|Kaho Na Kaho
+Kaho Na Kaho|Kaho Na Kaho Murder
 Kaho Na Pyaar Hai|Kaho Na Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai Pyar Hain Pyaar Hai
@@ -2326,6 +2333,7 @@ Raja Ko Rani Se|Raja Ko Rani Se Pyar
 Ram Chahe Leela|Ram Chahe Leela
 Ramaiya Vastavaiya|Ramaiya Vastavaiya
 Ramta Jogi|Ramta Jogi
+Rang Barse Bheege Chunarwali|Rang Barse Bheege Chunarwali
 Rangeela Re Tere Rang Mein|Rangeela Re Tere Rang Me
 Right Here Waiting|Right Here Waiting 　　　　　　　　　　　　　　　　　　 Waiting
 Rimjhim Gire Saawan|Dsj Rimjhim Gire Sawan
@@ -2478,6 +2486,7 @@ Say Shava Shava|Say Shava Shava
 Say You Say Me|Say You Say Me
 Sayonara Sayonara|Sayonara Sayonara
 Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
+Shaam Dhale Khidki Tale|Shaam Dhale, Khidaki Tale
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -2503,6 +2512,7 @@ Socha Hai|Socha Hai
 Socha Hai|Socha Hai Keh Doon Tumhe
 Socha Hai|Keoon Tumhe
 Socha Hai|Newkeoon Tumhe
+Socha Hai|Keun Tumhe Ya Chup Rahun
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
@@ -2827,6 +2837,7 @@ Tum Aa Gaye Ho|Tum Agaye Ho Noor Agaya Hai
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
+Tum Agar Saath Dene Ka Wada Karo|Tum Agar Satene Ka Wada
 Tum Bin Jaaoon Kahan|Tum Bin
 Tum Bin Jaaoon Kahan|Tum Bin Jaaoon Kahan
 Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan

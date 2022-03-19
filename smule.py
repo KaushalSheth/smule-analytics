@@ -21,7 +21,7 @@ groupHandles = ["TARAANAofficial","00_OFFICIALS_HLM","_SZ_official","H_D_OFFICIA
 "RDBurmanFC","KhansFC","kishoreLoversFC","K4KishorFC","ARRandSPBfc","LataMangeshkarFc","alkayagnikfc","UditNarayanFC_","kishorekumarfc",
 "RafiFanClub","SPB_fanpage","AshaBhosleFans","QueensOf90s","KingsOf90s","Rocking__Raga","DUBAISMULEANS","GemsCommunity","ELITE_MUSICALS",
 "DA_DilkiAawaaz","AaoJhumeGayein","SurSnehi_Idol","BigB_FC","SargamAurSangeet","Radio_Rafi_Club","SwarSanGeetGroup","GeetGaliyare",
-"SingIndiaJammers","Jhankaar_Beats","KishoreLoversFC"]
+"SingIndiaJammers","Jhankaar_Beats","KishoreLoversFC","ArijitSinghFc","smuledelhijammer"]
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
