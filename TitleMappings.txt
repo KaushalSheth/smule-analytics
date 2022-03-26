@@ -56,6 +56,7 @@ Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere Jaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaaye Re
 Aaj Main Upar|Aaj Mein Upar
 Aaj Main Upar|Aaj Mein Upper Aasma Niche
+Aaj Main Upar|Ad Aaj Main Upar
 Aaj Phir Jeene Ki Tamanna Hai|Aaj Phir Jeene Ki Tamanna Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aya Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aaya Hai
@@ -276,6 +277,7 @@ Ae Mere Humsafar|Aye Mere Humsafar
 Ae Mere Humsafar|Ayeae Mere Humsafar
 Ae Mere Humsafar|𝔖𝐡𝐨𝐫𝐭 Aye Mere Humsafar
 Ae Mere Humsafar|Aye Mere Humsafar Aye Mere
+Ae Mere Humsafar|Aye Mere Hamsafar
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
 Ae Meri Zohra Jabeen|Ae Mere Zohra
@@ -1017,6 +1019,7 @@ Gali Mein Aaj Chand Nikla|Br Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand
 Galliyan|Galliyan
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
+Gapuchi Gapuchi Gum Gum|Gapoochi Gapoochi Gum
 Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
@@ -2576,6 +2579,7 @@ Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
 Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
+Tamma Tamma Loge|Tamma Tamma Loge
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
 Tanha Tanha|Tanha Tanha Yahaan Pe Jeena
 Tanha Tanha|Tanha Tanha
@@ -2628,6 +2632,7 @@ Tere Chehre Se|Tere Chehre Se Nazar Nahi
 Tere Chehre Se|Tere Chehre Se Rits
 Tere Chehre Se|)Tere Chehre Se Nazar
 Tere Chehre Se|तेरे चेहरे से नज़र नहीं हटती
+Tere Chehre Se|Tere Chehre Se Nazar Nahin
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
@@ -2736,6 +2741,7 @@ Tu Hi Hai|Tu Hi Hai
 Tu Hi Re|Tu Hi Re
 Tu Hi Re|Tu Hi Re Female
 Tu Hi Re|Tu Hi Ree Bombay Movie In D
+Tu Hi Re|Tu Hi Re , Bombay
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri
@@ -2929,6 +2935,7 @@ Tumhe Apna Banane Ki|~Tumhe Apna Banane Ki Kasam
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha Karaoke
 Tumhe Yaad Hoga Kabhi Hum|Tumhe Yaad Hoga Kabhi Ham
+Tumhi Dekho Na|Tumhi Dekho Nasd
 Tumhi Mere Mandir|Tumhi Mere Mandir
 Tumhi Mere Mandir|Tumhi Mere Mandir Mangeshkar
 Tumhi Mere Mandir|Tumhi Mere Mandir Khandan
@@ -3025,6 +3032,7 @@ Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
 Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai
 Yaar Bina Chain|Yaar Bina Chain
+Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaara Sili Sili|Yaara Sili Sili
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
@@ -3174,6 +3182,7 @@ Yeh Samaa|Ye Sama Sama Hai
 Yeh Samaa|Yeh Sama Sama Hai Ye Pyar Ka
 Yeh Samaa|Ye Samaa
 Yeh Samaa|Ye Sama Sama Hai Ye Pyar Ka
+Yeh Samaa|Yeh Sama , Jab Jab Phool Khile
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani

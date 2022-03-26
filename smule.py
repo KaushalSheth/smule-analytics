@@ -21,7 +21,8 @@ groupHandles = ["TARAANAofficial","00_OFFICIALS_HLM","_SZ_official","H_D_OFFICIA
 "RDBurmanFC","KhansFC","kishoreLoversFC","K4KishorFC","ARRandSPBfc","LataMangeshkarFc","alkayagnikfc","UditNarayanFC_","kishorekumarfc",
 "RafiFanClub","SPB_fanpage","AshaBhosleFans","QueensOf90s","KingsOf90s","Rocking__Raga","DUBAISMULEANS","GemsCommunity","ELITE_MUSICALS",
 "DA_DilkiAawaaz","AaoJhumeGayein","SurSnehi_Idol","BigB_FC","SargamAurSangeet","Radio_Rafi_Club","SwarSanGeetGroup","GeetGaliyare",
-"SingIndiaJammers","Jhankaar_Beats","KishoreLoversFC","ArijitSinghFc","smuledelhijammer"]
+"SingIndiaJammers","Jhankaar_Beats","KishoreLoversFC","ArijitSinghFc","smuledelhijammer","c_o_h_official_","TULIPSaReGaMaPa", "_SurSangeetGroup",
+"LataMangeshkarJi","ABCDFlyMusicGrp","GemsCommunity","dhwanimusical","RFTA_Official"]
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
@@ -853,12 +854,16 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         if "'NoneType' object has no attribute 'group'" in str(e):
             print("Recording not available - attempting to play in order to make it available")
-            media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-            # webbrowser registration does not seem to be needed
-            #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
-            #webbrowser.get('chrome').open(media_url)
-            webbrowser.open(media_url)
-            #print(f"NEED TO PLAY: {media_url}")
+            try:
+                # If media_url is not available, skip it
+                media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+                # webbrowser registration does not seem to be needed
+                #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
+                #webbrowser.get('chrome').open(media_url)
+                webbrowser.open(media_url)
+                #print(f"NEED TO PLAY: {media_url}")
+            except:
+                pass
         else:
             print(str(e))
         print("-----")
