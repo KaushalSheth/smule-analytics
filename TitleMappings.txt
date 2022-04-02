@@ -859,6 +859,7 @@ Dil Leke Darde Dil|Wanted
 Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
+Dil Ne Phir Yaad Kiya|Dil Ne Phir Yaad Kiya
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha
@@ -1278,6 +1279,7 @@ Jaane Jaan Dhoondta|Jaane Jaan Dhoondta Phir Raha
 Jaane Jaan Dhoondta|Jane Jaan Dhoondta
 Jaane Jaan Dhoondta|Jane Jaan Dhoondta Phir Raha
 Jaane Jaan Dhoondta|109 Jaane Jaa Dhoondta Phir
+Jaane Jaan Dhoondta|Jaane Jaan Dhundta Phir Raha
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman
 Jaane Jigar Jaaneman|Jaane Jigar Janeman
 Jaane Jigar Jaaneman|Jane Jigar Janejigar
@@ -1454,6 +1456,7 @@ Jo Haal Dil Ka|Jo Haal Dil Ka Jo Haal Dil
 Jo Haal Dil Ka|Jo Haal Dil Ka Male
 Jo Haal Dil Ka|Jo Haal Dilka
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
+Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -1510,6 +1513,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahi Door Jab
 Kahin Door Jab Din Dhal Jaaye|Kahin Dur Jab Din Dhal Jaye
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Gem
+Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
@@ -2337,6 +2341,7 @@ Ram Chahe Leela|Ram Chahe Leela
 Ramaiya Vastavaiya|Ramaiya Vastavaiya
 Ramta Jogi|Ramta Jogi
 Rang Barse Bheege Chunarwali|Rang Barse Bheege Chunarwali
+Rang Barse Bheege Chunarwali|Rang Barse
 Rangeela Re Tere Rang Mein|Rangeela Re Tere Rang Me
 Right Here Waiting|Right Here Waiting 　　　　　　　　　　　　　　　　　　 Waiting
 Rimjhim Gire Saawan|Dsj Rimjhim Gire Sawan

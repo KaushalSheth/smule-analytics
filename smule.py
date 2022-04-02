@@ -15,14 +15,6 @@ import geocoder
 DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
-groupHandles = ["TARAANAofficial","00_OFFICIALS_HLM","_SZ_official","H_D_OFFICIALS","SSZOFFICIAL","M_M_C_official_","STARZ___OFFICIAL",
-"YAARIYANofficial","Official_Unity","JhankaarOfficial","Dostana_official","Official_Goonj","OfficiallyDiva","SngtOfficial","__VosOfficial",
-"Official__Sonic","_AditiOfficial7_","_Official_RUM_","RaaG_Official","YAARIYANclassic","YAARIYAN_Idol","YAARIYAN_Queens","AshaBhosleFc",
-"RDBurmanFC","KhansFC","kishoreLoversFC","K4KishorFC","ARRandSPBfc","LataMangeshkarFc","alkayagnikfc","UditNarayanFC_","kishorekumarfc",
-"RafiFanClub","SPB_fanpage","AshaBhosleFans","QueensOf90s","KingsOf90s","Rocking__Raga","DUBAISMULEANS","GemsCommunity","ELITE_MUSICALS",
-"DA_DilkiAawaaz","AaoJhumeGayein","SurSnehi_Idol","BigB_FC","SargamAurSangeet","Radio_Rafi_Club","SwarSanGeetGroup","GeetGaliyare",
-"SingIndiaJammers","Jhankaar_Beats","KishoreLoversFC","ArijitSinghFc","smuledelhijammer","c_o_h_official_","TULIPSaReGaMaPa", "_SurSangeetGroup",
-"LataMangeshkarJi","ABCDFlyMusicGrp","GemsCommunity","dhwanimusical","RFTA_Official"]
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
@@ -31,7 +23,6 @@ def fetchPartnerInfo():
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
     rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_14_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
-
     return rsPartnerInfo
 
 # Return the specified attribute from rsPartnerInfo
@@ -41,6 +32,36 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     try: rsPartnerInfo
     except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
+
+def fetchGeoCache():
+    global rsGeoCache
+    # Get geo cache info to be used later
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch GeoCache")
+    rsGeoCache = execDBQuery("select lat, lon, city, country from geo_cache")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    return rsGeoCache
+
+def getGeoCache():
+    global rsGeoCache
+    # If rsGeoCache is not defined, then populate it
+    try: rsGeoCache
+    except NameError: fetchGeoCache()
+    return rsGeoCache
+
+def fetchGroupHandles():
+    global rsGroupHandles
+    # Get group handles info to be used later
+    #print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch rsGroupHandles")
+    rsGroupHandles = execDBQuery("select item_name from smule_list where list_type = 'GROUP_HANDLE'")
+    #print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    return rsGroupHandles
+
+def getGroupHandles():
+    global rsGroupHandles
+    # If rsGroupHandles is not defined, then populate it
+    try: rsGroupHandles
+    except NameError: fetchGroupHandles()
+    return rsGroupHandles
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="performances",offset=0):
@@ -255,22 +276,6 @@ def extractSearchOptions(searchOptions):
 
     return contentType, solo, joins
 
-def fetchGeoCache():
-    global rsGeoCache
-    # Get partner info to be used later
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch GeoCache")
-    rsGeoCache = execDBQuery("select lat, lon, city, country from geo_cache")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
-
-    return rsGeoCache
-
-def getGeoCache():
-    global rsGeoCache
-    # If rsPartnerInfo is not defined, then populate it
-    try: rsGeoCache
-    except NameError: fetchGeoCache()
-    return rsGeoCache
-
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
     performanceList = []
@@ -367,7 +372,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     display_user = partnerHandle
                     display_pic_url = partner_pic_url
         # If performers is in list of GroupHandles, then look for the real performer in the message string
-        if performers in groupHandles:
+        groupHandles = getGroupHandles()
+        gdb = next((g for g in groupHandles if g['item_name'] == performers), None)
+        if gdb is not None:
             msg = performance['message']
             prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
             # If message contains any wors starting with @, take the first one as the real performer handle. Strip out the leading @
@@ -766,6 +773,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
+    global rsGroupHandles
 
     contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
@@ -814,6 +822,11 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             break
         else:
             next_offset = performances['next_offset']
+    # if rsGroupHandles exists, delete it at the end of processing so that we reload a fresh version each time
+    try:
+        del rsGroupHandles
+    except:
+        pass
     return performanceList
 
 # Download the specified web_url to the filename specified; return 1 if critical error or 0 otherwise
