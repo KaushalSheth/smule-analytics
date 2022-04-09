@@ -366,6 +366,7 @@ Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi Raja
 Akhiyan Milaon Kabhi|Ankhiyaan Milaaoon Kabhi
 Akhiyan Milaon Kabhi|Akhiyan Milau Kabhi
+Akhiyan Milaon Kabhi|Ankhiyan Milau Kabhi Ankhiya Churau Song
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -680,6 +681,7 @@ Chura Ke Dil Mera|Chura K Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera
 Chura Ke Dil Mera|Churake Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera Goriya Chali
+Chura Ke Dil Mera|Digital Chura Ke Dil Mera
 Chura Liya|Chura Liya
 Chura Liya|Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne
@@ -1428,6 +1430,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron Ka
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Aangan Hoga
 Jhilmil Sitaron Ka|Jhil Mil Sitaro Ka Aangann Hoga
+Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
@@ -1718,6 +1721,7 @@ Lag Ja Gale|Lagja Gale
 Lag Ja Gale|Lg Jaa Gale Gale Ja Gale Ja Gale
 Lag Ja Gale|Lag Ja Gale Lag Ja Gale
 Lag Ja Gale|Lag Ja Galelagjagale Lagjaagale D
+Lag Ja Gale|Lag Ja Gale Se Phir
 Laila Main Laila|Laila Main Laila
 Laila Main Laila|Laila O Lailaqurbanilaila Main Laila
 Laila Main Laila|Laila O Laila Laila Main Laila
@@ -1943,6 +1947,7 @@ Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Se
 Meri Duniya Hai|Meri Duniya Hai
+Meri Duniya Hai|Meri Duniya Hai Tujh Mein Kahin
 Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
@@ -1966,6 +1971,7 @@ Mile Ho Tum Humko|Mileho Tum Humko Ho Tum Humko Hamko
 Mile Ho Tum Humko|Mileho_Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum Humko Hindi
 Mile Ho Tum Humko|Teri Yaad
+Mile Ho Tum Humko|Mile Ho Tum Humko Sweet
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
@@ -2124,6 +2130,7 @@ O Mere Sona Re|O Mere Sona Re
 O Mere Sona Re|O Mere Sona Re Sona
 O Meri Soni Mere|O Meri Soni Mere
 O Meri Soni Mere|O Meri Soni Meri Tamanna
+O Oh Jaane Jaana|O Oh Jaane Jana
 O Palanhare|O Palanhare
 O Re Kanchi|O Re Kanchi
 O Re Chhori|O Rey Chori
@@ -2150,6 +2157,7 @@ Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Ek Pal|Pal Ek Pal
+Pal Ek Pal|Pal
 Pal Pal Dil Ke Paas|@SMC {Short} Pal Pal Dil Ke Paas Tum Rahti Ho
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas
@@ -2299,6 +2307,7 @@ Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
 Raataan Lambiyan|Raatan Lambiyan
+Raataan Lambiyan|Ke Raataan Lambiyan Re Teri Meri Gal
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Akeli Hai|Raat Akeli Hai N
@@ -2638,6 +2647,7 @@ Tere Chehre Se|Tere Chehre Se Rits
 Tere Chehre Se|)Tere Chehre Se Nazar
 Tere Chehre Se|तेरे चेहरे से नज़र नहीं हटती
 Tere Chehre Se|Tere Chehre Se Nazar Nahin
+Tere Chehre Se|Tere Chehre Se Nazar Nahi Hatati
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
@@ -2894,6 +2904,7 @@ Tum Hi Ho|Tum Hi Hohi Ho Hi Ho
 Tum Hi Ho|Tum Hi Ho Tum Hi Tum
 Tum Hi Ho|Um Hilow Keyho
 Tum Hi Ho|Tum Hi Ho Female
+Tum Hi Tum Ho|Tum Hi Tum Ho Mere Jeevan Mein
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Ghazal
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho
