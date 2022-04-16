@@ -306,6 +306,7 @@ Agar Tum Na Hote|Hamein Aur Jeene Ki
 Agar Tum Na Hote|Humein Aur Jeene Ki
 Agar Tum Na Hote|Agar Tum Na Hote ,
 Agar Tum Na Hote|Hame Aur Jine Ki Chahat
+Agar Tum Na Hote|Hamein Aur Jeene Ki Chahat Na Hoti
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -922,6 +923,7 @@ Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahaani
 Do Lafzon Ki Hai|Do Lafzon Ki Hai The Great Gambler
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil
 Do Lafzon Ki Hai|Do Lafzon Ki Ye Dil
+Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahani
 Do Naina Ek Kahaani|Do Naina Ek Kahani Masoom
 Do Naina Ek Kahaani|Do Naina Aur Ek Kahani
 Do Pal Ruka|Do Pal Ruka
@@ -1488,6 +1490,7 @@ Kabhi Kabhi|Kabhi Kabhie Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
+Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein With Poem
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Main Kahoon|Kabhi Main Kahoon
@@ -1887,6 +1890,7 @@ Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal
 Mera Dil Bhi Kitna|Mera Dil Meradilbhikitna
 Mera Dil Bhi Kitna|Mera Dil Bhi मेरा दिल भी
 Mera Dil Bhi Kitna|Mera Dil_Bhi_Kitna
+Mera Dil Bhi Kitna|Mera Dil Bhi Mera Dil Bhi
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Jeevan Kora Kaagaz|Mera Jeevan Kora Kagaz
 Mera Joota Hai Japani|Mera Joota Hai Japani
@@ -1905,6 +1909,7 @@ Mere Haath Mein|Mere Haath Mein Tera Hath Ho
 Mere Haath Mein|Mere Haath Mere Haath Mere Haath
 Mere Haath Mein|Mere Hath Mein
 Mere Haath Mein|Merehath Mein Me
+Mere Haath Mein|Mere Haath Mein Tera Haath Ho
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khawabon Mein Tu|Mere Khawabon Me Tu
 Mere Khawabon Mein Tu|Mere Khwabon Mein Tu
@@ -2131,6 +2136,7 @@ O Mere Sona Re|O Mere Sona Re Sona
 O Meri Soni Mere|O Meri Soni Mere
 O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Oh Jaane Jaana|O Oh Jaane Jana
+O Oh Jaane Jaana|O O Jaane Jaana
 O Palanhare|O Palanhare
 O Re Kanchi|O Re Kanchi
 O Re Chhori|O Rey Chori
@@ -2402,6 +2408,7 @@ Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
+Roz Roz Aankhon Tale|Roz Roz Ankhon Tale ꜱ
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
@@ -2475,6 +2482,7 @@ Sandli Sandli Laung Laachi|Sandli Sandli
 Sandli Sandli Laung Laachi|Sandli Sandli Laung Lachi
 Sapna Jahan|Sapna Jahan
 Sapna Jahan|Sapna Jahan Brothers
+Sar Jo Tera Chakraaye|R Sar Jo Tera Chakraaye
 Sar Pe Topi Laal|Sar Par Topi Lal
 Sar Pe Topi Laal|Sar Pe Topi
 Sar Pe Topi Laal|Sar Pe Topi Sar Par Topi
@@ -2704,6 +2712,7 @@ Teri Bindiya Re|H‌Q‌Teri Bindiya Re
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane
+Teri Chahat Ke Deewane|Teri Chahat Ke Deewane Hue Hum
 Teri Chunariya|Teri Chunariya
 Teri Chunariya|Teri Chunariya Dil Le Gayi
 Teri Chunariya|Teri Chunariya Lirik
@@ -3007,7 +3016,9 @@ Waada Karle Saajna|Wada Karle Sajna
 Waada Karle Saajna|Wada Karle Wada Karle
 Waada Karle Saajna|Wada Karle
 Waada Karo Jaanam|Waada Karo Janam
-Waada Karo Nahi Chhodoge Tum Mera Saath|Wada Karo
+Waada Karo Nahi Chhodoge|Waada Karo Nahi Chhodoge Tum Mera Saath
+Waada Karo Nahi Chhodoge|Wada Karo
+Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge
 Waada Raha Sanam|Wada Raha Sanam
 Wah Wah Ramji|Wah Wah Ramji
 Waqt Ne Kiya|Waqt Ne Kiya
@@ -3026,6 +3037,7 @@ Woh Hai Zara Khafa Khafa|Wo Hai Zara
 Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
+Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Unwind Mix
 Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
