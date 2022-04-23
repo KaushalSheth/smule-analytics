@@ -5,14 +5,14 @@ import asyncio
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .tools import loadDynamicHtml, titlePerformers, getHtml
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
 searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
-utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular'}
+utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular','distance':"500"}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
 search_user = None
@@ -221,6 +221,8 @@ def create_app(test_config=None):
             toolName = request.form["btn"]
             utilitiesOptions['title'] = request.form["title"].replace(" ","+")
             utilitiesOptions['url'] = request.form["url"]
+            utilitiesOptions['distance'] = request.form["distance"]
+            utilitiesOptions['dayssincelastperf'] = request.form["dayssincelastperf"]
             if toolName == "Recent Performers":
                 return redirect(url_for('title_performers', sort='recent'))
             elif toolName == "Popular Performers":
@@ -229,6 +231,8 @@ def create_app(test_config=None):
                 return redirect(url_for('get_html'))
             elif toolName == "Download":
                 return redirect(url_for('download_song'))
+            elif toolName == "Performer Map":
+                return redirect(url_for('performer_map'))
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
@@ -294,6 +298,15 @@ def create_app(test_config=None):
         toolsOutput = getHtml(utilitiesOptions)
         flash(f"{len(toolsOutput['owners'])} owners and {len(toolsOutput['joiners'])} joiners fetched from Smule")
         return redirect(url_for('tools_output'))
+
+    # This method queries the DB for performer map info and displays it
+    @app.route('/performer_map')
+    def performer_map():
+        global utilitiesOptions
+
+        performerMapInfo = fetchDBPerformerMapInfo(utilitiesOptions['distance'], utilitiesOptions['dayssincelastperf'])
+        flash(f"{len(performerMapInfo)} performers fetched from DB")
+        return render_template('map.html', performances=performerMapInfo)
 
     # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_analytics')

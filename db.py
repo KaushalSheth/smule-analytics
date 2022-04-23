@@ -93,6 +93,20 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = execDBQuery(sqlquery)
     return performers
 
+# Method to query performers
+def fetchDBPerformerMapInfo(distance="500",dayssincelastperf="180"):
+    performerMapInfo = []
+    sqlquery = f"""
+        select  'performers' as create_type, last_perf_time as fixed_title, lat as owner_lat, lon as owner_lon, pic_url as display_pic_url, performed_by as display_handle, city as orig_track_city
+        from    singer_location
+        where   miles_from_sr <= {distance}
+        and     last_perf_time > current_timestamp - interval '{dayssincelastperf} days'
+        and     not( smule_hq_ind )
+        """
+    # Execute the query and build the performers list
+    performerMapInfo = execDBQuery(sqlquery)
+    return performerMapInfo
+
 def fetchDBTopPerformers():
     performers = []
     sqlquery = f"""
@@ -358,7 +372,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         sqlquery = f"""
             select  partner_name as user_search,
                     round(case when recency_score > 100000 then recency_score - 100000 when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
-                    avg_rating_nbr as rating, 
+                    avg_rating_nbr as rating,
                     --round(case when rating = 99999 then 0 else rating end, 2) as rating,
                     case when join_cnt = 0 then null else round(performance_cnt/(join_cnt*1.0),2) end as perf_join_ratio,
                     first_performance_time, performance_cnt, join_cnt, favorite_cnt, last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
