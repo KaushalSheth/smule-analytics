@@ -246,6 +246,7 @@ Ae Ajnabi|E Ajnabi
 Ae Ajnabi|Aye Ajnabi
 Ae Ajnabi|Ae Ajnabee Tu Bhi Kabhi
 Ae Ajnabi|Ae Ajnabi Tu Bhi Kabhi
+Ae Ajnabi|Aye Ajnabi Tu Bhi
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
@@ -324,6 +325,7 @@ Aisi Deewanagi|Aisi Deewangi Aisi
 Aisi Deewanagi|Aisi Deewangi Deewana
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahin
 Aisi Deewanagi|Aisi Deewangi Deewangi
+Aisi Deewanagi|Aisi Deewanagideewana
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -799,7 +801,9 @@ Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
 Dil Deewana|Dildeewa Maine Pyaar Kiya
 Dil Deewana|Dil Deewana Bin Sajna Ke ,
+Dil Deewana|155 Dil Deewana 1989
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
+Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Hai Chhota Sa|Dil Hai Chhota Sa
 Dil Hai Chhota Sa|Dil Hai Chota Sa
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
@@ -849,6 +853,7 @@ Dil Ki Nazar Se|Srdil Ki Nazar Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
 Dil Ko Karaar Aaya|Dil Ko Karaar Aaya
+Dil Ko Karaar Aaya|Dil Ko Karaar
 Dil Kya Kare|Dil Kya Kare
 Dil Kya Kare|Dil Kya Kare D
 Dil Kya Kare|Dil Kya Kare Jab Kisi Ko
@@ -900,6 +905,7 @@ Dil To Pagal Hai|Dil Toh Pagal Hai
 Dil To Pagal Hai|Dil To Paagal Hai Dil Deewana Hai
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere
+Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
@@ -1659,6 +1665,8 @@ Kitni Bechain Hoke|Kitni Bechain Hoke
 Koi Bata De Dil Hai Jahaan|Koi Bata De Dil Hai Jahan
 Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
+Koi Fariyaad|Koi Fariyadtum Binfariyaad ‐6Min
+Koi Fariyaad|Koi FariyadFariyaad 6Min
 Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Ladki Hai|Koi Ladki Hai
@@ -1687,6 +1695,7 @@ Kuch Na Kaho|Kuch Naa Kaho Title
 Kuch Na Kaho|Kuch Na Kaho Kuch Naa
 Kuch Na Kaho|Kuchh Na Kaho Kuchh Bhi
 Kuch Na Kaho|Kuch Na Kaho Song
+Kuch Na Kaho|Kuch Na Kahokuchh Na Kaho
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -1708,6 +1717,7 @@ Kya Yahi Pyaar Hai|Kya Yehi Pyar Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyar Hai Song Rocky
 Kyun Hai Inkaar|Kyun Hai Inkaar
 Kyun Main Jaagoon|Kyun Main Jaagoon
+Kyun Main Jaagoon|Kyon Main Jagoon
 La Bamba|La Bamba
 La Isla Bonita|La Isla Bonita
 Lab Par Aaye|Lab Par Aaye
@@ -1817,6 +1827,7 @@ Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Aisa Geet
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaaon
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaoon
+Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaaongaoon Dś
 Main Na Bhoolunga|Main Na Bhooloonga
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
@@ -2077,6 +2088,7 @@ Na Ye Chand Hoga Na Taare Rahenge|Na Yeh Chand Hoga
 Naam Gum Jayega|Naam Ghum Jayega
 Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
+Naam Gum Jayega|Naam Gum Jayega Nengfirna
 Naina|Naina
 Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
@@ -2188,6 +2200,7 @@ Pal Pal Dil Ke Paas|Pal Pal Dil Ke Paas Dil
 Pal Pal Dil Ke Paas|Pal Pal Dil Ke Pass Song
 Pal Pal Dil Ke Paas|Pal Pal Dil
 Pal Pal Dil Ke Paas|Pal Palke Paas Palpaldilkepaas
+Pal Pal Dil Ke Paas|R Pal Pal Dil Ke Paaspal
 Pal Pal Pal Pal Har Pal|Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal Har Pal
@@ -2245,6 +2258,7 @@ Phoolon Ka Taaron Ka|Phoolon Ka Taaro Ka Taaro
 Phoolon Ka Taaron Ka|Phoolon Ka Taron Ka
 Phoolon Ka Taaron Ka|Phoolon Ka Taroon Ka
 Phoolon Ka Taaron Ka|Phoolonkataaro Ka Taaro
+Phoolon Ka Taaron Ka|Phoolon Ka Taron Ka Rdburman
 Phoolon Ke Rang Se|Phoolon Ke Rang Se
 Phoolon Ke Rang Se|Phoolon Ke Rang Se Dil Ki Kalam Se
 Phoolon Ke Rang Se|Phoolon Ke Rang
@@ -2957,6 +2971,7 @@ Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile 
 Tum Mile Dil Khile|Tum Miledil Khile
 Tum Mile Dil Khile|Tu Mile Dil Khile Tum Mile Dil
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
+Tum Mujhe Yun|Tum Mujhe Yun
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
