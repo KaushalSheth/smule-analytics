@@ -13,7 +13,7 @@ from datetime import datetime
 searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
 utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular','distance':"500"}
-inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
+inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'newtitles':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
 search_user = None
 performances = None
@@ -148,6 +148,10 @@ def create_app(test_config=None):
                 inviteOptions['notfollowing'] = True
             else:
                 inviteOptions['notfollowing']  = False
+            if request.form.get('newtitles'):
+                inviteOptions['newtitles'] = True
+            else:
+                inviteOptions['newtitles']  = False
             inviteOptions['maxknown'] = request.form['maxknown']
             inviteOptions['maxunknown'] = request.form['maxunknown']
 
