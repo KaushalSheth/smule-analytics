@@ -12,6 +12,7 @@ Aa Bhi Jaa|0Aa Bhi Jaa
 Aa Bhi Jaa|Aa Bhi Ja
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
 Aa Dekhein Zara|Aa Dekhein Zara
+Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
@@ -447,6 +448,7 @@ Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Baharon Phool Barsao|Baharon Phool Barsao
 Baharon Phool Barsao|Baharon Phool Barsao Phool
+Baharon Phool Barsao|Baharo Phul Barsao
 Bahut Door Mujhe|Bahut Dur Mujhe
 Bahut Door Mujhe|Bahut Door Mujhey Chale
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
@@ -650,6 +652,7 @@ Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
 Chhup Gaya Badli Mein|Chup Gaya Badli Mein
+Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Chup Gaya
 Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
@@ -1036,6 +1039,7 @@ Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chaand Nikla
 Gali Mein Aaj Chand Nikla|Br Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand
+Gali Mein Aaj Chand Nikla|Gali Main Aaj Tum Aaye To
 Galliyan|Galliyan
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
 Gapuchi Gapuchi Gum Gum|Gapoochi Gapoochi Gum
@@ -1232,6 +1236,7 @@ Ironic|Ironic
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate
+Is Mod Se Jaate Hain|Iss Mod Se Jaate Hain
 Is This Love|Is This Love
 Isharon Isharon Mein|Dsj Isharon Isharon Mein Dil Lene
 Isharon Isharon Mein|Isharon Isharon Mein
@@ -1268,7 +1273,9 @@ Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaduhai Nasha Hai Nasha
 Jaadu Hai Nasha Hai|Part Jaadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai Nasha Hai Nasha
+Jaadu Hai Nasha Hai|Jaadu Hain Nasha Hai
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
+Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jaadu Jaadoo Hain
 Jaadu Teri Nazar|Jadu Teri Nazar
 Jaadu Teri Nazar|Jadu Teri Nazar Part 3
 Jaadu Teri Nazar|Jadu Teri Nazar Teri
@@ -1277,6 +1284,7 @@ Jaaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jaaiye
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jayenge
 Jaaiye Aap Kaha Jayenge|Jaayiye Aap Kahan Jayenge
+Jaaiye Aap Kaha Jayenge|Jaiye Aap
 Jaan Nisaar|Jaan 'Nisaar
 Jaan Nisaar|Jaan Nisaar
 Jaan Nisaar|Jaan ‘Nisaar
@@ -1288,6 +1296,7 @@ Jaane Chaman Shola Badan|Jaane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Chaman Shola Badan|Jane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Jane
+Jaane Chaman Shola Badan|Jaane Chaman Shola Badan (Wd 2 Paragr
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein
@@ -1357,6 +1366,7 @@ Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने �
 Jaane Na Nazar Pahchane Jigar|Jane Na Nazar Pehchane Jigar
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The Jinke
+Jaane Woh Kaise Log The|Jane Woh Kaise Log The
 Jaanu Meri Jaan|Janu Meri Jaan
 Jaanu Meri Jaan|Jaanu Meri Jaan Song Movie Shaan
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman
@@ -1642,6 +1652,7 @@ Khairiyat|Khairiyat Bonus
 Khairiyat|Sʜᴏʀᴛ Khairiyat Poocho
 Khairiyat|Khairiyat Poocho
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lageen
+Khayalon Mein Kisike Is Tarah|Khayalon Mein Kisike Is Tarah
 Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
 Khilte Hain Gul Yahan|Khilte Hai Gul Yahan
@@ -1790,6 +1801,7 @@ Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
 Maahi Ve|Maahi Ve Kal Ho Na Ho
 Maana Ho Tum Behad Haseen|Mana Ho Tum Behad Haseen
+Maana Ho Tum Behad Haseen|Mana Ho Tum
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahin
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi Kya Mera
@@ -1887,6 +1899,7 @@ Main Yahan Hoon|Main Yahaan Hoon
 Main Yahan Hoon|Main Yahan Hoon
 Main Yahan Hoon|Drjaanam Dekhlo Mit Gayi
 Main Yahan Hoon|Janam Dekh Lo
+Main Yahan Hoon|Main Yahan Hoon ~ Song
 Main Zindagi Ka Saath Nibhata|Mai Zindagi Ka Saath Nibhata
 Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhaata
 Maine Dil Se Kaha|Maine Dil Se Kaha
@@ -2137,6 +2150,7 @@ Nazm Nazm|Nazm Nazm Feat Sumedha Karmahe
 Nazm Nazm|Nazm Nazm Sa Barelee Ki Barfi
 Nazrein Mili Dil Dhadka|Nazrein Mili Dil Dhadka Raja
 Neela Aasmaan So Gaya|Neela Aasmaan Sogaya
+Neela Aasmaan So Gaya|Neela Aasman So Gaya
 Neele Neele Ambar Par|Neele Neele Ambar
 Neele Neele Ambar Par|Neele Neele Ambar Par
 Neele Neele Ambar Par|Neele Neele Amber
@@ -2495,6 +2509,7 @@ Saanson Ki Zaroorat Hai Jaise|Sanson Ki Zaroorath Kumar Sanu
 Saanson Ki Zaroorat Hai Jaise|Bas Ek Sanam Chahiye Bas Ek
 Saanson Ki Zaroorat Hai Jaise|Bas Ek Sanam Chaahiye
 Saanson Ki Zaroorat Hai Jaise|Sanson Ki Zaroorath
+Saanson Ki Zaroorat Hai Jaise|Bas Ek Sanam Chahiye
 Saanson Ko Saanson Mein|(Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein Dal Ne Karaoke
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein
@@ -2925,6 +2940,7 @@ Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Satene Ka Wada
+Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene Ka Wada Karo
 Tum Bin Jaaoon Kahan|Tum Bin
 Tum Bin Jaaoon Kahan|Tum Bin Jaaoon Kahan
 Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan
