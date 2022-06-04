@@ -11,6 +11,7 @@ Aa Bhi Jaa|Aa Bhi Jaa Aa Βhi Jaa
 Aa Bhi Jaa|0Aa Bhi Jaa
 Aa Bhi Jaa|Aa Bhi Ja
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
+Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Aa Chal Ke Tujhe
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -143,6 +144,7 @@ Aap Ka Aana|Aap Ka Aana Kurukshetra
 Aap Ka Aana|Aap Ka Aana
 Aap Ke Haseen Rukh|Aapke Haseen Rukh
 Aap Ke Haseen Rukh|Aapke Haseen Rukh Pe
+Aap Ke Haseen Rukh|आपके हसीन रुख़ पे आज नया नूर है
 Aap Ki Aankhon Mein Kuch|Aap Ki Aakhon Me Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankho
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein Kuch
@@ -189,6 +191,7 @@ Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hame Tum Song
 Aawaaz Deke Hamein Tum Bulao|Awaz Deke Hame Tum Song
 Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulao
 Aawaaz Deke Hamein Tum Bulao|Aawaz Deke Hamein Tum Bulao
+Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hamein Tum Bulaao
 Aawaaz Di Hai Aaj Ek Nazar Ne|Awaaz Di Hai Aaj Ek Nazar Ne
 Aawaaz Do Humko|Aawaz Do Humko Aawaz Do Humko
 Aawaaz Do Humko|आवाज़ दो हमको, हम खो गये, कब नींद से जागे
@@ -369,6 +372,7 @@ Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai G
 Akele Hain To Kya Gam Hai|Akele Hain To Kya Gam Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai Gham Hai
 Akele Hain To Kya Gam Hai|New Akele Hain To Kya
 Akele Hain To Kya Gam Hai|Akele Hai To Kya Gam Hai
+Akele Hain To Kya Gam Hai|Akele Hai To Kya Gham Hai
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi
 Akhiyan Milaon Kabhi|Ankhiya Milau kabhi ankhiya churau (clear)
 Akhiyan Milaon Kabhi|Ankhiya Milau Kabhi Ankhiya Churau
@@ -385,6 +389,7 @@ Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokho Se
 Akhiyon Se Goli Maare|Ankhiyon Se Goli Mare
 Always|Always
 An Evening In Paris|An Evening In Paris
+Ande Ka Funda|Ande Ka Funda
 Andekhi Anjaani Si|Andekhi Anjaani Si
 Andekhi Anjaani Si|Reff Andekhi Anjaani Si
 Andekhi Anjaani Si|Andekhi Anjani Si
@@ -417,6 +422,7 @@ Baadal Yun Garajta Hai|Badal Yun Garajta Hai
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Mein Bahar
+Baagon Mein Bahaar Hai|Baghon Mein Bahar Hai
 Baahon Ke Darmiyaan|Baahon Ke Darmiyaan
 Baahon Ke Darmiyaan|Baahon Ki Darmiyan
 Baahon Ke Darmiyaan|Bahon Ke Darmiya Mix
@@ -440,6 +446,7 @@ Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
 Bade Acchhe Lagate Hain|Bade Ache Lagte Hai :
+Bade Acchhe Lagate Hain|Bade Achhe Lagte Hai
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
@@ -612,6 +619,9 @@ Chaudhvin Ka Chand Ho|Chaudhavi Ka Chaand
 Chaudhvin Ka Chand Ho|Chaudavi Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudvin Ka Chand Ho
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand
+Chehra Hai Ya Chaand|Sagar Jaisi Aankhon Wali
+Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Waali Unwind Mix
+Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Wali
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
@@ -811,6 +821,7 @@ Dil Deewana|Dil Deewana Bin Sajna Ke
 Dil Deewana|Dildeewa Maine Pyaar Kiya
 Dil Deewana|Dil Deewana Bin Sajna Ke ,
 Dil Deewana|155 Dil Deewana 1989
+Dil Deewana|Dil Dewana Bin Sajna Ke
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Hai Chhota Sa|Dil Hai Chhota Sa
@@ -878,6 +889,7 @@ Dil Leke Darde Dil|Wanted
 Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
+Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Surat
 Dil Ne Phir Yaad Kiya|Dil Ne Phir Yaad Kiya
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Se Ye Kaha Hai
@@ -1164,6 +1176,7 @@ Hum Tum Dono Jab Mil Jaayenge|Hum Tum Dono Jab Mil Jayenge
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey Mein Band Ho
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey
 Hum Tum Ek Kamrey Mein Band Ho|Humtum Ek Kamrey Mein
+Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamreme Bobbycompact
 Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
 Hum Tumse Na Kuch Keh Paaye|Hum Tumse Na Kuch Keh Paye
@@ -1171,6 +1184,7 @@ Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
 Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
+Humein Jab Se Mohabbat|Humein Jab Se Mohabbat Ho Gayi Hai
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna
@@ -1524,6 +1538,7 @@ Kabhi Kabhi|Kabhi ² Mere Dil Mein
 Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein With Poem
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
+Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
@@ -1652,6 +1667,7 @@ Khairiyat|Khairiyat Bonus
 Khairiyat|Sʜᴏʀᴛ Khairiyat Poocho
 Khairiyat|Khairiyat Poocho
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lageen
+Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lagi
 Khayalon Mein Kisike Is Tarah|Khayalon Mein Kisike Is Tarah
 Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
@@ -1714,8 +1730,6 @@ Koyal Si Teri Boli|Koyal Se Teri Boli
 Koyal Si Teri Boli|Koyal Si Teri Boli
 Koyal Si Teri Boli|Koyal Si Teri Boli Karaoke
 Koyal Si Teri Boli|Koyal Si Teri Boliᴬntaras Hh
-Kuch Kuch Hota Hai|Kuch Kuch Hota Hai
-Kuch Kuch Hota Hai|Kuch Kuch Hota Hai Hota Hai Ori
 Kuch Na Kaho|Kuch Na Kaho
 Kuch Na Kaho|Kuch Na Kaho Kuch Bhi Na Kaho
 Kuch Na Kaho|Kuch Na Kaho Kuch Na
@@ -1782,6 +1796,7 @@ Lamha Lamha|Lamha Lamha Doorie
 Lamha Lamha|Lamha Lamha Doori Gangster
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
+Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi
 Le Le Mazaa Le|Le Le Mazaa Le
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
@@ -1963,6 +1978,7 @@ Mere Haath Mein|Mere Haath Mere Haath Mere Haath
 Mere Haath Mein|Mere Hath Mein
 Mere Haath Mein|Merehath Mein Me
 Mere Haath Mein|Mere Haath Mein Tera Haath Ho
+Mere Haathon Mein Nau Nau|Mere Haathon Mein Nau Nau
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khawabon Mein Tu|Mere Khawabon Me Tu
 Mere Khawabon Mein Tu|Mere Khwabon Mein Tu
@@ -2490,8 +2506,6 @@ Ruk Jaana Nahin|Rukjaananahin Tu Kahin
 Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
 Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
-Saagar Jaisi Aankhon Wali|Sagar Jaisi Aankhon Wali
-Saagar Jaisi Aankhon Wali|Saagar Jaisi Aankhon Waali Unwind Mix
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
 Saagar Kinare|Sagar Kinare Dil Ye Pukare
@@ -3018,6 +3032,8 @@ Tum Mujhe Yun|Tum Mujhe Yun
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
+Tum Paas Aaye|Kuch Kuch Hota Hai
+Tum Paas Aaye|Kuch Kuch Hota Hai Hota Hai Ori
 Tum Paas Aaye|Tum Paas Aaye
 Tum Paas Aaye|Tum Paas Aaye Tum Aaye Tum
 Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
@@ -3186,6 +3202,7 @@ Yeh Dosti|Yeh Dosti
 Yeh Dosti|Yeh Dosti Hum Nahin
 Yeh Dosti|Yeosti
 Yeh Dosti|Yeosti Hum Nahin
+Yeh Dosti|Ye Dosti Hum Nahin Todenge
 Yeh Hai Bombay Meri Jaan|Yeh Hai Bombay Meri Jaan
 Yeh Haseen Wadiyan|Ye Haseen Waadiyan
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan

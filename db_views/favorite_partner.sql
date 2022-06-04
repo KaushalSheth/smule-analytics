@@ -28,7 +28,8 @@ perf_stats as (
             min(case when join_ind = 1 then created_at else null end) as first_join_time,
             max(case when join_ind = 1 then created_at else null end) as last_join_time,
             count(case when rated_datetime > '2021-11-20'::timestamp then 1 else null end) as rated_song_cnt,   -- We started rating songs on 11/20/2021
-            round(coalesce(avg(rating_nbr),0.0),2) avg_rating_nbr
+            round(coalesce(avg(rating_nbr),0.0),2) avg_rating_nbr,
+            substring(string_agg(coalesce(rating_nbr::varchar,'-'),'' order by created_at desc),1,10) as last10_rating_str
     from 	perf
     group by 1, 2, 3
 )
@@ -58,13 +59,13 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
             when rated_song_cnt < (performance_cnt/3.0) then avg_rating_nbr - greatest((0.75 - favorite_cnt/(performance_cnt*1.0)),0)
             else avg_rating_nbr
         end, 2) as avg_rating_nbr,
-        rated_song_cnt
+        rated_song_cnt, last10_rating_str
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join singer_following sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
-select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null, 0.0, 0
+select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null, 0.0, 0, ''
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)
