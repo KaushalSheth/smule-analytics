@@ -1,4 +1,5 @@
 3 Old Melodies|3 Old Melodies
+500 Miles Jab Koi Baat Mashup|500 Miles Jab Koi Baat Mashup
 Aa Ab Laut Chalen|Aa Ab Laut Chalen
 Aa Bhi Jaa|Aa Bhi Ja Aa Bhi Ja
 Aa Bhi Jaa|Aa Bhi Jaa Bhi Ja Bhi Bhi
@@ -1044,6 +1045,7 @@ Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Every Breath You Take|Every Breath You Take
+Five Hundred Miles|Five Hundred Miles
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gaata Rahe
@@ -1979,6 +1981,7 @@ Mere Haath Mein|Mere Hath Mein
 Mere Haath Mein|Merehath Mein Me
 Mere Haath Mein|Mere Haath Mein Tera Haath Ho
 Mere Haathon Mein Nau Nau|Mere Haathon Mein Nau Nau
+Mere Haathon Mein Nau Nau|Mere Hatho Mein Nau Nau Chudiya Hai
 Mere Khawabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khawabon Mein Tu|Mere Khawabon Me Tu
 Mere Khawabon Mein Tu|Mere Khwabon Mein Tu
@@ -2095,6 +2098,7 @@ My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
 My Heart Will Go On|My Heart Will Go On Titanic Celin Dion
 My Heart Will Go On|My Heart Will Go On Courte Piano
+My Heart Will Go On|My Heart Will My Heart Will My Heart Will
 Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuch Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
@@ -2624,6 +2628,7 @@ Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
+Soldier Soldier|Reff Soldier Soldier Meethi Baaten
 Someone Like You|Someone Like You
 Someone Like You|Solo Bachata
 Sona Nahi Na Sahi|Sona Nahi Na Sahi
@@ -2678,6 +2683,7 @@ Surmaiye Ankhiyon Mein|Surmai Akhiyoon Mein
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayee Akhiyon Mein 720P Yesudas
 Surmaiye Ankhiyon Mein|Surmayee Ankhiyon Mein
+Surmaiye Ankhiyon Mein|Surmai Ankhiyon Mein
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
