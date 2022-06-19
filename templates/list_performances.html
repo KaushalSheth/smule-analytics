@@ -56,19 +56,24 @@
         <td>{{ performance.created_at }}</td>
         <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
 {%- if not searchOptions['offline'] -%}
-          <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+          <br><a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">AWESOME |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a><a href="{{ performance.recording_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
+          <br>Rating:<a href="/save_db_favorite/{{ performance.key }}/5" target="_blank"> 5 |</a><a href="/save_db_favorite/{{ performance.key }}/4" target="_blank"> 4 |</a><a href="/save_db_favorite/{{ performance.key }}/3" target="_blank"> 3 |</a><a href="/save_db_favorite/{{ performance.key }}/2" target="_blank"> 2 |</a><a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 1</a>
 {%- endif -%}
         </td>
   {%- if searchOptions['offline'] -%}
-        <td><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
+        <td><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"></a><<br>{{ performance.display_handle }}/td>
+  {%- elif performance.join_cnt == 0 -%}
+        <td style="color:Red"><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
+  {%- elif performance.recent_join_cnt > 0 -%}
+        <td style="color:Blue"><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
   {%- else -%}
-        <td><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
+        <td><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
   {%- endif -%}
         <td style="text-align:center">{{ performance.rating_nbr }}</td><td style="text-align:center">{{ performance.total_loves }}</td>
   {%- if searchOptions['offline'] -%}
         <td><a href="{{ performance.web_url }}" target="_blank">Play only</a></td>
   {%- else -%}
-        <td><a href="/download_performance/{{ performance.key }}" target="_blank">Download</a><br>Rating:<a href="/save_db_favorite/{{ performance.key }}/5" target="_blank"> 5 |</a><a href="/save_db_favorite/{{ performance.key }}/4" target="_blank"> 4 |</a><a href="/save_db_favorite/{{ performance.key }}/3" target="_blank"> 3 |</a><a href="/save_db_favorite/{{ performance.key }}/2" target="_blank"> 2 |</a><a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 1</a></td>
+        <td><a href="/download_performance/{{ performance.key }}" target="_blank">Download</a></td>
   {%- endif -%}
         <td><a href="{{ performance.yt_search }}" target="_blank">{{ performance.filename }}</a></td>
       </tr>

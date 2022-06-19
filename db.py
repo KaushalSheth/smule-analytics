@@ -155,6 +155,7 @@ def execDBQuery(sqlquery):
     except Exception as e:
         # If an exception happened, we likely executed an INSERT or UPDATE, so commit it
         db.session.commit()
+        print(e)
     return results
 
 # Method to query performances for a user
@@ -291,7 +292,16 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         # Start with the base query
         sqlquery = f"""
             with
-            perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}' and web_url not like '%ensembles' and performers != '{username}'),
+            non_joiners as (select distinct performers from my_performances where join_ind = 0 order by 1),
+            perf as (
+                select  p.*, case when nj.performers is null then 0 else 1 end as non_joiner_ind
+                from    my_performances p
+                        left outer join non_joiners nj on nj.performers = p.performers
+                where   p.created_at between '{fromdate}' and '{todate}'
+                and     p.web_url not like '%ensembles'
+                and     p.performers != '{username}'
+                order by {selcol}
+                ),
             perf_stats as (
                 select  {selcol},
                         lpad((count(*) over w_list)::varchar,2,'0') || '-' || {listcol} as list_col,
@@ -303,7 +313,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                         count(case when created_at > (now() - '30 days'::interval day) then 1 else null end) over w_all as perf_last_30_days,
                         sum(case when created_at > (now() - '30 days'::interval day) then join_ind else 0 end) over w_all as join_last_30_days,
                         max(case when join_ind = 1 then created_at else '2000-01-01'::timestamp end) over w_all as last_join_time
-                from    my_performances
+                from    perf
                 where   1 = 1
                 window  w_asc as (partition by {selcol} order by created_at),
                         w_desc as (partition by {selcol} order by created_at desc),
@@ -331,7 +341,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
-                    inner join perf p on p.{selcol} = s.{selcol}
+                    -- Only include performers I've joined - exclude joiners whom I have not joined
+                    inner join perf p on p.{selcol} = s.{selcol} and ('{selcol}' != 'performers' or p.non_joiner_ind = 1)
                     left outer join favorite_partner fp on fp.partner_name = s.{selcol}
                     left outer join favorite_song fs on fs.fixed_title = s.{selcol}
             group by 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13
@@ -480,6 +491,8 @@ def saveDBPerformances(username,performances):
             del p['yt_search']
             del p['web_url_full']
             del p['rating_nbr']
+            del p['join_cnt']
+            del p['recent_join_cnt']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

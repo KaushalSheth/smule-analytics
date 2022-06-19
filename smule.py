@@ -385,6 +385,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
+            joinCount = 999
+            recentJoinCount = 999
         else:
             joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
             recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
@@ -517,7 +519,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'recording_url': recording_url,\
                 'comment':comment,\
                 'yt_search':yt_search,\
-                'rating_nbr':"-"\
+                'rating_nbr':"-",
+                'join_cnt':joinCount,\
+                'recent_join_cnt':recentJoinCount\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:

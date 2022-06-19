@@ -90,6 +90,7 @@ Aake Teri Baahon Mein|Aake Teri Baahon Mein Cove
 Aake Teri Baahon Mein|Aake Teri Baahon Main Digi
 Aake Teri Baahon Mein|Aake Teri Baahon Main
 Aake Teri Baahon Mein|Aake Teri Bahon Mein
+Aake Teri Baahon Mein|Aake Teri Bahon Main
 Aane Se Uske Aye Bahaar|Aane Se Uske Aye Bahar
 Aane Wala Pal|Aanewala Pal
 Aane Wala Pal|Aanewala Pal Jaanewala Hai
@@ -278,6 +279,7 @@ Ae Dil Mujhe Bata De|Ae Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|Aye Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|ऐ दिल मुझे बता दे Aye Dil Mujhe Bata
 Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe
+Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe Kis Pe Bhai
 Ae Gulbadan Ae Gulbadan|Ae Gulbadan Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Mere Humsafar|Ae Mere Humsafar
@@ -946,6 +948,7 @@ Do Dil Mil Rahe Hai|Do Dil Mil Rahein Hain
 Do Dil Mil Rahe Hai|Do Dil Mil Reha Hain
 Do Dil Mil Rahe Hai|Do Dilmil Rahehai
 Do Dil Mil Rahe Hai|Dodilmilrahe Hain
+Do Dil Mil Rahe Hai|~ Do Dil Mil Rahe Hai Hindi
 Do Lafzon Ki Hai|Do Lafzon Ki Hai
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Asha Bhosle
 Do Lafzon Ki Hai|Do Lafzonki Hai Asha Bholse
@@ -2123,6 +2126,7 @@ Na Na Karte|Na Na Karte
 Na Na Karte|Na Na Karte Pyar Tumhi
 Na Na Karte|Na Na Karte Pyaar
 Na Na Karte|Na Na Karte Pyar
+Na Na Karte|Na Na Karte Pyar Tumhi Se Kar Baithe
 Na Tum Humein Jaano|Na Tum Hamein Jaano
 Na Tum Humein Jaano|Na Tum Hamein Jano
 Na Tum Humein Jaano|Na Tum Humein Hemant Kumar Na
@@ -2272,6 +2276,7 @@ Panna Ki Tamanna Hai|Panna Ki Tamanna Hai
 Panna Ki Tamanna Hai|〘〙Panna Ki Tamanna
 Panna Ki Tamanna Hai|Panna Ki Tamanna
 Papa Kehte Hai|Papa Kehte Hai
+Papa Kehte Hai|Papa Kehte Hai Qayamat Se Qayamat Tak
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takrai
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
@@ -2684,6 +2689,7 @@ Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayee Akhiyon Mein 720P Yesudas
 Surmaiye Ankhiyon Mein|Surmayee Ankhiyon Mein
 Surmaiye Ankhiyon Mein|Surmai Ankhiyon Mein
+Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
@@ -2844,6 +2850,7 @@ Tip Tip Barsa Paani|Tip Tip
 Tip Tip Barsa Paani|Tip Tip Barsa
 Titli|Bann Ke Titli
 Titli|Titli
+Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
 Trouble Me|Trouble Me
 Truly Madly Deeply|Truly Madly Deeply
 Tu Cheez Badi Hai Mast Mast|Tu Cheez Badi Hai
@@ -3162,6 +3169,7 @@ Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai
 Yaar Bina Chain|Yaar Bina Chain
 Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaara Sili Sili|Yaara Sili Sili
+Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera Mere Siwa
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
 Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
@@ -3238,6 +3246,7 @@ Yeh Kaali Kaali Aankhen|Yehkaalikaaliaankhen Baazigar 1993
 Yeh Kahaan Aa Gaye Hum|Ye Kahan Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kaha Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kahan Aa Gaye Hum
+Yeh Kisne Geet Chheda|Ye Kisne Geet Cheda Dil Mera Nache
 Yeh Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Kya Hua Kaise Hua|Ye Kya Hua
 Yeh Ladka Hai Deewana|Hai Hai Re Ladka Yeh Ladka Hai Dewa
@@ -3346,6 +3355,7 @@ Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lun Mai
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Mein
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lu Main
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main Ultra Clean
+Zara Sa Jhoom Loon Main|Zarasa Jhoom Loon Mai
 Zara Saamne To Aao Chhaliye|Zara Saamne To Aao Chhaliye
 Zara Zara Bahekta Hai|Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara
@@ -3363,6 +3373,8 @@ Zindagi Ek Safar Hai Suhana|[Short™] Zindagi Ek Safar Hai Suhana [HQ]
 Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhana
 Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri Bazm Mein
 Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri
+Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi
+Zindagi Jab Bhi Teri Bazm Mein|Zindagi Jab Bhi Teri Bazm
 Zindagi Ka Safar|Zindagi Ka Safar
 Zindagi Ka Safar|Zindagi Ka Safarmusicoolpiyush_
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli
