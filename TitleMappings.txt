@@ -327,6 +327,7 @@ Agar Tum Saath Ho|Agar Tumsaath Ho
 Agar Tum Saath Ho|Agar Tumsaath_Ho_
 Agar Tum Saath Ho|Agar Tum Saath Ho Tamasha
 Agar Tum Saath Ho|Agar Tum Sath Ho Agar Tum Sath Ho
+Agar Tum Saath Ho|Agar Tum Sath Ho
 Aisa Lagta Hai|Aisa Lagta Hai
 Aisa Lagta Hai|Aisa Lagta Hai Jo Na Hua
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
@@ -873,6 +874,7 @@ Dil Ki Nazar Se|Dil Ki Nazar Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Special Piano
 Dil Ki Nazar Se|Dil Ki Nazarse &
 Dil Ki Nazar Se|Srdil Ki Nazar Se
+Dil Ki Nazar Se|Dil Ki Nazar Se Nazron Ki Dil Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
 Dil Ko Karaar Aaya|Dil Ko Karaar Aaya
@@ -1142,6 +1144,7 @@ Haye Rama Ye Kya Hua|Haye Rama Yeh Kya Hua
 Haye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
 Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
 Haye Rama Ye Kya Hua|Hai Rama Yet Rangeela
+Haye Rama Ye Kya Hua|Haye Rama Ye Kya Hai
 Hazaar Raahe Mud Ke Dekhi|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahe Mud Ke Dekhi|Hazaar Raahein Mud Ke
 Hello|Hello
@@ -1367,6 +1370,7 @@ Jaane Kaise Kab Kaha|Jane Kaise Kab Kaha Iqrar Ho Gaya
 Jaane Kaise Kab Kaha|Jane Kaise Kab Jaane
 Jaane Kaise Kab Kaha|Jane Kaise Kab Kahan Iqraar
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Kahan Ikrar Ho Gaya
+Jaane Kaise Kab Kaha|Jane Kaise Kab Kahajaane
 Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
@@ -1510,6 +1514,7 @@ Jo Haal Dil Ka|Jo Haal Dil Ka Jo
 Jo Haal Dil Ka|Jo Haal Dil Ka Jo Haal Dil
 Jo Haal Dil Ka|Jo Haal Dil Ka Male
 Jo Haal Dil Ka|Jo Haal Dilka
+Jo Haal Dil Ka|Jo Haal Dil Ka ~ ~Sarfarosh
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
@@ -1891,6 +1896,7 @@ Main Rahoon Ya Na Rahoon|Main Rahoon Ya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoon Yana Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahoonya Na Rahoon
 Main Rahoon Ya Na Rahoon|Main Rahu Ya Na Rahu
+Main Rahoon Ya Na Rahoon|Roke Na Koi
 Main Rang Sharbaton Ka|Main Rang Sharbaton Ka
 Main Rang Sharbaton Ka|Mei Rang Sharbaton Ka
 Main Rang Sharbaton Ka|Mein Rang Sharbaton Ka
@@ -1934,6 +1940,7 @@ Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
 Maine Tere Liye|Maine Tere Liye Hi
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Anand
+Makhna|Makhna
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
@@ -2113,6 +2120,7 @@ Na Jaane Mere|Na Jaane Mere Dil Ko
 Na Jaane Mere|Na Jaane Mere Dil Ko Kya Ho
 Na Jaane Mere|Na Jane Mere Dil Ko
 Na Jaane Mere|Najane Mere Dil Ko Kho Gaya
+Na Jaane Mere|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Chhuda Ke Baiyan
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Olire Kotha Shune Ppd563
 Na Jiya Lage Na|Na Jiya Lage Na
@@ -2211,6 +2219,7 @@ O Haseena Zulfon Wali|O Hasina Julfo Wali Jaane Jaha
 O Haseena Zulfon Wali|O Hasina Zulfon Wali
 O Haseena Zulfon Wali|Oh Hasina Zulfon Wali
 O Haseena Zulfon Wali|Ad O Haseena Zulfo Wali
+O Haseena Zulfon Wali|Oh Haseena Zulfo Wali Mohammad
 O Mere Dil Ke Chain|O Mere Dil
 O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
@@ -2293,6 +2302,7 @@ Paayalein Chunmun|Payalay Chunmun
 Paayalein Chunmun|Payalay Chunmun Virasat
 Paayalein Chunmun|Payali Chunmun
 Paayalein Chunmun|Payalein Chun Mun
+Paayalein Chunmun|Payalay Chunmunvirasat
 Peete Peete Kabhi Kabhi|Peete Peete Kabhi Kabhi
 Pehla Nasha|Nasha
 Pehla Nasha|Pehela Nasha Pehela Khumar
@@ -2613,6 +2623,7 @@ Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Hoaasha
 Shikayat|Shikayat
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jaye
+Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jaye 1970
 Shola Jo Bhadke|Shola Jo Bhadke
 Shola Jo Bhadke|Shola Jo Bhadke Dil Mera Dhadke
 Silsila Ye Chaahat Ka|Silsila Ye Chahat Ka
@@ -2915,6 +2926,7 @@ Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Tujh
 Tujh Mein Rab Dikhta Hai|Tujhme Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujme Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Tujh Mein Rab
+Tujh Mein Rab Dikhta Hai|~ Tujh Mein Rab Dikhta Hai F
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Deka
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To Ddlj Tujhedekha
@@ -3170,6 +3182,7 @@ Yaar Bina Chain|Yaar Bina Chain
 Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaara Sili Sili|Yaara Sili Sili
 Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera Mere Siwa
+Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera, Mere Siwa
 Yamma Yamma|Yamma Yamma
 Yamma Yamma|Yammayamma
 Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
