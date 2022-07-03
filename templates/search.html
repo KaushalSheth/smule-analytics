@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2022-06-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2022-07-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -67,6 +67,13 @@
         <label class="label" for="dbfilter">DB Filter</label>
         <div class="control">
           <input name="dbfilter" value="1=1" type="input" class="input"></input>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="dbinvitedays">DB Invite # Days</label>
+        <div class="control">
+          <input name="dbinvitedays" value="180" type="input" class="input"></input>
         </div>
       </div>
 
@@ -121,7 +128,7 @@
           </select><br>
           <label for="partnersql">Partner SQL</label><br>
           <textarea name="partnersql" rows="10" cols="80">
-select partner_name, partner_account_id, recency_score, join_cnt, display_pic_url
+select partner_name, partner_account_id, recency_score, join_cnt, display_pic_url, join_last_30_days_cnt as recent_join_cnt
 from favorite_partner
 where partner_name != 'KaushalSheth1'
 and is_following

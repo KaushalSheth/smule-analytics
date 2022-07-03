@@ -225,11 +225,14 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
     return ensembleList
 
 # Fetch invites from DB within date range and then parse ensembles to see if there are new joins.  This is primarily used to load joins for expired invites
-def fetchDBInviteJoins(username,mindate="1900-01-01",maxdate="2099-12-31"):
+def fetchDBInviteJoins(username,dbinvitedays=180):
     performances = []
+    currTime = datetime.now()
+    mindate = (currTime - timedelta(dbinvitedays)).strftime(DATEFORMAT)
+    maxdate = currTime.strftime(DATEFORMAT)
     sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
     invites = execDBQuery(sqlquery)
-    print("Start")
+    print(f"Start {mindate}")
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     for i in invites:
         web_url = i['web_url']
@@ -592,6 +595,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             partnerAccountId = list(iter(ptr.values()))[1]
             partnerSort = list(iter(ptr.values()))[2]
             joinCount = int(list(iter(ptr.values()))[3])
+            recentJoinCount = int(list(iter(ptr.values()))[5])
 
             # Break out of loop if partnerSort is higher than the stopScore (only if we are checking stop score)
             if (checkstop and ((partnerSort > stopScore) or (stopHandle == partnerHandle))):
@@ -664,6 +668,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
                         # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
                         p['total_listens'] = joinCount
                         p['total_loves'] = partnerSort
+                        # Update the join_cnt and recent_join_count values to use the partner values
+                        p['join_cnt'] = joinCount
+                        p['recent_join_cnt'] = recentJoinCount
                         finalPartnerInvites.append(p)
                         # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
                         if knownCount >= MAX_KNOWN:
@@ -729,7 +736,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     # Debugging SQL below - uncomment it to override above SQL
-    #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url from singer where performed_by ilike 'OfficiallyDiva'"
+    #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url, 0 as recent_join_cnt from singer where performed_by ilike 'OfficiallyDiva'"
     print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
     partnersTop = execDBQuery(partnersql)
 

@@ -1551,6 +1551,7 @@ Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
+Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabira|Kabira
 Kabira|Kabirayeh Jawani Yeiwani
@@ -2530,6 +2531,7 @@ Saagar Kinare|Sagar Kinare
 Saagar Kinare|Sagar Kinare Dil Ye Pukare
 Saagar Kinare|Sagar Kinare Dil Ye
 Saagar Kinare|Sagar Kinare Orginal
+Saagar Kinare|Sagar Saagar Kinare Orginal
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saal Bhar Mein|Saal Bhar Mein
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
@@ -2859,6 +2861,8 @@ Tip Tip Barsa Paani|Tip Tip Song Barsa Paani
 Tip Tip Barsa Paani|Tip Tip Song Sooryavanshi New
 Tip Tip Barsa Paani|Tip Tip
 Tip Tip Barsa Paani|Tip Tip Barsa
+Tip Tip Barsa Paani|Tip Tip Barsa Pani
+Tip Tip Barsa Paani|Tip Tip Barsa Pani 20
 Titli|Bann Ke Titli
 Titli|Titli
 Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
@@ -3070,6 +3074,7 @@ Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
 Tum Se Hi|Tum Se Hi
+Tum Se Hi|Tum Se Hi Jab We Met
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki Kasam

@@ -128,6 +128,9 @@ def create_app(test_config=None):
             dbfilter = request.form['dbfilter']
             if dbfilter:
                 searchOptions['dbfilter'] = dbfilter
+            dbinvitedays = request.form['dbinvitedays']
+            if dbinvitedays:
+                searchOptions['dbinvitedays'] = dbinvitedays
 
             # Set all invite options
             inviteOptions['partnerchoice'] = request.form['partnerchoice']
@@ -434,10 +437,10 @@ def create_app(test_config=None):
     # This executes the smule function to fetch DB invites and then look for new joins in Smule
     @app.route('/db_invite_joins')
     def db_invite_joins():
-        global user, performances, fromdate, todate
+        global user, performances, fromdate, todate, searchOptions
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBInviteJoins(user,fromdate,todate)
+        performances = fetchDBInviteJoins(user,int(searchOptions['dbinvitedays']))
         flash(f"{len(performances)} joins fetched from Smule")
         return redirect(url_for('list_performances'))
 
