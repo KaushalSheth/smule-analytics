@@ -662,6 +662,9 @@ Chhookar Mere Man Ko|Chookar Mere Mann Ko
 Chhookar Mere Man Ko|Chookar Mere Manko Dr Mahi
 Chhookar Mere Man Ko|Chhukar Mere Man Ko Mere Man Ko
 Chhookar Mere Man Ko|Chookar Mere
+Chhoti Si Asha|Dil Hai Chhota Sa
+Chhoti Si Asha|Dil Hai Chota Sa
+Chhoti Si Asha|Chhoti Si Aasha
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand Bhi Sharma
@@ -828,8 +831,6 @@ Dil Deewana|155 Dil Deewana 1989
 Dil Deewana|Dil Dewana Bin Sajna Ke
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
-Dil Hai Chhota Sa|Dil Hai Chhota Sa
-Dil Hai Chhota Sa|Dil Hai Chota Sa
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
 Dil Hai Ke Maanta Nahin|Dil Hai Ke
 Dil Hai Ke Maanta Nahin|Dil Hai Ke Maanta Nahi
@@ -2164,6 +2165,7 @@ Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
 Naino Mein Sapna|Naino Me Sapna Sapno Me Sajna
 Naino Mein Sapna|Naino Mein Sapna
+Naino Mein Sapna|Naino Mein Sapna Sapno Mein Sajana
 Nakhrewaali|Nakhrewali
 Nasha Yeh Pyar Ka Nasha Hai|Nasha Yeh Pyar Ka Nasha Hai
 Nazar Ke Saamne|H D Nazar Ke Samne
