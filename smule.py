@@ -399,9 +399,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 joinMessage = ""
             else:
                 if joinCount == 0:
-                    joinMessage = " Please do join some of my invites too"
+                    joinMessage = " Please do join some of my invites too - check my Favorites list for all invites"
                 elif recentJoinCount == 0:
-                    joinMessage = " Please join some of my invites again"
+                    joinMessage = " Please join some of my invites again - check my Favorites list for all invites"
                 else:
                     #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
                     joinMessage = " Looking forward to more joins from you as well"

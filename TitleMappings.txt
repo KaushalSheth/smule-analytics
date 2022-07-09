@@ -962,6 +962,7 @@ Do Lafzon Ki Hai|Do Lafzon Ki Ye Dil
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahani
 Do Naina Ek Kahaani|Do Naina Ek Kahani Masoom
 Do Naina Ek Kahaani|Do Naina Aur Ek Kahani
+Do Naina Ek Kahaani|Do Naina Ek Kahani
 Do Pal Ruka|Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Do Pal Ruka
 Do Pal Ruka|Do Pal Ruka Khwabon Ka Karwan Veer Veer Veer
@@ -2516,6 +2517,7 @@ Roz Roz Aankhon Tale|Roz Roz Aankho Tale
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale ꜱ
+Roz Roz Aankhon Tale|Roz Roz Ankhon Talejeeva
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
@@ -2685,6 +2687,8 @@ Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
 Suno Kaho Kaha Suna|Suno Kaho
 Suno Na Sangemarmar|Suno Na Sangemarmar
+Suno Na Suno Na|Suno Na Suno Na
+Suno Na Suno Na|Tum Ne Na Jaana
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
 Suraj Hua Maddham|`Suraj Hua Madham
 Suraj Hua Maddham|Suraj Hua
@@ -2981,6 +2985,7 @@ Tum Aa Gaye Ho|Tum Aa Gaye Ho Aandhi
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Ho
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Noor Aa Gaya Hai
 Tum Aa Gaye Ho|Tum Agaye Ho Noor Agaya Hai
+Tum Aa Gaye Ho|Tum Aa Gaye Ho Tumaagayeho
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
