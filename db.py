@@ -183,6 +183,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     sqlquery = f"""
         with perf_stats as (
             select  s.performed_by,
+                    max(p.created_at) as last_performance_time,
                     count(case when p.created_at > current_timestamp - interval '30 days' then p.performers else null end) as recent_perf_cnt,
                     count(case when p.owner_handle = '{username}' then p.performers else null end) as join_cnt,
                     count(case when p.owner_handle = '{username}' and p.created_at > current_timestamp - interval '30 days' then 1 else null end) as recent_join_cnt
@@ -190,7 +191,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
                     left outer join performance p on p.performers = s.performed_by
             group by 1
             )
-        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt
+        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, ps.last_performance_time
         from    all_performances p
                 left outer join perf_stats js on js.performed_by = p.partner_name
         where   p.created_at between '{fromdate}' and '{todate}'
@@ -252,6 +253,109 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
             break
 
     return performances
+
+# Save the performances queried from Smule to the DB
+def saveDBPerformances(username,performances):
+    i = 0
+    # Need to use deepcopy to copy the list of objects so that the original list does not get overwritten
+    db_performances = copy.deepcopy(performances)
+    # Loop through each performance that has been queried
+    for p in db_performances:
+        # Use a try block because we want to ignore performances with bad data
+        # If any error occurs when processing the performance, simply skip it
+        # TODO: Use more granular error checks
+        try:
+            # The other_performers list is not part of the Performance class, so extract it to a variable and delete from the record
+            other_performers = p['other_performers']
+            del p['other_performers']
+            # Delete performers and pic_filename as well since that is not part of the DB table
+            del p['pic_filename']
+            del p['partner_name']
+            del p['display_handle']
+            del p['display_pic_url']
+            del p['create_type']
+            del p['joiners']
+            del p['recording_url']
+            del p['comment']
+            del p['yt_search']
+            del p['web_url_full']
+            del p['rating_nbr']
+            del p['join_cnt']
+            del p['recent_join_cnt']
+            del p['last_performance_time']
+
+            # Create/Update the Singer record for the performance owner
+            # Note that the pic, lat and lon for the owner will be updated to the last performance processed
+            # TODO: Consider saving a history of pic, lat and lon for each singer
+            singer = Singer(\
+                        account_id = p['owner_account_id'],\
+                        performed_by = p['owner_handle'],\
+                        pic_url = p['owner_pic_url'],\
+                        lat = p['owner_lat'],\
+                        lon = p['owner_lon']\
+                        )
+            db.session.merge(singer)
+
+            # Convert the performance record to the Performance class for SQLAlchemy and merge with the performances queried from DB
+            np = Performance(**p)
+            db.session.merge(np)
+
+            # Process the PerformanceSinger record for the owner of the performance
+            perfSinger = PerformanceSinger(\
+                        performance_key = p['key'],\
+                        singer_account_id = p['owner_account_id']\
+                        )
+            db.session.merge(perfSinger)
+
+            # Loop through all the other performers in the performance and process the Singer and PerformanceSinger records for them
+            for o in other_performers:
+                # Note that for other performers, we don't get lat/lon values, which is why they are not defined as required columns
+                singer = Singer(\
+                            account_id = o['account_id'],\
+                            performed_by = o['handle'],\
+                            pic_url = o['pic_url']\
+                            )
+                db.session.merge(singer)
+                perfSinger = PerformanceSinger(\
+                            performance_key = p['key'],\
+                            singer_account_id = o['account_id']\
+                            )
+                db.session.merge(perfSinger)
+            # Commit all the changes for the performance if no errors were encountered
+            db.session.commit()
+            i += 1
+        except:
+            # If any errors are encountered for the performance, roll back all DB changes made for that performance
+            db.session.rollback()
+            # Uncomment following line for debugging purposes only
+            raise
+
+    # Return a message indicating how many performances were successfully processed out of the total
+    return f"{i} out of {len(performances)} performances processed"
+
+# Save the favorite performances using performance key and other attributes
+def saveDBFavorite(username,performanceKey,rating):
+    # Use a try block because we want to ignore performances with bad data
+    # If any error occurs when processing the performance, simply skip it
+    # TODO: Use more granular error checks
+    try:
+        # Process the PerformanceSinger record for the owner of the performance
+        perfFavorite = PerformanceFavorite(\
+                    favorited_by_username = username,\
+                    performance_key = performanceKey,\
+                    rating_nbr = rating\
+                    )
+        db.session.merge(perfFavorite)
+        # Commit all the changes for the performance if no errors were encountered
+        db.session.commit()
+        retVal = 1
+    except:
+        # If any errors are encountered for the performance, roll back all DB changes made for that performance
+        db.session.rollback()
+        retVal = 0
+        # Uncomment following line for debugging purposes only
+        #raise
+    return retVal
 
 # Method to query title and partner analytics for a user
 def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-01-01",todate="2030-01-01"):
@@ -464,108 +568,6 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     # Execute the query and build the analytics list
     analytics = execDBQuery(sqlquery)
     return headings,analytics
-
-# Save the performances queried from Smule to the DB
-def saveDBPerformances(username,performances):
-    i = 0
-    # Need to use deepcopy to copy the list of objects so that the original list does not get overwritten
-    db_performances = copy.deepcopy(performances)
-    # Loop through each performance that has been queried
-    for p in db_performances:
-        # Use a try block because we want to ignore performances with bad data
-        # If any error occurs when processing the performance, simply skip it
-        # TODO: Use more granular error checks
-        try:
-            # The other_performers list is not part of the Performance class, so extract it to a variable and delete from the record
-            other_performers = p['other_performers']
-            del p['other_performers']
-            # Delete performers and pic_filename as well since that is not part of the DB table
-            del p['pic_filename']
-            del p['partner_name']
-            del p['display_handle']
-            del p['display_pic_url']
-            del p['create_type']
-            del p['joiners']
-            del p['recording_url']
-            del p['comment']
-            del p['yt_search']
-            del p['web_url_full']
-            del p['rating_nbr']
-            del p['join_cnt']
-            del p['recent_join_cnt']
-
-            # Create/Update the Singer record for the performance owner
-            # Note that the pic, lat and lon for the owner will be updated to the last performance processed
-            # TODO: Consider saving a history of pic, lat and lon for each singer
-            singer = Singer(\
-                        account_id = p['owner_account_id'],\
-                        performed_by = p['owner_handle'],\
-                        pic_url = p['owner_pic_url'],\
-                        lat = p['owner_lat'],\
-                        lon = p['owner_lon']\
-                        )
-            db.session.merge(singer)
-
-            # Convert the performance record to the Performance class for SQLAlchemy and merge with the performances queried from DB
-            np = Performance(**p)
-            db.session.merge(np)
-
-            # Process the PerformanceSinger record for the owner of the performance
-            perfSinger = PerformanceSinger(\
-                        performance_key = p['key'],\
-                        singer_account_id = p['owner_account_id']\
-                        )
-            db.session.merge(perfSinger)
-
-            # Loop through all the other performers in the performance and process the Singer and PerformanceSinger records for them
-            for o in other_performers:
-                # Note that for other performers, we don't get lat/lon values, which is why they are not defined as required columns
-                singer = Singer(\
-                            account_id = o['account_id'],\
-                            performed_by = o['handle'],\
-                            pic_url = o['pic_url']\
-                            )
-                db.session.merge(singer)
-                perfSinger = PerformanceSinger(\
-                            performance_key = p['key'],\
-                            singer_account_id = o['account_id']\
-                            )
-                db.session.merge(perfSinger)
-            # Commit all the changes for the performance if no errors were encountered
-            db.session.commit()
-            i += 1
-        except:
-            # If any errors are encountered for the performance, roll back all DB changes made for that performance
-            db.session.rollback()
-            # Uncomment following line for debugging purposes only
-            raise
-
-    # Return a message indicating how many performances were successfully processed out of the total
-    return f"{i} out of {len(performances)} performances processed"
-
-# Save the favorite performances using performance key and other attributes
-def saveDBFavorite(username,performanceKey,rating):
-    # Use a try block because we want to ignore performances with bad data
-    # If any error occurs when processing the performance, simply skip it
-    # TODO: Use more granular error checks
-    try:
-        # Process the PerformanceSinger record for the owner of the performance
-        perfFavorite = PerformanceFavorite(\
-                    favorited_by_username = username,\
-                    performance_key = performanceKey,\
-                    rating_nbr = rating\
-                    )
-        db.session.merge(perfFavorite)
-        # Commit all the changes for the performance if no errors were encountered
-        db.session.commit()
-        retVal = 1
-    except:
-        # If any errors are encountered for the performance, roll back all DB changes made for that performance
-        db.session.rollback()
-        retVal = 0
-        # Uncomment following line for debugging purposes only
-        #raise
-    return retVal
 
 # Save GeoCache data
 def saveDBGeoCache(lat,lon,city,country):

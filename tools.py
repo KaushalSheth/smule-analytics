@@ -2,6 +2,8 @@ import asyncio
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 import os, time
+from .db import execDBQuery
+from .smule import fetchUserFollowing
 
 async def loadDynamicHtml(url):
     global htmlstr
@@ -51,7 +53,34 @@ def titlePerformers(utilitiesOptions):
     owner_list = findHtmlElements(htmlstr,"span","profile-name-text")
     joiner_list = findHtmlElements(htmlstr,"span","profile-name handle")
 
-    return {"owners":owner_list,"joiners":joiner_list}
+    return {"list1":owner_list,"list2":joiner_list}
+
+def nonJoiners(utilitiesOptions):
+    title = "Non-Joiners"
+    non_joiner_list = []
+    sqlquery = """
+        select  performers,
+                count(*) as perf_cnt,
+                extract(day from current_timestamp - min(created_at)) as days_since_first_perf,
+                count(case when join_ind = 1 then 1 else null end) as join_cnt,
+                extract(day from current_timestamp - max(case when join_ind = 1 then created_at else null end)) as days_since_last_join
+        from    my_performances
+        group by performers
+        """
+    partnerStats = execDBQuery(sqlquery)
+    userFollowing = fetchUserFollowing('KaushalSheth1')
+    for u in userFollowing:
+        psList = [d for d in partnerStats if d['performers'] == u['handle']]
+        ps = psList[0] if psList else {}
+        #ps = next(item for item in partnerStats if item["performers"] == u['handle'])
+        try:
+            #if ((ps["join_cnt"] == 0 or ps["days_since_last_join"] > 365) and ps["days_since_first_perf"] > 265):
+            if ((ps["join_cnt"] == 0 or ps["days_since_last_join"] > 180) and ps["days_since_first_perf"] > 180):
+            #if ((ps["join_cnt"] == 0 or ps["days_since_last_join"] > 180) and ps["days_since_first_perf"] > 90 and ps["perf_cnt"] < 5):
+                non_joiner_list.append(f"{ps['performers']} ({ps['perf_cnt']}, {ps['days_since_first_perf']}, {ps['join_cnt']}, {ps['days_since_last_join']})")
+        except:
+            pass
+    return {"list1":non_joiner_list,"list2":[]}
 
 def getHtml(utilitiesOptions):
     url = utilitiesOptions["url"]

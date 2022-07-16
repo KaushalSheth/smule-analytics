@@ -18,13 +18,13 @@
   <br>
 
 <br>
-Owners:&nbsp;
-{% for row in toolsOutput["owners"] %}
-    {{ row }},&nbsp;
+Owners&nbsp;(# Perf, Days since first perf, # Join, Days since last join):<br>
+{% for row in toolsOutput["list1"] %}
+    {{ row }},&nbsp;<br>
 {% endfor %}
 <br><br>
-Joiners:&nbsp;
-{% for row in toolsOutput["joiners"] %}
+Joiners:&nbsp;<br>
+{% for row in toolsOutput["list2"] %}
     {{ row }},&nbsp;
 {% endfor %}
 

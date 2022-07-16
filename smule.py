@@ -21,7 +21,7 @@ def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_14_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_14_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
     return rsPartnerInfo
 
@@ -385,14 +385,13 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 p = prf[0]
                 performers = p[1:]
         filename_base = f"{fixedTitle} - {performers}"
+        joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
+        recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
+        lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
-            joinCount = 999
-            recentJoinCount = 999
         else:
-            joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
-            recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
             recentPerfCount = getPartnerInfo("partner_name",performers,"recent_perf_cnt")
             # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
             if recentPerfCount > 0:
@@ -523,7 +522,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'comment':comment,\
                 'yt_search':yt_search,\
                 'rating_nbr':"-",
-                'join_cnt':joinCount,\
+                'join_cnt':f"{joinCount}|{recentJoinCount}",\
+                'last_performance_time':lastPerformanceTime,\
                 'recent_join_cnt':recentJoinCount\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable

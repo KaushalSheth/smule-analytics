@@ -6,7 +6,7 @@ from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
-from .tools import loadDynamicHtml, titlePerformers, getHtml
+from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -240,6 +240,8 @@ def create_app(test_config=None):
                 return redirect(url_for('download_song'))
             elif toolName == "Performer Map":
                 return redirect(url_for('performer_map'))
+            elif toolName == "Non Joiners":
+                return redirect(url_for('non_joiners'))
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
@@ -294,7 +296,15 @@ def create_app(test_config=None):
         global toolsOutput, utilitiesOptions
         utilitiesOptions['sort'] = sort
         toolsOutput = titlePerformers(utilitiesOptions)
-        flash(f"{len(toolsOutput['owners'])} owners and {len(toolsOutput['joiners'])} joiners fetched from Smule")
+        flash(f"{len(toolsOutput['list1'])} owners and {len(toolsOutput['list2'])} joiners fetched from Smule")
+        return redirect(url_for('tools_output'))
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/non_joiners/')
+    def non_joiners():
+        global toolsOutput, utilitiesOptions
+        toolsOutput = nonJoiners(utilitiesOptions)
+        flash(f"{len(toolsOutput['list1'])} non-joiners fetched from Smule")
         return redirect(url_for('tools_output'))
 
     # This method queries the DB for title analytics using the relevant global variables
