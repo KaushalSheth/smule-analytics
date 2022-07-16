@@ -191,7 +191,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
                     left outer join performance p on p.performers = s.performed_by
             group by 1
             )
-        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, ps.last_performance_time
+        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time
         from    all_performances p
                 left outer join perf_stats js on js.performed_by = p.partner_name
         where   p.created_at between '{fromdate}' and '{todate}'
@@ -221,6 +221,9 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         d['web_url_full'] = d['web_url']
         d['recording_url'] = d['web_url'].replace("/ensembles","")
         d['yt_search'] = "https://www.youtube.com/results?search_query=" + d['fixed_title'].replace(" ","+") + "+lyrics"
+        joinCount = d['join_cnt']
+        recentJoinCount = d['recent_join_cnt']
+        recentPerfCount = d['recent_perf_cnt']
         # Set display handle and pic_url based on user we are searching for
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
@@ -232,9 +235,6 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
             d['display_pic_url'] = d['owner_pic_url']
             #d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
             # Construct comment for partner
-            joinCount = d['join_cnt']
-            recentJoinCount = d['recent_join_cnt']
-            recentPerfCount = d['recent_perf_cnt']
             # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
             if recentPerfCount > 0:
                 joinMessage = ""
@@ -247,6 +247,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
                     #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
                     joinMessage = " Please keep joining my invites too"
             d['comment'] = build_comment('@' + d['display_handle'] + ' ', joinMessage)
+        d['join_cnt'] = f"{joinCount}|{recentJoinCount}"
         performances.append(d)
         i += 1
         if i >= maxperf:
