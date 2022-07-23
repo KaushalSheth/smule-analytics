@@ -237,6 +237,7 @@ Abhi Na Jao Chhod Kar|Abhi Na Jao Chhodkar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chodkar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chor Kar
 Abhi Na Jao Chhod Kar|Abhi Na Jaao Chhod Kar
+Abhi Na Jao Chhod Kar|Abhi Na Jao Chod Kar
 Acchha Ji Main Haari|Accha Ji Main Haari
 Acchha Ji Main Haari|Accha Ji Main Haari Chalo
 Acchha Ji Main Haari|Acha Ji Main Haarichalomaan Jao Na
@@ -836,6 +837,8 @@ Dil Deewana|Dildeewa Maine Pyaar Kiya
 Dil Deewana|Dil Deewana Bin Sajna Ke ,
 Dil Deewana|155 Dil Deewana 1989
 Dil Deewana|Dil Dewana Bin Sajna Ke
+Dil Dhoondhta Hai|Dil Dhoondhta Hai Fir Wohi Fursat Ke Raat Din
+Dil Dhoondhta Hai|Dil Dhoondta Hai
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
@@ -1085,6 +1088,7 @@ Ghazab Ka Hai Din|Gazab Ka Hai Din Chill Mix
 Ghazab Ka Hai Din|Ghazab Ka Hai Din
 Ghazab Ka Hai Din|Ghazab Ka Hai Din=Short Qayamat se Qayamat Tak
 Ghungroo Ki Tarah|Ghungrookitarah
+Gir Gaya Jhumka|Gir Gaya Jhumka
 Give Me Some Sunshine|Give Me Some Sunshine
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
 Gori Ka Saajan|Gori Ka Sajan
@@ -1122,6 +1126,7 @@ Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kesa Hai Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Chalti Ka Naam Gadi
+Haal Kaisa Hai Janaab Ka|185 Haal Kaisa Hai Janaab Ka
 Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Haay Haay Ye Majboori|Haay Haay Ye Majboorihay Hay Ye Majboori
 Haay Haay Ye Majboori|Haye Haye Yeh Majboori
@@ -2101,6 +2106,7 @@ Mohe Rang Do Laal|Mohe Rang Do Laal
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar Hai Tumse
+Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar
 Mujhe Neend Na Aaye|Mujhe Neend Na
 Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Aaye
 Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Aye
