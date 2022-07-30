@@ -379,11 +379,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         gdb = next((g for g in groupHandles if g['item_name'] == performers), None)
         if gdb is not None:
             msg = performance['message']
-            prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
-            # If message contains any wors starting with @, take the first one as the real performer handle. Strip out the leading @
-            if len(prf) > 0:
-                p = prf[0]
-                performers = p[1:]
+            try:
+                prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
+                # If message contains any words starting with @, take the first one as the real performer handle. Strip out the leading @
+                if len(prf) > 0:
+                    p = prf[0]
+                    performers = p[1:]
+            except:
+                print(f"FAILED TO PARSE MESSAGE: {msg}")
+                pass
         filename_base = f"{fixedTitle} - {performers}"
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")

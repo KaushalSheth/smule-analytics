@@ -145,6 +145,7 @@ Aap Jaisa Koi|😋Aap Jaisa Koi
 Aap Jaisa Koi|Aap Jaisa Koi Meri
 Aap Ka Aana|Aap Ka Aana Dil Dhadkana
 Aap Ka Aana|Aap Ka Aana Kurukshetra
+Aap Ka Aana|Aap Ka Aana Kurukshetra [Jkk}
 Aap Ka Aana|Aap Ka Aana
 Aap Ke Haseen Rukh|Aapke Haseen Rukh
 Aap Ke Haseen Rukh|Aapke Haseen Rukh Pe
@@ -677,6 +678,7 @@ Chhup Gaya Badli Mein|Chup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Chup Gaya
 Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
+Chhup Gaye Saare Nazaare|Chupp Gaye Saare Nazare 1969
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chingari Koi Bhadke|Chingari Koi Bhadke
 Chingari Koi Bhadke|Chingari Koi Badke
@@ -944,6 +946,7 @@ Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
+Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
@@ -1226,6 +1229,7 @@ Humein Tumse Pyaar Kitna|Newhumein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Humetumse Pyaar Pyar Kitna
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Humein Tumse
+Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna Humein
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo & Baadalon Me Chup Raha
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo (film Mohabbatein)
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lohumko Humko Humko Humko
@@ -2715,6 +2719,7 @@ Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
 Suniye Kahiye|Suniye Kahiye 1979
+Suniye Kahiye|Suniye Kahiye , Baton Baton Mein
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
