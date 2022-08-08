@@ -64,6 +64,7 @@ Aaj Main Upar|Ad Aaj Main Upar
 Aaj Phir Jeene Ki Tamanna Hai|Aaj Phir Jeene Ki Tamanna Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aya Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aaya Hai
+Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyaar Aaya Hain
 Aaj Rapat Jaayen|Aaj Rapat Jaayen
 Aaj Rapat Jaayen|Aaj Rapat Jaayen Toh
 Aaj Rapat Jaayen|Aaj Rapat Jaaye
@@ -334,6 +335,7 @@ Agar Tum Saath Ho|Agar Tum Sath Ho Agar Tum Sath Ho
 Agar Tum Saath Ho|Agar Tum Sath Ho
 Aisa Lagta Hai|Aisa Lagta Hai
 Aisa Lagta Hai|Aisa Lagta Hai Jo Na Hua
+Aisa Lagta Hai|Aisa Lagta Hai Refugee
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
 Aisi Deewanagi|Aisi Deewanagi
@@ -495,6 +497,7 @@ Beqarar Karke Hamein|Dsj Bekarar Karke Hame
 Beqarar Karke Hamein|Beqarar Karke Hamen Yun Na Jaiye
 Beqarar Karke Hamein|070 Bekarar Karke Hume Yun Na Jaiye
 Beqarar Karke Hamein|Bekararr Kar Ke Hume
+Beqarar Karke Hamein|Beqaraar Karke Humein
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bhanware Ki Gunjan|Bhanware Ki Gunjan
@@ -1500,6 +1503,7 @@ Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
 Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Teri Aankhe
 Jeevan Se Bhari Teri Aankhein|Shorjeevan Se Bhari Teri Aankhe
 Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari
+Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Teri Aankhen
 Jeevan Se Na Haar|Jeevan Se Na Haar
 Jeevan Se Na Haar|Jeevan Se Na Haar O Jeenewale
 Jhanak Jhanak Tori Baaje Payaliya|Jhanak Jhanak Tori Baje Payelia
@@ -1652,6 +1656,7 @@ Kathai Aankhoon Wali Ek Ladki|Kathai Aankhoon Wali Ek Ladki
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya I
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapnon Mein Aaya
+Kaun Hai Jo Sapno Mein Aaya|कौन है जो सपनों मेंं आया कौन है जो दिल में
 Kaun Tujhe|F Kaun Tujhe
 Kaun Tujhe|Kaun Tuje
 Kaun Tujhe|Kaun Tujhe
@@ -2724,6 +2729,7 @@ Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
 Suno Kaho Kaha Suna|Suno Kaho
+Suno Kaho Kaha Suna|Suno Kaho Kahaa Suna
 Suno Na Sangemarmar|Suno Na Sangemarmar
 Suno Na Suno Na|Suno Na Suno Na
 Suno Na Suno Na|Tum Ne Na Jaana
@@ -3213,6 +3219,7 @@ Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajeeb Thi
 Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuch Ajeib Thi 🅫
+Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuchh Ajeeb Thi
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Raha Hai Tera Pyaar|~ Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai
@@ -3401,6 +3408,7 @@ Yeh To Sach Hai Ki Bhagwan Hai|Yeh To Sach Hai Ki Bhagwan Hai
 Yeh To Sach Hai Ki Bhagwan Hai|Yeh Toh Sach Hai Ki Bhagwan Hai
 Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi Hai
 Yeh Zameen Gaa Rahi Hai|Ye Zamin Gaa Rahi Hai
+Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
