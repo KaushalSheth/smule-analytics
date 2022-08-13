@@ -208,9 +208,9 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
             # Next, parse the HTML to extract the JSON string for performances
             performancesBytes = bytes(re.search('"performances":(.*?"next_offset":.*?})',htmlstr).group(1),'latin')
             performancesStr = performancesBytes.decode('utf8')
-            #print(performancesStr)
             # We need to strip out all special characters that are represented as hex values because the json.loads method does not like them
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
+            performancesStr = performancesStr.replace('"HD"','')
             # Process the performanceJSON and construct the ensembleList
             responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
             ensembleList = responseList[2]
@@ -220,6 +220,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
         print(web_url)
         print("Failed to parse ensembles")
         print("============")
+        #print(performancesStr)
         #raise
 
     return ensembleList

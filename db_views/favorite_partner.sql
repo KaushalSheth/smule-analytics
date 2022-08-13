@@ -18,9 +18,9 @@ perf_stats as (
             count(*) as performance_cnt,
             sum(join_ind) as join_cnt,
             sum(favorite_ind) as favorite_cnt,
-            sum(case when days_since_performance between 1 and 14 then 1 else 0 end) as performance_last_14_days_cnt,
-            sum(case when days_since_performance between 1 and 14 then join_ind else 0 end) as join_last_14_days_cnt,
-            sum(case when days_since_performance between 1 and 30 then join_ind else 0 end) as join_last_30_days_cnt,
+            sum(case when days_since_performance between 0 and 14 then 1 else 0 end) as performance_last_14_days_cnt,
+            sum(case when days_since_performance between 0 and 14 then join_ind else 0 end) as join_last_14_days_cnt,
+            sum(case when days_since_performance between 0 and 30 then join_ind else 0 end) as join_last_30_days_cnt,
             case when always_include_ind > 0 then 100000 else 0 end +
                 sum(performance_weight_nbr*(case favorite_ind when 1 then 20 else 1 end)*(case join_ind when 1 then 10 else 1 end)) as recency_score,
             max(case when join_ind = 0 then created_at else '2000-01-01'::timestamp end) as last_performance_time,
