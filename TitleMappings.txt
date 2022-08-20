@@ -458,6 +458,7 @@ Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
 Bade Acchhe Lagate Hain|Bade Ache Lagte Hai :
 Bade Acchhe Lagate Hain|Bade Achhe Lagte Hai
+Bade Acchhe Lagate Hain|Bade Achhe Lagte Hain Serial Title Song
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
@@ -1188,6 +1189,7 @@ Hoshwalon Ko Khabar Kya|Hosh Walo Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hosh Walon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Female
+Hoshwalon Ko Khabar Kya|Hoshwalo Ko Khabar
 Hotel California|Hotel California
 Hum Aap Ki Aankhon Mein|Hum Aap Ki Aankhon Mein
 Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein
@@ -1512,6 +1514,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Aangan Hoga
 Jhilmil Sitaron Ka|Jhil Mil Sitaro Ka Aangann Hoga
 Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
+Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
@@ -1575,6 +1578,7 @@ Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein With Poem
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
+Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Muqammal
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
@@ -2184,6 +2188,7 @@ Na Tum Humein Jaano|Na Tum Humein Nahamen
 Na Tum Humein Jaano|Na Tum Humein
 Na Tum Humein Jaano|Na Tum Hamen Jano
 Na Tum Humein Jaano|Na Tum Humein Na
+Na Tum Humein Jaano|ना तुम हमें जानो ना हम तुम्हें जाने
 Na Tum Jaano Na Hum|Femalemale Na Tum Jaano Na Hum
 Na Tum Jaano Na Hum|Kyu Chalti Hai Pawan
 Na Tum Jaano Na Hum|Na Tum Jaano Na Hum
@@ -2651,6 +2656,7 @@ Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Saathiya
+Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiyalve
 Sau Aasmaan|Sau Asmaan
 Sau Aasmaan|Sau Aasmaan
 Sau Aasmaan|Sau Aasman Baar Baar Dekho
@@ -2691,6 +2697,7 @@ Soch Na Sake|Tenu Itna Me Pyar Karan
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
+Sochenge Tumhe Pyaar|Sochege Tumhe Pyar Kre Ke Nhi
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Soldier Soldier|Reff Soldier Soldier Meethi Baaten
