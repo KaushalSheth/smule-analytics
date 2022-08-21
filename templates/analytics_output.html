@@ -41,7 +41,7 @@
       {%- set search_string =  v.replace(" ","+") %}
             <td>
                 <a href="https://www.youtube.com/results?search_query={{search_string}}+karaoke" target="_blank">{{ v }} Karaoke</a><br><br>
-                <a href="https://www.youtube.com/results?search_query={{search_string}}+karaoke" target="_blank">Youtube Lyrics</a> | <a href="https://www.smule.com/search?q={{search_string}}&type=active_seed&sort=popular" target="_blank">Smule Search</a>
+                <a href="https://www.youtube.com/results?search_query={{search_string}}+lyrics" target="_blank">Lyrics</a> | <a href="https://www.smule.com/search?q={{search_string}}&type=active_seed&sort=popular" target="_blank">Smule</a>
             </td>
     {%- elif k == "user_search" -%}
       {%- set search_string =  v.replace(" ","+") %}
