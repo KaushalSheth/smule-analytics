@@ -18,6 +18,7 @@ perf_stats as (
             count(*) as performance_cnt,
             sum(join_ind) as join_cnt,
             sum(favorite_ind) as favorite_cnt,
+            sum(case when days_since_performance between 0 and 5 then 1 else 0 end) as performance_last_5_days_cnt,
             sum(case when days_since_performance between 0 and 14 then 1 else 0 end) as performance_last_14_days_cnt,
             sum(case when days_since_performance between 0 and 14 then join_ind else 0 end) as join_last_14_days_cnt,
             sum(case when days_since_performance between 0 and 30 then join_ind else 0 end) as join_last_30_days_cnt,
@@ -52,20 +53,20 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         p.first_performance_time,
         s.pic_url as display_pic_url,
         coalesce(sf.is_following,false) as is_following,
-        extract(day from first_join_time - first_performance_time) days_till_first_join,
-        first_join_time, last_join_time,
+        extract(day from p.first_join_time - p.first_performance_time) days_till_first_join,
+        p.first_join_time, p.last_join_time,
         round(case
-            when performance_cnt <= 5 then avg_rating_nbr - 1 -- Not enough performances to get accurate rating, so subtract 1
-            when rated_song_cnt < (performance_cnt/3.0) then avg_rating_nbr - greatest((0.75 - favorite_cnt/(performance_cnt*1.0)),0)
-            else avg_rating_nbr
+            when p.performance_cnt <= 5 then p.avg_rating_nbr - 1 -- Not enough performances to get accurate rating, so subtract 1
+            when p.rated_song_cnt < (p.performance_cnt/3.0) then p.avg_rating_nbr - greatest((0.75 - p.favorite_cnt/(p.performance_cnt*1.0)),0)
+            else p.avg_rating_nbr
         end, 2) as avg_rating_nbr,
-        rated_song_cnt, last10_rating_str
+        p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join singer_following sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
-select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null, 0.0, 0, ''
+select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null, 0.0, 0, '', 0
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)

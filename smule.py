@@ -21,7 +21,7 @@ def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_14_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_5_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
     return rsPartnerInfo
 
@@ -670,9 +670,10 @@ def fetchPartnerInvites(inviteOptions,numrows):
                                 continue
                         else:
                             knownCount += 1
-                        # Store join count in "Total_listens" field, and partner Sort field in "total_loves"
+                        # Store join count in "Total_listens" field, and last 10 ratings field in "total_loves"
                         p['total_listens'] = joinCount
-                        p['total_loves'] = partnerSort
+                        # p['total_loves'] = partnerSort
+                        p['total_loves'] = getPartnerInfo("partner_name",p['performers'],"last10_rating_str")
                         # Update the join_cnt and recent_join_count values to use the partner values
                         p['join_cnt'] = joinCount
                         p['recent_join_cnt'] = recentJoinCount
