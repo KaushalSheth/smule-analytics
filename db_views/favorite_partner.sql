@@ -54,19 +54,23 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         s.pic_url as display_pic_url,
         coalesce(sf.is_following,false) as is_following,
         extract(day from p.first_join_time - p.first_performance_time) days_till_first_join,
-        p.first_join_time, p.last_join_time,
+        p.first_join_time, p.last_join_time, p.avg_rating_nbr,
         round(case
             when p.performance_cnt <= 5 then p.avg_rating_nbr - 1 -- Not enough performances to get accurate rating, so subtract 1
             when p.rated_song_cnt < (p.performance_cnt/3.0) then p.avg_rating_nbr - greatest((0.75 - p.favorite_cnt/(p.performance_cnt*1.0)),0)
             else p.avg_rating_nbr
-        end, 2) as avg_rating_nbr,
+        end, 2) as adj_avg_rating_nbr,
+        length(last10_rating_str) - length(replace(last10_rating_str,'5','')) as last10_five_cnt,
+        length(replace(last10_rating_str,'-','')) as last10_rating_cnt,
         p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join singer_following sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
-select  account_id as partner_account_id, handle as partner_name, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp, pic_url, is_following, null, null, null, 0.0, 0, '', 0
+select  account_id as partner_account_id, handle as partner_name,
+        0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
+        pic_url, is_following, null, null, null, 0.0, 0.0, 0, 0, 0, '', 0
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)

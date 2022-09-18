@@ -761,6 +761,7 @@ Dard Karaara|Dard Karaara
 Darde Dil Darde Jigar|Darde Dil Darde Jigar
 Darde Dil Darde Jigar|Darde Dil
 Darling|Darling
+Deewana Hai Dekho|Deewana Hai Dekho
 Deewana Hua Baadal|Deewana Hua
 Deewana Hua Baadal|Deewana Hua Baadal
 Deewana Hua Baadal|Deewana Hua Badal
@@ -1089,6 +1090,7 @@ Gali Mein Aaj Chand Nikla|Br Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand
 Gali Mein Aaj Chand Nikla|Gali Main Aaj Tum Aaye To
 Galliyan|Galliyan
+Galliyan|Galliyan The R&B Female
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
 Gapuchi Gapuchi Gum Gum|Gapoochi Gapoochi Gum
 Geet Gata Hoon Main|Geet Gata Hoon Main
@@ -1125,6 +1127,7 @@ Gulabi Aankhen|Gulabiaankhen
 Gulabi Aankhen|Gulabi Ankhein Retro Mix
 Gulabi Aankhen|Gulaabi Aankhein
 Gulabi Aankhen|090 Gulabi Aankhen Jo Teri
+Gulabi Aankhen|Hijo Samma
 Gumsum Sa Ye Jahaan|Gumsum Sa Ye Jahan
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisike Pyaar Mein
@@ -1224,6 +1227,7 @@ Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
 Hum Tumse Na Kuch Keh Paaye|Hum Tumse Na Kuch Keh Paye
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
+Hum Yaar Hai Tumhare|Hum Yaar Hain Tumhare
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
 Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
@@ -1511,6 +1515,7 @@ Jawaani Jaaneman|Jawani Janeman Haseen Dilruba
 Jee Le Zaraa|Jee Le Zaraa
 Jeena Jeena Samjhawan Mashup|Jeena Jeena Samjhawan
 Jeena Yahan Marna Yahan|Jeena Yahan Marna Yahan
+Jeena Yahan Marna Yahan|Ad Jeena Yahan Marna Yahan
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Par
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
@@ -1669,6 +1674,7 @@ Kanha Maane Na|Kanha
 Karvatein Badalte|Karvatein Badalte
 Karvatein Badalte|Karvatein Badalte Rahein
 Karvatein Badalte|Karvate Badalte Rahe Karwate
+Kasme Waade Nibhayenge Hum|Kasme Waade Nibhayenge Hum
 Kasto Mazza|Kasto Mazza
 Kathai Aankhoon Wali Ek Ladki|Kathai Aankhoon Wali Ek Ladki
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
@@ -1845,6 +1851,7 @@ Lag Ja Gale|Lg Jaa Gale Gale Ja Gale Ja Gale
 Lag Ja Gale|Lag Ja Gale Lag Ja Gale
 Lag Ja Gale|Lag Ja Galelagjagale Lagjaagale D
 Lag Ja Gale|Lag Ja Gale Se Phir
+Lag Ja Gale|Lag Ja Gale Se
 Laila Main Laila|Laila Main Laila
 Laila Main Laila|Laila O Lailaqurbanilaila Main Laila
 Laila Main Laila|Laila O Laila Laila Main Laila
@@ -2175,6 +2182,7 @@ Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
 Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
 Na Jaane Kyu Hota Hai|Na Jaane Kyun
+Na Jaane Kyu Hota Hai|Na Jaane Kyuun Hota Hai Ye Zindagi Ke Sath
 Na Jaane Mere|@MSMT [HD] Na Jaane Mere Dil Ko Kya Ho Gaya
 Na Jaane Mere|Na Jaane Mere
 Na Jaane Mere|Na Jaane Mere Dil Ko
@@ -2395,6 +2403,7 @@ Pehla Pehla Pyar Hai|▲ Pehla Pehla Pyar Hai
 Phir Bhi Dil Hai Hindustani|Phir Bhi Dil Hai Hindustani
 Phir Bhi Dil Hai Hindustani|Hum Logo Ko Samajh Sako Toh
 Phool Tumhe Bheja Hai Khat Mein|Phool Tumhe Bheja Hai Khat Mein
+Phool Tumhe Bheja Hai Khat Mein|Phool Tumhein Beja Tumhe Bheja
 Phoolon Ka Taaron Ka|Phoolon Ka Taaro Ka
 Phoolon Ka Taaron Ka|Phoolon Ka Taaro Ka Taaro
 Phoolon Ka Taaron Ka|Phoolon Ka Taron Ka
@@ -2920,6 +2929,7 @@ Teri Mitti|Teri Mitti Female Kesari
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko Kisi Ki Najar
+Teri Pyari Pyari Soorat Ko|Teri Pyaari Pyaari Soorat Ko
 Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
@@ -2983,6 +2993,7 @@ Tu Mera Jaanu Hai|Tu Mera Janu Hai
 Tu Mere Samne|Tu Mere Samne
 Tu Mere Samne|Tu Mere Samne Darr
 Tu Mere Samne|Tu Mere Saamne Mein Tere Samne
+Tu Mere Samne|Tu Mere Samne Mein Tere Samne
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai
 Tu Meri Zindagi Hai|Tumerizindagihai
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai Aashiqui Zindagi
@@ -3176,6 +3187,7 @@ Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha Karaoke
 Tumhe Yaad Hoga Kabhi Hum|Tumhe Yaad Hoga Kabhi Ham
 Tumhi Dekho Na|Tumhi Dekho Nasd
+Tumhi Dekho Na|Tumhi Dekho Naa
 Tumhi Mere Mandir|Tumhi Mere Mandir
 Tumhi Mere Mandir|Tumhi Mere Mandir Mangeshkar
 Tumhi Mere Mandir|Tumhi Mere Mandir Khandan
