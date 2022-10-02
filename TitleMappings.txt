@@ -118,6 +118,7 @@ Aankhon Ki Gustakhiyan|Ankhon Ki Gustakhian
 Aankhon Ki Gustakhiyan|Ankhon Ki Gustakhiya
 Aankhon Ki Gustakhiyan|160 Aankhon Ki Gustakhiyan
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum
+Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum Tum
 Aankhon Mein Kya Ji|Aankho Me Kya Ji Rupehla Badal
 Aankhon Mein Kya Ji|Ankhon Mei Kya Ji
 Aankhon Mein Kya Ji|Ankhon Mein Kya Ji
@@ -183,6 +184,7 @@ Aap Ki Nazron Ne Samjha|R Aap Ki Nazron Ne Samjha
 Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
 Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aate Jaate Hanste Gaate|Aate Jate Hanste Gaate
+Aate Jaate Hanste Gaate|Aate Jaate
 Aati Kya Khandala|Aati Kya Khandala
 Aati Kya Khandala|Aati Kya Khandala Ghulam
 Aati Kya Khandala|Ay Kya Bolti Tu
@@ -231,6 +233,7 @@ Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Aa Gaye Hum
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein To
 Ab Tere Dil Mein Hum Aa Gaye|🧡Ab Tere Dil Mein
+Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye To
 Abhi Mujh Mein|Abhi Mujh Mein
 Abhi Mujh Mein|Abhi Mujh Mein Kahin
 Abhi Mujh Mein|Abhi Mujh Mein Abhi Mujh Mein
@@ -448,6 +451,7 @@ Baahon Ke Darmiyaan|Bahon Ke Darmiyanme
 Baahon Ke Darmiyaan|Bahon Ke Darmiyanbaahonnew Khamoshi
 Baahon Mein Chale Aao|Bahon Mein Chale Aao
 Baahon Mein Chale Aao|Bahon Mein Chali Aao Sweet
+Baahon Mein Chale Aao|Bahon Mein
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
 Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
 Baarish Ban Jaana|Baarish Ban Jana
@@ -893,6 +897,7 @@ Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Kare Pukar ,Tere Ghar Ke Samne
 Dil Ke Armaan|Dil Ke Armaan
 Dil Ke Armaan|Dil Ke Armaan Aansuon Mein
 Dil Ke Armaan|Dil Ke Arman Aansuon Mein Beh Gaye
+Dil Ke Armaan|Dil Ke Arman Aansuon Mein
 Dil Ke Jharoke Mein|Dil Ke Jharoke Main
 Dil Ke Jharoke Mein|Dil Ke Jharoke Mein Tujhko Bithakar
 Dil Ke Jharoke Mein|Dil Ke Jharokhe Mein Tujkho Bithakar
@@ -1218,6 +1223,7 @@ Hum To Deewane Hue Yaar|Hum To Deewane Baadshah
 Hum To Deewane Hue Yaar|Hum To Deewane Baadshah Jkk
 Hum To Deewane Hue Yaar|Hum To Deewane Hue Yaar
 Hum To Deewane Hue Yaar|Hum To Deewane
+Hum To Deewane Hue Yaar|Hum To Deewane Huye Baadshah
 Hum Tum Dono Jab Mil Jaayenge|Hum Tum Dono Jab Mil Jayenge
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey Mein Band Ho
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey
@@ -1270,6 +1276,7 @@ Humko Hamise Chura Lo|Humkohumise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Chura Lo Chura Lo
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
 Humko Hamise Chura Lo|207 Humko Humise Chura Lo
+Humko Hamise Chura Lo|Humko Humise Chura Lo Song
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humma Humma|Humma Humma
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai In Aankhon Mein
@@ -1541,6 +1548,7 @@ Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
 Jhumka Gira Re|Jhoomka Gira Re
 Jhumka Gira Re|Jhumka Gira Re Bareilly Ke Bazar
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
+Jis Din Se Maine Tumko Dekha Hai|Jis Din Se Maine Tumko Dekha Hai
 Jis Gali Mein Tera Ghar|Jis Gali Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Galli Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Gali Mein
