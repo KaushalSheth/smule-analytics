@@ -257,6 +257,7 @@ Acchha Ji Main Haari|Acha Ji Mai Haarichalomaan Jao Na
 Acchha Ji Main Haari|AᑕᑕHa Ji ᗰAiᑎ Haari
 Acchha Ji Main Haari|Achha Ji Main Haari Chalo Maan Jao Na
 Acchha Ji Main Haari|Accha Ji Mai
+Acchha Ji Main Haari|Acha Ji Main Haari Chalo Maan Jao Na
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -1638,6 +1639,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Gem
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
+Kahin Na Jaa|Kahin Na Jaa Song Ruhani 1983
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
 Kaho Na Kaho|Kaho Na Kaho
 Kaho Na Kaho|Kaho Na Kaho Murder
@@ -1755,6 +1757,7 @@ Khuda Jaane|Khuda Jaane
 Khuda Jaane|Khuda Jaane Ke
 Khullam Khulla Pyaar|Khullam Khulla Pyaar
 Khullam Khulla Pyaar|Khullam Khulla Pyaar Karen
+Khullam Khulla Pyaar|Khullam Khulla Pyar Karenge
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya Koi Haqeeqat
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
 Kisi Din Banoongi|Kisi Din Banoongi Main
@@ -2473,6 +2476,7 @@ Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Waale|Pyar Karne Wale Kabhi Darte Nahi
 Pyaar Karne Waale|Pyar Karne Wale
 Pyaar Karne Waale|Pyar Karne Waleshaan Se Pyaar Karte
+Pyaar Karne Waale|Pyar Karne Wale Pyar Karte Hai
 Pyaar Ki Dastaan|Pyaar Ki Dastaan
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
@@ -2544,6 +2548,7 @@ Raja Ko Rani Se|Raja Ko Rani Se Ko Rani Se
 Raja Ko Rani Se|Raja Ko Rani Se Pyaar
 Raja Ko Rani Se|Raja Ko Rani Se Pyar Ho Gaya
 Raja Ko Rani Se|Raja Ko Rani Se Pyar
+Raja Ko Rani Se|ͪ ͩराजा को रानी से प्यार हो गया
 Ram Chahe Leela|Ram Chahe Leela
 Ramaiya Vastavaiya|Ramaiya Vastavaiya
 Ramta Jogi|Ramta Jogi
@@ -2915,6 +2920,7 @@ Tere Sang Yaara|Ad Tere Sang Yaara
 Teri Aankhon Ke Siva|Teri Ankhon Ke Siva
 Teri Aankhon Ke Siva|Teri Ankho Ke Siva
 Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniyachirag
+Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniya Mein
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
@@ -2941,6 +2947,7 @@ Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko Kisi Ki Najar
 Teri Pyari Pyari Soorat Ko|Teri Pyaari Pyaari Soorat Ko
+Teri Pyari Pyari Soorat Ko|Teri Pyaari Pyaari Surat Ko
 Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
@@ -3016,6 +3023,7 @@ Tu Pyaar Tu Preet|Tu Pyaar Tu Preet
 Tu Pyaar Tu Preet|Tu Pyar Tu Preet
 Tu Shaayar Hai|Tu Shayar He
 Tu Shaayar Hai|Tu Shayar Hai
+Tu Shaayar Hai|Tu Shayar Hai Main Teri Shayari Song
 Tu Tu Hai Wahi|[HQ™] Tu Tu Hai Wohi The Unwind Mix Original
 Tu Tu Hai Wahi|Tu Tu Hai Clean
 Tu Tu Hai Wahi|Tu Tu Hai Wahi
