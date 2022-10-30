@@ -461,6 +461,7 @@ Baahon Ke Darmiyaan|Bahon Ke Darmiyanbaahonnew Khamoshi
 Baahon Mein Chale Aao|Bahon Mein Chale Aao
 Baahon Mein Chale Aao|Bahon Mein Chali Aao Sweet
 Baahon Mein Chale Aao|Bahon Mein
+Baahon Mein Chale Aao|211 Bahon Mein Chale Aao
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
 Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
 Baarish Ban Jaana|Baarish Ban Jana
@@ -661,6 +662,7 @@ Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
+Chhalkaye Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
 Chhod Do Aanchal|Chhod Do Aanchal
 Chhod Do Aanchal|Chhod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal Zamana
@@ -898,6 +900,7 @@ Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Hai Tumhara|Mastana Mausam Hai
 Dil Hai Tumhara|Dil Hai Tumhaara
 Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
+Dil Jaane Jigar|Dil Jane Jigar
 Dil Jo Na Keh Saka|Dil Jo Na Keh Saka
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukar
@@ -1581,6 +1584,7 @@ Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
 Jiya Re|Jiya Re
 Jiye To Jiye Kaise|Jiye To Jiye Kaise
+Jiye To Jiye Kaise|Jeeye To Jeeye Kaise
 Jo Bhi Kasmein|Jo Bhi Kasmein
 Jo Haal Dil Ka|Jo Haal Dil Ka
 Jo Haal Dil Ka|Jo Haal Dil Ka Idhar Ho Raha Hai
@@ -1795,6 +1799,7 @@ Kisi Ki Muskarahaton|Kisi Ki Muskurahato Pe Ho Nisaar
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Kisi Mod Par
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Rah Kisi Mod Par
 Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
+Kiska Rasta Dekhe|Kiska Rasta Dekhe
 Kismat Se Tum|Kismat Se Tum Pukar
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyara Waada|Kitna Pyara Waada
@@ -2140,6 +2145,7 @@ Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
 Meri Mehbooba|Zara Tasveer Se Meri Mehbooba
 Meri Mehbooba|Kisi Roz Tumse
+Meri Mehbooba|Kisi Roz Tumse Mulaakat
 Meri Neend Jaane Lagi Hai|Meri Neend Jaane Lagi Hai
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
@@ -2407,6 +2413,7 @@ Pardesiya|Pardesiya Yeh Sach Hain Piya
 Pardesiya|Pardesiya Yeh Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Hai Piya
 Pardesiya|Rp Pardesiya Ye Sach Hai Piya
+Patthar Ke Sanam|Patthar Ke Sanam
 Paayalein Chunmun|Paayalein Chunmun
 Paayalein Chunmun|Payalay Chunmun
 Paayalein Chunmun|Payalay Chunmun Virasat
@@ -2840,6 +2847,7 @@ Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taaron Main Sajke|[} Taron Main Sajke
 Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
+Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbir Se Bigadi Hui Taqdir Bana Le
 Tamma Tamma Loge|Tamma Tamma Loge
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
 Tanha Tanha|Tanha Tanha Yahaan Pe Jeena
@@ -2949,6 +2957,7 @@ Teri Aankhon Ke Siva|Teri Ankhon Ke Siva
 Teri Aankhon Ke Siva|Teri Ankho Ke Siva
 Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniyachirag
 Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniya Mein
+Teri Aankhon Ke Siva|Teri Ankhon Ke Siva Duniya Mein Rakha
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
@@ -2971,6 +2980,7 @@ Teri Galiyon Mein Na|Teri Galiyon Mein Na Mohammad
 Teri Meri Prem Kahani|Teri Meri
 Teri Meri Prem Kahani|Teri Meri Prem Kahani
 Teri Meri Prem Kahani|Teri Meri Prem Kahanigpsi
+Teri Meri Prem Kahani|Teri Meri, Meri Teri Prem Kahaani
 Teri Mitti|Teri Mitti
 Teri Mitti|Teri Mitti Kesari
 Teri Mitti|Teri Mitti Female Kesari
@@ -3072,6 +3082,7 @@ Tu Tu Hai Wahi|🖐✊Tu Tu Hai Wahi
 Tu Tu Hai Wahi|Tu Tu Hai Wahi ( Shot
 Tu Tu Hai Wahi|Yeh Vaada Raha
 Tu Tu Hai Wahi|Tu Tu Hai Wahi Ye Wada Raha
+Tu Tu Hai Wahi|📀 Tu Tu Hai Wohi
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
@@ -3327,6 +3338,7 @@ Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajeeb Thi
 Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuch Ajeib Thi 🅫
 Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuchh Ajeeb Thi
+Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuchh Ajeeb Thi
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Raha Hai Tera Pyaar|~ Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai

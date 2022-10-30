@@ -74,6 +74,7 @@ def getJSON(username,type="performances",offset=0):
             data = json.loads(url.read())
     except:
         # Ignore any errors
+        print("Error fetching JSON")
         pass
     return data
 
@@ -832,6 +833,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             break
         for performance in performances['list']:
             last_created_date = performance['created_at']
+            #print(performance['web_url'])
         responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
