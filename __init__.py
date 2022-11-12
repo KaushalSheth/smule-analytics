@@ -404,7 +404,7 @@ def create_app(test_config=None):
             rsPartnerInfo = fetchPartnerInfo()
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchSmulePerformances(user,numrows,startoffset,"performances",fromdate,todate,searchOptions)
+        performances = fetchSmulePerformances(user,numrows,startoffset,"recording",fromdate,todate,searchOptions)
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 

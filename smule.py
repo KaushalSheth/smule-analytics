@@ -64,10 +64,13 @@ def getGroupHandles():
     return rsGroupHandles
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username,type="performances",offset=0):
+def getJSON(username,type="recording",offset=0,version="legacy"):
     data = None
     try:
-        urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        if version == "legacy":
+            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        else:
+            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
         #urlstring = f"https://205.143.41.226/{username}/{type}/json?offset={offset}"
         #print(urlstring)
         with request.urlopen(urlstring) as url:
@@ -146,7 +149,7 @@ def crawlJoiners(username,mindate='2018-01-01',maxdate='2030-12-31'):
         try:
             u = j['joiner']
             # Fetch the performances for the user and save them
-            perf = fetchSmulePerformances(u,9999,0,"performances",mindate,maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+            perf = fetchSmulePerformances(u,9999,0,"recording",mindate,maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
             m = saveDBPerformances(u,perf)
             # The first word in the message returned indicates the number of favorites processed successfully - save that
             n = m.split()[0]
@@ -302,14 +305,14 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             break
         created_at = performance['created_at']
         web_url_full = f"https://www.smule.com{performance['web_url']}"
-        #print(web_url_full)
+        #print(f"{created_at}|{web_url_full}")
         # Set recording URL to strip out the "/ensembles" at the end if it exists
         recording_url = web_url_full.replace("/ensembles","")
         # As soon as created_at is less than the ensemble min date, break out of the loop
         # In case we don't care for joins, then break out as soon as we reach the mindate (no need to process extra days)
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
             stop = True
-            break
+            continue
         # If the created_at is greater than the max date, then skip it and proceed with next one
         if created_at > maxdate:
             continue
@@ -476,6 +479,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 orig_track_city = "Unknown"
                 orig_track_country = "Unknown"
                 #raise
+        # If performance is a join, set ct to "ensemble" so it gets color coded correctly
+        #print(performance['ensemble_type'])
+        if ownerHandle == username and performance['ensemble_type'] == "DUET" and not web_url_full.endswith("/ensembles") :
+            ct = "ensemble"
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -538,24 +545,24 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             raise
 
         # If ct is "invite" and joins flag is True, then process the joins and append to the performance list
-        if ct == "invite" and joins:
-            ensembleList = parseEnsembles(username,web_url_full,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
-            # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
-            if filterType == "invites":
-                for j in ensembleList:
-                    joiners += j['partner_name'] + ", "
-                joiners = joiners.strip(", ")
-                performanceList[-1]['joiners'] = joiners
-            else:
-                # If there are no matching joins for an invite, remove the invite
-                # Also delete the invite if we are only getting solos and the owner is the username
-                if ((len(ensembleList) == 0) or (solo and ownerHandle == username)):
-                    del performanceList[-1]
-                    i -= 1
-                # If ensembleList is not empty, add the joins to the performance list
-                if len(ensembleList) > 0:
-                    performanceList.extend(ensembleList)
-                    i += len(ensembleList)
+        # if ct == "invite" and joins:
+        #     ensembleList = parseEnsembles(username,web_url_full,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
+        #     # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
+        #     if filterType == "invites":
+        #         for j in ensembleList:
+        #             joiners += j['partner_name'] + ", "
+        #         joiners = joiners.strip(", ")
+        #         performanceList[-1]['joiners'] = joiners
+        #     else:
+        #         # If there are no matching joins for an invite, remove the invite
+        #         # Also delete the invite if we are only getting solos and the owner is the username
+        #         if ((len(ensembleList) == 0) or (solo and ownerHandle == username)):
+        #             del performanceList[-1]
+        #             i -= 1
+        #         # If ensembleList is not empty, add the joins to the performance list
+        #         if len(ensembleList) > 0:
+        #             performanceList.extend(ensembleList)
+        #             i += len(ensembleList)
 
     return [ stop, i, performanceList ]
 
@@ -615,7 +622,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
                 continue
             # Fetch all invites for the partner
             # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
-            partnerInvites = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="invites",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+            partnerInvites = fetchSmulePerformances(partnerHandle,maxperf=numrows,startoffset=0,type="active_seed",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
             # Initialize the final list to empty list - we will add net new invtes (not already performed) to it
             finalPartnerInvites = []
             knownCount = 0
@@ -796,7 +803,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # Method to fetch performances for the specific user upto the max specified
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
-def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performances",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
+def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
     global rsGroupHandles
 
     contentType,solo,joins = extractSearchOptions(searchOptions)
@@ -824,11 +831,17 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
     while next_offset >= 0:
         print(f"== {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} =============== {username} {contentType} {next_offset} {i} {stop} {maxperf} {last_created_date} =======")
         # Get the next batch of results from Smule
-        if type == "ensembles" or type == "invites":
-            fetchType = "performances"
+        # If type is ensembles, we want to get all recordings, so set fetchTpye accordingly. For all others, set fetchType to same as type
+        if type == "ensembles" :
+            fetchType = "recording"
         else:
             fetchType = type
-        performances = getJSON(username,fetchType,next_offset)
+        # If fetchType is anything but "recording" or "active_seed", set the version to legacy
+        if fetchType == "recording" or fetchType == "active_seed":
+            version = "search"
+        else:
+            version = "legacy"
+        performances = getJSON(username,fetchType,next_offset,version)
         if performances == None:
             break
         for performance in performances['list']:
@@ -847,7 +860,16 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="performance
             break
         else:
             next_offset = performances['next_offset']
-    # if rsGroupHandles exists, delete it at the end of processing so that we reload a fresh version each time
+    # If type is "recording", append invites as well
+    if type == "recording":
+        print("Appending invites")
+        performances = getJSON(username,"active_seed",next_offset,"search")
+        #print(performances)
+        if performances != None:
+            responseList = createPerformanceList(username,performances,mindate,maxdate,i,9999,type,titleMappings=titleMappings,ensembleMinDate=mindate,searchOptions=searchOptions)
+            #print(responseList)
+            performanceList.extend(responseList[2])
+    # If rsGroupHandles exists, delete it at the end of processing so that we reload a fresh version each time
     try:
         del rsGroupHandles
     except:
