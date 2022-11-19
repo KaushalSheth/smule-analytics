@@ -477,9 +477,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Current Month', 'Adjusted Weighted Count', 'Weighted Count', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Current Month', 'Adjusted Weighted Count', 'Random Sort', 'Weighted Count', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, weighted_cnt, first_performance_time, last_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr, weighted_cnt, first_performance_time, last_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
             order by adj_weighted_cnt desc
             """
@@ -606,10 +606,7 @@ def saveDBFavorites(username,performances):
 # Insert/Update data into Singer_Following table
 def saveDBSingerFollowing(userFollowing):
     i = 0
-    # First, update all rows to set isFollowing to False
-    # TODO: Since we seem to be getting partial lists, disable setting is_following to false - we will handle that manually in DB directly when needed
-    #db.session.execute("update singer_following set is_following = False, updated_at = now() where is_following")
-    # Next, loop through and insert/update all the rows
+    # Loop through and insert/update all the rows
     for u in userFollowing:
         # It is possible that first_name and or last_name are missing - in that case, simply set them to ""
         try:
@@ -650,5 +647,5 @@ def saveDBSingerFollowing(userFollowing):
             # Uncomment following line for debugging purposes only
             raise
 
-    # Return a message indicating how many performances were successfully processed out of the total
+    # Return a message indicating how many rows were successfully processed out of the total
     return f"{i} out of {len(userFollowing)} SingerFollowing processed"

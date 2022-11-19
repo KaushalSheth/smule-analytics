@@ -69,9 +69,10 @@ def getJSON(username,type="recording",offset=0,version="legacy"):
     try:
         if version == "legacy":
             urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        elif type == "following":
+            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
         else:
             urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
-        #urlstring = f"https://205.143.41.226/{username}/{type}/json?offset={offset}"
         #print(urlstring)
         with request.urlopen(urlstring) as url:
             data = json.loads(url.read())
@@ -83,7 +84,24 @@ def getJSON(username,type="recording",offset=0,version="legacy"):
 
 # Get list of people the user is following
 def fetchUserFollowing(username):
-    return getJSON(username,type="following")['list']
+    following = []
+    # The URL for getting followees requires accountID, so look it up from singer table. If username not found, set accountID to 0
+    try:
+        accountID = execDBQuery(f"select account_id from singer where performed_by = '{username}'")[0]['account_id']
+    except:
+        accountID = 0
+    #print(f"AccountID = {accountID}")
+    nextOffset = 0
+    while nextOffset >= 0:
+        j = getJSON(accountID,type="following",offset=nextOffset,version="api")
+        #print(j)
+        l = j['list']
+        for f in l:
+            following.append(f)
+        nextOffset = j['next_offset']
+    l = len(following)
+    #print(f"length = {l}, last = {following[l-1]}")
+    return following
 
 # Save list of people user is following
 def saveSingerFollowing(username):
@@ -863,10 +881,11 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
     # If type is "recording", append invites as well
     if type == "recording":
         print("Appending invites")
-        performances = getJSON(username,"active_seed",next_offset,"search")
+        performances = getJSON(username,"active_seed",0,"search")
         #print(performances)
         if performances != None:
             responseList = createPerformanceList(username,performances,mindate,maxdate,i,9999,type,titleMappings=titleMappings,ensembleMinDate=mindate,searchOptions=searchOptions)
+            #responseList = createPerformanceList(username,performances,'2022-11-01',maxdate,i,9999,type,titleMappings=titleMappings,ensembleMinDate='2022-11-01',searchOptions=searchOptions)
             #print(responseList)
             performanceList.extend(responseList[2])
     # If rsGroupHandles exists, delete it at the end of processing so that we reload a fresh version each time

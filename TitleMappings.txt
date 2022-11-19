@@ -792,6 +792,7 @@ Darde Dil Darde Jigar|Darde Dil
 Darde Dil Darde Jigar|Dard E Dil
 Darling|Darling
 Deewana Hai Dekho|Deewana Hai Dekho
+Deewana Hai Dekho|Deewana Hai Dekho Beqaraar Woh
 Deewana Hua Baadal|Deewana Hua
 Deewana Hua Baadal|Deewana Hua Baadal
 Deewana Hua Baadal|Deewana Hua Badal
@@ -1049,6 +1050,7 @@ Dum Maro Dum|Dum Maro Dum
 Dum Maro Dum|Dum Maaro Dum Hare Krishna Hare R
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
+Duniya Mein Logon Ko|Duniya Mein Logon Ko Dhokha
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
@@ -1224,6 +1226,7 @@ Hazaar Raahein|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
 Hazaar Raahein|Hazaar Raahe Mud Ke Dekhi
+Hazaar Raahein|Hazaar Raahen Mud Ke Dekhi
 Hello|Hello
 Hey Naam Re|Hey Naam Re
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
@@ -1314,6 +1317,7 @@ Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
 Humko Hamise Chura Lo|207 Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Chura Lo Song
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
+Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humma Humma|Humma Humma
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai In Aankhon Mein
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai
@@ -1606,6 +1610,7 @@ Jitni Dafa|Jitni Dafa Female
 Jitni Dafa|Jitni Dafa Clean
 Jitni Dafa|Jitni Dafa Dekhun Tumhe
 Jiya Beqarar Hai|Jiya Beqarar Hai
+Jiya Beqarar Hai|Jiya Bekaraar Hai Barsaat
 Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
 Jiya Re|Jiya Re
@@ -1659,6 +1664,7 @@ Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
+Kabhi To Nazar Milao|Kabhi To Nazar Milao
 Kabhi Tu Chhalia Lagta Hai|Kabhi Tu Chhalia Lagta Hai
 Kabhi Tu Chhalia Lagta Hai|Kabhi Tu Chaliya Lagta Hai
 Kabira|Kabira
@@ -1731,6 +1737,7 @@ Kalank|ᴋᴀʟᴀɴᴋ Title
 Kalank|꧁꧂Kalank
 Kalank|Kalank Title
 Kamli Kamli|Kamli Kamli
+Kamli Kamli|Kamli Kamli Dhoom 3 Karaok
 Kanha Maane Na|Kanha Maane Na
 Kanha Maane Na|Kanha Mane Na
 Kanha Maane Na|Kanha
@@ -1945,6 +1952,7 @@ Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
 Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
 Loote Koi Man Ka Nagar|Loote Koyi Koi Man
+Loote Koi Man Ka Nagar|Loote Koi Man
 Love Mashup|Love Mashup
 Lut Gaye|Lut Gaye
 Lut Gaye|Lut Gaye Emraan Hashmi
@@ -2591,6 +2599,7 @@ Raat Kali|Raat Kali Ek Khwab Men Aai
 Raat Kali|Raat Kali Ek Khwab
 Raat Kali|Raat Kali Ek
 Raat Kali|Raat Kali Ek Khwab Mein Aayi
+Raat Kali|Raat Kali Ek Khwaab
 Raat Ke Humsafar|Aat Ke Humsafar
 Raat Ke Humsafar|Aat Ke Humsafar Ke Humsafar
 Raat Ke Humsafar|H D Raat Ke Humsafar
@@ -2723,6 +2732,7 @@ Saans|Saans Jab Tak Hai Jaan
 Saans|Saans Me Teri
 Saans|Saans Mein
 Saans|Saans Mein Teri
+Saans|Saans Mein Teri Pallavi
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
 Saat Samundar|Saat Samundarⱽishʷaaa
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
@@ -3213,6 +3223,7 @@ Tum Dil Ki Dhadkan Mein|Tum Dil Ki Dhadkan Mein
 Tum Dil Ki Dhadkan Mein|Tum Dil Ki Dhadkan Mein Hh
 Tum Dil Ki Dhadkan Mein|Tum Dil Ki Mein
 Tum Dil Ki Dhadkan Mein|Tum Dil Ki Dhadkan Mein Song
+Tum Dil Ki Dhadkan Mein|Tum Dil Ki Tum Dil Ki
 Tum Hi Aana|Tum Hi Aana
 Tum Hi Aana|Tum Hi Aana Sad
 Tum Hi Aana|Tum Hi Aana Tum Hi
@@ -3408,6 +3419,7 @@ Yaadon Ki Baaraat|Yaadon Ki Baraat
 Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai
 Yaar Bina Chain|Yaar Bina Chain
 Yaar Bina Chain|Yaar Bina Chain Kaha Re
+Yaar Bina Chain|Yaar Bina Chain Kahan Re
 Yaara Sili Sili|Yaara Sili Sili
 Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera Mere Siwa
 Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera, Mere Siwa
