@@ -59,6 +59,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Ajkal Tere Mere Pyaar
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkalteremerepyarkecharche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aaj Kal Tere
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere Jaye Re
@@ -88,6 +89,7 @@ Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Men
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur, Aaja Sanam Madhur Chandani
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Mein Ham
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Me Hum
+Aaja Sanam Madhur Chandni Mein|Aa Ja Sanamm Madhur Chaandne
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Aayi
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Ayee
 Aaja Shaam Hone Aayi|ᴴᴰ Aaja shaam hone aayi ( clear karaoke )
@@ -597,6 +599,7 @@ Chaand Chhupaa Baadal Mein|Chand Chupa Badal
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein Maya_Sayang
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein Sharma Ke
+Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein Song
 Chaand Mera|Chaand Mera
 Chaand Ne Kuch Kaha|Chaand Ne Kuch Kaha Karaoke
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
@@ -1207,6 +1210,7 @@ Har Kisi Ko Nahi Milta|HD® Har kisi ko nahi milta yaha pyar{Janbaaz}
 Har Kisi Ko Nahi Milta|Har Kisko Nahi Milta
 Har Kisi Ko Nahi Milta|Har Kisiko Nahi Milta
 Haule Haule|Haule Haule
+Haule Haule|Haule Haule Se
 Hawa Ke Saath Saath|O Saathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
@@ -1391,6 +1395,7 @@ Jaadu Hai Nasha Hai|Part Jaadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai Nasha Hai Nasha
 Jaadu Hai Nasha Hai|Jaadu Hain Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai Jaadu Hai
+Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai,Madhoshiya
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jaadu Jaadoo Hain
 Jaadu Teri Nazar|Jadu Teri Nazar
@@ -1469,6 +1474,7 @@ Jaane Kaise Kab Kaha|Jane Kaise Kab Jaane
 Jaane Kaise Kab Kaha|Jane Kaise Kab Kahan Iqraar
 Jaane Kaise Kab Kaha|Jaane Kaise Kab Kahan Ikrar Ho Gaya
 Jaane Kaise Kab Kaha|Jane Kaise Kab Kahajaane
+Jaane Kaise Kab Kaha|Jane Kaise Kab Jaane Kaha
 Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
@@ -1517,6 +1523,7 @@ Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
 Jab Chali Thandi Hawa|Jab Chalii Thandi Hawa
 Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo
 Jab Chhaye Mera Jadoo|Jab Chahe Mera Jaadu
+Jab Chhaye Mera Jadoo|Jub Chhai Mera Jaduu From Looaar 1980
 Jab Deep Jale Aana|Jabdeep Jale Deep Jale
 Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
@@ -1571,6 +1578,7 @@ Jawaani Jaaneman|Jawani Jan
 Jawaani Jaaneman|Jawani Janeman
 Jawaani Jaaneman|Jawaani Jaaneman Haseen Dilruba
 Jawaani Jaaneman|Jawani Janeman Haseen Dilruba
+Jawaaniyan Yeh Mast Mast Bin Piye|Jawaniyan Yeh Mast Mast Bin Piye
 Jee Le Zaraa|Jee Le Zaraa
 Jeena Jeena Samjhawan Mashup|Jeena Jeena Samjhawan
 Jeena Yahan Marna Yahan|Jeena Yahan Marna Yahan
@@ -1705,6 +1713,7 @@ Kaho Na Pyaar Hai|Kaho Naa Pyaar Hai
 Kaho Na Pyaar Hai|Kaho Naa Pyar Hai [}
 Kaho Na Pyaar Hai|Kaho Na Pyar Hai E Sonpyaar Hain
 Kai Din Se Mujhe|Kai Din Se Mujhe
+Kaise Hua|Kaise Hua Live Piano Clean
 Kaise Mizaj Aapke Hai|Kaise Mizaj Aapke Haishor
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani Parineeta
@@ -1774,12 +1783,14 @@ Ke Sera Sera|Kay Sera Sera
 Ke Sera Sera|Ke Sera Sera
 Ke Sera Sera|Key Sera Sera
 Ke Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
-Keh Doon Tujhe|Socha Hai
-Keh Doon Tujhe|Socha Hai Keh Doon Tumhe
-Keh Doon Tujhe|Keoon Tumhe
-Keh Doon Tujhe|Newkeoon Tumhe
-Keh Doon Tujhe|Keun Tumhe Ya Chup Rahun
-Keh Doon Tujhe|Keun Tumhe
+Keh Doon Tumhe|Socha Hai
+Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
+Keh Doon Tumhe|Keoon Tumhe
+Keh Doon Tumhe|Newkeoon Tumhe
+Keh Doon Tumhe|Keun Tumhe Ya Chup Rahun
+Keh Doon Tumhe|Keun Tumhe
+Keh Doon Tumhe|Keoon Tumhedeeʷar
+Keh Doon Tumhe|Keh Doon Tujhe
 Kehna Hai Kehna Hai|Kehna Hai Kehna Hai
 Kehna Hi Kya|Kehna Hi Kya
 Kehna Hi Kya|Kehna Hi Kya ~ Unwind
@@ -1843,6 +1854,7 @@ Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyara Waada|Kitna Pyara Waada
 Kitna Pyara Waada|Kitna Pyaara Wada
 Kitna Pyara Waada|Kitna Pyara Wadacarvaan
+Kitna Pyara Waada|Kitna Pyara Wada Hai
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
@@ -1857,6 +1869,7 @@ Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Ladki Hai|Koi Ladki Hai
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
+Koi Mil Gaya|Koi Mil Gaya ,Wd One Paragraph
 Koi Sone Ke Dil Wala|Koi Sone Ke Dil Wala
 Kora Kaagaz|Kora Kaagaz Tha
 Kora Kaagaz|Kora Kagaz Tha
@@ -1975,6 +1988,7 @@ Maang Ke Saath Tumhara|Maang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Ke Saath Tumhara:
 Maang Ke Saath Tumhara|Mang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Mang Ke Saath Tumhara
+Maang Ke Saath Tumhara|Maang Ke Sath Tumhara
 Maaye Ni Maaye|Maye Ni Maye
 Maaye Ni Maaye|Maaye Ni Maaye
 Maaye Ni Maaye|Mai Ni Meriye ,Chamba Kitni K Durr
@@ -1996,6 +2010,7 @@ Main Duniya Bhula Doonga|Main Duniyan Bhula Dungi
 Main Duniya Bhula Doonga|Mainduniya Bhula
 Main Duniya Bhula Doonga|Mainduniya Duniya Bhula
 Main Duniya Bhula Doonga|Mᴀɪɴ Dᴜɴɪʏᴀ Bhula Doonga
+Main Duniya Bhula Doonga|Main Duniya Bhula Song
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hun
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hoon
 Main Hoon Na|Drmain Hoon Na
@@ -2364,6 +2379,7 @@ O Hansini|O Hansini Karaoke
 O Hansini|O Hansini Meri
 O Hansini|O Hansini Meri Hansini
 O Hansini|Oh Hansini
+O Hansini|O Hansini Sound
 O Haseena Zulfon Wali|O Haseena Zufon Waali
 O Haseena Zulfon Wali|O Haseena Zulfo Wali
 O Haseena Zulfon Wali|O Haseena Zulfon Wali
@@ -2458,6 +2474,7 @@ Pardesiya|Pardesiya Yeh Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Hai Piya
 Pardesiya|Rp Pardesiya Ye Sach Hai Piya
 Patthar Ke Sanam|Patthar Ke Sanam
+Patthar Ke Sanam|Pathar Ke Sanam Tujhe Humne
 Paayalein Chunmun|Paayalein Chunmun
 Paayalein Chunmun|Payalay Chunmun
 Paayalein Chunmun|Payalay Chunmun Virasat
@@ -2517,6 +2534,7 @@ Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
 Puchho Zara Puchho|Poocho Zara Poocho
 Puchho Zara Puchho|Pucho Zara Poocho
+Puchho Zara Puchho|Puchozarapuchocompact
 Pukarta Chala Hoon Main|Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hun Main
 Pukarta Chala Hoon Main|♫Pukarta Chala Hoo Mein♫
@@ -2617,6 +2635,7 @@ Radha Kaise Na Jale|Radha Kaise Na Radha Kaise Na
 Rahein Na Rahein Hum|Rahein Na Rahein Hum
 Rahein Na Rahein Hum|Rahen Na Rahen Hum
 Rahein Na Rahein Hum|रहें ना रहें हम महका Rahen Na Rahe Hum
+Rahein Na Rahein Hum|Rahe Na Rahe Hum
 Raina Beeti Jaaye|Raina Biti Jaye
 Raina Beeti Jaaye|Raina Biti Jaye Sham Na Aaye
 Raja Ko Rani Se|Raja Ko Rani Se
@@ -2662,6 +2681,7 @@ Rimjhim Rimjhim|Rimjhimrim Jhim Hhrim
 Rimjhim Rimjhim|Rimjhim Rimjhim 1942 A Love Story
 Rimjhim Rimjhim|Rimjhim Rimjhim Rumjhum Rumjhum
 Rimjhim Rimjhim|Rimjim Rimjim Rumjum Rumjum
+Rocking Medley|Rocking Medley
 Roja Jaaneman|Roja Jaaneman
 Roop Suhana Lagta Hai|Roop Suhana Lagta Hai
 Roop Suhana Lagta Hai|Roop Suhana Lagta
@@ -2689,6 +2709,7 @@ Roz Roz Aankhon Tale|Roz Roz Ankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale ꜱ
 Roz Roz Aankhon Tale|Roz Roz Ankhon Talejeeva
+Roz Roz Aankhon Tale|Roz
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
@@ -2700,6 +2721,7 @@ Ruk Jaana Nahin|Ruk Jana Nahin
 Ruk Jaana Nahin|Rukjaananahin Tu Kahin
 Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
+Rukh Se Zara Naqaab Utha|Rukh Se Zara Naqaab Utha
 Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
@@ -3085,6 +3107,7 @@ Tu Cheez Badi Hai Mast Mast|Tu Cheez Badi Hai
 Tu Cheez Badi Hai Mast Mast|Tu Cheez Badi Hai Mohra
 Tu Cheez Badi Hai Mast Mast|Tu Cheezbadi Hai Mast
 Tu Cheez Badi Hai Mast Mast|Cheez Badi Machine
+Tu Cheez Badi Hai Mast Mast|)Tu Cheez Badi Hai Mast Mohra
 Tu Hi Hai|Tu Hi Hai
 Tu Hi Re|Tu Hi Re
 Tu Hi Re|Tu Hi Re Female

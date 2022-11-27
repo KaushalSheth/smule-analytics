@@ -6,7 +6,7 @@ from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
-from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners
+from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -242,6 +242,8 @@ def create_app(test_config=None):
                 return redirect(url_for('performer_map'))
             elif toolName == "Non Joiners":
                 return redirect(url_for('non_joiners'))
+            elif toolName == "Title Metadata":
+                return redirect(url_for('title_metadata'))
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
@@ -305,6 +307,14 @@ def create_app(test_config=None):
         global toolsOutput, utilitiesOptions
         toolsOutput = nonJoiners(utilitiesOptions)
         flash(f"{len(toolsOutput['list1'])} non-joiners fetched from Smule")
+        return redirect(url_for('tools_output'))
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/title_metadata/')
+    def title_metadata():
+        global toolsOutput, utilitiesOptions
+        toolsOutput = titleMetadata(utilitiesOptions)
+        flash(f"{len(toolsOutput['list1'])} titles fetched from Smule")
         return redirect(url_for('tools_output'))
 
     # This method queries the DB for title analytics using the relevant global variables

@@ -4,6 +4,9 @@ from pyppeteer import launch
 import os, time
 from .db import execDBQuery
 from .smule import fetchUserFollowing
+from urllib import request
+import json, re, csv
+from statistics import mode
 
 async def loadDynamicHtml(url):
     global htmlstr
@@ -26,6 +29,59 @@ async def loadDynamicHtml(url):
     await browser.close()
 
     return htmlstr
+
+# Method to fetch recording metadata from musicbrainz
+def getRecordingMetadataJSON(titleInput):
+    data = None
+    urltitle = titleInput.replace(" ","+")
+    urlstring = f"https://musicbrainz.org/ws/2/recording?query={urltitle}&fmt=json"
+    #urlstring = f"https://www.smule.com/search/by_type?q=KaushalSheth1&type=recording&sort=recent&offset=0&size=0"
+    titleRow = ""
+    try:
+        with request.urlopen(urlstring) as url:
+            data = json.loads(url.read())
+    except:
+        # Ignore any errors
+        print("Error fetching recording metadata")
+        pass
+    if data != None:
+        # Loop through all the recordings to determine the most popular artist
+        artistList = []
+        i = 0
+        for r in data['recordings']:
+            # Get score, title, and length from 1st recording
+            if i == 0:
+                score = r['score']
+                title = r['title']
+                # Sometimes, length is not available - in that case keep the previous value
+                try:
+                    length = round(r['length']/1000.0/60.0,2)
+                except:
+                    length = 0
+            i += 1
+            # If score >= 100, check artists
+            if score >= 100:
+                artist = ""
+                for a in r['artist-credit']:
+                    artist += a['name']
+                    #print(artist)
+                    if 'joinphrase' in a.keys():
+                        artist += a['joinphrase']
+                artistList.append(artist)
+        #print(artistList)
+        artist = mode(artistList)
+        titleRow = f"Input = {titleInput}; Score = {score}; Title = {title}; Length = {length} minutes; Artist = {artist}"
+        #print(titleRow)
+    return titleRow
+
+def titleMetadata(utilitiesOptions):
+    title = "Title Metadata"
+    titleList = []
+    sqlquery = "select fixed_title from favorite_song order by adj_weighted_cnt desc limit 10"
+    titles = execDBQuery(sqlquery)
+    for t in titles:
+        titleList.append(getRecordingMetadataJSON(t['fixed_title']))
+    return {"list1":titleList,"list2":[]}
 
 def findHtmlElements(htmlstr,element="p",name="dummy"):
     # Process HTML string with BeautifulSoup

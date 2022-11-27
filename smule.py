@@ -406,6 +406,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
                 # If message contains any words starting with @, take the first one as the real performer handle. Strip out the leading @
                 if len(prf) > 0:
+                    # First, remove any occurrences of the group handle if it exists
+                    try:
+                        groupHandle = f"@{gdb['item_name']}"
+                        #print(groupHandle)
+                        prf.remove(groupHandle)
+                    except:
+                        # Ignore if any errors happen
+                        pass
+                    #print(prf)
                     p = prf[0]
                     performers = p[1:]
             except:
