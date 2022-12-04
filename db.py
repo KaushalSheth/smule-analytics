@@ -1,4 +1,4 @@
-from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing, GeoCache
+from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing, GeoCache, TitleMetadata
 from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
@@ -333,6 +333,22 @@ def saveDBPerformances(username,performances):
 
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"
+
+# SAve title metadata to DB
+def saveDBTitleMetadata(titleMetadataList):
+    i = 0
+    # Loop through and merge tiutle metadata
+    for tm in titleMetadataList:
+        try:
+            # Convert the title metadata record to the titleMetadata class for SQLAlchemy and merge with the title_metadata queried from DB
+            ntm = TitleMetadata(**tm)
+            db.session.merge(ntm)
+            db.session.commit()
+            i += 1
+        except:
+            db.session.rollback()
+            raise
+    return f"{i} out of {len(titleMetadataList)} title metadata processed"
 
 # Save the favorite performances using performance key and other attributes
 def saveDBFavorite(username,performanceKey,rating):

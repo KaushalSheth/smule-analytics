@@ -36,7 +36,7 @@ my_perf_bucketed as (
                 else 'P:6 1-5'
             end popularity_score,
             case
-                when days_since_last_invite > 3650 then 'I:0 Never'
+                when days_since_last_invite > 3650 then 'I:9 Never'
                 when days_since_last_invite > 365 then 'I:1 >1 year'
                 when days_since_last_invite > 180 then 'I:2 >6 months'
                 when days_since_last_invite > 90 then 'I:3 >3 months'

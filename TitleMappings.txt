@@ -315,11 +315,13 @@ Ae Mere Humsafar|Ayeae Mere Humsafar
 Ae Mere Humsafar|𝔖𝐡𝐨𝐫𝐭 Aye Mere Humsafar
 Ae Mere Humsafar|Aye Mere Humsafar Aye Mere
 Ae Mere Humsafar|Aye Mere Hamsafar
+Ae Mere Humsafar|Ae Mere Humsafar Aye Meri Jaaneja
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
 Ae Meri Zohra Jabeen|Ae Mere Zohra
 Ae Meri Zohra Jabeen|Ae Meri Zohra Zabeen
 Ae Meri Zohra Jabeen|ऐ मेरी ज़ोहरा जबीं तू अभी Aye Meri Zohrajabin
+Ae Phoolon Ki Rani|Ae Phoolon Ki Rani
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le Take
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagaa Le
@@ -557,6 +559,9 @@ Bikhara Ke Zulfein|Bikhra Ke Zulfein Chaman Mein Na Jana
 Bikhara Ke Zulfein|Bikhara Ke Julfein
 Bindiya Chamkegi|Bindiya Chamkegi
 Bindiya Chamkegi|~2 Bindiya Chamkegi
+Birthday Medley|Birtay Medley
+Birthday Medley|Birthday Medley
+Blue Christmas|Blue Chrisas
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
 Bol Na Halke Halke|Bolna Halke Halke
@@ -677,6 +682,7 @@ Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhalkaye Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
+Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhod Do Aanchal|Chhod Do Aanchal
 Chhod Do Aanchal|Chhod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal Zamana
@@ -1051,6 +1057,7 @@ Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
 Dum Dum Diga Diga|Dum Dum Diga Diga
 Dum Maro Dum|Dum Maro Dum
 Dum Maro Dum|Dum Maaro Dum Hare Krishna Hare R
+Dum Maro Dum|Dum Maro Dum Drsanjaysharat
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Dhokha
@@ -1259,6 +1266,7 @@ Hum Aapke Hain Kaun|Hum Aapke Hain Koun Kaun
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun
 Hum Aapke Hain Kaun|Hum Aapke Hain Kauntitle
 Hum Bewafaa|Hum Bewafa
+Hum Dil De Chuke Sanam|Hum Dil De Chuke Sanam
 Hum Dono Do Premi|Hum Dono Do Premi
 Hum Pyaar Mein Jalne Waalon Ko|Hum Pyar Mein Jalnewalon Ko
 Hum Tere Bin Kahin|Hum Tere Bin Kahin
@@ -1320,6 +1328,7 @@ Humko Hamise Chura Lo|Humko Humise Chura Lo Chura Lo
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo
 Humko Hamise Chura Lo|207 Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Chura Lo Song
+Humko Hamise Chura Lo|Humkohumisechuralohumkohumisechuralo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humma Humma|Humma Humma
@@ -1328,7 +1337,9 @@ Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankho Ki
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
 Humne Tumko Dekha|)Humne Tumko Dekha
+Humsafar Mere Humsafar|Humsafar Mere Humsafar
 Husn Hai Suhaana|Husn Hai Suhaana
+Husn Hai Suhaana|Husn Hai Suhana
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
 I Can't Help Falling In Love|I Can't Help Falling In Love
@@ -1491,6 +1502,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte Hain
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने जिगर Jaane Na Nazar
 Jaane Na Nazar Pahchane Jigar|Jane Na Nazar Pehchane Jigar
+Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Aah
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The Jinke
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The
@@ -1597,6 +1609,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron Ka
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Aangan Hoga
 Jhilmil Sitaron Ka|Jhil Mil Sitaro Ka Aangann Hoga
+Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan Hoga Rimjhim
 Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
 Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
@@ -2126,6 +2139,7 @@ Mera Dil Bhi Kitna|Mera Dil_Bhi_Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Mera Dil Bhi
 Mera Dil Bhi Kitna|~ Mera Dil Bhi Kitna Pagal Hai
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
+Mera Dil Ye Pukare|Mera Dil Ye Pukare ,
 Mera Jeevan Kora Kaagaz|Mera Jeevan Kora Kagaz
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Joota Hai Japani|Mera Joota Hai Jaapani
@@ -2264,6 +2278,8 @@ Musaafir Hoon Yaaron|Musafir Hoon Yaaro 1972
 Musaafir Hoon Yaaron|Musafir Hoon Yaron
 Musaafir Hoon Yaaron|Musafir Hun Yaaro
 Musaafir Hoon Yaaron|Musaafir Hoon Yaaro
+Musaafir Hoon Yaaron|𝐅u𝐋𝐋 Musaafir Hoon Yaro Parichay
+Musaafir Hoon Yaaron|Musaafir Hoon Yaro Parichay
 Muthukodi Kawari Hada|Muthu Kodi Kawari Hada
 My Desi Girl|: My Desi Girl
 My Desi Girl|My Desi Girl
@@ -2847,6 +2863,8 @@ Soch Na Sake|Soch Naa Sake
 Soch Na Sake|Soch Na Sake Soch Soch
 Soch Na Sake|airlift ( tenu itna me pyar karan)
 Soch Na Sake|Tenu Itna Me Pyar Karan
+Soch Na Sake|Soch Na Sake 🛫 Air Lift
+Soch Na Sake|Soch Na Sake Air Lift
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
@@ -3305,6 +3323,7 @@ Tum Mile Dil Khile|Tum Miledil Khile
 Tum Mile Dil Khile|Tu Mile Dil Khile Tum Mile Dil
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Mujhe Yun|Tum Mujhe Yun
+Tum Mujhe Yun|Tum Mujhe Yu Bhula Na Paoge
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
@@ -3437,6 +3456,7 @@ Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
 Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
+Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hainagme Hai
 Yaadon Ki Baaraat|Yaadon Ki Baarat
 Yaadon Ki Baaraat|Yaadon Ki Baraat
 Yaadon Ki Baaraat|Yaadon Ki Baaraat Nikli Hai

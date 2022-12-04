@@ -104,3 +104,12 @@ class GeoCache(db.Model):
     country = db.Column(db.String(40), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+class TitleMetadata(db.Model):
+    fixed_title = db.Column(db.String(100), primary_key=True)
+    meta_title = db.Column(db.String(100), nullable=False)
+    artist = db.Column(db.String(200), nullable=True)
+    duration = db.Column(db.String(10), nullable=True)
+    score = db.Column(db.Float, nullable=True)
+    created_at = db.Column(db.DateTime, server_default=db.func.now())
+    updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())

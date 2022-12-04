@@ -2,11 +2,17 @@ import asyncio
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 import os, time
-from .db import execDBQuery
+from .db import execDBQuery, saveDBTitleMetadata
 from .smule import fetchUserFollowing
 from urllib import request
 import json, re, csv
 from statistics import mode
+import discogs_client
+from fuzzywuzzy import process, fuzz
+
+# Set global variables using env file
+DISCOGS_TOKEN = os.environ.get('DISCOGS_TOKEN', default='')
+discogsClient = discogs_client.Client('SmuleAnalytics/1.0', user_token=DISCOGS_TOKEN)
 
 async def loadDynamicHtml(url):
     global htmlstr
@@ -29,6 +35,72 @@ async def loadDynamicHtml(url):
     await browser.close()
 
     return htmlstr
+
+# Get Title Metadata
+def titleMetadata(utilitiesOptions):
+    track = utilitiesOptions['title'].replace("+"," ")
+    list1 = [searchDiscogsTitle(track)]
+    return {"list1":list1,"list2":[]}
+
+# Search Discogs for title Metadata
+def searchDiscogsTitle(track):
+    #discogsReleases = discogsClient.search(track=f'"{track}"')
+    discogsReleases = discogsClient.search(track=track)
+    i = 0
+    maxRatio = 0
+    titleRec = {}
+    stop = False
+    # Loop through releases to check for a track with the best match
+    for r in discogsReleases:
+        i += 1
+        # Loop through the tracks in the release to find the best one
+        for t in r.tracklist:
+            ratio = fuzz.ratio(track, t.title)
+            if (ratio > maxRatio) and (len(t.artists) > 0):
+                maxRatio = ratio
+                # Construct artist string
+                artist = ""
+                for a in t.artists:
+                    artist += a.name + ", "
+                # Strip trailing comma and replace last comma with &
+                artist = ' &'.join(artist.strip(", ").rsplit(',',1))
+                titleRec = {"fixed_title":track,"meta_title":t.title,"artist":artist,"duration":t.duration,"score":ratio}
+                if (maxRatio >= 95):
+                    stop = True
+                    break
+        if stop or i > 10:
+            break
+    print(f"{i}: {titleRec}")
+    return titleRec
+
+# Save metadata for all titles missing metadata in DB
+def saveTitleMetadata():
+    titleMetadataList = []
+    # Loop through all titles missing metadata
+    sqlquery = """
+        with titles as (select distinct fixed_title from my_performances)
+        select  t.fixed_title
+        from    titles t
+                left outer join title_metadata tm on tm.fixed_title = t.fixed_title
+        where   tm.fixed_title is null
+        -- limit 50
+        """
+    titleList = execDBQuery(sqlquery)
+    i = 0
+    for t in titleList:
+        print(t)
+        md = searchDiscogsTitle(t['fixed_title'])
+        if not md:
+            md = {"fixed_title":t['fixed_title'],"meta_title":"","artist":"","duration":"","score":0}
+            #print(md)
+        titleMetadataList.append(md)
+        i += 1
+        if i % 5 == 0:
+            saveDBTitleMetadata(titleMetadataList)
+            titleMetadataList = []
+    saveDBTitleMetadata(titleMetadataList)
+
+    return {"list1":titleMetadataList,"list2":[]}
 
 # Method to fetch recording metadata from musicbrainz
 def getRecordingMetadataJSON(titleInput):
@@ -73,15 +145,6 @@ def getRecordingMetadataJSON(titleInput):
         titleRow = f"Input = {titleInput}; Score = {score}; Title = {title}; Length = {length} minutes; Artist = {artist}"
         #print(titleRow)
     return titleRow
-
-def titleMetadata(utilitiesOptions):
-    title = "Title Metadata"
-    titleList = []
-    sqlquery = "select fixed_title from favorite_song order by adj_weighted_cnt desc limit 10"
-    titles = execDBQuery(sqlquery)
-    for t in titles:
-        titleList.append(getRecordingMetadataJSON(t['fixed_title']))
-    return {"list1":titleList,"list2":[]}
 
 def findHtmlElements(htmlstr,element="p",name="dummy"):
     # Process HTML string with BeautifulSoup
