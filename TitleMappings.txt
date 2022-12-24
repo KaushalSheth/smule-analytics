@@ -661,6 +661,7 @@ Chalte Chalte Yunhi Koi Mil|Chalte Chalte Yunhi Koi Mil
 Chamakte Chaand Ko|Chamakte Chaand Ko
 Chamakte Chaand Ko|Chamakte Chand Ko
 Chanda Chamke|Chanda Chamke Fanaa
+Chanda Dekhe Chanda|Chanda Dekhe Chanda
 Chanda O Chanda|Chanda O Chanda
 Chanda Taare|Chanda Taare Yaadein
 Chandan Sa Badan|Chandan Sa Badan Mukesh
@@ -858,6 +859,7 @@ Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Dekho Maine Maine
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ik Sapna
+Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Yeh
 Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekho Na Dekho Na|Dekho Na
 Dekho Na Dekho Na|Dekho Naa Dekho Naa
@@ -1122,6 +1124,7 @@ Ek Ladki Ko Dekha To Aisa Laga|Ek Ladki Ko Dekha Toh Aisa Laga
 Ek Main Aur Ek Tu|Ek Main Aur Ek Tu
 Ek Main Aur Ek Tu|Ek Mai Aur Ek Tu
 Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Ye Kahani Banegi
+Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Yeh Kahani
 Ek Pardesi Mera Dil Le Gaya|Ek Pardesi Mera Dil Le Gaya
 Ek Pyaar Ka Nagma Hain|[HQ] Ek Pyaar Ka Nagma Hai 💝 Shor 1972 Full
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai
@@ -1146,6 +1149,7 @@ Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
 Ek Shararat|Ek Shararat Hone Ko Hai Duplicate
 Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
+Ek Shararat|Ek Shararat Hone Ko Hai
 Every Breath You Take|Every Breath You Take
 Five Hundred Miles|Five Hundred Miles
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
@@ -1210,6 +1214,7 @@ Gunguna Rahe Hain Bhanwre|Gunguna Rahe
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre Aradhana
+Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hain Bhanvre
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Janab Ka
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Janab Ka Janab Ka Janab Ka
@@ -1283,6 +1288,7 @@ Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Female
 Hoshwalon Ko Khabar Kya|Hoshwalo Ko Khabar
 Hotel California|Hotel California
+Hui Shaam Unka Khayal Aa Gaya|Hui Shaam Unka Khayal Aa Gaya
 Hum Aap Ki Aankhon Mein|Hum Aap Ki Aankhon Mein
 Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun Kaun
@@ -1487,6 +1493,7 @@ Jaane Kaha Gaye Woh Din|Jaane Kahaan Gaye Woin,
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Wo Din
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Woin
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Jaane Wo
+Jaane Kaha Gaye Woh Din|Jaane Kahan Gaye Woin
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar Gaya Ji
@@ -1831,6 +1838,7 @@ Keh Doon Tumhe|Keun Tumhe
 Keh Doon Tumhe|Keoon Tumhedeeʷar
 Keh Doon Tumhe|Keh Doon Tujhe
 Kehna Hai Kehna Hai|Kehna Hai Kehna Hai
+Kehna Hai Kehna Hai|Kehna Hain Dill Vil Pyaar Vyaar
 Kehna Hi Kya|Kehna Hi Kya
 Kehna Hi Kya|Kehna Hi Kya ~ Unwind
 Kehna Hi Kya|Kehna Hi Kya Sanah
@@ -1862,6 +1870,7 @@ Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
 Khoya Khoya Chaand|Newkhoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Chand Khula Aasman
+Khuda Bhi Aasman Se Jab|Khuda Bhi Aasman Se Jab
 Khuda Jaane|Khuda Jaane
 Khuda Jaane|Khuda Jaane Ke
 Khullam Khulla Pyaar|Khullam Khulla Pyaar
@@ -2284,6 +2293,7 @@ Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
 Mohe Rang Do Laal|Mohe Rang Do Laal
+Mujhe Chhu Rahi Hai|Mujhe Chhu
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar Hai Tumse
@@ -2319,6 +2329,7 @@ My Desi Girl|: My Desi Girl
 My Desi Girl|My Desi Girl
 My Desi Girl|Desi Girl
 My Favorite Things|My Favorite Things
+My Heart Is Beating|My Heart Is Beating
 My Heart Will Go On|My Heart Will Go On
 My Heart Will Go On|My Will Go On
 My Heart Will Go On|Titanic
@@ -2624,6 +2635,7 @@ Pyaar Karne Waale|Pyar Karne Wale
 Pyaar Karne Waale|Pyar Karne Waleshaan Se Pyaar Karte
 Pyaar Karne Waale|Pyar Karne Wale Pyar Karte Hai
 Pyaar Ki Dastaan|Pyaar Ki Dastaan
+Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
@@ -2779,6 +2791,7 @@ Ruk Ruk Ruk Arey Baba Ruk|Ruk Ruk Ruk Arey Baba Ruk
 Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
 Rukh Se Zara Naqaab Utha|Rukh Se Zara Naqaab Utha
 Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
+Ruki Ruki Thi Zindagi|~Ruki Ruki Thi Zindagi
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
 Saagar Kinare|Sagar Kinare Dil Ye Pukare
@@ -2813,6 +2826,7 @@ Saans|Saans Mein
 Saans|Saans Mein Teri
 Saans|Saans Mein Teri Pallavi
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
+Saare Shehar Mein|Saare Shehar Mein
 Saat Samundar|Saat Samundarⱽishʷaaa
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
 Saawan Barse Tarse Dil|Saawan Barse Tarse Dil
@@ -3102,6 +3116,7 @@ Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri Bindya Re
 Teri Bindiya Re|H‌Q‌Teri Bindiya Re
+Teri Bindiya Re|Teri Bindiya Re Abhiman 1973
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane
@@ -3273,6 +3288,7 @@ Tujhko Pukare Mera Pyar|Tujko Pukare Mera Pyar
 Tujhko Pukare Mera Pyar|Tujhko Pukare Mera Pyaar
 Tujhko Pukare Mera Pyar|Aaja Tujhko Pukare Mera Pyar
 Tujhko Pukare Mera Pyar|Aaja Tujhko Pukare Mera Pyaar
+Tujhko Pukare Mera Pyar|Tujhko Pukaare Mera Pyaar
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naaraz Nahin Zindagi
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Nahin
 Tujhse Naaraaz Nahi Zindagi|Tujhse Naraaz Nahi Zindagi
@@ -3385,6 +3401,7 @@ Tum Paas Aaye|Tum Paas Aaye Yun Muskuraye
 Tum Paas Aaye|Tum Pass Ae
 Tum Paas Aaye|Tum Pass Aye
 Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
+Tum Paas Aaye|Kuch Kuch Hota Hai Song
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
@@ -3450,6 +3467,7 @@ Ude Jab Jab Zulfein Teri|🌺Ude Jab Jab Zulfein🍁 Teri🍁 (High Quality)
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
 Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
+Unke Khayal Aaye To|Unke Khayal Aaye To Aate Chale Gaye
 Us Mod Se Shuroo Karein|Us Mod Se Shuroo Karen
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
@@ -3719,6 +3737,7 @@ Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Mein
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lu Main
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main Ultra Clean
 Zara Sa Jhoom Loon Main|Zarasa Jhoom Loon Mai
+Zara Sa Jhoom Loon Main|Zara Sa Jhoom
 Zara Saamne To Aao Chhaliye|Zara Saamne To Aao Chhaliye
 Zara Zara Bahekta Hai|Zara Behekta Hai
 Zara Zara Bahekta Hai|Zara Zara
