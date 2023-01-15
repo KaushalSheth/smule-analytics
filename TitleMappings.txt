@@ -15,6 +15,7 @@ Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Aa Chal Ke Tujhe
 Aa Chal Ke Tujhe|Aa Chalke Tujhe
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaloon
+Aa Chal Ke Tujhe|Aa Chal Kay Tujhe
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -148,6 +149,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Kya Gulam
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keh
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
+Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
 Aansu Bhari Hai|Aansu Bhari Hai Ye Jivan Ki Raahen
 Aao Huzur Tum Ko|Aao Huzur Tum Ko : , By M D Tyagi
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
@@ -642,6 +644,7 @@ Chali Chali Re Patang|Chali Chali Re Patang
 Chali Chali Re Patang|Chali Chali Re Patang Meri Chali Re
 Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
+Chalo Chale Mitwa|चलो चलें मितवा इन ऊँची नीची राहों में
 Chalo Dildar Chalo|Chalo Dildar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
@@ -1312,6 +1315,7 @@ Hum Tum Ek Kamrey Mein Band Ho|Humtum Ek Kamrey Mein
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamreme Bobbycompact
 Hum Tumhare Hai Sanam|Hum Tumhare Hai Sanam
 Hum Tumhare Hai Sanam|Hum Tumhare Hain Sanam
+Hum Tumhare Hai Sanam|Hum Tumhare Hain Song
 Hum Tumse Na Kuch Keh Paaye|Hum Tumse Na Kuch Keh Paye
 Hum Tumse Na Kuch Keh Paaye|Hum Tumse Na Kuch
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
@@ -1796,6 +1800,7 @@ Kamli Kamli|Kamli Kamli Dhoom 3 Karaok
 Kanha Maane Na|Kanha Maane Na
 Kanha Maane Na|Kanha Mane Na
 Kanha Maane Na|Kanha
+Kannai Kalaimane|Kannai Kalaimane
 Karvatein Badalte|Karvatein Badalte
 Karvatein Badalte|Karvatein Badalte Rahein
 Karvatein Badalte|Karvate Badalte Rahe Karwate
@@ -2247,6 +2252,7 @@ Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Me
 Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Mein
 Mere Samne Wali Khidki Mein|मेरे सामने वाली खिड़की में एक चाँद का
 Mere Sapno Ki Rani|Mere Sapno Ki Rani
+Mere Sapno Ki Rani|Mere Sapnon
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
@@ -2591,6 +2597,7 @@ Piyu Bole|Piyu Bole
 Piyu Bole|Piyu Bole Piya Bole
 Piyu Bole|Piyubole
 Piyu Bole|Piyu Bole Piya Bole Parineeta
+Piyu Bole|Piyu Bole Piya Bolepiyubole
 Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Hua
 Puchho Na Yaar Kya Hua|Pucho Na Yaar Kya Hua
 Puchho Zara Puchho|Pucho Zara Pucho
@@ -2778,6 +2785,7 @@ Roz Roz Aankhon Tale|Roz Roz Aankhon Unwind
 Roz Roz Aankhon Tale|Roz Roz Ankhon Tale ꜱ
 Roz Roz Aankhon Tale|Roz Roz Ankhon Talejeeva
 Roz Roz Aankhon Tale|Roz
+Roz Roz Aankhon Tale|Roz Roz Aankhon
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
@@ -3386,6 +3394,7 @@ Tum Mile Dil Khile|Tum Mile Dil Khile Criminal
 Tum Mile Dil Khile|Tum Mile Dil Khile Khile Khile Khile Khile Khile Khile Khile Khile Criminal
 Tum Mile Dil Khile|Tum Miledil Khile
 Tum Mile Dil Khile|Tu Mile Dil Khile Tum Mile Dil
+Tum Mile Dil Khile|U Mile Dil Klile
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Mujhe Yun|Tum Mujhe Yun
 Tum Mujhe Yun|Tum Mujhe Yu Bhula Na Paoge
@@ -3410,6 +3419,7 @@ Tum Se Hi|Tum Se Hi
 Tum Se Hi|Tum Se Hi Jab We Met
 Tum Se Hi|Tum Se Hi Female
 Tum Toh Pyaar Ho Sajna|Tum Toh Pyaar Ho Sajna
+Tumhari Nazron Mein Hum Ne Dekha|Tumhari Nazron Mein Hum Ne Dekha
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki Kasam
@@ -3603,10 +3613,12 @@ Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Jeevan Hai|Yeh Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
 Yeh Jeevan Hai|ये जीवन है
+Yeh Jeevan Hai|Ye Jeevan Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat
+Yeh Jo Mohabbat Hai|Ye Jo Mohabbat
 Yeh Kaali Kaali Aankhen|Ye Kaali Kaali Aankhen
 Yeh Kaali Kaali Aankhen|Ye Kaali Kaali Ankhen
 Yeh Kaali Kaali Aankhen|Ye Kali Kali Ankhein
@@ -3709,6 +3721,7 @@ Yeh Shaam Mastaani|Yesham Mastani Ye Sham
 Yeh Shaam Mastaani|Ye Sham Mastani
 Yeh Shaam Mastaani|Ye Shaam Mastani
 Yeh Shaam Mastaani|Ye Shaam Mastani Yeh Shaam Mastani
+Yeh Shaam Mastaani|Ye Shaam Mastaani Yeh Sham Mastani
 Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
