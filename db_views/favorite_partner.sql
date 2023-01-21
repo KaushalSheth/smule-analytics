@@ -53,7 +53,7 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         p.first_performance_time,
         s.pic_url as display_pic_url,
         coalesce(sf.is_following,false) as is_following,
-        extract(day from p.first_join_time - p.first_performance_time) days_till_first_join,
+        coalesce(extract(day from p.first_join_time - p.first_performance_time),-1) days_till_first_join,
         p.first_join_time, p.last_join_time, p.avg_rating_nbr,
         round(case
             when p.performance_cnt <= 5 then p.avg_rating_nbr - 1 -- Not enough performances to get accurate rating, so subtract 1
@@ -70,7 +70,7 @@ from 	perf_stats p
 UNION ALL
 select  account_id as partner_account_id, handle as partner_name,
         0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
-        pic_url, is_following, null, null, null, 0.0, 0.0, 0, 0, 0, '', 0
+        pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0
 from    singer_following
 where   is_following and is_vip
 and     handle not in (select performers from my_performances)

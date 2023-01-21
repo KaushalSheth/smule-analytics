@@ -16,6 +16,7 @@ Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Aa Chal Ke Tujhe
 Aa Chal Ke Tujhe|Aa Chalke Tujhe
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaloon
 Aa Chal Ke Tujhe|Aa Chal Kay Tujhe
+Aa Chal Ke Tujhe|ᴀᴀ Chᴀʟ ᴋe Tᴜᴢhe ᴍᴀɪ ʟeᴋe Chᴀʟᴜ
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -501,6 +502,7 @@ Bade Acchhe Lagate Hain|Bade Achhe Lagte Hai
 Bade Acchhe Lagate Hain|Bade Achhe Lagte Hain Serial Title Song
 Bade Acchhe Lagate Hain|Bade Achche Lagte Hain
 Bade Acchhe Lagate Hain|Bade Achche Lagte Hai
+Bade Acchhe Lagate Hain|Bade Achay Lagtay Hai
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
@@ -647,6 +649,7 @@ Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
 Chalo Chale Mitwa|चलो चलें मितवा इन ऊँची नीची राहों में
 Chalo Dildar Chalo|Chalo Dildar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
+Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
@@ -856,6 +859,7 @@ Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekhne Walon Ne|Dekhne Walon Ne Dekh Ne Walon Ne
+Dekhne Walon Ne|Dekhne Walo Ne C4
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
 Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
@@ -971,6 +975,7 @@ Dil Ki Nazar Se|Srdil Ki Nazar Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Nazron Ki Dil Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
+Dil Ki Yeh Aarzoo Thi|Dil Ki Ye Aarzoo Thi Koi Dilruba Mile
 Dil Ko Karaar Aaya|Dil Ko Karaar Aaya
 Dil Ko Karaar Aaya|Dil Ko Karaar
 Dil Kya Kare|Dil Kya Kare
@@ -1049,6 +1054,7 @@ Do Dil Mil Rahe Hai|Do Dil Mil Reha Hain
 Do Dil Mil Rahe Hai|Do Dilmil Rahehai
 Do Dil Mil Rahe Hai|Dodilmilrahe Hain
 Do Dil Mil Rahe Hai|~ Do Dil Mil Rahe Hai Hindi
+Do Dil Mil Rahe Hai|Digital Dodil Mil Rahe Hai
 Do Lafzon Ki Hai|Do Lafzon Ki Hai
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Asha Bhosle
 Do Lafzon Ki Hai|Do Lafzonki Hai Asha Bholse
@@ -1375,6 +1381,7 @@ Humne Tumko Dekha|)Humne Tumko Dekha
 Humsafar Mere Humsafar|Humsafar Mere Humsafar
 Husn Hai Suhaana|Husn Hai Suhaana
 Husn Hai Suhaana|Husn Hai Suhana
+Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahi Gharana
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
 I Can't Help Falling In Love|I Can't Help Falling In Love
@@ -1660,6 +1667,7 @@ Jis Gali Mein Tera Ghar|Jis Gali Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Galli Me Tera Ghar
 Jis Gali Mein Tera Ghar|Jis Gali Mein
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Na Ho Baalma
+Jiska Mujhe Tha Intezaar|Jiska Mujhe Tha Intezaar
 Jitni Dafa|Jitni Dafa Dafa
 Jitni Dafa|Jitni Dafa Dekhu Tumhe
 Jitni Dafa|°Jitni Dafa°
@@ -1714,6 +1722,7 @@ Kabhi Kabhi|Kabhi Mere Dil Mein
 Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
 Kabhi Kabhi|Kabhi ² Mere Dil Mein
 Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein With Poem
+Kabhi Kabhi|Kabhikabhi Mere Dil
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
@@ -2141,6 +2150,7 @@ Maine Kasam Li|Hey Maine Kasam Li
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai Ed
+Maine Payal Hai Chhankai|Maine Payal Hai
 Maine Poochha Chand Se|Maine Poocha Chand Se
 Maine Poochha Chand Se|Maine Poochha Chand Se
 Maine Poochha Chand Se|Maine Pucha Chand Se
@@ -2971,6 +2981,7 @@ Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
 Suniye Kahiye|Suniye Kahiye 1979
 Suniye Kahiye|Suniye Kahiye , Baton Baton Mein
+Suniye Kahiye|~ Suniye Kahiye 1979
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
@@ -3512,6 +3523,7 @@ Woh Hai Zara Khafa Khafa|Woh Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara
+Woh Hai Zara Khafa Khafa|Wo Hai Zara 1967 Md Ji
 Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
@@ -3533,6 +3545,7 @@ Yaad Kiya Dil Ne|(SHORT) Yaad Kiya Dil Ne (duet) hindi song
 Yaad Kiya Dil Ne|Newyaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
+Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
 Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
@@ -3653,6 +3666,7 @@ Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jaadu Hai Mitwa
 Yeh Mausam Ka Jaadu|Ye Mousam Ka Jadoo Hai Mitwa
 Yeh Mausam Ka Jaadu|H‌Q‌ Ye Mousam Ka Jaadu
 Yeh Mausam Ka Jaadu|Yeh Mausam Ka Jadu Hai Mitwa
+Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadu Hai Mitwa
 Yeh Mausam Rangeen Samaa|Ye Mausam Rangeen Sama
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
