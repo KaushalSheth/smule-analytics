@@ -31,6 +31,7 @@ Aadha Hai Chandrama|Adha Hai Chandrama
 Aadmi Musafir Hai|Aadmi Musafir Hai
 Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Tu Shalzz865
+Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Turegerated
 Aaiye Meherbaan|Aaiye Meharbaan
 Aaiye Meherbaan|Aaiye Meherbaan
 Aaiye Meherbaan|Aaiye Meherbaan Baithiye
@@ -209,6 +210,7 @@ Aawaara Bhanware|Aawara Bhawre
 Aawaara Bhanware|Awaara Bhanwara
 Aawaara Bhanware|Awaara Bhanware
 Aawaara Bhanware|Awara Bhawre Sapnay
+Aawaara Bhanware|Awara Bhavre आवारा भँवर
 Aawaara Hoon|Awaara Hoon
 Aawaara Hoon|Awara Hoon
 Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Hame Tum Song
@@ -529,6 +531,7 @@ Bahut Pyaar Karte Hai|Bohat Pyaar Karte Hai Unpluged
 Bairi Piya|Bairi Piya
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
+Balam Pichkari|Balam Pichkari With Vocals
 Bechara Dil Kya Kare|Bechara Dil Kya Kare
 Bedardi Baalma Tujhko|Bedardi Baalma Tujhko
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
@@ -676,6 +679,7 @@ Chandi Jaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|Chandijaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|𝐇𝐃 Chandi Jaisa Rang Hai Tera
 Chandni Raat Hai|Chandni Raat Hai
+Chandni Raat Hai|Chandni Raat Hai Tu Mere Saath Hai
 Chandni Raat Mein Ek Baar|Chandani Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
@@ -1025,6 +1029,7 @@ Dil To Baccha Hai Ji|Shaddil To Bacha Hai Ji
 Dil To Baccha Hai Ji|Dil Toh Baccha Hai Ji
 Dil To Hai Dil|Dil To Hai Dil Mangeshkar
 Dil To Hai Dil|To Haidil To Hai
+Dil To Hai Dil|Dil To Hai Dil Kahan
 Dil To Pagal Hai|Dil To Pagal Hai
 Dil To Pagal Hai|Dil To Pagal Hai Dil To Hai
 Dil To Pagal Hai|Dil To Pagal He
@@ -1038,6 +1043,7 @@ Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
+Din Dhal Jaaye Haaye|Din Dhal Jaye
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
@@ -1400,6 +1406,7 @@ Intehaan Ho Gayi|Intehanho Gayi
 Intehaan Ho Gayi|Inteha Ho Gayi Intezaar Ki
 Intehaan Ho Gayi|Inteha Ho Gayi Intezar Ki
 Intehaan Ho Gayi|Intehaan Hogayi Intezaar Ki
+Intehaan Ho Gayi|Inteha Ho Gayi Intejar Ki
 Ironic|Ironic
 Is Kadar Pyaar Hai Tumse|Is Kadar Pyar Hai Tumse Ae
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
@@ -1979,6 +1986,7 @@ Kya Yahi Pyaar Hai|Kya Yahi Pyar Hai
 Kya Yahi Pyaar Hai|Kya Yehi Pyaar Hai
 Kya Yahi Pyaar Hai|Kya Yehi Pyar Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyar Hai Song Rocky
+Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hain
 Kyun Hai Inkaar|Kyun Hai Inkaar
 Kyun Main Jaagoon|Kyun Main Jaagoon
 Kyun Main Jaagoon|Kyon Main Jagoon
@@ -2154,6 +2162,7 @@ Maine Payal Hai Chhankai|Maine Payal Hai
 Maine Poochha Chand Se|Maine Poocha Chand Se
 Maine Poochha Chand Se|Maine Poochha Chand Se
 Maine Poochha Chand Se|Maine Pucha Chand Se
+Maine Poochha Chand Se|Maine Poocha Chaand Se Abdullah
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
 Maine Tere Liye|Maine Tere Liye Hi
@@ -2197,6 +2206,7 @@ Mera Dil Ye Pukare|Dil Yeh Pukaare Ajaa
 Mera Dil Ye Pukare|Mera Dil Ye Pukare Heartlock Mix
 Mera Dil Ye Pukare|Mera Dil Ye Pukare Aaja
 Mera Dil Ye Pukare|H𝐐 Mera Dil Ye Pukare Aaja
+Mera Dil Ye Pukare|Viralmera Dil Yeh Pukare Aaja
 Mera Jeevan Kora Kaagaz|Mera Jeevan Kora Kagaz
 Mera Joota Hai Japani|Mera Joota Hai Japani
 Mera Joota Hai Japani|Mera Joota Hai Jaapani
@@ -2305,6 +2315,7 @@ Moh Moh Ke Dhaage|Mohmoh Kedhaage Female
 Moh Moh Ke Dhaage|Ye Moh Moh Ke
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhage Dhaage
 Moh Moh Ke Dhaage|Ye Moh Moh Ke Dhage
+Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Mtv
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
@@ -2418,6 +2429,7 @@ Nazar Ke Saamne|Nazar Ke Saamne Jigar Ke Paas
 Nazar Ke Saamne|Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Samnenazar Ke
 Nazar Ke Saamne|Nazar Ke Samne Aashiqui
+Nazar Ke Saamne|~ Nazar Ke Samne Aashiqui
 Nazm Nazm|Nazm Nazm
 Nazm Nazm|Nazm Nazm Mere
 Nazm Nazm|Nazm Nazm Mere Sa Mere Sa
@@ -2499,6 +2511,7 @@ O Saathi Re|O Saathi Re Tere Bina Bhi Kya
 O Sanam Tere Ho Gaye Hum|O Sanam Tere Ho Gaye Hum
 Odh Li Chunariya|Odh Ii Chunariya
 Odh Li Chunariya|Odh Li Chunariya
+Old Songs Medley|Old Songs Medley
 Only Time|Only Time
 Open Mic|Open Mic 2 Min
 Open Mic|Open Mic
@@ -2672,6 +2685,7 @@ Pyaar Manga Hai Tumhi Se|Pyar Manga Hai
 Pyaar Mein Hota Hai Kya Jaadu|Pyaar Mein Hota Hai Kya Jaadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jaadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jadu
+Pyaar Mein Hota Hai Kya Jaadu|Pyar Me Hota Hai Kya Jadu
 Pyaar Mujhse Jo Kiya Tumne|Pyar Mujhse Jo Kiya Tumne
 Pyaar Nahin Karna|Pyar Nahi Karna Kachche Dhaage
 Pyaar Nahin Karna|Pyaar Nahin Karna
@@ -2682,6 +2696,7 @@ Qaafirana|Qaafirana Kedarnath
 Qaafirana|Qafirana
 Qaafirana|Qaafirana Chillout Mix
 Qaafirana|Qaafirana Rip Sushantsinghrajput
+Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat Ho Gayi
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
@@ -2944,6 +2959,7 @@ Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar
 Sochenge Tumhe Pyaar|Sochegetumhe Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochege Tumhe Pyar Kre Ke Nhi
+Sochenge Tumhe Pyaar|Sochenge Tumhe Pyaar Karein Ke Nahi
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Soldier Soldier|Reff Soldier Soldier Meethi Baaten
