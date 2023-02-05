@@ -21,7 +21,7 @@ def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, performance_last_5_days_cnt as recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str from favorite_partner")
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
     return rsPartnerInfo
 
@@ -32,6 +32,23 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     try: rsPartnerInfo
     except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
+
+# Populate the global rsPartnerInfo variable by querying the database
+def fetchLastInvite():
+    global rsLastInvite
+    # Get partner info to be used later
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch lastInvite")
+    rsLastInvite = execDBQuery("select fixed_title as invite_title, 'https://www.smule.com/c/'||key as invite_url from my_performances where invite_ind = 1 order by created_at desc limit 1")
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    return rsLastInvite
+
+# Return the specified attribute from rsLastInvite
+def getLastInvite(columnName):
+    global rsLastInvite
+    # If rsLastInvite is not defined, then populate it
+    try: rsLastInvite
+    except NameError: fetchLastInvite()
+    return rsLastInvite[0][columnName]
 
 def fetchGeoCache():
     global rsGeoCache
@@ -424,6 +441,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
+        lastInviteTitle = getLastInvite('invite_title')
+        lastInviteUrl = getLastInvite('invite_url')
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
@@ -434,10 +453,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 joinMessage = ""
             else:
                 if joinCount == 0:
-                    joinMessage = " Please do join some of my invites too - check my Favorites list for all invites"
+                    #joinMessage = f" Please join me on {lastInviteTitle} - {lastInviteUrl}"
+                    joinMessage = f" Please join my invites too - check my Favorites list for all invites"
                 elif recentJoinCount == 0:
                     #joinMessage = ""
-                    joinMessage = " Please join some of my invites again - check my Favorites list for all invites"
+                    #joinMessage = f" Please join me on {lastInviteTitle} - {lastInviteUrl}"
+                    joinMessage = f" Please join my invites again - check my Favorites list for all invites"
                 else:
                     joinMessage = ""
                     #joinMessage = " Looking forward to more joins from you as well"

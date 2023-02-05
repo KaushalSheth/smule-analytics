@@ -18,6 +18,8 @@ perf_stats as (
             count(*) as performance_cnt,
             sum(join_ind) as join_cnt,
             sum(favorite_ind) as favorite_cnt,
+            -- For recent performances, don't count performances in the last 12 hours
+            sum(case when days_since_performance between 0.5 and 5 then 1 else 0 end) as recent_perf_cnt,
             sum(case when days_since_performance between 0 and 5 then 1 else 0 end) as performance_last_5_days_cnt,
             sum(case when days_since_performance between 0 and 14 then 1 else 0 end) as performance_last_14_days_cnt,
             sum(case when days_since_performance between 0 and 14 then join_ind else 0 end) as join_last_14_days_cnt,
@@ -34,7 +36,7 @@ perf_stats as (
     from 	perf
     group by 1, 2, 3
 )
-select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.favorite_cnt,
+select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.favorite_cnt, p.recent_perf_cnt,
         p.performance_last_14_days_cnt, p.join_last_14_days_cnt, p.join_last_30_days_cnt, p.always_include_ind,
         least(10.0,1.0*p.performance_cnt/10) +
             least(10.0,1.0*p.join_cnt/2) +
@@ -69,9 +71,9 @@ from 	perf_stats p
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
 select  account_id as partner_account_id, handle as partner_name,
-        0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
+        0, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
         pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0
 from    singer_following
 where   is_following and is_vip
-and     handle not in (select performers from my_performances)
+and     account_id not in (select owner_account_id from my_performances)
 ;
