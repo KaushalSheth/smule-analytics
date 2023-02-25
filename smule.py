@@ -16,13 +16,16 @@ DATEFORMAT = '%Y-%m-%dT%H:%M'
 CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
 MYSELF = 'KaushalSheth1'
 
+def printTs(message):
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message)
+
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch partnerInfo")
+    printTs("Fetch partnerInfo")
     rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str from favorite_partner")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    printTs("Done fetching")
     return rsPartnerInfo
 
 # Return the specified attribute from rsPartnerInfo
@@ -37,9 +40,9 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
 def fetchLastInvite():
     global rsLastInvite
     # Get partner info to be used later
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch lastInvite")
+    printTs("Fetch lastInvite")
     rsLastInvite = execDBQuery("select fixed_title as invite_title, 'https://www.smule.com/c/'||key as invite_url from my_performances where invite_ind = 1 order by created_at desc limit 1")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    printTs("Done fetching")
     return rsLastInvite
 
 # Return the specified attribute from rsLastInvite
@@ -53,9 +56,9 @@ def getLastInvite(columnName):
 def fetchGeoCache():
     global rsGeoCache
     # Get geo cache info to be used later
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch GeoCache")
+    printTs("Fetch GeoCache")
     rsGeoCache = execDBQuery("select lat, lon, city, country from geo_cache")
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    printTs("Done fetching")
     return rsGeoCache
 
 def getGeoCache():
@@ -68,9 +71,9 @@ def getGeoCache():
 def fetchGroupHandles():
     global rsGroupHandles
     # Get group handles info to be used later
-    #print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Fetch rsGroupHandles")
+    #printTs("Fetch rsGroupHandles")
     rsGroupHandles = execDBQuery("select item_name from smule_list where list_type = 'GROUP_HANDLE'")
-    #print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " done fetching")
+    #printTs("done fetching")
     return rsGroupHandles
 
 def getGroupHandles():
@@ -95,19 +98,20 @@ def getJSON(username,type="recording",offset=0,version="legacy"):
             data = json.loads(url.read())
     except:
         # Ignore any errors
-        print("Error fetching JSON")
+        printTs("Error fetching JSON")
         pass
     return data
 
 # Get list of people the user is following
 def fetchUserFollowing(username):
+    printTs("Process userFollowing")
     following = []
     # The URL for getting followees requires accountID, so look it up from singer table. If username not found, set accountID to 0
     try:
         accountID = execDBQuery(f"select account_id from singer where performed_by = '{username}'")[0]['account_id']
     except:
         accountID = 0
-    #print(f"AccountID = {accountID}")
+    #printTs(f"AccountID = {accountID}")
     nextOffset = 0
     while nextOffset >= 0:
         j = getJSON(accountID,type="following",offset=nextOffset,version="api")
@@ -116,15 +120,18 @@ def fetchUserFollowing(username):
         for f in l:
             following.append(f)
         nextOffset = j['next_offset']
-    l = len(following)
-    #print(f"length = {l}, last = {following[l-1]}")
+        tot = len(following)
+        if tot % 250 == 0:
+            printTs(f"{tot} users processed")
+    printTs(f"Done processing {tot} users")
     return following
 
 # Save list of people user is following
 def saveSingerFollowing(username):
     sf = fetchUserFollowing(username)
-    #print(sf[:10])
+    printTs("Save userFollowing")
     return saveDBSingerFollowing(sf)
+    printTs("Done saving")
 
 def fetchDBUserFollowing():
     rs = execDBQuery("select account_id from singer_following where is_following")
@@ -272,7 +279,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
     maxdate = currTime.strftime(DATEFORMAT)
     sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
     invites = execDBQuery(sqlquery)
-    print(f"Start {mindate}")
+    printTs(f"Start {mindate}")
     titleMappings = fetchFileTitleMappings('TitleMappings.txt')
     for i in invites:
         web_url = i['web_url']
@@ -302,7 +309,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
             ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings)
             performances.extend(ensembleList)
             res = execDBQuery(f"update performance set child_count = {collabCount}, updated_at = current_timestamp where key = '{perfKey}'")
-            print("Done")
+            printTs("Done")
 
     return performances
 
@@ -510,7 +517,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     orig_track_country = gdb['country']
                 # If not, use geocoder to look it up and also to store it in cache
                 else:
-                    print(f"geocoder lookup {owner_lat}, {owner_lon}")
+                    printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
                     g = geocoder.osm([owner_lat,owner_lon], method='reverse')
                     gjson = g.json
                     gkeys = gjson.keys()
@@ -649,7 +656,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
         maxdate = currTime.strftime(DATEFORMAT)
 
         partnerSort = stopScore
-        print(f"# Partners = {len(partners)}")
+        printTs(f"# Partners = {len(partners)}")
         partnerHandle = ""
         # Loop through the partner list and process it
         for ptr in partners:
@@ -667,7 +674,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
             # If the conditions are not met, skip this partner and process next one
             if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
-                print(f"--- NOT FOLLOWING {partnerHandle}")
+                printTs(f"--- NOT FOLLOWING {partnerHandle}")
                 continue
             # Fetch all invites for the partner
             # Note that next(iter(dict.values())) will return the first column of the query - the assumption is that the first column contains the partner name
@@ -744,7 +751,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             # If the number of performances changes, then update the variable and print out a message indicating how many performances were added
             if (numPerf != len(performanceList)):
                 numPerf = len(performanceList)
-                print(f"-- {i}: {numPerf} after {partnerHandle} - {knownCount + unknownCount} / {len(partnerInvites)} ({partnerSort})")
+                printTs(f"-- {i}: {numPerf} after {partnerHandle} - {knownCount + unknownCount} / {len(partnerInvites)} ({partnerSort})")
             # As soon as we exceed the number of rows specified, break out of the loop
             if (numPerf >= numrows):
                 break
@@ -773,7 +780,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Fetch list of parnter/title combinations already performed so that we can exclude them from the final list of invites
     # Limit to only last 18 months - if performance older than that, it is ok to repeat
     titleList = []
-    print(f"{datetime.now().strftime('%H:%M:%S')} Querying performedList")
+    printTs(f"{datetime.now().strftime('%H:%M:%S')} Querying performedList")
     performedSQL = "select performers || '|' || fixed_title as performed, fixed_title, to_char(max(created_at),'YYYY-MM-DD') as last_time from my_performances where created_at > current_timestamp - interval '18 months' group by 1,2"
     # Debugging SQL below - comment out above line and uncomment below line for debugging
     #performedSQL = "select 'a|b' as performed, 'b' as fixed_title, '2020-01-01' as last_time"
@@ -785,7 +792,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
             titleList.append(t)
 
     # Get list of titles performed this month
-    print(f"{datetime.now().strftime('%H:%M:%S')} Querying currMonthTitles")
+    printTs(f"{datetime.now().strftime('%H:%M:%S')} Querying currMonthTitles")
     currTitlesSQL = "select distinct fixed_title from my_performances where to_char(created_at,'YYYYMM') = to_char(current_timestamp,'YYYYMM')"
     # Debugging SQL below - uncomment it to override above SQL
     #currTitlesSQL = "select 'x' as fixed_title"
@@ -800,10 +807,10 @@ def fetchPartnerInvites(inviteOptions,numrows):
     # Fetch the list of partners by executing the partnersql query.  Create reversed list as well to support some of the choices
     # Debugging SQL below - uncomment it to override above SQL
     #partnersql = "select performed_by as partner_name, account_id as partner_account_id, 9999 as recency_score, 0 as join_cnt, pic_url as display_pic_url, 0 as recent_join_cnt from singer where performed_by ilike 'OfficiallyDiva'"
-    print(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
+    printTs(f"{datetime.now().strftime('%H:%M:%S')} Querying partners")
     partnersTop = execDBQuery(partnersql)
 
-    print(f"{datetime.now().strftime('%H:%M:%S')} Processing partners")
+    printTs(f"{datetime.now().strftime('%H:%M:%S')} Processing partners")
     partnersBottom = partnersTop[::-1]
     # Set the Max rows for Top list
     if partnerchoice.startswith("split"):
@@ -816,7 +823,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
         # If bad split choice is sent in, do a random split
         else:
             splitPoint = random.randint(0,len(partnersTop))
-        print(f"SplitPoint = {splitPoint} / {len(partnersTop)}")
+        printTs(f"SplitPoint = {splitPoint} / {len(partnersTop)}")
         # Construct one list from middle to bottom (mb) and one reversed list from middle to top (mt)
         mb = partnersTop[splitPoint:]
         mt = partnersTop[splitPoint-1::-1]
@@ -867,7 +874,9 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         mindate += "T00:00"
     else:
         mindate = mindate.replace(" ","T")
-    ensembleMinDate = (datetime.strptime(mindate,DATEFORMAT) - timedelta(7)).strftime(DATEFORMAT)
+    # No longer need to look back 7 days for ensembles since joins are returned as part of original performances
+    #ensembleMinDate = (datetime.strptime(mindate,DATEFORMAT) - timedelta(7)).strftime(DATEFORMAT)
+    ensembleMinDate = mindate
     # We use i to keep track of how many performances we have fetched so far, and break out of the loop when we reach the maxperf desired
     i = 0
     # Iinitialize all other variables used in the method
@@ -911,7 +920,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
             next_offset = performances['next_offset']
     # If type is "recording", append invites as well
     if type == "recording":
-        print("Appending invites")
+        printTs("Appending invites")
         performances = getJSON(username,"active_seed",0,"search")
         #print(performances)
         if performances != None:
