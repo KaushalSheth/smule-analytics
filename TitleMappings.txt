@@ -64,6 +64,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aajkalteremerepyarkecharche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aaj Kal Tere
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aajkal Tere
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere Jaye Re
@@ -375,6 +376,7 @@ Aisa Lagta Hai|Aisa Lagta Hai Refugee
 Aise Kyun|Aise Kyun
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
+Aise Na Mujhe Tum|Aise Na Mujhe
 Aisi Deewanagi|Aisi Deewanagi
 Aisi Deewanagi|Aisi Deewangi
 Aisi Deewanagi|Aisi Deewangi Aisi
@@ -652,6 +654,7 @@ Chaand Taare Tod Laun|Chand Taare Tod Laun
 Chaand Taare Tod Laun|Chand Tare Tod Laun
 Chaand Taare Tod Laun|Chand Tare
 Chaand Taare Tod Laun|Bas Itna Sa Khwaab Hai
+Chaand Taare Tod Laun|Chand Tare Tod Laun Srk Special
 Chain Se Humko Kabhi|Chain Se Hamko Kabhi
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
@@ -875,6 +878,7 @@ Dekha Hazaro Dafaa|Dekha Hazaro Dafaa
 Dekha Hazaro Dafaa|Dekha Hazaron Dafa
 Dekha Jo Tumko|Dekha Jo Tumko
 Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
+Dekha Na Haaye Re|Dekha Na Haye Re Socha Na Haye Re
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekhne Walon Ne|Dekhne Walon Ne Dekh Ne Walon Ne
@@ -1306,6 +1310,7 @@ Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
 Hazaar Raahein|Hazaar Raahe Mud Ke Dekhi
 Hazaar Raahein|Hazaar Raahen Mud Ke Dekhi
+Hazaar Raahein|Hazar Rahein Nengfirna
 Hello|Hello
 Hey Naam Re|Hey Naam Re
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
@@ -1948,6 +1953,7 @@ Kisi Ki Muskarahaton|Kisiki Muskurahaton Pe
 Kisi Ki Muskarahaton|Kisi Ki Muskurahato Pe Ho Nisaar
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Kisi Mod Par
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Rah Kisi Mod Par
+Kisi Raah Mein Kisi Mod Par|Kisi Raah Me Kisee Mod Par Kahin Chal
 Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
 Kiska Rasta Dekhe|Kiska Rasta Dekhe
 Kismat Se Tum|Kismat Se Tum Pukar
@@ -2948,6 +2954,7 @@ Sar Pe Topi Laal|Sar Pe Topi
 Sar Pe Topi Laal|Sar Pe Topi Sar Par Topi
 Sar Pe Topi Laal|Sar Pe Topi Lal Haath Mein
 Sar Se Sarke Chunariya|Sar Se Sarke Chunariya
+Sar Se Sarke Chunariya|Sar Se Sarke
 Saree Ke Fall Sa|Saari Ke Fall Sa
 Saree Ke Fall Sa|Saree Ke Fall Sa
 Saree Ke Fall Sa|Sari Ke Fal Sa
