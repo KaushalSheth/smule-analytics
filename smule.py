@@ -83,6 +83,10 @@ def getGroupHandles():
     except NameError: fetchGroupHandles()
     return rsGroupHandles
 
+# Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
+# Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
+# Playlist content next set: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=1:1258506160_4326482333
+
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
 def getJSON(username,type="recording",offset=0,version="legacy"):
     data = None

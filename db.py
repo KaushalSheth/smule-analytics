@@ -471,13 +471,15 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     elif analyticstitle == 'Invite':
         headings = [\
-            'Song Name', 'Total Score', 'Invite Score', 'Favorite Score', 'Popularity Score', 'First Performance Score', \
-            'Last Performance Score', '# Performances', '# Partners', '# Invites', '# Joins', 'First Performance', 'Last Performance'\
+            'Song Name', 'Total Score', 'Invite Score', 'Favorite Score', 'Popularity Score', 'First Performance Score', 'Last Performance Score', \
+            '# Performances', '# Partners', '# Invites', '# Joins', 'Join Ratio', 'First Performance', 'Last Performance', 'Last Invite'\
             ]
         sqlquery = f"""
             select  fixed_title as title_search, total_score, invite_recency_score, favorite_score_nbr, popularity_score,
                     first_performance_score, performance_recency_score, num_all_performances, num_partners, num_invites,
-                    num_joins, first_performance_time, last_performance_time
+                    num_joins,
+                    round(case when num_invites > 0 then num_joins*1.0/num_invites else 0 end,2) as join_ratio,
+                    first_performance_time, last_performance_time, last_invite_time
             from    my_invite_analysis
             where   fixed_title not in (select item_name from smule_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
             """
