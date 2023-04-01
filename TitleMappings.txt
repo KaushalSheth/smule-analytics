@@ -137,6 +137,7 @@ Aankhon Ki Gustakhiyan|160 Aankhon Ki Gustakhiyan
 Aankhon Ki Gustakhiyan|Aankhon Ki Gustakhiyan Song
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum Tum
+Aankhon Mein Kaajal Hai|Aankhon Mein Kajal Hai
 Aankhon Mein Kya Ji|Aankho Me Kya Ji Rupehla Badal
 Aankhon Mein Kya Ji|Ankhon Mei Kya Ji
 Aankhon Mein Kya Ji|Ankhon Mein Kya Ji
@@ -339,6 +340,7 @@ Ae Mere Humsafar|𝔖𝐡𝐨𝐫𝐭 Aye Mere Humsafar
 Ae Mere Humsafar|Aye Mere Humsafar Aye Mere
 Ae Mere Humsafar|Aye Mere Hamsafar
 Ae Mere Humsafar|Ae Mere Humsafar Aye Meri Jaaneja
+Ae Mere Humsafar|Ae Mere Humsafar Aye Mere Humsafar
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
 Ae Meri Zohra Jabeen|Ae Mere Zohra
@@ -727,6 +729,7 @@ Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Waali Unwind Mix
 Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Wali
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
+Chhabeela|Chhabeela Sawariyan
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
@@ -813,6 +816,7 @@ Chori Chori Sapno Mein|Chori Chori Sapno Mein
 Chori Chori Sapno Mein|Chori Chori Sapnon Mein Aata Koi
 Chori Chori Sapno Mein|Chorichorijaв ɴazreιɴ Мιlι
 Chori Kiya Re Jiya|Chori Kiya Re Jiya
+Chori Kiya Re Jiya|Chori Kiya Re Dabangg
 Chupke Chupke Raat Din|Chupke Chupke Raat Din
 Chupke Se Koi Aayega|Chupke Se Koi Aayega
 Chupke Se Koi Aayega|¹ Chupke Se Koi Aayega 1
@@ -1146,6 +1150,7 @@ Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo
 Edelweiss|Edelweiss
+Ehsaan Mere Dil Pe|Ehsaan Mere Dil Pe Tumhara Hai
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Hoga
 Ehsaan Tera Hoga Mujh Par|Ehsaan Tera Hoga Mujh Par
@@ -1337,6 +1342,7 @@ Hazaar Raahein|Hazaar Raahein
 Hazaar Raahein|Hazaar Raahe Mud Ke Dekhi
 Hazaar Raahein|Hazaar Raahen Mud Ke Dekhi
 Hazaar Raahein|Hazar Rahein Nengfirna
+Hazaar Raahein|Hazar Rahen Mud Ke Dekhi
 Hello|Hello
 Hey Naam Re|Hey Naam Re
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
@@ -1623,6 +1629,7 @@ Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Aah
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The Jinke
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The
+Jaane Woh Kaise Log The|Jane Woh Kaise Jaane Wo Kaise
 Jaanu Meri Jaan|Janu Meri Jaan
 Jaanu Meri Jaan|Jaanu Meri Jaan Song Movie Shaan
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman
@@ -1734,6 +1741,7 @@ Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
+Jhuki Jhuki Si Nazar|)Jhuki Jhuki Si Nazar
 Jhumka Gira Re|Jhoomka Gira Re
 Jhumka Gira Re|Jhumka Gira Re Bareilly Ke Bazar
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
@@ -1843,6 +1851,7 @@ Kahin Kahin Se Har Chehra|Kahin Kahin Se Har Chehra
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
 Kahin Na Jaa|Kahin Na Jaa Song Ruhani 1983
+Kahin Na Jaa|Aaj Kahin Na Ja
 Kahin Pyaar Na Ho Jaaye|Kahin Pyaar Na Ho Jaaye
 Kaho Na Kaho|Kaho Na Kaho
 Kaho Na Kaho|Kaho Na Kaho Murder
@@ -1877,6 +1886,7 @@ Kal Ho Na Ho|Kalho Na Hoho Na Hoho Na Ho
 Kal Ho Na Ho|Sonu Nigam Kal Ho Na Kal Na
 Kal Ho Na Ho|Kal Ho Na Ho Unwind
 Kal Ho Na Ho|Kal Ho Na Hoho Na Ho Ho Na Ho
+Kal Ho Na Ho|Kal Ho Naa Ho Kal Ho Na Ho
 Kal Raat Zindagi Se Mulakaat|Kal Raat Zindagi Se Mulakaat
 Kalank|Kalank
 Kalank|Kalank Female
@@ -2227,6 +2237,7 @@ Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Main Toh Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mirchi Lagi Toh New Coolie No 1
+Main To Raste Se Ja Raha Tha|Mai To Raste Se Ja Raha Tha
 Main Yahan Hoon|Jaanam Dekh Lo
 Main Yahan Hoon|Janam Dekh Lo Udit Narayan
 Main Yahan Hoon|Janam Dekhlo Mit
@@ -2306,6 +2317,7 @@ Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai Daag 1973
+Mere Dil Mein Hai Ek Baat|Mere Dil Mein Hai Ek Baat
 Mere Ghar Aayi Ek Nanhi Pari|Mere Ghar Aayi Ek Nanhi Pari
 Mere Haath Mein|Mere Haath Mein
 Mere Haath Mein|Mere Haath Mein Tera Hath Ho
@@ -3569,6 +3581,7 @@ Tum Se Hi|Tum Se Hi Jab We Met
 Tum Se Hi|Tum Se Hi Female
 Tum Toh Pyaar Ho Sajna|Tum Toh Pyaar Ho Sajna
 Tumhari Nazron Mein Hum Ne Dekha|Tumhari Nazron Mein Hum Ne Dekha
+Tumhari Zulf Ke Saaye|Tumhari Zulf Ke Saaye
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki
 Tumhe Apna Banane Ki|Tumhe Apna Banae Ki Kasam
@@ -3668,6 +3681,7 @@ Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
 Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Unwind Mix
+Woh Kaghaz Ki Kashti|Woh Kaghaz Ki Kashti
 Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ek Mandir Hain
