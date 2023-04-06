@@ -200,6 +200,7 @@ Aap Ki Aankhon Mein Kuch|Aap Ki Akhon Me Kuch
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein Kuchh
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein 8D
 Aap Ki Aankhon Mein Kuch|Aapki Aankhon Mein Kuchh
+Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Me Kuch
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -214,6 +215,7 @@ Aate Jaate Hanste Gaate|Aate Jaate
 Aate Jaate Hanste Gaate|Aatejaatempkᶠull
 Aate Jaate Hanste Gaate|Aate Jaate Haste Gaate
 Aate Jaate Hanste Gaate|Aate Jaate Hanste Aate Jate Haste
+Aate Jaate Hanste Gaate|Aate Jate Hanste Gate Maine Pyar Kiya
 Aati Kya Khandala|Aati Kya Khandala
 Aati Kya Khandala|Aati Kya Khandala Ghulam
 Aati Kya Khandala|Ay Kya Bolti Tu
@@ -444,6 +446,7 @@ Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi Raja
 Akhiyan Milaon Kabhi|Ankhiyaan Milaaoon Kabhi
 Akhiyan Milaon Kabhi|Akhiyan Milau Kabhi
 Akhiyan Milaon Kabhi|Ankhiyan Milau Kabhi Ankhiya Churau Song
+Akhiyan Milaon Kabhi|Akhiya Milaun Kabhiankhiya Churaun
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -561,6 +564,7 @@ Balam Pichkari|Balam Pichkari Pichkari
 Balam Pichkari|Balam Pichkari With Vocals
 Bechara Dil Kya Kare|Bechara Dil Kya Kare
 Bedardi Baalma Tujhko|Bedardi Baalma Tujhko
+Beedi Jalaile Jigar Se Piya|Beedi Jalaile Jigar Se Piya
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
 Bekhudi Mein Sanam|Bekhudi Mein Sanam Lata Rafi
@@ -1217,6 +1221,7 @@ Ek Shararat|Ek Shararat Hone Ko Hai Ek Qayamat Sound
 Ek Shararat|Ek Shararat Hone Ko Hai
 Every Breath You Take|Every Breath You Take
 Faza Bhi Hai|Faza Bhi Hai
+Faza Bhi Hai|Faza Bhi Hai Jawan Jawan
 Five Hundred Miles|Five Hundred Miles
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
@@ -1369,6 +1374,7 @@ Hotel California|Hotel California
 Hui Shaam Unka Khayal Aa Gaya|Hui Shaam Unka Khayal Aa Gaya
 Hum Aap Ki Aankhon Mein|Hum Aap Ki Aankhon Mein
 Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein
+Hum Aapke Dil Mein Rehte Hai|Hum Aapke Dil Mein Rehte Hai
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun Kaun
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun
 Hum Aapke Hain Kaun|Hum Aapke Hain Kauntitle
@@ -1930,6 +1936,7 @@ Kaun Tujhe|Kaun Tujhe Ms Dhoni The Untold Story
 Kaun Tujhe|Kaun Tujhetujhe Tujhe Tujhe
 Kaun Tujhe|Tu Aata Hai
 Kaun Tujhe|F Kaun Tujhe Ms Dhoni
+Kaun Tujhe|Kaun Tujhe Yun Peyar Karego
 Ke Sera Sera|Kay Sera Sera
 Ke Sera Sera|Ke Sera Sera
 Ke Sera Sera|Key Sera Sera
@@ -2717,6 +2724,7 @@ Phoolon Ka Taaron Ka|Phoolon Ka Taroon Ka
 Phoolon Ka Taaron Ka|Phoolonkataaro Ka Taaro
 Phoolon Ka Taaron Ka|Phoolon Ka Taron Ka Rdburman
 Phoolon Ka Taaron Ka|Phoolon Ka Taaro
+Phoolon Ka Taaron Ka|Phoolon Ka Taaron Ka Phoolon
 Phoolon Ke Rang Se|Phoolon Ke Rang Se
 Phoolon Ke Rang Se|Phoolon Ke Rang Se Dil Ki Kalam Se
 Phoolon Ke Rang Se|Phoolon Ke Rang
@@ -3562,6 +3570,7 @@ Tum Mujhe Yun|Tum Mujhe Yu Bhula Na Paoge
 Tum Mujhe Yun|Tum Mujhe Yun Bhula
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
+Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis Jahan Mein
 Tum Paas Aa Rahe Ho|Tum Paas Aa Rahe Ho
 Tum Paas Aaye|Kuch Kuch Hota Hai
 Tum Paas Aaye|Kuch Kuch Hota Hai Hota Hai Ori
@@ -3677,10 +3686,12 @@ Woh Hai Zara Khafa Khafa|Wo Hai Zara Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara
 Woh Hai Zara Khafa Khafa|Wo Hai Zara 1967 Md Ji
 Woh Hai Zara Khafa Khafa|Wo Hai Zara 1967 Ji Md
+Woh Hai Zara Khafa Khafa|Wo Hai Zara Wo Hai Zara
 Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye
 Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Unwind Mix
+Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Bahut Yaad Aaye
 Woh Kaghaz Ki Kashti|Woh Kaghaz Ki Kashti
 Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
@@ -3886,6 +3897,7 @@ Yeh Samaa|Ye Samaa
 Yeh Samaa|Ye Sama Sama Hai Ye Pyar Ka
 Yeh Samaa|Yeh Sama , Jab Jab Phool Khile
 Yeh Samaa|Ye Samaa Samaa Hai Ye Pyar Ka
+Yeh Samaa|Ye Sama, Sama Hai Ye Pyaar Ka
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani

@@ -4,8 +4,9 @@ import asyncio
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, fetchPartnerInvites, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
+from .invites import fetchPartnerInvites, fetchSongInvites
 from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata
 from datetime import datetime
 
@@ -155,8 +156,11 @@ def create_app(test_config=None):
                 inviteOptions['newtitles'] = True
             else:
                 inviteOptions['newtitles']  = False
-            inviteOptions['maxknown'] = request.form['maxknown']
-            inviteOptions['maxunknown'] = request.form['maxunknown']
+            inviteOptions['maxknown'] = int(request.form['maxknown'])
+            inviteOptions['maxunknown'] = int(request.form['maxunknown'])
+            inviteOptions['dayslookback'] = int(request.form['dayslookback'])
+            inviteOptions['maxsongs'] = int(request.form['maxsongs'])
+            inviteOptions['maxperf'] = int(request.form['maxperf'])
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:
@@ -192,6 +196,8 @@ def create_app(test_config=None):
                     return redirect(url_for('get_partner_info'))
                 elif request.form['btn'] == 'Partner Invites':
                     return redirect(url_for('query_partner_invites'))
+                elif request.form['btn'] == 'Song Invites':
+                    return redirect(url_for('query_song_invites'))
                 elif request.form['btn'] == 'Check Partners':
                     return redirect(url_for('check_partners'))
                 else:
@@ -403,7 +409,16 @@ def create_app(test_config=None):
     def query_partner_invites():
         global performances, inviteOptions, numrows, searchOptions
         searchOptions['searchType'] = "partnerinvites"
-        performances = fetchPartnerInvites(inviteOptions,numrows)
+        performances = fetchPartnerInvites(inviteOptions,inviteOptions['maxsongs'])
+        flash(f"{len(performances)} performances fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This method fetches a list of invites for all known songs that have not yet been sung in the current month
+    @app.route('/query_song_invites')
+    def query_song_invites():
+        global performances, inviteOptions, numrows, searchOptions
+        searchOptions['searchType'] = "songinvites"
+        performances = fetchSongInvites(inviteOptions,inviteOptions['maxsongs'])
         flash(f"{len(performances)} performances fetched from Smule")
         return redirect(url_for('list_performances'))
 

@@ -1,5 +1,7 @@
 import re
 import random
+from datetime import datetime
+from .constants import *
 
 COMMENTS = {\
     'awesome':['fantastic performance 👌👌👌👌','amazing performance 👌👌👌👌','awesome performance 👌👌👌👌'],\
@@ -8,6 +10,10 @@ COMMENTS = {\
     'ok':['lovely singing 👌','nicely sung 👌','lovely performance 👌'],\
     'bad':['good attempt']
     }
+
+# Print the specified message prefixed by current timestamp
+def printTs(message):
+    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message)
 
 # Build comment dictionary by randomly selecting a comment for each category
 def build_comment(prefix="",suffix=""):

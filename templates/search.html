@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2023-03-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2023-04-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -149,7 +149,14 @@ order by 3 desc, 4 desc, 1
             Max Unknown<input name="maxunknown" value="1" type="input" class="input" size="2" required></input>
         </div>
         <div class="control">
+            Days Lookback<input name="dayslookback" value="5" type="input" class="input" size="2" required></input>
+            # Songs<input name="maxsongs" value="20" type="input" class="input" size="2" required></input>
+            # Performances<input name="maxperf" value="5" type="input" class="input" size="2" required></input>
+        </div>
+        <div class="control">
           <input type="submit" name="btn" value="Partner Invites" class="button is-link" />
+          <br><br>
+          <input type="submit" name="btn" value="Song Invites" class="button is-link" />
           <br><br>
           <input type="submit" name="btn" value="Check Partners" class="button is-link" />
         </div>

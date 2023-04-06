@@ -1,4 +1,5 @@
 from .models import db, Performance, Singer, PerformanceSinger, PerformanceFavorite, TitleMapping, SingerFollowing, GeoCache, TitleMetadata
+from .constants import *
 from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
@@ -620,6 +621,13 @@ def saveDBFavorites(username,performances):
         i += saveDBFavorite(username,p['key'],5)
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} favorites processed"
+
+def fetchDBUserFollowing():
+    rs = execDBQuery("select account_id from singer_following where is_following")
+    followingAccountIds = []
+    for r in rs:
+        followingAccountIds.append(r['account_id'])
+    return followingAccountIds
 
 # Insert/Update data into Singer_Following table
 def saveDBSingerFollowing(userFollowing):

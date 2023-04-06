@@ -2,9 +2,10 @@ from urllib.parse import unquote
 from urllib import request
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
-from .utils import fix_title,build_comment
+from .constants import *
+from .utils import fix_title, build_comment, printTs
 from os import path
-from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing, saveDBGeoCache
+from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing, saveDBGeoCache, fetchDBUserFollowing
 from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import asyncio
@@ -12,19 +13,35 @@ import random
 import webbrowser
 import geocoder
 
-DATEFORMAT = '%Y-%m-%dT%H:%M'
-CRAWL_SEARCH_OPTIONS = {'contentType':"both",'solo':False,"joins":False}
-MYSELF = 'KaushalSheth1'
+# Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
+# Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
+# Playlist content next set: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=1:1258506160_4326482333
 
-def printTs(message):
-    print(datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " " + message)
+# Generic method to get various JSON objects for the username from Smule based on the type passed in
+def getJSON(username,type="recording",offset=0,version="legacy"):
+    data = None
+    try:
+        if version == "legacy":
+            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        elif type == "following":
+            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
+        else:
+            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
+        #print(urlstring)
+        with request.urlopen(urlstring) as url:
+            data = json.loads(url.read())
+    except:
+        # Ignore any errors
+        printTs("Error fetching JSON")
+        pass
+    return data
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     printTs("Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str, is_following from favorite_partner")
     printTs("Done fetching")
     return rsPartnerInfo
 
@@ -83,29 +100,6 @@ def getGroupHandles():
     except NameError: fetchGroupHandles()
     return rsGroupHandles
 
-# Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
-# Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
-# Playlist content next set: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=1:1258506160_4326482333
-
-# Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username,type="recording",offset=0,version="legacy"):
-    data = None
-    try:
-        if version == "legacy":
-            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
-        elif type == "following":
-            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
-        else:
-            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
-        #print(urlstring)
-        with request.urlopen(urlstring) as url:
-            data = json.loads(url.read())
-    except:
-        # Ignore any errors
-        printTs("Error fetching JSON")
-        pass
-    return data
-
 # Get list of people the user is following
 def fetchUserFollowing(username):
     printTs("Process userFollowing")
@@ -136,13 +130,6 @@ def saveSingerFollowing(username):
     printTs("Save userFollowing")
     return saveDBSingerFollowing(sf)
     printTs("Done saving")
-
-def fetchDBUserFollowing():
-    rs = execDBQuery("select account_id from singer_following where is_following")
-    followingAccountIds = []
-    for r in rs:
-        followingAccountIds.append(r['account_id'])
-    return followingAccountIds
 
 # Method to generate list of performers from partnerSQL that I am not following
 def checkPartners(inviteOptions):
@@ -452,6 +439,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
+        isFollowing = getPartnerInfo("partner_name",performers,"is_following")
         lastInviteTitle = getLastInvite('invite_title')
         lastInviteUrl = getLastInvite('invite_url')
         # Set comment dictionary appropriately based on owner
@@ -521,13 +509,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     orig_track_country = gdb['country']
                 # If not, use geocoder to look it up and also to store it in cache
                 else:
-                    printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
+                    #printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
                     g = geocoder.osm([owner_lat,owner_lon], method='reverse')
                     gjson = g.json
                     gkeys = gjson.keys()
-                    citykeylist = [ 'city', 'town', 'village', 'municipality', 'hamlet', 'farm', 'state_district', 'county', 'state' ]
                     # Extract the first key from list above that exists in JSON and break out of loop
-                    for ck in citykeylist:
+                    for ck in CITYKEYLIST:
                         if ck in gkeys:
                             orig_track_city = gjson[ck]
                             break
@@ -539,6 +526,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 orig_track_city = "Unknown"
                 orig_track_country = "Unknown"
                 #raise
+        total_listens = performance['stats']['total_listens']
+        join_cnt = f"{total_listens}|{joinCount}|{recentJoinCount}"
+        if not isFollowing:
+            join_cnt += " (nf)"
         # If performance is a join, set ct to "ensemble" so it gets color coded correctly
         #print(performance['ensemble_type'])
         if ownerHandle == username and performance['ensemble_type'] == "DUET" and not web_url_full.endswith("/ensembles") :
@@ -565,7 +556,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'web_url_full':web_url_full,\
                 'cover_url':performance['cover_url'],\
                 'total_performers':performance['stats']['total_performers'],\
-                'total_listens':performance['stats']['total_listens'],\
+                'total_listens':total_listens,\
                 'total_loves':performance['stats']['total_loves'],\
                 'total_comments':performance['stats']['total_comments'],\
                 'total_commenters':performance['stats']['total_commenters'],\
@@ -595,7 +586,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'comment':comment,\
                 'yt_search':yt_search,\
                 'rating_nbr':"-",
-                'join_cnt':f"{joinCount}|{recentJoinCount}",\
+                'join_cnt':join_cnt,\
                 'last_performance_time':lastPerformanceTime,\
                 'recent_join_cnt':recentJoinCount\
                 })
