@@ -296,6 +296,7 @@ Acchha Ji Main Haari|Achha Ji Main Haari Chalo Maan Jao Na
 Acchha Ji Main Haari|Accha Ji Mai
 Acchha Ji Main Haari|Acha Ji Main Haari Chalo Maan Jao Na
 Acchha Ji Main Haari|Acha Ji Mai Hariᶠull Song
+Acchha Ji Main Haari|Acha Ji Mai Hari
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -312,6 +313,7 @@ Ae Ajnabi|Ae Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|Aye Ajnabi Tu Bhi
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
+Ae Dil E Nadan|Aye Dile
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
 Ae Dil Hai Mushkil|Ae Dil Hai
 Ae Dil Hai Mushkil|Ae Dil Hai Mushkil
@@ -365,6 +367,7 @@ Ae Zindagi Gale Laga Le|Qq Aye Zindagi Gale Laga Le Sadma
 Aesis Membership Audition|Aesis Membership Audition
 Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
 Agar Mujh Se Mohabbat Hai|Agar Mujhse Mohabbat Hai
+Agar Tum Mil Jao|Agar Tum Mil Jao
 Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
@@ -617,6 +620,7 @@ Blue Christmas|Blue Chrisas
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
 Bol Na Halke Halke|Bolna Halke Halke
+Bol Na Halke Halke|बोल ना हल्के हल्के
 Bole Chudiyan|Bole Chudiy
 Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
@@ -1223,6 +1227,7 @@ Ek Pyaar Ka Nagma Hain|Un🅟lugg🅔dek Pyar Ka Nagma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagma
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Song
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hain
+Ek Pyaar Ka Nagma Hain|Jsek Pyar Ka Naghmast
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
@@ -1400,6 +1405,7 @@ Hum To Deewane Hue Yaar|Hum To Deewane Baadshah Jkk
 Hum To Deewane Hue Yaar|Hum To Deewane Hue Yaar
 Hum To Deewane Hue Yaar|Hum To Deewane
 Hum To Deewane Hue Yaar|Hum To Deewane Huye Baadshah
+Hum To Tere Aashiq Hai|Hum To Tere Aashiq Hainsadiyoon Farz 1963
 Hum Tum Dono Jab Mil Jaayenge|Hum Tum Dono Jab Mil Jayenge
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey Mein Band Ho
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey
@@ -1777,6 +1783,7 @@ Jitni Dafa|Jitni Dafa Clean
 Jitni Dafa|Jitni Dafa Dekhun Tumhe
 Jiya Beqarar Hai|Jiya Beqarar Hai
 Jiya Beqarar Hai|Jiya Bekaraar Hai Barsaat
+Jiya Beqarar Hai|Jiya Beqarar Haianamika_C_F_S
 Jiya Jale Jaan Jale|Jiya Jale Jaan Jale
 Jiya Jale Jaan Jale|Jiya Jale
 Jiya Re|Jiya Re
@@ -2018,6 +2025,7 @@ Kisi Ki Muskarahaton|Kisi Ki Muskurahaton Pe Ho Nisar
 Kisi Ki Muskarahaton|Kisi Ki Muskurahaton Se
 Kisi Ki Muskarahaton|Kisiki Muskurahaton Pe
 Kisi Ki Muskarahaton|Kisi Ki Muskurahato Pe Ho Nisaar
+Kisi Nazar Ko Tera|Kisi Nazar Ko Tera
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Kisi Mod Par
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Rah Kisi Mod Par
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Me Kisee Mod Par Kahin Chal
@@ -2034,6 +2042,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
 Kitni Bechain Hoke|Kitni Bechain Hoke
+Kitni Bechain Hoke|Kitni Bechain Hoke Tumse Mili
 Koi Bata De Dil Hai Jahaan|Koi Bata De Dil Hai Jahan
 Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
@@ -2355,6 +2364,7 @@ Mere Khwabon Mein Jo Aaye|Mere Khwaabon Mein Jo ☕
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein Jo Aaye
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein
 Mere Khwabon Mein Jo Aaye|Mere Khwabon Mein Jo Aaye Ddlj
+Mere Khwabon Mein Jo Aaye|Mere Khwabon Main Jo Aaye
 Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat
 Mere Mehboob Qayamat Hogi|Mere Mehboob
 Mere Mehboob Qayamat Hogi|Mere Mehboob Kayamat Hogi
@@ -2392,6 +2402,8 @@ Mere Samne Wali Khidki Mein|Mere Samne Wali Khidki Mein
 Mere Samne Wali Khidki Mein|मेरे सामने वाली खिड़की में एक चाँद का
 Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Mere Sapno Ki Rani|Mere Sapnon
+Mere Sapno Ki Rani|Mere Sapno Kirani Kab Aaegi Tu Sanam Band
+Mere Toote Huye Dil Se|Mere Toote Huye Dil Se
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
 Meri Bheegi Bheegi Si|Meri Bheegi Bheei Si
@@ -2774,6 +2786,7 @@ Pyaar Deewana Hota Hai|Pyar Diwana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Diwana Hota Haissgn_Chamsmanoj
 Pyaar Deewana Hota Hai|Pyar Diwana Hota Hai *
 Pyaar Deewana Hota Hai|Pyar Deewana Pyaar Diwana
+Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai ~
 Pyaar Hua Chupke Se|Pyaar Hua Chupke Se
 Pyaar Hua Chupke Se|Pyar Hua Chupke Se
 Pyaar Hua Chupke Se|Pyar Hua Chupke Se Sanam
@@ -2843,6 +2856,7 @@ Raat Baaki Baat Baaki|Raat Baki Baat Baki
 Raat Baaki Baat Baaki|Raat Baaki
 Raat Baaki Baat Baaki|Raatbaakiasha&Bappi
 Raat Ka Nasha|Raat Ka Nasha Abhi
+Raat Ka Nasha|Raat Ka Nasha Arrived
 Raat Kali|Raat Kali
 Raat Kali|Raat Kali Ek Khwab Me Aayi
 Raat Kali|Raat Kali Ek Khwab Mein Aai
@@ -2954,6 +2968,7 @@ Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane Song
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
 Ruk Ja Raat Theher|रुक जा रात ठहर जा रे चंदा बीते ना मिलन
+Ruk Ja Raat Theher|Ruk Jaa Raat
 Ruk Jaana Nahin|Ruk Jaana Nahi
 Ruk Jaana Nahin|Ruk Jaana Nahi Tu Kahin Haarke
 Ruk Jaana Nahin|Ruk Jaana Nahin
@@ -3348,6 +3363,7 @@ Theheriye Hosh Mein Aa Loon|Thehriye Hosh Mein Aa Loon
 Theheriye Hosh Mein Aa Loon|Thahariye Hosh Mein Aa Lun
 Theheriye Hosh Mein Aa Loon|Theheriye Hosh Me Aa Loon
 Theheriye Hosh Mein Aa Loon|Theheriye Hosh Mein Aa Lun
+Theheriye Hosh Mein Aa Loon|Tehriye Hosh Me Aalu
 Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai Lirik
@@ -3652,6 +3668,7 @@ Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse Milke
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumseparinda
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
+Tumse Milna Baat Karna|Tumse Milna
 Tumse Milne Ki Tamanna Hai|Tumse Milne Ki Tamanna Hai
 Tumse Milne Ki Tamanna Hai|Tumsemilne Ki Tamanna Hai Tumse
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa Jaadu Kiya
@@ -3864,6 +3881,7 @@ Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He
 Yeh Mera Deewanapan Hai|ये मेरा दीवानापन है या मुहब्बत का सुरूर
+Yeh Mera Deewanapan Hai|ये मेरा दीवानापन है
 Yeh Mera Dil|Ye Mera Dil
 Yeh Mera Dil|Yeh Mera Dil Don
 Yeh Mera Dil|Yeh Meradil Yaar Ka Diwana
