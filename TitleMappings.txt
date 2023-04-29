@@ -82,12 +82,14 @@ Aaj Rapat Jaayen|Aaj Rapat Jaayen
 Aaj Rapat Jaayen|Aaj Rapat Jaayen Toh
 Aaj Rapat Jaayen|Aaj Rapat Jaaye
 Aaj Rapat Jaayen|Aaj Rapat
+Aaj Rapat Jaayen|Aaj Rapat Jaaye To
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hun Pyar
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
+Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Dun 414
 Aaja Re Aa Zara|Aaja Re Aa Zara
 Aaja Re Ab Mera Dil Pukara|Aaja Re Ab Mera Dil Pukare
 Aaja Re Pardesi|Aaja Re Pardesi
@@ -650,6 +652,7 @@ Chaahun Main Ya Na|Chahun Main Ya Naa
 Chaahun Main Ya Na|Tu Hi Ye Mujhko
 Chaahunga Main Tujhe|Chahunga Main Tujhe
 Chaahunga Main Tujhe|Chahunga Main Tujhe Sanjh Sawery
+Chaahunga Main Tujhe|Chahunga Me Tujhe Low
 Chaand Aahen Bharega|Chand Aahen Bharega Chaand
 Chaand Chhupaa Baadal Mein|Chaand Chhupa Badal
 Chaand Chhupaa Baadal Mein|Chaand Chhupa Badal Me
@@ -936,6 +939,7 @@ Der Se Hua|Der Se Hua
 Dhadak|Dhadak
 Dhadak|Dhadak Female
 Dhadak|Dhadak Title Dhadak
+Dhadak|Dhadak Title
 Dhak Dhak Karne Laga|Dhak Dhak
 Dhak Dhak Karne Laga|Dhak Dhak Karne
 Dhak Dhak Karne Laga|Dhak Dhak Karne Laga
@@ -1368,6 +1372,7 @@ Hey Naam Re|Hey Naam Re
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajana
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajna
+Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Honthon Se Chu
@@ -1405,6 +1410,7 @@ Hum To Deewane Hue Yaar|Hum To Deewane Baadshah Jkk
 Hum To Deewane Hue Yaar|Hum To Deewane Hue Yaar
 Hum To Deewane Hue Yaar|Hum To Deewane
 Hum To Deewane Hue Yaar|Hum To Deewane Huye Baadshah
+Hum To Deewane Hue Yaar|Hum To Deewane Huye
 Hum To Tere Aashiq Hai|Hum To Tere Aashiq Hainsadiyoon Farz 1963
 Hum Tum Dono Jab Mil Jaayenge|Hum Tum Dono Jab Mil Jayenge
 Hum Tum Ek Kamrey Mein Band Ho|Hum Tum Ek Kamrey Mein Band Ho
@@ -1759,6 +1765,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Aangan Hoga
 Jhilmil Sitaron Ka|Jhil Mil Sitaro Ka Aangann Hoga
 Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan Hoga Rimjhim
 Jhilmil Sitaron Ka|Jhilmil Sitaaron Ka Aangan Hoga
+Jhilmil Sitaron Ka|Jhilmil Sitaron
 Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
 Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
@@ -1871,6 +1878,7 @@ Kahin Door Jab Din Dhal Jaaye|Kahin Dur Jab Din Dhal Jaye
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal Jaye Gem
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Din Dhal
 Kahin Door Jab Din Dhal Jaaye|Kahi Door Jabmuᵏeshtime
+Kahin Door Jab Din Dhal Jaaye|Kahin Door Jabkahidoorjabdin
 Kahin Kahin Se Har Chehra|Kahin Kahin Se Har Chehra
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
@@ -1911,6 +1919,7 @@ Kal Ho Na Ho|Sonu Nigam Kal Ho Na Kal Na
 Kal Ho Na Ho|Kal Ho Na Ho Unwind
 Kal Ho Na Ho|Kal Ho Na Hoho Na Ho Ho Na Ho
 Kal Ho Na Ho|Kal Ho Naa Ho Kal Ho Na Ho
+Kal Ho Na Ho|Kalhonaho Kalhonaaho
 Kal Raat Zindagi Se Mulakaat|Kal Raat Zindagi Se Mulakaat
 Kalank|Kalank
 Kalank|Kalank Female
@@ -2147,6 +2156,7 @@ Le Le Mazaa Le|Le Le Mazaa Le
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
 Lekar Hum Deewana Dil|Lekar Hum
+Lekar Hum Deewana Dil|Lekar Hum Dewana Dil
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Redux
 Leke Pehla Pehla Pyaar|O Leke Pahla Pahla Pyaar
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
@@ -2228,6 +2238,7 @@ Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Aisa Geet
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaaon
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaoon
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaaongaoon Dś
+Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet Gaaun
 Main Na Bhoolunga|Main Na Bhooloonga
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
@@ -2301,6 +2312,7 @@ Masti Bhara Hai Sama|Masti Bhara Hai Saman
 Masti Bhara Hai Sama|Masti Bhara Hai Sama Jenny007
 Mausam Hai Aashiqana|Mausam Hai Ashiqana
 Mausam Ke Sargam|Mausam Ke Sargam
+Mausam Pyaar Ka|Mausam Pyar Ka
 Medley Songs|Medley Shahruk Khan
 Medley Songs|Medley Old S
 Medley Songs|Medley Songs
@@ -2585,6 +2597,7 @@ Neele Neele Ambar Par|Neele Neele Ambar Par
 Neele Neele Ambar Par|Neele Neele Amber
 Neele Neele Ambar Par|Neele Neele Ambar Female Pitch
 Neele Neele Ambar Par|Neele Neele Ambar Ambar
+Neele Neele Ambar Par|~ Neele Neele Ambar Par
 Neend Churayee Meri|Neend Churayee Meri Kisne O Sanam
 Neend Churayee Meri|Neend Churayee Meri
 Neend Churayee Meri|Nind Churayi Meri
@@ -3009,6 +3022,7 @@ Saanson Ko Saanson Mein|Sanson Ko Sanson Mein~Hum Tum
 Saanson Ko Saanson Mein|Hum Tum
 Saanson Ko Saanson Mein|Hum Tum Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Sanson Ko Sanson Mein
+Saanson Ko Saanson Mein|Saanson Ko Sanson Meinhum Tum
 Saans|Saans Jab Tak Hai Jaan
 Saans|Saans Me Teri
 Saans|Saans Mein
@@ -3384,6 +3398,7 @@ Tip Tip Barsa Paani|Tip Tip Barsa
 Tip Tip Barsa Paani|Tip Tip Barsa Pani
 Tip Tip Barsa Paani|Tip Tip Barsa Pani 20
 Tip Tip Barsa Paani|Tip Tip Barsa Paani Tip Tip Barsa
+Tip Tip Barsa Paani|Tip Tip Barsa Tiptipbarsapani
 Titli|Bann Ke Titli
 Titli|Titli
 To Chalun|To Chalun
@@ -3687,6 +3702,7 @@ Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfen
 Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Unke Khayal Aaye To|Unke Khayal Aaye To Aate Chale Gaye
+Unko Ye Shikayat Hai|Unko Ye Shikayat Hai
 Us Mod Se Shuroo Karein|Us Mod Se Shuroo Karen
 Uthe Sab Ke Kadam|Uthe Sab Ke Kadam
 Uthe Sab Ke Kadam|Uthe Sabke Kadam Dekho Rampam
@@ -3913,6 +3929,7 @@ Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni
 Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni Hai Phir Kahan
 Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni Phir Kahan
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni Phir Kahan
+Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandani Phir Kahaan
 Yeh Raatein Yeh Mausam|Ye Raatein Ye Mausam
 Yeh Raatein Yeh Mausam|Ye Raatein Ye Mausam
 Yeh Raatein Yeh Mausam|Ye Ratein Ye Mausam
