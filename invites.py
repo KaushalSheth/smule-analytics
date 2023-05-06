@@ -15,15 +15,29 @@ def fetchSongInvites(inviteOptions,numrows):
     maxdate = currTime.strftime(DATEFORMAT)
     i = 0
     maxperf = inviteOptions['maxperf']
+    title = inviteOptions['title']
+    inclpartner = inviteOptions['inclpartner']
+    print(f"************************  {title}")
     performanceList = []
-    # Fetch list of songs not sung this month
-    #songList = execDBQuery("select fixed_title from favorite_song where current_month_ind = 0 order by adj_weighted_cnt desc")
-    songList = execDBQuery("select fixed_title as fixed_title from favorite_song where current_month_ind = 0 order by random()")
+    qtype = "recording"
+    # Set search query based on whether or not title is specified. If it is, search for recordings of that title sung by favorite partners. Else. search for invites of that title by anyone
+    if title == "":
+        # Fetch list of songs not sung this month
+        #sqlquery = "select fixed_title from favorite_song where current_month_ind = 0 order by adj_weighted_cnt desc"
+        sqlquery = "select fixed_title as fixed_title, replace(fixed_title,' ','+') as search_string from favorite_song where current_month_ind = 0 order by random()"
+        qtype = "active_seed"
+    elif inclpartner:
+        # Fetch list of qualifying partners and append to title being searched for
+        sqlquery = f"select '{title}' as fixed_title, replace('{title}',' ','+')||'+'||partner_name as search_string from favorite_partner where last10_five_cnt = last10_rating_cnt order by recency_score desc"
+    else:
+        # Do a search only for the title specified
+        sqlquery = f"select '{title}' as fixed_title, replace('{title}',' ','+') as search_string"
+    songList = execDBQuery(sqlquery)
     # Loop through each song, and fetch open invites for it
     for s in songList:
         # Fetch n invites for the song
         t = s['fixed_title']
-        songInvites = fetchSmulePerformances(t.replace(' ','+'),maxperf=maxperf,startoffset=0,type="active_seed",mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
+        songInvites = fetchSmulePerformances(s['search_string'],maxperf=maxperf,startoffset=0,type=qtype,mindate=mindate,maxdate=maxdate,searchOptions=CRAWL_SEARCH_OPTIONS)
         found = False
         numPerf = 0
         # Loop through the resulting list and append the appropriate entries to performanceList

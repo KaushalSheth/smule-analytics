@@ -156,11 +156,16 @@ def create_app(test_config=None):
                 inviteOptions['newtitles'] = True
             else:
                 inviteOptions['newtitles']  = False
+            if request.form.get('inclpartner'):
+                inviteOptions['inclpartner'] = True
+            else:
+                inviteOptions['inclpartner']  = False
             inviteOptions['maxknown'] = int(request.form['maxknown'])
             inviteOptions['maxunknown'] = int(request.form['maxunknown'])
             inviteOptions['dayslookback'] = int(request.form['dayslookback'])
             inviteOptions['maxsongs'] = int(request.form['maxsongs'])
             inviteOptions['maxperf'] = int(request.form['maxperf'])
+            inviteOptions['title'] = request.form['title']
 
             # Depending on which button was clicked, take the appropriate action
             if error is None:
