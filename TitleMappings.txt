@@ -34,6 +34,7 @@ Aadmi Musafir Hai|Aadmi Musafir Hai
 Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Tu Shalzz865
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Turegerated
+Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu~Waqt
 Aaiye Meherbaan|Aaiye Meharbaan
 Aaiye Meherbaan|Aaiye Meherbaan
 Aaiye Meherbaan|Aaiye Meherbaan Baithiye
@@ -341,6 +342,7 @@ Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe
 Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe Kis Pe Bhai
 Ae Gulbadan Ae Gulbadan|Ae Gulbadan Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
+Ae Gulbadan Ae Gulbadan|Aye Gulbadan
 Ae Hawa Mere Sang Sang Chal|Ae Hawa Mere Sang Sang Chal
 Ae Kaash Ke Hum Hosh Mein Ab|Aye Kash Ke Hum Hosh Mein Ab
 Ae Mere Humsafar|Ae Mere Humsafar
@@ -489,6 +491,7 @@ Apun Bola|Apun Bola Tu Meri Laila
 Apun Bola|Apun Bola Tu Meri Laila Josh
 Apun Bola|Apun Bola Josh
 Are Deewano Mujhe Pehchano|Arey Deewano Mujhe Pehchano
+Are Ho Goriya Kahan Tera Desh Re|Are Ho Goriya Kahan Tera Desh Re
 Are Re Are Ye Kya Hua|Are Re Are
 Are Re Are Ye Kya Hua|Are Re Are Dil To Pagal Hai
 Are Re Are Ye Kya Hua|Are Re Are H Q
@@ -776,6 +779,7 @@ Chhoo Lene Do Nazuk Honthon Ko|Chhoo Lene Do Naazuk Hothon Ko
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do
 Chhoo Lene Do Nazuk Honthon Ko|छू लेने दो नाज़ुक होठों को
 Chhoo Lene Do Nazuk Honthon Ko|Fun Chhoo Lene Dokhilona Jan Klar
+Chhoo Lene Do Nazuk Honthon Ko|Chhu Lene Do Nazuk Honthon Ko
 Chhookar Mere Man Ko|[HQ™] Chukar Mere Man Ko [Full Track] Yaarana
 Chhookar Mere Man Ko|Chhoo Kar Mere Man Ko
 Chhookar Mere Man Ko|Chhookar Mere Man Ko
@@ -886,6 +890,7 @@ Darde Dil Darde Jigar|Darde Dil
 Darde Dil Darde Jigar|Dard E Dil
 Darling|Darling
 Deewana Hai Dekho|Deewana Hai Dekho
+Deewana Hai Dekho|Hil Dewana Mpkdeewana
 Deewana Hai Dekho|Deewana Hai Dekho Beqaraar Woh
 Deewana Hua Baadal|Deewana Hua
 Deewana Hua Baadal|Deewana Hua Baadal
@@ -1042,6 +1047,7 @@ Dil Ke Jharoke Mein|Dil Ke Jharokhe Mein Tujkho Bithakar
 Dil Ke Jharoke Mein|Dil Ke Jharokhe Mein Tujhko Bithakar
 Dil Ke Jharoke Mein|Dil Ke Jharokhe Mein
 Dil Ke Jharoke Mein|Dil Ke Jharoke Mein Tujhko
+Dil Kehta Hai Chal Unse Mil|Dil Kehta Hai Chal Unse Mil
 Dil Ki Nazar Se|Dil Ki Nazar Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Special Piano
 Dil Ki Nazar Se|Dil Ki Nazarse &
@@ -1116,6 +1122,7 @@ Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
 Din Dhal Jaaye Haaye|Din Dhal Jaye
+Din Dhal Jaaye Haaye|Din Dhal Jaaye
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
@@ -1277,6 +1284,7 @@ Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Se Nikalte Hi
 Ghar Se Nikalte Hi|Gharse Nikalte Hi Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Kuchur Chalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Ghar
+Ghar Se Nikalte Hi|Ghar Se Nikalte Hi ~
 Ghodey Pe Sawaar|Ghodey Pe Sawaar
 Ghodey Pe Sawaar|Ghode Pe Sawaar Qala
 Ghodey Pe Sawaar|Koi Kaise Unhein Ye Samjhaye
@@ -2061,6 +2069,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
 Kitni Bechain Hoke|Kitni Bechain Hoke
 Kitni Bechain Hoke|Kitni Bechain Hoke Tumse Mili
+Kitni Bechain Hoke|Kitni B͎͎Echain Hoke(Bollywood
 Koi Bata De Dil Hai Jahaan|Koi Bata De Dil Hai Jahan
 Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
@@ -2346,6 +2355,7 @@ Mera Dil Bhi Kitna|Mera Dil Bhi मेरा दिल भी
 Mera Dil Bhi Kitna|Mera Dil_Bhi_Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Mera Dil Bhi
 Mera Dil Bhi Kitna|~ Mera Dil Bhi Kitna Pagal Hai
+Mera Dil Bhi Kitna|Meradilbhikitnapagalhai
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Dil Ye Pukare|Mera Dil Ye Pukare ,
 Mera Dil Ye Pukare|Dil Yeh Pukaare Ajaa
@@ -2477,6 +2487,7 @@ Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
 Mohe Rang Do Laal|Mohe Rang Do Laal
 Mujhe Chhu Rahi Hai|Mujhe Chhu
+Mujhe Dard|Mujhe Dard
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar Hai Tumse
@@ -2579,6 +2590,7 @@ Naam Gum Jayega|Naam Gum Jayega Nengfirna
 Naina|Naina
 Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
+Naina Barse Rim Jhim|Naina Barse Rimjhim Rimjhim
 Naino Mein Sapna|Naino Me Sapna Sapno Me Sajna
 Naino Mein Sapna|Naino Mein Sapna
 Naino Mein Sapna|Naino Mein Sapna Sapno Mein Sajana
@@ -2626,6 +2638,7 @@ Noorie Noorie|Noorie Noorie
 Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
 Noorie Noorie|Aaja Re Aaja Re O Mere Dilbar
 Noorie Noorie|Aaja Re Aaja Re O Mere
+O Bedardeya|O Bedardeya
 O Hansini|Hansini
 O Hansini|O Hansini
 O Hansini|O Hansini Karaoke
@@ -2877,6 +2890,7 @@ Qaafirana|Qaafirana Chillout Mix
 Qaafirana|Qaafirana Rip Sushantsinghrajput
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat Ho Gayi
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse
+Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
@@ -2910,6 +2924,7 @@ Raat Ke Humsafar|Raatke Humsafar
 Raat Ke Humsafar|Newraat Ke Humsafar
 Raat Ke Humsafar|Raat Ke Humsafar Thak Ke Ghar
 Raat Ke Humsafar|U ᷠ ᷮ ᷝ ͧ ᷚ ᷚ ͤ ͩ Raat Ke Humsafar
+Raat Ke Humsafar|Raat Ke Hamsafar
 Raat Shabnami|Raat Shabnami
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
 Radha Kaise Na Jale|Radha Kaise Na Jale
@@ -3462,6 +3477,7 @@ Tu Mera Jaanu Hai|Tu Mera Janu Hai
 Tu Mere Samne|Tu Mere Samne
 Tu Mere Samne|Tu Mere Samne Darr
 Tu Mere Samne|Tu Mere Saamne Mein Tere Samne
+Tu Mere Samne|Tu Mere Samne, Main Tere Samne
 Tu Mere Samne|Tu Mere Samne Mein Tere Samne
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai
 Tu Meri Zindagi Hai|Tumerizindagihai
@@ -3752,7 +3768,9 @@ Waada Karo Jaanam|Waada Karo Janam
 Waada Karo Nahi Chhodoge|Waada Karo Nahi Chhodoge Tum Mera Saath
 Waada Karo Nahi Chhodoge|Wada Karo
 Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge
+Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge Wadakaro
 Waada Raha Sanam|Wada Raha Sanam
+Waada Raha Sanam|Waada Raha Sanam :By M D Tyagi
 Wah Wah Ramji|Wah Wah Ramji
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
@@ -4051,6 +4069,7 @@ Zindagi Ka Safar|Zindagi Ka Safarmusicoolpiyush_
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Manna Dey
 Zindagi Kaisi Hai Paheli|Zindagi Kaisi Hai Paheli Haye
+Zindagi Kaisi Hai Paheli|ज़िन्दगी कैसी है पहेली
 Zindagi Ke Safar Mein|Zindagi Ke Safar Me,,
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
