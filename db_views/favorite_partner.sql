@@ -1,6 +1,7 @@
 drop view favorite_partner;
 CREATE OR REPLACE VIEW favorite_partner AS
 with
+sf as (select row_number() over(order by updated_at) as rank_nbr, * from singer_following where is_following),
 perf as (
     select  p.*, pf.rating_nbr, pf.created_at as rated_datetime,
             greatest(1,30-p.days_since_performance) as performance_weight_nbr,
@@ -64,16 +65,17 @@ select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.f
         end, 2) as adj_avg_rating_nbr,
         length(last10_rating_str) - length(replace(last10_rating_str,'5','')) as last10_five_cnt,
         length(replace(last10_rating_str,'-','')) as last10_rating_cnt,
-        p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt
+        p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt,
+        sf.rank_nbr
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
-        left outer join singer_following sf on sf.account_id = p.partner_account_id
+        left outer join sf on sf.account_id = p.partner_account_id
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
 select  account_id as partner_account_id, handle as partner_name,
         0, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
-        pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0
-from    singer_following
+        pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0, rank_nbr
+from    sf
 where   is_following and is_vip
 and     account_id not in (select owner_account_id from my_performances)
 ;
