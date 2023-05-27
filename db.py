@@ -4,11 +4,27 @@ from .utils import fix_title,build_comment
 from sqlalchemy import text, Table, Column
 import copy
 
+# Method to execute specified query and return result as a list of rows
+def execDBQuery(sqlquery):
+    results = []
+    # Some queries (like updates) don't return any results, so catch and ignore those errors
+    try:
+        result = db.session.execute(text(sqlquery))
+        for r in result:
+            # Convert the result row into a dict we can add to performances
+            d = r._asdict()
+            results.append(d)
+    except Exception as e:
+        # If an exception happened, we likely executed an INSERT or UPDATE, so commit it
+        db.session.commit()
+        print(e)
+    return results
+
 # Method to feth Title Mappings
 def fetchDBTitleMappings():
     global titleMappings
     titleMappings = dict()
-    result = db.session.execute("select smule_title,mapped_title from title_mapping order by length(smule_title) desc")
+    result = db.session.execute(text("select smule_title,mapped_title from title_mapping order by length(smule_title) desc"))
     for r in result:
         titleMappings[r['smule_title']] = r['mapped_title']
     return titleMappings
@@ -35,7 +51,7 @@ def dateDelta(input_date,deltaStr,deltaOp='+'):
         period = "year"
     # Build the query and execute it to get the result
     query = f"select '{input_date}'::timestamp {deltaOp} '{deltaNum} {period}' as calc_date"
-    result = db.session.execute(query)
+    result = db.session.execute(text(query))
     for r in result:
         calc_date = r['calc_date']
     # Return the calculated date
@@ -51,7 +67,7 @@ def fixDBTitles(titleMappings):
         extend_existing=True,
         )
     # Truncate teh table and load all titleMappings into the table
-    result = db.session.execute('truncate table title_mapping')
+    result = db.session.execute(text('truncate table title_mapping'))
     result = db.session.execute(tblTitleMapping.insert().values([{"smule_title": s, "mapped_title": m} for s,m in titleMappings.items()]))
     # Update rows where title matches a row in temp table
     updateSQL = """
@@ -63,7 +79,7 @@ def fixDBTitles(titleMappings):
     where   p.fixed_title = tm.smule_title
     and     p.fixed_title != tm.mapped_title
     """
-    fixCount = db.session.execute(updateSQL).rowcount
+    fixCount = db.session.execute(text(updateSQL)).rowcount
     print(f"Rows updated = {fixCount}")
     db.session.commit()
 
@@ -143,22 +159,6 @@ def fetchDBTopPerformers():
     performers = execDBQuery(sqlquery)
     return performers
 
-# Method to execute specified query and return result as a list of rows
-def execDBQuery(sqlquery):
-    results = []
-    # Some queries (like updates) don't return any results, so catch and ignore those errors
-    try:
-        result = db.session.execute(sqlquery)
-        for r in result:
-            # Convert the result row into a dict we can add to performances
-            d = r._asdict()
-            results.append(d)
-    except Exception as e:
-        # If an exception happened, we likely executed an INSERT or UPDATE, so commit it
-        db.session.commit()
-        print(e)
-    return results
-
 # Method to query performances for a user
 def fetchDBJoiners(username,fromdate="2018-01-01",todate="2030-01-01"):
     joiners = []
@@ -208,7 +208,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         sqlquery += " order by created_at desc"
 
     # Check the PerformanceSinger table for existence of the singer on the performance
-    result = db.session.execute(sqlquery)
+    result = db.session.execute(text(sqlquery))
     for r in result:
         # Convert the result row into a dict we can add to performances
         d = r._asdict()

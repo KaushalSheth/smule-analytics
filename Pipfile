@@ -31,6 +31,7 @@ geocoder = "*"
 python3-discogs-client = "*"
 fuzzywuzzy = "*"
 python-levenshtein = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.10.5"

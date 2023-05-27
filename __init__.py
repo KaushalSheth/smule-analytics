@@ -5,7 +5,8 @@ import asyncio
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
 from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
-from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fetchDBAnalytics, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
+from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
+from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
 from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata
 from datetime import datetime
@@ -26,7 +27,7 @@ def update_currtime():
     global currtime
     currtime = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
-# Create the app and set up all the routes for the avarious actions that can be taken
+# Create the app and set up all the routes for the various actions that can be taken
 def create_app(test_config=None):
     app = Flask(__name__)
     app.config.from_mapping(
