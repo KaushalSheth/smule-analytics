@@ -452,15 +452,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 joinMessage = ""
             else:
                 if joinCount == 0:
-                    #joinMessage = f" Please join me on {lastInviteTitle} - {lastInviteUrl}"
                     joinMessage = f" Please join my invites too - check my Favorites list for all invites"
                 elif recentJoinCount == 0:
                     #joinMessage = ""
-                    #joinMessage = f" Please join me on {lastInviteTitle} - {lastInviteUrl}"
                     joinMessage = f" Please join my invites again - check my Favorites list for all invites"
                 else:
-                    joinMessage = ""
-                    #joinMessage = " Looking forward to more joins from you as well"
+                    #joinMessage = ""
+                    joinMessage = " Looking forward to more joins from you as well"
+            # As of 6/9, it is no longer possible to join expired invites, so always set the join message to join latest invite
+            joinMessage = f" Please join my latest invite for {lastInviteTitle}"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
