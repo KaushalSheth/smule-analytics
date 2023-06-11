@@ -217,6 +217,10 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 2 desc;
             """
     elif analyticstitle in ['Partner Heatmap','Title Heatmap','Joiner Heatmap','Favorites Heatmap']:
+        # Set default values for left, top and right margin - these can be overridden for individual heatmaps in the relevant section if needed
+        leftmgn = 0.125
+        topmgn = 0.96
+        rightmgn = 1.0
         if analyticstitle == 'Partner Heatmap':
             outhead = "Partner Name"
             selcol = "performers"
@@ -232,6 +236,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             selcol = "fixed_title"
             outcol = "fixed_title"
             extrawhere = ""
+            # Titles are longer than partner names, so increase left margin
+            leftmgn = 0.195
         elif analyticstitle == 'Favorites Heatmap':
             outhead = "Partner Name"
             selcol = "performers"
@@ -242,9 +248,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             -- Set start date to 12 months ago
             start_date as (select date_trunc('MON',now()) - interval '12 months' as ts),
             perf as (select mp.* from my_performances mp inner join start_date on mp.created_at >= start_date.ts where performers != 'KaushalSheth1' {extrawhere}),
-            -- Select top 50 partners with max # performances since start date
+            -- Select top 50 partners/joiners/titles with max # performances since start date
             counts as (
-                select  {selcol} as count_column, count(*) as perf_cnt
+                select  {selcol} as count_column, count(*) as total_perf_cnt
                 from    perf
                 group by 1
                 order by 2 desc
@@ -257,9 +263,12 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 2 desc, 3 desc
             """
         df = pd.read_sql_query(sqlquery,db.session.connection())
+        # Create pivot table with {outcol} values as rows, month as columns, and perf_cnt as values
         sbdf = df.pivot(index=outcol,columns='perf_month',values='perf_cnt')
+        # Generate heatmap of appropriate size and margins, and set title according to name of heatmap being generated
         sb.heatmap(sbdf, annot=True, fmt="g", cmap="viridis", yticklabels=True)
         plt.gcf().set_size_inches(15,11)
+        plt.subplots_adjust(left=leftmgn,top=topmgn,right=rightmgn)
         plt.title(analyticstitle + " - " + datetime.now().strftime("%Y/%m/%d"))
         plt.show()
 
