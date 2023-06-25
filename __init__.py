@@ -4,7 +4,7 @@ import asyncio
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchDBInviteJoins
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchLastInvite, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
@@ -431,8 +431,9 @@ def create_app(test_config=None):
     # This executes smule function to get partner information (number of joins, etc.)
     @app.route('/get_partner_info')
     def get_partner_info():
-        global rsPartnerInfo
+        global rsPartnerInfo, rsLastInvite
         rsPartnerInfo = fetchPartnerInfo()
+        rsLastInvite = fetchLastInvite()
         flash(f"{len(rsPartnerInfo)} partner info rows retrieved from DB")
         return redirect(url_for('search'))
 

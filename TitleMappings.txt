@@ -156,6 +156,7 @@ Aankhon Ki Gustakhiyan|Aankhon Kii Gustakhiyan Maaff Hoo
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum Tum
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke
+Aankhon Mein Humne Aapke|Navgadigital Ankhon Mein Humne Aapke
 Aankhon Mein Kaajal Hai|Aankhon Mein Kajal Hai
 Aankhon Mein Kya Ji|Aankho Me Kya Ji Rupehla Badal
 Aankhon Mein Kya Ji|Ankhon Mei Kya Ji
@@ -302,6 +303,7 @@ Abhi Na Jao Chhod Kar|Abhi Na Jao Chodkar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chor Kar
 Abhi Na Jao Chhod Kar|Abhi Na Jaao Chhod Kar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chod Kar
+Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kar Jaao
 Acchha Ji Main Haari|Accha Ji Main Haari
 Acchha Ji Main Haari|Accha Ji Main Haari Chalo
 Acchha Ji Main Haari|Acha Ji Main Haarichalomaan Jao Na
@@ -317,6 +319,7 @@ Acchha Ji Main Haari|Accha Ji Mai
 Acchha Ji Main Haari|Acha Ji Main Haari Chalo Maan Jao Na
 Acchha Ji Main Haari|Acha Ji Mai Hariᶠull Song
 Acchha Ji Main Haari|Acha Ji Mai Hari
+Acchha Ji Main Haari|Accha Ji Main Haari Ened
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -451,6 +454,7 @@ Aji Roothkar|Aji Ruthkar Ab
 Aji Roothkar|Aji Rooth Kar Ab Kahan Jaiyega
 Aji Roothkar| Aji Rooth Kar Ab
 Aji Roothkar|Aji Rothkar Ab Aaarzo1965
+Aji Roothkar|0240 Aji Rooth Kar Ab (Lower Pitch
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata Song
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
@@ -622,6 +626,7 @@ Beqarar Karke Hamein|Beqarar Karke Humein
 Beqarar Karke Hamein|बेक़रार करके हमें यूँ ना जाइये
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
+Bhanwara Bada Naadaan|भंवरा बड़ा नादान हाये बगियन Bhanwra Bada Haye
 Bhanware Ki Gunjan|Bhanware Ki Gunjan
 Bheege Hoth Tere|Bheege Hoth Tere_Fth
 Bheege Hoth Tere|Bheege Hoth Tere_Fth___
@@ -1256,6 +1261,7 @@ Ek Din Aap Yoon Humko|Maine Kya Socha Tha
 Ek Din Aap Yoon Humko|Maine Socha Na Tha
 Ek Din Aap Yoon Humko|115 Ek Din Aap Yun
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jaayenge
+Ek Din Aap Yoon Humko|Ek Din Aap Yun Hum Ko Mil
 Ek Din Bik Jaayega|Ek Din Bik Jayega
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
 Ek Haseena Thi|Ek Haseena Thi
@@ -1746,6 +1752,7 @@ Jaaneman Jaaneman Tere Do Nayan|Janeman Janeman Tere
 Jaaneman Jaaneman Tere Do Nayan|Janeman Janeman Tere Do Nayan
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere Do
 Jaaneman Jaaneman Tere Do Nayan|जानेमन जानेमन तेरे दो नयन चोरी चोरी ले
+Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Janeman Janeman
 Jaata Kahaan Hai Deewane|Jaata Kahan Hai Deewane
 Jaata Kahaan Hai Deewane|Jata Kahan Hai Deewane
 Jaati Hoon Main|Jaati Hoon Main
@@ -2056,6 +2063,7 @@ Ke Sera Sera|Kay Sera Sera
 Ke Sera Sera|Ke Sera Sera
 Ke Sera Sera|Key Sera Sera
 Ke Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
+Keh Do Ek Baar Sajna|Keo Ek Baar Sajna
 Keh Doon Tumhe|Socha Hai
 Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
 Keh Doon Tumhe|Keoon Tumhe
@@ -2563,6 +2571,7 @@ Mile Ho Tum Humko|Mileho_Tum_Humko
 Mile Ho Tum Humko|Mile Ho Tum Humko Hindi
 Mile Ho Tum Humko|Teri Yaad
 Mile Ho Tum Humko|Mile Ho Tum Humko Sweet
+Mile Ho Tum Humko|Mile Ho Tum Humko Rajib
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
@@ -2952,6 +2961,7 @@ Pyaar Hua Iqraar Hua|Pyar Hua Iqrar Ikraar Hai
 Pyaar Hua Iqraar Hua|Ad Pyar Hua Ikrar Hua Hai
 Pyaar Humein Kis Mod Pe Le Aaya|Pyaar Hame Kis Mod Pe Le Aaya
 Pyaar Humein Kis Mod Pe Le Aaya|Pyar Hame Kis Mod Pe
+Pyaar Humko Bhi Hai|Pyar Humko Bhi Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai Meetha Meetha
 Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat
@@ -3559,6 +3569,7 @@ Tip Tip Barsa Paani|Tip Tip Barsa Pani
 Tip Tip Barsa Paani|Tip Tip Barsa Pani 20
 Tip Tip Barsa Paani|Tip Tip Barsa Paani Tip Tip Barsa
 Tip Tip Barsa Paani|Tip Tip Barsa Tiptipbarsapani
+Tip Tip Barsa Paani|Tip Tip Barsa Pani Paani Ne Aag Lagaai
 Titli|Bann Ke Titli
 Titli|Titli
 To Chalun|To Chalun
@@ -3581,6 +3592,7 @@ Tu Is Tarah|Tu Is Tarah Se Meri
 Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi
 Tu Is Tarah|Tu Iss Tarha Se Meri Zindagi
+Tu Is Tarah|Tu Iss Tarah Secompact
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -3605,6 +3617,7 @@ Tu Mere Samne|Tu Mere Samne Mein Tere Samne
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai
 Tu Meri Zindagi Hai|Tumerizindagihai
 Tu Meri Zindagi Hai|Tu Meri Zindagi Hai Aashiqui Zindagi
+Tu Muskura|Tu Muskura
 Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi
 Tu Pyaar Hai Kisi Aur Ka|Tu Pyar Hai Kisi Aur Ka ~ Song
 Tu Pyaar Ka Saagar Hai|Tu Pyaar Ka Saagar Hai
@@ -4012,6 +4025,7 @@ Yeh Dil Tum Bin|Yeh Dil Tum Binn
 Yeh Dil Tum Bin|Yeil Tum Bin Kahin Lagta Nahi
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Lagta
 Yeh Dil Tum Bin|Yeil Tum Bin Kahin
+Yeh Dil Tum Bin|Yeil Tum Bin Ye Kahin
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
 Yeh Dosti|Yeh Dosti
