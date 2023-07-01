@@ -3,7 +3,7 @@ CREATE OR REPLACE VIEW favorite_partner AS
 with
 sf as (select row_number() over(order by updated_at) as rank_nbr, * from singer_following where is_following),
 perf as (
-    select  p.*, pf.rating_nbr, pf.created_at as rated_datetime,
+    select  p.*, pf.created_at as rated_datetime,
             greatest(1,30-p.days_since_performance) as performance_weight_nbr,
             case when l.item_name is not null then 1 else 0 end always_include_ind
     from    my_performances p

@@ -7,6 +7,7 @@ myself as (
 perf AS (
     SELECT  p.*,
             split_part((p.key)::text, '_'::text, 1) AS instance_key,
+            pf.rating_nbr,
             case when owner_handle = m.handle and web_url not like '%ensembles' and ensemble_type != 'SOLO' then 1 else 0 end join_ind,
             case when owner_handle = m.handle and web_url like '%ensembles' then 1 else 0 end invite_ind,
             case when pf.rating_nbr = 5 then 1 else 0 end as favorite_ind
