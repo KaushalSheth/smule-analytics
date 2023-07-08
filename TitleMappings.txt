@@ -284,6 +284,7 @@ Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aayega Aane Wala|Aaega Aane Wala
 Aayega Aane Wala|आएगा, आएगा, आएगा आने वाला आएगा
 Aayega Aane Wala|Aayega Aayega Aanewala
+Ab Ke Saawan Mein Jee Dare|Ab Ke Sawan Mein Jee Dare
 Ab Kya Misaal Doon Main Tumhare|Ab Kya Misaal Du Mein Tumhare
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Mujhe Raat Din|Ab Mujhe Raat
@@ -330,6 +331,7 @@ Adayein Bhi Hai Mohabbat Bhi Hai|Adayein Bhi Hai Mohabbat Bhi Hai Sound
 Adayein Bhi Hai Mohabbat Bhi Hai|Adayein Bhi Hai Sound
 Adayein Bhi Hai Mohabbat Bhi Hai|Adayei Bhee Hai Adayeinbhihai
 Adayein Bhi Hai Mohabbat Bhi Hai|Adayein Bhi Hai
+Adayein Bhi Hai Mohabbat Bhi Hai|Navgadigital Adayein Bhi Hain
 Ae Ajnabi|Ae Ajnabi
 Ae Ajnabi|Aye Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|E Ajnabi
@@ -936,6 +938,7 @@ Darde Dil Darde Jigar|Darde Dil
 Darde Dil Darde Jigar|Dard E Dil
 Darde Dil Darde Jigar|Darde Dil Darde Jigar , Karz
 Darling|Darling
+Darmiyaan|Darmiyaan
 Deewana Hai Dekho|Deewana Hai Dekho
 Deewana Hai Dekho|Hil Dewana Mpkdeewana
 Deewana Hai Dekho|Deewana Hai Dekho Beqaraar Woh
@@ -1036,6 +1039,7 @@ Dil Apna Aur Preet Paraai|Dil Apna Aur Preet Parai
 Dil Apna Aur Preet Paraai|दिल अपना और प्रीत पराई
 Dil Bekarar Sa Hai|Dil Bekarar Sa Hai
 Dil Bekarar Sa Hai|Dil Bekarar Sa Hai Ishaara
+Dil Bekaraar Tha Dil Bekaraar Hai|Dil Bekarar Tha Dil Bekarar Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
@@ -1189,6 +1193,7 @@ Din Dhal Jaaye Haaye|Din Dhal Jaaye
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
+Do Anjaane Ajnabi|Do Anjane Ajnabi
 Do Deewane Shaher Mein|Do Deewane Shaher Mein
 Do Deewane Shaher Mein|Do Diwane Shehar Mein
 Do Deewane Shaher Mein|दो दीवाने शहर में रात में या दोपहर में
@@ -1295,6 +1300,7 @@ Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Ye Kahani Banegi
 Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Yeh Kahani
 Ek Pal Ka Jeena|Ek Pal Ka Jeena
 Ek Pardesi Mera Dil Le Gaya|Ek Pardesi Mera Dil Le Gaya
+Ek Pardesi Mera Dil Le Gaya|Ek Pardesi Mera Dil
 Ek Pyaar Ka Nagma Hain|[HQ] Ek Pyaar Ka Nagma Hai 💝 Shor 1972 Full
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hain
@@ -2085,6 +2091,7 @@ Ke Sera Sera|Ke Sera Sera
 Ke Sera Sera|Key Sera Sera
 Ke Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
 Keh Do Ek Baar Sajna|Keo Ek Baar Sajna
+Keh Do Ki Tum Ho Meri Warna|Keo Ki Tum Ho Meri Warna
 Keh Doon Tumhe|Socha Hai
 Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
 Keh Doon Tumhe|Keoon Tumhe
@@ -2325,6 +2332,7 @@ Maang Ke Saath Tumhara|Maang Ke Saath Tumhara:
 Maang Ke Saath Tumhara|Mang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Mang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Ke Sath Tumhara
+Maar Gayi Mujhe Teri Judai|Maar Gayi Mujhe Teri Judai
 Maaye Ni Maaye|Maye Ni Maye
 Maaye Ni Maaye|Maaye Ni Maaye
 Maaye Ni Maaye|Mai Ni Meriye ,Chamba Kitni K Durr
@@ -2919,6 +2927,7 @@ Pehla Pehla Pyar Hai|▲ Pehla Pehla Pyar Hai
 Pehla Pehla Pyar Hai|Pehla Pehla Pyaar Hai
 Phero Na Najariya|Phero Na Najariya
 Phero Na Najariya|Phero Na Najar Se Najariya
+Phero Na Najariya|Phero Na Najariya Qala Amit Trivedi
 Phir Aur Kya Chaahiye|Phir Aur Kya Chahiye
 Phir Bhi Dil Hai Hindustani|Phir Bhi Dil Hai Hindustani
 Phir Bhi Dil Hai Hindustani|Hum Logo Ko Samajh Sako Toh
@@ -2940,6 +2949,7 @@ Phoolon Ke Rang Se|Phoolon Ke Rang Se Dil Ki Kalam Se
 Phoolon Ke Rang Se|Phoolon Ke Rang
 Phoolon Ke Rang Se|Phoolon Ke Rang Se, Dil Ki Kalam Se
 Piya Bina Piya Bina|Piya Bina Piya Bina
+Piya O Re Piya|Piya O Re Piya
 Piya Tu Ab To Aaja|Piya Tu Ab To Aaja
 Piya Tu Ab To Aaja|Piya Tu Ab Toh Aaja
 Piya Tu Piya|Piya Tu Piya
@@ -3251,6 +3261,7 @@ Sama Hai Suhana Suhana|Shama Hai Suhana Suhana
 Sambhala Hai Maine|Sambhala Hai Maine Customized
 Sambhala Hai Maine|Song Sambhalaa Hai Maine
 Sanam Mere Humraaz|Sanam Mere Humraaz
+Sanam O Sanam Aise Hi Pyaar|Sanam O Sanam Aise Hi Pyaar
 Sanam Re|Sanam Re
 Sandese Aate Hai|Sandese Aate Hai
 Sandese Aate Hai|Sandese Aate Hain
@@ -3522,6 +3533,7 @@ Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Ab Ek Rang Hain
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Mo Rafi
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Mo
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Guide Movie Mo
+Tere Naam|Tere Naam
 Tere Sang Yaara|O Tere Sang Yaara
 Tere Sang Yaara|Tere Sang Yaara
 Tere Sang Yaara|Tere Sang Yaara Rustom
@@ -3823,6 +3835,7 @@ Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Female
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Gaye Ho
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye Ho Carvaan Lounge
 Tum Jo Mil Gaye Ho|Tum Jo Mil Gaye
+Tum Jo Mil Gaye Ho|Tum Jo Mil Gae Ho
 Tum Mile Dil Khile|Tu Mile Dil Khile
 Tum Mile Dil Khile|Tu Mile Dil Khile Criminal
 Tum Mile Dil Khile|Tu Mile Dil Khile Or Jeene
@@ -4024,6 +4037,7 @@ Yashomati Maiya|Yashomati Maiya Se Bole Nandlala
 Yashomati Maiya|Yasomatimaiya Se
 Ye Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Saari Duniya
+Yeh Aankhen Dekh Kar|Yeh Aankhen Dekh Kar Hum
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Aankhen Uff Yumma|Ye Aankhe Uff Yumma Yeh Soorat
 Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
