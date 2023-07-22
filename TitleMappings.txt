@@ -179,6 +179,7 @@ Aankhon Se Tune Ye|Ankhon Se Tune
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya
 Aankhon Se Tune Ye|Aankhon Se Tune Kya Gulam
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keh
+Aankhon Se Tune Ye|Aankhon Se Tune Female
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
@@ -609,6 +610,7 @@ Bahut Pyaar Karte Hai|Bahut Pyar Karte Hai Tumko Sanam
 Bahut Pyaar Karte Hai|Bahot Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bohat Pyaar Karte Hai Unpluged
 Bahut Pyaar Karte Hai|Bahut Pyar
+Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meherbaani
 Bairi Piya|Bairi Piya
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
@@ -729,6 +731,8 @@ Chaand Sifarish Jo Karta Hamari|Chand Sifarish
 Chaand Sitare|Chaand Sitaare
 Chaand Sitare|Chand Sitare
 Chaand Sitare|Drchaand Sitare Phool Aur Khushboo
+Chaand Sitare|H D Chand Sitare Phool Aur Khusboo
+Chaand Sitare|Chand Sitare Phool Aur Khusboo
 Chaand Taare Tod Laun|Chaand Taare Tod Laun Karaoke
 Chaand Taare Tod Laun|Chand Taare Tod Laun
 Chaand Taare Tod Laun|Chand Tare Tod Laun
@@ -1419,6 +1423,23 @@ Haan Pehli Baar|Haan Pahli Baar
 Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Haay Haay Ye Majboori|Haay Haay Ye Majboorihay Hay Ye Majboori
 Haay Haay Ye Majboori|Haye Haye Yeh Majboori
+Haaye Mera Dil|Haye Mera Dil
+Haaye Mera Dil|Hai Mera Dil
+Haaye Mera Dil|Hai Mera Dil Josh
+Haaye Rama Ye Kya Hua|Haye Rama Ye Kya Hua
+Haaye Rama Ye Kya Hua|Hai Rama Ye Kya Hua
+Haaye Rama Ye Kya Hua|Hai Rama Ye Kya Hua हाय रामा ये क्या हुआ
+Haaye Rama Ye Kya Hua|Hai Rama Yeh Kya Hua Edited
+Haaye Rama Ye Kya Hua|Haye Rama Ye Kya Hua
+Haaye Rama Ye Kya Hua|Haye Rama Yeh Kya Hua
+Haaye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
+Haaye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
+Haaye Rama Ye Kya Hua|Hai Rama Yet Rangeela
+Haaye Rama Ye Kya Hua|Haye Rama Ye Kya Hai
+Haaye Rama Ye Kya Hua|Haaye Rama Ye Kya Hua
+Haaye Rama Ye Kya Hua|Hai Rama Yeh
+Haaye Rama Ye Kya Hua|Hai Rama
+Haaye Re Haaye Neend Nahi Aaye|Haaye Re Haaye Neend Nahi Aaye
 Hadh Kar Di Aapne|Hadh Kar Di Aapne
 Hadh Kar Di Aapne|Hadh Kardi Aapne
 Hai Apna Dil To Awara|Hai Apna Dil
@@ -1426,6 +1447,7 @@ Hai Apna Dil To Awara|Hai Apna Dil To Awara
 Hai Apna Dil To Awara|Hai Apna Dil Toh
 Hai Apna Dil To Awara|Hai Apna Dil Toh Awara
 Hai Apna Dil To Awara|है अपना दिल तो आवारा ना जाने किसपे आयेगा
+Hai Apna Dil To Awara|Hai Apna Dil To Aawara So
 Hangover|Hangover
 Hangover|Hangover Kick
 Har Kasam Se Badi Hain Kasam Pyar Ki|Har Kasam Se Badi Hain Kasam Pyar Ki
@@ -1442,20 +1464,6 @@ Hawa Ke Saath Saath|O Saathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
 Hawa Ke Saath Saath|Hawa Ke Sath Sath
-Haye Mera Dil|Hai Mera Dil
-Haye Mera Dil|Hai Mera Dil Josh
-Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua
-Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua हाय रामा ये क्या हुआ
-Haye Rama Ye Kya Hua|Hai Rama Yeh Kya Hua Edited
-Haye Rama Ye Kya Hua|Haye Rama Ye Kya Hua
-Haye Rama Ye Kya Hua|Haye Rama Yeh Kya Hua
-Haye Rama Ye Kya Hua|Shrinked~ Hai Rama Ye Kya Hua
-Haye Rama Ye Kya Hua|Hai Rama Ye Kya Hua Rangeela
-Haye Rama Ye Kya Hua|Hai Rama Yet Rangeela
-Haye Rama Ye Kya Hua|Haye Rama Ye Kya Hai
-Haye Rama Ye Kya Hua|Haaye Rama Ye Kya Hua
-Haye Rama Ye Kya Hua|Hai Rama Yeh
-Haye Rama Ye Kya Hua|Hai Rama
 Hazaar Raahein|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
@@ -1749,6 +1757,7 @@ Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
 Jaane Kya Tune Kahi|Jaane Kyaa Toone Kahi
 Jaane Kya Tune Kahi|Jane Kya Tune Kahi
+Jaane Kya Tune Kahi|Jane Kya Tune Kahi Jane Kya Maine
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon Log Pyaar
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyoon Log Pyar Karte Hain ( Chahta Hai)
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyu Log Pyaar Karte Hai
@@ -2344,6 +2353,7 @@ Main Agar Kahoon|Tumko Paya Hai Nengfirna
 Main Agar Kahoon|Main Agar Kahoon Agar Kahun
 Main Chali Main Chali|Main Chali Main Chali:Professor
 Main Chali Main Chali|Main Chali Main Chali Dekho Pyaar Ki Gali
+Main Chali Main Chali|Main Chali Main Chali Peechhe Peeche Jahan
 Main Duniya Bhula Doonga|Mai Duniya Bhula Dunga_ Mini Song
 Main Duniya Bhula Doonga|Main Duniya Bhula
 Main Duniya Bhula Doonga|Main Duniya Bhula Doonga
@@ -2512,6 +2522,8 @@ Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai Daag 1973
 Mere Dil Mein Hai Ek Baat|Mere Dil Mein Hai Ek Baat
+Mere Dil Mein Hai Ek Baat|Mere Mein Aaj Kya Hai
+Mere Dil Ne Tadap Ke|Mere Dil Ne Tadap Ke
 Mere Ghar Aayi Ek Nanhi Pari|Mere Ghar Aayi Ek Nanhi Pari
 Mere Haath Mein|Mere Haath Mein
 Mere Haath Mein|Mere Haath Mein Tera Hath Ho
@@ -2640,6 +2652,7 @@ Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas
 Mujhe Rang De|Mujhe Rang De
 Mujhe Rang De|𝑴𝒖𝒋h𝒆 𝑹𝒂𝒏𝒈𝒆 D𝒆
+Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo Hamrahi
@@ -3124,6 +3137,7 @@ Rimjhim Gire Saawan|Rimjhim Gire Swn
 Rimjhim Gire Saawan|Imjhim Gire Sawan
 Rimjhim Gire Saawan|Kishorkumar Rimjhim Gire Saawan
 Rimjhim Gire Saawan|Rim Jhim Gire Sawan
+Rimjhim Ke Taraane Leke|Rimjhim Ke Tarane Leke
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyare Geet Liye
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyareusne Kaha Thha
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyaare Pyaare
@@ -3346,6 +3360,7 @@ Sochenge Tumhe Pyaar|Sochenge Tumhein Pyaar Karein Ke
 Sochenge Tumhe Pyaar|Sochege Tumhe Pyar Kre Ke Nhi
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyaar Karein Ke Nahi
 Sochenge Tumhe Pyaar|Sochenge Tumhe Pyar Kare Ke Nahi
+Solah Baras Ki Baali Umar|Solah Baras Ki Baali Umar Ek Duje Ke Liye
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Soldier Soldier|Reff Soldier Soldier Meethi Baaten
@@ -3358,6 +3373,7 @@ Subah Se Lekar Shaam Tak|Subah Se Lekar
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Ye Mausam Haseen
 Suhani Chandni Raatein|Suhani Chandni Raatein
+Suhani Chandni Raatein|Suhaani Chandani Raatein
 Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
 Sun Champa Sun Taara|Sun Champa Sun Tara
@@ -3422,6 +3438,7 @@ Surmaiye Ankhiyon Mein|Surmai Akhiyon Mein
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
+Taal Se Taal Mila|Tal Se Tal Mila
 Taaron Ke Shehar|Taaron Ke Shehar
 Taaron Main Sajke|[} Taron Main Sajke
 Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
@@ -3682,6 +3699,7 @@ Tu Shaayar Hai|Tu Shayar Hai
 Tu Shaayar Hai|Tu Shayar Hai Main Teri Shayari Song
 Tu Shaayar Hai|Too Shayar Hai Main Teri Shayari
 Tu Shaayar Hai|Tu Shayar Hai, Main Teri…
+Tu Shaayar Hai|Tu Shayar Hai Main Teri Shayari
 Tu Tu Hai Wahi|[HQ™] Tu Tu Hai Wohi The Unwind Mix Original
 Tu Tu Hai Wahi|Tu Tu Hai Clean
 Tu Tu Hai Wahi|Tu Tu Hai Wahi
@@ -3854,6 +3872,7 @@ Tum Mile Dil Khile|Tu Mile Dil Khile Stebin Ben Asees Kaur
 Tum Mile + Tum Hi Ho|Tu Mile & Tum Hi Ho
 Tum Mujhe Yun|Tum Mujhe Yun
 Tum Mujhe Yun|Tum Mujhe Yu Bhula Na Paoge
+Tum Mujhe Yun|तुम मुझे यूँ भुला न पाओगे
 Tum Mujhe Yun|Tum Mujhe Yun Bhula
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
@@ -3872,6 +3891,7 @@ Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
+Tum Saath Ho Jab Apne|Tum Saath Ho Jab Apne Male
 Tum Se Hi|Tum Se Hi
 Tum Se Hi|Tum Se Hi Jab We Met
 Tum Se Hi|Tum Se Hi Female
@@ -3962,6 +3982,7 @@ Waada Karle Saajna|Wada Karle Sajna
 Waada Karle Saajna|Wada Karle Wada Karle
 Waada Karle Saajna|Wada Karle
 Waada Karle Saajna|Wada Karle Sajna Tere Bin
+Waada Karle Saajna|Wada Karle Sajna Tere Bina Mai Na Rahun
 Waada Karo Jaanam|Waada Karo Janam
 Waada Karo Nahi Chhodoge|Waada Karo Nahi Chhodoge Tum Mera Saath
 Waada Karo Nahi Chhodoge|Wada Karo
@@ -4268,6 +4289,8 @@ Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha
 Zehenaseeb|Zahnaseeb
 Zihaal E Miskin|Zihaal E Miskin
+Zihaal E Miskin|Zihaal
+Zihaal E Miskin|Zihaal E Miskin New 2023
 Zindagi Aa Raha Hoon Main|Zindagi Aa Raha Hoon Main
 Zindagi Ek Safar Hai Suhana|[Short™] Zindagi Ek Safar Hai Suhana [HQ]
 Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhana
