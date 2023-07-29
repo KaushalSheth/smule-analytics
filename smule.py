@@ -53,12 +53,27 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
 
+# Check if a given
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchLastInvite():
     global rsLastInvite
     # Get partner info to be used later
     printTs("Fetch lastInvite")
-    rsLastInvite = execDBQuery("select fixed_title as invite_title, 'https://www.smule.com/c/'||key as invite_url from my_performances where invite_ind = 1 order by created_at desc limit 1")
+    sqlquery = """
+        with last_invite as (
+            select  fixed_title as invite_title, 'https://www.smule.com/c/'||key as invite_url, key as invite_key
+            from    my_performances
+            where   invite_ind = 1
+            order by created_at desc
+            limit 1
+            )
+        select  i.invite_key, i.invite_title, i.invite_url,
+                string_agg(p.performers,',') as joiners
+        from    last_invite i
+                left outer join my_performances p on p.parent_key = i.invite_key
+        group by 1,2,3
+        """
+    rsLastInvite = execDBQuery(sqlquery)
     printTs("Done fetching")
     return rsLastInvite
 
@@ -442,10 +457,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         isFollowing = getPartnerInfo("partner_name",performers,"is_following")
         lastInviteTitle = getLastInvite('invite_title')
         lastInviteUrl = getLastInvite('invite_url')
+        lastInviteJoiners = getLastInvite('joiners')
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
+            # All of this will get overridden below (see comment for 6/9) - keeping it just in case we need to reinstate in the future
             recentPerfCount = getPartnerInfo("partner_name",performers,"recent_perf_cnt")
             # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
             if recentPerfCount > 0:
@@ -460,7 +477,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     #joinMessage = ""
                     joinMessage = " Looking forward to more joins from you as well"
             # As of 6/9, it is no longer possible to join expired invites, so always set the join message to join latest invite
-            joinMessage = f" Please join my latest invite for {lastInviteTitle}"
+            # Only ask to join if the performer has not already joined
+            #print(f"performers = {performers}, lastInviteJoiners = {lastInviteJoiners}")
+            if performers not in lastInviteJoiners:
+                joinMessage = f" Please join my latest invite for {lastInviteTitle}"
+            else:
+                joinMessage = " Thanks for joining my latest invite"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
