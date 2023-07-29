@@ -568,10 +568,12 @@ def create_app(test_config=None):
     # This method allows us to take various actions on the list of performances displayed
     @app.route('/submit_performances', methods=('GET','POST'))
     def submit_performances():
-        global user, performances
+        global user, performances, rsPartnerInfo, rsLastInvite
         # We can save the listed performances/favorites to the DB, download them all, or display them on a map (using leaflet)
         if request.form['btn'] == 'Save Performances':
             message = saveDBPerformances(user,performances)
+            rsPartnerInfo = fetchPartnerInfo()
+            rsLastInvite = fetchLastInvite()
         elif request.form['btn'] == 'Save Favorites':
             message = saveDBFavorites(user,performances)
         elif request.form['btn'] == 'Download All':
