@@ -111,12 +111,16 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     return performers
 
 # Method to query performers
-def fetchDBPerformerMapInfo(distance="500",dayssincelastperf="180"):
+def fetchDBPerformerMapInfo(utilitiesOptions):
+    distance = utilitiesOptions['distance']
+    dayssincelastperf = utilitiesOptions['dayssincelastperf']
+    centlat = utilitiesOptions['centlat']
+    centlon = utilitiesOptions['centlon']
     performerMapInfo = []
     sqlquery = f"""
         select  'performers' as create_type, last_perf_time as fixed_title, lat as owner_lat, lon as owner_lon, pic_url as display_pic_url, performed_by as display_handle, city as orig_track_city
         from    singer_location
-        where   miles_from_sr <= {distance}
+        where   calculate_distance({centlat},{centlon},lat,lon,'M') <= {distance}
         and     last_perf_time > current_timestamp - interval '{dayssincelastperf} days'
         and     not( smule_hq_ind )
         """
@@ -331,10 +335,40 @@ def saveDBPerformances(username,performances):
             db.session.rollback()
             # Uncomment following line for debugging purposes only
             raise
-
+    # Update parent_key column for joins
+    updateParentKeys()
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"
-
+# Update parent_key for joins
+def updateParentKeys():
+    sqlquery = """
+        update performance
+        set parent_key = i.invite_key
+        from (
+        with
+        joins as (select * from my_performances where join_ind = 1),
+        invites as (select * from my_performances where invite_ind = 1),
+        ji as (
+        	select 	j.key as join_key, j.fixed_title, j.created_at as join_created_at, j.performers,
+        			i.created_at as invite_created_at, i.key as invite_key
+        	from 	joins j
+        			inner join invites i on i.fixed_title = j.fixed_title and i.created_at <= j.created_at
+        	),
+        dups as (
+        	select 	join_key, fixed_title, join_created_at, performers,
+        			first_value(invite_created_at) over w as invite_created_at,
+        			first_value(invite_key) over w as invite_key
+        	from 	ji
+        	window w as (partition by join_key order by invite_created_at desc)
+        	)
+        select distinct join_key, invite_key from dups
+        ) i
+        where performer_handles like '%KaushalSheth1%'
+        and key = i.join_key
+        and parent_key is null
+        """
+    execDBQuery(sqlquery)
+    return 0
 # SAve title metadata to DB
 def saveDBTitleMetadata(titleMetadataList):
     i = 0

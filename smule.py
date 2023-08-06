@@ -68,7 +68,7 @@ def fetchLastInvite():
             limit 1
             )
         select  i.invite_key, i.invite_title, i.invite_url,
-                string_agg(p.performers,',') as joiners
+                string_agg(p.performers,',' order by p.created_at desc) as joiners
         from    last_invite i
                 left outer join my_performances p on p.parent_key = i.invite_key
         group by 1,2,3

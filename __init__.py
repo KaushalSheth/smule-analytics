@@ -14,7 +14,7 @@ from datetime import datetime
 # Set defaults for global variable that are used in the app
 searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
-utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular','distance':"500"}
+utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular','distance':"500",'centlat':"37.76",'centlon':"-121.89"}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'newtitles':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
 user = None
 search_user = None
@@ -242,6 +242,8 @@ def create_app(test_config=None):
             utilitiesOptions['url'] = request.form["url"]
             utilitiesOptions['distance'] = request.form["distance"]
             utilitiesOptions['dayssincelastperf'] = request.form["dayssincelastperf"]
+            utilitiesOptions['centlat'] = request.form["centlat"]
+            utilitiesOptions['centlon'] = request.form["centlon"]
             if toolName == "Recent Performers":
                 return redirect(url_for('title_performers', sort='recent'))
             elif toolName == "Popular Performers":
@@ -353,9 +355,9 @@ def create_app(test_config=None):
     def performer_map():
         global utilitiesOptions
 
-        performerMapInfo = fetchDBPerformerMapInfo(utilitiesOptions['distance'], utilitiesOptions['dayssincelastperf'])
+        performerMapInfo = fetchDBPerformerMapInfo(utilitiesOptions)
         flash(f"{len(performerMapInfo)} performers fetched from DB")
-        return render_template('map.html', performances=performerMapInfo)
+        return render_template('map.html', performances=performerMapInfo, options=utilitiesOptions)
 
     # This method queries the DB for title analytics using the relevant global variables
     @app.route('/query_analytics')

@@ -52,7 +52,7 @@
       <div class="field">
         <label class="label" for="fromdate">From Date</label>
         <div class="control">
-          <input name="fromdate" value="2023-07-01" type="input" class="input" required></input>
+          <input name="fromdate" value="2023-08-01" type="input" class="input" required></input>
         </div>
       </div>
 
@@ -131,7 +131,6 @@
 select partner_name, partner_account_id, recency_score, join_cnt, display_pic_url, join_last_30_days_cnt as recent_join_cnt
 from favorite_partner
 where partner_name != 'KaushalSheth1'
-and is_following
 and recency_score between 0 and 9999999
 -- Pick partners with at least half of last 10 performances rated 5, unless they have less than 3 ratings
 and ((last10_rating_cnt > 0 and last10_five_cnt*1.0/last10_rating_cnt >= 0.8) or last10_rating_cnt < 2)

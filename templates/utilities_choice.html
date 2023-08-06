@@ -36,13 +36,23 @@
         </div>
         <br>
         <div class="field is-grouped">
+          <label class="label" for="centlat">Center Latitude:&nbsp;</label>
+          <div class="control">
+              <input list="latlist" name="centlat" placeholder="37.76" type="input" class="input" size="10"></input>
+              <datalist id="latlist"><option value="37.76"><option value="22.93"><option value="38.89"><option value="-29.7"></datalist>
+          </div>
+          <label class="label" for="centlon">Center Longitude:&nbsp;</label>
+          <div class="control">
+              <input list="lonlist" name="centlon" placeholder="-121.89" type="input" class="input" size="10"></input>
+              <datalist id="lonlist"><option value="-121.89"><option value="79.52"><option value="-95.78"><option value="145.86"></datalist>
+          </div>
           <label class="label" for="distance">Distance (miles):&nbsp;</label>
           <div class="control">
-              <input name="distance" value="2500" type="input" class="input" size="30"></input>
+              <input name="distance" value="2500" type="input" class="input" size="10"></input>
           </div>
           <label class="label" for="dayssincelastperf">Days since Last Performance:&nbsp;</label>
           <div class="control">
-                <input name="dayssincelastperf" value="180" type="input" class="input" size="30"></input>
+                <input name="dayssincelastperf" value="180" type="input" class="input" size="10"></input>
           </div>
           <div class="control">
             <input type="submit" name="btn" value="Performer Map" class="button is-link" />
