@@ -482,7 +482,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             if performers not in lastInviteJoiners:
                 joinMessage = f" Please join my latest invite for {lastInviteTitle}"
             else:
-                joinMessage = " Thanks for joining my latest invite"
+                joinMessage = f" Thanks for joining me on {lastInviteTitle}"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
