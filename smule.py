@@ -33,6 +33,7 @@ def getJSON(username,type="recording",offset=0,version="legacy"):
     except:
         # Ignore any errors
         printTs("Error fetching JSON")
+        raise
         pass
     return data
 
@@ -433,6 +434,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if gdb is not None:
             msg = performance['message']
             try:
+                # Remove any spaces after the "@"
+                msg = msg.replace('@ ','@')
                 prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
                 # If message contains any words starting with @, take the first one as the real performer handle. Strip out the leading @
                 if len(prf) > 0:
@@ -1002,6 +1005,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
                 pass
         else:
             print(str(e))
+            print(media_url)
         print("-----")
         #if (not "HTTP Error 504" in str(e)) and (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
             #raise

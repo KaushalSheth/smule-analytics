@@ -37,7 +37,7 @@ perf_stats as (
     from 	perf
     group by 1, 2, 3
 )
-select 	p.partner_account_id, p.partner_name, p.performance_cnt, p.join_cnt, p.favorite_cnt, p.recent_perf_cnt,
+select 	p.partner_account_id, coalesce(sf.handle, s.performed_by, p.partner_name) as partner_name, p.performance_cnt, p.join_cnt, p.favorite_cnt, p.recent_perf_cnt,
         p.performance_last_14_days_cnt, p.join_last_14_days_cnt, p.join_last_30_days_cnt, p.always_include_ind,
         least(10.0,1.0*p.performance_cnt/10) +
             least(10.0,1.0*p.join_cnt/2) +
