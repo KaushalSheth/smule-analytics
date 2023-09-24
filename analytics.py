@@ -250,13 +250,13 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             perf as (select mp.* from my_performances mp inner join dates on mp.created_at between dates.start_ts and dates.end_ts where performers != 'KaushalSheth1' {extrawhere}),
             -- Select top 50 partners/joiners/titles with max # performances since start date
             counts as (
-                select  {selcol} as count_column, count(*) as total_perf_cnt
+                select  {selcol} as count_column, {selcol} || ' (' || round(avg(rating_nbr)*20,0) || ')' as display_column, count(*) as total_perf_cnt
                 from    perf
                 group by 1
-                order by 2 desc
+                order by 3 desc
                 limit 50
                 )
-            select  c.count_column as {outcol}, to_char(mp.created_at,'YYYY-MM') as perf_month, count(*) as perf_cnt
+            select  c.display_column as {outcol}, to_char(mp.created_at,'YYYY-MM') as perf_month, count(*) as perf_cnt
             from    perf mp
                     inner join counts c on c.count_column = mp.{selcol}
             group by 1,2
