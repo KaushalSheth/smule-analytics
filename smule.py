@@ -3,7 +3,7 @@ from urllib import request
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .constants import *
-from .utils import fix_title, build_comment, printTs
+from .utils import fix_title, build_comment, printTs, getJSON
 from os import path
 from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing, saveDBGeoCache, fetchDBUserFollowing
 from datetime import datetime, timedelta, date
@@ -16,26 +16,6 @@ import geocoder
 # Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
 # Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
 # Playlist content next set: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=1:1258506160_4326482333
-
-# Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username,type="recording",offset=0,version="legacy"):
-    data = None
-    try:
-        if version == "legacy":
-            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
-        elif type == "following":
-            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
-        else:
-            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
-        #print(urlstring)
-        with request.urlopen(urlstring) as url:
-            data = json.loads(url.read())
-    except:
-        # Ignore any errors
-        printTs("Error fetching JSON")
-        raise
-        pass
-    return data
 
 # Populate the global rsPartnerInfo variable by querying the database
 def fetchPartnerInfo():
@@ -54,37 +34,40 @@ def getPartnerInfo(searchColumnName,searchValue,returnColumnName):
     except NameError: fetchPartnerInfo()
     return next((r[returnColumnName] for r in rsPartnerInfo if r[searchColumnName] == searchValue), 0)
 
-# Check if a given
-# Populate the global rsPartnerInfo variable by querying the database
-def fetchLastInvite():
-    global rsLastInvite
-    # Get partner info to be used later
-    printTs("Fetch lastInvite")
-    sqlquery = """
-        with last_invite as (
-            select  fixed_title as invite_title, 'https://www.smule.com/c/'||key as invite_url, key as invite_key
-            from    my_performances
-            where   invite_ind = 1
-            order by created_at desc
-            limit 1
-            )
-        select  i.invite_key, i.invite_title, i.invite_url,
-                string_agg(p.performers,',' order by p.created_at desc) as joiners
-        from    last_invite i
-                left outer join my_performances p on p.parent_key = i.invite_key
-        group by 1,2,3
-        """
-    rsLastInvite = execDBQuery(sqlquery)
-    printTs("Done fetching")
-    return rsLastInvite
+# Fetch open invites along with partners who have joined
+def fetchOpenInvites():
+    global rsOpenInvites, rsInviteJoins, gTitleMappings
+    printTs("Fetch openInvites")
+    rsOpenInvites = []
+    rsInviteJoins = []
+    # Fetch open invites from Smmule
+    openInvites = getJSON("KaushalSheth1","active_seed",0,"search")
+    for invite in openInvites['list']:
+        # Add invite to list of open invites
+        fixedTitle = fix_title(invite['title'],gTitleMappings)
+        rsOpenInvites.append(fixedTitle)
+        # Fetch list of partners who have joined the invite
+        inviteKey = invite['key']
+        rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
+        rsInviteJoins.extend(rs)
+    #print(rsInviteJoins)
+    return rsOpenInvites, rsInviteJoins
 
-# Return the specified attribute from rsLastInvite
-def getLastInvite(columnName):
-    global rsLastInvite
-    # If rsLastInvite is not defined, then populate it
-    try: rsLastInvite
-    except NameError: fetchLastInvite()
-    return rsLastInvite[0][columnName]
+# For the specified user, get a random open invite they have not joined yet
+def getOpenInvite(partner):
+    global rsOpenInvites, rsInviteJoins
+    try: rsOpenInvites
+    except NameError: fetchOpenInvites()
+    invite = ""
+    # Loop through the open invites in random order and return the first one that the partner has not joined yet
+    for invite in random.sample(rsOpenInvites,len(rsOpenInvites)):
+        # Find the list of joiners for this invite, and then check if the partner has joined it
+        joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite), None)
+        #print(f"Partner = {partner}, Invite = {invite}")
+        #print(f"Partner = {partner}, Invite = {invite}, Joiners = {joiners}")
+        if (joiners == None) or (partner not in joiners):
+            break
+    return invite
 
 def fetchGeoCache():
     global rsGeoCache
@@ -265,7 +248,7 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             performancesStr = performancesStr.replace('"HD"','')
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
+            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=gTitleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
@@ -287,7 +270,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
     sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
     invites = execDBQuery(sqlquery)
     printTs(f"Start {mindate}")
-    titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+    gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
     for i in invites:
         web_url = i['web_url']
         childCount = i['child_count']
@@ -313,7 +296,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
             print("============")
             print(f"createdAt = {createdAt}, web_url = {web_url}")
             print(f"Counts differ - need to parse ensembles for this invite: ChildCount = {childCount}, collabCount = {collabCount}")
-            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=titleMappings)
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=gTitleMappings)
             performances.extend(ensembleList)
             res = execDBQuery(f"update performance set child_count = {collabCount}, updated_at = current_timestamp where key = '{perfKey}'")
             printTs("Done")
@@ -387,7 +370,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             continue
         # If we're processing ensembles, the parent title will be passed in, so use that to override the performance title because ensemble titles strip out special characters
         if parentTitle == "":
-            fixedTitle = fix_title(performance['title'],titleMappings)
+            fixedTitle = fix_title(performance['title'],gTitleMappings)
         else:
             fixedTitle = parentTitle
         # If possible, we want to set performers to a value other than the username we are searching for
@@ -458,9 +441,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
         isFollowing = getPartnerInfo("partner_name",performers,"is_following")
-        lastInviteTitle = getLastInvite('invite_title')
-        lastInviteUrl = getLastInvite('invite_url')
-        lastInviteJoiners = getLastInvite('joiners')
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
@@ -479,13 +459,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 else:
                     #joinMessage = ""
                     joinMessage = " Looking forward to more joins from you as well"
-            # As of 6/9, it is no longer possible to join expired invites, so always set the join message to join latest invite
-            # Only ask to join if the performer has not already joined
-            #print(f"performers = {performers}, lastInviteJoiners = {lastInviteJoiners}")
-            if performers not in lastInviteJoiners:
-                joinMessage = f" Please join my latest invite for {lastInviteTitle}"
-            else:
-                joinMessage = f" Thanks for joining me on {lastInviteTitle}"
+            # If there are any open invites the performer has not yet joined, invite them to join
+            openInvite = getOpenInvite(performers)
+            if openInvite != "":
+                joinMessage = f" Please join my invite for {openInvite}"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -644,7 +621,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
 
 # Method to fetch Title Mappings from text file
 def fetchFileTitleMappings(filename):
-    titleMappings = {}
+    global gTitleMappings
+    gTitleMappings = {}
     # First, load the data into a list and sort it by length of the first column
     f = open(filename,'r',encoding='UTF-8')
     fc = csv.reader(f,delimiter="|")
@@ -653,8 +631,8 @@ def fetchFileTitleMappings(filename):
     # Next, loop through the sorted list and build the dict
     for row in sfc:
         #print(row[1])
-        titleMappings[row[1]] = row[0]
-    return titleMappings
+        gTitleMappings[row[1]] = row[0]
+    return gTitleMappings
 
 # Method to fetch invites for partners identified by the partner SQL passed in
 def fetchPartnerInvites(inviteOptions,numrows):
@@ -880,7 +858,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
-    global rsGroupHandles
+    global rsGroupHandles, gTitleMappings
 
     contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
@@ -902,8 +880,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
     # Iinitialize all other variables used in the method
     stop = False
     performanceList = []
-    #titleMappings = fetchDBTitleMappings()
-    titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+    #gTitleMappings = fetchDBTitleMappings()
+    gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
 
     # When the last result page is received, next_offset will be set to -1, so keep processing until we get to that state
     while next_offset >= 0:
@@ -925,7 +903,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         for performance in performances['list']:
             last_created_date = performance['created_at']
             #print(performance['web_url'])
-        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=titleMappings,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
+        responseList = createPerformanceList(username,performances,mindate,maxdate,i,maxperf,type,titleMappings=gTitleMappings,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
 
         # The createPerformanceList method returns a list which contains the values for stop, i and performanceList as the 3 elements (in that order)
         stop = responseList[0]
@@ -944,8 +922,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         performances = getJSON(username,"active_seed",0,"search")
         #print(performances)
         if performances != None:
-            responseList = createPerformanceList(username,performances,mindate,maxdate,i,9999,type,titleMappings=titleMappings,ensembleMinDate=mindate,searchOptions=searchOptions)
-            #responseList = createPerformanceList(username,performances,'2022-11-01',maxdate,i,9999,type,titleMappings=titleMappings,ensembleMinDate='2022-11-01',searchOptions=searchOptions)
+            responseList = createPerformanceList(username,performances,mindate,maxdate,i,9999,type,titleMappings=gTitleMappings,ensembleMinDate=mindate,searchOptions=searchOptions)
+            #responseList = createPerformanceList(username,performances,'2022-11-01',maxdate,i,9999,type,titleMappings=gTitleMappings,ensembleMinDate='2022-11-01',searchOptions=searchOptions)
             #print(responseList)
             performanceList.extend(responseList[2])
     # If rsGroupHandles exists, delete it at the end of processing so that we reload a fresh version each time

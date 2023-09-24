@@ -2,6 +2,8 @@ import re
 import random
 from datetime import datetime
 from .constants import *
+import json, re, csv
+from urllib import request
 
 COMMENTS = {\
     'awesome':['fantastic performance 👌👌👌👌','amazing performance 👌👌👌👌','awesome performance 👌👌👌👌'],\
@@ -24,6 +26,26 @@ def build_comment(prefix="",suffix=""):
         'ok':prefix + random.choice(COMMENTS['ok']) + suffix\
         }
     return comment
+
+# Generic method to get various JSON objects for the username from Smule based on the type passed in
+def getJSON(username,type="recording",offset=0,version="legacy"):
+    data = None
+    try:
+        if version == "legacy":
+            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+        elif type == "following":
+            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
+        else:
+            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
+        #print(urlstring)
+        with request.urlopen(urlstring) as url:
+            data = json.loads(url.read())
+    except:
+        # Ignore any errors
+        printTs("Error fetching JSON")
+        raise
+        pass
+    return data
 
 # The title field we get from Smule for performances contains many letters and words that are not appropriate for the filename
 # Fix the title to remove/replace these so that we can use this "fixed" title in the filename

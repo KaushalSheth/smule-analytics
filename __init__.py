@@ -4,7 +4,7 @@ import asyncio
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchLastInvite, fetchDBInviteJoins
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchOpenInvites, fetchDBInviteJoins
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
@@ -20,7 +20,7 @@ user = None
 search_user = None
 performances = None
 numrows = 200
-titleMappings = None
+gTitleMappings = None
 rsPartnerInfo = None
 
 def update_currtime():
@@ -433,9 +433,9 @@ def create_app(test_config=None):
     # This executes smule function to get partner information (number of joins, etc.)
     @app.route('/get_partner_info')
     def get_partner_info():
-        global rsPartnerInfo, rsLastInvite
+        global rsPartnerInfo, rsOpenInvites, rsInviteJoins
         rsPartnerInfo = fetchPartnerInfo()
-        rsLastInvite = fetchLastInvite()
+        rsOpenInvites, rsInviteJoins = fetchOpenInvites()
         flash(f"{len(rsPartnerInfo)} partner info rows retrieved from DB")
         return redirect(url_for('search'))
 
@@ -515,37 +515,37 @@ def create_app(test_config=None):
     # This executes the db function to fetch performances using global variables set previously
     @app.route('/query_db_performances')
     def query_db_performances():
-        global user, numrows, performances, fromdate, todate, titleMappings, searchOptions
+        global user, numrows, performances, fromdate, todate, gTitleMappings, searchOptions
         # Load global variable for title mappings from file
-        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings,searchOptions)
+        performances = fetchDBPerformances(user,numrows,fromdate,todate,gTitleMappings,searchOptions)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
     # This executes the db function to fetch favorites from DB using global variables set previously
     @app.route('/query_db_favorites')
     def query_db_favorites():
-        global user, numrows, performances, fromdate, todate, titleMappings, searchOptions
+        global user, numrows, performances, fromdate, todate, gTitleMappings, searchOptions
         # Load global variable for title mappings from file
-        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Set DB Filter to only include favorites
         searchOptions['dbfilter'] = "favorite_ind = 1"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate,titleMappings,searchOptions)
+        performances = fetchDBPerformances(user,numrows,fromdate,todate,gTitleMappings,searchOptions)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
     # This executes the db function to fix titles in the DB
     @app.route('/fix_db_titles')
     def fix_db_titles():
-        global titleMappings
+        global gTitleMappings
         # Load global variable for title mappings from file
-        titleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Fix the titles using this global variable
-        fixCount = fixDBTitles(titleMappings)
+        fixCount = fixDBTitles(gTitleMappings)
         flash(f"{fixCount} titles fixed in database")
         return redirect(url_for('search'))
 
@@ -570,12 +570,12 @@ def create_app(test_config=None):
     # This method allows us to take various actions on the list of performances displayed
     @app.route('/submit_performances', methods=('GET','POST'))
     def submit_performances():
-        global user, performances, rsPartnerInfo, rsLastInvite
+        global user, performances, rsPartnerInfo, rsOpenInvites, rsInviteJoins
         # We can save the listed performances/favorites to the DB, download them all, or display them on a map (using leaflet)
         if request.form['btn'] == 'Save Performances':
             message = saveDBPerformances(user,performances)
             rsPartnerInfo = fetchPartnerInfo()
-            rsLastInvite = fetchLastInvite()
+            rsOpenInvites, rsInviteJoins = fetchOpenInvites()
         elif request.form['btn'] == 'Save Favorites':
             message = saveDBFavorites(user,performances)
         elif request.form['btn'] == 'Download All':

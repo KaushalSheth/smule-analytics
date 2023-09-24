@@ -13,6 +13,7 @@ Aa Bhi Jaa|Aa Bhi Jaa Aa Βhi Jaa
 Aa Bhi Jaa|0Aa Bhi Jaa
 Aa Bhi Jaa|Aa Bhi Ja
 Aa Bhi Jaa|Aabhi Jaa Bhi Jaa Bhi
+Aa Bhi Jaa|Aa Bhi Jaa Aabhijaa Aabhija
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Aa Chal Ke Tujhe
 Aa Chal Ke Tujhe|Aa Chalke Tujhe
@@ -116,6 +117,7 @@ Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur, Aaja Sanam Madhur Chandani
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Mein Ham
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Me Hum
 Aaja Sanam Madhur Chandni Mein|Aa Ja Sanamm Madhur Chaandne
+Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandani Me Hum
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Aayi
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Ayee
 Aaja Shaam Hone Aayi|ᴴᴰ Aaja shaam hone aayi ( clear karaoke )
@@ -582,6 +584,7 @@ Baahon Ke Darmiyaan|Bahon Ke Darmiyankhamoshi
 Baahon Ke Darmiyaan|Bahon Ke Darmiyanme
 Baahon Ke Darmiyaan|Bahon Ke Darmiyanbaahonnew Khamoshi
 Baahon Ke Darmiyaan|Bahon Ke Darmiyan Hariharan
+Baahon Ke Darmiyaan|Bahon Ke Darmiyan Baahon Ke Darmiyan
 Baahon Mein Chale Aao|Bahon Mein Chale Aao
 Baahon Mein Chale Aao|Bahon Mein Chali Aao Sweet
 Baahon Mein Chale Aao|Bahon Mein
@@ -666,6 +669,7 @@ Beqarar Karke Hamein|Beqaraar Karke Humein
 Beqarar Karke Hamein|Bekarar Karke Hume
 Beqarar Karke Hamein|Beqarar Karke Humein
 Beqarar Karke Hamein|बेक़रार करके हमें यूँ ना जाइये
+Beqarar Karke Hamein|Bekarar Karke Bekarar Karke Bekarar
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bhanwara Bada Naadaan|भंवरा बड़ा नादान हाये बगियन Bhanwra Bada Haye
@@ -1252,6 +1256,7 @@ Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics
 Dillagi Ne Di Hawa|~ Dillagi Ne Di Hawa
+Dilruba Dil Pe Tu Ye Sitam Kiye Ja|Dilruba Dil Pe Tu Ye Sitam Kiye Ja
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
 Din Dhal Jaaye Haaye|Din Dhal Jaye
@@ -3328,6 +3333,7 @@ Rimjhim Rimjhim|Rimjim Rimjim Rumjum Rumjum
 Rimjhim Rimjhim|Rimjhim Rimjhim Song
 Rocking Medley|Rocking Medley
 Roja Jaaneman|Roja Jaaneman
+Rocky Aur Rani Caravan Medley|Saregama Carvaan Medley Rrkpk
 Roop Suhana Lagta Hai|Roop Suhana Lagta Hai
 Roop Suhana Lagta Hai|Roop Suhana Lagta
 Roop Tera Mastana|Roop Tera
@@ -3695,6 +3701,7 @@ Tere Chehre Se|Tere Chehre Se Nazar Nahin
 Tere Chehre Se|Tere Chehre Se Nazar Nahi Hatati
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dar Par Sanam|Tere Dar Par Sanam Sanam
+Tere Dard Se Dil|Tere Dard Se Dil Abad Raha Tere
 Tere Dil Ka Mere Dil Se|Tere Dil Ka Mere Dil Se
 Tere Ghar Ke Saamne|Ek Ghar Banaunga
 Tere Ghar Ke Saamne|Tere Ghar Ke Saamne
@@ -4254,6 +4261,7 @@ Yaad Kiya Dil Ne|Yaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
+Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye
 Yaad Piya Ki Aane Lagi|Yaad Piya Ki Aane Lagi
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hai
 Yaadein Yaad Aati Hain|Yaadein Yaad Aati Hain
