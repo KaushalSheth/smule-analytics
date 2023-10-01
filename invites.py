@@ -129,6 +129,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
             sortedPartnerInvites = sorted(partnerInvites, key=lambda k: f"{k['isNotNewTitle']} {k['created_at']}")
             # Loop through the sorted partenr list
             for p in sortedPartnerInvites:
+                # if the performer does not match the partnerHandle we are searching for, skip the invite
+                if p['performers'] != partnerHandle:
+                    continue
                 #print(f"{p['isNotNewTitle']} {p['isRepeat']} {p['created_at']} {p['fixed_title']}")
                 # Extract the calculated flags and delete them from list as they are not meant to be part of performanceList
                 isRepeat = p['isRepeat']

@@ -40,8 +40,10 @@ def fetchOpenInvites():
     printTs("Fetch openInvites")
     rsOpenInvites = []
     rsInviteJoins = []
+    try: gTitleMappings
+    except NameError: gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
     # Fetch open invites from Smmule
-    openInvites = getJSON("KaushalSheth1","active_seed",0,"search")
+    openInvites = getJSON("KaushalSheth1","active_seed",0,"search",sort="popular")
     for invite in openInvites['list']:
         # Add invite to list of open invites
         fixedTitle = fix_title(invite['title'],gTitleMappings)
@@ -58,16 +60,20 @@ def getOpenInvite(partner):
     global rsOpenInvites, rsInviteJoins
     try: rsOpenInvites
     except NameError: fetchOpenInvites()
-    invite = ""
+    retVal = ""
     # Loop through the open invites in random order and return the first one that the partner has not joined yet
-    for invite in random.sample(rsOpenInvites,len(rsOpenInvites)):
+    #for invite in random.sample(rsOpenInvites,len(rsOpenInvites)):
+    # Loop through the open invites in reverse order (of popularity) and return the first one that the partner has not joined yet
+    for invite in reversed(rsOpenInvites):
         # Find the list of joiners for this invite, and then check if the partner has joined it
         joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite), None)
         #print(f"Partner = {partner}, Invite = {invite}")
-        #print(f"Partner = {partner}, Invite = {invite}, Joiners = {joiners}")
         if (joiners == None) or (partner not in joiners):
+            #print(f"Partner = {partner}, Invite = {invite}, Joiners = {joiners}")
+            retVal = invite
             break
-    return invite
+    #print(f"Partner = {partner}, Not Joined = {retVal}")
+    return retVal
 
 def fetchGeoCache():
     global rsGeoCache
@@ -462,7 +468,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             # If there are any open invites the performer has not yet joined, invite them to join
             openInvite = getOpenInvite(performers)
             if openInvite != "":
-                joinMessage = f" Please join my invite for {openInvite}"
+                joinMessage = f" Please join my invite for {openInvite} or ones you like"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -596,26 +602,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         except:
             pass
             raise
-
-        # If ct is "invite" and joins flag is True, then process the joins and append to the performance list
-        # if ct == "invite" and joins:
-        #     ensembleList = parseEnsembles(username,web_url_full,fixedTitle,titleMappings=titleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
-        #     # Only append the joins if the filterType is not Invites.  For Invites, simply concatenate the list of joiners into the joiners string for the invite
-        #     if filterType == "invites":
-        #         for j in ensembleList:
-        #             joiners += j['partner_name'] + ", "
-        #         joiners = joiners.strip(", ")
-        #         performanceList[-1]['joiners'] = joiners
-        #     else:
-        #         # If there are no matching joins for an invite, remove the invite
-        #         # Also delete the invite if we are only getting solos and the owner is the username
-        #         if ((len(ensembleList) == 0) or (solo and ownerHandle == username)):
-        #             del performanceList[-1]
-        #             i -= 1
-        #         # If ensembleList is not empty, add the joins to the performance list
-        #         if len(ensembleList) > 0:
-        #             performanceList.extend(ensembleList)
-        #             i += len(ensembleList)
 
     return [ stop, i, performanceList ]
 

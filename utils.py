@@ -28,7 +28,7 @@ def build_comment(prefix="",suffix=""):
     return comment
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username,type="recording",offset=0,version="legacy"):
+def getJSON(username,type="recording",offset=0,version="legacy",sort="recent"):
     data = None
     try:
         if version == "legacy":
@@ -36,7 +36,7 @@ def getJSON(username,type="recording",offset=0,version="legacy"):
         elif type == "following":
             urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
         else:
-            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort=recent&offset={offset}&size=0"
+            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
         #print(urlstring)
         with request.urlopen(urlstring) as url:
             data = json.loads(url.read())

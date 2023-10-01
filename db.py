@@ -335,7 +335,7 @@ def saveDBPerformances(username,performances):
             db.session.rollback()
             # Uncomment following line for debugging purposes only
             raise
-    # Update parent_key column for joins
+    # Update parent_key column for joins to the most recent invite
     updateParentKeys()
     # Return a message indicating how many performances were successfully processed out of the total
     return f"{i} out of {len(performances)} performances processed"
