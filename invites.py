@@ -90,9 +90,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
                 break
 
             isFollowing = partnerAccountId in followingAccountIds
-            # If the "notfollowing" option is set (true) then only include partners I'm not following.  Otherwise, only include partners I'm following.
+            # If the "notfollowing" option is set (true) then include partners I'm not following.  Otherwise, only include partners I'm following.
             # If the conditions are not met, skip this partner and process next one
-            if ( (notfollowing and isFollowing) or (not notfollowing and not isFollowing) ):
+            if ( (not notfollowing and not isFollowing) ):
                 printTs(f"--- NOT FOLLOWING {partnerHandle}")
                 continue
             # Fetch all invites for the partner
