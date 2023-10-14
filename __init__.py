@@ -434,8 +434,8 @@ def create_app(test_config=None):
     @app.route('/get_partner_info')
     def get_partner_info():
         global rsPartnerInfo, rsOpenInvites, rsInviteJoins
-        rsPartnerInfo = fetchPartnerInfo()
         rsOpenInvites, rsInviteJoins = fetchOpenInvites()
+        rsPartnerInfo = fetchPartnerInfo()
         flash(f"{len(rsPartnerInfo)} partner info rows retrieved from DB")
         return redirect(url_for('search'))
 

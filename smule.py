@@ -52,6 +52,8 @@ def fetchOpenInvites():
         inviteKey = invite['key']
         rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
         rsInviteJoins.extend(rs)
+    # Radomize the list
+    rsOpenInvites = random.sample(rsOpenInvites,len(rsOpenInvites))
     #print(rsInviteJoins)
     return rsOpenInvites, rsInviteJoins
 
@@ -64,7 +66,7 @@ def getOpenInvite(partner):
     # Loop through the open invites in random order and return the first one that the partner has not joined yet
     #for invite in random.sample(rsOpenInvites,len(rsOpenInvites)):
     # Loop through the open invites in reverse order (of popularity) and return the first one that the partner has not joined yet
-    for invite in reversed(rsOpenInvites):
+    for invite in rsOpenInvites:
         # Find the list of joiners for this invite, and then check if the partner has joined it
         joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite), None)
         #print(f"Partner = {partner}, Invite = {invite}")
@@ -844,8 +846,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
-    global rsGroupHandles, gTitleMappings
-
+    global rsGroupHandles, gTitleMappings, rsOpenInvites, rsInviteJoins
+    # Fech open invites
+    rsOpenInvites, rsInviteJoins = fetchOpenInvites()
     contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
