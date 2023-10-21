@@ -53,7 +53,7 @@
 select fixed_title,min(created_at)
 from my_performances
 group by 1
-having min(created_at) > now() - interval '3 days'
+having min(created_at) > now() - interval '1 days'
           </textarea>
         </div>
       </div>

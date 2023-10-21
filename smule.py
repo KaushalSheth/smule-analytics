@@ -848,7 +848,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
     global rsGroupHandles, gTitleMappings, rsOpenInvites, rsInviteJoins
     # Fech open invites
-    rsOpenInvites, rsInviteJoins = fetchOpenInvites()
+    #rsOpenInvites, rsInviteJoins = fetchOpenInvites()
     contentType,solo,joins = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
