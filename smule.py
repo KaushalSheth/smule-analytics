@@ -54,15 +54,16 @@ def fetchOpenInvites():
         rsInviteJoins.extend(rs)
     # Radomize the list
     rsOpenInvites = random.sample(rsOpenInvites,len(rsOpenInvites))
-    #print(rsInviteJoins)
+    print(rsOpenInvites)
     return rsOpenInvites, rsInviteJoins
 
-# For the specified user, get a random open invite they have not joined yet
-def getOpenInvite(partner):
+# For the specified user, get a random open invite they have not joined yet. If index is specified, fetch that element from the list
+def getOpenInvite(partner,index=1):
     global rsOpenInvites, rsInviteJoins
     try: rsOpenInvites
     except NameError: fetchOpenInvites()
     retVal = ""
+    i = 0
     # Loop through the open invites in random order and return the first one that the partner has not joined yet
     #for invite in random.sample(rsOpenInvites,len(rsOpenInvites)):
     # Loop through the open invites in reverse order (of popularity) and return the first one that the partner has not joined yet
@@ -71,7 +72,11 @@ def getOpenInvite(partner):
         joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite), None)
         #print(f"Partner = {partner}, Invite = {invite}")
         if (joiners == None) or (partner not in joiners):
-            #print(f"Partner = {partner}, Invite = {invite}, Joiners = {joiners}")
+            # Increment counter and continue if counter is less than the index Specified
+            i += 1
+            if i < index:
+                print(f"getOpenInvite - {partner} skipping {i}")
+                continue
             retVal = invite
             break
     #print(f"Partner = {partner}, Not Joined = {retVal}")
@@ -327,6 +332,7 @@ def extractSearchOptions(searchOptions):
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
     performanceList = []
+    performerList = []
     stop = False
     i = n
     contentType, solo, joins = extractSearchOptions(searchOptions)
@@ -445,6 +451,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 print(f"FAILED TO PARSE MESSAGE: {msg}")
                 pass
         filename_base = f"{fixedTitle} - {performers}"
+        # Keep track of the performer for each performance in this list so that we can count the number of performances for that performer
+        performerList.append(performers)
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
@@ -468,7 +476,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     #joinMessage = ""
                     joinMessage = " Looking forward to more joins from you as well"
             # If there are any open invites the performer has not yet joined, invite them to join
-            openInvite = getOpenInvite(performers)
+            openInvite = getOpenInvite(performers,performerList.count(performers))
             if openInvite != "":
                 joinMessage = f" Please join my invite for {openInvite} or ones you like"
             comment = build_comment('@' + performers + ' ', joinMessage)
