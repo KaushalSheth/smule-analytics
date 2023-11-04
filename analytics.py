@@ -247,7 +247,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         sqlquery = f"""with
             -- Set start date to 12 months ago
             dates as (select date_trunc('MON',now()) - interval '13 months' as start_ts, date_trunc('MON',now()) - interval '1 second' as end_ts),
-            perf as (select mp.* from my_performances mp inner join dates on mp.created_at between dates.start_ts and dates.end_ts where performers != 'KaushalSheth1' {extrawhere}),
+            perf as (select mp.* from my_performances mp inner join dates on mp.created_at between dates.start_ts and dates.end_ts where performers not in ('KaushalSheth1','HMA_Official') {extrawhere}),
             -- Select top 50 partners/joiners/titles with max # performances since start date
             counts as (
                 select  {selcol} as count_column, {selcol} || ' (' || round(avg(rating_nbr)*20,0) || ')' as display_column, count(*) as total_perf_cnt

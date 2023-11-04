@@ -75,7 +75,7 @@ def getOpenInvite(partner,index=1):
             # Increment counter and continue if counter is less than the index Specified
             i += 1
             if i < index:
-                print(f"getOpenInvite - {partner} skipping {i}")
+                #print(f"getOpenInvite - {partner} skipping {i}")
                 continue
             retVal = invite
             break

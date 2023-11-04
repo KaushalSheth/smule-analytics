@@ -69,9 +69,10 @@ def fetchPartnerInvites(inviteOptions,numrows):
         # Define constants used in this method
         MAX_KNOWN = inviteOptions['maxknown']
         MAX_UNKNOWN = inviteOptions['maxunknown']
-        # Since invites typically expire after 7 days, we will set max date to now and mindate to now - 5 days (to give some buffer before it expires)
+        dayslookback = inviteOptions['dayslookback']
+        # Set mindate to the dayslookback days ago
         currTime = datetime.now()
-        mindate = (currTime - timedelta(5)).strftime(DATEFORMAT)
+        mindate = (currTime - timedelta(dayslookback)).strftime(DATEFORMAT)
         maxdate = currTime.strftime(DATEFORMAT)
 
         partnerSort = stopScore
