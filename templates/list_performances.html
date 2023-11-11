@@ -39,7 +39,7 @@
     <tbody>
 {%- for performance in performances -%}
   {% if performance.create_type == "ensemble" %}
-      <tr style="color:Green">
+      <tr style="color:Orange">
   {%- elif performance.create_type == "invite" -%}
     {% if performance.perf_status == "e" %}
       <tr style="color:Red">
@@ -61,13 +61,13 @@
 {%- endif -%}
         </td>
   {%- if searchOptions['offline'] -%}
-        <td style="color:Black"><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"></a><<br>{{ performance.display_handle }}</td>
-  {%- elif performance.join_cnt == "0|0" -%}
-        <td style="color:Red"><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
+        <td style="color:Black"><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><<br>{{ performance.display_handle }}</a></td>
+  {%- elif performance.join_cnt.startswith("0|") -%}
+        <td style="background-color:Pink"><a href="http://www.smule.com/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
   {%- elif performance.recent_join_cnt > 0 -%}
-        <td style="color:Blue"><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
+        <td style="background-color:LightGreen"><a href="http://www.smule.com/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
   {%- else -%}
-        <td style="color:Black"><a href="/search_smule_user/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"></a><br>{{ performance.display_handle }}</td>
+        <td style="background-color:LightYellow"><a href="http://www.smule.com/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
   {%- endif -%}
         <td style="text-align:center">{{ performance.join_cnt }}</td>
         {%- if searchOptions['searchType'] == "partnerinvites" -%}

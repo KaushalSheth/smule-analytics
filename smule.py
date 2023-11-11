@@ -545,7 +545,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 orig_track_country = "Unknown"
                 #raise
         total_listens = performance['stats']['total_listens']
-        join_cnt = f"{total_listens}|{joinCount}|{recentJoinCount}"
+        join_cnt = f"{joinCount}|{recentJoinCount}"
         if not isFollowing:
             join_cnt += " (nf)"
         # If performance is a join, set ct to "ensemble" so it gets color coded correctly
