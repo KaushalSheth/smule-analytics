@@ -161,7 +161,7 @@ def fetchPartnerInvites(inviteOptions,numrows):
                         # p['total_loves'] = partnerSort
                         p['total_loves'] = getPartnerInfo("partner_name",p['performers'],"last10_rating_str")
                         # Update the join_cnt and recent_join_count values to use the partner values
-                        p['join_cnt'] = joinCount
+                        p['join_cnt'] = f"{joinCount}|{recentJoinCount}"
                         p['recent_join_cnt'] = recentJoinCount
                         finalPartnerInvites.append(p)
                         # We will limit each partner to MAX_INVITES invites, so break out of loop when count reaches or exceeds this value
