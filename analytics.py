@@ -91,7 +91,11 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                 )
             select  s.{selcol} as {col1alias}, s.last_performance_time, s.first_performance_time, coalesce(fp.recency_score, fs.adj_weighted_cnt, 0) as score, s.first_list_col as {col2alias},
                     (((length(s.join_list) - length(replace(s.join_list::varchar,', ',''))) / 2) + 1) as distinct_list_cnt,
-                    s.performance_cnt, s.join_cnt,
+                    case
+                        when '{selcol}' = 'performers' then '<a href=/query_db_performances/user/' || s.{selcol} || ' target="_blank">' || s.performance_cnt || '</a>'
+                        else '<a href=/query_db_performances/title/' || replace(s.{selcol},' ','_') || ' target="_blank">' || s.performance_cnt || '</a>'
+                    end as performance_link_str,
+                    s.join_cnt,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
@@ -109,8 +113,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             ]
         sqlquery = f"""
             select  fixed_title as title_search, total_score, invite_recency_score, favorite_score_nbr, popularity_score,
-                    first_performance_score, performance_recency_score, num_all_performances, num_partners, num_invites,
-                    num_joins,
+                    first_performance_score, performance_recency_score,
+                    '<a href=/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || num_all_performances || '</a>' as performance_link_str,
+                    num_partners, num_invites, num_joins,
                     round(case when num_invites > 0 then num_joins*1.0/num_invites else 0 end,2) as join_ratio,
                     first_performance_time, last_performance_time, last_invite_time
             from    my_invite_analysis
@@ -130,7 +135,10 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle == 'Favorite Songs':
         headings = ['Song Name', 'Current Month', 'Adjusted Weighted Count', 'Random Sort', 'Weighted Count', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr, weighted_cnt, first_performance_time, last_performance_time, perf_cnt, perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
+            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
+                    weighted_cnt, first_performance_time, last_performance_time,
+                    '<a href=/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || perf_cnt || '</a>' as performance_link_str, 
+                    perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
             order by adj_weighted_cnt desc
             """
@@ -138,12 +146,16 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
         headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', 'First Perf Time', '# Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']
         sqlquery = f"""
             select  partner_name as user_search,
-                    round(case when recency_score > 100000 then recency_score - 100000 when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
+                    round(case when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
                     avg_rating_nbr as rating, last10_rating_str,
                     --round(case when rating = 99999 then 0 else rating end, 2) as rating,
                     case when join_cnt = 0 then null else round(performance_cnt/(join_cnt*1.0),2) end as perf_join_ratio,
                     case when performance_cnt = 0 then null else round(favorite_cnt/(performance_cnt*1.0),2) end as fav_perf_ratio,
-                    first_performance_time, performance_cnt, join_cnt, favorite_cnt, last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
+                    first_performance_time,
+                    '<a href=/query_db_performances/user/' || partner_name || ' target="_blank">' || performance_cnt || '</a>' as performance_link_str,
+                    join_cnt,
+                    '<a href=/query_db_favorites/' || partner_name || ' target="_blank">' || favorite_cnt || '</a>' as favorite_link_str,
+                    last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
                     days_till_first_join, first_join_time, last_join_time, rated_song_cnt
             from    favorite_partner
             where   performance_cnt > 0

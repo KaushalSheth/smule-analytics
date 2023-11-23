@@ -50,7 +50,7 @@
                 <a href="https://www.smule.com/search?q={{search_string}}&type=active_seed&sort=popular" target="_blank">Invites</a><br>
             </td>
     {%- else -%}
-            <td>{{ v }}</td>
+            <td>{{ v|safe }}</td>
     {%- endif -%}
   {% endfor %}
         </tr>

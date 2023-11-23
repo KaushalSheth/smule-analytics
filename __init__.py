@@ -22,6 +22,9 @@ performances = None
 numrows = 200
 gTitleMappings = None
 rsPartnerInfo = None
+fromdate = "2018-01-01"
+todate = "2030-01-01"
+numrows = 9999
 
 def update_currtime():
     global currtime
@@ -177,7 +180,7 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search Favorites':
                     searchtype = 'FAVORITES'
                     #return redirect(url_for('query_smule_favorites'))
-                    return redirect(url_for('query_db_favorites'))
+                    return redirect(url_for('query_db_favorites', username=user))
                 elif request.form['btn'] == 'Search Ensembles':
                     searchtype = 'ENSEMBLES'
                     return redirect(url_for('query_smule_ensembles'))
@@ -191,7 +194,7 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Top Performers':
                     return redirect(url_for('query_top_performers'))
                 elif request.form['btn'] == 'Search DB':
-                    return redirect(url_for('query_db_performances'))
+                    return redirect(url_for('query_db_performances', searchtype='user', searchval=user))
                 elif request.form['btn'] == 'Crawl Joiners':
                     return redirect(url_for('crawl_joiners', username=user))
                 elif request.form['btn'] == 'Fix Titles':
@@ -498,13 +501,6 @@ def create_app(test_config=None):
         flash(f"{len(performances)} joins fetched from Smule")
         return redirect(url_for('list_performances'))
 
-    # This method is not currently used - created it just for symmetry - may be removed later if no use is found
-    @app.route('/search_db_user/<username>')
-    def search_db_user(username):
-        global user
-        user = username
-        return redirect(url_for('query_db_performances'))
-
     # This method tags the specified performance as a favorite
     @app.route('/save_db_favorite/<perfkey>/<rating>')
     def save_db_favorite(perfkey,rating):
@@ -513,20 +509,27 @@ def create_app(test_config=None):
         return str(retVal)
 
     # This executes the db function to fetch performances using global variables set previously
-    @app.route('/query_db_performances')
-    def query_db_performances():
+    @app.route('/query_db_performances/<searchtype>/<searchval>')
+    def query_db_performances(searchtype,searchval):
         global user, numrows, performances, fromdate, todate, gTitleMappings, searchOptions
         # Load global variable for title mappings from file
         gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
+        # Set DB Filter based on searchtype
+        if searchtype == 'user':
+            searchOptions['dbfilter'] = "1 = 1"
+            username = searchval
+        else:
+            searchOptions['dbfilter'] = f"fixed_title ilike '{searchval}'"
+            username = ""
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate,gTitleMappings,searchOptions)
+        performances = fetchDBPerformances(username,numrows,fromdate,todate,gTitleMappings,searchOptions)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 
     # This executes the db function to fetch favorites from DB using global variables set previously
-    @app.route('/query_db_favorites')
-    def query_db_favorites():
+    @app.route('/query_db_favorites/<username>')
+    def query_db_favorites(username):
         global user, numrows, performances, fromdate, todate, gTitleMappings, searchOptions
         # Load global variable for title mappings from file
         gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
@@ -534,7 +537,7 @@ def create_app(test_config=None):
         searchOptions['dbfilter'] = "favorite_ind = 1"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
-        performances = fetchDBPerformances(user,numrows,fromdate,todate,gTitleMappings,searchOptions)
+        performances = fetchDBPerformances(username,numrows,fromdate,todate,gTitleMappings,searchOptions)
         flash(f"{len(performances)} performances fetched from database")
         return redirect(url_for('list_performances'))
 

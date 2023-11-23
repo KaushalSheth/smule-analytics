@@ -210,7 +210,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
     # Append ORDER BY clause - but only if the dbfilter does not already contain an ORDER BY clause
     if "order by" not in dbfilter.lower():
         sqlquery += " order by created_at desc"
-
+    #print(sqlquery)
     # Check the PerformanceSinger table for existence of the singer on the performance
     result = db.session.execute(text(sqlquery))
     for r in result:
