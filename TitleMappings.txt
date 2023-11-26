@@ -125,6 +125,7 @@ Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Mein Ham
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni Me Hum
 Aaja Sanam Madhur Chandni Mein|Aa Ja Sanamm Madhur Chaandne
 Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandani Me Hum
+Aaja Sanam Madhur Chandni Mein|Aaja Sanam Madhur Chandni
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Aayi
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Ayee
 Aaja Shaam Hone Aayi|ᴴᴰ Aaja shaam hone aayi ( clear karaoke )
@@ -756,6 +757,7 @@ Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
 Bole Chudiyan|Bole Chudiyan Bole
 Bole Chudiyan|Group Bole Chudiyan
+Bole Mera Kangna Tere Bin Sajna|Bole Mera Kangna Tere Bin Sajna Jkk
 Bole Re Papihara|Bole Re Papihara
 Bollywood Romantic Medley|Bollywood Romantic Medley
 Can't Help Falling In Love|Can'T Help Falling In Love
@@ -1910,6 +1912,7 @@ Jaane Jaan Dhoondta|109 Jaane Jaa Dhoondta Phir
 Jaane Jaan Dhoondta|Jaane Jaan Dhundta Phir Raha
 Jaane Jaan Dhoondta|Jaane Jaan Dhoondhta Phir Raha
 Jaane Jaan Dhoondta|Song Jaane Jaan Dhundta Phir Raha
+Jaane Jaan Dhoondta|Jane Jaan Dhoondhta Phir Raha
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman
 Jaane Jigar Jaaneman|Jaane Jigar Janeman
 Jaane Jigar Jaaneman|Jane Jigar Janejigar
@@ -2384,6 +2387,7 @@ Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
 Khilte Hain Gul Yahan|Khilte Hai Gul Yahan
 Khilte Hain Gul Yahan|Khilte Hain
+Khoobsurat Hai Wo Itna|Khoobsurat Hai Wo Itna
 Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
@@ -2597,6 +2601,7 @@ Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar Nehi Meri Pyaari Bindu
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar
 Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar Nahin
 Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar
+Maana Teri Nazar Mein|Mana Teri Nazar Mein Hindi Lyrics
 Maang Ke Saath Tumhara|Maang Ke Saath Mang
 Maang Ke Saath Tumhara|Maang Ke Saath Tumhara
 Maang Ke Saath Tumhara|Maang Ke Saath Tumhara:
@@ -3185,6 +3190,7 @@ Open Mic|Open Mic
 Paan Khaaye Saiyaan Hamaro|Paan Khaye Saiyan Hamarao
 Paan Khaaye Saiyaan Hamaro|Paan Khaaye Sainyaan Hamaro
 Paan Khaaye Saiyaan Hamaro|Paan Khaye Saiyan Hamaro
+Paani Da Rang|Pani Da Rang
 Paaon Chhoo Lene Do|Paaon Chhoo Lene Do
 Paayalein Chunmun|Paayalein Chunmun
 Paayalein Chunmun|Payalay Chunmun
@@ -3420,6 +3426,7 @@ Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat Ho Gayi
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulakat
+Raah Mein Unse Mulaqat Ho Gayi|Rah Me Unse Raah Mein Unse
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
@@ -3623,6 +3630,7 @@ Saara Zamaana Haseeno Ka Deewana|Sara Zamana Haseeno Ka Deewana
 Saare Badan Ka Khoon|Saare Badan Ka Khoon
 Saare Shehar Mein|Saare Shehar Mein
 Saat Samundar|Saat Samundarⱽishʷaaa
+Saathi Mere Sun To Zara|Saathi Mere Sun To Zara
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
 Saawan Aaye Ya Na Aaye|Saawan Aaye Ya Na Aaye
 Saawan Barse Tarse Dil|Saawan Barse Tarse Dil
@@ -4342,6 +4350,7 @@ Tum Paas Aaye|Tum Pass Aye
 Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
 Tum Paas Aaye|Kuch Kuch Hota Hai Song
 Tum Paas Aaye|Tum Pass Aaye , Kuch Kuch Hota Hai
+Tum Par Hum Hai Atke Yaara|Tum Par Hum Hai Atke Yaara
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
