@@ -180,7 +180,7 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Search Favorites':
                     searchtype = 'FAVORITES'
                     #return redirect(url_for('query_smule_favorites'))
-                    return redirect(url_for('query_db_favorites', username=user))
+                    return redirect(url_for('query_db_favorites', username=f"{user}:s"))
                 elif request.form['btn'] == 'Search Ensembles':
                     searchtype = 'ENSEMBLES'
                     return redirect(url_for('query_smule_ensembles'))
@@ -194,7 +194,7 @@ def create_app(test_config=None):
                 elif request.form['btn'] == 'Top Performers':
                     return redirect(url_for('query_top_performers'))
                 elif request.form['btn'] == 'Search DB':
-                    return redirect(url_for('query_db_performances', searchtype='user', searchval=user))
+                    return redirect(url_for('query_db_performances', searchtype='srchuser', searchval=user))
                 elif request.form['btn'] == 'Crawl Joiners':
                     return redirect(url_for('crawl_joiners', username=user))
                 elif request.form['btn'] == 'Fix Titles':
@@ -515,12 +515,27 @@ def create_app(test_config=None):
         # Load global variable for title mappings from file
         gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Set DB Filter based on searchtype
-        if searchtype == 'user':
+        if searchtype == 'srchuser':
             searchOptions['dbfilter'] = "1 = 1"
             username = searchval
         else:
-            searchOptions['dbfilter'] = f"fixed_title ilike '{searchval}'"
-            username = ""
+            fromdate = "2001-01-01"
+            todate = "2030-01-01"
+            if searchtype == 'user':
+                searchOptions['dbfilter'] = "1 = 1"
+                username = searchval
+            elif searchtype == 'joins':
+                searchOptions['dbfilter'] += " and join_ind = 1"
+                username = searchval
+            elif searchtype == 'title':
+                searchOptions['dbfilter'] = f"fixed_title ilike '{searchval}'"
+                username = ""
+            elif searchtype == 'titlejoins':
+                searchOptions['dbfilter'] = f"fixed_title ilike '{searchval}' and join_ind = 1"
+                username = ""
+            else:
+                searchOptions['dbfilter'] = "1 = 1"
+                username = ""
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchDBPerformances(username,numrows,fromdate,todate,gTitleMappings,searchOptions)
@@ -534,7 +549,13 @@ def create_app(test_config=None):
         # Load global variable for title mappings from file
         gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Set DB Filter to only include favorites
-        searchOptions['dbfilter'] = "favorite_ind = 1"
+        searchOptions['dbfilter'] += " and favorite_ind = 1"
+        # If the username contains ":s" at hte end, it came from the search page, so strip it out from username and leave from/to dates alone. If there isn't a ":s" at the end, it came form analytics page, so set from/to date to min/max values
+        if ":s" in username:
+            username = username.split(":")[0]
+        else:
+            fromdate = "2001-01-01"
+            todate = "2030-01-01"
         # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
         # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
         performances = fetchDBPerformances(username,numrows,fromdate,todate,gTitleMappings,searchOptions)

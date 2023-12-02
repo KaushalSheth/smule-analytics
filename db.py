@@ -104,7 +104,7 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
             window w as (partition by p.performers order by case when p.owner_handle = 'KaushalSheth1' then '2000-01-01'::timestamp else p.created_at end desc, p.created_at desc)
             ) a
         where a.rn = 1
-        order by case when joiner_stats is null then '0' else '1' end, replace(performers,'_','0')
+        order by partner_stats desc, joiner_stats desc
         """
     # Execute the query and build the performers list
     performers = execDBQuery(sqlquery)

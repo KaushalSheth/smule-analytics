@@ -95,7 +95,10 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                         when '{selcol}' = 'performers' then '<a href=http://localhost:3000/query_db_performances/user/' || s.{selcol} || ' target="_blank">' || s.performance_cnt || '</a>'
                         else '<a href=http://localhost:3000/query_db_performances/title/' || replace(s.{selcol},' ','_') || ' target="_blank">' || s.performance_cnt || '</a>'
                     end as performance_link_str,
-                    s.join_cnt,
+                    case
+                        when '{selcol}' = 'performers' then '<a href=http://localhost:3000/query_db_performances/joins/' || s.{selcol} || ' target="_blank">' || s.join_cnt || '</a>'
+                        else '<a href=http://localhost:3000/query_db_performances/titlejoins/' || replace(s.{selcol},' ','_') || ' target="_blank">' || s.join_cnt || '</a>'
+                    end as join_link_str,
                     count(case when date_part('day',p.created_at - s.first_performance_time) < 30 then 1 else null end) as perf_first_30_days,
                     s.perf_last_30_days, s.join_last_30_days, s.last_join_time, s.join_list
             from    summary s
@@ -153,7 +156,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     case when performance_cnt = 0 then null else round(favorite_cnt/(performance_cnt*1.0),2) end as fav_perf_ratio,
                     first_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/user/' || partner_name || ' target="_blank">' || performance_cnt || '</a>' as performance_link_str,
-                    join_cnt,
+                    '<a href=http://localhost:3000/query_db_performances/joins/' || partner_name || ' target="_blank">' || join_cnt || '</a>' as join_link_str,
                     '<a href=http://localhost:3000/query_db_favorites/' || partner_name || ' target="_blank">' || favorite_cnt || '</a>' as favorite_link_str,
                     last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
                     days_till_first_join, first_join_time, last_join_time, rated_song_cnt

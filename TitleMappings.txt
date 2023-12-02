@@ -52,6 +52,7 @@ Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
 Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid
+Aaj Kahna Jaruri Hai|Aaj Kahna Jaruri Hai
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya Din
 Aaj Kal Paaon Zameen Par|Aaj Kal Paon Zameen Par
@@ -174,6 +175,7 @@ Aankhon Ki Gustakhiyan|Aankhon Kii Gustakhiyan Maaff Hoo
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum
 Aankhon Mein Base Ho Tum|Aankhon Mein Base Ho Tum Tum
 Aankhon Mein Base Ho Tum|Ankhon Mein Base Ho Tum
+Aankhon Mein Base Ho Tum|Ankho Mein Base Ho Tum
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke
 Aankhon Mein Humne Aapke|Navgadigital Ankhon Mein Humne Aapke
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke Sapne Sajaye Hain
@@ -423,6 +425,7 @@ Ae Mere Humsafar|Ae Mere Humsafar Aye Meri Jaaneja
 Ae Mere Humsafar|Ae Mere Humsafar Aye Mere Humsafar
 Ae Mere Humsafar|Ae Mere
 Ae Mere Pyaare Watan|Aye Mere Pyare Watan
+Ae Meri Zindagi|Aye Meri Zindagi
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
 Ae Meri Zohra Jabeen|Ae Mere Zohra
@@ -439,6 +442,7 @@ Ae Zindagi Gale Laga Le|Arijit Ae Zindagi Gale Lagale
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale Laga Le Arijit
 Ae Zindagi Gale Laga Le|Qq Aye Zindagi Gale Laga Le Sadma
 Ae Zindagi Gale Laga Le|Ae Zindagi Aye Zindagi Gale La Gaale
+Ae Zindagi Gale Laga Le|Ay Zindagi Gale Laga Le
 Aesis Membership Audition|Aesis Membership Audition
 Afreen Afreen|Afreen Afreen Coke Studio
 Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
@@ -757,6 +761,7 @@ Bole Chudiyan|Bole Chudiyan
 Bole Chudiyan|Bole Chudiyan Bole Kangna
 Bole Chudiyan|Bole Chudiyan Bole
 Bole Chudiyan|Group Bole Chudiyan
+Bole Chudiyan|Bole Chudiyan Bole Kangna J
 Bole Mera Kangna Tere Bin Sajna|Bole Mera Kangna Tere Bin Sajna Jkk
 Bole Re Papihara|Bole Re Papihara
 Bollywood Romantic Medley|Bollywood Romantic Medley
@@ -925,6 +930,7 @@ Chhod Do Aanchal|0450 Chhod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal Paying Guest
 Chhodo Kal Ki Baate|Chodo Kal Ki Baate
 Chhodo Kal Ki Baate|Chhodo Kal Ki Baatein Kal Ki Baat Purani
+Chhodo Sanam Kaahe Ka Gham|Chhodo Sanam Kaahe Ka Gham
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do Nazuk Honthon Ko
 Chhoo Lene Do Nazuk Honthon Ko|Chhoo Lene Do Naazuk Hothon Ko
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do
@@ -1279,6 +1285,7 @@ Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Ho Tum|Dil Mein Ho Tum 544 Secs
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon Mein Tum
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon
+Dil Mein Kisike Pyaar Ka|Dil Mein Kisike Pyar Ka
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Surat
@@ -1556,6 +1563,7 @@ Gulabi Aankhen|Gulaabi Aankhein
 Gulabi Aankhen|090 Gulabi Aankhen Jo Teri
 Gulabi Aankhen|Hijo Samma
 Gulabi Aankhen|Gulabi Ankhen Gulabi Aankhen Jo Teri Dekhi
+Gulabi Aankhen|Gulabi Ankhengulabiankhen
 Gumsum Sa Ye Jahaan|Gumsum Sa Ye Jahan
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisike Pyaar Mein
@@ -2057,6 +2065,7 @@ Jabse Tere Naina|Jab Se Tere Naina Saawariya
 Jabse Tere Naina|Jabse Tere Naina
 Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
+Jabse Tere Naina|182Jab Se Tere Naina
 Jahaan Main Jaati Hoon|Jahan Main Jaati Hun
 Jahaan Main Jaati Hoon|Jahan Main Jati Hoon
 Jahaan Main Jaati Hoon|जहाँ मैं जाती हूँ वहीं चले आते हो Jahan Main
@@ -2259,6 +2268,7 @@ Kaho Na Pyaar Hai|Kaho Na Pyar Hai E Sonpyaar Hain
 Kaho Na Pyaar Hai|Kahonapyarhai
 Kaho Toh Zara Jhoom Loon|Kaho Toh Zara Jhoom Loon
 Kai Din Se Mujhe|Kai Din Se Mujhe
+Kai Din Se Mujhe|Kai Din Se
 Kaise Hua|Kaise Hua Live Piano Clean
 Kaise Mizaj Aapke Hai|Kaise Mizaj Aapke Haishor
 Kaisi Paheli Zindagani|Kaisi Paheli Zindagani
@@ -2380,6 +2390,7 @@ Khairiyat|Khairiyat Khairiyat
 Khairiyat|Khairiyat Part 2
 Khamosh Lab Hai|Khamosh Lab Hai
 Khamoshiyan|Khamoshiyan
+Khamoshiyan|Khamoshiyan Teri Meri
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lageen
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lagi
 Khayalon Mein Kisike Is Tarah|Khayalon Mein Kisike Is Tarah
@@ -2437,6 +2448,7 @@ Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
 Kiska Rasta Dekhe|Kiska Rasta Dekhe
 Kismat Se Tum|Kismat Se Tum Pukar
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
+Kitna Pyaara Hai Yeh Chehra|Kitna Pyara Hai Yeh Chehra
 Kitna Pyara Tujhe|Kitna Pyara Tujhe
 Kitna Pyara Waada|Kitna Pyara Waada
 Kitna Pyara Waada|Kitna Pyaara Wada
@@ -2961,6 +2973,7 @@ Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas
 Mujhe Rang De|Mujhe Rang De
 Mujhe Rang De|𝑴𝒖𝒋h𝒆 𝑹𝒂𝒏𝒈𝒆 D𝒆
+Mujhe Tum Nazar Se|Mujhe Tum Nazar Se Gira To Rahe
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna Aur
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
@@ -3021,6 +3034,7 @@ Na Kajre Ki Dhaar|Na Kajreki Dhar
 Na Kajre Ki Dhaar|Nakajre Ki Dhar
 Na Koi Umang Hai|Na Koi Umang Hai
 Na Milo Humse Zyaada|Na Milo Humse Zyada
+Na Milo Humse Zyaada|Na Milo Humse Jyada
 Na Na Karte|Na Na Karte
 Na Na Karte|Na Na Karte Pyar Tumhi
 Na Na Karte|Na Na Karte Pyaar
@@ -3144,6 +3158,7 @@ O Haseena Zulfon Wali|O Hasina Zulfon Wali
 O Haseena Zulfon Wali|Oh Hasina Zulfon Wali
 O Haseena Zulfon Wali|Ad O Haseena Zulfo Wali
 O Haseena Zulfon Wali|Oh Haseena Zulfo Wali Mohammad
+O Haseena Zulfon Wali|O Haseena Zulfo Wali Teesri Manzil
 O Jaana Na Jaana|O Jaana Na Jaana
 O Jaane Waale Balamva|O Jane Wale Balamva
 O Laal Dupatte Wali|O Laal Dupatte Wali Aankhen 1993
@@ -3152,6 +3167,7 @@ O Mere Dil Ke Chain|O Mere Dil Ke Chain
 O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
 O Mere Dil Ke Chain|Mere Ke Chain
 O Mere Dil Ke Chain|O Mere Dil Ke Chain Mere Jeevan Sathi
+O Mere Dil Ke Chain|O Mere Ke Chain Song
 O Mere Raja|O Mere Raja O Mere Raja
 O Mere Raja|O Mere Raja
 O Mere Sona Re|O Mere Sona Re
@@ -3390,6 +3406,7 @@ Pyaar Ki Dastaan|Pyaar Ki Dastaan
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh Aise
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
+Pyaar Ki Kashti Mein|H‌D‌ Pyar Ki Kashti Me Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya Toarna Kya
@@ -3441,6 +3458,7 @@ Raat Baaki Baat Baaki|Raat Baki Baat Baki
 Raat Baaki Baat Baaki|Raat Baaki
 Raat Baaki Baat Baaki|Raatbaakiasha&Bappi
 Raat Baaki Baat Baaki|Raat Baaqi Baat Baaqi
+Raat Bhi Neend Bhi|Raat Bhi Neend Bhi
 Raat Ka Nasha|Raat Ka Nasha Abhi
 Raat Ka Nasha|Raat Ka Nasha Arrived
 Raat Kali|Raat Kali
@@ -3486,6 +3504,7 @@ Raja Ko Rani Se|Raja Ko Rani Se Pyaar
 Raja Ko Rani Se|Raja Ko Rani Se Pyar Ho Gaya
 Raja Ko Rani Se|Raja Ko Rani Se Pyar
 Raja Ko Rani Se|ͪ ͩराजा को रानी से प्यार हो गया
+Raja Ko Rani Se|ͪRaja Korani Se
 Rajnigandha Phool Tumhare|Rajnigandha Phool Tumhare
 Ram Chahe Leela|Ram Chahe Leela
 Ramaiya Vastavaiya|Ramaiya Vastavaiya
@@ -3770,6 +3789,7 @@ Solah Baras Ki Baali Umar|Solah Baras Ki Baali Umar Ek Duje Ke Liye
 Soldier Soldier|Soldier Soldier
 Soldier Soldier|Soldier
 Soldier Soldier|Reff Soldier Soldier Meethi Baaten
+Soldier Soldier|Soldier Soldier Title Song
 Someone Like You|Someone Like You
 Someone Like You|Solo Bachata
 Something Good|Something Good
@@ -3833,6 +3853,7 @@ Suraj Hua Maddham|Suraj Hua Madham
 Suraj Hua Maddham|Suraj Hua Madham Sound
 Suraj Hua Maddham|Suraj Huamadham Maddham
 Suraj Hua Maddham|Suraj Huaziyadnoor
+Suraj Hua Maddham|Suraj Hua Maddham Instrumental
 Surmaiye Ankhiyon Mein|Surmaye Akhiyon Mein 720P Yesudas
 Surmaiye Ankhiyon Mein|Surmai Akhiyoon Mein
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein Surmai Ankhiyon Me
@@ -4390,6 +4411,7 @@ Tumko Dekha To|Tumko Dekha To Ye
 Tumko Dekha To|Tumko Dekha To Ye Khayaal Aaya
 Tumko Dekha To|Tumko Dekha To Ye Khayal
 Tumko Mere Dil Ne Pukaara Hai|Tumko Mere Dil Ne Pukaara Hai
+Tumko Piya Dil Diya|Tumko Piya Dil Diya
 Tumko Sirf Tumko|Tumko Sirf Tumko Kkkm
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Hokar Meherban
@@ -4399,6 +4421,7 @@ Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara Koi Masoom Khuddar
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumsa Nahin Dekha|Yun To Humne Lakh Haseen Dekhe Hain
+Tumsa Nahin Dekha|Yun Toh Humne Lakh Haseen Dekhe Hain
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achcha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
@@ -4475,7 +4498,8 @@ Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
 We Didn't Start The Fire|We Didn'T Start The Fire
 What A Wonderful World|What A Wonderful World
-What Jhumka?|What Jhumka?
+What Jhumka|What Jhumka?
+What Jhumka|What Jhumka
 With Or Without You|With Or Without You
 Wonderful Tonight|Wonderful Tonight
 Woh Beete Din Yaad Hai|Wo Beete Din Yaad Hai
@@ -4496,6 +4520,7 @@ Woh Hai Zara Khafa Khafa|Wo Hai Zara T
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Wo Hai Zaraa
 Woh Hai Zara Khafa Khafa|Woh Hain Zara Khafa Khafa
 Woh Hai Zara Khafa Khafa|Wo Hai Zara Wo Hai
+Woh Hai Zara Khafa Khafa|Wo Hain Zara Khafa Khafa
 Woh Haseen Dard De Do|Woh Haseen Dard De Do
 Woh Haseen Dard De Do|Wo Haseen Dard De Do
 Woh Jab Yaad Aaye|Woh Jab Yaad Aaye Bahut Yaad Aaye
@@ -4507,6 +4532,7 @@ Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ek Mandir Hain
 Woh Ladki Hai Kahan|Woh Ladki Hai Kahan
+Woh Nahin Mila|Woh Nahin Mila
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajeeb Thi
 Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuch Ajeib Thi 🅫
 Woh Shaam Kuch Ajeeb Thi|Wo Sham Kuchh Ajeeb Thi
@@ -4632,6 +4658,7 @@ Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
 Yeh Jeevan Hai|ये जीवन है
 Yeh Jeevan Hai|Ye Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Yahi Hai
+Yeh Jeevan Hai|Yeh Jeevan Ye Jeewan
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
 Yeh Jo Mohabbat Hai|Yeh Jo Mohabbat Hai
