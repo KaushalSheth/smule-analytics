@@ -274,6 +274,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             select  c.display_column as {outcol}, to_char(mp.created_at,'YYYY-MM') as perf_month, count(*) as perf_cnt
             from    perf mp
                     inner join counts c on c.count_column = mp.{selcol}
+            where   1 = 1
+            -- For Title heatmap, exclude joins as that skews the numbers drastically
+            and     0 = case when '{selcol}' = 'fixed_title' then mp.join_ind else 0 end
             group by 1,2
             order by 2 desc, 3 desc
             """
