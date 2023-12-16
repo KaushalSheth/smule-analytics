@@ -516,7 +516,7 @@ def create_app(test_config=None):
         gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
         # Set DB Filter based on searchtype
         if searchtype == 'srchuser':
-            searchOptions['dbfilter'] = "1 = 1"
+            #searchOptions['dbfilter'] = "1 = 1"
             username = searchval
         else:
             fromdate = "2001-01-01"

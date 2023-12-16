@@ -331,8 +331,8 @@ def extractSearchOptions(searchOptions):
 
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
+    global gPerformerList
     performanceList = []
-    performerList = []
     stop = False
     i = n
     contentType, solo, joins = extractSearchOptions(searchOptions)
@@ -452,7 +452,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 pass
         filename_base = f"{fixedTitle} - {performers}"
         # Keep track of the performer for each performance in this list so that we can count the number of performances for that performer
-        performerList.append(performers)
+        gPerformerList.append(performers)
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
@@ -461,24 +461,17 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
-            # All of this will get overridden below (see comment for 6/9) - keeping it just in case we need to reinstate in the future
-            recentPerfCount = getPartnerInfo("partner_name",performers,"recent_perf_cnt")
-            # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
-            if recentPerfCount > 0:
-                joinMessage = ""
+            # If there are any open invites the performer has not yet joined, invite them to join
+            openInvite = getOpenInvite(performers,gPerformerList.count(performers))
+            if openInvite != "":
+                joinMessage = f" If interested, please join my invite for {openInvite}"
             else:
                 if joinCount == 0:
-                    joinMessage = f" Please join my invites too - check my Favorites list for all invites"
+                    joinMessage = " Please join my invites too"
                 elif recentJoinCount == 0:
-                    #joinMessage = ""
-                    joinMessage = f" Please join my invites again - check my Favorites list for all invites"
+                    joinMessage = " Please join my invites again"
                 else:
-                    #joinMessage = ""
-                    joinMessage = " Looking forward to more joins from you as well"
-            # If there are any open invites the performer has not yet joined, invite them to join
-            openInvite = getOpenInvite(performers,performerList.count(performers))
-            if openInvite != "":
-                joinMessage = f" Please join my invite for {openInvite} or ones you like"
+                    joinMessage = " Please keep joining my invites"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
@@ -854,7 +847,9 @@ def fetchPartnerInvites(inviteOptions,numrows):
 # We arbitrarily decided to default the max to 9999 as that is plenty of performances to fetch
 # type can be set to "performances" or "favorites"
 def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",mindate='2018-01-01',maxdate='2030-12-31',searchOptions={}):
-    global rsGroupHandles, gTitleMappings, rsOpenInvites, rsInviteJoins
+    global rsGroupHandles, gTitleMappings, rsOpenInvites, rsInviteJoins, gPerformerList
+    # Initialize global variables
+    gPerformerList = []
     # Fech open invites
     #rsOpenInvites, rsInviteJoins = fetchOpenInvites()
     contentType,solo,joins = extractSearchOptions(searchOptions)
