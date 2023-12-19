@@ -36,10 +36,36 @@
         </div>
         <br>
         <div class="field is-grouped">
+          <label class="label" for="title">Search:&nbsp;</label>
+          <div class="control">
+            <input name="picswhereclause" value="1 = 1" type="input" class="input" size="80"></input>
+          </div>
+          <div class="control">
+            <input type="submit" name="btn" value="Download Pics" class="button is-link" />
+          </div>
+        </div>
+        <br>
+        <div class="field is-grouped">
+          <label class="label" for="title">Pics:&nbsp;</label>
+          <div class="control">
+            <input name="picswildcard" value="c:\tmp\*.jpg" type="input" class="input" size="50"></input>
+          </div>
+          <label class="label" for="title">Dupes:&nbsp;</label>
+          <div class="control">
+            <input name="dupesfolder" value="c:\tmp\dupes\" type="input" class="input" size="50"></input>
+          </div>
+          <div class="control">
+            <input type="submit" name="btn" value="Process Duplicates" class="button is-link" />
+          </div>
+        </div>
+
+        <br>
+        <div class="field is-grouped">
           <label class="label" for="centlat">Center Latitude:&nbsp;</label>
           <div class="control">
               <input list="latlist" name="centlat" placeholder="37.76" type="input" class="input" size="10"></input>
               <datalist id="latlist"><option value="37.76"><option value="22.93"><option value="38.89"><option value="-29.7"></datalist>
+              <select name="latlists" style="width: auto"><option value="37.76">37.76</option><option value="22.93">22.93</option><option value="38.89">38.89</option><option value="-29.7">-29.7</option></select>
           </div>
           <label class="label" for="centlon">Center Longitude:&nbsp;</label>
           <div class="control">

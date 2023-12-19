@@ -640,6 +640,7 @@ Baahon Mein Chale Aao|211 Bahon Mein Chale Aao
 Baahon Mein Chale Aao|Bahon Mein Chale Aao Dr Mahi
 Baahon Mein Chale Aao|Baahon Mein Chale Hold 'U' Tight Mix
 Baahon Mein Teri|Bahon Mein Teri
+Baahon Mein Teri|Bahon Mein Teri Masti Ke Ghere
 Baali Umar Ne Mera Haal|Bali Umar Ne Mera Haal
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
 Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
@@ -863,6 +864,7 @@ Chalo Chale Mitwa|Chalo Chale Mitwa
 Chalo Chale Mitwa|Chalo Dildaar Chalo Chand Ke Paar Chalo
 Chalo Chale Mitwa|चलो चलें मितवा इन ऊँची नीची राहों में
 Chalo Dildar Chalo|Chalo Dildar Chalo
+Chalo Dildar Chalo|Chalo Dildar Chalo Chaand Ke Paar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
@@ -1208,6 +1210,8 @@ Dil Dhoondhta Hai|Dil Dhundhta Hai
 Dil Dhoondhta Hai|Dil Dhoondhta Hai Phir Wohi
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
+Dil Diyan Gallan|Hil Diyan Gallan
+Dil Ek Mandir Hai|Dil Ek Mandir Hai
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
 Dil Hai Ke Maanta Nahin|Dil Hai Ke
 Dil Hai Ke Maanta Nahin|Dil Hai Ke Maanta Nahi
@@ -1719,6 +1723,7 @@ Hum Aapke Hain Kaun|Hum Aapke Hain Koun
 Hum Aapke Hain Kaun|Hum Aapke Hain Kauntitle
 Hum Aapke Hain Kaun|Hum Aapke Hain Kaun Title
 Hum Aapke Hain Kaun|Hum Aapke Hain Kountitle
+Hum Bekhudi Mein Tumko|Hum Bekhudi Mein Tumko
 Hum Bewafaa|Hum Bewafa
 Hum Bewafaa|Hum Bewafa Hargiz Na The
 Hum Bewafaa|Hum Bewafaa Hargiz Na The
@@ -2256,6 +2261,7 @@ Kabhi Main Kahoon|Kabhi Main Kahoon Kabhi Tum Kaho
 Kabhi Na Kabhi Kahin Na Kahin|Kabhi Na Kabhi Kahin Na Kahin
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabhi Raat Din|Kabhi Raatdin Hum Dur The
+Kabhi Tanhaiyon Mein|Kabhi Tanhaiyon Mein
 Kabhi Tera Daaman|Kabhi Tera Daman
 Kabhi To Nazar Milao|Kabhi To Nazar Milao
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhalia Lagta Hai
@@ -2415,6 +2421,7 @@ Kehna Hi Kya|Kehna Hi Kya Female
 Kehta Hai Pal Pal|Kehta Hai Pal Pal
 Kehta Hai Pal Pal|Kehta Hai Pal Pal Tumse
 Kesariya|Kesariya Tera
+Khafa Hoon Khafa Hoon|Khafa Hoon Khafa Hoon
 Khaike Paan Banaraswala|Khaike Paan Banaraswala
 Khairiyat|_Khairiyat_Puchho
 Khairiyat|Khairiyat
@@ -2603,6 +2610,7 @@ Lag Ja Gale|Lag Ja Gale Lag Ja Gale
 Lag Ja Gale|Lag Ja Galelagjagale Lagjaagale D
 Lag Ja Gale|Lag Ja Gale Se Phir
 Lag Ja Gale|Lag Ja Gale Se
+Lag Ja Gale|Lag Ja Gale Exclusive
 Laga Prem Rog|Laga Prem Rog
 Laila O Laila|Laila Main Laila
 Laila O Laila|Laila O Lailaqurbanilaila Main Laila
@@ -3028,6 +3036,7 @@ Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas
 Mujhe Rang De|Mujhe Rang De
 Mujhe Rang De|𝑴𝒖𝒋h𝒆 𝑹𝒂𝒏𝒈𝒆 D𝒆
+Mujhe Teri Mohabbat|Mujhe Teri Mohabbat
 Mujhe Tum Nazar Se|Mujhe Tum Nazar Se Gira To Rahe
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna Aur
@@ -3214,6 +3223,7 @@ O Haseena Zulfon Wali|Oh Hasina Zulfon Wali
 O Haseena Zulfon Wali|Ad O Haseena Zulfo Wali
 O Haseena Zulfon Wali|Oh Haseena Zulfo Wali Mohammad
 O Haseena Zulfon Wali|O Haseena Zulfo Wali Teesri Manzil
+O Haseena Zulfon Wali|O Hasina Zulfon
 O Jaana Na Jaana|O Jaana Na Jaana
 O Jaane Waale Balamva|O Jane Wale Balamva
 O Jaanewale Ho Sake To Laut Ke Aana|O Janewale Ho Sake To Laut Ke Aana
@@ -3279,6 +3289,7 @@ Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Customised
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Yeh Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Ye Kya Ho Gaya
+Pal Bhar Mein Yeh Kya Ho Gaya|Palbhar Mein Ye Kya Ho Gaya
 Pal Ek Pal|Pal Ek Pal
 Pal Ek Pal|Pal
 Pal Ek Pal|Pal Ek Pal Jalebi
@@ -3713,6 +3724,7 @@ Saat Samundar|Saat Samundarⱽishʷaaa
 Saathi Mere Sun To Zara|Saathi Mere Sun To Zara
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
 Saanwali Si Ek Ladki|Saanwali Si Ek Ladki
+Saawan Aaya Baadal Chaaye|Sawan Aaya Badal Chaaye
 Saawan Aaye Ya Na Aaye|Saawan Aaye Ya Na Aaye
 Saawan Barse Tarse Dil|Saawan Barse Tarse Dil
 Saawan Barse Tarse Dil|Sawan Barse Tarse Dil
@@ -4297,6 +4309,7 @@ Tujhe Na Dekhu To Chain|Tujhe Na Dekhu Toh
 Tujhe Na Dekhu To Chain|~ Tujhe Na Dekhu Toh
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhu
 Tujhe Na Dekhu To Chain|~Tujhe Na Dekhu To Chain
+Tujhe Na Dekhu To Chain|Tujhe Na Dekhoon To Chain
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
@@ -4707,6 +4720,7 @@ Yeh Dil Tum Bin|Yeil Tum Bin Kahin Lagta Nahi
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Lagta
 Yeh Dil Tum Bin|Yeil Tum Bin Kahin
 Yeh Dil Tum Bin|Yeil Tum Bin Ye Kahin
+Yeh Dil Tum Bin|Ye Dil Tum Bin Kahi Lagta Nahi
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
 Yeh Dosti|Yeh Dosti

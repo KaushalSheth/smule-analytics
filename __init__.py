@@ -8,7 +8,7 @@ from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTi
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
-from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata
+from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata, downloadPics, processDuplicateImages
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -247,6 +247,9 @@ def create_app(test_config=None):
             utilitiesOptions['dayssincelastperf'] = request.form["dayssincelastperf"]
             utilitiesOptions['centlat'] = request.form["centlat"]
             utilitiesOptions['centlon'] = request.form["centlon"]
+            utilitiesOptions['picswhereclause'] = request.form["picswhereclause"]
+            utilitiesOptions['picswildcard'] = request.form["picswildcard"]
+            utilitiesOptions['dupesfolder'] = request.form["dupesfolder"]
             if toolName == "Recent Performers":
                 return redirect(url_for('title_performers', sort='recent'))
             elif toolName == "Popular Performers":
@@ -255,6 +258,10 @@ def create_app(test_config=None):
                 return redirect(url_for('get_html'))
             elif toolName == "Download":
                 return redirect(url_for('download_song'))
+            elif toolName == "Download Pics":
+                return redirect(url_for('download_pics'))
+            elif toolName == "Process Duplicates":
+                return redirect(url_for('process_duplicates'))
             elif toolName == "Performer Map":
                 return redirect(url_for('performer_map'))
             elif toolName == "Non Joiners":
@@ -652,6 +659,24 @@ def create_app(test_config=None):
         if retVal == 0:
             flash("Successfully downloaded to /tmp/" + filename)
         return str(retVal)
+
+    # Method to download the owner pictures to local disk
+    @app.route('/download_pics')
+    def download_pics():
+        global user, utilitiesOptions
+        retVal = downloadPics(utilitiesOptions)
+        if retVal != -1:
+            flash(f"Successfully downloaded {retVal} pictures to /tmp/")
+        return redirect(url_for('utilities'))
+
+    # Method to download the owner pictures to local disk
+    @app.route('/process_duplicates')
+    def process_duplicates():
+        global user, utilitiesOptions
+        retVal = processDuplicateImages(utilitiesOptions)
+        if retVal > 0:
+            flash(f"Successfully moved {retVal} duplicates")
+        return redirect(url_for('utilities'))
 
     # Route to downlaod all performances - this could potentially be moved to the smule module
     @app.route('/download_all_performances')

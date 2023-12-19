@@ -1,3 +1,4 @@
+drop view all_performances;
 CREATE OR REPLACE VIEW all_performances AS
 SELECT  p.*,
         split_part(p.key::text, '_'::text, 1) AS instance_key,

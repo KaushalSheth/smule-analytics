@@ -90,7 +90,7 @@ def fetchDBPerformers(fromdate="2018-01-01",todate="2030-01-01"):
     performers = []
     sqlquery = f"""
         select * from (
-            select  p.performers, s.pic_url as display_pic_url,
+            select  p.performers, coalesce(p.display_pic_url,s.pic_url) as display_pic_url,
                     substr(p.joiner_7days,1,15) as joiner_stats,
                     substr(p.partner_30days,1,11) as partner_stats,
                     first_value(p.created_at) over w as last_performance_time,
@@ -186,15 +186,19 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
 
     # Build base query
     sqlquery = f"""
-        with perf_stats as (
-            select  s.performed_by,
-                    max(p.created_at) as last_performance_time,
-                    count(case when p.created_at > current_timestamp - interval '30 days' then p.performers else null end) as recent_perf_cnt,
-                    count(case when p.owner_handle = '{username}' then p.performers else null end) as join_cnt,
-                    count(case when p.owner_handle = '{username}' and p.created_at > current_timestamp - interval '30 days' then 1 else null end) as recent_join_cnt
-            from    singer s
-                    left outer join performance p on p.performers = s.performed_by
-            group by 1
+        with
+            myself as (
+                select  'KaushalSheth1' as handle
+            ),
+            perf_stats as (
+                select  s.performed_by,
+                        max(p.created_at) as last_performance_time,
+                        count(case when p.created_at > current_timestamp - interval '30 days' then p.performers else null end) as recent_perf_cnt,
+                        count(case when p.owner_handle = m.handle then p.performers else null end) as join_cnt,
+                        count(case when p.owner_handle = m.handle and p.created_at > current_timestamp - interval '30 days' then 1 else null end) as recent_join_cnt
+                from    singer s cross join myself m
+                        left outer join performance p on p.performers = s.performed_by
+                group by 1
             )
         select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time
         from    all_performances p
@@ -232,26 +236,12 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         # Set display handle and pic_url based on user we are searching for
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
-            d['display_pic_url'] = d['partner_pic_url']
+            #d['display_pic_url'] = d['partner_pic_url']
             # Construct comment for joiner
             d['comment'] = build_comment('@' + d['display_handle'] + ' thanks for joining...')
         else:
             d['display_handle'] = d['owner_handle']
-            d['display_pic_url'] = d['owner_pic_url']
-            #d['comment'] = build_comment('@' + d['display_handle'] + ' ', " Please check my Favorites for all my recent invites and join the ones you like")
-            # Construct comment for partner
-            # If there is a recent performance, then don't add a join message (don't want to repeatedly bombard the user)
-            if recentPerfCount > 0:
-                joinMessage = ""
-            else:
-                if joinCount == 0:
-                    joinMessage = " Please do join some of my invites too"
-                elif recentJoinCount == 0:
-                    joinMessage = " Please join some of my invites again"
-                else:
-                    #joinMessage = " Please check my Favorites for all my recent invites and join the ones you like"
-                    joinMessage = " Please keep joining my invites too"
-            d['comment'] = build_comment('@' + d['display_handle'] + ' ', joinMessage)
+            d['comment'] = build_comment('@' + d['display_handle'])
         d['join_cnt'] = f"{joinCount}|{recentJoinCount}"
         performances.append(d)
         i += 1
@@ -278,7 +268,7 @@ def saveDBPerformances(username,performances):
             del p['pic_filename']
             del p['partner_name']
             del p['display_handle']
-            del p['display_pic_url']
+            #del p['display_pic_url']
             del p['create_type']
             del p['joiners']
             del p['recording_url']

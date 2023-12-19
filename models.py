@@ -41,6 +41,8 @@ class Performance(db.Model):
     performer_handles = db.Column(db.String(200), nullable=True)
     fixed_title = db.Column(db.String(100), nullable=True)
     short_ind = db.Column(db.String(1), nullable=True)
+    parent_key = db.Column(db.String(30), nullable=True)
+    display_pic_url = db.Column(db.String(200), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 
@@ -113,3 +115,6 @@ class TitleMetadata(db.Model):
     score = db.Column(db.Float, nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
+
+i_perfsinger_singer = db.Index('i_perfsinger_singer', PerformanceSinger.singer_account_id)
+i_perffav_perfkey = db.Index('i_perffav_perfkey', PerformanceFavorite.performance_key)

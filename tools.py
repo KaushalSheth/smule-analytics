@@ -9,6 +9,7 @@ import json, re, csv
 from statistics import mode
 import discogs_client
 from fuzzywuzzy import process, fuzz
+import requests
 
 # Set global variables using env file
 DISCOGS_TOKEN = os.environ.get('DISCOGS_TOKEN', default='')
@@ -210,3 +211,90 @@ def getHtml(utilitiesOptions):
     htmlstr = loop.run_until_complete(loadDynamicHtml(url))
 
     return {"owners":[htmlstr],"joiners":[]}
+
+# Download performer images
+def downloadPics(utilitiesOptions):
+    # Iniitalize variables
+    basefolder = '/tmp/'
+    picswhereclause = utilitiesOptions["picswhereclause"]
+    picCnt = 0
+    # Fetch pic URLs from DB
+    sqlquery = f"""
+        with
+            pics as (select performers as pic_handle, display_pic_url as pic_url, min(created_at) min_time from my_performances where {picswhereclause} group by 1,2)
+        select *, row_number() over(partition by pic_handle order by min_time) as pic_nbr from pics
+        """
+    pics = execDBQuery(sqlquery)
+    # Loop through each image and save it
+    for p in pics:
+        picHandle = p['pic_handle']
+        picUrl = p['pic_url']
+        picNbr = p['pic_nbr']
+        filename = basefolder + picHandle + "-" + f'{picNbr:03}' + '.jpg'
+        # If the file already exists, skip it
+        if os.path.exists(filename):
+            #print(f"ALREADY EXISTS - {filename}")
+            continue
+        else:
+            f = open(filename,'wb')
+            f.write(requests.get(picUrl).content)
+            f.close()
+            picCnt += 1
+    return picCnt
+
+# The remaining code was copied from Stack Overflow and modified - https://stackoverflow.com/questions/71514124/find-near-duplicate-and-faked-images
+from sentence_transformers import SentenceTransformer, util
+from PIL import Image
+import glob
+import os
+
+def processDuplicateImages(utilitiesOptions):
+    print("Processing duplicates")
+    dupCount = 0
+    wildcard = utilitiesOptions['picswildcard']
+    dupesfolder = utilitiesOptions['dupesfolder']
+    # Load the OpenAI CLIP Model
+    print('Loading CLIP Model...')
+    model = SentenceTransformer('clip-ViT-B-32')
+
+    # Next we compute the embeddings
+    # To encode an image, you can use the following code:
+    # from PIL import Image
+    # encoded_image = model.encode(Image.open(filepath))
+    image_names = list(glob.glob(wildcard))
+    if len(image_names) == 0:
+        return 0
+    print("Images:", len(image_names))
+    encoded_image = model.encode([Image.open(filepath) for filepath in image_names], batch_size=128, convert_to_tensor=True, show_progress_bar=True)
+
+    # Now we run the clustering algorithm. This function compares images aganist
+    # all other images and returns a list with the pairs that have the highest
+    # cosine similarity score
+    processed_images = util.paraphrase_mining_embeddings(encoded_image)
+
+    # =================
+    # SIMILAR IMAGES
+    # =================
+    #print('Finding similar images...')
+    # Use a threshold parameter to identify two images as similar. By setting the threshold lower,
+    # you will get larger clusters which have less similar images in it. Threshold 0 - 1.00
+    # A threshold of 1.00 means the two images are exactly the same. Since we are finding near
+    # duplicate images, we can set it at 0.99 or any number 0 < X < 1.00.
+    threshold = 0.97
+    similar_images = [image for image in processed_images if image[0] >= threshold]
+
+    for score, image_id1, image_id2 in similar_images:
+        #print("\nScore: {:.3f}%".format(score * 100))
+        #print(image_names[image_id1])
+        #print(image_names[image_id2])
+        dupe_image = image_names[image_id2]
+        # Set moveto name to the dupes folder + the last part of the dupe_image, which should be the filename
+        moveto_image = dupesfolder + dupe_image.split("\\")[-1]
+        # Since the file might have already been moved, ignore any errors during move
+        try:
+            os.rename(dupe_image,moveto_image)
+            dupCount += 1
+        except:
+            print(f"Could not find {dupe_image}")
+            pass
+    return dupCount
