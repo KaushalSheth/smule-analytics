@@ -451,8 +451,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 print(f"FAILED TO PARSE MESSAGE: {msg}")
                 pass
         filename_base = f"{fixedTitle} - {performers}"
-        # Keep track of the performer for each performance in this list so that we can count the number of performances for that performer
-        gPerformerList.append(performers)
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
@@ -461,6 +459,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if ownerHandle == username:
             comment = build_comment('@' + performers + ' thanks for joining...')
         else:
+            # Keep track of the performer for each performance in this list so that we can count the number of performances for that performer
+            gPerformerList.append(performers)
             # If there are any open invites the performer has not yet joined, invite them to join
             openInvite = getOpenInvite(performers,gPerformerList.count(performers))
             if openInvite != "":
