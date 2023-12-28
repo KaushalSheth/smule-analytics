@@ -111,12 +111,12 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     elif analyticstitle == 'Invite':
         headings = [\
-            'Song Name', 'Total Score', 'Invite Score', 'Favorite Score', 'Popularity Score', 'First Performance Score', 'Last Performance Score', \
-            '# Performances', '# Partners', '# Invites', '# Joins', 'Join Ratio', 'First Performance', 'Last Performance', 'Last Invite'\
+            'Song Name', 'Rating', 'Invite Score', 'Fav Score', 'Singer Type', 'Artist', \
+            '# Perf', '# Partners', '# Invites', '# Joins', 'Join Ratio', 'First Perf', 'Last Perf', 'Last Invite'\
             ]
         sqlquery = f"""
-            select  fixed_title as title_search, total_score, invite_recency_score, favorite_score_nbr, popularity_score,
-                    first_performance_score, performance_recency_score,
+            select  fixed_title as title_search, rating_nbr, invite_recency_score, favorite_score_nbr,
+                    coalesce(singer_type,'') as singer_type, coalesce(artist,'') as artist,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || num_all_performances || '</a>' as performance_link_str,
                     num_partners, num_invites, num_joins,
                     round(case when num_invites > 0 then num_joins*1.0/num_invites else 0 end,2) as join_ratio,
@@ -136,14 +136,14 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Current Month', 'Adjusted Weighted Count', 'Random Sort', 'Weighted Count', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Current Month', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, current_month_ind, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
-                    weighted_cnt, first_performance_time, last_performance_time,
+            select  fixed_title as title_search, current_month_ind, coalesce(rating_nbr,0) as rating_nbr, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
+                    coalesce(singer_type,'') as singer_type, coalesce(artist,''), first_performance_time, last_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || perf_cnt || '</a>' as performance_link_str,
                     perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
-            order by adj_weighted_cnt desc
+            order by current_month_ind, coalesce(rating_nbr,0) desc, adj_weighted_cnt desc
             """
     elif analyticstitle == 'Favorite Partners':
         headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', 'First Perf Time', '# Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']

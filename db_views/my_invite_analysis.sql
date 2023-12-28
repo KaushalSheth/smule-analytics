@@ -1,7 +1,7 @@
 drop view my_invite_analysis;
 create or replace view my_invite_analysis as
 with
-title_favorites as (select fixed_title, adj_weighted_cnt as favorite_score_nbr from favorite_song order by fixed_title),
+title_favorites as (select fixed_title, adj_weighted_cnt as favorite_score_nbr, coalesce(rating_nbr,0) as rating_nbr, singer_type, artist from favorite_song order by fixed_title),
 my_perf as (
     select  fixed_title,
             count(*) as num_all_performances,
@@ -68,7 +68,7 @@ my_perf_numerics as (
             substr(pb.popularity_score,3,1)::integer as popularity_score_nbr,
             substr(pb.invite_recency_score,3,1)::integer as invite_recency_score_nbr,
             substr(pb.performance_recency_score,3,1)::integer as performance_recency_score_nbr,
-            tf.favorite_score_nbr
+            tf.favorite_score_nbr, tf.rating_nbr, tf.singer_type, tf.artist
     from    my_perf_bucketed pb
             left outer join title_favorites tf on tf.fixed_title = pb.fixed_title
     )
@@ -95,6 +95,9 @@ select
         popularity_score_nbr + invite_recency_score_nbr + performance_recency_score_nbr as total_score,
         num_joins,
         first_performance_score,
-        favorite_score_nbr
+        favorite_score_nbr,
+        rating_nbr,
+        singer_type,
+        artist
 from    my_perf_numerics
 ;

@@ -113,6 +113,8 @@ class TitleMetadata(db.Model):
     artist = db.Column(db.String(200), nullable=True)
     duration = db.Column(db.String(10), nullable=True)
     score = db.Column(db.Float, nullable=True)
+    rating_nbr = db.Column(db.Integer, nullable=True)
+    singer_type = db.Column(db.String(10), nullable=True)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, server_default=db.func.now(), server_onupdate=db.func.now())
 

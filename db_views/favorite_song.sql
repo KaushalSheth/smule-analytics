@@ -64,6 +64,10 @@ select 	ps.fixed_title, ps.first_performance_time, ps.last_performance_time, ps.
             (ps.perf_30day_cnt::decimal*3) +
 			(ps.perf_cnt::decimal)
 		) weighted_cnt,
-		ps.current_month_ind
+		ps.current_month_ind,
+		tm.rating_nbr,
+		tm.artist,
+		tm.singer_type
 from 	perf_stats ps
+			left outer join title_metadata tm on tm.fixed_title = ps.fixed_title
 ;
