@@ -45,6 +45,9 @@ def fetchOpenInvites():
     # Fetch open invites from Smmule
     openInvites = getJSON("KaushalSheth1","active_seed",0,"search",sort="popular")
     for invite in openInvites['list']:
+        # Ignore Group invites
+        if invite["ensemble_type"] == "GROUP":
+            continue
         # Add invite to list of open invites
         fixedTitle = fix_title(invite['title'],gTitleMappings)
         rsOpenInvites.append(fixedTitle)

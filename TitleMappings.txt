@@ -606,6 +606,7 @@ Asha Ji Songs Medley|0449 Asha Bhonsle Sensual Medley
 Aur Aahista|Aur Aahista Kijiye Baatein
 Aur Aahista|Aur Ahista
 Aur Aahista|Aur Ahista Kijiye Batein
+Aur Aahista|Aur Aahistafirst Antra
 Aur Bijli Chali Jaaye|Aur Bijli Chali Jaaye Song
 Aur Is Dil Mein|Aur Is Dil Mein
 Aur Is Dil Mein|Aur Iss Dil Mein
@@ -894,6 +895,7 @@ Chanda Chamke|Chanda Chamke Fanaa
 Chanda Dekhe Chanda|Chanda Dekhe Chanda
 Chanda O Chanda|Chanda O Chanda
 Chanda O Chanda|Chanda O Chanda , Customised
+Chanda Re Chanda Re|Chanda Re Chanda Re
 Chanda Taare|Chanda Taare Yaadein
 Chandan Sa Badan|Chandan Sa Badan Mukesh
 Chandan Sa Badan|Chandan Sa Badun
@@ -941,6 +943,7 @@ Chhalka Yeh Jaam|Chalka Yeh Jaam
 Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki
 Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhamak Chhallo Chhel Chhabeli|Chamak Challo Chel Chabeli
+Chhaya Hai Jo Dil Pe|Chaya Hai Jo Dil Pe
 Chhod Do Aanchal|Chhod Do Aanchal
 Chhod Do Aanchal|Chhod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal Zamana
@@ -1075,6 +1078,7 @@ Dagabaaz Re|Dagabaaz Re Karaoke Dabangg 2
 Dagabaaz Re|Tore Naina Bade Dagabaaz Re
 Dance Pe Chance|Dance Pe Chance
 Dance Pe Chance|Left Leg Aage Aage,Right Leg Piche Piche
+Dancing Queen|Dancing Queen
 Dard Karaara|Dard Karara
 Dard Karaara|Dard Karaara
 Darde Dil Darde Jigar|Darde Dil Darde Jigar
@@ -1247,6 +1251,7 @@ Dil Hai Ke Maanta Nahin|Dil Hain Ke Manta Nahin
 Dil Hai Ke Maanta Nahin|Dilhaikimantanahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi ><
 Dil Hai Ke Maanta Nahin|Hil Hai Ke Manta Nahin Song
+Dil Hai Ke Maanta Nahin|Top Dil Hai Ki Manta Nahi
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
@@ -1555,6 +1560,7 @@ Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand
 Gali Mein Aaj Chand Nikla|Gali Main Aaj Tum Aaye To
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Nikla Zakhm 1998
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Chand Galimeaaj
+Gali Mein Aaj Chand Nikla|Gali Me Aaj Gali Mein Aaj Hh
 Galliyan|Galliyan
 Galliyan|Galliyan The R&B Female
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
@@ -1848,6 +1854,7 @@ Humsafar Mere Humsafar|Humsafar Mere Humsafar Pankh Tum
 Husn Hai Suhaana|Husn Hai Suhaana
 Husn Hai Suhaana|Husn Hai Suhana
 Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahi Gharana
+I Am A Disco Dancer|I Am A Disco Dancer
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
 I Can't Help Falling In Love|I Can't Help Falling In Love
@@ -2081,6 +2088,7 @@ Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil
 Jaaun Kahaan Bata E Dil|Jaun Kaha Bata Ae Dil
 Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil Better Quality
 Jaaun Kahaan Bata E Dil|0221 Jaoon Kahan Bata Aye Dil
+Jaaun Kahaan Bata E Dil|Jaun Kahan Bata Ae
 Jaayen To Jaayen Kaha|Talat
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
@@ -2093,6 +2101,7 @@ Jab Deep Jale Aana|Jabdeep Jale Deep Jale
 Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
+Jab Jab Bahaar Aayee|Jab Jab Bahar Aayee
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage (Pyaar To Hona)
@@ -2151,6 +2160,7 @@ Jawaani Jaaneman|Jawaani Jaaneman Haseen Dilruba
 Jawaani Jaaneman|Jawani Janeman Haseen Dilruba
 Jawaaniyan Yeh Mast Mast Bin Piye|Jawaniyan Yeh Mast Mast Bin Piye
 Jawaaniyan Yeh Mast Mast Bin Piye|Jawaniyaan Yeh Mast Mast Bin Piye
+Je Hum Tum Chori Se|Je Hum Tum Chori Se
 Jee Le Zaraa|Jee Le Zaraa
 Jee Le Zaraa|Jee Le Zara
 Jeena Jeena Samjhawan Mashup|Jeena Jeena Samjhawan
@@ -2482,6 +2492,7 @@ Khoya Khoya Chaand|Khoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Mohammed Rafi
 Khoya Khoya Chaand|Newkhoya Khoya Chand
 Khoya Khoya Chaand|Khoya Khoya Chand Khula Aasman
+Khoya Khoya Chaand|Khoya Khoya Mohammed
 Khud Ko Tere Paas Hi|Khud Ko Tere Pass Hi
 Khuda Bhi Aasman Se Jab|Khuda Bhi Aasman Se Jab
 Khuda Jaane|Khuda Jaane
@@ -2619,6 +2630,7 @@ Kyun Aage Pichhe Dolte Ho|क्यूँ आगे पीछे डोलते
 Kyun Hai Inkaar|Kyun Hai Inkaar
 Kyun Main Jaagoon|Kyun Main Jaagoon
 Kyun Main Jaagoon|Kyon Main Jagoon
+Kyun Main Jaagoon|Kyun Mai Jagoon
 La Bamba|La Bamba
 La Isla Bonita|La Isla Bonita
 Lab Par Aaye|Lab Par Aaye
@@ -2661,8 +2673,10 @@ Lamha Lamha|Lamha Lamha Doori Gangster
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi
+Le Gayi Le Gayi|(Le Gayi Le Gayi Asha Bhosle
 Le Jaayenge Le Jaayenge|Le Jayenge Le Jayenge Dilwale
 Le Le Mazaa Le|Le Le Mazaa Le
+Legends Hindi Medley|Legends Hindi Medley
 Lekar Hum Deewana Dil|Lekar Hum Deewana Dil
 Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
 Lekar Hum Deewana Dil|Lekar Hum
@@ -2871,6 +2885,7 @@ Medley Songs|Medley Songs
 Megha Chhaaye Aadhi Raat|मेघा छाये आधी रात बैरन बन गई निंदिया
 Megha Re Megha Re|Megha Re Megha Re
 Megha Re Megha Re|Megha Re Megha Re Pyasa Sawan
+Mehboob Mere Mehboob Mere|Mehboob Mere Mehboob Mere
 Mehbooba Mehbooba|Mehbooba Mehbooba
 Mehfil Mein Baar Baar|Mehfil Mein Baar Baar
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
@@ -3110,6 +3125,7 @@ Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuch Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
 Na Jaa Kahin|Na Jaa Kahin
+Na Jaane Ek Nigah Mein|Na Jaane Ek Nigah Mein
 Na Jaane Kahaan Tum The|Na Jane Kahan Tum The
 Na Jaane Kya Hua|Na Jaane Kya Hua Jo Tune Chhoo Liya
 Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
@@ -3501,6 +3517,7 @@ Pyaar Ka Dard Hai|Pyar Ka Dard Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai Meetha Meetha
 Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat
 Pyaar Ka Tohfa Tera|Pyar Ka Tohfa Tera
+Pyaar Ka Tohfa Tera|Pyar Ka Toffa Tera
 Pyaar Kabhi Kam Nahi Karna|Pyar Kabhi Kam Nahi Karna
 Pyaar Karne Waale|Pyaar Karne Waale
 Pyaar Karne Waale|Pyaar Karne Wale
@@ -4096,6 +4113,7 @@ Tere Liye|Tere Liye Veer Zaara
 Tere Liye|✔🇹 🇪 🇷 🇪  LIYE✔✔✔✔✔✔✔Tere Liye✔Tere Liye✔
 Tere Liye|Tere Liye Hum
 Tere Liye|Tere Liye Tere Liye
+Tere Liye Palkon Ki Jhaalar|Tere Liye Palkon Ki Jhalar
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain
 Tere Mast Mast Do Nain|Tere Mast Mast Do Nain Dabang
 Tere Mast Mast Do Nain|Tere Mast Mast Do Naain
@@ -4170,6 +4188,7 @@ Teri Meri Prem Kahani Kitabon|Teri Meri Prem Kahani Kitabo Me Bhi Na Milegi
 Teri Mitti|Teri Mitti
 Teri Mitti|Teri Mitti Kesari
 Teri Mitti|Teri Mitti Female Kesari
+Teri Mitti|Teri Mitti Mein Mil Jawa
 Teri Mohabbat Ne|Teri Mohabbat Ne
 Teri Mohabbat Ne|Teri Mohabbat Ne Dil Teri
 Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Soorat Ko
@@ -4178,6 +4197,7 @@ Teri Pyari Pyari Soorat Ko|Teri Pyari Pyari Surat Ko Kisi Ki Najar
 Teri Pyari Pyari Soorat Ko|Teri Pyaari Pyaari Soorat Ko
 Teri Pyari Pyari Soorat Ko|Teri Pyaari Pyaari Surat Ko
 Teri Rab Ne Bana Di Jodi|Teri Rab Ne Bana Di Jodi
+Teri Shehnai Bole|Teri Shehnai Bole
 Teri Umeed Tera Intezaar|Teri Umeed Tera Intezaar
 Teri Umeed Tera Intezaar|Teri Ummed Tera Intezar Karte Hain
 Teri Umeed Tera Intezaar|TTeri Umeed Tera Intezar Deewana
@@ -4311,6 +4331,7 @@ Tu Tu Hai Wahi|Yeh Vaada Raha
 Tu Tu Hai Wahi|Tu Tu Hai Wahi Ye Wada Raha
 Tu Tu Hai Wahi|📀 Tu Tu Hai Wohi
 Tu Tu Hai Wahi|Yeh Waada Raha Tu Hai Wohi
+Tu Tu Hai Wahi|Tutuhaiwahiyeh Vaada Rahatitle Song
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
@@ -4505,6 +4526,7 @@ Tum Paas Aaye|Tum Paas Aaye Tum Pass Aye
 Tum Paas Aaye|Kuch Kuch Hota Hai Song
 Tum Paas Aaye|Tum Pass Aaye , Kuch Kuch Hota Hai
 Tum Paas Aaye|Tum Paas Aaye Tum Paas Aaye
+Tum Paas Aaye|Thum Pass Aaye
 Tum Par Hum Hai Atke Yaara|Tum Par Hum Hai Atke Yaara
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
@@ -4560,6 +4582,7 @@ Tumsa Nahin Dekha|Yun Toh Humne Lakh Haseen Dekhe Hain
 Tumse Achha Kaun Hai|Tum Se Achha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achcha Kaun Hai
 Tumse Achha Kaun Hai|Tumse Achha Kaun Hai
+Tumse Achha Kaun Hai|Tumse Acha Kaun Hai
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse Milke
