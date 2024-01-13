@@ -165,8 +165,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by recency_score desc
             """
     elif analyticstitle == 'Period Stats':
-        headings = ['#','Period','# Performances','Total Performances','# Invites','Total Invites','# Joins','Total Joins','Joins Per Invite','Join %',\
-                    'Unique Titles','New Titles','Total Titles','Unique Partners','New Partners','Total Partners','New Joiners','Total Joiners']
+        headings = ['#','Period',\
+                    '# Performances','# Invites','# Joins','Joins Per Invite','Join %','Unique Titles','New Titles','Unique Partners','New Partners','New Joiners',\
+                    'Total Performances','Total Invites','Total Joins','Total Titles','Total Partners','Total Joiners']
         sqlquery = f"""
             with
             perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}'),
@@ -210,20 +211,20 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             select 	row_number() over() as rownum,
                     ps.perf_period,
             		to_char(ps.perf_cnt,'9,999') as perf_cnt,
-            		to_char(sum(ps.perf_cnt) over(order by ps.perf_period),'99,999') as total_perf_cnt,
             		ps.invite_cnt,
-            		to_char(sum(ps.invite_cnt) over(order by ps.perf_period),'99,999') as total_invite_cnt,
             		ps.join_cnt,
-            		to_char(sum(ps.join_cnt) over(order by ps.perf_period),'99,999') as total_join_cnt,
             		round(case when ps.invite_cnt > 0 then (1.0*ps.join_cnt/ps.invite_cnt) else 0.0 end,2) as join_per_invite_cnt,
             		round(case when ps.join_cnt > 0 then (1.0*ps.join_cnt/ps.perf_cnt) else 0.0 end * 100,2) as join_performance_pct,
                     ps.title_cnt,
             		ts.new_title_cnt,
-            		to_char(sum(ts.new_title_cnt) over(order by ts.first_perf_period),'99,999') as total_title_cnt,
                     ps.partner_cnt,
             		ptrs.new_partner_cnt,
-            		to_char(case when ptrs.new_partner_cnt is not null then sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_period) end,'99,999') as total_partner_cnt,
             		js.new_joiner_cnt,
+            		to_char(sum(ps.perf_cnt) over(order by ps.perf_period),'99,999') as total_perf_cnt,
+            		to_char(sum(ps.invite_cnt) over(order by ps.perf_period),'99,999') as total_invite_cnt,
+            		to_char(sum(ps.join_cnt) over(order by ps.perf_period),'99,999') as total_join_cnt,
+            		to_char(sum(ts.new_title_cnt) over(order by ts.first_perf_period),'99,999') as total_title_cnt,
+            		to_char(case when ptrs.new_partner_cnt is not null then sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_period) end,'99,999') as total_partner_cnt,
             		to_char(case when js.new_joiner_cnt is not null then sum(js.new_joiner_cnt) over(order by js.first_join_period) end,'99,999') as total_joiner_cnt
             from 	perf_stats ps
             		left outer join title_stats ts on ts.first_perf_period = ps.perf_period

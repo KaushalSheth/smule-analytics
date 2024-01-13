@@ -12,7 +12,7 @@ my_perf as (
             max(created_at) as last_performance_time,
             count(distinct partner_alltime) as num_partners,
             string_agg(distinct partner_alltime,', ') partner_list,
-            sum(child_count) AS num_joins
+            sum(join_ind) AS num_joins
     from    my_performances
     group by 1
     ),
