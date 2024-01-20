@@ -12,6 +12,8 @@ import asyncio
 import random
 import webbrowser
 import geocoder
+import copy
+from pathlib import Path
 
 # Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
 # Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
@@ -325,12 +327,14 @@ def extractSearchOptions(searchOptions):
         contentType = "both"
         solo = False
         joins = True
+        grouponly = False
     else:
         contentType = searchOptions['contentType']
         solo = searchOptions['solo']
         joins = searchOptions['joins']
+        grouponly = searchOptions['grouponly']
 
-    return contentType, solo, joins
+    return contentType, solo, joins, grouponly
 
 # Create performance list out of a performances JSON that is passed in
 def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
@@ -338,7 +342,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     performanceList = []
     stop = False
     i = n
-    contentType, solo, joins = extractSearchOptions(searchOptions)
+    contentType, solo, joins, grouponly = extractSearchOptions(searchOptions)
     geoCache = getGeoCache()
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
@@ -430,29 +434,39 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                     display_pic_url = partner_pic_url
         # If performers is in list of GroupHandles, then look for the real performer in the message string
         groupHandles = getGroupHandles()
+        lowerGroupHandles = ['@' + gh['item_name'].lower() for gh in groupHandles]
         gdb = next((g for g in groupHandles if g['item_name'] == performers), None)
         if gdb is not None:
             msg = performance['message']
+            #print(msg)
             try:
                 # Remove any spaces after the "@"
                 msg = msg.replace('@ ','@')
+                # Add space before "@" if it is immediately preceded by a letter or number or underscore
+                msg = re.sub('([A-Za-z0-9_])@', r'\1 @', msg)
+                # Split the message by any character other than letter, number, "@" or "_"
                 prf = [word for word in re.split('[^a-zA-Z0-9@_]',msg) if word.startswith('@')]
                 # If message contains any words starting with @, take the first one as the real performer handle. Strip out the leading @
                 if len(prf) > 0:
-                    # First, remove any occurrences of the group handle if it exists
+                    # First, remove any occurrences of any group handles if it exists
                     try:
-                        groupHandle = f"@{gdb['item_name']}"
-                        #print(groupHandle)
-                        prf.remove(groupHandle)
+                        # Since we want to remove group handles in a case-insensitive manner, cannot use the remove method directly
+                        #print(f"Before: {prf}")
+                        #print(lowerGroupHandles)
+                        prf = [i for i in prf if i.lower() not in lowerGroupHandles]
+                        #print(f"After: {prf}")
                     except:
                         # Ignore if any errors happen
                         pass
-                    #print(prf)
+                    # Then, pick the first remaining handle
                     p = prf[0]
                     performers = p[1:]
             except:
                 print(f"FAILED TO PARSE MESSAGE: {msg}")
                 pass
+        # If this is not a group handle performance, and the searchoption for group handles only is set, skip this performance
+        elif grouponly:
+            continue
         filename_base = f"{fixedTitle} - {performers}"
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
@@ -855,7 +869,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
     gPerformerList = []
     # Fech open invites
     #rsOpenInvites, rsInviteJoins = fetchOpenInvites()
-    contentType,solo,joins = extractSearchOptions(searchOptions)
+    contentType,solo,joins, grouponly = extractSearchOptions(searchOptions)
     # Smule uses a concept of offset in their JSON API to limit the results returned (currently it returns 25 at a time)
     # It also returns the next offset in case we want to fetch additional results.  Start at 0 and go from there
     next_offset = startoffset
@@ -930,8 +944,18 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
 
 # Download the specified web_url to the filename specified; return 1 if critical error or 0 otherwise
 def downloadSong(web_url,baseFolder,file,performance,username):
-    # Construct full path to filename
-    filename = baseFolder + file
+    # Calculate necessary dates
+    createdat = performance["created_at"]
+    perfdate = datetime.strptime(createdat[0:10],"%Y-%m-%d")
+    # Set the album date to the Saturday following the performance date
+    albumdate = (perfdate + timedelta(days=((12 - perfdate.weekday()) % 7))).strftime("%Y-%m-%d")
+    albumyear = createdat[0:4]
+    folderdate = datetime.strptime(albumdate,"%Y-%m-%d").strftime("%Y%m%d")
+    # Construct pathname and create folder if it does not exist
+    pathname = baseFolder + folderdate + "/"
+    Path(pathname).mkdir(parents=True, exist_ok=True)
+    # Construct full file name (including pathname)
+    filename = pathname + file
 
     # If the file already exists, skip it
     if path.exists(filename):
@@ -985,12 +1009,6 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         return 1
 
     try:
-        # Calculate necessary dates
-        createdat = performance["created_at"]
-        perfdate = datetime.strptime(createdat[0:10],"%Y-%m-%d")
-        # Set the album date to the start of the week on which the song was created
-        albumdate = (perfdate - timedelta(days=perfdate.weekday())).strftime("%Y-%m-%d")
-        albumyear = createdat[0:4]
         # Write the tags for the M4A file
         af = MP4(filename)
         af["\xa9nam"] = performance["fixed_title"]

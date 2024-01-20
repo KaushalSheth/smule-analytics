@@ -12,7 +12,7 @@ from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleM
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
-searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1"}
+searchOptions = {'solo':False,'contentType':"both",'joins':True,'searchType':"normal",'dbfilter':"1=1",'grouponly':False}
 analyticsOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'analyticstitle':"Custom",'headings':[],'analyticssql':""}
 utilitiesOptions = {'username':"KaushalSheth1",'fromdate':"2018-01-01",'todate':"2030-01-01",'title':"Lag+Ja+Gale",'sort':'popular','distance':"500",'centlat':"37.76",'centlon':"-121.89"}
 inviteOptions = {'knowntitles':True,'unknowntitles':False,'repeats':False,'newtitles':False,'partnersql':"select 'KaushalSheth1' as partner_name,1 as sort_order"}
@@ -109,6 +109,10 @@ def create_app(test_config=None):
                 searchOptions['joins'] = True
             else:
                 searchOptions['joins'] = False
+            if request.form.get('grouponly'):
+                searchOptions['grouponly'] = True
+            else:
+                searchOptions['grouponly'] = False
             if request.form.get('comments'):
                 searchOptions['comments'] = True
             else:
@@ -605,8 +609,6 @@ def create_app(test_config=None):
         # We can save the listed performances/favorites to the DB, download them all, or display them on a map (using leaflet)
         if request.form['btn'] == 'Save Performances':
             message = saveDBPerformances(user,performances)
-            rsPartnerInfo = fetchPartnerInfo()
-            rsOpenInvites, rsInviteJoins = fetchOpenInvites()
         elif request.form['btn'] == 'Save Favorites':
             message = saveDBFavorites(user,performances)
         elif request.form['btn'] == 'Download All':
