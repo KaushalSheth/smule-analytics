@@ -33,7 +33,7 @@
 {%- if searchOptions['searchType'] == "partnerinvites" -%}
       <th>Created Time</th><th>Title</th><th>Partner</th><th>Partner Joins</th><th>Recency Score</th><th>Action</th><th>Play Song</th>
 {%- else -%}
-      <th>Created Time</th><th>Title</th><th>Partner</th><th>Partner Joins</th><th>Last Perf Time</th><th>Action</th><th>Play Song</th>
+      <th>Created Time</th><th>Title</th><th>Partner</th><th>Partner Joins</th><th>Last Join Time</th><th>Action</th><th>Play Song</th>
 {%- endif -%}
     </thead>
     <tbody>
@@ -73,7 +73,7 @@
         {%- if searchOptions['searchType'] == "partnerinvites" -%}
         <td style="text-align:center">{{ performance.total_loves }}</td>
         {%- else -%}
-        <td style="text-align:center">{{ performance.last_performance_time }}</td>
+        <td style="text-align:center">{{ performance.last_join_time }}</td>
         {%- endif -%}
   {%- if searchOptions['offline'] -%}
         <td><a href="{{ performance.web_url }}" target="_blank">Play only</a></td>

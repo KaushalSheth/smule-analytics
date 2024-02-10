@@ -122,7 +122,7 @@ def fetchDBPerformerMapInfo(utilitiesOptions):
         from    singer_location
         where   calculate_distance({centlat},{centlon},lat,lon,'M') <= {distance}
         and     last_perf_time > current_timestamp - interval '{dayssincelastperf} days'
-        and     not( smule_hq_ind )
+        --and     not( smule_hq_ind )
         """
     # Execute the query and build the performers list
     performerMapInfo = execDBQuery(sqlquery)
@@ -193,6 +193,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
             perf_stats as (
                 select  s.performed_by,
                         max(p.created_at) as last_performance_time,
+                        max(case when p.owner_handle = m.handle then p.created_at else null end) as last_join_time,
                         count(case when p.created_at > current_timestamp - interval '30 days' then p.performers else null end) as recent_perf_cnt,
                         count(case when p.owner_handle = m.handle then p.performers else null end) as join_cnt,
                         count(case when p.owner_handle = m.handle and p.created_at > current_timestamp - interval '30 days' then 1 else null end) as recent_join_cnt
@@ -200,7 +201,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
                         left outer join performance p on p.performers = s.performed_by
                 group by 1
             )
-        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time
+        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time, js.last_join_time
         from    all_performances p
                 left outer join perf_stats js on js.performed_by = p.partner_name
         where   p.created_at between '{fromdate}' and '{todate}'
@@ -279,6 +280,7 @@ def saveDBPerformances(username,performances):
             del p['join_cnt']
             del p['recent_join_cnt']
             del p['last_performance_time']
+            del p['last_join_time']
 
             # Create/Update the Singer record for the performance owner
             # Note that the pic, lat and lon for the owner will be updated to the last performance processed

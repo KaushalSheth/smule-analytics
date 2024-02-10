@@ -24,7 +24,7 @@ def fetchPartnerInfo():
     global rsPartnerInfo
     # Get partner info to be used later
     printTs("Fetch partnerInfo")
-    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str, is_following from favorite_partner")
+    rsPartnerInfo = execDBQuery("select partner_account_id, partner_name, join_cnt, recency_score, recent_perf_cnt, join_last_30_days_cnt as recent_join_cnt, last_performance_time, last10_rating_str, is_following, last_join_time from favorite_partner")
     printTs("Done fetching")
     return rsPartnerInfo
 
@@ -51,7 +51,7 @@ def fetchOpenInvites():
         if invite["ensemble_type"] == "GROUP":
             continue
         # Add invite to list of open invites
-        fixedTitle = fix_title(invite['title'],gTitleMappings)
+        fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
         rsOpenInvites.append(fixedTitle)
         # Fetch list of partners who have joined the invite
         inviteKey = invite['key']
@@ -471,6 +471,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         joinCount = getPartnerInfo("partner_name",performers,"join_cnt")
         recentJoinCount = getPartnerInfo("partner_name",performers,"recent_join_cnt")
         lastPerformanceTime = getPartnerInfo("partner_name",performers,"last_performance_time")
+        lastJoinTime = getPartnerInfo("partner_name",performers,"last_join_time")
         isFollowing = getPartnerInfo("partner_name",performers,"is_following")
         # Set comment dictionary appropriately based on owner
         if ownerHandle == username:
@@ -616,6 +617,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'rating_nbr':"-",
                 'join_cnt':join_cnt,\
                 'last_performance_time':lastPerformanceTime,\
+                'last_join_time':lastJoinTime,\
                 'recent_join_cnt':recentJoinCount\
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
