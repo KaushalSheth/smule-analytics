@@ -349,9 +349,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     for performance in performancesJSON['list']:
         ct = createType
         perfStatus = performance['perf_status']
+        perfKey = performance['key']
         joiners = ""
         partnerHandle = ""
-
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
             stop = True
@@ -373,6 +373,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # If the web_url_full ends in "/ensembles" then set ct to be "invite"
         if web_url_full.endswith("/ensembles"):
             ct = "invite"
+            # If performance type is invite, get list of joiners
+            if filterType == "invites":
+                rs = execDBQuery(f"select string_agg(performers,', ') as joiners from my_performances where parent_key = '{perfKey}'")
+                if len(rs) > 0:
+                    joiners = rs[0]['joiners']
+                    #print(joiners)
             # If filterType is Invites, only include the invites that are still open - skip invites where perf_status = "e" (expired)
             if filterType == "invites" and perfStatus == "e":
                 # We are now including everything, so technically, this IF block can be removed - leaving it in just so we can easily flip it if needed for a specific use case

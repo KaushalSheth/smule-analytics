@@ -7,7 +7,7 @@ from datetime import datetime, timedelta, date
 from requests_html import HTMLSession, AsyncHTMLSession
 import random
 
-# Method to fetch invites for partners identified by the partner SQL passed in
+# Method to fetch invites for song title passed in
 def fetchSongInvites(inviteOptions,numrows):
     dayslookback = inviteOptions['dayslookback']
     currTime = datetime.now()

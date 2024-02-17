@@ -402,6 +402,7 @@ Ae Ajnabi|Aye Ajnabi Tu Bhi
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil E Nadan|Aye Dile
+Ae Dil E Nadan|Aye Dile Nadan
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
 Ae Dil Hai Mushkil|Ae Dil Hai
 Ae Dil Hai Mushkil|Ae Dil Hai Mushkil
@@ -453,6 +454,7 @@ Ae Meri Zohra Jabeen|Ae Meri Zohra Zabeen
 Ae Meri Zohra Jabeen|ऐ मेरी ज़ोहरा जबीं तू अभी Aye Meri Zohrajabin
 Ae Meri Zohra Jabeen|Aye Meri Zohra Jabeen
 Ae Phoolon Ki Rani|Ae Phoolon Ki Rani
+Ae Watan Tere Liye|Aye Watan Tere Liye
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le Take
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagaa Le
@@ -769,6 +771,7 @@ Bheegi Bheegi Raaton Mein|Bheegibheegiraatonmein
 Bheegi Bheegi Raaton Mein|Bheegi Bheegi Raaton
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
+Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi
 Bholi Si Surat|Bholi Si Surat
 Bholi Si Surat|Bholi Si Surat Re
 Bholi Surat Dil Ke Khote|Bholi Surat Dil Ke Khote
@@ -899,6 +902,7 @@ Chalo Dildar Chalo|Chalo Dildar Chalo
 Chalo Dildar Chalo|Chalo Dildar Chalo Chaand Ke Paar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
+Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Phirse Ajnabi Bann Jaayein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
@@ -1482,6 +1486,7 @@ Dost Dost Na Raha|Dost Dost Na
 Dost Dost Na Raha|Dost Dost Na Raha
 Doston Se Pyaar Kiya|Doston Se Pyar Kiya
 Dream Girl Kisi Shaayar Ki Ghazal|Dream Girl Kisi Shayar Ki Gazal
+Dream Girl Kisi Shaayar Ki Ghazal|Dream Girl Kisi Shayar
 Dukhi Man Mere|Dukhi Man Mere Sun Mera Kehna
 Dukhi Man Mere|Dukhi Man Mere Sun Mera
 Dukhi Man Mere|Dukhi Man Mere
@@ -1535,6 +1540,7 @@ Ek Din Aap Yoon Humko|115 Ek Din Aap Yun
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jaayenge
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Hum Ko Mil
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Crystal
+Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jayenge
 Ek Din Bik Jaayega|Ek Din Bik Jayega
 Ek Din Tum Bahut|Ek Din Tum Bahut 102
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
@@ -1733,6 +1739,7 @@ Hai Apna Dil To Awaara|है अपना दिल तो आवारा न�
 Hai Apna Dil To Awaara|Hai Apna Dil To Aawara So
 Hai Apna Dil To Awaara|Hai Apna Dilhaiapnadiltoawara
 Hai Apna Dil To Awaara|Hai Apna Dil Toh Aawara Solva Saal
+Hamesha Tumko Chaaha|Hamesha Tumko Chaha
 Hangover|Hangover
 Hangover|Hangover Kick
 Happy Birthday To You|Happy Birtay To You
@@ -1804,6 +1811,7 @@ Hum Aapke Hain Kaun|Hum Aapke Hain Koun
 Hum Aapke Hain Kaun|Hum Aapke Hain Kauntitle
 Hum Aapke Hain Kaun|Hum Aapke Hain Kaun Title
 Hum Aapke Hain Kaun|Hum Aapke Hain Kountitle
+Hum Aapke Hain Kaun|Hum Aapke Hai Kaun
 Hum Bekhudi Mein Tumko|Hum Bekhudi Mein Tumko
 Hum Bekhudi Mein Tumko|Hum Bekhudi Me Tumko Pukare
 Hum Bewafaa|Hum Bewafa
@@ -1933,6 +1941,7 @@ Ik Raasta Hai Zindagi|Ik Rasta Hai Zindagi
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke Umrao Jaan
 In Aankhon Ki Masti|In Ankhon Ki Masti
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke
+In Dino|In Dino
 In Haseen Waadiyon Se|In Haseen Wadiyon Se Do Chaar Churale
 Ina Mina Dika|Ina Mina Dika
 Ina Mina Dika|Ina Mina Dika टीना मीना डीका
@@ -2164,6 +2173,7 @@ Jaayen To Jaayen Kaha|Talat
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
+Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas
 Jab Chali Thandi Hawa|Jab Chalii Thandi Hawa
 Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo
 Jab Chhaye Mera Jadoo|Jab Chahe Mera Jaadu
@@ -2603,6 +2613,7 @@ Kis Liye Maine Pyaar Kiya|Kis Liye Meine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kis Liye Maine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kisliye Maine Pyaar Kiya
 Kisi Din Banoongi|Kisi Din Banoongi Main
+Kisi Din Banoongi|Kisi Din Banoongi Main Raja
 Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
 Kisi Disco Mein Jayein|]Kisi Disco Mein Jaye
 Kisi Disco Mein Jayein|Kisi Disco Mein Jaye
@@ -2651,6 +2662,9 @@ Koi Fariyaad|Koi Fariyaad
 Koi Fariyaad|Koi Fariyad
 Koi Fariyaad|Koi Fariyadtum Binfariyaad ‐6Min
 Koi Fariyaad|Koi FariyadFariyaad 6Min
+Koi Fariyaad|Koi Fariyaad Song
+Koi Fariyaad + Koi Ye Kaise Bataaye|Koi Fariyaad / Koi Ye Kaise Bataaye
+Koi Fariyaad + Koi Ye Kaise Bataaye|Koi Fariyaad Koi Ye Kaise Bataye
 Koi Hota Jisko Apna|Koi Hota Jisko Apna
 Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
@@ -2691,6 +2705,7 @@ Kuch Na Kaho|Kuchh Na Kaho Kuchh Bhi
 Kuch Na Kaho|Kuch Na Kaho Song
 Kuch Na Kaho|Kuch Na Kahokuchh Na Kaho
 Kuch Na Kaho|Gem Kuch Na Kaho
+Kuch Na Kaho|Kuch Na
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -2726,6 +2741,7 @@ Kya Yahi Pyaar Hai|Kya Yahi Pyaar
 Kya Yahi Pyaar Hai|H‌D‌ Kya Yehi Pyaar Hai
 Kyun Aage Pichhe Dolte Ho|क्यूँ आगे पीछे डोलते हो भंवरों की तरह
 Kyun Hai Inkaar|Kyun Hai Inkaar
+Kyun Ki Itna Pyaar Tumko|Kyun Ki Itna Pyaar Tumko
 Kyun Main Jaagoon|Kyun Main Jaagoon
 Kyun Main Jaagoon|Kyon Main Jagoon
 Kyun Main Jaagoon|Kyun Mai Jagoon
@@ -2781,6 +2797,7 @@ Lekar Hum Deewana Dil|Lekar Hum Diwana Dil
 Lekar Hum Deewana Dil|Lekar Hum
 Lekar Hum Deewana Dil|Lekar Hum Dewana Dil
 Lekar Hum Deewana Dil|Lekarhumdeewanadil
+Lekar Hum Deewana Dil|Le Kar Hum Deewana Dil
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Redux
 Leke Pehla Pehla Pyaar|O Leke Pahla Pahla Pyaar
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
@@ -2873,6 +2890,7 @@ Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jau Tere Pyar Mein
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jaun
+Main Kahin Kavi Na Ban Jaaoon|Mein Kahin Kavi Na Ban Jau
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet
@@ -3041,6 +3059,7 @@ Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai Daag 1973
 Mere Dil Mein Hai Ek Baat|Mere Dil Mein Hai Ek Baat
 Mere Dil Mein Hai Ek Baat|Mere Mein Aaj Kya Hai
+Mere Dil Mein Rahne Waali|Mere Dil Me Rahne Wali
 Mere Dil Ne Tadap Ke|Mere Dil Ne Tadap Ke
 Mere Ghar Aayi Ek Nanhi Pari|Mere Ghar Aayi Ek Nanhi Pari
 Mere Haath Mein|Mere Haath Mein
@@ -3192,6 +3211,7 @@ Mujhe Neend Na Aaye|Mujhe Neend Naaaye
 Mujhe Neend Na Aaye|Mujhe Nind Na Aaye
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
 Mujhe Neend Na Aaye|Mujhe Neendna Aaye
+Mujhe Pyaar Hone Laga Hai|Mujhe Pyar Hone Laga Hai
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas
 Mujhe Rang De|Mujhe Rang De
@@ -3443,6 +3463,7 @@ Odh Li Chunariya|Odh Li Chunariya
 Oh Re Taal Mile|Oh Re Taal Mile
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Jal Mein
 Old Songs Medley|Old Songs Medley
+Om Shanti Om|Om Shanti Om
 Only Time|Only Time
 Open Mic|Open Mic 2 Min
 Open Mic|Open Mic
@@ -3487,6 +3508,7 @@ Pal Pal Dil Ke Paas|Pal Pal Dil
 Pal Pal Dil Ke Paas|Pal Palke Paas Palpaldilkepaas
 Pal Pal Dil Ke Paas|R Pal Pal Dil Ke Paaspal
 Pal Pal Dil Ke Paas|Pal Palke Paastum Palpaldilkepaas
+Pal Pal Dil Ke Paas|Palpaldilkepaas M&F
 Pal Pal Pal Pal Har Pal|Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal Har Pal
@@ -3496,6 +3518,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kaaala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Keh Daala
 Palkon Ke Peeche Se|Palkon Ke Peechhe Se
+Palkon Ke Peeche Se|Palko Ke Piche
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke Jhonke
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan
@@ -3521,6 +3544,7 @@ Pardesiya|Pardesia Ye Sach Hai Piya
 Pardesiya|Rp Pardesiya Ye Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Pardesiya Yeh Sach
 Pardesiya|H‌D‌ Pardesi Pardesi Jana Nahi
+Pardesiyon Se Na Akhiyan Milaana|Pardesiyon Se Na Akhiyan Milana
 Patthar Ke Sanam|Patthar Ke Sanam
 Patthar Ke Sanam|Pathar Ke Sanam Tujhe Humne
 Peete Peete Kabhi Kabhi|Peete Peete Kabhi Kabhi
@@ -3646,6 +3670,7 @@ Pyaar Humko Bhi Hai|Pyar Humko Bhi Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai Meetha Meetha
 Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat
+Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat Likhne Mei
 Pyaar Ka Tohfa Tera|Pyar Ka Tohfa Tera
 Pyaar Ka Tohfa Tera|Pyar Ka Toffa Tera
 Pyaar Kabhi Kam Nahi Karna|Pyar Kabhi Kam Nahi Karna
@@ -3678,6 +3703,7 @@ Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do Dushman
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai Tumhi Se
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai
+Pyaar Manga Hai Tumhi Se|Pyar Maanga Hai Tumhi Se
 Pyaar Mein Dil De Diya|Pyar Mein Dil De Diya
 Pyaar Mein Dil Pe Maar De Goli|Pyar Mein Dil Pe Maar De Goli
 Pyaar Mein Dil Pe Maar De Goli|Pyaar Mein Dil Pe Maar Demusicoolpiyush_
@@ -3685,6 +3711,7 @@ Pyaar Mein Hota Hai Kya Jaadu|Pyaar Mein Hota Hai Kya Jaadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jaadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Me Hota Hai Kya Jadu
+Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai
 Pyaar Mein Kabhi Kabhi|Pyar Mein Kabhi Kabhi Aisa Hojata Hai
 Pyaar Mein Kabhi Kabhi|Pyar Mein Kabhi Kabhi
 Pyaar Mujhse Jo Kiya Tumne|Pyar Mujhse Jo Kiya Tumne
@@ -4907,6 +4934,7 @@ Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaar Bina Chain|Yaar Bina Chain Kahan Re
 Yaar Chulbula Hai|Yaar Chulbula Hai
 Yaara Sili Sili|Yaara Sili Sili
+Yaara Sili Sili|Yara Sili Sili Rudaali
 Yaaron Sun Lo Zara|Yaaron Sun Lo Zara
 Yaaron Sun Lo Zara|Yaaron Sunlo Zara
 Yahaan Koi Nahin Tera Mere Siwa|Yahan Koi Nahi Tera Mere Siwa
