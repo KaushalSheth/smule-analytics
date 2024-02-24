@@ -115,7 +115,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             '# Perf', '# Partners', '# Invites', '# Joins', 'Join Ratio', 'First Perf', 'Last Perf', 'Last Invite'\
             ]
         sqlquery = f"""
-            select  fixed_title as title_search, rating_nbr, invite_recency_score, favorite_score_nbr,
+            select  fixed_title as title_search, 'T:' || lpad(rating_nbr::varchar,2,'0') as rating_nbr, invite_recency_score, favorite_score_nbr,
                     coalesce(singer_type,'') as singer_type, coalesce(artist,'') as artist,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || num_all_performances || '</a>' as performance_link_str,
                     num_partners, num_invites, num_joins,
@@ -138,7 +138,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
     elif analyticstitle == 'Favorite Songs':
         headings = ['Song Name', 'Current Month', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, current_month_ind, coalesce(rating_nbr,0) as rating_nbr, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
+            select  fixed_title as title_search, current_month_ind, 'T:' || lpad(coalesce(rating_nbr,0)::varchar,2,'0') as rating_nbr, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
                     coalesce(singer_type,'') as singer_type, coalesce(artist,''), first_performance_time, last_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || perf_cnt || '</a>' as performance_link_str,
                     perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
