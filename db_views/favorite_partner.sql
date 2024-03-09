@@ -6,7 +6,8 @@ perf as (
     select  p.*, pf.created_at as rated_datetime,
             greatest(1,50-p.days_since_performance) as performance_weight_nbr,
             case when l.item_name is not null then 1 else 0 end always_include_ind,
-            min(p.days_since_performance) over(partition by p.performers) as days_since_last_performance
+            min(p.days_since_performance) over(partition by p.performers) as days_since_last_performance,
+            first_value(p.performers) over(partition by p.fixed_title order by p.created_at) as title_first_partner
     from    my_performances p
     left outer join smule_list l on l.list_type = 'INCLUDE_PARTNER' and l.item_name ilike p.performers
     left outer join performance_favorite pf on pf.performance_key = p.key
@@ -20,6 +21,7 @@ perf_stats as (
             count(*) as performance_cnt,
             sum(join_ind) as join_cnt,
             sum(favorite_ind) as favorite_cnt,
+            count(distinct case when performers = title_first_partner then fixed_title else null end) as first_partner_cnt,
             -- For recent performances, don't count performances in the last 12 hours
             sum(case when days_since_performance between 0.5 and 5 then 1 else 0 end) as recent_perf_cnt,
             sum(case when days_since_performance between 0 and 5 then 1 else 0 end) as performance_last_5_days_cnt,
@@ -66,7 +68,8 @@ select 	p.partner_account_id, coalesce(sf.handle, s.performed_by, p.partner_name
         length(last10_rating_str) - length(replace(last10_rating_str,'5','')) as last10_five_cnt,
         length(replace(last10_rating_str,'-','')) as last10_rating_cnt,
         p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt,
-        sf.rank_nbr
+        sf.rank_nbr,
+        p.first_partner_cnt
 from 	perf_stats p
         left outer join singer s on s.account_id = p.partner_account_id
         left outer join sf on sf.account_id = p.partner_account_id
@@ -74,7 +77,7 @@ from 	perf_stats p
 UNION ALL
 select  account_id as partner_account_id, handle as partner_name,
         0, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
-        pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0, rank_nbr
+        pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0, rank_nbr, 0
 from    sf
 where   is_following and is_vip
 and     account_id not in (select owner_account_id from my_performances)

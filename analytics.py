@@ -146,7 +146,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by current_month_ind, coalesce(rating_nbr,0) desc, adj_weighted_cnt desc
             """
     elif analyticstitle == 'Favorite Partners':
-        headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', 'First Perf Time', '# Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']
+        headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', '# First Partner', 'First Perf Time', '# Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']
         sqlquery = f"""
             select  partner_name as user_search,
                     round(case when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
@@ -154,6 +154,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     --round(case when rating = 99999 then 0 else rating end, 2) as rating,
                     case when join_cnt = 0 then null else round(performance_cnt/(join_cnt*1.0),2) end as perf_join_ratio,
                     case when performance_cnt = 0 then null else round(favorite_cnt/(performance_cnt*1.0),2) end as fav_perf_ratio,
+                    first_partner_cnt,
                     first_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/user/' || partner_name || ' target="_blank">' || performance_cnt || '</a>' as performance_link_str,
                     '<a href=http://localhost:3000/query_db_performances/joins/' || partner_name || ' target="_blank">' || join_cnt || '</a>' as join_link_str,
