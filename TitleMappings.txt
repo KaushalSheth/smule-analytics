@@ -360,6 +360,7 @@ Abhi Mujh Mein|Abhi Mujh Mein Kahin
 Abhi Mujh Mein|Abhi Mujh Mein Abhi Mujh Mein
 Abhi Mujh Mein|Abhi Mujh Main Kahin
 Abhi Mujh Mein|Abhi Mujh Mai Hai
+Abhi Mujh Mein|Abhi Mujhme Kahi
 Abhi Na Jao Chhod Kar|Abhi Na Jao
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kaar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kar
@@ -493,6 +494,7 @@ Agar Tum Na Hote|Humein Aur Jeene Ki
 Agar Tum Na Hote|Agar Tum Na Hote ,
 Agar Tum Na Hote|Hame Aur Jine Ki Chahat
 Agar Tum Na Hote|Hamein Aur Jeene Ki Chahat Na Hoti
+Agar Tum Na Hote|Agar Tum Na Hote Sad Vertion
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -750,6 +752,7 @@ Beedi Jalaile Jigar Se Piya|Beedi Jalaile Jigar Se Piya
 Beete Hue Lamhon Ki Kasak|Beete Hue Lamhon Ki Kasak
 Behka Diya Humein|Behka Diya Humein
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
+Bekarar Dil Tu Gaaye Ja|Bekarar Dil Tu Gaaye Ja
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
 Bekhudi Mein Sanam|Bekhudi Mein Sanam Lata Rafi
 Beqarar Karke Hamein|Bekaraar Karke Hume
@@ -1058,6 +1061,7 @@ Chhup Gaye Saare Nazaare|Chupp Gaye Saare Nazare 1969
 Chhup Gaye Saare Nazaare|Chhup Gaye Saare Nazare
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Me Pyar Mera
+Chhupa Lo Yun Dil Mein|Chhupa Lo Yun
 Chhupne Waale Saamne Aa|Chupne Wale Saamne Aa
 Chhupne Waale Saamne Aa|Chhupne Wale Saamne Aa Chhup Chhup Ke
 Chikni Chameli|Chikni Chameli
@@ -1635,6 +1639,8 @@ Faza Bhi Hai|Faza Bhi Hai Jawan Jawan
 Faza Bhi Hai|Faza Bhi Hai Jawan Jawa Male Scale
 Faza Bhi Hai|Faza Bhi Hai Jawaan
 Faza Bhi Hai|Faza Bhi Hai Jawan
+Faza Bhi Hai|Faza Bhi Hai Jawan Jawa
+Fitoor|Fitoor Shamshera
 Five Hundred Miles|Five Hundred Miles
 Gaata Rahe Mera Dil|Gaata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gata Rahe Mera Dil
@@ -1680,6 +1686,7 @@ Ghodey Pe Sawaar|Ghodey Pe Sawaar
 Ghodey Pe Sawaar|Ghode Pe Sawaar Qala
 Ghodey Pe Sawaar|Koi Kaise Unhein Ye Samjhaye
 Ghodey Pe Sawaar|Koi Kaise Unhe Ye Samjhaye
+Ghodey Pe Sawaar|Ghodey Pe Sawaar Qala
 Ghunghat Ki Aad Se|Ghunghat Ki Aad Se Dilbar Kaa
 Ghungroo Ki Tarah|Ghungrookitarah
 Ghungroo Ki Tarah|Ghunguroo Ki Tarah
@@ -1795,6 +1802,7 @@ Har Kisi Ko Nahi Milta|Har Kisiko Nahi Milta
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Yahan Pyar
 Har Kisi Ko Nahi Milta|Harkisikonahimilta
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahin Milta
+Hasta Hua Noorani Chehra|Hasta Hua Noorani Chehra
 Haule Haule|Haule Haule
 Haule Haule|Haule Haule Se
 Haule Haule Chalo Mere Sajna|Haule Haule Chalo Mere Sajna
@@ -2328,6 +2336,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron
 Jhoomti Chali Hawa|Jhoomti Chali Hawa
 Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
 Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
+Jhooth Bole Kauwa Kaate|Exclusive Jhooth Bole Kauwa Kaate
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar
 Jhuki Jhuki Si Nazar|Jhuki Jhuki Si Nazar Nazar
@@ -2551,6 +2560,7 @@ Kalank|ᴋᴀʟᴀɴᴋ Title
 Kalank|꧁꧂Kalank
 Kalank|Kalank Title
 Kambakth Ishq|Kambakth Is
+Kambakth Ishq|Kambakht Is
 Kamli Kamli|Kamli Kamli
 Kamli Kamli|Kamli Kamli Dhoom 3 Karaok
 Kanha Maane Na|Kanha Maane Na
@@ -2642,6 +2652,7 @@ Khilte Hain Gul Yahan|Khilte Hain Gul Yahan
 Khilte Hain Gul Yahan|Khilthe Hain Gul Yahansharmeelee
 Khilte Hain Gul Yahan|Khilte Hai Gul Yahan
 Khilte Hain Gul Yahan|Khilte Hain
+Khilte Hain Gul Yahan|Khilte Hai Gul Yeha
 Khoobsurat Hai Wo Itna|Khoobsurat Hai Wo Itna
 Khoya Khoya Chaand|Khoya Khoya
 Khoya Khoya Chaand|Khoya Khoya Chand
@@ -3075,6 +3086,7 @@ Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mehndi Lagake
 Mehndi Laga Ke Rakhna|Mehandi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|188 Mehandi Laga Ke Rakhna
+Mehndi Laga Ke Rakhna|Mei Laga Ke Rakhna Doli Saja Ke
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujheaaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar Song
@@ -3331,6 +3343,7 @@ Na Jaane Kyu Hota Hai|Na Jane Kyu Hota Hai Zindagi Ke Sath
 Na Jaane Kyu Hota Hai|Na Jaane Kyun
 Na Jaane Kyu Hota Hai|Na Jaane Kyuun Hota Hai Ye Zindagi Ke Sath
 Na Jaane Kyu Hota Hai|Na Jaane Kyun Hota Hai
+Na Jaane Kyu Hota Hai|Na Jane Kya Hua
 Na Jaane Mere|@MSMT [HD] Na Jaane Mere Dil Ko Kya Ho Gaya
 Na Jaane Mere|Na Jaane Mere
 Na Jaane Mere|Na Jaane Mere Dil Ko
@@ -3386,6 +3399,7 @@ Na Ye Chand Hoga|Na Ye Chand Hoga Na Taare
 Na Ye Chand Hoga|Na Ye Chand Hoga Na Taare Rahenge
 Na Ye Chand Hoga|Na Yeh Chand Hoga
 Na Ye Chand Hoga|Na Ye Chand Hoga
+Naam Ada Likhna|Naam Ada Likhna
 Naam Gum Jayega|Naam Ghum Jayega
 Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
@@ -3464,6 +3478,7 @@ Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
 Noorie Noorie|Aaja Re Aaja Re O Mere Dilbar
 Noorie Noorie|Aaja Re Aaja Re O Mere
 Noorie Noorie|Aaja Re O Mere Dilbar Aajanoorie Noorie
+O Baby Don't Break My Heart|O Baby Don'T Break My Heart
 O Bedardeya|O Bedardeya
 O Hansini|Hansini
 O Hansini|O Hansini
@@ -3559,6 +3574,7 @@ Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Customised
+Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hame
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Yeh Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Ye Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Palbhar Mein Ye Kya Ho Gaya
@@ -4114,6 +4130,7 @@ Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Saathiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiyalve
 Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Love
 Sathiya Yeh Tune Kya Kiya|Saathiya Tune Kya Kiya Sathiya
+Satyam Shivam Sundaram|0451 Satyam Shivam Sundaram
 Sau Aasmaan|Sau Asmaan
 Sau Aasmaan|Sau Aasmaan
 Sau Aasmaan|Sau Aasman Baar Baar Dekho
@@ -4367,6 +4384,7 @@ Tere Ghar Ke Saamne|Ek Ghar Banaunga Tere Ghar Ke Saamn
 Tere Haathon Me Pehna Ke Chudiyan|Tere Hathon Me Pahna Ke Chudiyan
 Tere Hawaale|Tere Hawaale
 Tere Hawaale|Tere Hawale
+Tere Hawaale|Tere Hawale Female Lines
 Tere Hum Ae Sanam|Tere Hum Ae Sanam
 Tere Husn Ki Kya Tareef Karun|Tere Husn Ki Kya Tareef Karun Leader
 Tere Ishq Mein Nachenge|Tere Ishq Mein Nachenge
@@ -4919,6 +4937,7 @@ Ude Udan Khatole|Ude Udan Khatole Naino Jubilee
 Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Unke Khayal Aaye To|Unke Khayal Aaye To Aate Chale Gaye
+Unke Khayal Aaye To|उनके ख़याल आये तो आते चले गये
 Unko Ye Shikayat Hai|Unko Ye Shikayat Hai
 Unse Mili Nazar|Unse Mili Nazar
 Unse Mili Nazar|Unse Mili Nazar Customised
