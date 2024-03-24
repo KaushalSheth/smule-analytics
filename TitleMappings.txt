@@ -170,6 +170,7 @@ Aankhen Khuli Ho Ya Ho Band|Group Aankhein Khuli
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli Ho
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli Ho Ya Ho Band
 Aankhen Khuli Ho Ya Ho Band|Ankhein Khuli Ho
+Aankhen Khuli Ho Ya Ho Band|3Aankhein Khuli Ho Ya Band
 Aankhon Aankhon Mein Baat|Aankhon Aankhon Mein Baat
 Aankhon Hi Aankhon Mein|Aankhon Hi Aankhon Mein Ishara
 Aankhon Hi Aankhon Mein|Ankhon Hi Ankhon Mein
@@ -657,6 +658,7 @@ Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Mein Bahar
 Baagon Mein Bahaar Hai|Baghon Mein Bahar Hai
 Baagon Mein Bahaar Hai|Baago Me Bahar Hain Baagon Mein Bahaar Hai
+Baagon Mein Bahaar Hai|Baghon Me Bahar Hai
 Baahon Ke Darmiyaan|Baahon Ke Darmiyaan
 Baahon Ke Darmiyaan|Baahon Ki Darmiyan
 Baahon Ke Darmiyaan|Bahon Ke Darmiya Mix
@@ -806,6 +808,7 @@ Bin Tere Sanam|Bin Tere Sanambinteresanam
 Birthday Medley|Birtay Medley
 Birthday Medley|Birthday Medley
 Blue Christmas|Blue Chrisas
+Bol Do Mithe Bol Soniye|Bol Do Mithe Bol Soniye
 Bol Meri Taqdeer Mein Kya|Bol Meri Taqdeer Mein Kya
 Bol Na Halke Halke|Bol Na Halke Halke
 Bol Na Halke Halke|Bol Na Halke Jhoom Barabar Jhoom
@@ -888,6 +891,7 @@ Chaand Si Mehbooba Ho Meri|Chand Si Mehbuba Ho Meri Chaand
 Chaand Si Mehbooba Ho Meri|Chand Si Mehbooba Ho Meri Kab Aisa
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish Jo Katra Hamaree
 Chaand Sifarish Jo Karta Hamari|Chand Sifarish
+Chaand Sifarish Jo Karta Hamari|Chaand Shifarish
 Chaand Sitare|Chaand Sitaare
 Chaand Sitare|Chand Sitare
 Chaand Sitare|Drchaand Sitare Phool Aur Khushboo
@@ -1088,6 +1092,7 @@ Chori Chori Jab Nazrein Mili|Chorichori Jabnazrein Kareeb
 Chori Chori Jab Nazrein Mili|3Chori Chori Jab Nazrein Mili
 Chori Chori Jab Nazrein Mili|Chorichorijαв ɴαzreιɴ Мιlι
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Chorichorijab
+Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazre Mili
 Chori Chori Sapno Mein|Chori Chori Sapno Mein
 Chori Chori Sapno Mein|Chori Chori Sapnon Mein Aata Koi
 Chori Chori Sapno Mein|Chorichorijaв ɴazreιɴ Мιlι
@@ -1334,6 +1339,7 @@ Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Hai Tumhara|Mastana Mausam Hai
 Dil Hai Tumhara|Dil Hai Tumhaara
 Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
+Dil Ibaadat|Dil Ibaadat Tum Mile
 Dil Jaane Jigar|Dil Jane Jigar
 Dil Jaane Jigar|Dil Jaane Jigar Tujh Pe
 Dil Jo Na Keh Saka|Dil Jo Na Keh Saka
@@ -1491,6 +1497,7 @@ Do Dil Mil Rahe Hai|Do Dilmil Rahehai
 Do Dil Mil Rahe Hai|Dodilmilrahe Hain
 Do Dil Mil Rahe Hai|~ Do Dil Mil Rahe Hai Hindi
 Do Dil Mil Rahe Hai|Digital Dodil Mil Rahe Hai
+Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hain Magar Chupke
 Do Dil Toote Do Dil Haare|Do Dil Toote Do Dil Haare
 Do Ghoont Mujhe Bhi Pila De|Do Ghoont Mujhe Bhi Pila De
 Do Lafzon Ki Hai|Do Lafzon Ki Hai
@@ -1582,6 +1589,7 @@ Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jayenge
 Ek Din Bik Jaayega|Ek Din Bik Jayega
 Ek Din Tum Bahut|Ek Din Tum Bahut 102
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
+Ek Do Teen|Ek Do Teen Char
 Ek Haseen Shaam|Ek Hasin Shaam Ek Haseen Shyaam
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
@@ -1675,6 +1683,7 @@ Gazab Ka Hai Din|Song Gazab Ka Hai Din
 Gazab Ka Hai Din|Gazab Ka Hai Qayamatseqayamattak
 Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
+Ghadi Ghadi Mora Dil Dhadke|Ghadi Ghadi Mora Dil Dhadke Kyun
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Amaal Mallik
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Se Nikalte Hi
@@ -2217,6 +2226,7 @@ Jaati Hoon Main|Jati Hoon Main
 Jaati Hoon Main|Jati Hoon Main Hoon Main
 Jaati Hoon Main|Jaati Hoon Main Karan Arjun
 Jaati Hoon Main|Jaati Hoon Mai Jaatihoonmain
+Jaati Hoon Main|Jaati Hoon Mein Jaldi Hai Kya
 Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
@@ -2287,6 +2297,7 @@ Jahaan Main Jaati Hoon|Jahan Main Jaati Hu
 Jahaan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
 Jahaan Mein Aisa Kaun Hai|Jahan Me Aisa Kaun Hai
 Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
+Jai Jai Shiv Shankar|0676 Jai Jai Shiv Shankar
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Bhigi Bhigi Raton
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
@@ -2395,6 +2406,7 @@ Jo Jeeta Wohi Sikandar Medley|Jo Jeeta Wohi Sikandar Medley
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasandsafar 1970
+Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand Fanclub 2023
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -2412,6 +2424,7 @@ Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Orijungle Hai Aadhi Raat Hai
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Ka Karoon Sajni Aaye Na Baalam|838Ka Karu Sajni
+Kaahe Ko Bulaaya Mujhe|~ Kahe Ko Bulaya Mujhe Balma
 Kaali Ghata Chhaye|Kaali Ghata Chaye Mora Jiya Tarasaye
 Kaali Ghata Chhaye|Kaali Ghata Chhaaye Mora Jiya : Sujata
 Kaali Ghata Chhayi Prem Rut Aayi|Kaali Ghata Chhayi Prem Rut Aayi
@@ -2708,6 +2721,7 @@ Kiska Chehra Ab Main Dekhoon|Kiska Chehra Ab Main Dekhoon
 Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
 Kiska Rasta Dekhe|Kiska Rasta Dekhe
 Kismat Se Tum|Kismat Se Tum Pukar
+Kissa Hum Likhenge|Kissa Hum Likhenge
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyaara Hai Yeh Chehra|Kitna Pyara Hai Yeh Chehra
 Kitna Pyara Tujhe|Kitna Pyara Tujhe
@@ -3305,6 +3319,7 @@ Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Lo
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
 Mujhko Is Raat Ki Tanhayee Mein|Mujh Ko Iss Raat Fanclub 2023
 Mujhse Bichhad Ke Khush|Mujhse Bichad Ke Khush
+Muqala Muqabla|Muqala Muqabla
 Musaafir Hoon Yaaron|Musafir Hoon Yaaron
 Musaafir Hoon Yaaron|Musafir Hoon Ya
 Musaafir Hoon Yaaron|Musafir Hoon Yaaro
@@ -3465,6 +3480,7 @@ Neend Churayee Meri|Neend Churayee Meri Kisne O Sanam
 Neend Churayee Meri|Neend Churayee Meri
 Neend Churayee Meri|Nind Churayi Meri
 Neend Churayee Meri|Neend Churai Meri
+Neend Churayee Meri|Neendchurayee Meri Kisne O Sanam
 Neend Na Mujhko Aaye|Neend Na Mujhko Aaye
 Neend Na Mujhko Aaye|O Neend Na Mujhko Aaye
 Neend Na Mujhko Aaye|O Nind Na Mujh Ko Aye Dil Mera Ghabraye
@@ -3838,6 +3854,7 @@ Raat Baaki Baat Baaki|Raat Baaki
 Raat Baaki Baat Baaki|Raatbaakiasha&Bappi
 Raat Baaki Baat Baaki|Raat Baaqi Baat Baaqi
 Raat Bhi Neend Bhi|Raat Bhi Neend Bhi
+Raat Humaari Toh|Raat Humari Toh
 Raat Ka Nasha|Raat Ka Nasha Abhi
 Raat Ka Nasha|Raat Ka Nasha Arrived
 Raat Kali|Raat Kali
@@ -3999,6 +4016,7 @@ Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Ruki Ruki Thi Zindagi|~Ruki Ruki Thi Zindagi
 Rula Ke Gaya Sapna Mera|Rula Ke Gaya Sapna Mera
 Rula Ke Gaya Sapna Mera|Rula Ke Gaya Sapna Merarula Ke Gaya
+Sa Re Ga Ma Pa|Sa Re Ga Ma Pa
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
 Saagar Kinare|Sagar Kinare Dil Ye Pukare
@@ -4059,6 +4077,8 @@ Saawan Aaye Ya Na Aaye|Saawan Aaye Ya Na Aaye
 Saawan Barse Tarse Dil|Saawan Barse Tarse Dil
 Saawan Barse Tarse Dil|Sawan Barse Tarse Dil
 Saawan Barse Tarse Dil|Sawan Barse Tarse Dildahek
+Saawan Barse Tarse Dil|Saawan Barse Tarse ⑤④⓪
+Saawan Barse Tarse Dil|Saawan Barse Tarse 540
 Saawan Ka Mahina|Ad Sawan Ka Mahina
 Saawan Ka Mahina|Saawan Ka Mahina
 Saawan Ka Mahina|Saawan Ka Mahina Karaoke
@@ -4178,6 +4198,7 @@ Silsila Ye Chaahat Ka|Silsila Ye Chahat Ka
 Silsila Ye Chaahat Ka|Silsila Yeh Chaahat Ka
 Silsila Ye Chaahat Ka|Silsila Yeh Chahat Ka
 Silsila Ye Chaahat Ka|Silsila Ye Chahat Ka Devdas
+Silsila Ye Chaahat Ka|Silsila Ye Chahat
 Simti Hui Ye Ghadiyaan|Simti Hui Ye Ghadiyaan
 Soch Na / Sab Tera|Soch Na Sake Sab Tera T
 Soch Na Sake|Airlift
@@ -5293,6 +5314,7 @@ Yeh Samaa|Ye Samaa Samaa Hai Pyar Ka
 Yeh Samaa|S‌Ryeh Sama Sama Hai Yeh Pyar Ka
 Yeh Samaa|Ye Sama Sama Hai Yeh Pyar Ka
 Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar Pyaar 0388
+Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar 0388
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani
