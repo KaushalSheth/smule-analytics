@@ -235,7 +235,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     elif analyticstitle in ['Partner Heatmap','Title Heatmap','Joiner Heatmap','Favorites Heatmap']:
         # Set default values for left, top and right margin - these can be overridden for individual heatmaps in the relevant section if needed
-        leftmgn = 0.125
+        leftmgn = 0.14
         topmgn = 0.96
         rightmgn = 1.0
         if analyticstitle == 'Partner Heatmap':
@@ -254,7 +254,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             outcol = "fixed_title"
             extrawhere = ""
             # Titles are longer than partner names, so increase left margin
-            leftmgn = 0.195
+            leftmgn = 0.212
         elif analyticstitle == 'Favorites Heatmap':
             outhead = "Partner Name"
             selcol = "performers"
