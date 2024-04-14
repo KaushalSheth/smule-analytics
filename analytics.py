@@ -167,8 +167,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     elif analyticstitle == 'Period Stats':
         headings = ['#','Period',\
-                    '# Performances','# Invites','# Joins','Joins Per Invite','Join %','Unique Titles','New Titles','Unique Partners','New Partners','New Joiners',\
-                    'Total Performances','Total Invites','Total Joins','Total Titles','Total Partners','Total Joiners']
+                    '# Perf','# Invites','# Joins','Joins Per Invite','Join %','Unique Titles','New Titles','Unique Partners','New Partners','New Joiners',\
+                    'Total Perf','Total Invites','Total Joins','Total Titles','Total Partners','Total Joiners']
         sqlquery = f"""
             with
             perf as (select * from my_performances where created_at between '{fromdate}' and '{todate}'),
