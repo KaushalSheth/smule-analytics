@@ -111,11 +111,11 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             """
     elif analyticstitle == 'Invite':
         headings = [\
-            'Song Name', 'Rating', 'Invite Score', 'Fav Score', 'Singer Type', 'Artist', \
+            'Song Name', 'Rating', 'Invite Score', 'Fav Score', 'Random Sort', 'Singer Type', 'Artist', \
             '# Perf', '# Partners', '# Invites', '# Joins', 'Join Ratio', 'First Perf', 'Last Perf', 'Last Invite'\
             ]
         sqlquery = f"""
-            select  fixed_title as title_search, 'T:' || lpad(rating_nbr::varchar,2,'0') as rating_nbr, invite_recency_score, favorite_score_nbr,
+            select  fixed_title as title_search, 'T:' || lpad(rating_nbr::varchar,2,'0') as rating_nbr, invite_recency_score, favorite_score_nbr, round(random()::decimal,4)*100 as random_sort_nbr,
                     coalesce(singer_type,'') as singer_type, coalesce(artist,'') as artist,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || num_all_performances || '</a>' as performance_link_str,
                     num_partners, num_invites, num_joins,
