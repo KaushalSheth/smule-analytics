@@ -2,6 +2,7 @@
 500 Miles Jab Koi Baat Mashup|500 Miles Jab Koi Baat Mashup
 70s Romantic Mashup|70'S Romantic Mashup
 90s Hindi Mashup|90S Hindi Mashup
+A Yaman Medley|A Yaman Medley
 Aa Ab Laut Chalen|Aa Ab Laut Chalen
 Aa Bhi Jaa|Aa Bhi Ja Aa Bhi Ja
 Aa Bhi Jaa|Aa Bhi Jaa Bhi Ja Bhi Bhi
@@ -378,6 +379,7 @@ Abhi Mujh Mein|Abhi Mujh Mein Abhi Mujh Mein
 Abhi Mujh Mein|Abhi Mujh Main Kahin
 Abhi Mujh Mein|Abhi Mujh Mai Hai
 Abhi Mujh Mein|Abhi Mujhme Kahi
+Abhi Mujh Mein|Abhi Mujh Mein Kahin Agneepath
 Abhi Na Jao Chhod Kar|Abhi Na Jao
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kaar
 Abhi Na Jao Chhod Kar|Abhi Na Jao Chhod Kar
@@ -578,6 +580,7 @@ Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata Song
 Ajnabi Tum Jaane Pehchane|Ajnabi Tum Jaane Pehchane
 Ajnabi Tum Jaane Pehchane|Ajnabi Tum Jane
+Ajnabi Tum Jaane Pehchane|Ajnabi Tum Jaane Pehchane Se (Hum Sab Ustad H
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kaha Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Jaa
 Akele Akele Kaha Jaa Rahe Ho|Akele Akele Kahan Ja Rahe Ho
@@ -760,6 +763,7 @@ Bahe Naina Bhare More Naina|Bahe Naina Bhare More Naina
 Bahut Door Mujhe|Bahut Dur Mujhe
 Bahut Door Mujhe|Bahut Door Mujhey Chale
 Bahut Door Mujhe|Bahot Door Mujhe Chale Jaana Hai
+Bahut Door Mujhe|Bohut Dur Mujhe Chale Jana Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Male
@@ -984,6 +988,7 @@ Chalte Chalte|Chalte Chalte Mere Yeh Geet Yaad Rakhna
 Chalte Chalte|S H O R T Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Yeh Geet
 Chalte Chalte|Chalte Chalte Meri Yeh Geet
+Chalte Chalte|Chale Chalte Merey Yeh Geet
 Chalte Chalte Yunhi|Chalte Chalte Yunhi
 Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
 Chalte Chalte Yunhi|Chalte Chalte Yuhi
@@ -1359,6 +1364,7 @@ Dil Dhoondhta Hai|Dil Dhundta Hai
 Dil Dhoondhta Hai|Dil Dhundhta Hai
 Dil Dhoondhta Hai|Dil Dhoondhta Hai Phir Wohi
 Dil Dhoondhta Hai|Dil Dhoondtha Hai
+Dil Dhoondhta Hai|Dildhoondta Hai Phir Wohi
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Diyan Gallan|Hil Diyan Gallan
@@ -1782,6 +1788,7 @@ Gila Gila Dil Gila|Gila Gila Dil Gila Aitraaz
 Gir Gaya Jhumka|Gir Gaya Jhumka
 Gir Gaya Jhumka|Gir Gaya Jhumka Girne Do
 Give Me Some Sunshine|Give Me Some Sunshine
+Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
@@ -1957,6 +1964,7 @@ Hum Aapke Hain Kaun|Hum Aapke Hain Kauntitle
 Hum Aapke Hain Kaun|Hum Aapke Hain Kaun Title
 Hum Aapke Hain Kaun|Hum Aapke Hain Kountitle
 Hum Aapke Hain Kaun|Hum Aapke Hai Kaun
+Hum Aapke Hain Kaun|Hum Aapke Hain Koun Title
 Hum Aur Tum Ab Nahi Paraaye|Hum Aur Tum Ab Nahi Paraaye
 Hum Bekhudi Mein Tumko|Hum Bekhudi Mein Tumko
 Hum Bekhudi Mein Tumko|Hum Bekhudi Me Tumko Pukare
@@ -2171,6 +2179,7 @@ Jaadu Hai Nasha Hai|Jaadu Hain Nasha Hai
 Jaadu Hai Nasha Hai|Jadu Hai Nasha Hai Jaadu Hai
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai,Madhoshiya
 Jaadu Hai Nasha Hai|0619 Jaadu Hai Nasha Hai
+Jaadu Hai Nasha Hai|Jadu Hai Nasha Hain Jaadu
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jaadu Jaadoo Hain
 Jaadu Teri Nazar|Jadu Teri Nazar
@@ -2330,6 +2339,7 @@ Jaati Hoon Main|Jaati Hoon Main Karan Arjun
 Jaati Hoon Main|Jaati Hoon Mai Jaatihoonmain
 Jaati Hoon Main|Jaati Hoon Mein Jaldi Hai Kya
 Jaati Hoon Main|Jaati Hoon Main Jaldi Hai Kya
+Jaati Hoon Main|Jaati Hun Main Jaldi Hai Kya
 Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
@@ -2515,6 +2525,7 @@ Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasandsafar 1970
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand Fanclub 2023
+Jo Tumko Ho Pasand|Jo Tumko Ho Pasand Wohi Baat Kahenge
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -3220,6 +3231,7 @@ Manike Thank God|Manike
 Manike Thank God|Manike Thank God
 Manike Thank God|Manike Thank God Manike Mage Hithe මැණිකේ
 Manike Thank God|Manike Mage Thank God
+Manike Thank God|Manike Mage Hithe
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
@@ -3483,6 +3495,7 @@ Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
 Mujhko Is Raat Ki Tanhayee Mein|Mujh Ko Iss Raat Fanclub 2023
 Mujhse Bichhad Ke Khush|Mujhse Bichad Ke Khush
 Mujhse Juda Hokar|Mujhse Juda Hokar
+Mujhse Juda Hokar|Mujhse Juda Hokar Compact
 Muqala Muqabla|Muqala Muqabla
 Muqala Muqabla|Mukkala Muqabla
 Musaafir Hoon Yaaron|Musafir Hoon Yaaron
@@ -3517,6 +3530,7 @@ Na Bole Tum Na Maine Kuch Kaha|Na Bole Tum Na Maine Kuchh Kaha
 Na Chahoon Sona Chaandi|Naa Chahoon Sona Chaandi
 Na Chahoon Sona Chaandi|Na Chahoon Sona Chandi
 Na Chahoon Sona Chaandi|Na Mangun Sona Chandi
+Na Chahoon Sona Chaandi|Na Mangu Sona Chandi
 Na Jaa Kahin|Na Jaa Kahin
 Na Jaa Kahin|Na Jaa Kahin Ab Na Ja Dil Ke Siwa
 Na Jaane Ek Nigah Mein|Na Jaane Ek Nigah Mein
@@ -3535,6 +3549,7 @@ Na Jaane Mere|Na Jaane Mere Dil Ko Kya Ho
 Na Jaane Mere|Na Jane Mere Dil Ko
 Na Jaane Mere|Najane Mere Dil Ko Kho Gaya
 Na Jaane Mere|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai
+Na Jaane Mere|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai H
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Chhuda Ke Baiyan
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Olire Kotha Shune Ppd563
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan
@@ -3636,6 +3651,7 @@ Nazm Nazm|Tu Nazm Nazm Sa Mere Najam
 Nazneen Bada Rangeen|Nazneen Bada Rangeen
 Nazrein Mili Dil Dhadka|Nazrein Mili Dil Dhadka Raja
 Nazrein Mili Dil Dhadka|Nazrein Mili, Dil Dhadka Meri
+Nazrein Mili Dil Dhadka|Nazarein Mili Dil Dhadka
 Neela Aasmaan So Gaya|Neela Aasmaan Sogaya
 Neela Aasmaan So Gaya|Neela Aasman So Gaya
 Neela Aasmaan So Gaya|Neela Aasma
@@ -4582,6 +4598,7 @@ Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na
 Tere Bina Jiya Jaaye Na|तेरे बिना जिया जाये ना
 Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Naa
 Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na Ghar
+Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na Edited
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Bina Koi Jindgi
@@ -4982,6 +4999,7 @@ Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan : Pyar Ka Mausam
 Tum Bin Jaaoon Kahan|Tum Bin Jaau Kahan
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena ~
+Tum Bin Kya Hai Jeena|Tum Bin Jiya Jaye Kaise Tum Bin
 Tum Bin Sajan Barse Nayan|Tum Bin Sajan Barse Nayan
 Tum Bhi Chalo Hum Bhi Chalein|Tum Bhi Chalo Hum Bhi Chaleinzameer
 Tum Chale Gaye|Tum Chale Gaye Female
@@ -5232,6 +5250,7 @@ Waada Raha Sanam|Wada Raha Sanam
 Waada Raha Sanam|Waada Raha Sanam :By M D Tyagi
 Waada Raha Sanam|Wadaraha Sanam
 Waadiyan Mera Daman|Waadiyan Mera Daman Wadiyan Mere Daaman
+Waadiyan Mera Daman|Wadiyan Mera Daaman
 Wah Wah Ramji|Wah Wah Ramji
 Wajah Tum Ho|Wajah Tum Ho Clean
 Waqt Ne Kiya|Waqt Ne Kiya
@@ -5594,6 +5613,7 @@ Yun Bheegi Bheegi Si Barsaat|Yun Bheegi Bheegi Si Barsat
 Yunhi Tum Mujhse Baat|Yunhi Tum Mujhse Baat Yun Hi
 Yunhi Tum Mujhse Baat|Yuhi Tum Mujhse Baat Karti Ho
 Yunhi Tum Mujhse Baat|Yun Hi Tum Mujhse
+Yunhi Tum Mujhse Baat|Yunhi Tum Mujhse
 Zalima|Zaalima
 Zalima|Zalima
 Zameen Se Hamein Aasmaan Par|Zameen Se Hamein Aasmaan Par
