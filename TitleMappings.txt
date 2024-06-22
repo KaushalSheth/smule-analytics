@@ -297,9 +297,10 @@ Aap Ki Nazron Ne Samjha|App Ki Nazaro Ne Samjha
 Aap Ki Nazron Ne Samjha|R Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|आपकी नज़रों ने समझा प्यार के क़ाबिल मुझे
 Aap Ki Nazron Ne Samjha|Aapki Nazron
+Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
+Aap Ko Pehle Bhi Kahin Dekha Hai|Aap Ko Pehle Bhi Kahin Dekha Hai
 Aap Yahaan Aaye Kis Liye|Aap Yahaan Aaye Kis Liye
 Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
-Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aashiqui 4 In 1 Medley|Aashiqui 4 In 1 Medley
 Aashiyaan|Aashiyaan
 Aashiyaan|Itti Si Hasi
@@ -1132,6 +1133,7 @@ Chhup Gaye Saare Nazaare|Chhup Gaye Saare Nazare
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Me Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun
+Chhupa Lo Yun Dil Mein|0851 Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupne Waale Saamne Aa|Chupne Wale Saamne Aa
 Chhupne Waale Saamne Aa|Chhupne Wale Saamne Aa Chhup Chhup Ke
 Chikni Chameli|Chikni Chameli
@@ -1182,6 +1184,7 @@ Chura Ke Dil Mera|Digital Chura Ke Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera ☑
 Chura Ke Dil Mera|Chura Ke Dil Mera Song
 Chura Ke Dil Mera|Chura Ke Dil Mera Chura
+Chura Ke Dil Mera|Churakedilmera
 Chura Liya|Chura Liya
 Chura Liya|Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne
@@ -1948,6 +1951,7 @@ Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajana
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajna
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko
 Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam
+Honthon Pe Bas Tera Naam|Hoton Pe Bs
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Honthon Se Chu
@@ -2369,6 +2373,7 @@ Jaaun Kahaan Bata E Dil|0221 Jaoon Kahan Bata Aye Dil
 Jaaun Kahaan Bata E Dil|Jaun Kahan Bata Ae
 Jaaun Kahaan Bata E Dil|Jaaun Kaha Bata Ye Dil Fanclub 2023
 Jaayen To Jaayen Kaha|Talat
+Jab Bhi Jee|Jab Bhi Jee
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Yeil Udas
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Yeh M
@@ -2514,6 +2519,7 @@ Jitni Dafa|°Jitni Dafa°
 Jitni Dafa|Jitni Dafa Female
 Jitni Dafa|Jitni Dafa Clean
 Jitni Dafa|Jitni Dafa Dekhun Tumhe
+Jitni Dafa|Jitni Dafa Parmanu
 Jiya Beqarar Hai|Jiya Beqarar Hai
 Jiya Beqarar Hai|Jiya Bekaraar Hai Barsaat
 Jiya Beqarar Hai|Jiya Beqarar Haianamika_C_F_S
@@ -2547,6 +2553,7 @@ Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasandsafar 1970
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand Fanclub 2023
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand Wohi Baat Kahenge
+Jo Tumko Ho Pasand|Orig: Jo Tumko Ho Pasand
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -2590,6 +2597,7 @@ Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna Kabhi Alvida
 Kabhi Alvida Na Kehna|Kabhi Alvida Naa Kehna 　　　　　　Kabhi Alvida
 Kabhi Alvida Na Kehna|Tum Ko Bhi Hai Khabar
+Kabhi Alvida Na Kehna|Kabhi Alvida Na Kahna
 Kabhi Bhoola Kabhi Yaad Kiya|Kabhi Bhoola Kabhi Yaad Kiya
 Kabhi Bhoola Kabhi Yaad Kiya|Kabhi Bhula Kabhi Yaad Kiya
 Kabhi Hasna Hai Kabhi Rona Hai|Kabhi Hasna Hai Kabhi Rona Hai
@@ -2787,6 +2795,7 @@ Kehna Hi Kya|Kehna Hi Kya
 Kehna Hi Kya|Kehna Hi Kya ~ Unwind
 Kehna Hi Kya|Kehna Hi Kya Sanah
 Kehna Hi Kya|Kehna Hi Kya Female
+Kehna Hi Kya|Kehna Hi Kya Unwind Mix
 Kehta Hai Pal Pal|Kehta Hai Pal Pal
 Kehta Hai Pal Pal|Kehta Hai Pal Pal Tumse
 Kesariya|Kesariya Tera
@@ -2972,6 +2981,7 @@ Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Jaanu
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajanjaka_Tirta
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Kya Jaanu Sajan
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan
+Kya Kare Kya Na Kare|Kya Kare Kya Na Kare
 Kya Kehna|Kya Kehna
 Kya Kehna|Kya Kehna Kya Kehna
 Kya Khabar Kya Pata|Kya Khabar Kya Pata
@@ -3619,6 +3629,7 @@ Na Tum Jaano Na Hum|Na Tum Jano Na Hum
 Na Tum Jaano Na Hum|Na Tum Jano Na Hum Na Tum
 Na Tum Jaano Na Hum|Na Tum Jaano Na Hum Hindi
 Na Tum Jaano Na Hum|Kyun Chalti Hai Pawan
+Na Tum Jaano Na Hum|Kyon Chalti Hai Pavan
 Na Ye Chand Hoga|Na Ye Chand Hoga Na Taare Rahenge
 Na Ye Chand Hoga|Na Ye Chand Hoga Na Taare
 Na Ye Chand Hoga|Na Ye Chand Hoga Na Taare Rahenge
@@ -3906,6 +3917,7 @@ Pehla Pehla Pyar Hai|Pehla Pehla Pyaar Hai
 Pehla Prem Ni Pehli E Najar|Pehla Prem Ni Pehli E Najar
 Pehle Bhi Main|Pehle Bhi Main
 Pehli Baar Mile|Pehli Baar Mile
+Pehli Baarish Main Aur Tu|Pehli Baarish Main Aur Tu
 Pehli Pehli Baar|Pehli Pehli Baar
 Phero Na Najariya|Phero Na Najariya
 Phero Na Najariya|Phero Na Najar Se Najariya
@@ -4430,6 +4442,7 @@ Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shaadi Ka Khayaal
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Shayad Meri Shaadi
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Shaadi
+Shayad Meri Shadi Ka Khayal|Shayad Meri Shaadi
 Shayad Yahi To Pyaar Hai|Shayad Yahi To Pyar Hai
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -4536,6 +4549,7 @@ Suno Kaho Kaha Suna|Suno Kaho Kahaa Suna
 Suno Na Sangemarmar|Suno Na Sangemarmar
 Suno Na Suno Na|Suno Na Suno Na
 Suno Na Suno Na|Tum Ne Na Jaana
+Suno Na Suno Na|Suno Na Suno Na Sun Lo Na
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
 Suraj Hua Maddham|`Suraj Hua Madham
 Suraj Hua Maddham|Suraj Hua
@@ -4733,6 +4747,7 @@ Teri Aankhon Ke Siva|0281 Teri Aankhon Ke Siwa
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Martaa Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Song
+Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Love Tujhe Love 95 (
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re

@@ -985,7 +985,6 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
             # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
             media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-            #print(media_url)
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
             #print(media_url)
