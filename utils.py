@@ -6,10 +6,11 @@ import json, re, csv
 from urllib import request
 
 COMMENTS = {\
-    'awesome':['fantastic performance 👌👌👌👌','amazing performance 👌👌👌👌','awesome performance 👌👌👌👌'],\
-    'good':['superb singing 👌👌👌','beautifully sung 👌👌👌','beautifully performed 👌👌👌'],\
-    'average':['very nicely sung 👌👌','very nice performance 👌👌','very well sung 👌👌','very nice rendition 👌👌'],\
-    'ok':['lovely singing 👌','nicely sung 👌','lovely performance 👌'],\
+    'awesome':['stupendous performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
+    'fantastic':['fantastic performance 👌👌👌👌','fabulous rendition 👌👌👌👌','excellent singing 👌👌👌👌'],\
+    'good':['superb singing 👌👌👌','beautiful performance 👌👌👌','great rendition 👌👌👌'],\
+    'average':['lovely singing 👌👌','lovely performance 👌👌','lovely rendition 👌👌'],\
+    'ok':['nice rendition 👌','nicely sung 👌','nice performance 👌'],\
     'bad':['good attempt']
     }
 
@@ -21,6 +22,7 @@ def printTs(message):
 def build_comment(prefix="",suffix=""):
     comment = {\
         'awesome':prefix + random.choice(COMMENTS['awesome']) + suffix,\
+        'fantastic':prefix + random.choice(COMMENTS['fantastic']) + suffix,\
         'good':prefix + random.choice(COMMENTS['good']) + suffix,\
         'average':prefix + random.choice(COMMENTS['average']) + suffix,\
         'ok':prefix + random.choice(COMMENTS['ok']) + suffix\

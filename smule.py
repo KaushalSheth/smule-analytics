@@ -495,7 +495,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 elif recentJoinCount == 0:
                     joinMessage = " Please join my invites again"
                 else:
-                    joinMessage = " Please keep joining my invites"
+                    joinMessage = " Thanks for joining my invites"
             comment = build_comment('@' + performers + ' ', joinMessage)
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
