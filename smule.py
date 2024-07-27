@@ -545,7 +545,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 # If not, use geocoder to look it up and also to store it in cache
                 else:
                     #printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
-                    g = geocoder.osm([owner_lat,owner_lon], method='reverse')
+                    g = geocoder.google([owner_lat,owner_lon], method='reverse')
                     gjson = g.json
                     gkeys = gjson.keys()
                     # Extract the first key from list above that exists in JSON and break out of loop

@@ -36,6 +36,7 @@ Aa Ke Bhar Lo Baazuon Me|Aa Ke Bhar Lo Bazuon Me
 Aa Lag Ja Gale Dilruba|Aa Lag Ja Gale Dilruba
 Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet
 Aa Mere Humjoli Aa|Aa Mere Humjoli Aa
+Aa Mere Humjoli Aa|Aa Mere Hamjoli Aa
 Aadha Hai Chandrama|Aadha Hai Raat Aadhi Aadhee Navrang
 Aadha Hai Chandrama|Adha Hai Chandrama
 Aadha Hai Chandrama|Adha Hai Aadha Hai
@@ -1073,6 +1074,7 @@ Chhabeela|Chhabeela Sawariyan
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chaiya Chaiya
+Chhaiyya Chhaiyya|Chaiya Chaiya Song
 Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
 Chhalka Yeh Jaam|Chhalka Yeh Jaam
 Chhalka Yeh Jaam|Chhalkaye Jaam
@@ -1081,6 +1083,7 @@ Chhalka Yeh Jaam|Chalka Ye Jaam Aaiye Aapki
 Chhalka Yeh Jaam|Chalka Yeh Jaamchalka Ye Jaam Aaiye Aapki
 Chhalka Yeh Jaam|Chalka Yeh Jaam
 Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki
+Chhalka Yeh Jaam|Chalka Yeh Jaam Aaiye Aapki
 Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhamak Chhallo Chhel Chhabeli|Chamak Challo Chel Chabeli
 Chhaya Hai Jo Dil Pe|Chaya Hai Jo Dil Pe
@@ -1958,6 +1961,7 @@ Har Kisi Ko Nahi Milta|Harkisikonahimilta
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahin Milta
 Hasta Hua Noorani Chehra|Hasta Hua Noorani Chehra
 Hasta Hua Noorani Chehra|Hansta Hua Noorani Chehra
+Hasta Hua Noorani Chehra|Rp Hansta Hua Nooraani Chehra
 Haule Haule|Haule Haule
 Haule Haule|Haule Haule Se
 Haule Haule Chalo Mere Sajna|Haule Haule Chalo Mere Sajna
@@ -2418,6 +2422,7 @@ Jaaun Kahaan Bata E Dil|Jaun Kahan Bata E Dil Better Quality
 Jaaun Kahaan Bata E Dil|0221 Jaoon Kahan Bata Aye Dil
 Jaaun Kahaan Bata E Dil|Jaun Kahan Bata Ae
 Jaaun Kahaan Bata E Dil|Jaaun Kaha Bata Ye Dil Fanclub 2023
+Jaaun Kahaan Bata E Dil|0222 Jaoon Kahan Bata Aye Dil
 Jaayen To Jaayen Kaha|Talat
 Jab Bhi Jee|Jab Bhi Jee
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
@@ -2930,6 +2935,7 @@ Kisi Ki Muskarahaton|Kisiki Muskurahaton Pe
 Kisi Ki Muskarahaton|Kisi Ki Muskurahato Pe Ho Nisaar
 Kisi Ki Muskarahaton|Kisiki Muskurahto Pe Ho Nisar
 Kisi Ki Muskarahaton|Kisiki Muskurahaton Pe Ho Nisar
+Kisi Ki Muskarahaton|Kisi Ki Muskurahaton Pe Fanclub 2024
 Kisi Ki Muskarahaton|0489 Kisi Ki Muskurahaton Pe Ho Nisaar
 Kisi Ko Khona Kisi Ko Paana|Kisi Ko Khona Kisi Ko Paana
 Kisi Na Kisi Se Kabhi Na Kabhi|Kisi Na Kisi Se Kabhi Na Kabhi
@@ -3022,6 +3028,7 @@ Kuch Na Kaho|Kuch Na Kahokuchh Na Kaho
 Kuch Na Kaho|Gem Kuch Na Kaho
 Kuch Na Kaho|Kuch Na
 Kuch Na Kaho|Kuch Na Kaho Kuchnakaho
+Kuch Na Kaho|Kuchnakaho1942Alovestory
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -3545,6 +3552,7 @@ Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhage Dhaage
 Moh Moh Ke Dhaage|Ye Moh Moh Ke Dhage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Mtv
 Moh Moh Ke Dhaage|Ye Moh Moh Ke Dhaage
+Moh Moh Ke Dhaage|Ye Moh Moh Kedhage Yemohmohke
 Mohabbat Bade Kaam Ki Cheez Hai|Mohabbat Bade Kaam Ki Cheez Hai
 Mohabbat Bade Kaam Ki Cheez Hai|Mohabbat Bade Kam Ki Cheez[Trishul}
 Mohabbat Cheez Hai Kya|Mohabbat Cheez Hai Kya 606
@@ -3861,7 +3869,8 @@ O Yaara Tu Pyaaron Se Hai Pyaara|O Yaara Tu Pyaaron Se Hai Pyaara
 Odh Li Chunariya|Odh Ii Chunariya
 Odh Li Chunariya|Odh Li Chunariya
 Odh Li Chunariya|Odh Le Chunariya Tere Naam Ki
-Oh My Darling, Clementine|Oh My Darling, Clementine
+Oh My Darling Clementine|Oh My Darling, Clementine
+Oh My Darling What To Do|Oh My Darling
 Oh Re Taal Mile|Oh Re Taal Mile
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Jal Mein
 Old Songs Medley|Old Songs Medley
@@ -4056,6 +4065,7 @@ Pukarta Chala Hoon Main|Pukarta Chala Hu Main
 Pukarta Chala Hoon Main|Pukarta Chala Hoon
 Pukarta Chala Hoon Main|Pukarata Chala Hu Mein 3 Stenza
 Pukarta Chala Hoon Main|0237 Pukarta Chala Hoon Main
+Pukarta Chala Hoon Main|Pukarta Chala Hoon Main 3 Antras
 Pyaar Deewana Hota Hai|Adpyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Haissgn_Chamsmanoj
@@ -4344,6 +4354,8 @@ Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Ruki Ruki Thi Zindagi|~Ruki Ruki Thi Zindagi
 Rula Ke Gaya Sapna Mera|Rula Ke Gaya Sapna Mera
 Rula Ke Gaya Sapna Mera|Rula Ke Gaya Sapna Merarula Ke Gaya
+Rut Hai Milan Ki Sathi Mere Aa Re|Rut Hai Milan Ki Sathi Mere Aa Re
+Rut Hai Milan Ki Sathi Mere Aa Re|Rut Hai Milan Ki Sati Mere
 Sa Re Ga Ma Pa|Sa Re Ga Ma Pa
 Saagar Kinare|Saagar Kinare
 Saagar Kinare|Sagar Kinare
@@ -4901,6 +4913,7 @@ Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Hai Thode Ki|Thoda Hai Thode Ki Zaroorat Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai Lirik
+Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Thoda
 Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyaar Hua Tumse
 Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
 Thoda Thoda Pyaar Hua Tumse|~ Ke Thoda Thoda Pyar Hua Tumse Hindi
