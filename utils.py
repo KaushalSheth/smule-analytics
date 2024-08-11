@@ -6,7 +6,7 @@ import json, re, csv
 from urllib import request
 
 COMMENTS = {\
-    'awesome':['stupendous performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
+    'awesome':['awesome performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
     'fantastic':['fantastic performance 👌👌👌👌','fabulous rendition 👌👌👌👌','excellent singing 👌👌👌👌'],\
     'good':['superb singing 👌👌👌','beautiful performance 👌👌👌','great rendition 👌👌👌'],\
     'average':['lovely singing 👌👌','lovely performance 👌👌','lovely rendition 👌👌'],\
@@ -56,7 +56,7 @@ def fix_title(title,titleMappings):
     ttable = title.maketrans(\
             '⑥⑤④⓪ˣ𝙃𝘿⁵③⑦ⒾⒺⓘⓔʍǟⒸⓟⓙⓃ𝐮𝐥ᴜɪᴍᴋʟᴀH𝐐𝐅u𝐋𝑯𝑫ᴼαηⒼⓀⓜⒷⓑⒽⓉⒽⓌⓕⒻⓛᴄoᴠᴇrᵖᵀᴹᵈⁱᵍⁱᵗᵃˡⓏᶻᵘⓩ𝗦𝗮𝗻𝗺𝗣u𝗿𝗶𝗨𝗘𝗧ⓎⒶⓐⓨⁿⓅᵐD𝐔𝐄𝐓𝗙𝘂𝗹𝗹𝗛𝗗𝐎🆂🅷Ⓞ🆁🆃🅦ʰᴮᵉˢᵗᶜᵒᵛᵉʳＳＨＯＲＴᴅᴾᴸᴳᴱᑕᗰᑎ🅚Ⓢⓤ𝔻𝕀𝔾Sʜᴏʀᴛ🆅ⓦⓖᎥᑭƳᖇᗪ　𝑺Fϙ𝕾𝒉𝒐𝒓𝒕🅟🅔🆆🇲🇫ÅåȟȋJᒎᗷᕼᗩ𝔖𝐡𝐨𝐫𝐭ᵁᴺᵂᴵ𝐇𝐃🄷🅀🆇🅿🆉ᴿ🇶Ⓡ🅠🇪🇱🇦🇬🅖🅜🅢🅗🅞🅡🅣ⓔⓘ🅹🅵🄷🅀ⓢⓗⓞⓡⓣ🅕🅤🅛🅛ᴴᴰ🇭🇩🇸🅝🇭🇴🇷🇹🅑🅘🇼🄷🅀🇰🇦🇺🇳🅢🆈🅼🅆🅅🅓🅳🅉🄱ℍ🅀ℚ🅙🅧🅒🅗🅤🅡🅐🄷🅄🄼🅂🄰🄵🄰🅁🅂🄷🄾🅁🅃🆂🅷🅾🆁🆃🄲🄷🄰🄸🄽🄺🄳🅃🄴🄻🄶🄿🅴🅷🆀🅺🆄🅲🅷🅾🆁🅸🅶🅸🅽🅰🅻🅱ⓓⓗⓐⓓⓚⓐⓝⒹ【】🄹🅈',\
             '6540XHD537IEIEMACPJNULUIMKLAHQFULHDOANGKMBBHTHWFFLCOVERPTMDIGITALZZUZSANMPURIUETYAAYNPMDUETFULLHDOSHORTWHBESTCOVERSHORTDPLGECMNKSUDIGSHORTVWGIPYRD SFQSHORTPEWMFAAHIJJBHASHORTUNWIHDHQXPZRQRQELAGGMSHORTEIJFHQSHORTFULLHDHDSNHORTBIWHQKAUNSYMWVDDZBQHQJXCHURAHUMSAFARSHORTSHORTCHAINKDTELGPEHQKUCHORIGINALBdhadkanD[]JY',\
-            '💅🙌♫💊👮😰⏭⏮🧶✫🌋😆⚔☾✮☆🐈🎂👠👞👡¶🤟😁🏃🔯💫🤷🍻🐞😐🛫☑📀🆑🪁🔐🆘💪😈▲💢🔝🤘〘〙🇲♧🚩🐅²👼🍒🍷📿*►🦂🦢📼⏩🍄¹🤭♣࿐😭🏠😌😥❉🦋🤝♪🔰💐³༒🌝👁😻🏇🚴🧚🎨☜🎹🎵🧡😃🌈°🏝⛱🌄💿💏🇮🇳🎶✌️👬🌾▶️◀️🖐✊😋✅🎊🎆🌴🐧♾️😢😪🖤💌🙃💓🙇‍♀️🌺​⏏️☞📌🎭🐎☺️★👱🙅‍♂️🕊+🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
+            '🔱🔵💅🙌♫💊👮😰⏭⏮🧶✫🌋😆⚔☾✮☆🐈🎂👠👞👡¶🤟😁🏃🔯💫🤷🍻🐞😐🛫☑📀🆑🪁🔐🆘💪😈▲💢🔝🤘〘〙🇲♧🚩🐅²👼🍒🍷📿*►🦂🦢📼⏩🍄¹🤭♣࿐😭🏠😌😥❉🦋🤝♪🔰💐³༒🌝👁😻🏇🚴🧚🎨☜🎹🎵🧡😃🌈°🏝⛱🌄💿💏🇮🇳🎶✌️👬🌾▶️◀️🖐✊😋✅🎊🎆🌴🐧♾️😢😪🖤💌🙃💓🙇‍♀️🌺​⏏️☞📌🎭🐎☺️★👱🙅‍♂️🕊+🌧⛈🌨🇦🇼🇦🇨🕸👩‍❤️‍👨❣️🔊😉💯👸😎🌃📚😊👩🏻🤗⚡‍💼🎀❌❤💛🥀😗👍🎻✿●•🎞💦🇨🇻🌖💎🌜⭐🌛👩✨😙💔–@🙏☛☚▫💋🏼‍♂♀👌!.❄🎷🗿👫🔘💥🎙©🆕️☄🚶🚶🤔🥰🎸🕺👈🎼😘/”“🦁⚜️🕉️⏯️🌙"|💚💖🌸🌻🤪👉💜🐝🍀✔💕💝♥🌹☔🌧️🌩️🌦️🙈™💑®@🎧📝🌷🍁🍂🍃🌼💗👀🤫👑💑🌟🎤💙⚘🙄❤#💗™💘🤹😍💟💞🔥😇🤩😏Ⱥ💃🎈=😔'\
             )
     # Do the translation and convert to uppercase temporarily
     r1 = title.translate(ttable).upper()
