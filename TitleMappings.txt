@@ -246,6 +246,7 @@ Aansu Bhari Hai|Aansou Bhari Hai Ye Jivan Ki Raahen
 Aao Huzur Tum Ko|Aao Huzur Tum Ko : , By M D Tyagi
 Aao Huzur Tum Ko|Aao Huzur Tumko
 Aao Huzur Tum Ko|Aao Huzoor Tumko Asha Bhosle
+Aao Huzur Tum Ko|Aao Huzoor Kismat Double Cross
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
 Aao Na Gale Laga Lo Na|Aao Na Galey
 Aao Na|Aao Na
@@ -296,7 +297,7 @@ Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Mein 8D
 Aap Ki Aankhon Mein Kuch|Aapki Aankhon Mein Kuchh
 Aap Ki Aankhon Mein Kuch|Aap Ki Aankhon Me Kuch
 Aap Ki Aankhon Mein Kuch|Aapki Ankhon Mein
-Aap Ki Aankhon Mein Kuch|Apne Hoton Ki Bansi
+Aap Ki Aankhon Mein Kuch|Apki Ankhon Mein Kuch Ultra
 Aap Ki Mehaki Hui Zulf|Aapki Mehaki Hui Zulf
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|Aap Ki Nazron Ne Samjha Song
@@ -500,6 +501,9 @@ Ae Mere Humsafar|Aye Mere Humsafar, Aye Mere Jaan
 Ae Mere Humsafar|Ae Mere Humsafar Aye Mere
 Ae Mere Humsafar|Ae Mere Humsafar Ek Zara Intezar Sun Sadayein
 Ae Mere Pyaare Watan|Aye Mere Pyare Watan
+Ae Mere Vatan Ke Logon|Ae Mere Vatan Ke Logon
+Ae Mere Vatan Ke Logon|Aye Mere Watan Ke Logo
+Ae Mere Vatan Ke Logon|Ae Mere Wattan Ke Logo
 Ae Meri Zindagi|Aye Meri Zindagi
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
@@ -510,7 +514,9 @@ Ae Meri Zohra Jabeen|Aye Meri Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Meri Johra Jabee
 Ae Nazneen Suno Na|Aye Nazneen Suno Na, , Dil Hi Dil Mein
 Ae Phoolon Ki Rani|Ae Phoolon Ki Rani
+Ae Sanam Jisne Tujhe Chaand|Aye Sanam Jisne Tujhe Chand Si Soorat
 Ae Watan Tere Liye|Aye Watan Tere Liye
+Ae Watan Tere Liye|Hil Diya Haiayewatantereliye Karma
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Laga Le Take
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Lagaa Le
@@ -663,7 +669,8 @@ Angrezi Mein Kehte Hai Ke I Love You|K Angrezi Mein Kehte Hain Ke I Love You
 Angrezi Mein Kehte Hai Ke I Love You|Angreji Me Kehte Hai Ki I Love You
 Anhoni Ko Honi Kar De|Anhoni Ko Honi Kar De
 Ankahee|Ankahee
-Aplam Chaplam|Aplam Chaplam
+Aplam Chaplam|Aplam
+Apne Hothon Ki Bansi|Apne Hoton Ki Bansi
 Apne Hothon Par Sajaana|Apne Hothon Par Sajana
 Apne Jeevan Ki Uljhan|Apne Jeevan Ki Uljhan
 Apne Pyaar Ke Sapne|Apne Pyaar Ke Sapnesuchtime
@@ -1018,6 +1025,7 @@ Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Phirse Ajnabi Bann Jaayein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
+Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chale Jism 2003
 Chalte Chalte|CHALTE CHALTE MERE YE GHEET KISHORE HD TRACK
 Chalte Chalte|Chalte Chalte
 Chalte Chalte|Chalte Chalte Mere Ye
@@ -1530,6 +1538,7 @@ Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Ho Tum|Dil Mein Ho Tum 544 Secs
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon Mein Tum
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon
+Dil Mein Jo Baat Hai|Dil Mein Jo Baat Hai Keh
 Dil Mein Kisike Pyaar Ka|Dil Mein Kisike Pyar Ka
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
@@ -1712,6 +1721,8 @@ Ek Ajnabi Haseena Se|Ek Ajnabi Hasina Se
 Ek Ajnabi Haseena Se|0211 Ek Ajnabi Haseena Se
 Ek Ajnabi Haseena Se|Ek Ajnabi Haseena Se ~
 Ek Akela Is Shehar Mein|Ek Akela Is Shehar Mein
+Ek Akela Is Shehar Mein|0952 Ek Akela Is Shahar Mein
+Ek Baat Bataoon|Ek Baat Bataaon
 Ek Chatur Naar|Ek Chatur Naar
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko Mil Jayenge (YES BOSS)
@@ -2297,6 +2308,7 @@ Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Chaman Shola Badan|Jane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Jane
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan (Wd 2 Paragr
+Jaane De|Jaane De
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein
@@ -2698,6 +2710,7 @@ Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
 Kabhi Main Kahoon|Kabhi Main Kahoon Kabhi Tum Kaho
+Kabhi Main Kahoon|Kabhi Mai Kahun Kabhi Tum Kaho
 Kabhi Na Kabhi Kahin Na Kahin|Kabhi Na Kabhi Kahin Na Kahin
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabhi Raat Din|Kabhi Raatdin Hum Dur The
@@ -3084,6 +3097,7 @@ Kya Khoob Lagti Ho|Kya Khub Lagti Ho
 Kya Khoob Lagti Ho|Kya Khoob Lagte Ho Ulta Pulta
 Kya Khoob Lagti Ho|~Kya Khoob Lagti Ho
 Kya Khoob Lagti Ho|Kya Khub Lagti Ho Dharmaa
+Kya Khoob Lagti Ho|Kya Khoob
 Kya Mausam Hai|Kya Mausam Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai Song Rocky
@@ -3637,6 +3651,7 @@ Mujhko Is Raat Ki Tanhayee Mein|Mujh Ko Iss Raat Fanclub 2023
 Mujhse Bichhad Ke Khush|Mujhse Bichad Ke Khush
 Mujhse Juda Hokar|Mujhse Juda Hokar
 Mujhse Juda Hokar|Mujhse Juda Hokar Compact
+Mujhse Mohabbat Ka Izhaar|Mujhse Mohabbat Ka Izhaar Karti
 Muqala Muqabla|Muqala Muqabla
 Muqala Muqabla|Mukkala Muqabla
 Musaafir Hoon Yaaron|Musafir Hoon Yaaron
@@ -4038,9 +4053,11 @@ Phero Na Najariya|Phero Na Najariya Qala Amit Trivedi
 Phir Aur Kya Chaahiye|Phir Aur Kya Chahiye
 Phir Bhi Dil Hai Hindustani|Phir Bhi Dil Hai Hindustani
 Phir Bhi Dil Hai Hindustani|Hum Logo Ko Samajh Sako Toh
+Phir Bhi Dil Hai Hindustani|Hum Logo Ko, Samajh Sako To
 Phir Chhidi Raat|Phir Chidi Raat Baat Phoolon Ki
 Phir Chhidi Raat|Phir Chidi Raat
 Phool Gendwa Na Maaro|Phool Gendwa Na Maaro
+Phool Kali Chaand Sitare|Phool Kali Chand Sitare
 Phool Tumhe Bheja Hai Khat Mein|Phool Tumhe Bheja Hai Khat Mein
 Phool Tumhe Bheja Hai Khat Mein|Phool Tumhein Beja Tumhe Bheja
 Phool Tumhe Bheja Hai Khat Mein|Phool Tumhe Bheja
@@ -4421,6 +4438,7 @@ Saanson Ki Zaroorat Hai Jaise|Bas Ek Sanam Chahiye
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Jarurat Song
 Saanson Ki Zaroorat Hai Jaise|Sanso Ki Zarurat
 Saanson Ki Zaroorat Hai Jaise|Ek Sanam Chahiye Aashiqui Ke Liye
+Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat
 Saanson Ko Saanson Mein|(Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein Dal Ne Karaoke
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein
@@ -5001,6 +5019,7 @@ Tu Cheez Badi Hai Mast Mast|Too Cheez Badi Hain
 Tu Dharti Pe Chahe|Tu Dharti Pe Chahe
 Tu Fiza Hai|Tu Hai
 Tu Fiza Hai|Tu Hawa Hai Fiza Hai
+Tu Har Pal Aane Lagi Hai Nazar|Tu Har Pal Aane Lagi Hai Nazar
 Tu Hi Hai|Tu Hi Hai
 Tu Hi Re|Tu Hi Re
 Tu Hi Re|Tu Hi Re Female
@@ -5277,6 +5296,7 @@ Tum Mujhe Yun|तुम मुझे यूँ भुला न पाओगे
 Tum Mujhe Yun|तुम मुझे यूँ भुला ना पाओगे
 Tum Mujhe Yun|Tum Mujhe Yun Bhula
 Tum Mujhe Yun|Tum Mujhe
+Tum Mujhe Yun|Tum Mujhe Yun Bhula Na Paoge
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis Jahan Mein
@@ -5310,6 +5330,7 @@ Tum Toh Pyaar Ho Sajna|Tum Toh Pyaar Ho Sajna
 Tum Toh Pyaar Ho Sajna|Tum To Pyar Ho
 Tumhare Siva|Tumhare Siva
 Tumhare Siva|Tumhare Siwa Kuch Na
+Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun Khafa Ho Gayi
 Tumhari Nazron Mein Hum Ne Dekha|Tumhari Nazron Mein Hum Ne Dekha
 Tumhari Zulf Ke Saaye|Tumhari Zulf Ke Saaye
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
@@ -5336,6 +5357,7 @@ Tumhi Mere Mandir|Tumhi Mere Mandir
 Tumhi Mere Mandir|Tumhi Mere Mandir Mangeshkar
 Tumhi Mere Mandir|Tumhi Mere Mandir Khandan
 Tumhi Mere Mandir|Tumhi Mere Mandir Tumhi Meri Pooja
+Tumhi Mere Mandir|Tum Hi Mere Mandir
 Tumhi Se Ye Dil Mera Karta Hai|Tumhi Se Ye Dil Mera Karta Hai
 Tumko Dekha To|Tum Ko Dekha To Ye Khayal
 Tumko Dekha To|Tum Ko Dekha To Yeh Khayal Aaya
@@ -5597,6 +5619,7 @@ Yeh Dil Tum Bin|Yeil Tum Bin Ye Kahin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahi Lagta Nahi
 Yeh Dil Tum Bin|Yeil Tum Bin
 Yeh Dil Tum Bin|Yeil Tum Bin Ye
+Yeh Dooriyan|Yeooriyan
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
 Yeh Dosti|Yeh Dosti
