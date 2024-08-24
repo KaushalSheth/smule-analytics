@@ -87,7 +87,8 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aajkal Tere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Ke Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyaar Ke Charche Song
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere
-Aaj Ki Raat|Aaj Ki Raat
+Aaj Ki Raat Stree 2|Aaj Ki Raat
+Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
 Aaj Ki Raat Hona Hai Kya|Aaj Ki Raat Hona Hai Kya
 Aaj Ki Raat Mere Dil Ki Salaami Le Le|Aaj Ki Raat Mere Dil Ki Salaami Le Le
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaye Re
@@ -247,6 +248,7 @@ Aao Huzur Tum Ko|Aao Huzur Tum Ko : , By M D Tyagi
 Aao Huzur Tum Ko|Aao Huzur Tumko
 Aao Huzur Tum Ko|Aao Huzoor Tumko Asha Bhosle
 Aao Huzur Tum Ko|Aao Huzoor Kismat Double Cross
+Aao Huzur Tum Ko|Aao Huzoor Tum Ko
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
 Aao Na Gale Laga Lo Na|Aao Na Galey
 Aao Na|Aao Na
@@ -805,6 +807,7 @@ Bahut Door Mujhe|Bahut Dur Mujhe
 Bahut Door Mujhe|Bahut Door Mujhey Chale
 Bahut Door Mujhe|Bahot Door Mujhe Chale Jaana Hai
 Bahut Door Mujhe|Bohut Dur Mujhe Chale Jana Hai
+Bahut Pehle Se Un Kadmon Ki Aahat|Bahut Pehle Se Un Qadmon Ki Aahat
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Male
@@ -854,6 +857,7 @@ Beqarar Karke Hamein|Bekarar Karke Hume
 Beqarar Karke Hamein|Beqarar Karke Humein
 Beqarar Karke Hamein|बेक़रार करके हमें यूँ ना जाइये
 Beqarar Karke Hamein|Bekarar Karke Bekarar Karke Bekarar
+Beqarar Karke Hamein|Bekarar Karke Hamein
 Betaab Dil Hai Dhadkano Ki Kasam|Betaab Dil Hai Dhadkano Ki Kasam
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
@@ -1254,6 +1258,7 @@ Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Sanam
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera
 Chura Lo Na Dil Mera Sanam|Churalo Na Dil Mera Sanam
 Chura Lo Na Dil Mera Sanam|Churalo Na Dil Chura Lo Na Dil
+Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil
 Crazy Kiya Re|Crazy Kiya Re
 Dafli Wale|Dafli Wale Dafli Baja
 Dagabaaz Re|Dagabaaz Re
@@ -1397,6 +1402,7 @@ Dheere Dheere Se|Dheere Se
 Dheere Dheere Se|Dheere Seaashiqui
 Dheere Dheere Se|Dheeredheer Se Dheere
 Dheere Dheere Se|Dheere Dheere Se Song
+Dheere Dheere Se|Dheeredheere Se Se Dheere
 Dholi Taro Dhol Baje|Dholi Taro Dhol Baje
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dhoom Machale|Dhoom Machale Dhoom Dhoom 1
@@ -1872,6 +1878,7 @@ Give Me Some Sunshine|Give Me Some Sunshine
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
+Gori Gori|Gori Gori
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
 Gori Ka Saajan|Gori Ka Sajan
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori
@@ -2429,6 +2436,7 @@ Jaaneman Jaaneman Tere Do Nayan|Janeman Janeman Tere Do Nayan
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Tere Do
 Jaaneman Jaaneman Tere Do Nayan|जानेमन जानेमन तेरे दो नयन चोरी चोरी ले
 Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Janeman Janeman
+Jaaneman Jaaneman Tere Do Nayan|Jaaneman Jaaneman Kj
 Jaata Kahaan Hai Deewane|Jaata Kahan Hai Deewane
 Jaata Kahaan Hai Deewane|Jata Kahan Hai Deewane
 Jaati Hoon Main|Jaati Hoon Main
@@ -2675,6 +2683,7 @@ Kab Ke Bichde Hue Aaj|Kabke Bichde Hue Aaj
 Kab Ke Bichde Hue Aaj|Kabke Bice Hue Aaj
 Kab Ke Bichde Hue Aaj|Kab Ke Biche Hue Ham
 Kab Ke Bichde Hue Aaj|Newkabke Bice Hue Aaj Hum
+Kab Ke Bichde Hue Aaj|Kabke Bicee Hue
 Kab Tak Chup Baithe|Kab Tak Chup Baithe [Dil To Pagal Hai
 Kab Tak Chup Baithe|Dholna Karaoke
 Kab Tak Chup Baithe|Dholna Dholnadholna Dholna
@@ -2718,6 +2727,7 @@ Kabhi Raat Din|Kabhi Raat Din Hum
 Kabhi Tanhaiyon Mein|Kabhi Tanhaiyon Mein
 Kabhi Tera Daaman|Kabhi Tera Daman
 Kabhi To Nazar Milao|Kabhi To Nazar Milao
+Kabhi To Nazar Milao|Kabhi To Nazar
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhalia Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chaliya Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhaliya Lagta Hai
@@ -2823,6 +2833,7 @@ Kalank|K͙A͙L͙A͙N͙K͙ T͎I͎T͎L͎E͎ T͎R͎A͎C͎K͎
 Kalank|ᴋᴀʟᴀɴᴋ Title
 Kalank|꧁꧂Kalank
 Kalank|Kalank Title
+Kalank|Kalaɴk Title
 Kambakth Ishq|Kambakth Is
 Kambakth Ishq|Kambakht Is
 Kambakth Ishq|Kambakth Is Hai Jo
@@ -2838,6 +2849,7 @@ Karvatein Badalte|Karvate Badalte Rahe Karwate
 Karvatein Badalte|Karvate Badalte
 Karvatein Badalte|Karwate Badalte
 Karvatein Badalte|Karvatein Badalte Rahein Karvate Karwate
+Karvatein Badalte|Karvaten Badalte Raheaapkikasam
 Kasme Waade Nibhayenge Hum|Kasme Waade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kasme Vaade Nibhayenge Hum
 Kasme Waade Pyaar Wafaa Sab|Kasme Waade Pyaar Wafaa Sab
@@ -3028,6 +3040,7 @@ Koi Jab Tumhaara Hriday|Koi Jab Tumhara Hriday
 Koi Kaise Mohabbat Chupaye|Koi Kaise Mohabbat Chupaye
 Koi Ladki Hai|Koi Ladki Hai
 Koi Ladki Hai|Koi Ladki Hai Jab Wo Hansti Hai
+Koi Ladki Hai|Koi Ladki
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
 Koi Mil Gaya|Koi Mil Gaya ,Wd One Paragraph
 Koi Mil Gaya|Koimilgayameradilgayakkhth
@@ -3142,6 +3155,7 @@ Lag Ja Gale|Lag Ja Gale Se
 Lag Ja Gale|Lag Ja Gale Exclusive
 Lag Ja Gale|Lag Jaa Galewoh Kaun Thi 1964
 Lag Ja Gale|0425 Lag Ja Gale
+Lag Ja Gale|Lag Jaa Galee Phir Lm1964
 Laga Prem Rog|Laga Prem Rog
 Laila O Laila|Laila Main Laila
 Laila O Laila|Laila O Lailaqurbanilaila Main Laila
@@ -3689,6 +3703,7 @@ Na Chahoon Sona Chaandi|Na Mangun Sona Chandi
 Na Chahoon Sona Chaandi|Na Mangu Sona Chandi
 Na Jaa Kahin|Na Jaa Kahin
 Na Jaa Kahin|Na Jaa Kahin Ab Na Ja Dil Ke Siwa
+Na Jaa Kahin|Na Ja Kahin
 Na Jaane Ek Nigah Mein|Na Jaane Ek Nigah Mein
 Na Jaane Kahaan Se Aayi|Na Jaane Kahan Se Aayi
 Na Jaane Kahaan Tum The|Na Jane Kahan Tum The
@@ -3883,6 +3898,7 @@ O Mere Dil Ke Chain|✂O Mere Dil Ke Chain
 O Mere Dil Ke Chain|Mere Ke Chain
 O Mere Dil Ke Chain|O Mere Dil Ke Chain Mere Jeevan Sathi
 O Mere Dil Ke Chain|O Mere Ke Chain Song
+O Mere Dil Ke Chain|0594 O Mere Dil Ke Chain
 O Mere Raja|O Mere Raja O Mere Raja
 O Mere Raja|O Mere Raja
 O Mere Raja|O Mere Raja Customised
@@ -3951,6 +3967,7 @@ Pal Bhar Ke Liye|Pal Bhar Ke Liye
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Customised
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hame
+Pal Bhar Ke Liye|Pal Bhar Ke
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Yeh Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Ye Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Palbhar Mein Ye Kya Ho Gaya
@@ -4259,6 +4276,7 @@ Raat Ke Humsafar|U ᷠ ᷮ ᷝ ͧ ᷚ ᷚ ͤ ͩ Raat Ke Humsafar
 Raat Ke Humsafar|Raat Ke Hamsafar
 Raat Ke Humsafar|Raat Ke
 Raat Ke Humsafar|Raat Ke Humsafar Bhavana Pandit
+Raat Ke Humsafar|0517 Raat Ke Humsafar
 Raat Shabnami|Raat Shabnami
 Raaz Aankhein Teri|Raaz Aakhein Teri
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
@@ -4555,6 +4573,7 @@ Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiyalve
 Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Love
 Sathiya Yeh Tune Kya Kiya|Saathiya Tune Kya Kiya Sathiya
 Satyam Shivam Sundaram|0451 Satyam Shivam Sundaram
+Satyam Shivam Sundaram|Satyam Shivam Sundaram 1978
 Sau Aasmaan|Sau Asmaan
 Sau Aasmaan|Sau Aasmaan
 Sau Aasmaan|Sau Aasman Baar Baar Dekho
@@ -4726,6 +4745,7 @@ Surmaiye Ankhiyon Mein|Surmayi Ankhiyon Mein
 Surmaiye Ankhiyon Mein|Surumai Ankhiyon Mein
 Surmaiye Ankhiyon Mein|Surmayi Ankhiyon
 Surmaiye Ankhiyon Mein|Surmayi Ankhiyon Me
+Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
@@ -4760,7 +4780,7 @@ Tauba Tumhare Yeh Ishare|Tauba Tumhare
 Tauba Yeh Matwaali Chaal|Tauba Yeh Matwali Chaal
 Tears In Heaven|Tears In Heaven
 Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　 In Heaven
-Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　　Tears In
+Tears In Heaven|Tears n Heaven　　　　　　　　　　　　　　　　Tears In
 Tears In Heaven|Tears In Tears In
 Tears In Heaven|Tears In Heaven Tears In
 Tera Ban Jaaunga|Tera Ban Jaunga Kabir Singh
@@ -4905,6 +4925,7 @@ Teri Bindiya Re|Teri Bindiya Re Teri Bindya Re
 Teri Bindiya Re|H‌Q‌Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Abhiman 1973
 Teri Bindiya Re|Teri Bindiya Re Re Aye Hay
+Teri Bindiya Re|Teri Bindiya Re The Kroonerz Project
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane

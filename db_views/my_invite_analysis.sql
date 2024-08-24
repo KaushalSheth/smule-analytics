@@ -27,38 +27,38 @@ my_perf_metrics as (
     ),
 my_perf_bucketed as (
     select  case
-                when num_all_performances > 50 then 'P:0 >50'
-                when num_all_performances > 30 then 'P:1 >30'
-                when num_all_performances > 20 then 'P:2 >20'
-                when num_all_performances > 15 then 'P:3 >15'
-                when num_all_performances > 10 then 'P:4 >10'
-                when num_all_performances > 5 then 'P:5 >5'
+                when num_all_performances > 200 then 'P:0 200+'
+                when num_all_performances > 100 then 'P:1 100+'
+                when num_all_performances > 50 then 'P:2 50+'
+                when num_all_performances > 25 then 'P:3 25+'
+                when num_all_performances > 10 then 'P:4 10+'
+                when num_all_performances > 5 then 'P:5 5+'
                 else 'P:6 1-5'
             end popularity_score,
             case
                 when days_since_last_invite > 3650 then 'I:9 Never'
-                when days_since_last_invite > 365 then 'I:1 >1 year'
-                when days_since_last_invite > 180 then 'I:2 >6 months'
-                when days_since_last_invite > 90 then 'I:3 >3 months'
-                when days_since_last_invite > 60 then 'I:4 >2 months'
-                when days_since_last_invite > 30 then 'I:5 >1 month'
-                else 'I:6 <1 month'
+                when days_since_last_invite > 1095 then 'I:1 3+ years'
+                when days_since_last_invite > 730 then 'I:2 2+ years'
+                when days_since_last_invite > 365 then 'I:3 1+ year'
+                when days_since_last_invite > 180 then 'I:4 6+ months'
+                when days_since_last_invite > 90 then 'I:5 3+ months'
+                else 'I:6 <3 months'
             end invite_recency_score,
             case
-                when days_since_last_performance > 365 then 'R:1 >1 year'
-                when days_since_last_performance > 180 then 'R:2 >6 months'
-                when days_since_last_performance > 90 then 'R:3 >3 months'
-                when days_since_last_performance > 60 then 'R:4 >2 months'
-                when days_since_last_performance > 30 then 'R:5 >1 month'
-                else 'R:6 <1 month'
+                when days_since_last_performance > 1095 then 'R:1 3+ years'
+                when days_since_last_performance > 730 then 'R:2 2+ years'
+                when days_since_last_performance > 365 then 'R:3 1+ year'
+                when days_since_last_performance > 180 then 'R:4 6+ months'
+                when days_since_last_performance > 90 then 'R:5 3+ months'
+                else 'R:6 <3 months'
             end performance_recency_score,
             case
-                when days_since_first_performance > 365 then 'F:1 >1 year'
-                when days_since_first_performance > 180 then 'F:2 >6 months'
-                when days_since_first_performance > 90 then 'F:3 >3 months'
-                when days_since_first_performance > 60 then 'F:4 >2 months'
-                when days_since_first_performance > 30 then 'F:5 >1 month'
-                else 'F:6 <1 month'
+                when days_since_first_performance > 1095 then 'F:1 3+ years'
+                when days_since_first_performance > 730 then 'F:2 2+ years'
+                when days_since_first_performance > 365 then 'F:3 1+ year'
+                when days_since_first_performance > 180 then 'F:4 6+ months'
+                when days_since_first_performance > 90 then 'F:5 3+ months'
+                else 'F:6 <3 months'
             end first_performance_score,
             *
     from    my_perf_metrics
