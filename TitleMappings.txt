@@ -277,6 +277,7 @@ Aap Ke Haseen Rukh|Aapke Haseen Aapke Pe
 Aap Ke Haseen Rukh|Aap Ke Hasin Rukhh Pe
 Aap Ke Haseen Rukh|Aapke Haseen Rukh Pe Aaj Naya Noor Hai
 Aap Ke Haseen Rukh|Aap Ke Haseen Aapke
+Aap Ke Haseen Rukh|Apki Haseen Rukh Pe
 Aap Ke Pehlu Mein Aakar Ro Diye|Aap Ke Pehlu Mein Aakar Ro Diye
 Aap Ke Pyaar Mein|Aap Ke Shehar Mein
 Aap Ki Aankhon Mein Kuch|Aap Ki Aakhon Me Kuch
@@ -724,6 +725,7 @@ Aur Kya|Tum Aaye Toh
 Ay Hairathe|Ay Hairathe Ashiqui Guru
 Baa Baa Black Sheep|Baa Baa Black Sheep
 Baadal Yun Garajta Hai|Badal Yun Garajta Hai
+Baadal Yun Garajta Hai|Badal Yungarajta Hai
 Baadalon Mein Chhup Raha|Baadalon Mein Chup Raha Hai Chand Kyun
 Baadalon Mein Chhup Raha|Badalon Mein Chhup Raha
 Baadalon Mein Chhup Raha|Badlo Me Chup Rahahai Chand Kyu
@@ -731,6 +733,7 @@ Baadalon Mein Chhup Raha|Badalon Mein Chhup Raha Hai
 Baadalon Mein Chhup Raha|Baadlon Mein Chup Raha Hai
 Baadalon Mein Chhup Raha|Badlon Mein Chup Raha Hai Chand
 Baadalon Mein Chhup Raha|Baadalon Mein Chup Raha Chand
+Baadalon Mein Chhup Raha|Ori Baadlon Mein Chup Raha Hai Chand
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Mein Bahar
@@ -1813,6 +1816,7 @@ Ek Pyaar Ka Nagma Hain|Yek Pyar Ka Nagma Hai
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Hindi
 Ek Pyaar Ka Nagma Hain|Ek Pyarka Nagma Hai
 Ek Pyaar Ka Nagma Hain|0422 Ek Pyar Ka Nagma Hai
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Fanclub 2024
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
@@ -3048,6 +3052,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
+Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam Unwind
 Kitni Bechain Hoke|Kitni Bechain Hoke
 Kitni Bechain Hoke|Kitni Bechain Hoke Tumse Mili
 Kitni Bechain Hoke|Kitni B͎͎Echain Hoke(Bollywood
@@ -3375,6 +3380,7 @@ Main Tenu Samjhawan|Samjhawan
 Main Tenu Samjhawan|Mai Tenu Samjhawan
 Main Tenu Samjhawan|Samjhawa Unpluged
 Main Tenu Samjhawan|Mein Tenu Samjhao
+Main Tenu Samjhawan|Main Tenu Samjhawan Mai Tenu Samjhawan
 Main Toh Ek Khwaab Hoon|Main To Ek Main Toh Ek Khwaab Hoon
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
@@ -3429,6 +3435,7 @@ Manike Thank God|Manike Mage Hithe
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
+Mann Kyun Behka Aadhi Raat|Man Kio Behka
 Manwa Laage|Manwa Laage Happy New Year
 Mar Jaayein Hum|Mar Jaayein Hum
 Masoom Dil Hai Mera|Maasoom Dil Hai Mera
@@ -3919,6 +3926,7 @@ O Haseena Zulfon Wali|Oh Haseena Zulfo Wali Mohammad
 O Haseena Zulfon Wali|O Haseena Zulfo Wali Teesri Manzil
 O Haseena Zulfon Wali|O Hasina Zulfon
 O Haseena Zulfon Wali|O Hasina Zulfon Haseena Zulfo
+O Haseena Zulfon Wali|O Hasina Zulfon O Haseena Zulfo
 O Humsafar Dil Ke Nagar|O Hum Safar Dil Ke Nagar
 O Jaana Na Jaana|O Jaana Na Jaana
 O Jaana Na Jaana|O Jana Na Jana
@@ -5030,6 +5038,7 @@ Theheriye Hosh Mein Aa Loon|Theheriye Hosh Me Aa Loon
 Theheriye Hosh Mein Aa Loon|Theheriye Hosh Mein Aa Lun
 Theheriye Hosh Mein Aa Loon|Tehriye Hosh Me Aalu
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Mein Aa Loon
+Theheriye Hosh Mein Aa Loon|Thehariye Hosh Me Aa Loon
 Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Hai Thode Ki|Thoda Hai Thode Ki Zaroorat Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
@@ -5654,6 +5663,7 @@ Yeh Dard Bhara Afsaana|Stereo Ye Dard Bhara Afsana
 Yeh Daulat Bhi Le Lo|Yeaulat Bhi Le Lo
 Yeh Dil Aur Unki Nigahon Ke Saaye|Yeil Aur Unki Nigahon Ke Saaye
 Yeh Dil Deewana|Ye Dil Deewana Pardesh
+Yeh Dil Deewana|Yeil Deewana
 Yeh Dil Deewana Hai|Yeil Deewana Hai
 Yeh Dil Kya Kare|Ye Dil Kya Kare
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
