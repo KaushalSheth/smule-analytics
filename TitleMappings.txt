@@ -100,6 +100,7 @@ Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaayere Jaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaaye Re
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaaye Remusicoolpiyush_
 Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaye Ray
+Aaj Madhosh Hua Jaaye Re|Aaj Madhosh Hua Jaaye Re Sharmilee
 Aaj Main Upar|Aaj Mein Upar
 Aaj Main Upar|Aaj Mein Upper Aasma Niche
 Aaj Main Upar|Ad Aaj Main Upar
@@ -1238,8 +1239,10 @@ Chupke Se Koi Aayega|¹ Chupke Se Koi Aayega 1
 Chupke Se Koi Aayega|Chupke Se Koi Aayega 1
 Chupke Se Sun|Chupke Se Sun
 Chupke Se Sun|Inst Chupke Se Sun
-Chupke Se|Chupke Se Saathiya
-Chupke Se|Chupke Se Unpluged
+Chupke Se Saathiya|Chupke Se
+Chupke Se Saathiya|Chupke Se Saathiya
+Chupke Se Saathiya|Chupke Se Unpluged
+Chupke Se Saathiya|Chupke Se Chupke Se
 Chura Ke Dil Mera|Chura K Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera
 Chura Ke Dil Mera|Churake Dil Mera
@@ -1289,6 +1292,7 @@ Darde Dil Darde Jigar|Darde Dil
 Darde Dil Darde Jigar|Dard E Dil
 Darde Dil Darde Jigar|Darde Dil Darde Jigar , Karz
 Darde Dil Darde Jigar|Dard E Dard E Jigar Me Jagaya
+Darde Dil Darde Jigar|Harde Dilkarz Dardedil
 Dariya Kinare Ek Banglo|Daria Kinare Ik Banglo Go Pori Jai
 Darling|Darling
 Darmiyaan|Darmiyaan
@@ -1335,6 +1339,7 @@ Dekha Ek Khwaab To|Dekha Ek Khwaab
 Dekha Ek Khwaab To|Dekha Ek Khwab To Ye Silsile Hue
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Slisile Hue
 Dekha Ek Khwaab To|Hekha Ek Khwaab To Yeh
+Dekha Ek Khwaab To|Dekha Ek Khawab To
 Dekha Hai Pehli Baar|[SHORT] 💞 Dekha Hai Pehli Baar Ost Saajan
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
@@ -1527,6 +1532,7 @@ Dil Ki Nazar Se|Dil Ki Nazarse &
 Dil Ki Nazar Se|Srdil Ki Nazar Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Nazron Ki Dil Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Nazaon Ko Dil Se
+Dil Ki Nazar Se|Dil Ki Nazar
 Dil Ki Nazar Se|Songdil Ki Nazar Si
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
@@ -1817,6 +1823,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Hindi
 Ek Pyaar Ka Nagma Hain|Ek Pyarka Nagma Hai
 Ek Pyaar Ka Nagma Hain|0422 Ek Pyar Ka Nagma Hai
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Fanclub 2024
+Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai Shor
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
@@ -2048,6 +2055,7 @@ Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam
 Honthon Pe Bas Tera Naam|Hoton Pe Bs
 Honthon Pe Bas Tera Naam|Honthon Pe Bas Tera Naam Hai
 Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam Honthon
+Honthon Pe Bas Tera Naam|Hothon Pe Bastera Naam
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo Tum
 Honthon Se Chhu Lo Tum|Honthon Se Chu
@@ -2763,6 +2771,7 @@ Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhalia Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chaliya Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhaliya Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chalia Lagta Hai
+Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chaliya Lagta Hai,Kabhi Tu
 Kabhi Yaadon Mein Aaun|Kabhi Yaadon Mein Aaun
 Kabira|Kabira
 Kabira|Kabirayeh Jawani Yeiwani
@@ -3196,6 +3205,7 @@ Laila O Laila|Laila O Lailaqurbanilaila Main Laila
 Laila O Laila|Laila O Laila Laila Main Laila
 Laila O Laila|Laila O Laila
 Laila O Laila|Laila Mai Laila Qurbani
+Laila O Laila|Laila O Laila Aisi Main Laila
 Lakdi Ki Kathi|Lakdi Ki Kathi
 Lakdi Ki Kathi|Lakdi Ki Kathi Kathi Pe Ghoda
 Lakhon Hain Nigahon Mein|Lakhon Hain Nigahon Mein
@@ -3222,6 +3232,7 @@ Lekar Hum Deewana Dil|Lekar Hum Dewana Dil
 Lekar Hum Deewana Dil|Lekarhumdeewanadil
 Lekar Hum Deewana Dil|Le Kar Hum Deewana Dil
 Lekar Hum Deewana Dil|Leker Hum Deewana Dil
+Lekar Hum Deewana Dil|Lekarhumdeewanadil Lekar Hum
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Redux
 Leke Pehla Pehla Pyaar|O Leke Pahla Pahla Pyaar
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
@@ -3274,6 +3285,7 @@ Maar Gayi Mujhe Teri Judai|Maar Gayi Mujhe Teri Judai
 Maaye Ni Maaye|Maye Ni Maye
 Maaye Ni Maaye|Maaye Ni Maaye
 Maaye Ni Maaye|Mai Ni Meriye ,Chamba Kitni K Durr
+Mach Gaya Shor Saari Nagri Re|Mach Gaya Shor Sari Nagri Re
 Made In India|Made In India
 Made In India|Ac
 Made In India|Made In India 1 Irst
@@ -3381,6 +3393,7 @@ Main Tenu Samjhawan|Mai Tenu Samjhawan
 Main Tenu Samjhawan|Samjhawa Unpluged
 Main Tenu Samjhawan|Mein Tenu Samjhao
 Main Tenu Samjhawan|Main Tenu Samjhawan Mai Tenu Samjhawan
+Main Tere Pyaar Mein|Main Tere Pyar Mein
 Main Toh Ek Khwaab Hoon|Main To Ek Main Toh Ek Khwaab Hoon
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
@@ -3469,6 +3482,7 @@ Mehndi Laga Ke Rakhna|Mehndi Lagake
 Mehndi Laga Ke Rakhna|Mehandi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|188 Mehandi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mei Laga Ke Rakhna Doli Saja Ke
+Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujheaaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar Song
@@ -3819,6 +3833,7 @@ Naam Gum Jayega|Naam Ghum Jayega
 Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
 Naam Gum Jayega|Naam Gum Jayega Nengfirna
+Naam Gum Jayega|Naam Goom Jayega
 Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baje
 Nahi Nahi Abhi Nahi|Nahi Nahi Abhi Nahi
 Nahin Ji Nahin|Nahin Ji Nahin
@@ -4034,6 +4049,7 @@ Pal Pal Dil Ke Paas|Pal Palke Paas Palpaldilkepaas
 Pal Pal Dil Ke Paas|R Pal Pal Dil Ke Paaspal
 Pal Pal Dil Ke Paas|Pal Palke Paastum Palpaldilkepaas
 Pal Pal Dil Ke Paas|Palpaldilkepaas M&F
+Pal Pal Dil Ke Paas|Pal Pal Dil Ke Pass
 Pal Pal Pal Pal Har Pal|Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal
 Pal Pal Pal Pal Har Pal|Pal Pal Pal Pal Har Pal Har Pal
@@ -4402,6 +4418,7 @@ Rimjhim Rimjhim|Rimjim Rimjim Rumjum Rumjum
 Rimjhim Rimjhim|Rimjhim Rimjhim Song
 Rimjhim Rimjhim|Rim Jhim Rim Jhim Rum Jhum Rum Jhum
 Rimjhim Rimjhim|Hindi Rim Jim Rim Jim
+Rimjhim Rimjhim|Rimjhimrimjhim
 Rocking Medley|Rocking Medley
 Rocky Aur Rani Caravan Medley|Saregama Carvaan Medley Rrkpk
 Roja Jaaneman|Roja Jaaneman
@@ -4578,6 +4595,7 @@ Sambhala Hai Maine|Song Sambhalaa Hai Maine
 Samjhota Ghamon Se|Samjhota Ghamon Se
 San Sanana|San Sanana
 San Sanana|San Sanana Asoka
+San Sanana|2 San Sanana
 Sanam Mere Humraaz|Sanam Mere Humraaz
 Sanam O Sanam Aise Hi Pyaar|Sanam O Sanam Aise Hi Pyaar
 Sanam O Sanam Aise Hi Pyaar|Sanam O Sanam Aise Hi Pyar
@@ -4609,6 +4627,7 @@ Saree Ke Fall Sa|Saari Ke Fall Sa
 Saree Ke Fall Sa|Saree Ke Fall Sa
 Saree Ke Fall Sa|Sari Ke Fal Sa
 Saree Ke Fall Sa|Sari Ke Fall Sa
+Saree Ke Fall Sa|Saree Ka Fall Sa
 Sathiya Yeh Tune Kya Kiya|Saathiya Tune Kya Kiya
 Sathiya Yeh Tune Kya Kiya|Saathiya Tune Kya Kiya Love
 Sathiya Yeh Tune Kya Kiya|Saathiya Yeh Tune Kya Kiya
@@ -4644,6 +4663,7 @@ Seene Mein Jalan|Seene Mein Jalan
 Senorita|Senorita
 Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
 Shaam Dhale Khidki Tale|Shaam Dhale, Khidaki Tale
+Shahar Ki Ladki|Shahar Ki Ladki
 Sharm Aati Hai Magar|Sharm Aati Hai Magar
 Shauq|Shauq
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Ka Khayal
@@ -4793,6 +4813,7 @@ Surmaiye Ankhiyon Mein|Surumai Ankhiyon Mein
 Surmaiye Ankhiyon Mein|Surmayi Ankhiyon
 Surmaiye Ankhiyon Mein|Surmayi Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein
+Surmaiye Ankhiyon Mein|Surumai Akhiyom Main
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
@@ -4931,6 +4952,7 @@ Tere Mere Hothon Pe|Tere Mere Hothon Pegeet Meetwaá
 Tere Mere Hothon Pe|Tere Mere Hotho Pemeethe Geet
 Tere Mere Hothon Pe|Tere Mere Honthon Pe Meethe Meethe
 Tere Mere Hothon Pe|Tere Mere Hothon Pe Chandni
+Tere Mere Hothon Pe|Tere Mere Hothon Pe Meethe
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Ye Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
@@ -5814,6 +5836,7 @@ Yeh Mera Dil|Yeh Meradil Yaar Ka Diwana
 Yeh Mera Dil|Yeh Mera Dil Yaar Ka Diwana
 Yeh Mera Dil|Ye Mera Dil Pyar Ka
 Yeh Mera Dil|Yeh Mera Dildon
+Yeh Mera Dil|Ye Mera Dil Pyar Ka Deewana
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed Rafi
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padh Kar
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padhkar
@@ -5888,6 +5911,7 @@ Yeh Samaa|S‌Ryeh Sama Sama Hai Yeh Pyar Ka
 Yeh Samaa|Ye Sama Sama Hai Yeh Pyar Ka
 Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar Pyaar 0388
 Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar 0388
+Yeh Samaa|Adnanye Sama, Samaa Hai
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani
@@ -5927,6 +5951,7 @@ Zameen Se Hamein Aasmaan Par|Zameen Se Hamein Aasmaan Par
 Zameen Se Hamein Aasmaan Par|Zameen Se Hame Aasmaan Par
 Zameen Se Hamein Aasmaan Par|ज़मीं से हमें आसमाँ पर बिठा के गिरा तो ना
 Zameen Se Hamein Aasmaan Par|Zameen Se Hamein Aasman Par
+Zameen Se Hamein Aasmaan Par|Zameen Se Hume Aasmaan Par
 Zara Sa Jhoom Loon Main|Jara Sa Jhoom Lun Mai
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main(Kara
@@ -5949,6 +5974,7 @@ Zara Zara Bahekta Hai|Zara Zara Behakta Hai
 Zara Zara Bahekta Hai|Zara Zara Behekta Hai Hindi
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai Rhtdm
 Zara Zara Bahekta Hai|Zara Zara Bahekta
+Zara Zara Bahekta Hai|Zara Zara Behkta Hai
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha
