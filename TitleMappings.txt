@@ -735,6 +735,7 @@ Baadalon Mein Chhup Raha|Baadlon Mein Chup Raha Hai
 Baadalon Mein Chhup Raha|Badlon Mein Chup Raha Hai Chand
 Baadalon Mein Chhup Raha|Baadalon Mein Chup Raha Chand
 Baadalon Mein Chhup Raha|Ori Baadlon Mein Chup Raha Hai Chand
+Baadalon Mein Chhup Raha|Baadalon Mein Chhup Raha Hai Chand Kyun
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar
 Baagon Mein Bahaar Hai|Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Mein Bahar
@@ -1064,6 +1065,7 @@ Chanda Dekhe Chanda|Chanda Dekhe Chanda
 Chanda O Chanda|Chanda O Chanda
 Chanda O Chanda|Chanda O Chanda , Customised
 Chanda Re Chanda Re|Chanda Re Chanda Re
+Chanda Re x Vennilave|Chanda Re X Vennilave
 Chanda Taare|Chanda Taare Yaadein
 Chandan Sa Badan|Chandan Sa Badan Mukesh
 Chandan Sa Badan|Chandan Sa Badun
@@ -1203,6 +1205,7 @@ Chikni Chameli|Chikni Chameli
 Chingari Koi Bhadke|Chingari Koi Bhadke
 Chingari Koi Bhadke|Chingari Koi Badke
 Chingari Koi Bhadke|Chingari Koi Bhadke To Sawan Ussey
+Chingari Koi Bhadke|Chingari Koyi Bhadke
 Chitthi Aayi Hai|Chitthi Aai Hai
 Chithi Na Koi Sandesh|Chithhi Na Koi S Chithi
 Chithi Na Koi Sandesh|Chithi Na Koi Sandesh
@@ -1448,6 +1451,7 @@ Dil Deewana|155 Dil Deewana 1989
 Dil Deewana|Dil Dewana Bin Sajna Ke
 Dil Deewana|Hil Dewanampkdeewana Orignal
 Dil Deewana|Dil Diwana Bin Sajna Ke Maane
+Dil Deewana|Dil Deewana Bin Sajna Ke Mane Na
 Dil Dhoondhta Hai|Dil Dhoondhta Hai Fir Wohi Fursat Ke Raat Din
 Dil Dhoondhta Hai|Dil Dhoondta Hai
 Dil Dhoondhta Hai|Dil Dhundta Hai
@@ -1949,6 +1953,7 @@ Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre Aradhana
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hain Bhanvre
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanware
+Gunguna Rahe Hain Bhanwre|0826 Gun Guna Rahe Hain Bhanware
 Gupt Gupt|Title Song Gupt Gupt
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Janab Ka
@@ -2031,6 +2036,7 @@ Hawa Ke Saath Saath|O Saathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
 Hawa Ke Saath Saath|Hawa Ke Sath Sath
+Hawa Ke Saath Saath|Hawa Ke Sath Sath O Sathi Chal
 Hazaar Raahein|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
@@ -2231,6 +2237,7 @@ I Still Havent Found What Im Looking For|I Still Haven'T Found What I'M Looking 
 Idhar Chala Main Udhar Chala|Idhar Chala Main Udhar
 Idhar Chala Main Udhar Chala|( Idhar Chala Main Udhar Chala
 Ik Raasta Hai Zindagi|Ik Rasta Hai Zindagi
+Ilu Ilu|Ilu Ilu
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke Umrao Jaan
 In Aankhon Ki Masti|In Ankhon Ki Masti
 In Aankhon Ki Masti|In Aankhon Ki Masti Ke
@@ -2513,7 +2520,8 @@ Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Dil Mile|Jab Dil Mile
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
-Jab Jab Bahaar Aayee|Jab Jab Bahar Aayee
+Jab Jab Bahaar Aayi|Jab Jab Bahar Aayee
+Jab Jab Bahaar Aayi|Jab Jab Bahaar Aayi
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage (Pyaar To Hona)
@@ -2627,6 +2635,7 @@ Jhuki Jhuki Si Nazar|Jhuki Jhuki See Nazar
 Jhumka Gira Re|Jhoomka Gira Re
 Jhumka Gira Re|Jhumka Gira Re Bareilly Ke Bazar
 Jhumka Gira Re|झुमका गिरा रे बरेली के Jhumka Gira Re
+Jhumka Gira Re|Jhumka Gira Re Bareli Ke Bazaar Mein
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja Aaja Aaja
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja 373
@@ -3040,6 +3049,7 @@ Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Rah Kisi Mod Par
 Kisi Raah Mein Kisi Mod Par|Kisi Raah Me Kisee Mod Par Kahin Chal
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mei Kisi Modh Par
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Fanclub 2023
+Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Kisi Mod Par
 Kisi Se Tum Pyaar Karo|Kisi Se Tum Pyar Karo Kisi
 Kiska Chehra Ab Main Dekhoon|Kiska Chehra Ab Main Dekhoon
 Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
@@ -3835,6 +3845,7 @@ Naam Gum Jayega|Naam Gum Jayega
 Naam Gum Jayega|Naam Gum Jayega Nengfirna
 Naam Gum Jayega|Naam Goom Jayega
 Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baje
+Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baaje
 Nahi Nahi Abhi Nahi|Nahi Nahi Abhi Nahi
 Nahin Ji Nahin|Nahin Ji Nahin
 Nahin Ji Nahin|Jubilee: Nahin Ji Nahin
@@ -3967,6 +3978,7 @@ O Mere Sona Re|O Mere Sona Re Sona
 O Mere Sona Re|O Meri Soni Mere|O Meri Soni Mere
 O Meri Mehbooba|O Meri Mehbooba
 O Meri Soni Mere|O Meri Soni Meri Tamanna
+O Nigaahe Mastaana|O Nigahe Mastana
 O Oh Jaane Jaana|O Oh Jaane Jana
 O Oh Jaane Jaana|O O Jaane Jaana
 O Palanhare|O Palanhare
@@ -5282,6 +5294,7 @@ Tum Aa Gaye Ho|ͪ ͩतुम आगए हो नूर आगया है
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Aandhi 1975 Digital
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Noor Aa Gaya
 Tum Aa Gaye Ho|Tum Aa Gaye Tum Aa Gaye Ho
+Tum Aa Gaye Ho|Tum Aa Gaye Tum Aa Gaye
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
@@ -5465,6 +5478,7 @@ Tumko Dekha To|Tumko Dekha To Ye Khayal
 Tumko Dekha To|Tum Ko Dekha Toh Ye
 Tumko Mere Dil Ne Pukaara Hai|Tumko Mere Dil Ne Pukaara Hai
 Tumko Mere Dil Ne Pukaara Hai|Tumko Mere Dil Ne Pukara Hai
+Tumko Paaya Hai|Tumko Paya Hai
 Tumko Piya Dil Diya|Tumko Piya Dil Diya
 Tumko Sirf Tumko|Tumko Sirf Tumko Kkkm
 Tumne Mujhe Dekha|Tumne Mujhe Dekha Mo
@@ -5566,7 +5580,8 @@ Waada Raha Sanam|Newwada Raha Sanam
 Waada Raha Sanam|Wada Raha Sanamkhiladi
 Waadiyan Mera Daman|Waadiyan Mera Daman Wadiyan Mere Daaman
 Waadiyan Mera Daman|Wadiyan Mera Daaman
-Wah Wah Ramji|Wah Wah Ramji
+Waah Waah Ramji|Wah Wah Ramji
+Waha Kaun Hai Tera Musafir|Waha Kaun Hai Tera Musafir
 Wajah Tum Ho|Wajah Tum Ho Clean
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
@@ -5750,6 +5765,7 @@ Yeh Haseen Wadiyan|Ye Hasin Vadiyaye Khula Assma
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan Wadiyan
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
+Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
 Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Ishq Haaye|Ye Is Hai
 Yeh Jawaani Hai Deewaani|Yeh Jawani Hai Deewani
