@@ -23,6 +23,7 @@ Aa Chal Ke Tujhe|Aa Chalke Tujhe
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaloon
 Aa Chal Ke Tujhe|Aa Chal Kay Tujhe
 Aa Chal Ke Tujhe|ᴀᴀ Chᴀʟ ᴋe Tᴜᴢhe ᴍᴀɪ ʟeᴋe Chᴀʟᴜ
+Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaluun
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -579,6 +580,7 @@ Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
 Aise Na Mujhe Tum|Aise Na Mujhe
 Aise To Na Dekho|Aise To Na Dekho
+Aise To Na Dekho|Aise To Nadekho 1965
 Aisi Deewanagi|Aisi Deewanagi
 Aisi Deewanagi|Aisi Deewangi
 Aisi Deewanagi|Aisi Deewangi Aisi
@@ -714,6 +716,7 @@ Aur Aahista|Aur Ahista Kijiye Batein
 Aur Aahista|Aur Aahistafirst Antra
 Aur Aahista|Aur Ahista Kijiye Batien Stereo
 Aur Aahista|Aur Aahista Kijiye Baateincompact
+Aur Aahista|Aahista
 Aur Bijli Chali Jaaye|Aur Bijli Chali Jaaye Song
 Aur Is Dil Mein|Aur Is Dil Mein
 Aur Is Dil Mein|Aur Iss Dil Mein
@@ -774,6 +777,7 @@ Baazigar O Baazigar|Baazigar O Baazigar
 Baazigar O Baazigar|Bazigar O Bazigar
 Baazigar O Baazigar|Baazigar O Baazigarbazigar S
 Baazigar O Baazigar|Bazigar Bazigar Bazigar Bazigar Bazigar
+Baazigar O Baazigar|343Baazigar O Baazigar
 Babuji Dheere Chalna|Babuji Dheere Chalna
 Babuji Dheere Chalna|Babuji Dheere Chalana Pyar Mein Zara
 Babuji Dheere Chalna|Babu Ji Dheere Chalna
@@ -939,6 +943,7 @@ Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
 Can't Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
 Can't Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
 Can't Help Falling In Love|I Can''t Help Falling In Love
+CAT Cat Cat Maane Billi|Cat Cat Cat Maani Billi
 Centerfold|n Ya Na|>> Chahun Main Ya Na
 Chaaha Hai Tujhe Chaahenge|Chaha Hai Tujhe Chahenge
 Chaaha Hai Tujhe Chaahenge|150Chaha Hai Tujhe Chahenge
@@ -1060,6 +1065,7 @@ Chalte Chalte Yunhi Koi Mil|Chalte Chalte Yunhi Koi Mil
 Chalte Chalte Yunhi Koi Mil|Chalte Chalte Yunhi Koi Mil Gaya Tha
 Chamakte Chaand Ko|Chamakte Chaand Ko
 Chamakte Chaand Ko|Chamakte Chand Ko
+Chana Jor Garam|Chana Jor Garam
 Chanda Chamke|Chanda Chamke Fanaa
 Chanda Dekhe Chanda|Chanda Dekhe Chanda
 Chanda O Chanda|Chanda O Chanda
@@ -1195,6 +1201,7 @@ Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chupp Gaye Saare Nazare 1969
 Chhup Gaye Saare Nazaare|Chhup Gaye Saare Nazare
 Chhup Gaye Saare Nazaare|0553 Chup Gaye Saare Nazaare
+Chhup Gaye Saare Nazaare|Chup Gaye Sare
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Me Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun
@@ -1377,6 +1384,7 @@ Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ik Sapna
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Yeh
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ye Ek Sapna
+Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Yeh Ek Sapna
 Dekho Na Dekho Na|Dekho Na Dekho Na Fana
 Dekho Na Dekho Na|Dekho Na
 Dekho Na Dekho Na|Dekho Naa Dekho Naa
@@ -1731,6 +1739,7 @@ Duniya Mein Kitna Gham Hai|Duniya Mein Kitna Gham Hai
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Dhokha
+Duniya Mein Logon Ko|Duniya Mein Logon Ko 90
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
@@ -3013,6 +3022,7 @@ Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum Ya
 Khwaab Ho Tum Ya Koi Haqeeqat|Khawab Ho Tum
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwaab Ho Tum Ya Koi Haqiqat
+Kishore Kumar Medley 15 Songs|Medley Of 15 Songs In One
 Kis Liye Maine Pyaar Kiya|Kis Liye Meine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kis Liye Maine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kisliye Maine Pyaar Kiya
@@ -3228,6 +3238,7 @@ Lamha Lamha|Lamha Lamha
 Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
 Lamha Lamha|Lamha Lamha Doori Gangster
+Lamha Lamha|Lamha♡Lamha Doori
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi
@@ -3473,6 +3484,7 @@ Mausam Ke Sargam|Mausam Ke Sargam
 Mausam Ke Sargam|Mausam Ke Sargam Ko Khamoshi The Musical
 Mausam Mastaana Rasta Anjaana|Mausam Mastana Rasta Anjana
 Mausam Pyaar Ka|Mausam Pyar Ka
+Mausam Pyaar Ka|Mausam Pyar Ka Rang Badalta Rahe
 Maya Machindra|Maya Machindra
 Medley 3 Songs|Medley 3 Songs Jeevan Se Bhari Teri Aankhein
 Medley Of 90s|Medley Of 90'S
@@ -4218,6 +4230,7 @@ Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai ~
 Pyaar Deewana Hota Hai|Pyar Deewana Hote Hai
 Pyaar Deewana Hota Hai|Pyar Dewanahota Haicompactdeewana
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Mastana Hota Hai
+Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Customised
 Pyaar Hota Hai|Pyar Hota Hai Ya Hota Hi Nahi
 Pyaar Hua Chupke Se|Pyaar Hua Chupke Se
 Pyaar Hua Chupke Se|Pyar Hua Chupke Se
@@ -4552,6 +4565,7 @@ Saans|Saasn Mein Teri
 Saans|Saans Mein Teri Saans Mili
 Saans|Saans Me Teri Jab Tak Hai Jaan
 Saara Pyaar Tumhara|Sara Pyar Tumhara Saara Pyaar Tumhara
+Saara Pyaar Tumhara|Sara Pyar Tumhara Maine
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
 Saara Zamaana Haseeno Ka Deewana|Sara Zamana Haseeno Ka Deewana
 Saare Badan Ka Khoon|Saare Badan Ka Khoon
@@ -4908,6 +4922,7 @@ Tere Bina Zindagi Se Koi|Tere Binazindagise Koyi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koyi Shikwa To Nahi
 Tere Bina Zindagi Se Koi|Tere Bina Jiya Jaye Na Bymusicoolpiyush_
 Tere Bina Zindagi Se Koi|तेरे बिना ज़िन्दगी से कोई, शिकवा तो नहीं
+Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koi Sikwa
 Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
@@ -5011,6 +5026,7 @@ Teri Bindiya Re|H‌Q‌Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Abhiman 1973
 Teri Bindiya Re|Teri Bindiya Re Re Aye Hay
 Teri Bindiya Re|Teri Bindiya Re The Kroonerz Project
+Teri Bindiya Re|Teri Bindiya
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane
@@ -5407,6 +5423,7 @@ Tum Mujhe Yun|तुम मुझे यूँ भुला ना पाओग�
 Tum Mujhe Yun|Tum Mujhe Yun Bhula
 Tum Mujhe Yun|Tum Mujhe
 Tum Mujhe Yun|Tum Mujhe Yun Bhula Na Paoge
+Tum Mujhe Yun|Tum Mujhe Yun Mohammed
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis Jahan Mein
@@ -5699,6 +5716,7 @@ Yeh Chaand Sa Roshan Chehra|Ye Chand Sa
 Yeh Dard Bhara Afsaana|Stereo Ye Dard Bhara Afsana
 Yeh Daulat Bhi Le Lo|Yeaulat Bhi Le Lo
 Yeh Dil Aur Unki Nigahon Ke Saaye|Yeil Aur Unki Nigahon Ke Saaye
+Yeh Dil Aur Unki Nigahon Ke Saaye|Ye Dil Aur Unki Nigahon Ke
 Yeh Dil Deewana|Ye Dil Deewana Pardesh
 Yeh Dil Deewana|Yeil Deewana
 Yeh Dil Deewana Hai|Yeil Deewana Hai
