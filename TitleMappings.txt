@@ -17,6 +17,7 @@ Aa Bhi Jaa|Aa Bhi Ja
 Aa Bhi Jaa|Aabhi Jaa Bhi Jaa Bhi
 Aa Bhi Jaa|Aa Bhi Jaa Aabhijaa Aabhija
 Aa Bhi Jaa|Abhi Ja
+Aa Bhi Jaa|Aaa Bhi Jaa,Aaa Bhi Jaa
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Me Leke Chalu
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Aa Chal Ke Tujhe
 Aa Chal Ke Tujhe|Aa Chalke Tujhe
@@ -90,6 +91,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aajkal Tere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Ke Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyaar Ke Charche Song
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar K Churche
 Aaj Ki Raat Stree 2|Aaj Ki Raat
 Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
 Aaj Ki Raat Stree 2|Aaj Ki Raat L Stree 2
@@ -263,6 +265,7 @@ Aao Na|Aao Na Aao Na
 Aao Tumhein Chaand Pe Le Jayein|Aao Tumhein Chaand Pe Lejayein
 Aaoge Jab Tum O Sajna|Aaoge Jab Tum O Sajna
 Aap Aaye Bahaar Aayi|Aap Aaye Bahaar Aayi 41
+Aap Aaye To Khayal E Dil|Aap Aaye To Khayal E Dil E Nashaad Aay
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Jaisa Koi|😋Aap Jaisa Koi
 Aap Jaisa Koi|Aap Jaisa Koi Meri
@@ -466,6 +469,7 @@ Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil E Nadan|Aye Dile
 Ae Dil E Nadan|Aye Dile Nadan
+Ae Dil E Nadan|Aye Dil E Nadan Razia Sultan 1983
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
 Ae Dil Hai Mushkil|Ae Dil Hai
 Ae Dil Hai Mushkil|Ae Dil Hai Mushkil
@@ -542,6 +546,7 @@ Ae Zindagi Gale Laga Le|Ay Zindagi Gale Laga Le
 Aesis Membership Audition|Aesis Membership Audition
 Afreen Afreen|Afreen Afreen Coke Studio
 Afsaana Likh Rahi Hoon|Afsana Likh Rahi Hoon
+Agar Main Kahoon|Agar Main Kahoon
 Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
 Agar Mujh Se Mohabbat Hai|Agar Mujhse Mohabbat Hai
 Agar Saaz Cheda Taraane Banenge|Agar Saaz Cheda Tarane Banenge
@@ -590,6 +595,7 @@ Aisi Deewanagi|Aisi Deewangi Deewangi
 Aisi Deewanagi|Aisi Deewanagideewana
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahi
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi
+Aisi Deewanagi|Aisi Deewangi Dekhi Deewana
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -1075,7 +1081,7 @@ Chanda Re x Vennilave|Chanda Re X Vennilave
 Chanda Taare|Chanda Taare Yaadein
 Chandan Sa Badan|Chandan Sa Badan Mukesh
 Chandan Sa Badan|Chandan Sa Badun
-Chandaniya Lori Lori|Chandaniya Lori Lori
+Chandaniya Lori|Chandaniya Lori Lori
 Chandi Jaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|Chandijaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|𝐇𝐃 Chandi Jaisa Rang Hai Tera
@@ -1440,6 +1446,7 @@ Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dhoom Machale|Dhoom Machale Dhoom Dhoom 1
 Didi Tera Devar Deewana|Didi Tera Devar Deewana
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun Ke Bekhud Kiya
+Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun
 Dil Aaj Shayar Hai|Dil Aaj Shayar Hai
 Dil Aaj Shayar Hai|Dil Aaj Shayar
 Dil Aisa Kisi Ne Mera Toda|Dil Aisa Kisi Ne Mera Toda
@@ -1729,6 +1736,7 @@ Dum Bhar Jo Udhar|Dambhar Jo Udhar
 Dum Bhar Jo Udhar|Dum Bhar Jo Udhar
 Dum Bhar Jo Udhar|Dam Bhar Jo Udhar Munh Phere
 Dum Bhar Jo Udhar|दमभर जो उधर मुँह फेरे Dumbhar Jo Udhar
+Dum Bhar Jo Udhar|Dum Bhar Jo Udar Fanclub 2023
 Dum Dum Diga Diga|Dum Dum Diga Diga
 Dum Dum Dum Mast Hai|Dum Dum Dum Mast Hai
 Dum Maro Dum|Dum Maro Dum
@@ -1787,6 +1795,7 @@ Ek Din Bik Jaayega|Ek Din Bik Jayega
 Ek Din Tum Bahut|Ek Din Tum Bahut 102
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
 Ek Do Teen|Ek Do Teen Char
+Ek Do Teen|Ek Do Teentezaaᵇ Ekdoteen
 Ek Haseen Shaam|Ek Hasin Shaam Ek Haseen Shyaam
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
@@ -2186,6 +2195,7 @@ Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Humein Tumse
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna Humein
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna Hume
 Humein Tumse Pyaar Kitna|Hamen Tumse Pyar Kitna
+Humein Tumse Pyaar Kitna|Hume Tumse Pyar Kitna Song
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo & Baadalon Me Chup Raha
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lo (film Mohabbatein)
 Humko Hamise Chura Lo|Hum Ko Humise Chura Lohumko Humko Humko Humko
@@ -2305,6 +2315,7 @@ Ishq Wala Love|Is Wala Love
 Ishq Wala Love|Is Wala Love Student Of The Year
 Iss Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
 Iss Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Iss Pyaar Se
+Itna Hain Tumse Pyaar Mujhe|Itna Hain Tumse Pyar Mujhe
 Itna Na Mujhse Tu Pyar Badha|_Itna Na Mujhse
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyaar Badha
@@ -2512,6 +2523,7 @@ Jaaun Kahaan Bata E Dil|0221 Jaoon Kahan Bata Aye Dil
 Jaaun Kahaan Bata E Dil|Jaun Kahan Bata Ae
 Jaaun Kahaan Bata E Dil|Jaaun Kaha Bata Ye Dil Fanclub 2023
 Jaaun Kahaan Bata E Dil|0222 Jaoon Kahan Bata Aye Dil
+Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Aye Dil
 Jaayen To Jaayen Kaha|Talat
 Jab Bhi Jee|Jab Bhi Jee
 Jab Bhi Ye Dil Udas Hota Hai|Jab Bhi Ye Dil Udas Hota Hai
@@ -2577,6 +2589,7 @@ Jahaan Main Jaati Hoon|जहाँ मैं जाती हूँ वही�
 Jahaan Main Jaati Hoon|Jahaan Main Jaati Hun
 Jahaan Main Jaati Hoon|Jahan Main Jaati Hu
 Jahaan Main Jaati Hoon|Jahan Mein Jati Hun Chori Chori
+Jahaan Main Jaati Hoon|Jaha Mai Jati Hun Wahi
 Jahaan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
 Jahaan Mein Aisa Kaun Hai|Jahan Me Aisa Kaun Hai
 Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
@@ -3415,6 +3428,7 @@ Main Tenu Samjhawan|Samjhawa Unpluged
 Main Tenu Samjhawan|Mein Tenu Samjhao
 Main Tenu Samjhawan|Main Tenu Samjhawan Mai Tenu Samjhawan
 Main Tere Pyaar Mein|Main Tere Pyar Mein
+Main Tere Pyaar Mein|Main Tere Pyar Mein Pagal
 Main Toh Ek Khwaab Hoon|Main To Ek Main Toh Ek Khwaab Hoon
 Main To Raste Se Ja Raha Tha|Main To Raste Se Ja Raha Tha
 Main To Raste Se Ja Raha Tha|Mai Toh Raste Se Ja Raha Tha
@@ -3639,6 +3653,7 @@ Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si Mashupman
 Meri Bheegi Bheegi Si|Meri Bhigi Mone Pore Ruby
 Meri Duniya Hai|Meri Duniya Hai
 Meri Duniya Hai|Meri Duniya Hai Tujh Mein Kahin
+Meri Duniya Hai|Meri Duniya Hai Maa
 Meri Jaan|Meri Jaan
 Meri Jaan Kehna Maano|Meri Jaan Kehna Mano
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi
@@ -3688,6 +3703,7 @@ Moh Moh Ke Dhaage|Ye Moh Moh Ke Dhage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Mtv
 Moh Moh Ke Dhaage|Ye Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Ye Moh Moh Kedhage Yemohmohke
+Moh Moh Ke Dhaage|Yeh Moh Moh Ke Dhaage
 Mohabbat Bade Kaam Ki Cheez Hai|Mohabbat Bade Kaam Ki Cheez Hai
 Mohabbat Bade Kaam Ki Cheez Hai|Mohabbat Bade Kam Ki Cheez[Trishul}
 Mohabbat Cheez Hai Kya|Mohabbat Cheez Hai Kya 606
@@ -4423,6 +4439,7 @@ Rimjhim Gire Saawan|Rim Jhim Gire Sawan
 Rimjhim Gire Saawan|Rimjhim Gire Sawanrimjhimgiresawan
 Rimjhim Ke Geet Sawan|Rim Jhim Ke Geet Sawan
 Rimjhim Ke Geet Sawan|Rimjhim Ke Geet Sawan ]
+Rimjhim Ke Geet Sawan|Rimjhim Ke Geet
 Rimjhim Ke Taraane Leke|Rimjhim Ke Tarane Leke
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyare Geet Liye
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyareusne Kaha Thha
@@ -4564,6 +4581,8 @@ Saans|Saans Mein Teri Pallavi
 Saans|Saasn Mein Teri
 Saans|Saans Mein Teri Saans Mili
 Saans|Saans Me Teri Jab Tak Hai Jaan
+Saanwali Saloni Teri|Saawli Saloni Teri
+Saanwali Si Ek Ladki|Saanwali Si Ek Ladki
 Saara Pyaar Tumhara|Sara Pyar Tumhara Saara Pyaar Tumhara
 Saara Pyaar Tumhara|Sara Pyar Tumhara Maine
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
@@ -4575,7 +4594,6 @@ Saat Samundar|Saat Samundarⱽishʷaaa
 Saat Samundar|Drsaat Samundar Paar
 Saathi Mere Sun To Zara|Saathi Mere Sun To Zara
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
-Saanwali Si Ek Ladki|Saanwali Si Ek Ladki
 Saawan Aaya Baadal Chaaye|Sawan Aaya Badal Chaaye
 Saawan Aaye Ya Na Aaye|Saawan Aaye Ya Na Aaye
 Saawan Barse Tarse Dil|Saawan Barse Tarse Dil
@@ -4854,6 +4872,7 @@ Tamma Tamma Loge|Tamma Tamma Loge
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
 Tanha Tanha|Tanha Tanha Yahaan Pe Jeena
 Tanha Tanha|Tanha Tanha
+Tanha Tanha|Tanha Taŋɧąrangeela Song
 Tanhai Tanhai|Tanhai Tanhai Koyla
 Tanhayee|Tanhayee
 Tasveer Teri Dil Mein|Tasveer Teri Dil Mein
@@ -5094,6 +5113,7 @@ Thoda Hai Thode Ki|Thoda Hai Thode Ki Zaroorat Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai Lirik
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Thoda
+Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai Sad
 Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyaar Hua Tumse
 Thoda Thoda Pyaar Hua Tumse|Ke Thoda Thoda Pyar Hua Tumse
 Thoda Thoda Pyaar Hua Tumse|~ Ke Thoda Thoda Pyar Hua Tumse Hindi
@@ -5158,6 +5178,7 @@ Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi
 Tu Is Tarah|Tu Iss Tarha Se Meri Zindagi
 Tu Is Tarah|Tu Iss Tarah Secompact
+Tu Is Tarah|Tu Iss Tarah
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -5227,6 +5248,7 @@ Tu Tu Hai Wahi|Tu Tu Hai Wahi Ye Wada Raha
 Tu Tu Hai Wahi|📀 Tu Tu Hai Wohi
 Tu Tu Hai Wahi|Yeh Waada Raha Tu Hai Wohi
 Tu Tu Hai Wahi|Tutuhaiwahiyeh Vaada Rahatitle Song
+Tu Tu Tu Taara|Tu Tu Tu Tara😜
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
@@ -5448,6 +5470,7 @@ Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
 Tum Saath Ho Jab Apne|Tum Saath Ho Jab Apne Male
+Tum Saath Ho Jab Apne|Tum Saath Ho Jab Kaalia
 Tum Se Hi|Tum Se Hi
 Tum Se Hi|Tum Se Hi Jab We Met
 Tum Se Hi|Tum Se Hi Female
@@ -5890,6 +5913,7 @@ Yeh Nayan Dare Dare|Yeh Nayan
 Yeh Parbaton Ke Daayere|Yeh Parbaton Ke Daayere
 Yeh Parda Hata Do|ये परदा हटा दो ज़रा मुखड़ा दिखा दो
 Yeh Parda Hata Do|Ye Parda
+Ye Raat Aur Ye Doori|Ye Raat Aur Ye
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Chori
@@ -6021,6 +6045,7 @@ Zihaal E Miskin|Zihale Miskin Maqun Baranjish
 Zindagi Aa Raha Hoon Main|Zindagi Aa Raha Hoon Main
 Zindagi Bhar Nahi Bhoolegi|Zindagi Bhar Nahi Bhoolegi
 Zindagi Bhar Nahi Bhoolegi|0912 Zindagi Bhar Nahin Bhoolegi
+Zindagi Bhar Nahi Bhoolegi|Zindagi Bhar Nahin Bhoolegi
 Zindagi Ek Safar Hai Suhana|[Short™] Zindagi Ek Safar Hai Suhana [HQ]
 Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhaana
 Zindagi Ek Safar Hai Suhana|Zindagi Ek Safar Hai Suhana
