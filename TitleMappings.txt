@@ -61,6 +61,7 @@ Aaiye Meherbaan|Aaiye Meharbaan Baithiye
 Aaiye Meherbaan|0116 Aaiye Meherbaan
 Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
+Aaj Hai Sagai|Aaj Hai Sagaai Sun Ladki Ke Bhai
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
 Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid
@@ -1131,6 +1132,7 @@ Chhalka Yeh Jaam|Chalka Yeh Jaamchalka Ye Jaam Aaiye Aapki
 Chhalka Yeh Jaam|Chalka Yeh Jaam
 Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki
 Chhalka Yeh Jaam|Chalka Yeh Jaam Aaiye Aapki
+Chhalka Yeh Jaam|Chhalkaye Jaam Mohammed
 Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhamak Chhallo Chhel Chhabeli|Chamak Challo Chel Chabeli
 Chhaya Hai Jo Dil Pe|Chaya Hai Jo Dil Pe
@@ -1846,6 +1848,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyarka Nagma Hai
 Ek Pyaar Ka Nagma Hain|0422 Ek Pyar Ka Nagma Hai
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Fanclub 2024
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai Shor
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Naghma
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
@@ -2791,6 +2794,7 @@ Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
 Kabhi Main Kahoon|Kabhi Main Kahoon Kabhi Tum Kaho
 Kabhi Main Kahoon|Kabhi Mai Kahun Kabhi Tum Kaho
 Kabhi Na Kabhi Kahin Na Kahin|Kabhi Na Kabhi Kahin Na Kahin
+Kabhi Na Kabhi Kahin Na Kahin|Kabhi Na Kabhi, Kahin Na Kahin
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabhi Raat Din|Kabhi Raatdin Hum Dur The
 Kabhi Raat Din|Kabhi Raat Din Hum
@@ -3502,6 +3506,7 @@ Mausam Pyaar Ka|Mausam Pyar Ka Rang Badalta Rahe
 Maya Machindra|Maya Machindra
 Medley 3 Songs|Medley 3 Songs Jeevan Se Bhari Teri Aankhein
 Medley Of 90s|Medley Of 90'S
+Medley Of Amitabh Bachhan Songs|Medley Of Amitabh Bachhan Songs
 Medley Songs|Medley Shahruk Khan
 Medley Songs|Medley Old S
 Medley Songs|Medley Songs
@@ -3882,6 +3887,7 @@ Nahin Rakhta Dil Mein|Nahin Rakhta Dil Mein
 Nahin Yeh Ho Nahin Sakta|Nahin Yeh Ho Nahin Sakta
 Nain So Nain Nahi Milayo|Nain So Nain Nahi Milayo
 Nain So Nain Nahi Milayo|Nein So Nain Nahi Milao
+Nain So Nain Nahi Milayo|Nain So Nain Naahi Milao
 Naina|Naina
 Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
@@ -3926,6 +3932,7 @@ Nazrein Mili Dil Dhadka|Nazarein Mili Dil Dhadka
 Neela Aasmaan So Gaya|Neela Aasmaan Sogaya
 Neela Aasmaan So Gaya|Neela Aasman So Gaya
 Neela Aasmaan So Gaya|Neela Aasma
+Neela Aasmaan So Gaya|Neela Asmaan So Gaya Female
 Neele Neele Ambar Par|Neele Neele Ambar
 Neele Neele Ambar Par|Neele Neele Ambar Par
 Neele Neele Ambar Par|Neele Neele Amber
@@ -4444,6 +4451,7 @@ Rimjhim Ke Taraane Leke|Rimjhim Ke Tarane Leke
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyare Geet Liye
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Pyareusne Kaha Thha
 Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyaare Pyaare
+Rimjhim Ke Ye Pyaare Pyaare Geet Liye|Aha Rimjhim Ke Ye Pyare Aaha Rim Jhim
 Rimjhim Rimjhim|[Short™] Rimjhim Rimjhim Ost 1942 Love Story
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim
 Rimjhim Rimjhim|Hhrim Jhim Rim Jhim Rimjhim
@@ -4623,6 +4631,7 @@ Saiyaan Hatto Jaao|Saiyaan Hatto Jaao
 Sajde Kiye Hai Laakhon|Sajde Kiye Hai Lakhon
 Sajan Re Jhoot Mat Bolo|Sajan Re Jhoot Mat Bolo
 Sajna Hai Mujhe|Sajna Hai Mujhe
+Sajna Ve Sajna|Sajna Ve Sajna Vicky Vidya Ka Wo Wala Video
 Salaam|Salaam
 Salaame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Salaame Ishq Meri Jaan|Salaam E Is Meri Jaan Jan
@@ -4630,6 +4639,7 @@ Salaame Ishq Meri Jaan|Salame Is Meri Jaan
 Salaame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Salaame Ishq Meri Jaan|Salame
 Salaame Ishq Meri Jaan|Salaame Is Meri Jan
+Salaame Ishq Meri Jaan|Salam
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
 Sama Hai Suhana Suhana|Sama Hai Suhana
 Sama Hai Suhana Suhana|Shama Hai Suhana Suhana
@@ -5170,6 +5180,7 @@ Tu Hi Re|Tu Hi Re Female
 Tu Hi Re|Tu Hi Ree Bombay Movie In D
 Tu Hi Re|Tu Hi Re , Bombay
 Tu Hi Re|Tu Hi Re Bombay
+Tu Hi Re|Tu Hi Re Tu Hi Re
 Tu Hi Toh Meri Dost Hai|Tu Hi Toh Meri Dost Hai
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
@@ -5804,6 +5815,7 @@ Yeh Haseen Wadiyan|Yeh Hassen Wadiya Yeh Haseen Wadiya
 Yeh Haseen Wadiyan|Ye Haseen Wadiya Yeh Khula Aasman
 Yeh Haseen Wadiyan|Ye Hasin Vadiyaye Khula Assma
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan Wadiyan
+Yeh Haseen Wadiyan|Yeh Haseen Wadiya
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
 Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
@@ -5835,6 +5847,7 @@ Yeh Kaali Kaali Aankhen|Ye Kaali Kaali
 Yeh Kahaan Aa Gaye Hum|Ye Kahan Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kaha Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kahan Aa Gaye Hum
+Yeh Kahaan Aa Gaye Hum|Ye Kahaan Aa Gaye Hum
 Yeh Khamoshiyan Yeh Tanhaiyan|Ye Khamoshiyan Ye Tanhaiyan
 Yeh Kisne Geet Chheda|Ye Kisne Geet Cheda Dil Mera Nache
 Yeh Kisne Geet Chheda|Ye Kisne Geet Chheda
