@@ -914,8 +914,10 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
             version = "search"
         else:
             version = "legacy"
+        print("getJSON: Starting")
         performances = getJSON(username,fetchType,next_offset,version)
         if performances == None:
+            print("getJSON: No performances found")
             break
         for performance in performances['list']:
             last_created_date = performance['created_at']

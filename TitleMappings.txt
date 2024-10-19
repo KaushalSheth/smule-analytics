@@ -1555,6 +1555,7 @@ Dil Ki Nazar Se|Dil Ki Nazar Se Nazron Ki Dil Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Nazaon Ko Dil Se
 Dil Ki Nazar Se|Dil Ki Nazar
 Dil Ki Nazar Se|Songdil Ki Nazar Si
+Dil Ki Nazar Se|Dil Ki Nazar Se, Nazron K Dil Se
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
 Dil Ki Yeh Aarzoo Thi|Dil Ki Ye Aarzoo Thi Koi Dilruba Mile
@@ -3452,6 +3453,7 @@ Main Yahan Hoon|Main Yahan Hoon ~ Song
 Main Yahan Hoon|Janam Dekh Lo Mit Gayi Duriya
 Main Yahan Hoon|Jaanam Dekh Lo Mit Gai Dooriyaa
 Main Yahan Hoon|Jaanam Dekhlo
+Main Yahan Hoon|Janam Dekhlo Mit Gayi
 Main Zindagi Ka Saath Nibhata|Mai Zindagi Ka Saath Nibhata
 Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhaata
 Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhata Chala Gaya
@@ -3468,6 +3470,7 @@ Maine Poochha Chand Se|Maine Poochha Chand Se
 Maine Poochha Chand Se|Maine Pucha Chand Se
 Maine Poochha Chand Se|Maine Poocha Chaand Se Abdullah
 Maine Poochha Chand Se|Maine Poocha Chaand Pucha
+Maine Poochha Chand Se|Maine Poocha Chand Se Unwind
 Maine Pyaar Kiya Medley|Maine Pyar Kiya Medley
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
@@ -4024,6 +4027,7 @@ O Re Chhori|O Rey Chori
 O Re Chhori|O Ri Chhori Maan Bhi Le Baat Mori
 O Re Chhori|O Rey Chhori
 O Re Chhori|O Re Chhori Lagaan
+O Re Chhori|O Re Chori
 O Ri Chiraiya|O Ri Chiraiya
 O Saathi Re|O Saathi Re
 O Saathi Re|O Saathi Re O Re
@@ -4323,11 +4327,13 @@ Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Me Hota Hai Kya Jadu
 Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai
 Pyaar Mein Hota Hai Kya Jaadu|0631 Pyar Mein Hota Hai Kya Jaadu
+Pyaar Mein Hota Hai Kya Jaadu|Pyar Mein Hota Hai Kya Jadoo
 Pyaar Mein Kabhi Kabhi|Pyar Mein Kabhi Kabhi Aisa Hojata Hai
 Pyaar Mein Kabhi Kabhi|Pyar Mein Kabhi Kabhi
 Pyaar Mujhse Jo Kiya Tumne|Pyar Mujhse Jo Kiya Tumne
 Pyaar Nahin Karna|Pyar Nahi Karna Kachche Dhaage
 Pyaar Nahin Karna|Pyaar Nahin Karna
+Pyaar To Ek Din Hona Tha|Pyar To Ek Din Hona Tha
 Pyaar Zindagi Hai|Pyar Zindagi Hai
 Qaafirana|Qaafirana
 Qaafirana|Qaafirana Female
@@ -4796,6 +4802,7 @@ Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam Haseen
 Suhani Chandni Raatein|Suhani Chandni Raatein
 Suhani Chandni Raatein|Suhaani Chandani Raatein
 Suhani Chandni Raatein|Suhani Chandni Raatein Humein Sone Nahi
+Suhani Chandni Raatein|Suhani Chandni Raatein Mukti
 Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
 Sukh Ke Sab Saathi|Sukh Ke Sab Saathi
@@ -5118,6 +5125,7 @@ Theheriye Hosh Mein Aa Loon|Theheriye Hosh Mein Aa Lun
 Theheriye Hosh Mein Aa Loon|Tehriye Hosh Me Aalu
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Mein Aa Loon
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Me Aa Loon
+Theheriye Hosh Mein Aa Loon|Thehriye Hosh Mein Aa Lun
 Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Hai Thode Ki|Thoda Hai Thode Ki Zaroorat Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
@@ -5492,6 +5500,7 @@ Tum Toh Pyaar Ho Sajna|Tum To Pyar Ho
 Tumhare Siva|Tumhare Siva
 Tumhare Siva|Tumhare Siwa Kuch Na
 Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun Khafa Ho Gayi
+Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun Tumhari Nazar Kyun D
 Tumhari Nazron Mein Hum Ne Dekha|Tumhari Nazron Mein Hum Ne Dekha
 Tumhari Zulf Ke Saaye|Tumhari Zulf Ke Saaye
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
@@ -5995,6 +6004,7 @@ Yeh Shaam Mastaani|Ye Shaam Mastaani Yeh Sham Mastani
 Yeh Shaam Mastaani|Yeh Sham Mastani , Wd 2 Paragraphs
 Yeh Shaam Mastaani|Ye Sham Yeh Sham
 Yeh Shaam Mastani + Raat Kali|Ye Sham Mastani Raat Kali Ik Khawab
+Yeh Sitaare Ye Chaand Ye Raatein|Ye Sitare Ye Chand Ye Raate
 Yeh Taara Woh Taara|Yeh Tara Woh Tara
 Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
