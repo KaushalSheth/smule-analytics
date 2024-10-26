@@ -405,6 +405,7 @@ Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein To
 Ab Tere Dil Mein Hum Aa Gaye|🧡Ab Tere Dil Mein
 Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Hum Aa Gaye To
+Ab Tere Dil Mein Hum Aa Gaye|Ab Tere Dil Mein Aarzoo
 Ab To Hai Tumse Har Khushi Apni|Ab To Hai Tumse Har Khushi Apni
 ABCD Hum Saath Saath Hain|Abcd Hum Saath Saath Hain
 Abhi Abhi|Abhi Abhi
@@ -483,6 +484,8 @@ Ae Dil Hai Mushkil|~ Ae Dil Hai Mushkil
 Ae Dil Hai Mushkil|Ae Dil Hai Muskil
 Ae Dil Hai Mushkil|~ Aedil Hai Mushkil
 Ae Dil Hai Mushkil|Ae Dil Hai Mushkil Female
+Ae Dil Hai Mushkil|Ae Dil Hai Mushkil Jeena Ye Hai Bombay Meri
+Ae Dil Hai Mushkil|Aye Dil Hai Mushkil
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai Bahaar
 Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai, Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahaar Kya Kehna
@@ -658,6 +661,7 @@ Akhiyan Milaon Kabhi|Ankhiyan Milau Kabhi Ankhiya Churau Song
 Akhiyan Milaon Kabhi|Akhiya Milaun Kabhiankhiya Churaun
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi 0St Raja
 Akhiyan Milaon Kabhi|Ankhiyaan Milaun Kabhi
+Akhiyan Milaon Kabhi|Ankhiyan Milau Kabhi Ankhiyan Churau
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -1052,6 +1056,7 @@ Chalo Dildar Chalo|Chalo Dildar Chalo Chaand Ke Paar Chalo
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se Ajnabi
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Phirse Ajnabi Bann Jaayein
+Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chale Jism 2003
@@ -1577,6 +1582,7 @@ Dil Kyun Dhadakta Hai Jaanam|Hil Kyon Dhadakta Hai Jaanam
 Dil Kyun Yeh Mera|Dil Kyun Yeh Mera
 Dil Laga Liya|Dil Laga Liya (Dil Hai Tumhara
 Dil Laga Liya|Dil Laga Liya Dil Hai
+Dil Lagane Ki Sazaa|Dil Lagane Ki Sazaa
 Dil Lena Khel Hai Dildaar Ka|Dil Lena Khel Hai Dildaar Ka
 Dil Lena Khel Hai Dildaar Ka|Hil Lena Khel Hai Dildaar Kaa
 Dil Lena Khel Hai Dildaar Ka|Dil Lena Khel Hai Dildar Ka
@@ -1930,6 +1936,7 @@ Gila Gila Dil Gila|Gila Gila Dil Gila Aitraaz
 Gir Gaya Jhumka|Gir Gaya Jhumka
 Gir Gaya Jhumka|Gir Gaya Jhumka Girne Do
 Give Me Some Sunshine|Give Me Some Sunshine
+Golden Duets Medley 1|Golden Medley
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
@@ -2074,6 +2081,7 @@ Heeriye|Heeriye
 Hello|Hello
 Hey Naam Re|Hey Naam Re
 Hey Rom Rom Mein|Hey Rom Rom Mein
+Hit Songs Of 90s Bollywood Mashup|Hit Songs Of 90'S Bollywood Mashup
 Hivde Se Door Mat Jaa|हिवड़े से दूर मत जा
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajana
@@ -2485,6 +2493,7 @@ Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने �
 Jaane Na Nazar Pahchane Jigar|Jane Na Nazar Pehchane Jigar
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Aah
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pehchaane Jigar
+Jaane Na Nazar Pahchane Jigar|Jane Na Nazar
 Jaane Waalo Zara Mud Ke Dekho|जाने वालो ज़रा मुड़ के देखो मुझे एक इंसान Jaane
 Jaane Woh Kaise Log The|Jaane Woh Kaise Log The Jinake Pyar Ko Pyar
 Jaane Woh Kaise Log The|Jane Woh Kaise Log The Jinke
@@ -2913,6 +2922,7 @@ Kalank|Kalaɴk Title
 Kambakth Ishq|Kambakth Is
 Kambakth Ishq|Kambakht Is
 Kambakth Ishq|Kambakth Is Hai Jo
+Kambakth Ishq|Kambakht Is Ptkk
 Kamli Kamli|Kamli Kamli
 Kamli Kamli|Kamli Kamli Dhoom 3 Karaok
 Kanha Maane Na|Kanha Maane Na
@@ -3006,9 +3016,10 @@ Khairiyat|Khairiyat Shreya Karmakar'S
 Khairiyat|Khairiyat Khairiyat
 Khairiyat|Khairiyat Part 2
 Khamosh Lab Hai|Khamosh Lab Hai
-Khamoshiyan|Khamoshiyan
-Khamoshiyan|Khamoshiyan Teri Meri
-Khamoshiyan|Khamoshiyan Female Scale
+Khamoshiyaan|Khamoshiyan
+Khamoshiyaan|Khamoshiyan Teri Meri
+Khamoshiyaan|Khamoshiyan Female Scale
+Khamoshiyaan Medley|Medley Khamoshiyaan
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lageen
 Khamoshiyan Gungunane Lageen|Khamoshiyan Gungunane Lagi
 Khayalon Mein Kisike Is Tarah|Khayalon Mein Kisike Is Tarah
@@ -3048,6 +3059,7 @@ Kisi Baat Par Main Kisi Se Khafa|Kisi Baat Par Main Kisi Se Khafa
 Kisi Din Banoongi|Kisi Din Banoongi Main
 Kisi Din Banoongi|Kisi Din Banoongi Main Raja
 Kisi Din Banoongi|Kisidin Banoongi
+Kisi Din Banoongi|Kisi Din Banungi Main
 Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
 Kisi Disco Mein Jayein|]Kisi Disco Mein Jaye
 Kisi Disco Mein Jayein|Kisi Disco Mein Jaye
@@ -5031,6 +5043,7 @@ Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Mo
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne Guide Movie Mo
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere
 Tere Naam|Tere Naam
+Tere Naam Ka Deewana|Tere Naam Ka Deewana
 Tere Naina Mere Naino Ki|Tere Naina Mere Naino Ki
 Tere Phoolon Jaisa Rang|Tere Phoolon Jaisa Rang
 Tere Pyaar Mein Main|Tere Pyar Me Main Hogi Pyar Ki Jeet
@@ -5268,6 +5281,7 @@ Tu Tu Hai Wahi|📀 Tu Tu Hai Wohi
 Tu Tu Hai Wahi|Yeh Waada Raha Tu Hai Wohi
 Tu Tu Hai Wahi|Tutuhaiwahiyeh Vaada Rahatitle Song
 Tu Tu Tu Taara|Tu Tu Tu Tara😜
+Tu Tu Tu Taara|Tu Tu Tu Tara
 Tujh Mein Rab Dikhta Hai|[F] Tujh Mein Rab Dikhta Hai Female Version
 Tujh Mein Rab Dikhta Hai|Tujh Main Rab Dikhta Hei
 Tujh Mein Rab Dikhta Hai|Tujh Me Rab Dikhta Hai
@@ -5633,6 +5647,7 @@ Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge Wadakaro
 Waada Karo Nahi Chhodoge|Waada Karo
 Waada Karo Nahi Chhodoge|Wada Karo 1973
 Waada Raha Pyaar Se Pyaar Ka|Wada Raha Pyar Se Pyar Ka Song
+Waada Raha Pyaar Se Pyaar Ka|Wada Raha
 Waada Raha Sanam|Wada Raha Sanam
 Waada Raha Sanam|Waada Raha Sanam :By M D Tyagi
 Waada Raha Sanam|Wadaraha Sanam
