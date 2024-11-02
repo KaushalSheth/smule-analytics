@@ -248,6 +248,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya
 Aankhon Se Tune Ye|Aankhon Se Tune Kya Gulam
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keh
 Aankhon Se Tune Ye|Aankhon Se Tune Female
+Aankhon Se Tune Ye|Ankhon Se Tune Ghulam
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
@@ -1099,6 +1100,7 @@ Chandni Raat Mein Ek Baar|Chandani Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
 Character Dheela Hai|Character Dheela Hai
+Character Dheela Hai|Character Dheela
 Chaudhvi Shab|Chaudvi Shab
 Chaudhvin Ka Chand Ho|Chaudavi Ka Chaand Ho
 Chaudhvin Ka Chand Ho|Chaudhavi Ka Chand Ho
@@ -2232,6 +2234,7 @@ Humko Hamise Chura Lo|Humko Humise Chura Lo Song
 Humko Hamise Chura Lo|Humkohumisechuralohumkohumisechuralo
 Humko Hamise Chura Lo|Humkohumise Churalo
 Humko Hamise Chura Lo|~ Humko Humise Chura Lo
+Humko Hamise Chura Lo|Humko Humise Churalo Chura Lo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -3098,10 +3101,12 @@ Kismat Se Tum|Kismat Se Tum Pukar
 Kissa Hum Likhenge|Kissa Hum Likhenge
 Kitaabein Bahut Si|Kitabein Bahut Si Asha Vinod
 Kitaabein Bahut Si|Kitaben Bahut Si
+Kitaabein Bahut Si|Kitaben Bahut Si Baazigar
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyaara Hai Yeh Chehra|Kitna Pyara Hai Yeh Chehra
 Kitna Pyara Tujhe|Kitna Pyara Tujhe
 Kitna Pyara Tujhe|Kitna Pyaara Tujhe Rab Ne Banaya
+Kitna Pyara Tujhe|Kitna Pyara Tujhe Kitna
 Kitna Pyara Waada|Kitna Pyara Waada
 Kitna Pyara Waada|Kitna Pyaara Wada
 Kitna Pyara Waada|Kitna Pyara Wadacarvaan
@@ -3554,6 +3559,7 @@ Mera Dil Bhi Kitna|Mera Dil Bhi Mera Dil Bhi
 Mera Dil Bhi Kitna|~ Mera Dil Bhi Kitna Pagal Hai
 Mera Dil Bhi Kitna|Meradilbhikitnapagalhai
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Haihindi
+Mera Dil Bhi Kitna|Mera Dil Bhi Kitnapagal Hai Hindi
 Mera Dil Tere Liye|Mera Dil Tere Liye Dhadakta Hai
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Dil Ye Pukare|Mera Dil Ye Pukare ,
@@ -3625,6 +3631,7 @@ Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat Hogi
 Mere Mehboob Qayamat Hogi|Mere Mehboob Qayamat Hogi Aaj
 Mere Mehboob Mere Sanam|Mere Mehboob Mere Sanam
 Mere Mehboob Mere Sanam|Reff Mere Mehboob Mere Sanam
+Mere Mehboob Mere Sanam|Mere Mehboob Mҽɾҽ Sanam Duplicate
 Mere Mehboob Tujhe|Mere Mehboob Tujhe
 Mere Mehboob Tujhe|Mere Mehboob Tujhe Meri Mohabbat Ki
 Mere Naina Saawan Bhaadon|Mere Naina Sawan Bhado
@@ -4191,6 +4198,7 @@ Pehli Pehli Baar Baliye|Pehli Pehli Bar Baliye
 Phero Na Najariya|Phero Na Najariya
 Phero Na Najariya|Phero Na Najar Se Najariya
 Phero Na Najariya|Phero Na Najariya Qala Amit Trivedi
+Phero Na Najariya|Phero Na Najar Se Najaria
 Phir Aur Kya Chaahiye|Phir Aur Kya Chahiye
 Phir Bhi Dil Hai Hindustani|Phir Bhi Dil Hai Hindustani
 Phir Bhi Dil Hai Hindustani|Hum Logo Ko Samajh Sako Toh
@@ -4588,6 +4596,7 @@ Saanson Ki Zaroorat Hai Jaise|Saanson Ki Jarurat Song
 Saanson Ki Zaroorat Hai Jaise|Sanso Ki Zarurat
 Saanson Ki Zaroorat Hai Jaise|Ek Sanam Chahiye Aashiqui Ke Liye
 Saanson Ki Zaroorat Hai Jaise|Saanson Ki Zaroorat
+Saanson Ki Zaroorat Hai Jaise|Sanson Ki Zaroorat Hai
 Saanson Ko Saanson Mein|(Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein Dal Ne Karaoke
 Saanson Ko Saanson Mein|Saanson Ko Saanson Mein
@@ -4842,10 +4851,12 @@ Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sahiba Sun|Sun Sahiba Sun Pyaar Ki Dhoon
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
+Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Aarpaar
 Suniye Kahiye|Suniye Kahiye 1979
 Suniye Kahiye|Suniye Kahiye , Baton Baton Mein
 Suniye Kahiye|~ Suniye Kahiye 1979
 Suna Tha Ki Wo Aayenge|Suna Tha Ki Wo Ayenge
+Suna Tha Ki Wo Aayenge|Suna Tha Kae Wo Ayenge Anjuman Mein
 Suno Kaho Kaha Suna|Suno Kaho Kaha Suna
 Suno Kaho Kaha Suna|Suno Kaho Suna
 Suno Kaho Kaha Suna|Suno Kaho
@@ -4979,6 +4990,7 @@ Tere Chehre Se|)Tere Chehre Se Nazar
 Tere Chehre Se|तेरे चेहरे से नज़र नहीं हटती
 Tere Chehre Se|Tere Chehre Se Nazar Nahin
 Tere Chehre Se|Tere Chehre Se Nazar Nahi Hatati
+Tere Chehre Se|Tere Chehre Se Najar Nahin Hatti
 Tere Dar Par Sanam|Tere Dar Par Sanam
 Tere Dar Par Sanam|Tere Dar Par Sanam Sanam
 Tere Dar Par Sanam|Tere Dar
@@ -5562,6 +5574,7 @@ Tumne Mujhe Dekha|Tumne Mujhe Dekha Hokar Meharban
 Tumne Mujhe Dekha|Tumne Mujhey Dekha Hokar
 Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara Koi Masoom Khuddar
 Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara Koi
+Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyaara Pyara
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumsa Nahin Dekha|Yun To Humne Lakh Haseen Dekhe Hain
@@ -5673,6 +5686,7 @@ Woh Chaand Khila|Woh Chand Khila
 Woh Chaand Khila|Woh Chand Khila Woh Taare Haanse
 Woh Chaand Khila|Woh Chand Khila Woh Taare Hanse
 Woh Chaand Khila|Woh Chand Khila Woh Tare Hanse
+Woh Chali Woh Chali|Woh Chali Woh Chali Nst_Krocky
 Woh Dil Hi Kya|Woil Hi Kya Gem
 Woh Hai Zara Khafa Khafa|Woh Hai Zara
 Woh Hai Zara Khafa Khafa|Woh Hai Zara Khafa Khafa
