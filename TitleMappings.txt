@@ -700,6 +700,7 @@ Apne Jeevan Ki Uljhan|Apne Jeevan Ki Uljhan
 Apne Pyaar Ke Sapne|Apne Pyaar Ke Sapnesuchtime
 Apne Pyaar Ke Sapne|Apne Pyar Ke Sapne
 Apni Aankhon Mein Basaakar|Apni Aankhon Mein Basakar
+Apni To Jaise Taise|Apni To Jaise Taise
 Another Day In Paradise|Another Day In Paradise
 Apun Bola|Apun Bola
 Apun Bola|Apun Bola Tu Meri Laila
@@ -870,6 +871,7 @@ Beete Hue Lamhon Ki Kasak|Beete Hue Lamhon Ki Kasak
 Behka Diya Humein|Behka Diya Humein
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
 Bekarar Dil Tu Gaaye Ja|Bekarar Dil Tu Gaaye Ja
+Bekarar Dil Tu Gaaye Ja|Bekarar Dil Tu Gaayeja
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
 Bekhudi Mein Sanam|Bekhudi Mein Sanam Lata Rafi
 Beqarar Karke Hamein|Bekaraar Karke Hume
@@ -1251,6 +1253,7 @@ Chori Chori Jab Nazrein Mili|3Chori Chori Jab Nazrein Mili
 Chori Chori Jab Nazrein Mili|Chorichorijαв ɴαzreιɴ Мιlι
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Chorichorijab
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazre Mili
+Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazrein Mili Ii
 Chori Chori Sapno Mein|Chori Chori Sapno Mein
 Chori Chori Sapno Mein|Chori Chori Sapnon Mein Aata Koi
 Chori Chori Sapno Mein|Chorichorijaв ɴazreιɴ Мιlι
@@ -2235,6 +2238,7 @@ Humko Hamise Chura Lo|Humkohumisechuralohumkohumisechuralo
 Humko Hamise Chura Lo|Humkohumise Churalo
 Humko Hamise Chura Lo|~ Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Churalo Chura Lo
+Humko Hamise Chura Lo|Hamko Hamin Se Churalo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -2785,18 +2789,19 @@ Kabhi Bhoola Kabhi Yaad Kiya|Kabhi Bhoola Kabhi Yaad Kiya
 Kabhi Bhoola Kabhi Yaad Kiya|Kabhi Bhula Kabhi Yaad Kiya
 Kabhi Hasna Hai Kabhi Rona Hai|Kabhi Hasna Hai Kabhi Rona Hai
 Kabhi Jo Baadal Barse|Kabhi Jo Badal Barse
-Kabhi Kabhi|Kabhi Kabhi
-Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein
-Kabhi Kabhi|Kabhi Kabhi Mere Dil
-Kabhi Kabhi|Kabhi Kabhie Mere Dil Mein
-Kabhi Kabhi|Kabhi Mere Dil Mein
-Kabhi Kabhi|Kabhi Mere Dil Mein Mukesh
-Kabhi Kabhi|Kabhi ² Mere Dil Mein
-Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein With Poem
-Kabhi Kabhi|Kabhikabhi Mere Dil
-Kabhi Kabhi|Kabhi Kabhie Mere Dil Me
-Kabhi Kabhi|Kabhi Kabhi Mere Dil Me
-Kabhi Kabhi|Kabhi Kabhi Mere Dil Mein Fanclub 2024
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhie Mere Dil Mein
+Kabhi Kabhi Mere Dil Mein|Kabhi Mere Dil Mein
+Kabhi Kabhi Mere Dil Mein|Kabhi Mere Dil Mein Mukesh
+Kabhi Kabhi Mere Dil Mein|Kabhi ² Mere Dil Mein
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein With Poem
+Kabhi Kabhi Mere Dil Mein|Kabhikabhi Mere Dil
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhie Mere Dil Me
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Me
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein Fanclub 2024
+Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmein
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
@@ -3589,6 +3594,7 @@ Mera Pyaar Bhi Tu Hai|Mera Pyaar Bhi
 Mera Pyaar Mujhse Rootha|Mera Pyar Mujhse Rootha
 Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
 Mere Dholna|Mere Dholna
+Mere Dholna|Mere Dholna Sun
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
@@ -4090,6 +4096,7 @@ Paayalein Chunmun|Payalain Chun Mun Chun Mun
 Paayalein Chunmun|Payale Chunmun Chunmun
 Paayalein Chunmun|Payalay Chunmun Chunmun
 Paayalein Chunmun|Payali Chunmun Chunmun
+Paayalein Chunmun|Payali Chhunmun Chhunmun
 Pairon Mein Bandhan Hai|Pairon Mein Bandhan Hai Pairon
 Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
@@ -4580,6 +4587,7 @@ Saagar Kinare|Saagar Kinaare Dil Yeh Pukaare
 Saagar Sang Kinaare Hai|Sagar Sang Kinare Hai Vijay Path
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saajan Saajan|Saajan Saajan
+Saajanji Ghar Aaye|Group Saajanji Ghar Aaye Kkhh
 Saal Bhar Mein|Saal Bhar Mein
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
 Saamne Yeh Kaun Aaya|Samne Ye Kaun Aya
@@ -4617,9 +4625,11 @@ Saans|Saasn Mein Teri
 Saans|Saans Mein Teri Saans Mili
 Saans|Saans Me Teri Jab Tak Hai Jaan
 Saanwali Saloni Teri|Saawli Saloni Teri
+Saanwali Saloni Teri|Saanwli Saloni Teri Jheel Si Aankhen
 Saanwali Si Ek Ladki|Saanwali Si Ek Ladki
 Saara Pyaar Tumhara|Sara Pyar Tumhara Saara Pyaar Tumhara
 Saara Pyaar Tumhara|Sara Pyar Tumhara Maine
+Saara Pyaar Tumhara|Sara Pyar Tumhara
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
 Saara Zamaana Haseeno Ka Deewana|Sara Zamana Haseeno Ka Deewana
 Saare Badan Ka Khoon|Saare Badan Ka Khoon
@@ -4902,6 +4912,7 @@ Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
 Taal Se Taal Mila|Tal Se Tal Mila
+Taare Zameen Par|Taare Zameen Par
 Taaron Ke Shehar|Taaron Ke Shehar
 Taaron Main Sajke|[} Taron Main Sajke
 Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
@@ -4940,6 +4951,7 @@ Tears In Heaven|Tears In Heaven Tears In
 Tera Ban Jaaunga|Tera Ban Jaunga Kabir Singh
 Tera Ban Jaaunga|Tera Ban Jaunga Tera Ban Jaunga
 Tera Ban Jaaunga|Tera Ban Jaunga
+Tera Chaand Chehra|Tera Chand Chehra
 Tera Chehra|Tera Chehra
 Tera Chehra|Tera Chehraadnan Sami
 Tera Chehra|Tera Chehra Jab Nazar
@@ -5088,6 +5100,7 @@ Teri Bindiya Re|Teri Bindiya Re Abhiman 1973
 Teri Bindiya Re|Teri Bindiya Re Re Aye Hay
 Teri Bindiya Re|Teri Bindiya Re The Kroonerz Project
 Teri Bindiya Re|Teri Bindiya
+Teri Bindiya Re|Teribindiyaresong
 Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane
@@ -5509,6 +5522,7 @@ Tum Paas Aaye|Tum Pass Aaye , Kuch Kuch Hota Hai
 Tum Paas Aaye|Tum Paas Aaye Tum Paas Aaye
 Tum Paas Aaye|Thum Pass Aaye
 Tum Paas Aaye|Kuch Kuch Hota Hai Kuch Hota Kuch Hai Ori
+Tum Paas Aaye|0643 Tum Paas Aaye
 Tum Par Hum Hai Atke Yaara|Tum Par Hum Hai Atke Yaara
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
