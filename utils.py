@@ -164,6 +164,7 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('SAR PAR TOPI LAL - ACCHA JI MAIN HAARI','ACCHHA JI MAIN HAARI').\
                 replace('- SIMMBA',' SIMMBA').\
                 replace('{HQ{','HQ ').\
+                replace('6-IN-1','6 IN 1').\
                 replace('[SHORT]',openquote + 'SHORT' + closequote)
 
     return result
