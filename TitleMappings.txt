@@ -94,6 +94,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Ke Charche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyaar Ke Charche Song
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar K Churche
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche Har Zubaan
 Aaj Ki Raat Stree 2|Aaj Ki Raat
 Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
 Aaj Ki Raat Stree 2|Aaj Ki Raat L Stree 2
@@ -858,6 +859,7 @@ Bahut Pyaar Karte Hai|Bahut Pyar
 Bahut Pyaar Karte Hai|Male Bahut Pyar Karte Hain
 Bahut Pyaar Karte Hai|Bahot Pyar Karte Hai Tumko Sanam
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meherbaani
+Bahut Shukriya Badi Meherbaani|Bahut Shukriya
 Bairi Piya|Bairi Piya
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
@@ -958,12 +960,14 @@ Bolo Bolo Kuch To Bolo|Bolo Bolo Kuch To Bolo
 Boom Boom|Boom Boom
 Boom Boom|Dil Bole Boom Boom Nazia Hassan
 Boom Boom|Boom Boom Star
-Can't Help Falling In Love|Can'T Help Falling In Love
-Can't Help Falling In Love|Can't Help Falling In Love
-Can't Help Falling In Love|Cant Help Falling In Love ( + back vocals )
-Can't Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
-Can't Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
-Can't Help Falling In Love|I Can''t Help Falling In Love
+Cant Help Falling In Love|Can'T Help Falling In Love
+Cant Help Falling In Love|Can't Help Falling In Love
+Cant Help Falling In Love|Cant Help Falling In Love ( + back vocals )
+Cant Help Falling In Love|I Cant Help Falling in Love @chantika_yugo
+Cant Help Falling In Love|I 🄲🄰🄽🅃 HELP FALLING IN LOVE Elvis Presley
+Cant Help Falling In Love|I Can''t Help Falling In Love
+Cant Help Falling In Love|I Can't Help Falling In Love
+Cant Help Falling In Love|I Can'T Help Falling In Love
 CAT Cat Cat Maane Billi|Cat Cat Cat Maani Billi
 Centerfold|n Ya Na|>> Chahun Main Ya Na
 Chaaha Hai Tujhe Chaahenge|Chaha Hai Tujhe Chahenge
@@ -1057,6 +1061,7 @@ Chale Jaise Hawayein|Chale Jaise Hawayein
 Chale Jaise Hawayein|Chale Jaise Hawaiian
 Chale Jaise Hawayein|Chale Jaise Hawaein Main Hoon Na
 Chale The Saath Milkar|Chale The Saath Milkar
+Chale The Saath Milkar|Chale The Saath
 Chaleya|Chaleya Jawan 2023
 Chali Chali Re Patang|Chali Chali Re Patang
 Chali Chali Re Patang|Chali Chali Re Patang Meri Chali Re
@@ -2108,6 +2113,7 @@ Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajana
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko To Pyar Sajna
 Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko
+Ho Gaya Hai Tujhko To Pyar Sajna|Ho Gaya Hai Tujhko 100℅Hh Byjodi
 Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam
 Honthon Pe Bas Tera Naam|Hoton Pe Bs
 Honthon Pe Bas Tera Naam|Honthon Pe Bas Tera Naam Hai
@@ -2156,6 +2162,7 @@ Hum Bewafaa|Hum Bewafa
 Hum Bewafaa|Hum Bewafa Hargiz Na The
 Hum Bewafaa|Hum Bewafaa Hargiz Na The
 Hum Bewafaa|Hum Bewafa Hargiz
+Hum Bewafaa|Hum Bewafa Rahul Batra
 Hum Dil De Chuke Sanam|Hum Dil De Chuke Sanam
 Hum Dono Do Premi|Hum Dono Do Premi
 Hum Dono Do Premi|Hum Dono
@@ -2277,12 +2284,11 @@ Humsafar Mere Humsafar|Humsafar Mere Humsafar
 Humsafar Mere Humsafar|Humsafar Mere Humsafar Pankh Tum
 Husn Hai Suhaana|Husn Hai Suhaana
 Husn Hai Suhaana|Husn Hai Suhana
+Husn Pahadon Ka|0789 Husn Pahadon Ka
 Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahi Gharana
 I Am A Disco Dancer|I Am A Disco Dancer
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
-I Can't Help Falling In Love|I Can't Help Falling In Love
-I Can't Help Falling In Love|I Can'T Help Falling In Love
 I Just Called To Say I Love You|I Just Called To Say I Love You
 I Just Called To Say I Love You|I Just Called To Say
 I Love My India|>> I Love My India
@@ -2634,6 +2640,7 @@ Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
 Jai Jai Shiv Shankar|0676 Jai Jai Shiv Shankar
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Bhigi Bhigi Raton
+Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Zakhmee
 Jalte Diye|Jalte Diye
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
 Jalte Hai Jiske Liye|Jalte Hain Kiske Liye
@@ -2854,6 +2861,7 @@ Kahaan Se Aaye Badra|Kahan Se Aaye Badra
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
 Kahaan Tak Ye Man Ko|Kahan Tak
 Kahaan Tak Ye Man Ko|Kahan Tak Yeh Man Ko Andhere Hindi Lyrics
+Kahaani Suno 20|Kahani Suno 20 Clean
 Kahin Bekhayal Hokar|Kahin Bekhayal Hokar
 Kahin Bekhayal Hokar|Kahin Bekhayal Hokar Rits
 Kahin Deep Jale Kahin Dil|Kahin Deep Jale Kahin Dil 720P
@@ -3107,6 +3115,7 @@ Kisi Ki Muskarahaton|Kisiki Muskurahto Pe Ho Nisar
 Kisi Ki Muskarahaton|Kisiki Muskurahaton Pe Ho Nisar
 Kisi Ki Muskarahaton|Kisi Ki Muskurahaton Pe Fanclub 2024
 Kisi Ki Muskarahaton|0489 Kisi Ki Muskurahaton Pe Ho Nisaar
+Kisi Ki Muskarahaton|Kisi Ki Muskurahaton
 Kisi Ko Khona Kisi Ko Paana|Kisi Ko Khona Kisi Ko Paana
 Kisi Na Kisi Se Kabhi Na Kabhi|Kisi Na Kisi Se Kabhi Na Kabhi
 Kisi Nazar Ko Tera|Kisi Nazar Ko Tera
@@ -3119,6 +3128,7 @@ Kisi Raah Mein Kisi Mod Par|Kisi Raah Me Kisee Mod Par Kahin Chal
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mei Kisi Modh Par
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Fanclub 2023
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Kisi Mod Par
+Kisi Se Mujhe Pyaar Ho|Kisi Se Mujhe Pyar Ho
 Kisi Se Tum Pyaar Karo|Kisi Se Tum Pyar Karo Kisi
 Kiska Chehra Ab Main Dekhoon|Kiska Chehra Ab Main Dekhoon
 Kiska Mahal Hai Kiska Ye Ghar Hai|Kiska Mahal Hai Kiska Ye Ghar Hai
@@ -3507,6 +3517,7 @@ Main Zindagi Ka Saath Nibhata|Main Zindagi Ka Saath Nibhata Chala Gaya
 Main Zindagi Ka Saath Nibhata|Mein Zindagi Ka Sath Nibhata Chala Giya
 Maine Dil Se Kaha|Maine Dil Se Kaha
 Maine Dil Se Kaha|Maine Dil Se Kaha Dhoondh Lana
+Maine Dil Se Kaha|Maine Dil Se Kahan Rog
 Maine Kasam Li|Hey Maine Kasam Li
 Maine Payal Hai Chhankai|Maine Payal Hai Chankai
 Maine Payal Hai Chhankai|Maine Payal Hai Chhankai
@@ -3962,6 +3973,7 @@ Nakhrewaali|Nakhrewali
 Nakhrewaali|Nakhrewali Kishor Kumar
 Namo Namo|Namo Namo
 Nasha Yeh Pyar Ka Nasha Hai|Nasha Yeh Pyar Ka Nasha Hai
+Nashe Si Chadh Gayi|Nashe Si Chadh Gayi
 Nazar Ke Saamne|H D Nazar Ke Samne
 Nazar Ke Saamne|Nazar Ke Saamne Jigar Ke Paas
 Nazar Ke Saamne|Nazar Ke Samne
@@ -4022,7 +4034,8 @@ Noorie Noorie|Aaja Re Aaja Re Oh Mere Dilba Aaja
 Noorie Noorie|Aaja Re Aaja Re O Mere Dilbar
 Noorie Noorie|Aaja Re Aaja Re O Mere
 Noorie Noorie|Aaja Re O Mere Dilbar Aajanoorie Noorie
-O Baby Don't Break My Heart|O Baby Don'T Break My Heart
+O Baby Dont Break My Heart|O Baby Don't Break My Heart
+O Baby Dont Break My Heart|O Baby Don'T Break My Heart
 O Bedardeya|O Bedardeya
 O Hansini|Hansini
 O Hansini|O Hansini
@@ -4079,6 +4092,7 @@ O Oh Jaane Jaana|O O Jaane Jaana
 O Palanhare|O Palanhare
 O Palanhare|O Paalanhaare
 O Raat Ke Musafir|O Raat Ke Musafir
+O Rabba Koi To Bataaye|O Rabba Koi To Bataye
 O Re Kanchi|O Re Kanchi
 O Re Chhori|O Rey Chori
 O Re Chhori|O Ri Chhori Maan Bhi Le Baat Mori
@@ -4565,6 +4579,7 @@ Rooth Na Jana|Rooth Na Jana
 Rooth Na Jana|Rooth Na Ⓙanatumse Kahoon Tho
 Roshni Se|Roshni Se
 Roshni Se|Roshni Se Bhare Bhare
+Roshni Se|Roshni Se Bhare Bhare Ashoka
 Rote Hue Aate Hai Sab|Rote Hue Aate Hai Sab
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankho Tale
@@ -5729,7 +5744,8 @@ Wajah Tum Ho|Wajah Tum Ho Clean
 Waqt Ne Kiya|Waqt Ne Kiya
 Waqt Ne Kiya|Waqt Ne Kiya Kya Haseen Sitam
 Waqt Ne Kiya|0481 Waqt Ne Kiya Kya Haseen Sitam
-We Didn't Start The Fire|We Didn'T Start The Fire
+We Didnt Start The Fire|We Didn't Start The Fire
+We Didnt Start The Fire|We Didn'T Start The Fire
 What A Wonderful World|What A Wonderful World
 What Jhumka|What Jhumka?
 What Jhumka|What Jhumka
@@ -6089,9 +6105,11 @@ Yeh Shaam Mastaani|Ye Shaam Mastani Yeh Shaam Mastani
 Yeh Shaam Mastaani|Ye Shaam Mastaani Yeh Sham Mastani
 Yeh Shaam Mastaani|Yeh Sham Mastani , Wd 2 Paragraphs
 Yeh Shaam Mastaani|Ye Sham Yeh Sham
+Yeh Shaam Mastaani|Yeh Shaam Ye Sham
 Yeh Shaam Mastani + Raat Kali|Ye Sham Mastani Raat Kali Ik Khawab
 Yeh Sitaare Ye Chaand Ye Raatein|Ye Sitare Ye Chand Ye Raate
 Yeh Taara Woh Taara|Yeh Tara Woh Tara
+Yeh Tanhaai Haaye Re Haaye|Ye Tanhaai Haye Re Haye
 Yeh Tera Ghar Yeh Mera Ghar|Ye Tera Ghar Ye Mera Ghar
 Yeh Tera Ghar Yeh Mera Ghar|Yeh Tera Ghar Yeh Mera Ghar
 Yeh To Sach Hai Ki Bhagwan Hai|Ye To Such Hai Ke
