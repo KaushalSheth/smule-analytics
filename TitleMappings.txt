@@ -797,6 +797,7 @@ Baazigar O Baazigar|Bazigar O Bazigar
 Baazigar O Baazigar|Baazigar O Baazigarbazigar S
 Baazigar O Baazigar|Bazigar Bazigar Bazigar Bazigar Bazigar
 Baazigar O Baazigar|343Baazigar O Baazigar
+Baazigar O Baazigar|Bazigarobazigar
 Babuji Dheere Chalna|Babuji Dheere Chalna
 Babuji Dheere Chalna|Babuji Dheere Chalana Pyar Mein Zara
 Babuji Dheere Chalna|Babu Ji Dheere Chalna
@@ -1177,6 +1178,7 @@ Chhodo Kal Ki Baate|Chhodo Kal Ki Baatein Kal Ki Baat Purani
 Chhodo Sanam Kaahe Ka Gham|Chhodo Sanam Kaahe Ka Gham
 Chhodo Sanam Kaahe Ka Gham|Chhodo Sanam Kaahe Ka Gham : Kudrat 1981
 Chhodo Sanam Kaahe Ka Gham|Chodo Sanam Kahe Ka Gam
+Chhokra Jawaan|Chokra Jawaan Ishaqzaade
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do Nazuk Honthon Ko
 Chhoo Lene Do Nazuk Honthon Ko|Chhoo Lene Do Naazuk Hothon Ko
 Chhoo Lene Do Nazuk Honthon Ko|Choo Lene Do
@@ -1355,6 +1357,7 @@ Deewana Hua Baadal|Diwana Hua Badal Pallavi
 Deewana Hua Baadal|Deewana Hųą Badal
 Deewana Hua Baadal|Deewana Hua Badal Kashmir
 Deewana Hua Baadal|Deewana Hua Deewanahuabadal
+Deewana Hua Baadal|0310 Deewana Hua Badal
 Deewana Leke Aaya Hai|Deewana Leke Aaya Hai,Dil Ka Tarana
 Deewana Main Hoon Deewana Tera|Deewana, Main Hoon Deewana Tera
 Deewana Main Hoon Deewana Tera|Deewana Tera
@@ -2026,6 +2029,10 @@ Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Haay Haay Ye Majboori|Haay Haay Ye Majboorihay Hay Ye Majboori
 Haay Haay Ye Majboori|Haaye Haaye Ye Majboori
 Haay Haay Ye Majboori|Haye Haye Yeh Majboori
+Haaye Re Haaye Neend Nahi Aaye|Hai Re Hai Neend Nahi Aaye
+Haaye Re Haaye Neend Nahi Aaye|Haaye Re Haaye Neend Nahi Aaye
+Haaye Re Haaye Neend Nahi Aaye|Haye Re Haye Neend Nahin Aaye
+Haaye Re Haaye Neend Nahi Aaye|Haye Re Haye Neend Nahi Aaye
 Hadh Kar Di Aapne|Hadh Kar Di Aapne
 Hadh Kar Di Aapne|Hadh Kardi Aapne
 Hadh Kar Di Aapne|Hadh Kardi Aapne Aapne
@@ -2061,8 +2068,6 @@ Hai Rama Ye Kya Hua|Hai Rama Ye ĸya Нυa
 Hai Rama Ye Kya Hua|Haye Rama Ye Kya Hua Haye
 Hai Rama Ye Kya Hua|Haye Rama Yeh Kya Hua Rangeela
 Hai Rama Ye Kya Hua|Hai Rama Ye Kya
-Hai Re Hai Neend Nahi Aaye|Haaye Re Haaye Neend Nahi Aaye
-Hai Re Hai Neend Nahi Aaye|Haye Re Haye Neend Nahin Aaye
 Hamesha Tumko Chaaha|Hamesha Tumko Chaha
 Hangover|Hangover
 Hangover|Hangover Kick
@@ -2763,6 +2768,7 @@ Jo Tumko Ho Pasand|Jo Tumko Ho Pasandsafar 1970
 Jo Tumko Ho Pasand|Jo Tum Ko Ho Pasand Fanclub 2023
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand Wohi Baat Kahenge
 Jo Tumko Ho Pasand|Orig: Jo Tumko Ho Pasand
+Jo Tumko Ho Pasand|Jo Tumko Ho Pasand Wahi Baat Kahenge
 Jo Wada Kiya Woh|Ad Jo Wada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Waada
 Jo Wada Kiya Woh|Jo Wada Kiya Wo
@@ -3338,6 +3344,7 @@ Likha Hai Teri Aankhon Mein|Likha Hai Teri Ankhon Mein
 Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe
 Likhe Jo Khat Tujhe|लिखे जो खत तुझे
 Likhe Jo Khat Tujhe|Likhe Jo Khat
+Likhe Jo Khat Tujhe|Likhe Jo Khat Tujhe,Jo Teri Yaad Mai
 Logon Na Maro Ise|Logo Na Maro Ise Yahi To Mera
 Loote Koi Man Ka Nagar|Loote Koyi Koi Man
 Loote Koi Man Ka Nagar|Loote Koi Man
@@ -3632,6 +3639,7 @@ Mera Pyaar Mujhse Rootha|Mera Pyar Mujhse Rootha
 Mera Sundar Sapna Beet Gaya|Mera Sundar Sapna Beet Gaya
 Mere Dholna|Mere Dholna
 Mere Dholna|Mere Dholna Sun
+Mere Dholna 30|Mere Dholna 30
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Dil
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
@@ -3896,6 +3904,7 @@ Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Olire Kotha Shune Ppd563
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Chhuda Ke
 Na Jhatko Zulf Se Paani|Na Jhatko Zulf Se Paani
+Na Jhatko Zulf Se Paani|Na Jhatko Zulf Se Pani
 Na Jiya Lage Na|Na Jiya Lage Na
 Na Kajre Ki Dhaar|Na Kajare Ki Dhar
 Na Kajre Ki Dhaar|Na Kajre Ki Dhaar
@@ -4068,6 +4077,7 @@ O Jaane Jigar|O Jaane Jigar Clean
 O Jaane Waale Balamva|O Jane Wale Balamva
 O Jaanewale Ho Sake To Laut Ke Aana|O Janewale Ho Sake To Laut Ke Aana
 O Laal Dupatte Wali|O Laal Dupatte Wali Aankhen 1993
+O Maajhi Re|Oh Majhi Re
 O Maria O Maria|O Maria O Maria
 O Mere Dil Ke Chain|O Mere Dil
 O Mere Dil Ke Chain|O Mere Dil Ke Chain
@@ -4554,6 +4564,7 @@ Rocking Medley|Rocking Medley
 Rocky Aur Rani Caravan Medley|Saregama Carvaan Medley Rrkpk
 Roja Jaaneman|Roja Jaaneman
 Roka Kai Baar Maine|Roka Kai Baar Maine
+Roobaroo|Roobaroo
 Roop Suhana Lagta Hai|Roop Suhana Lagta Hai
 Roop Suhana Lagta Hai|Roop Suhana Lagta
 Roop Tera Mastana|Roop Tera
@@ -5290,6 +5301,7 @@ Tu Is Tarah|Tu Is Tarah Se Meri Zindagi
 Tu Is Tarah|Tu Iss Tarha Se Meri Zindagi
 Tu Is Tarah|Tu Iss Tarah Secompact
 Tu Is Tarah|Tu Iss Tarah
+Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi Mein
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -5659,6 +5671,7 @@ Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumseparinda
 Tumse Milke Aisa Laga|Tumse Milke
 Tumse Milke Aisa Laga|Tumse Mil Ke Aisa Laga Tumse Milke
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse Milkemusic Mojo
+Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Feat Heeral
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
 Tumse Milna Baat Karna|Tumse Milna
@@ -6002,6 +6015,7 @@ Yeh Mausam Ka Jaadu|101Ye Mausam Ka Jadu Hai Mitwa
 Yeh Mausam Rangeen Samaa|Ye Mausam Rangeen Sama
 Yeh Mausam Rangeen Samaa|Ye Mousam Rangeen Sama
 Yeh Mausam Rangeen Samaa|Ye Mausam Rangeen Sama Fanclub 2024
+Yeh Mausam Rangeen Samaa|R Ye Mausam Rangeen Sama
 Yeh Mera Deewanapan Hai|Ye Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanapan Hai
 Yeh Mera Deewanapan Hai|Yeh Mera Deewanaapan Hai Ye Mera Diwanapan He

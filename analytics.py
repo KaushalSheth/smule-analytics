@@ -217,7 +217,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             		round(case when ps.invite_cnt > 0 then (1.0*ps.join_cnt/ps.invite_cnt) else 0.0 end,2) as join_per_invite_cnt,
             		round(case when ps.join_cnt > 0 then (1.0*ps.join_cnt/ps.perf_cnt) else 0.0 end * 100,2) as join_performance_pct,
                     ps.title_cnt,
-                    round((1.0*ps.title_cnt/ps.perf_cnt) * 100,2) as unique_title_pct,
+                    round((1.0*ps.title_cnt/(ps.perf_cnt-coalesce(ps.join_cnt,0))) * 100,2) as unique_title_pct,
             		ts.new_title_cnt,
                     ps.partner_cnt,
             		ptrs.new_partner_cnt,
