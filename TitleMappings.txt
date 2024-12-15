@@ -2044,6 +2044,7 @@ Hai Apna Dil To Awaara|है अपना दिल तो आवारा न�
 Hai Apna Dil To Awaara|Hai Apna Dil To Aawara So
 Hai Apna Dil To Awaara|Hai Apna Dilhaiapnadiltoawara
 Hai Apna Dil To Awaara|Hai Apna Dil Toh Aawara Solva Saal
+Hai Apna Dil To Awaara|Hai Apna Dil To Awara,Naa Jane
 Hai Mera Dil|Haaye Mera Dil
 Hai Mera Dil|Haye Mera Dil
 Hai Mera Dil|Hai Mera Dil
@@ -3271,6 +3272,7 @@ Kyun Main Jaagoon|Kyun Main Jaagoon
 Kyun Main Jaagoon|Kyon Main Jagoon
 Kyun Main Jaagoon|Kyun Mai Jagoon
 Kyun Main Jaagoon|Kyu Main Jaagoonpatiala House
+Kyun Zindagi Ki|Yun Zindagi Ki Kyun Zindagi Ki
 La Bamba|La Bamba
 La Isla Bonita|La Isla Bonita
 Lab Par Aaye|Lab Par Aaye
@@ -3672,6 +3674,7 @@ Mere Khwabon Mein Tu|Mere Khawabon Mein Tu
 Mere Khwabon Mein Tu|Mere Khawabon Me Tu
 Mere Khwabon Mein Tu|Mere Khwabon Mein Tu
 Mere Khwabon Mein Tu|Ori)Mere Khwabon Mein Tu
+Mere Khwabon Mein Tu|Mere Khwabon Me Tu Meri Saanson Me Tu
 Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat
 Mere Mehboob Qayamat Hogi|Mere Mehboob
 Mere Mehboob Qayamat Hogi|Mere Mehboob Kayamat Hogi
@@ -4076,6 +4079,7 @@ O Jaana Na Jaana|O Jana Na Jana
 O Jaane Jigar|O Jaane Jigar Clean
 O Jaane Waale Balamva|O Jane Wale Balamva
 O Jaanewale Ho Sake To Laut Ke Aana|O Janewale Ho Sake To Laut Ke Aana
+O Jaanewale Ho Sake To Laut Ke Aana|O Janewale Ho Sake
 O Laal Dupatte Wali|O Laal Dupatte Wali Aankhen 1993
 O Maajhi Re|Oh Majhi Re
 O Maria O Maria|O Maria O Maria
@@ -4971,6 +4975,7 @@ Surmaiye Ankhiyon Mein|Surmayi Ankhiyon
 Surmaiye Ankhiyon Mein|Surmayi Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein
 Surmaiye Ankhiyon Mein|Surumai Akhiyom Main
+Surmaiye Ankhiyon Mein|Surmayi Akhiyon
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
@@ -5859,6 +5864,7 @@ Yashomati Maiya|Yashomati Maiya Se Bole
 Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Saari Duniya
 Yeh Aankhen Dekh Kar|Ye Ankhen Dekh Kar Hum
 Yeh Aankhen Dekh Kar|Yeh Aankhen Dekh Kar Hum
+Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Sari
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Aankhen Uff Yumma|Ye Aankhe Uff Yumma Yeh Soorat
 Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
@@ -5942,6 +5948,7 @@ Yeh Haseen Wadiyan|Ye Haseen Wadiyan Wadiyan
 Yeh Haseen Wadiyan|Yeh Haseen Wadiya
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
+Yeh Hawaaein Zulfo Mein Teri|Yeh Hawayein Bas Itna Sa Khwaab Hai
 Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
 Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Ishq Haaye|Ye Is Hai
