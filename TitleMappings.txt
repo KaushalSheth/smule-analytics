@@ -476,6 +476,7 @@ Ae Ajnabi|Aye Ajnabi
 Ae Ajnabi|Ae Ajnabee Tu Bhi Kabhi
 Ae Ajnabi|Ae Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|Aye Ajnabi Tu Bhi
+Ae Ajnabi|Ae Ajnabi Tu Bhi Khabi
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil E Nadan|Aye Dile
@@ -1057,6 +1058,7 @@ Chain Se Humko Kabhi|Digital Chain Se Humko Kabhi
 Chain Se Humko Kabhi|0320 Chain Se Humko Kabhi
 Chal Jhoothi|Chal Jhoothi
 Chal Jhoothi|Chal Jhooti
+Chal Kahin Door Nikal Jaayen|Chal Kahin Dur Door Nikal Jayen
 Chal Ri Sajni|Chal Ri Sajni Ab Kya Soche
 Chala Jata Hoon|Chala Jaata Hoon Kisi Ki Dhun Me
 Chala Jata Hoon|Chala Jata Hoon
@@ -1221,6 +1223,7 @@ Chhookar Mere Man Ko|Chhukar Mere Man Ko
 Chhookar Mere Man Ko|Chooker Mere Mann Ko
 Chhookar Mere Man Ko|Chookar Mere Maan Ko
 Chhookar Mere Man Ko|Chookar Mere Mann Chhukar Man Manko Chukar
+Chhookar Mere Man Ko|1053 Chookar Mere Man Ko
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Si Asha|Dil Hai Chhota Sa
@@ -1363,6 +1366,7 @@ Deewana Hua Baadal|Deewana Hųą Badal
 Deewana Hua Baadal|Deewana Hua Badal Kashmir
 Deewana Hua Baadal|Deewana Hua Deewanahuabadal
 Deewana Hua Baadal|0310 Deewana Hua Badal
+Deewana Karke Chhodoge|Deewana Karke Chhodoge 676
 Deewana Leke Aaya Hai|Deewana Leke Aaya Hai,Dil Ka Tarana
 Deewana Main Hoon Deewana Tera|Deewana, Main Hoon Deewana Tera
 Deewana Main Hoon Deewana Tera|Deewana Tera
@@ -1665,6 +1669,7 @@ Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
 Dil Pukaare Aa Re Aa Re|Dil Pukare Aa Re Aare
 Dil Pukaare Aa Re Aa Re|Dil Pukare Are Are
 Dil Pukaare Aa Re Aa Re|Dil Pukare Aare Aare Aare Abhi Na Ja
+Dil Pukaare Aa Re Aa Re|Dil Pukare Aare Aare
 Dil Se Dil Milne Ka|Dil Se Dil Milne Ka
 Dil Se Re|Dil Se Re
 Dil Se Re|Dil Se Re New
@@ -1925,6 +1930,7 @@ Gali Mein Aaj Chand Nikla|Gali Main Aaj Tum Aaye To
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Nikla Zakhm 1998
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Chand Galimeaaj
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Gali Mein Aaj Hh
+Gali Mein Aaj Chand Nikla|Gali Mein Aajchand Nikla
 Galliyan|Galliyan
 Galliyan|Galliyan The R&B Female
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
@@ -3115,6 +3121,7 @@ Kisi Din Banoongi|Kisi Din Banoongi Main
 Kisi Din Banoongi|Kisi Din Banoongi Main Raja
 Kisi Din Banoongi|Kisidin Banoongi
 Kisi Din Banoongi|Kisi Din Banungi Main
+Kisi Din Banoongi|Kisi Din Banoongi Raja
 Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
 Kisi Disco Mein Jayein|]Kisi Disco Mein Jaye
 Kisi Disco Mein Jayein|Kisi Disco Mein Jaye
@@ -3172,6 +3179,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam Unwind
+Kitne Dino Ke Baad Hai Aayi|Kitne Dino Ke Baad Hai Aayi
 Kitni Bechain Hoke|Kitni Bechain Hoke
 Kitni Bechain Hoke|Kitni Bechain Hoke Tumse Mili
 Kitni Bechain Hoke|Kitni B͎͎Echain Hoke(Bollywood
@@ -3331,6 +3339,7 @@ Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
 Lamha Lamha|Lamha Lamha Doori Gangster
 Lamha Lamha|Lamha♡Lamha Doori
+Lata Mangeshkar Duets Medley|0978 S Medley 10
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi
@@ -3404,6 +3413,7 @@ Mach Gaya Shor Saari Nagri Re|Mach Gaya Shor Sari Nagri Re
 Made In India|Made In India
 Made In India|Ac
 Made In India|Made In India 1 Irst
+Made In India|Acmade In India
 Madhosh Dil Ki Dhadkan|Madhosil Ki Dhadkan
 Madhosh Dil Ki Dhadkan|Madhosil Ki Dhadkan Song
 Madhosh Dil Ki Dhadkan|Madhosil Kil Dhadkan
@@ -5654,6 +5664,7 @@ Tumhi Dekho Na|Tumhi Dekho Nasd
 Tumhi Dekho Na|Tumhi Dekho Naa
 Tumhi Dekho Na|Tumhi Dekho Na Lirik
 Tumhi Dekho Na|Tumhi Dekho Naa Nengfirna
+Tumhi Dekho Na|Tum Hi Dekhona
 Tumhi Ho Bandhu|Tumhi Ho Bandhu ― Cocktail
 Tumhi Mere Mandir|Tumhi Mere Mandir
 Tumhi Mere Mandir|Tumhi Mere Mandir Mangeshkar
@@ -5853,6 +5864,7 @@ Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Kiya Dil Ne|0657 Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Kiya Dil Ne|Yad Kiya Dil Ne Kahan Ho Tum
+Yaad Mein Teri Jaag Jaag|Yaad Mein Teri Jaag Jaag Rits
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye
 Yaad Na Jaaye Beete Dino Ki|Yad Na Jaye Yaad Na Jaye
@@ -6080,6 +6092,7 @@ Yeh Nayan Dare Dare|Yeh Nayan
 Yeh Parbaton Ke Daayere|Yeh Parbaton Ke Daayere
 Yeh Parda Hata Do|ये परदा हटा दो ज़रा मुखड़ा दिखा दो
 Yeh Parda Hata Do|Ye Parda
+Yeh Parda Hata Do|Ye Parda Hata Do
 Ye Raat Aur Ye Doori|Ye Raat Aur Ye
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
