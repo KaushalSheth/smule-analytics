@@ -4,6 +4,7 @@ from pyppeteer import launch
 import os, time
 from .db import execDBQuery, saveDBTitleMetadata
 from .smule import fetchUserFollowing
+from .utils import printTs
 from urllib import request
 import json, re, csv
 from statistics import mode
@@ -71,7 +72,7 @@ def searchDiscogsTitle(track):
                     break
         if stop or i > 10:
             break
-    print(f"{i}: {titleRec}")
+    printTs(f"{i}: {titleRec}")
     return titleRec
 
 # Save metadata for all titles missing metadata in DB
@@ -89,11 +90,11 @@ def saveTitleMetadata():
     titleList = execDBQuery(sqlquery)
     i = 0
     for t in titleList:
-        print(t)
+        printTs(t)
         md = searchDiscogsTitle(t['fixed_title'])
         if not md:
             md = {"fixed_title":t['fixed_title'],"meta_title":"","artist":"","duration":"","score":0}
-            #print(md)
+            #printTs(md)
         titleMetadataList.append(md)
         i += 1
         if i % 5 == 0:
@@ -115,7 +116,7 @@ def getRecordingMetadataJSON(titleInput):
             data = json.loads(url.read())
     except:
         # Ignore any errors
-        print("Error fetching recording metadata")
+        printTs("Error fetching recording metadata")
         pass
     if data != None:
         # Loop through all the recordings to determine the most popular artist
@@ -137,14 +138,14 @@ def getRecordingMetadataJSON(titleInput):
                 artist = ""
                 for a in r['artist-credit']:
                     artist += a['name']
-                    #print(artist)
+                    #printTs(artist)
                     if 'joinphrase' in a.keys():
                         artist += a['joinphrase']
                 artistList.append(artist)
-        #print(artistList)
+        #printTs(artistList)
         artist = mode(artistList)
         titleRow = f"Input = {titleInput}; Score = {score}; Title = {title}; Length = {length} minutes; Artist = {artist}"
-        #print(titleRow)
+        #printTs(titleRow)
     return titleRow
 
 def findHtmlElements(htmlstr,element="p",name="dummy"):
@@ -163,7 +164,7 @@ def findHtmlElements(htmlstr,element="p",name="dummy"):
 def titlePerformers(utilitiesOptions):
     title = utilitiesOptions["title"]
     sort = utilitiesOptions["sort"]
-    print(f"Title = {title}")
+    printTs(f"Title = {title}")
     url = f"https://www.smule.com/search?q={title}&type=recording&sort={sort}"
     try:
         loop = asyncio.get_running_loop()
@@ -233,7 +234,7 @@ def downloadPics(utilitiesOptions):
         filename = basefolder + picHandle + "-" + f'{picNbr:03}' + '.jpg'
         # If the file already exists, skip it
         if os.path.exists(filename):
-            #print(f"ALREADY EXISTS - {filename}")
+            #printTs(f"ALREADY EXISTS - {filename}")
             continue
         else:
             f = open(filename,'wb')
@@ -249,12 +250,12 @@ import glob
 import os
 
 def processDuplicateImages(utilitiesOptions):
-    print("Processing duplicates")
+    printTs("Processing duplicates")
     dupCount = 0
     wildcard = utilitiesOptions['picswildcard']
     dupesfolder = utilitiesOptions['dupesfolder']
     # Load the OpenAI CLIP Model
-    print('Loading CLIP Model...')
+    printTs('Loading CLIP Model...')
     model = SentenceTransformer('clip-ViT-B-32')
 
     # Next we compute the embeddings
@@ -264,9 +265,17 @@ def processDuplicateImages(utilitiesOptions):
     image_names = list(glob.glob(wildcard))
     if len(image_names) == 0:
         return 0
-    print("Images:", len(image_names))
-    encoded_image = model.encode([Image.open(filepath) for filepath in image_names], batch_size=128, convert_to_tensor=True, show_progress_bar=True)
-
+    printTs(f"Image Count: {len(image_names)}")
+    images = []
+    for fname in image_names:
+        temp = Image.open(fname)
+        img = temp.copy()
+        images.append(img)
+        temp.close()
+    printTs("Images loaded")
+    #encoded_image = model.encode([Image.open(filepath) for filepath in image_names], batch_size=128, convert_to_tensor=True, show_progress_bar=True)
+    encoded_image = model.encode(images, batch_size=128, convert_to_tensor=True, show_progress_bar=True)
+    printTs("Encoding completed")
     # Now we run the clustering algorithm. This function compares images aganist
     # all other images and returns a list with the pairs that have the highest
     # cosine similarity score
@@ -275,18 +284,18 @@ def processDuplicateImages(utilitiesOptions):
     # =================
     # SIMILAR IMAGES
     # =================
-    #print('Finding similar images...')
+    #printTs('Finding similar images...')
     # Use a threshold parameter to identify two images as similar. By setting the threshold lower,
     # you will get larger clusters which have less similar images in it. Threshold 0 - 1.00
     # A threshold of 1.00 means the two images are exactly the same. Since we are finding near
     # duplicate images, we can set it at 0.99 or any number 0 < X < 1.00.
-    threshold = 0.97
+    threshold = 0.95
     similar_images = [image for image in processed_images if image[0] >= threshold]
-
+    printTs(f"Moving duplicates: {len(similar_images)}")
     for score, image_id1, image_id2 in similar_images:
-        #print("\nScore: {:.3f}%".format(score * 100))
-        #print(image_names[image_id1])
-        #print(image_names[image_id2])
+        printTs("\nScore: {:.3f}%".format(score * 100))
+        printTs(f"Image 1: {image_names[image_id1]}; Image 2: {image_names[image_id2]}")
+        printTs("----------------")
         dupe_image = image_names[image_id2]
         # Set moveto name to the dupes folder + the last part of the dupe_image, which should be the filename
         moveto_image = dupesfolder + dupe_image.split("\\")[-1]
@@ -295,6 +304,6 @@ def processDuplicateImages(utilitiesOptions):
             os.rename(dupe_image,moveto_image)
             dupCount += 1
         except:
-            print(f"Could not find {dupe_image}")
+            #printTs(f"Could not find {dupe_image}")
             pass
     return dupCount

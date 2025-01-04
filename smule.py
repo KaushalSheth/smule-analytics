@@ -48,7 +48,7 @@ def fetchOpenInvites():
     openInvites = getJSON("KaushalSheth1","active_seed",0,"search",sort="popular")
     for invite in openInvites['list']:
         # Ignore Group invites
-        if invite["ensemble_type"] == "GROUP":
+        if invite["ensemble_type"] == "GROUP" or invite["owner"]["handle"] != "KaushalSheth1":
             continue
         # Add invite to list of open invites
         fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")

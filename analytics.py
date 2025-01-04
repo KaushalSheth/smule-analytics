@@ -136,17 +136,18 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Current Month', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Current Month', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Partners', '# Joiners', '# Invites', '# Joins', 'Last Join Time', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
             select  fixed_title as title_search, current_month_ind, 'T:' || lpad(coalesce(rating_nbr,0)::varchar,2,'0') as rating_nbr, adj_weighted_cnt, round(random()::decimal,4)*100 as random_sort_nbr,
                     coalesce(singer_type,'') as singer_type, coalesce(artist,''), first_performance_time, last_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || perf_cnt || '</a>' as performance_link_str,
+                    partner_cnt, joiner_cnt, invite_cnt, join_cnt, last_join_time,
                     perf_1day_cnt, perf_5day_cnt, perf_10day_cnt, perf_30day_cnt
             from    favorite_song
             order by current_month_ind, coalesce(rating_nbr,0) desc, adj_weighted_cnt desc
             """
     elif analyticstitle == 'Favorite Partners':
-        headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', '# First Partner', 'First Perf Time', '# Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']
+        headings = ['Partner', 'Recency Score', 'Avg Rating', 'Last 10 Rating', 'Perf/Join', 'Fav/Perf', '# First Partner', 'First Perf Time', '# Perf', '# Titles', 'Title/Perf', '# Joins', '# Fav', 'Last Perf Time', '# Perf 14 Days', '# Join 30 Days', 'Following', '# Days Till First Join', 'First Join Time', 'Last Join Time', '# Rated']
         sqlquery = f"""
             select  partner_name as user_search,
                     round(case when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
@@ -157,6 +158,8 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     first_partner_cnt,
                     first_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/user/' || partner_name || ' target="_blank">' || performance_cnt || '</a>' as performance_link_str,
+                    title_cnt,
+                    case when performance_cnt = 0 then null else round(title_cnt/(performance_cnt*1.0),2) end as title_perf_ratio,
                     '<a href=http://localhost:3000/query_db_performances/joins/' || partner_name || ' target="_blank">' || join_cnt || '</a>' as join_link_str,
                     '<a href=http://localhost:3000/query_db_favorites/' || partner_name || ' target="_blank">' || favorite_cnt || '</a>' as favorite_link_str,
                     last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,

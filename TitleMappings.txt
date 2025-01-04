@@ -1350,6 +1350,7 @@ Darde Dil Darde Jigar|Harde Dilkarz Dardedil
 Dariya Kinare Ek Banglo|Daria Kinare Ik Banglo Go Pori Jai
 Darling|Darling
 Darmiyaan|Darmiyaan
+Deewana Dil Beqarar Tha|Deewana Dil Beqarar Tha
 Deewana Hai Dekho|Deewana Hai Dekho
 Deewana Hai Dekho|Hil Dewana Mpkdeewana
 Deewana Hai Dekho|Deewana Hai Dekho Beqaraar Woh
@@ -2190,6 +2191,7 @@ Hum Dono Do Premi|Hum Dono
 Hum Dono Milke Kaghaz Pe|Hum Donon Milke Kaghaz Pe Dil Ke
 Hum Jis Raste Pe Chale|Hum Jis Raste Pe Chale
 Hum Jo Chalne Lage|Hum Jo Chalne Lage
+Hum Jo Chalne Lage|Hum Jo Chalne Lage Jab We Met
 Hum Ko Mann Ki Shakti Dena|Hum Ko Man Ki Shakti Dena
 Hum Ko Mann Ki Shakti Dena|Humko Mann Ki Shakti Dena
 Hum Nahin Tere Dushmano Mein|Hum Nahin Tere Dushmano Mein
@@ -2522,6 +2524,7 @@ Jaane Kaise Kab Kaha|Jane Kaise
 Jaane Kaise Kab Kaha|Jaane Kab Kaise
 Jaane Kaise Kab Kaha|Are Jane Kaise Kab Kahan Iqrar
 Jaane Kisne Mohabbat Kar Le|Jaane Kisne Mohabbat Kar Le
+Jaane Kya Dhoondti Rahti Hai|Jane Kya Dhoondti Rahti Hai
 Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tune Kahi
 Jaane Kya Tune Kahi|Jaane Kya Tuney Kahi
@@ -2608,6 +2611,7 @@ Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
 Jab Jab Bahaar Aayi|Jab Jab Bahar Aayee
 Jab Jab Bahaar Aayi|Jab Jab Bahaar Aayi
+Jab Jab Bahaar Aayi|Jab Jab Bahar Aayi
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage
 Jab Kisi Ki Taraf Dil Jhukne Lage|Jab Kisi Ki Taraf Dil Jhukne Lage (Pyaar To Hona)
@@ -3442,6 +3446,7 @@ Main Duniya Bhula Doonga|Main Duniya Bhula Song
 Main Duniya Bhula Doonga|Main Duniya Bhula Main Duniya Bhula
 Main Duniya Bhula Doonga|~ Main Duniya Bhula Doonga 90S
 Main Duniya Bhula Doonga|Mai Duniya Bhula Dunga
+Main Duniya Bhula Doonga|Main Duniya Bhula Doonga 90S
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hun
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hoon
 Main Hoon Na|Drmain Hoon Na
@@ -5066,6 +5071,7 @@ Tera Mujhse Hai|Tera Mujhse Hai Pehla Ka Naata
 Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka
 Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka Naata Koi
 Tera Naam Liya Tujhe Yaad Kiya|Tera Naam Liya ,Tujhe Yaad Kiya
+Tera Naam Liya Tujhe Yaad Kiya|Tera Naam Liya
 Tera Phoolon Jaisa Rang|Tera Phoolon Jaisa Rang
 Tera Saath Hai Kitna Pyaara|Tera Saath Hai Kitna Pyara
 Tera Yaar Hoon Main|Tera Yaar Hoon Main
@@ -5183,6 +5189,7 @@ Teri Aankhon Ke Siva|Teri Aankhon Ke Siwa Duniya Mein
 Teri Aankhon Ke Siva|Teri Ankhon Ke Siva Duniya Mein Rakha
 Teri Aankhon Ke Siva|0281 Teri Aankhon Ke Siwa
 Teri Aankhon Ke Siva|D U  T  H︎Q︎ Teri Aankho Ke Siva
+Teri Aankhon Ke Siva|Teri Ankhon Ke Siva Duniya
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Martaa Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Song
@@ -6009,6 +6016,7 @@ Yeh Kaali Kaali Aankhen|Yeh Kaali Kaali Aankhen
 Yeh Kaali Kaali Aankhen|Yeh Kali Kali Aankhen
 Yeh Kaali Kaali Aankhen|Yehkaalikaaliaankhen Baazigar 1993
 Yeh Kaali Kaali Aankhen|Ye Kaali Kaali
+Yeh Kaali Kaali Aankhen|Ye Kaali Kaali Aankhein Unwind Mix
 Yeh Kahaan Aa Gaye Hum|Ye Kahan Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kaha Aa Gaye Hum
 Yeh Kahaan Aa Gaye Hum|Yeh Kahan Aa Gaye Hum
@@ -6040,6 +6048,7 @@ Yeh Ladka Haaye Allah|Yeh Ladka Hai Allah K3G
 Yeh Ladka Haaye Allah|Ye Ladka Haay Alla
 Yeh Ladki Zara Si|Ye Ladki Zara Si
 Yeh Ladki Zara Si|Ye Ladki Zara Si Deewani Lagti Hai
+Yeh Ladki Zara Si|Ye Ladki Zarasi Diwani Lagti Hai
 Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya Hui Teri Jeet
 Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
@@ -6090,6 +6099,7 @@ Yeh Nayan Dare Dare|Yeh Nayan Dare Dare Ye Jaam Bhare Bhare
 Yeh Nayan Dare Dare|Yeh Nayan Dare Dare 1964
 Yeh Nayan Dare Dare|Yeh Nayan
 Yeh Parbaton Ke Daayere|Yeh Parbaton Ke Daayere
+Yeh Parbaton Ke Daayere|Ye Parbaton Ke Daayare
 Yeh Parda Hata Do|ये परदा हटा दो ज़रा मुखड़ा दिखा दो
 Yeh Parda Hata Do|Ye Parda
 Yeh Parda Hata Do|Ye Parda Hata Do

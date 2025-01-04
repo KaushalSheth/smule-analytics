@@ -19,6 +19,7 @@ perf as (
 perf_stats as (
     select 	partner_account_id, performers as partner_name, always_include_ind,
             count(*) as performance_cnt,
+            count(distinct fixed_title) as title_cnt,
             sum(join_ind) as join_cnt,
             sum(favorite_ind) as favorite_cnt,
             count(distinct case when performers = title_first_partner then fixed_title else null end) as first_partner_cnt,
@@ -39,7 +40,7 @@ perf_stats as (
     from 	perf
     group by 1, 2, 3
 )
-select 	p.partner_account_id, coalesce(sf.handle, s.performed_by, p.partner_name) as partner_name, p.performance_cnt, p.join_cnt, p.favorite_cnt, p.recent_perf_cnt,
+select 	p.partner_account_id, coalesce(sf.handle, s.performed_by, p.partner_name) as partner_name, p.performance_cnt, p.title_cnt, p.join_cnt, p.favorite_cnt, p.recent_perf_cnt,
         p.performance_last_14_days_cnt, p.join_last_14_days_cnt, p.join_last_30_days_cnt, p.always_include_ind,
         least(10.0,1.0*p.performance_cnt/10) +
             least(10.0,1.0*p.join_cnt/2) +
@@ -76,7 +77,7 @@ from 	perf_stats p
 -- Include all users I'm following with whom I don't have any performances yet
 UNION ALL
 select  account_id as partner_account_id, handle as partner_name,
-        0, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
+        0, 0, 0, 0, 0, 0, 0, 0, 1, 99999, 99999, '1900-01-01'::timestamp, '1900-01-01'::timestamp,
         pic_url, is_following, -1, null, null, 0.0, 0.0, 0, 0, 0, '', 0, rank_nbr, 0
 from    sf
 where   is_following and is_vip

@@ -47,7 +47,18 @@ perf_stats as (
 				from 	perf_day_counts
 				group by 1
 			) a
-	)
+	),
+title_stats as (
+	select	fixed_title,
+					count(distinct performers) as partner_cnt,
+					count(distinct case when join_ind = 1 then performers else null end) as joiner_cnt,
+					sum(join_ind) as join_cnt,
+					sum(invite_ind) as invite_cnt,
+					min(case when join_ind = 1 then created_at else null end) first_join_time,
+					max(case when join_ind = 1 then created_at else null end) last_join_time
+	from 		my_performances
+	group by 1
+)
 select 	ps.fixed_title, ps.first_performance_time, ps.last_performance_time, ps.perf_cnt,
 		ps.perf_30day_cnt, ps.perf_10day_cnt, ps.perf_5day_cnt, ps.perf_1day_cnt,
 		(
@@ -67,7 +78,9 @@ select 	ps.fixed_title, ps.first_performance_time, ps.last_performance_time, ps.
 		ps.current_month_ind,
 		tm.rating_nbr,
 		tm.artist,
-		tm.singer_type
+		tm.singer_type,
+		ts.partner_cnt, ts.joiner_cnt, ts.join_cnt, ts.invite_cnt, ts.first_join_time, ts.last_join_time
 from 	perf_stats ps
+			left outer join title_stats ts on ts.fixed_title = ps.fixed_title
 			left outer join title_metadata tm on tm.fixed_title = ps.fixed_title
 ;
