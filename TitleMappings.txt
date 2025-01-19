@@ -283,6 +283,7 @@ Aap Ka Aana|Aap Ka Aana Dil Dhadkana
 Aap Ka Aana|Aap Ka Aana Kurukshetra
 Aap Ka Aana|Aap Ka Aana Kurukshetra [Jkk}
 Aap Ka Aana|Aap Ka Aana
+Aap Ka Chehra Masha Allah|Aapka Chehra Masha Allah
 Aap Ke Haseen Rukh|Aapke Haseen Rukh
 Aap Ke Haseen Rukh|Aapke Haseen Rukh Pe
 Aap Ke Haseen Rukh|आपके हसीन रुख़ पे आज नया नूर है
@@ -531,6 +532,7 @@ Ae Mere Humsafar|Ae Mere
 Ae Mere Humsafar|Aye Mere Humsafar, Aye Mere Jaan
 Ae Mere Humsafar|Ae Mere Humsafar Aye Mere
 Ae Mere Humsafar|Ae Mere Humsafar Ek Zara Intezar Sun Sadayein
+Ae Mere Humsafar|Mere Humsafar
 Ae Mere Pyaare Watan|Aye Mere Pyare Watan
 Ae Mere Vatan Ke Logon|Ae Mere Vatan Ke Logon
 Ae Mere Vatan Ke Logon|Aye Mere Watan Ke Logo
@@ -1241,6 +1243,7 @@ Chhup Gaya Badli Mein|Chup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Chup Gaya
 Chhup Gaya Badli Mein|Chup Gaya Badali Mein Jake
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mei Jake
+Chhup Gaya Koi Re|Chup Gaya Koi Re
 Chhup Gaye Saare Nazaare|Chhup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chup Gaye Sare Nazare
 Chhup Gaye Saare Nazaare|Chupp Gaye Saare Nazare 1969
@@ -1849,6 +1852,7 @@ Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jayenge
 Ek Din Aap Yoon Humko|Ek Din Aap Yu Ekdinaapyun
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Ekdinaapyun Navga
 Ek Din Bik Jaayega|Ek Din Bik Jayega
+Ek Din Bik Jaayega|Ek Din Bik Jayega Mati Ke Mol
 Ek Din Tum Bahut|Ek Din Tum Bahut 102
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
 Ek Do Teen|Ek Do Teen Char
@@ -2403,6 +2407,7 @@ Its The Time To Disco|It'S The Time To Disco
 Ja Ja Ja Ja Bewafa|Ja Ja Ja Bewafa
 Ja Ja Ja Ja Bewafa|Ja Ja Ja Ja Bewafa Aar Paar
 Ja Re Ja Re Ud Ja Re Panchhi|Ja Re Ja Re Ud Ja Re Panchhi
+Jaadu Bhari Aankon|Jaadu Bhari Aankon Wali Suno
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai
 Jaadu Hai Nasha Hai|Jaadu Hai Nasha Hai Jaadu Hai Nasha Hai
@@ -2737,6 +2742,7 @@ Jhumka Gira Re|Jhoomka Gira Re
 Jhumka Gira Re|Jhumka Gira Re Bareilly Ke Bazar
 Jhumka Gira Re|झुमका गिरा रे बरेली के Jhumka Gira Re
 Jhumka Gira Re|Jhumka Gira Re Bareli Ke Bazaar Mein
+Jhumka Gira Re|Jhumka Gira Re , 3 Paragraphs
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja Aaja Aaja
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja 373
@@ -2809,6 +2815,7 @@ Jo Wada Kiya Woh|Jo Wada Jo Wada
 Jo Wada Kiya Woh|Jo Wada Jo Waada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Wo Nibhana Padega
 Jo Wada Kiya Woh|Jo Vada Kiya Vo Nibhana Padega
+Jo Wada Kiya Woh|Jo Wada Kiya Wo Jo Wada Kiya
 Jogi Ji Dheere Dheere|Jogi Ji Dheere Dheerejogi Ji
 Joote Do Paise Lo|Joote Do Paise Lo
 Judaai Ko Nazdik Aane Na Dunga|Judai Ko Nazadik Aane Na Dunga
@@ -3392,6 +3399,7 @@ Lukka Chuppi|Lukka Chuppi
 Lut Gaye|Lut Gaye
 Lut Gaye|Lut Gaye Emraan Hashmi
 Lut Gaye|Lut Gaye Im_Mallik
+Lut Gaye Dil Ibadat|Lut Gaye Dil Ibadat
 Maa Hai Mohabbat Ka Naam|Maa Hai Mohabbat Ka Naam
 Maahi Ve|Maahi Ve
 Maahi Ve|Mahi Ve
@@ -3733,6 +3741,7 @@ Mere Naina Saawan Bhaadon|Mere Naina Sawanbhadon
 Mere Naina Saawan Bhaadon|ͪ ͩमेरे नैना सावन भादो
 Mere Naina Saawan Bhaadon|Mere Naina Saawan Bhadon
 Mere Naina Saawan Bhaadon|Mere Naina Mere Naina Sawan
+Mere Naina Saawan Bhaadon|Mere Naina
 Mere Naseeb Mein Ae Dost|Mere Naseeb Mein Aye Dost Era Pyar Nahi
 Mere Pyaar Ki Umar Ho Itni Sanam|Mere Pyar Ki Umar Ho Itni Sanam
 Mere Rang Mein Rangne Wali|Mere Rang Me Rangnewali
@@ -3809,6 +3818,7 @@ Milo Na Tum To Hum Ghabraye|Milo Na Tum To Hum Ghabraye
 Milo Na Tum To Hum Ghabraye|Milo Na Tum
 Milte Hi Aankhen Dil Hua|Milte Hi Aankhen Dil Hua
 Milti Hai Zindagi Mein Mohabbat|Milti Hai Zindagi Mein Mohabbat
+Mitwa|Mitwa
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Dhaage
 Moh Moh Ke Dhaage|Moh Moh Ke Dhaage Female
@@ -3957,6 +3967,7 @@ Na Kajre Ki Dhaar|Na Kajre Ki Dhaar Na Motiyo Ke Haar
 Na Koi Umang Hai|Na Koi Umang Hai
 Na Milo Humse Zyaada|Na Milo Humse Zyada
 Na Milo Humse Zyaada|Na Milo Humse Jyada
+Na Milo Humse Zyaada|Na Milo Humse Zyada Badal
 Na Na Karte|Na Na Karte
 Na Na Karte|Na Na Karte Pyar Tumhi
 Na Na Karte|Na Na Karte Pyaar
@@ -4567,6 +4578,7 @@ Resham Ki Dori|Resham Ki Dori
 Resham Si Hai|Resham Si Hai
 Retro Romantic Medley|Retro Romantic Medley
 Right Here Waiting|Right Here Waiting 　　　　　　　　　　　　　　　　　　 Waiting
+Right Here Right Now|Right Here Right Now
 Rimjhim Gire Saawan|Dsj Rimjhim Gire Sawan
 Rimjhim Gire Saawan|Imjhim Gire Sawanrimjhim Gire
 Rimjhim Gire Saawan|Newrimjhim Gire Sawan
@@ -6007,6 +6019,7 @@ Yeh Haseen Wadiyan|Ye Haseen Wadiya Yeh Khula Aasman
 Yeh Haseen Wadiyan|Ye Hasin Vadiyaye Khula Assma
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan Wadiyan
 Yeh Haseen Wadiyan|Yeh Haseen Wadiya
+Yeh Hawa Yeh Nadi Ka Kinara|Ye Hawa Ye Nadi Ka Kinara
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawayein Bas Itna Sa Khwaab Hai
