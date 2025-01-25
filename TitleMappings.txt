@@ -330,6 +330,7 @@ Aap Ki Nazron Ne Samjha|R Aap Ki Nazron Ne Samjha
 Aap Ki Nazron Ne Samjha|आपकी नज़रों ने समझा प्यार के क़ाबिल मुझे
 Aap Ki Nazron Ne Samjha|Aapki Nazron
 Aap Ki Nazron Ne Samjha|Aap Ki Nazaron Ne Samjha
+Aap Ki Nazron Ne Samjha|Apki Nazro Ne Samjha
 Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aap Ko Pehle Bhi Kahin Dekha Hai|Aap Ko Pehle Bhi Kahin Dekha Hai
 Aap Yahaan Aaye Kis Liye|Aap Yahaan Aaye Kis Liye
@@ -537,6 +538,7 @@ Ae Mere Pyaare Watan|Aye Mere Pyare Watan
 Ae Mere Vatan Ke Logon|Ae Mere Vatan Ke Logon
 Ae Mere Vatan Ke Logon|Aye Mere Watan Ke Logo
 Ae Mere Vatan Ke Logon|Ae Mere Wattan Ke Logo
+Ae Mere Vatan Ke Logon|Ae Mere Watan Ke Logon
 Ae Meri Zindagi|Aye Meri Zindagi
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen
 Ae Meri Zohra Jabeen|Ae Mere Zohra Jabeen Aye
@@ -614,9 +616,11 @@ Aisi Deewanagi|Aisi Deewanagideewana
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahi
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi
 Aisi Deewanagi|Aisi Deewangi Dekhi Deewana
+Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahin
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
+Ajab Si|Aankhon Mein Teriajab Si Adaayein Hain
 Ajeeb Dastaan Hai Yeh|Ajeeb Dastaan Dastaan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajeeb Dastaan Hai Yeh
 Ajeeb Dastaan Hai Yeh|Ajeeb Dastan Hai Yeh
@@ -758,6 +762,7 @@ Baa Baa Black Sheep|Baa Baa Black Sheep
 Baadal Yun Garajta Hai|Badal Yun Garajta Hai
 Baadal Yun Garajta Hai|Badal Yungarajta Hai
 Baadalon Mein Chhup Raha|Baadalon Mein Chup Raha Hai Chand Kyun
+Baadalon Mein Chhup Raha|Baadalon Mein Chhup Raha Hai Chand
 Baadalon Mein Chhup Raha|Badalon Mein Chhup Raha
 Baadalon Mein Chhup Raha|Badlo Me Chup Rahahai Chand Kyu
 Baadalon Mein Chhup Raha|Badalon Mein Chhup Raha Hai
@@ -933,6 +938,7 @@ Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi
 Bheegi Huyi Hai Raat|Bheegi Huyi Hai Raat Magar Song
 Bholi Si Surat|Bholi Si Surat
 Bholi Si Surat|Bholi Si Surat Re
+Bholi Si Surat|Bholi Si Surat Aankhon Me Masti
 Bholi Surat Dil Ke Khote|Bholi Surat Dil Ke Khote
 Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bhool Gaya Sab Kuch|Bhul Gaya Sab Kuch
@@ -1725,6 +1731,7 @@ Din Dhal Jaaye Haaye|Din Dhal Jaye
 Din Dhal Jaaye Haaye|Din Dhal Jaaye
 Din Mahine Saal Guzarte Jaayenge|Din Mahine Saal Guzarte Jaayenge
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
+Din Saara Guzaara Tere Angna|Din Sara Guzara Tore Angana
 Diye Jalte Hain|Diye Jalte Hai Phool Khilte Hai
 Diye Jalte Hain|Diye Jalte Hain
 Diye Jalte Hain|0379 Diye Jalte Hain
@@ -1807,6 +1814,7 @@ Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Dhokha
 Duniya Mein Logon Ko|Duniya Mein Logon Ko 90
+Duniya Mein Logon Ko|Duniya Mai Logon Ko
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne
 Dushman Na Kare Dost Ne|Dushman Na Kare Dost Ne Wo Kaam
 Dushman Na Kare Dost Ne|Dushman Na
@@ -1966,6 +1974,7 @@ Gazab Ka Hai Din|Gazab Ka Hai Dinqayamatseqayamattak
 Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
 Ghadi Ghadi Mora Dil Dhadke|Ghadi Ghadi Mora Dil Dhadke Kyun
+Gham Ka Khazaana|Gham Ka Khazana Tera Bhi Hai Mera Bhi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Amaal Mallik
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Se Nikalte Hi
@@ -2505,6 +2514,7 @@ Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Jaane Wo
 Jaane Kaha Gaye Woh Din|Jaane Kahan Gaye Woin
 Jaane Kaha Gaye Woh Din|0224 Jaane Kahan Gaye Woh
 Jaane Kaha Gaye Woh Din|Jane Kahan Gaye Woh Jane Kahan Gaye Wo
+Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Wo Din Fanclub 2025
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kaha Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahan Mera Jigar Gaya Ji
@@ -2536,6 +2546,7 @@ Jaane Kaise Kab Kaha|Jane Kaise Kab Jaane Kaha
 Jaane Kaise Kab Kaha|Jane Kaise
 Jaane Kaise Kab Kaha|Jaane Kab Kaise
 Jaane Kaise Kab Kaha|Are Jane Kaise Kab Kahan Iqrar
+Jaane Kaise Kab Kaha|Jaane Kaise Kab Kahan Song
 Jaane Kisne Mohabbat Kar Le|Jaane Kisne Mohabbat Kar Le
 Jaane Kya Dhoondti Rahti Hai|Jane Kya Dhoondti Rahti Hai
 Jaane Kya Tune Kahi|Jaane Kya Tu Ne Kahi
@@ -2617,6 +2628,7 @@ Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo
 Jab Chhaye Mera Jadoo|Jab Chahe Mera Jaadu
 Jab Chhaye Mera Jadoo|Jub Chhai Mera Jaduu From Looaar 1980
 Jab Chhaye Mera Jadoo|Jab Chhaye Mera Jaadu
+Jab Chhaye Mera Jadoo|Jab Chaye Mera Jadoo From Looaar 1980
 Jab Deep Jale Aana|Jabdeep Jale Deep Jale
 Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Dil Mile|Jab Dil Mile
@@ -3603,6 +3615,7 @@ Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
 Mann Kyun Behka Aadhi Raat|Man Kio Behka
+Mann Re Tu Kaahe Na Dheer Dhare|Man Re Tu Kaahe Na Dheer Dhare
 Manwa Laage|Manwa Laage Happy New Year
 Manzilein Apni Jagah Hain|Manzilein Apni Jagah Hain
 Mar Jaayein Hum|Mar Jaayein Hum
@@ -3951,6 +3964,8 @@ Na Jaane Mere|Na Jane Mere Dil Ko
 Na Jaane Mere|Najane Mere Dil Ko Kho Gaya
 Na Jaane Mere|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai
 Na Jaane Mere|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai H
+Na Jaane Mere|Na Jaane Mere Dil Ko Kya Ddlj
+Na Jaane Mere|Na Jane Mere Dil Ko Kya Ho Gaya
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Chhuda Ke Baiyan
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan Olire Kotha Shune Ppd563
 Na Jao Saiyan Chhuda Ke Baiyan|Na Jao Saiyan
@@ -4026,6 +4041,7 @@ Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
 Naina Barse Rim Jhim|Naina Barse Rimjhim Rimjhim
 Naina Barse Rim Jhim|Naina Barse Rimjhim Rimjhimwo Kaun Thi
+Naina Barse Rim Jhim|Naina Barse Rimjhim
 Nainon Mein Badra|Nainon Mein Badra
 Naino Mein Sapna|Naino Me Sapna Sapno Me Sajna
 Naino Mein Sapna|Naino Mein Sapna
@@ -4047,6 +4063,7 @@ Nazar Ke Saamne|Hh Nazar Ke Samneaashiqui
 Nazar Ke Saamne|Nazar Ke Samne Saamne
 Nazar Ke Saamne|Nazar Ke Samne Jigar Ke Paas
 Nazar Na Lag Jaaye|Nazar Na Lag Jaye
+Nazar Na Lag Jaaye|Nazar Na Lag Jaaye Nazar Na Lag Jaye H
 Nazm Nazm|Nazm Nazm
 Nazm Nazm|Nazm Nazm Mere
 Nazm Nazm|Nazm Nazm Mere Sa Mere Sa
@@ -4313,6 +4330,7 @@ Pehli Baar Mile|Pehli Baar Mile
 Pehli Baarish Main Aur Tu|Pehli Baarish Main Aur Tu
 Pehli Pehli Baar Baliye|Pehli Pehli Baar
 Pehli Pehli Baar Baliye|Pehli Pehli Bar Baliye
+Perhaps, Perhaps, Perhaps|Perhaps, Perhaps, Perhaps
 Phero Na Najariya|Phero Na Najariya
 Phero Na Najariya|Phero Na Najar Se Najariya
 Phero Na Najariya|Phero Na Najariya Qala Amit Trivedi
@@ -4417,6 +4435,7 @@ Pyaar Hua Iqraar Hua|Pyaar Hua Ikraar Hua
 Pyaar Hua Iqraar Hua|Pyar Hua Ikrar Pyar Hua Ikrar Hua Hai
 Pyaar Humein Kis Mod Pe Le Aaya|Pyaar Hame Kis Mod Pe Le Aaya
 Pyaar Humein Kis Mod Pe Le Aaya|Pyar Hame Kis Mod Pe
+Pyaar Humein Kis Mod Pe Le Aaya|Pyar Hamen Kis Mod Pe
 Pyaar Humko Bhi Hai|Pyar Humko Bhi Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai
 Pyaar Ka Dard Hai|Pyar Ka Dard Hai Meetha Meetha
@@ -4551,6 +4570,7 @@ Raina Beeti Jaaye|Raina Biti Jaye
 Raina Beeti Jaaye|Raina Biti Jaye Sham Na Aaye
 Raina Beeti Jaaye|Raina Beeti Jaye Rock Band
 Raina Beeti Jaaye|Raina Beeti Jaye
+Raina Beeti Jaaye|Raina Beeti
 Raja Ko Rani Se|Raja Ko Rani Se
 Raja Ko Rani Se|Raja Ko Rani Se Ko
 Raja Ko Rani Se|Raja Ko Rani Se Ko Rani Se
@@ -4702,6 +4722,7 @@ Saagar Kinare|Saagar Kinare Sagar Kinare
 Saagar Kinare|Saagarkinaare
 Saagar Kinare|Sagar Saagar Kinare
 Saagar Kinare|Saagar Kinaare Dil Yeh Pukaare
+Saagar Kinare|0394 Saagar Kinare Dil Ye Pukare
 Saagar Sang Kinaare Hai|Sagar Sang Kinare Hai Vijay Path
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saajan Saajan|Saajan Saajan
@@ -5530,6 +5551,7 @@ Tum Aa Gaye Ho|Tum Aa Gaye Ho Noor Aa Gaya
 Tum Aa Gaye Ho|Tum Aa Gaye Tum Aa Gaye Ho
 Tum Aa Gaye Ho|Tum Aa Gaye Tum Aa Gaye
 Tum Aa Gaye Ho|Tum Aa Gaye Ho Tum Aagaye Ho
+Tum Aa Gaye Ho|Tum Aa Gaye Tum Aagaye Singalong2426'S
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
@@ -5825,6 +5847,7 @@ Waada Raha Sanam|Waada Raha Sanam :By M D Tyagi
 Waada Raha Sanam|Wadaraha Sanam
 Waada Raha Sanam|Newwada Raha Sanam
 Waada Raha Sanam|Wada Raha Sanamkhiladi
+Waada Tera Waada|Waada Tera Waada
 Waadiyan Mera Daman|Waadiyan Mera Daman Wadiyan Mere Daaman
 Waadiyan Mera Daman|Wadiyan Mera Daaman
 Waah Waah Ramji|Wah Wah Ramji
@@ -5991,6 +6014,7 @@ Yeh Dil Tum Bin|Yeil Tum Bin Ye Kahin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahi Lagta Nahi
 Yeh Dil Tum Bin|Yeil Tum Bin
 Yeh Dil Tum Bin|Yeil Tum Bin Ye
+Yeh Dil Tum Bin|Yeil Tum
 Yeh Dooriyan|Yeooriyan
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
@@ -6082,6 +6106,7 @@ Yeh Ladka Haaye Allah|Ye Ladka Haay Alla
 Yeh Ladki Zara Si|Ye Ladki Zara Si
 Yeh Ladki Zara Si|Ye Ladki Zara Si Deewani Lagti Hai
 Yeh Ladki Zara Si|Ye Ladki Zarasi Diwani Lagti Hai
+Yeh Ladki Zara Si|Yeh Ladki Zara Si Deewani
 Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya Hui Teri Jeet
 Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
@@ -6154,6 +6179,7 @@ Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni Phir Kahan
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chandni Phir Kahan
 Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandani Phir Kahaan
 Yeh Raat Yeh Chandni Phir Kahan|Ye Raat Ye Chaandni Phir
+Yeh Raat Yeh Chandni Phir Kahan|Yeh Raat Yeh Chandni Phir Kaha :By Mdtyagi
 Yeh Raatein Yeh Mausam|Ye Raatein Ye Mausam
 Yeh Raatein Yeh Mausam|Ye Raatein Ye Mausam
 Yeh Raatein Yeh Mausam|Ye Ratein Ye Mausam
