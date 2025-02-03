@@ -1,5 +1,7 @@
 from urllib.parse import unquote
 from urllib import request
+import requests
+import subprocess
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .constants import *
@@ -990,11 +992,22 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
             #print(media_url)
-
-            # Open the file in binary write mode and write the data from the media_url
-            f = open(filename,'w+b')
-            f.write(request.urlopen(media_url).read())
-            f.close()
+            # Get the redirected URL - this should be the actual file to be downloaded
+            final_url = requests.get(media_url).url
+            # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
+            #print(final_url)
+            if final_url.endswith('_video.m3u8'):
+                final_url = final_url.replace('_video.m3u8','_720_video.ts')
+                # Use ffmpg to convert ts to mp4
+                subprocess.run(
+                    ['ffmpeg','-i',final_url,'-c:v','copy','-c:a','copy',filename],
+                    stdout = subprocess.DEVNULL
+                    )
+            else:
+                # Open the file in binary write mode and write the data from the media_url
+                f = open(filename,'w+b')
+                f.write(request.urlopen(final_url).read())
+                f.close()
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         if "'NoneType' object has no attribute 'group'" in str(e):

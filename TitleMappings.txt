@@ -186,6 +186,7 @@ Aane Wala Pal|Aane Wala Pal Jaane Wala Hai
 Aane Wala Pal|Aanewala Pal Janewala
 Aane Wala Pal|Aane Wala Paljaane Wala Hai
 Aane Wala Pal|Aane Wala Paljaane Wala Hai D
+Aankh|Aankh
 Aankh Maare|Aankh Maare
 Aankh Maare|Aankh Maare O Ladka
 Aankhen Bandh Karke|Aankhen Bandh Karke
@@ -397,6 +398,7 @@ Aaye Ho Meri Zindagi Mein|Aye Ho Meri
 Aaye Ho Meri Zindagi Mein|~ Aaye Ho Meri ~
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Aaye Ho Meri
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri Zindagi Mehh
+Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Me
 Aaye Tum Yaad Mujhe|Aaye Tum Yaad Mujhe
 Aayega Aane Wala|Aaega Aane Wala
 Aayega Aane Wala|आएगा, आएगा, आएगा आने वाला आएगा
@@ -617,6 +619,7 @@ Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahi
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi
 Aisi Deewanagi|Aisi Deewangi Dekhi Deewana
 Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahin
+Aisi Deewanagi|[ Aisi Deewangi Dekhi
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -884,6 +887,7 @@ Banke Tera Jogi|Banke Tera Jogi
 Banke Tera Jogi|Ban Ke Tera Jogi Tu Yaar Tu Hi Dildaar
 Barfani Babumoshai Bandookbaaz|Barfani Babumoshai Bandookbaaz
 Barsaat Ke Din Aaye|Barsaat Ke Din Aaye Barsaat 2005
+Bataao Tum Kaun Ho|Batao Tum Kaun Ho
 Bechara Dil Kya Kare|Bechara Dil Kya Kare
 Becheiniyaan Betaabiyaan|Becheiniyaan Betaabiyaan
 Bedardi Baalma Tujhko|Bedardi Baalma Tujhko
@@ -942,6 +946,7 @@ Bholi Si Surat|Bholi Si Surat Aankhon Me Masti
 Bholi Surat Dil Ke Khote|Bholi Surat Dil Ke Khote
 Bhool Gaya Sab Kuch|Bhool Gaya Sab Kuch
 Bhool Gaya Sab Kuch|Bhul Gaya Sab Kuch
+Bhool Gaya Sab Kuch|Bhoolgaya Sab Kucch
 Bhooli Hui Yaadon|Bhooli Hui Yaadon Bhooli Hui Yaadon
 Bhor Bhaye Panghat Pe|Bhor Bhaye Panghat Pe
 Bhumro Bhumro|Bhumro Bhumro Mission Kashmir
@@ -1794,6 +1799,7 @@ Dost Dost Na Raha|Dost Dost Na Raha
 Doston Se Pyaar Kiya|Doston Se Pyar Kiya
 Dream Girl Kisi Shaayar Ki Ghazal|Dream Girl Kisi Shayar Ki Gazal
 Dream Girl Kisi Shaayar Ki Ghazal|Dream Girl Kisi Shayar
+Duaa|Duaa
 Dukhi Man Mere|Dukhi Man Mere Sun Mera Kehna
 Dukhi Man Mere|Dukhi Man Mere Sun Mera
 Dukhi Man Mere|Dukhi Man Mere
@@ -1958,6 +1964,7 @@ Gapuchi Gapuchi Gum Gum|Gapoochi Gapoochi Gum Gum
 Gar Tum Bhula Na Doge|Gar Tumm Bhula Na Doge
 Gawaah Hain Chaand Taare|Gawah Hain Chand Taare Gawah Hai
 Gawaah Hain Chaand Taare|Gawah Hai Damini
+Gawaah Hain Chaand Taare|Gawah Hai Chand Tare
 Gaye Dinon Ka Surag Lekar|Gaye Dinon Ka Surag Lekar
 Gazab Ka Hai Din|Gajab Ka Hai Din
 Gazab Ka Hai Din|Gazab Ka Hai Din
@@ -2316,6 +2323,7 @@ Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankho Ki
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Ankhon Ki
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankhon Ki
+Humne Dekhi Hai In Aankhon Mein|Hamne Dekhi Hai
 Humne Tujhko Pyaar Kiya Hai Jitna|Hamne Tujhko Pyar Kiya
 Humne Tujhko Pyaar Kiya Hai Jitna|Humne Tujhko Pyaar Kiya Hai Jitna
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
@@ -2324,6 +2332,7 @@ Humne Tumko Dekha|Hamne Tumko Dekha
 Humne Tumko Dil Ye De Diya|Humne Tumko Dil Ye De Diya Gunaah
 Humsafar Mere Humsafar|Humsafar Mere Humsafar
 Humsafar Mere Humsafar|Humsafar Mere Humsafar Pankh Tum
+Humse Hoti Mohobbat Jo Tumko|Humse Hoti Mohobbat Jo Tumko
 Husn Hai Suhaana|Husn Hai Suhaana
 Husn Hai Suhaana|Husn Hai Suhana
 Husn Pahadon Ka|0789 Husn Pahadon Ka
@@ -2372,6 +2381,10 @@ Is Mod Se Jaate Hain|Is Mod Se Jaate
 Is Mod Se Jaate Hain|Iss Mod Se Jaate Hain
 Is Mod Se Jaate Hain|इस मोड़ से जाते हैं कुछ सुस्त क़दम रसते
 Is Pyaar Ko Main Kya Naam Doon|Iss Pyaar Ko Main Kya Naam Doon
+Is Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
+Is Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
+Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Iss Pyaar Se
+Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Meri Taraf Na Dekho
 Is Tarah Aashiqui Ka Asar|Is Tarah Aashiqui Ka Asar
 Is This Love|Is This Love
 Is This Love|Is This Love? Kismat Konnection
@@ -2398,8 +2411,6 @@ Ishq Shava|Is Shava
 Ishq Shava|Ishq Shava
 Ishq Wala Love|Is Wala Love
 Ishq Wala Love|Is Wala Love Student Of The Year
-Iss Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
-Iss Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Iss Pyaar Se
 Itna Hain Tumse Pyaar Mujhe|Itna Hain Tumse Pyar Mujhe
 Itna Na Mujhse Tu Pyar Badha|_Itna Na Mujhse
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr
@@ -2407,6 +2418,7 @@ Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyaar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Bada
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu Pyar Badha
 Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse To Pyarr Badha
+Itna Na Mujhse Tu Pyar Badha|Itna Na Mujhse Tu
 Itna To Yaad Hai Mujhe|Itna To Yaad Hai Mujhe
 Itna To Yaad Hai Mujhe|Itna To Yad Hai Mujhe
 Itna To Yaad Hai Mujhe|Itna To Yaad Hai
@@ -2688,6 +2700,7 @@ Jahaan Mein Aisa Kaun Hai|Jahan Mein Aisa Kaun Hai
 Jahaan Mein Aisa Kaun Hai|Jahan Me Aisa Kaun Hai
 Jai Jai Shiv Shankar|Jai Jai Shiv Shankar
 Jai Jai Shiv Shankar|0676 Jai Jai Shiv Shankar
+Jai Jai Shiv Shankar|Jai Jai Shiv Shanker
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Bhigi Bhigi Raton
 Jalta Hai Jiya Mera|Jalta Hai Jiya Mera Zakhmee
@@ -3134,6 +3147,7 @@ Khud Ko Tere Paas Hi|Khud Ko Tere Pass Hi
 Khuda Bhi Aasman Se Jab|Khuda Bhi Aasman Se Jab
 Khuda Jaane|Khuda Jaane
 Khuda Jaane|Khuda Jaane Ke
+Khuda Jaane|Khuda Jane Ke Mai Fida[Orginal
 Khullam Khulla Pyaar|Khullam Khulla Pyaar
 Khullam Khulla Pyaar|Khullam Khulla Pyaar Karen
 Khullam Khulla Pyaar|Khullam Khulla Pyar Karenge
@@ -3230,6 +3244,7 @@ Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Humdam Na Raha|Koi Humdum Na Raha
 Koi Jab Tumhaara Hriday|Koi Jab Tumhara Hriday
+Koi Kahe Kehta Rahe|Koi Kahe Kehta Rahe
 Koi Kaise Mohabbat Chupaye|Koi Kaise Mohabbat Chupaye
 Koi Ladki Hai|Koi Ladki Hai
 Koi Ladki Hai|Koi Ladki Hai Jab Wo Hansti Hai
@@ -4231,6 +4246,7 @@ Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Customised
 Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hame
 Pal Bhar Ke Liye|Pal Bhar Ke
+Pal Bhar Ke Liye|Pal Bhar Ke Liye Koi Hamein Pyar
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Yeh Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Pal Bhar Mein Ye Kya Ho Gaya
 Pal Bhar Mein Yeh Kya Ho Gaya|Palbhar Mein Ye Kya Ho Gaya
@@ -4756,6 +4772,7 @@ Saanson Ko Saanson Mein|Sanson Ko Sanson Mein
 Saanson Ko Saanson Mein|Saanson Ko Sanson Meinhum Tum
 Saanson Ko Saanson Mein|Saanson Ko Saanson
 Saanson Ko Saanson Mein|Sanson Ko Sanson Mein ~ Hum Tum
+Saanson Ko Saanson Mein|Saanson Ko Saanson Me Crystal
 Saans|Saans Jab Tak Hai Jaan
 Saans|Saans Me Teri
 Saans|Saans Mein
@@ -4857,6 +4874,7 @@ Sar Se Sarke Chunariya|Sar Se Sarke Chunariya
 Sar Se Sarke Chunariya|Sar Se Sarke
 Sar Se Sarke Chunariya|Sar Se Sarkesar Ki Chunariya
 Sar Se Sarke Chunariya|Sar Se Sarke Sarke Chunariya
+Saranga Teri Yaad Mein|0003 Saranga Teri Yaad Mein
 Saree Ke Fall Sa|Saari Ke Fall Sa
 Saree Ke Fall Sa|Saree Ke Fall Sa
 Saree Ke Fall Sa|Sari Ke Fal Sa
@@ -4983,6 +5001,7 @@ Suhani Chandni Raatein|Suhani Chandni Raatein Humein Sone Nahi
 Suhani Chandni Raatein|Suhani Chandni Raatein Mukti
 Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
+Suhani Raat Dhal Chuki|Suhani Chandini Raatein Fanclub 2025
 Sukh Ke Sab Saathi|Sukh Ke Sab Saathi
 Sun Champa Sun Taara|Sun Champa Sun Tara
 Sun Ja Aa Thandi Hawa|Sun Ja Aa Thandi Hawa
@@ -6051,6 +6070,7 @@ Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
 Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Ishq Haaye|Ye Is Hai
 Yeh Jawaani Hai Deewaani|Yeh Jawani Hai Deewani
+Yeh Jawaani Hai Deewaani|Ye Jawani Hai
 Yeh Jeevan Hai|Yeh Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Is Jeevan Ka
 Yeh Jeevan Hai|ये जीवन है
@@ -6196,6 +6216,7 @@ Yeh Raatein Yeh Mausam|Yeh Ratein Ye Ratein
 Yeh Raatein Yeh Mausam|Yeh Raaten Yeh Mausam Nadi Ka Kinara
 Yeh Raatein Yeh Mausam|Yeh Raaten Yeh Mausam
 Yeh Raatein Yeh Mausam|Ye Raate Ye Mausam Vs Female Aalap
+Yeh Raatein Yeh Mausam|Ye Ratein Ye Ratein H
 Yeh Reshmi Zulfein|Yereshmizulfeinye Reshmi Zulfein
 Yeh Reshmi Zulfein|Yeh Reshmi Zulfen
 Yeh Reshmi Zulfein|Ye Reshmi Zulfein
@@ -6295,6 +6316,7 @@ Zihaal E Miskin|Zihaal E Miskin
 Zihaal E Miskin|Zihaal
 Zihaal E Miskin|Zihaal E Miskin New 2023
 Zihaal E Miskin|Zihale Miskin Maqun Baranjish
+Zihaal E Miskin|Zihaale
 Zindagi Aa Raha Hoon Main|Zindagi Aa Raha Hoon Main
 Zindagi Bhar Nahi Bhoolegi|Zindagi Bhar Nahi Bhoolegi
 Zindagi Bhar Nahi Bhoolegi|0912 Zindagi Bhar Nahin Bhoolegi
