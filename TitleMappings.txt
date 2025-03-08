@@ -26,6 +26,7 @@ Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaloon
 Aa Chal Ke Tujhe|Aa Chal Kay Tujhe
 Aa Chal Ke Tujhe|ᴀᴀ Chᴀʟ ᴋe Tᴜᴢhe ᴍᴀɪ ʟeᴋe Chᴀʟᴜ
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaluun
+Aa Chal Ke Tujhe|Aa Chal Ke Aa Chalke Singalong2426
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -267,6 +268,7 @@ Aao Huzur Tum Ko|Aao Huzur Tumko
 Aao Huzur Tum Ko|Aao Huzoor Tumko Asha Bhosle
 Aao Huzur Tum Ko|Aao Huzoor Kismat Double Cross
 Aao Huzur Tum Ko|Aao Huzoor Tum Ko
+Aao Huzur Tum Ko|Aao Huzoor
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
 Aao Na Gale Laga Lo Na|Aao Na Galey
 Aao Na|Aao Na
@@ -917,6 +919,7 @@ Beqarar Karke Hamein|Bekarar Karke Bekarar Karke Bekarar
 Beqarar Karke Hamein|Bekarar Karke Hamein
 Beqarar Karke Hamein|Beqarar Kar Ke Humein
 Betaab Dil Hai Dhadkano Ki Kasam|Betaab Dil Hai Dhadkano Ki Kasam
+Bhali Bhali Si Ek Soorat|Bhali Bhali Si Ek Soorat
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
 Bhanwara Bada Naadaan|Bhanwara Bada Nadaan
 Bhanwara Bada Naadaan|भंवरा बड़ा नादान हाये बगियन Bhanwra Bada Haye
@@ -1160,6 +1163,7 @@ Chehra Hai Ya Chaand|Chehra Hai Yasagar Jaisi Aankhon
 Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Wali
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand ~ Song
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand Khila Hai
+Chehra Hai Ya Chaand|Chehra Hai Ya Chand Song
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho (Saalami
@@ -1325,6 +1329,7 @@ Chura Ke Dil Mera|Chura Ke Dil Mera ☑
 Chura Ke Dil Mera|Chura Ke Dil Mera Song
 Chura Ke Dil Mera|Chura Ke Dil Mera Chura
 Chura Ke Dil Mera|Churakedilmera
+Chura Ke Dil Mera|Chura Ke Dil Mera Hindi
 Chura Liya|Chura Liya
 Chura Liya|Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne
@@ -1401,6 +1406,7 @@ Deewana Mujhsa Nahin|Deewana Mujhsa Nahin
 Deewana Mujhsa Nahin|Deewaana Mujh Sa Nahin
 Deewani Mastani|Deewani Mastani
 Deewani Mastani|Deewani Mastani Without Chorus
+Deewani Mastani|Deewani Mastaani
 Deewano Se Yeh Mat Puchho|Deewano Se Yeh Matt Puchho
 Deewano Se Yeh Mat Puchho|Deewano Se Yeh
 Dekh Humein Aawaaz Na Dena|Dekh Humen Aawaz Na Dena
@@ -1794,6 +1800,7 @@ Donna|Donna
 Door Reh Kar Na Karo Baat|Door Reh Kar Na Karo Baat
 Door Reh Kar Na Karo Baat|Door Reha Kar Na Karo Baat
 Door Reh Kar Na Karo Baat|Door Rah Kar Na Karo Baat
+Door Reh Kar Na Karo Baat|Door Rehkar Na Karo
 Dost Dost Na Raha|Dost Dost Na
 Dost Dost Na Raha|Dost Dost Na Raha
 Doston Se Pyaar Kiya|Doston Se Pyar Kiya
@@ -2400,6 +2407,7 @@ Isharon Isharon Mein|Isharon Isharon Mein Dil Lene Wale
 Isharon Isharon Mein|Isharo Isharo Mein Dil Lene Wale
 Isharon Isharon Mein|Isharon Isharon Me Mein
 Isharon Isharon Mein|0053 Isharon Isharon Mein Dil Lene Wale
+Isharon Isharon Mein|Ishaaron Ishaaron Mein Dil Lene
 Ishq Bina|Is Bina
 Ishq Bina|Is Bina Kiya Jeena
 Ishq Hua|Is Hua
@@ -2896,6 +2904,7 @@ Kabhi Kabhi Mere Dil Mein|Kabhi Kabhie Mere Dil Me
 Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Me
 Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein Fanclub 2024
 Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmein
+Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmeinkabhi Kabhie
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
@@ -3081,6 +3090,7 @@ Keh Do Ek Baar Sajna|Keo Ek Baar Sajna
 Keh Do Ek Baar Sajna|Keo Ek Baar Sajana
 Keh Do Ki Tum Ho Meri Warna|Keo Ki Tum Ho Meri Warna
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri
+Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri Warna
 Keh Doon Tumhe|Socha Hai
 Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
 Keh Doon Tumhe|Keoon Tumhe
@@ -3092,6 +3102,7 @@ Keh Doon Tumhe|Keh Doon Tujhe
 Keh Doon Tumhe|Keoon
 Keh Doon Tumhe|0818 Keoon Tumhe Ya Chup Rahoon
 Keh Doon Tumhe|Keoon Tumhein
+Keh Doon Tumhe|Keoon Tumhe : Deewar
 Kehna Hai Kehna Hai|Kehna Hai Kehna Hai
 Kehna Hai Kehna Hai|Kehna Hain Dill Vil Pyaar Vyaar
 Kehna Hi Kya|Kehna Hi Kya
@@ -3748,6 +3759,7 @@ Mere Khwabon Mein Tu|Mere Khawabon Me Tu
 Mere Khwabon Mein Tu|Mere Khwabon Mein Tu
 Mere Khwabon Mein Tu|Ori)Mere Khwabon Mein Tu
 Mere Khwabon Mein Tu|Mere Khwabon Me Tu Meri Saanson Me Tu
+Mere Khwabon Mein Tu|Mere Khwaabon Mein Jo Aaye
 Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat
 Mere Mehboob Qayamat Hogi|Mere Mehboob
 Mere Mehboob Qayamat Hogi|Mere Mehboob Kayamat Hogi
@@ -4280,6 +4292,7 @@ Palkon Ke Peeche Se|Palkon Ke Peeche Se Kya Tumne Kah Daala
 Palkon Ke Peeche Se|Plkon Ke Peeche Se Kya Tumne Keh Daala
 Palkon Ke Peeche Se|Palkon Ke Peechhe Se
 Palkon Ke Peeche Se|Palko Ke Piche
+Palkon Ke Peeche Se|Palkon Ke Peechhe
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan Ke Jhonke
 Panchhi Nadiya Pawan Ke|Panchi Nadiya Pawan
@@ -5076,6 +5089,7 @@ Surmaiye Ankhiyon Mein|Surmayi Ankhiyon Me
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein
 Surmaiye Ankhiyon Mein|Surumai Akhiyom Main
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon
+Surmaiye Ankhiyon Mein|Surmayi Akhiyon Main
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
@@ -5238,6 +5252,7 @@ Tere Mere Sapne Ab Ek Rang Hai|Tere Mere
 Tere Naam|Tere Naam
 Tere Naam Ka Deewana|Tere Naam Ka Deewana
 Tere Naina Mere Naino Ki|Tere Naina Mere Naino Ki
+Tere Paas Aake Mera Waqt|Tere Paas Aake Mera Waqt Guzar Jata
 Tere Phoolon Jaisa Rang|Tere Phoolon Jaisa Rang
 Tere Pyaar Mein Gunkali|Tere Pyaar Mein Gunkali
 Tere Pyaar Mein Main|Tere Pyar Me Main Hogi Pyar Ki Jeet
@@ -5982,6 +5997,7 @@ Yeh Aankhen Dekh Kar|Yeh Aankhen Dekh Kar Hum
 Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Sari
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Aankhen Uff Yumma|Ye Aankhe Uff Yumma Yeh Soorat
+Yeh Aankhen Uff Yumma|1168 Ye Aankhen Uff Yun Maa
 Yeh Chaand Sa Roshan Chehra|Taarif Karoon Kya Uski
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Raushan Chehra
 Yeh Chaand Sa Roshan Chehra|Ye Chand Sa Roshan Chehra
@@ -6078,6 +6094,7 @@ Yeh Jeevan Hai|Ye Jeevan Hai
 Yeh Jeevan Hai|Ye Jeevan Hai Yahi Hai
 Yeh Jeevan Hai|Yeh Jeevan Ye Jeewan
 Yeh Jeevan Hai|Yeh Jeevan Hai, Iss Jeevan Ka Yahi Hai
+Yeh Jeevan Hai|Yeh Jeevan
 Yeh Jism Hai To Kya|Ye Jism Hai To Kya
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Hai
 Yeh Jo Mohabbat Hai|Ye Jo Mohabbat Kati Patang
@@ -6140,6 +6157,7 @@ Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadu Hai Mitwa
 Yeh Mausam Ka Jaadu|0823 Ye Mausam Ka Jaadu Hai Mitwa
 Yeh Mausam Ka Jaadu|Mausam Ka Jadu Hai Mitwa
 Yeh Mausam Ka Jaadu|101Ye Mausam Ka Jadu Hai Mitwa
+Yeh Mausam Ka Jaadu|Ye Mousam Ka Jadu Hai Mitwa
 Yeh Mausam Rangeen Samaa|Ye Mausam Rangeen Sama
 Yeh Mausam Rangeen Samaa|Ye Mousam Rangeen Sama
 Yeh Mausam Rangeen Samaa|Ye Mausam Rangeen Sama Fanclub 2024
@@ -6253,6 +6271,7 @@ Yeh Shaam Mastaani|Ye Shaam Mastaani Yeh Sham Mastani
 Yeh Shaam Mastaani|Yeh Sham Mastani , Wd 2 Paragraphs
 Yeh Shaam Mastaani|Ye Sham Yeh Sham
 Yeh Shaam Mastaani|Yeh Shaam Ye Sham
+Yeh Shaam Mastaani|Ye Shaam Yeh Sham Singalong2426
 Yeh Shaam Mastani + Raat Kali|Ye Sham Mastani Raat Kali Ik Khawab
 Yeh Sitaare Ye Chaand Ye Raatein|Ye Sitare Ye Chand Ye Raate
 Yeh Taara Woh Taara|Yeh Tara Woh Tara

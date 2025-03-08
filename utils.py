@@ -4,6 +4,7 @@ from datetime import datetime
 from .constants import *
 import json, re, csv
 from urllib import request
+from fake_useragent import UserAgent
 
 COMMENTS = {\
     'awesome':['awesome performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
@@ -13,6 +14,16 @@ COMMENTS = {\
     'ok':['nice rendition 👌','nicely sung 👌','nice performance 👌'],\
     'bad':['good attempt']
     }
+
+# Generate a fake user agent to avoid Smule blocking python requests
+def createFakeUAHeaders():
+    global HEADERS
+    try: HEADERS
+    except NameError:
+        ua = UserAgent()
+        HEADERS = {'User-Agent':ua.random}
+    #print(HEADERS)
+    return HEADERS
 
 # Print the specified message prefixed by current timestamp
 def printTs(message):
@@ -40,7 +51,8 @@ def getJSON(username,type="recording",offset=0,version="legacy",sort="recent"):
         else:
             urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
         #print(urlstring)
-        with request.urlopen(urlstring) as url:
+        req = request.Request(urlstring,headers=createFakeUAHeaders())
+        with request.urlopen(req) as url:
             data = json.loads(url.read())
     except:
         # Ignore any errors

@@ -5,7 +5,7 @@ import subprocess
 import json, re, csv
 from mutagen.mp4 import MP4, MP4Cover
 from .constants import *
-from .utils import fix_title, build_comment, printTs, getJSON
+from .utils import fix_title, build_comment, printTs, getJSON, createFakeUAHeaders
 from os import path
 from .db import saveDBPerformances, saveDBFavorites, fetchDBTitleMappings, dateDelta, fetchDBJoiners, execDBQuery, saveDBSingerFollowing, saveDBGeoCache, fetchDBUserFollowing
 from datetime import datetime, timedelta, date
@@ -57,11 +57,15 @@ def fetchOpenInvites():
         rsOpenInvites.append(fixedTitle)
         # Fetch list of partners who have joined the invite
         inviteKey = invite['key']
-        rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
+        #rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
+        # Because of reactivations, parent_key is not being set correctly, so simply check if a singer has EVER joined this song
+        rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where join_ind = 1 and fixed_title = '{fixedTitle}' group by 1")
+        #print(f"{fixedTitle}: {rs[0]['joiners']}")
         rsInviteJoins.extend(rs)
     # Radomize the list
     rsOpenInvites = random.sample(rsOpenInvites,len(rsOpenInvites))
     print(rsOpenInvites)
+    #print(rsInviteJoins)
     return rsOpenInvites, rsInviteJoins
 
 # For the specified user, get a random open invite they have not joined yet. If index is specified, fetch that element from the list
@@ -258,7 +262,8 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
 
     try:
         # The web_url returns an HTML page that contains the link to the content we wish to download
-        with request.urlopen(web_url) as url:
+        req = request.Request(web_url,headers=createFakeUAHeaders())
+        with request.urlopen(req) as url:
             # First get the HTML for the web_url
             htmlstr = str(url.read())
             # Next, parse the HTML to extract the JSON string for performances
@@ -300,7 +305,8 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
         collabCount = 0
         try:
             # The web_url returns an HTML page that contains the link to the content we wish to download
-            with request.urlopen(web_url) as url:
+            req = request.Request(web_url,headers=createFakeUAHeaders())
+            with request.urlopen(req) as url:
                 # First get the HTML for the web_url
                 htmlstr = str(url.read())
                 # Next, parse the HTML to extract the JSON string for performances
@@ -982,7 +988,8 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         # TODO: Convert to debug message?
         #print(web_url)
         # The web_url returns an HTML page that contains the link to the content we wish to download
-        with request.urlopen(web_url) as url:
+        req = request.Request(web_url,headers=createFakeUAHeaders())
+        with request.urlopen(req) as url:
             # First get the HTML for the web_url
             htmlstr = str(url.read())
             #print(htmlstr)
@@ -991,22 +998,29 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
-            #print(media_url)
+            print(media_url)
+            req = request.Request(media_url,headers=createFakeUAHeaders())
+            response = request.urlopen(req)
             # Get the redirected URL - this should be the actual file to be downloaded
-            final_url = requests.get(media_url).url
+            final_url = response.url
+            print(final_url)
             # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
-            #print(final_url)
             if final_url.endswith('_video.m3u8'):
+                # Write the m3u8 file
+                #f = open(filename.replace('m4v','m3u8'),'w+b')
+                #f.write(response.read())
+                #f.close()
+                # If there is a playlist (m3u8) file, there is always a 720x720 ts file, so change the URL to that file and process using ffmpeg
                 final_url = final_url.replace('_video.m3u8','_720_video.ts')
-                # Use ffmpg to convert ts to mp4
+                # Use ffmpeg to convert ts to mp4
                 subprocess.run(
-                    ['ffmpeg','-i',final_url,'-c:v','copy','-c:a','copy',filename],
+                    ['ffmpeg','-hide_banner','-loglevel','error','-y','-i',final_url,'-c:v','copy','-c:a','copy',filename],
                     stdout = subprocess.DEVNULL
                     )
             else:
-                # Open the file in binary write mode and write the data from the media_url
+                # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
                 f = open(filename,'w+b')
-                f.write(request.urlopen(final_url).read())
+                f.write(response.read())
                 f.close()
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
@@ -1024,7 +1038,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
                 pass
         else:
             print(str(e))
-            print(media_url)
+            #print(media_url)
         print("-----")
         #if (not "HTTP Error 504" in str(e)) and (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
             #raise
@@ -1046,7 +1060,8 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         # Write the JPEG to the M4A file as album cover. Ignore any errors reading the image
         try:
             pic_url = performance['display_pic_url']
-            img = MP4Cover(request.urlopen(pic_url).read(), imageformat=MP4Cover.FORMAT_JPEG)
+            req = request.Request(pic_url,headers=createFakeUAHeaders())
+            img = MP4Cover(request.urlopen(req).read(), imageformat=MP4Cover.FORMAT_JPEG)
             af["covr"] = [img]
         except:
             pass
