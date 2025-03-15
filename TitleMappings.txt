@@ -918,6 +918,7 @@ Beqarar Karke Hamein|बेक़रार करके हमें यूँ न�
 Beqarar Karke Hamein|Bekarar Karke Bekarar Karke Bekarar
 Beqarar Karke Hamein|Bekarar Karke Hamein
 Beqarar Karke Hamein|Beqarar Kar Ke Humein
+Beqarar Karke Hamein|Bekarar Karke Humein
 Betaab Dil Hai Dhadkano Ki Kasam|Betaab Dil Hai Dhadkano Ki Kasam
 Bhali Bhali Si Ek Soorat|Bhali Bhali Si Ek Soorat
 Bhanwara Bada Naadaan|Bhanwara Bada Naadan
@@ -1170,6 +1171,7 @@ Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho (Saalami
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Hochehrakyadekhteho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho Song
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte
+Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho Trending
 Chhabeela|Chhabeela Sawariyan
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
@@ -1348,6 +1350,7 @@ Chura Liya|Chura Liya Hai Tumne Jo Dil Ko Song
 Chura Liya|Chura Liya Hai Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne Chura Liya Hai Tumne
 Chura Liya|Chura Liya Hai Tumne ( Customised Due
+Chura Liya|Churaliya Hai Tumne Jo Dil Ko
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Kareeb
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera Sanam
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera
@@ -1432,6 +1435,7 @@ Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Song
 Dekha Hai Pehli Baar|Dekha Hai Pahli Baarsaajan Hindi
 Dekha Hai Pehli Baar|Dekha He Pehli Baar
 Dekha Hai Pehli Baar|Navgadigital Dekha Hain Pehli Baar
+Dekha Hai Pehli Baar|L Dekhahaipehlibaar
 Dekha Hai Teri Aankhon Ko|Dekha Hai Teri Aankhon Ko Aryans
 Dekha Hai Teri Aankhon Mein|Dekha Hai Teri Aankhon Mein
 Dekha Hazaro Dafaa|Dekha Hazaro Dafa
@@ -2015,6 +2019,7 @@ Give Me Some Sunshine|Give Me Some Sunshine
 Golden Duets Medley 1|Golden Medley
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
+Gore Gore O Baanke Chhore|0527 Gore Gore O Baanke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
 Gori Gori|Gori Gori
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
@@ -2059,6 +2064,7 @@ Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanwre Aradhana
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hain Bhanvre
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hain Bhanware
 Gunguna Rahe Hain Bhanwre|0826 Gun Guna Rahe Hain Bhanware
+Gunguna Rahe Hain Bhanwre|Gunguna Rahe Hai Bhanwre
 Gupt Gupt|Title Song Gupt Gupt
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai
 Haal Kaisa Hai Janaab Ka|Haal Kaisa Hai Janaab Ka Janab Ka
@@ -2344,6 +2350,7 @@ Husn Hai Suhaana|Husn Hai Suhaana
 Husn Hai Suhaana|Husn Hai Suhana
 Husn Pahadon Ka|0789 Husn Pahadon Ka
 Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahi Gharana
+Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahin
 I Am A Disco Dancer|I Am A Disco Dancer
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
@@ -2546,6 +2553,7 @@ Jaane Kaha Mera Jigar Gaya Ji|Jane Kahan Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|Jaane Kahaan Mera Jigar Gaya Ji
 Jaane Kaha Mera Jigar Gaya Ji|जाने कहाँ मेरा जिगर गया जी
 Jaane Kaha Mera Jigar Gaya Ji|Jane Kaha Mera Jaane Kahan Mera R
+Jaane Kaha Mera Jigar Gaya Ji|0469 Jaane Kahan Mera Jigar Gaya Ji
 Jaane Kahan Mera X Hai Apna Dil|Jaane Kahan Mera X Hai Apna Dil
 Jaane Kaisa Hai Mera|Jane Kaisa Hai Mera Jaane
 Jaane Kaise Kab Kaha|Jaane Kaise Kab
@@ -5823,6 +5831,7 @@ Tune Zindagi Mein Aake|Tune Zindagi Me Aake
 Tune Zindagi Mein Aake|Tune Zindagi Mein Aake
 Udd Jaa Kaale Kaava|Udd Jaa Kaale Kaava
 Udd Jaa Kaale Kaava|Ua Kale Kawa
+Udd Jaa Kaale Kaava|Ud Jaa Kaale Kaawaan Gadar
 Ude Jab Jab Zulfein Teri|>> Ude Jab Jab Zulfein
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfe Teri
 Ude Jab Jab Zulfein Teri|Ude Jab Jab Zulfein Teri
