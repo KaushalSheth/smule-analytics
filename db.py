@@ -358,7 +358,7 @@ def updateParentKeys():
         ) i
         where performer_handles like '%KaushalSheth1%'
         and key = i.join_key
-        and parent_key is null
+        and nullif(parent_key,'') is null
         """
     execDBQuery(sqlquery)
     return 0

@@ -34,6 +34,7 @@ Aa Jaane Jaan|Aa Jane Jaa
 Aa Jaane Jaan|Jaane Jaan
 Aa Jaane Jaan|Aa Jaanejaan
 Aa Jaane Jaan|Ad Aa Jaane Jaan
+Aa Jaane Jaan|Aa Jaane Jaa
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
@@ -232,6 +233,7 @@ Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai Aankhon
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal
 Aankhon Mein Kaajal Hai|Aankhon Mein
+Aankhon Mein Kaajal Hai|Aankhon Mein Kajal
 Aankhon Mein Kya Ji|Aankho Me Kya Ji Rupehla Badal
 Aankhon Mein Kya Ji|Ankhon Mei Kya Ji
 Aankhon Mein Kya Ji|Ankhon Mein Kya Ji
@@ -816,6 +818,8 @@ Baajre Da Sitta Title|Bajre Da Sitta Title
 Baali Umar Ne Mera Haal|Bali Umar Ne Mera Haal
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
 Baar Baar Dekho|Baar Baar Dekho Hazar Baar Dekho
+Baar Baar Tohe Kya Samjhaye|Baar Baar Tohe Kya Samjhaye
+Baar Baar Tohe Kya Samjhaye|Baar Baar Tohe Kya Samjhaye Payal Ki Jhankar
 Baarish Ban Jaana|Baarish Ban Jana
 Baarish Mein Tum|Barish Mein Tum
 Baawra Mann Dekhne Chala Ek Sapna|Baawra Mann Dekhne Chala Ek Sapna
@@ -892,6 +896,7 @@ Bahut Pyaar Karte Hai|Bahot Pyar Karte Hai Tumko Sanam
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meherbaani
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya
 Bairi Piya|Bairi Piya
+Baiyaan Na Dharo|Baiyan Na Dharo
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
 Balam Pichkari|Balam Pichkari With Vocals
@@ -955,6 +960,7 @@ Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi
 Bheegi Huyi Hai Raat|Bheegi Huyi Hai Raat Magar Song
+Bholi Bhaali Ladki|Bholi Bhali Ladki
 Bholi Si Surat|Bholi Si Surat
 Bholi Si Surat|Bholi Si Surat Re
 Bholi Si Surat|Bholi Si Surat Aankhon Me Masti
@@ -1192,16 +1198,17 @@ Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chaiya Chaiya
 Chhaiyya Chhaiyya|Chaiya Chaiya Song
-Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
-Chhalka Yeh Jaam|Chhalka Yeh Jaam
-Chhalka Yeh Jaam|Chhalkaye Jaam
-Chhalka Yeh Jaam|chalka Ye Jaam Aaiye Aapki
-Chhalka Yeh Jaam|Chalka Ye Jaam Aaiye Aapki
-Chhalka Yeh Jaam|Chalka Yeh Jaamchalka Ye Jaam Aaiye Aapki
-Chhalka Yeh Jaam|Chalka Yeh Jaam
-Chhalka Yeh Jaam|Chalkaye Jaam Ayye Apki
-Chhalka Yeh Jaam|Chalka Yeh Jaam Aaiye Aapki
-Chhalka Yeh Jaam|Chhalkaye Jaam Mohammed
+Chalkaaye Jaam|Chhalka Yeh Jaam
+Chalkaaye Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
+Chalkaaye Jaam|Chhalkaye Jaam
+Chalkaaye Jaam|chalka Ye Jaam Aaiye Aapki
+Chalkaaye Jaam|Chalka Ye Jaam Aaiye Aapki
+Chalkaaye Jaam|Chalka Yeh Jaamchalka Ye Jaam Aaiye Aapki
+Chalkaaye Jaam|Chalka Yeh Jaam
+Chalkaaye Jaam|Chalkaye Jaam Ayye Apki
+Chalkaaye Jaam|Chalka Yeh Jaam Aaiye Aapki
+Chalkaaye Jaam|Chhalkaye Jaam Mohammed
+Chalkaaye Jaam|Chalkaaye Jaam ,Aaiye Aapki Aankho
 Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhamak Chhallo Chhel Chhabeli|Chamak Challo Chel Chabeli
 Chhaya Hai Jo Dil Pe|Chaya Hai Jo Dil Pe
@@ -1452,6 +1459,7 @@ Dekha Hai Pehli Baar|Dekha Hai Pahli Baarsaajan Hindi
 Dekha Hai Pehli Baar|Dekha He Pehli Baar
 Dekha Hai Pehli Baar|Navgadigital Dekha Hain Pehli Baar
 Dekha Hai Pehli Baar|L Dekhahaipehlibaar
+Dekha Hai Pehli Baar|0806 Dekha Hai Pehli Baar
 Dekha Hai Teri Aankhon Ko|Dekha Hai Teri Aankhon Ko Aryans
 Dekha Hai Teri Aankhon Mein|Dekha Hai Teri Aankhon Mein
 Dekha Hazaro Dafaa|Dekha Hazaro Dafa
@@ -2164,6 +2172,7 @@ Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Yahan Pyar
 Har Kisi Ko Nahi Milta|Harkisikonahimilta
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahin Milta
 Har Kisi Ko Nahi Milta|Har Kisi Ko
+Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Versi
 Hasta Hua Noorani Chehra|Hasta Hua Noorani Chehra
 Hasta Hua Noorani Chehra|Hansta Hua Noorani Chehra
 Hasta Hua Noorani Chehra|Rp Hansta Hua Nooraani Chehra
@@ -2385,6 +2394,7 @@ I Just Called To Say I Love You|I Just Called To Say
 I Love My India|>> I Love My India
 I Love My India|I Love My India Pardes
 I Love My India|259I Love My India
+I Love You Bol Daal|I Love You Bol Daal
 I Still Havent Found What Im Looking For|I Still Haven'T Found What I'M Looking For
 Idhar Chala Main Udhar Chala|Idhar Chala Main Udhar
 Idhar Chala Main Udhar Chala|( Idhar Chala Main Udhar Chala
@@ -2825,6 +2835,7 @@ Jis Gali Mein Tera Ghar|Jis Gali Mein
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Na Ho Baalma
 Jis Gali Mein Tera Ghar|Jis Gali Mein Jis Gali Mein
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Jis Gali Mein
+Jis Gali Mein Tera Ghar|Jis Gali Mein Tera
 Jiska Koi Nahin|Jiska Koi Nahin
 Jiska Mujhe Tha Intezaar|Jiska Mujhe Tha Intezaar
 Jiske Sapne Hume Roj Aate Rahe|Jiske Sapne Hume Roj Aate Rahe
@@ -2943,6 +2954,7 @@ Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein Fanclub 2024
 Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmein
 Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmeinkabhi Kabhie
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
+Kabhi Khud Pe Kabhi Haalaat Pe|Kabhi Khud Pe Kabhi Halat Pe Roona Aya
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Muqammal
@@ -3073,6 +3085,7 @@ Kambakth Ishq|Kambakth Is
 Kambakth Ishq|Kambakht Is
 Kambakth Ishq|Kambakth Is Hai Jo
 Kambakth Ishq|Kambakht Is Ptkk
+Kambakth Ishq|Kambakht Is Hai Joshiva
 Kamli Kamli|Kamli Kamli
 Kamli Kamli|Kamli Kamli Dhoom 3 Karaok
 Kanha Maane Na|Kanha Maane Na
@@ -3294,6 +3307,7 @@ Koi Humdam Na Raha|Koi Humdam Na Raha
 Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Humdam Na Raha|Koi Humdum Na Raha
 Koi Jab Tumhaara Hriday|Koi Jab Tumhara Hriday
+Koi Jab Tumhaara Hriday|Koi Jab Tumhara Koi Jab Tumhara
 Koi Kahe Kehta Rahe|Koi Kahe Kehta Rahe
 Koi Kaise Mohabbat Chupaye|Koi Kaise Mohabbat Chupaye
 Koi Ladki Hai|Koi Ladki Hai
@@ -3579,6 +3593,7 @@ Main Na Bhoolunga|Main Na Bhooloonga
 Main Na Bhoolunga|Mai Na Bhulunga Mai Na Bhulungi
 Main Na Bhoolunga|Mai Na Bhoolunga
 Main Na Bhoolunga|Main Na Bhulunga
+Main Na Bhoolunga|Mai Na Bhuloonga
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shair Hoon
 Main Pal Do Pal Ka Shayar Hoon|Main Pal Do Pal Ka Shayar Hoon
@@ -4080,6 +4095,7 @@ Na Tum Humein Jaano|ना तुम हमें जानो ना हम त
 Na Tum Humein Jaano|Na Tum Hamen
 Na Tum Humein Jaano|Na Tum Hume Jaano
 Na Tum Humein Jaano|Na Tum Humein Jaano Hamein Janohame
+Na Tum Humein Jaano|Na Tu Humein Jaano
 Na Tum Jaano Na Hum|Femalemale Na Tum Jaano Na Hum
 Na Tum Jaano Na Hum|Kyu Chalti Hai Pawan
 Na Tum Jaano Na Hum|Na Tum Jaano Na Hum
@@ -4300,6 +4316,7 @@ Paayalein Chunmun|Payale Chunmun Chunmun
 Paayalein Chunmun|Payalay Chunmun Chunmun
 Paayalein Chunmun|Payali Chunmun Chunmun
 Paayalein Chunmun|Payali Chhunmun Chhunmun
+Paayaliya Ho Ho Ho Ho|Payaliya Ho Ho Ho Ho
 Pairon Mein Bandhan Hai|Pairon Mein Bandhan Hai Pairon
 Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
@@ -4373,6 +4390,7 @@ Pardesiyon Se Na Akhiyan Milaana|Pardesiyon Se Na Akhiyan Milana
 Pardesiyon Se Na Akhiyan Milaana|Pardesion Se Na Ankhiyan Milana
 Patthar Ke Sanam|Patthar Ke Sanam
 Patthar Ke Sanam|Pathar Ke Sanam Tujhe Humne
+Patthar Ke Sanam|Pathar Ke Sanam Pathar Ke Sanam
 Peete Peete Kabhi Kabhi|Peete Peete Kabhi Kabhi
 Pehla Nasha|Nasha
 Pehla Nasha|Pehela Nasha Pehela Khumar
@@ -4535,6 +4553,7 @@ Pyaar Karne Waale|Pyaar Karne Wale Kabhi Darte Nahi
 Pyaar Karne Waale|Pyar Karnewale Kabhi Darte Nahi
 Pyaar Karte Hain Hum Tumhe Itna|Pyaar Karte Hain Hum Tumhe Itna
 Pyaar Karte Hain Hum Tumhe Itna|Pyar Karte Hain Hum Tumhe Itna
+Pyaar Ke Dhaage|Pyaar Ke Dhaage
 Pyaar Ki Dastaan|Pyaar Ki Dastaan
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh Aise
@@ -5071,6 +5090,7 @@ Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
 Suhani Raat Dhal Chuki|Suhani Chandini Raatein Fanclub 2025
 Sukh Ke Sab Saathi|Sukh Ke Sab Saathi
+Sun Beliya Shukriya Meharbani|Sun Beliya Shukriya Meharbani
 Sun Champa Sun Taara|Sun Champa Sun Tara
 Sun Ja Aa Thandi Hawa|Sun Ja Aa Thandi Hawa
 Sun Mere Humsafar|Sun Mere Humsafar
@@ -5092,6 +5112,7 @@ Sun Raha Hai|Sun Rahahai Na Tu
 Sun Raha Hai|Sun Raha Hai Na Tu
 Sun Raha Hai|Sun Raha Hai Sun Raha Hai
 Sun Raha Hai|Sunraha Hai Na
+Sun Raha Hai|Sun Raha Hai Na Tu Aashiqui2
 Sun Sahiba Sun|Sun Sahiba Sun
 Sun Sahiba Sun|Sun Sahiba Sun Pyaar Ki Dhoon
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
@@ -5222,6 +5243,7 @@ Tere Bina Jiya Jaaye Na|तेरे बिना जिया जाये न�
 Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Naa
 Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na Ghar
 Tere Bina Jiya Jaaye Na|Tere Bina Jiya Jaye Na Edited
+Tere Bina Jiya Jaaye Na|Tere Bina Jiya Tere Bina Jiya
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Bina Koi Jindgi
@@ -5669,6 +5691,7 @@ Tum Bin Jaaoon Kahan|Tum Bin Tum Bin
 Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan : Pyar Ka Mausam
 Tum Bin Jaaoon Kahan|Tum Bin Jaau Kahan
 Tum Bin Jaaoon Kahan|Tum Bin Jaun Tum Bin Jaun
+Tum Bin Jeevan Kaise Beeta|Tum Bin Jeevan Kaise Beeta
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena ~
 Tum Bin Kya Hai Jeena|Tum Bin Jiya Jaye Kaise Tum Bin

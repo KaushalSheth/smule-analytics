@@ -53,10 +53,10 @@ def fetchOpenInvites():
         if invite["ensemble_type"] == "GROUP" or invite["owner"]["handle"] != "KaushalSheth1":
             continue
         # Add invite to list of open invites
-        fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
-        rsOpenInvites.append(fixedTitle)
-        # Fetch list of partners who have joined the invite
         inviteKey = invite['key']
+        fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
+        rsOpenInvites.append({"key":inviteKey,"title":fixedTitle})
+        # Fetch list of partners who have joined the invite
         #rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
         # Because of reactivations, parent_key is not being set correctly, so simply check if a singer has EVER joined this song
         rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where join_ind = 1 and fixed_title = '{fixedTitle}' group by 1")
@@ -67,6 +67,16 @@ def fetchOpenInvites():
     print(rsOpenInvites)
     #print(rsInviteJoins)
     return rsOpenInvites, rsInviteJoins
+
+# For the specified title, get the key of the open invite
+def getOpenInviteKey(title):
+    global rsOpenInvites
+    try: rsOpenInvites
+    except NameError: fetchOpenInvites()
+    retVal = next((i['key'] for i in rsOpenInvites if i['title'] == title), None)
+    if retVal == None:
+        retVal = ""
+    return retVal
 
 # For the specified user, get a random open invite they have not joined yet. If index is specified, fetch that element from the list
 def getOpenInvite(partner,index=1):
@@ -80,7 +90,7 @@ def getOpenInvite(partner,index=1):
     # Loop through the open invites in reverse order (of popularity) and return the first one that the partner has not joined yet
     for invite in rsOpenInvites:
         # Find the list of joiners for this invite, and then check if the partner has joined it
-        joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite), None)
+        joiners = next((i['joiners'] for i in rsInviteJoins if i['fixed_title'] == invite['title']), None)
         #print(f"Partner = {partner}, Invite = {invite}")
         if (joiners == None) or (partner not in joiners):
             # Increment counter and continue if counter is less than the index Specified
@@ -88,7 +98,7 @@ def getOpenInvite(partner,index=1):
             if i < index:
                 #print(f"getOpenInvite - {partner} skipping {i}")
                 continue
-            retVal = invite
+            retVal = invite['title']
             break
     #print(f"Partner = {partner}, Not Joined = {retVal}")
     return retVal
@@ -257,7 +267,7 @@ def crawlUsers(username,performances,maxperf=9999,startoffset=0,mindate='2018-01
     return message
 
 # Parse ensembles from the specified web_url and return an ensembles list that can be appended to the performances list
-def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',searchOptions={}):
+def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-01',ensembleMinDate='2020-06-01',searchOptions={},parentKey=""):
     ensembleList = []
 
     try:
@@ -273,7 +283,8 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
             performancesStr = re.sub(r'"\[HQ\]"','', re.sub(r'\\''','', (re.sub(r'\\x..', '', performancesStr ))))
             performancesStr = performancesStr.replace('"HD"','')
             # Process the performanceJSON and construct the ensembleList
-            responseList = createPerformanceList(username,json.loads(performancesStr),createType="ensemble",parentTitle=parentTitle,titleMappings=gTitleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions)
+            performanceJSON = json.loads(performancesStr)
+            responseList = createPerformanceList(username,performanceJSON,createType="ensemble",parentTitle=parentTitle,titleMappings=gTitleMappings,mindate=mindate,ensembleMinDate=ensembleMinDate,searchOptions=searchOptions,parentKey=parentKey)
             ensembleList = responseList[2]
     except:
         # DEBUG MESSAGE
@@ -282,19 +293,24 @@ def parseEnsembles(username,web_url,parentTitle,titleMappings,mindate='1900-01-0
         print("Failed to parse ensembles")
         print("============")
         #print(performancesStr)
-        #raise
+        raise
 
     return ensembleList
 
 # Fetch invites from DB within date range and then parse ensembles to see if there are new joins.  This is primarily used to load joins for expired invites
-def fetchDBInviteJoins(username,dbinvitedays=180):
+def fetchDBInviteJoins(username,dbinvitedays=180,inviteKey='NA'):
+    global gPerformerList
     performances = []
     currTime = datetime.now()
     mindate = (currTime - timedelta(dbinvitedays)).strftime(DATEFORMAT)
     maxdate = currTime.strftime(DATEFORMAT)
-    sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
+    if inviteKey != 'NA':
+        sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where key = '{inviteKey}'"
+        printTs(f"Start Key = {inviteKey}")
+    else:
+        sqlquery = f"select key,fixed_title, web_url, child_count, created_at from my_performances where invite_ind = 1 and created_at between '{mindate}' and '{maxdate}' and owner_handle = '{username}' order by created_at"
+        printTs(f"Start {mindate}")
     invites = execDBQuery(sqlquery)
-    printTs(f"Start {mindate}")
     gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
     for i in invites:
         web_url = i['web_url']
@@ -303,6 +319,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
         fixedTitle = i['fixed_title']
         perfKey = i['key']
         collabCount = 0
+        gPerformerList = []
         try:
             # The web_url returns an HTML page that contains the link to the content we wish to download
             req = request.Request(web_url,headers=createFakeUAHeaders())
@@ -312,6 +329,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
                 # Next, parse the HTML to extract the JSON string for performances
                 performancesBytes = bytes(re.search('"mobile-show">(.*?) collab',htmlstr).group(1),'latin')
                 collabCount = int(performancesBytes.decode('utf8'))
+                printTs(f"Child Count = {childCount}; Collab Count = {collabCount}")
         except:
             # DEBUG MESSAGE
             print("============")
@@ -322,7 +340,7 @@ def fetchDBInviteJoins(username,dbinvitedays=180):
             print("============")
             print(f"createdAt = {createdAt}, web_url = {web_url}")
             print(f"Counts differ - need to parse ensembles for this invite: ChildCount = {childCount}, collabCount = {collabCount}")
-            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=gTitleMappings)
+            ensembleList = parseEnsembles(username,web_url,fixedTitle,titleMappings=gTitleMappings,parentKey=perfKey)
             performances.extend(ensembleList)
             res = execDBQuery(f"update performance set child_count = {collabCount}, updated_at = current_timestamp where key = '{perfKey}'")
             printTs("Done")
@@ -345,7 +363,7 @@ def extractSearchOptions(searchOptions):
     return contentType, solo, joins, grouponly
 
 # Create performance list out of a performances JSON that is passed in
-def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={}):
+def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate="2099-12-31",n=0,maxperf=9999,filterType="all",createType="regular",parentTitle="",titleMappings=dict(),ensembleMinDate='2020-06-01',searchOptions={},parentKey=""):
     global gPerformerList
     performanceList = []
     stop = False
@@ -505,6 +523,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 else:
                     joinMessage = " Thanks for joining my invites"
             comment = build_comment('@' + performers + ' ', joinMessage)
+        #print(f"Performers = {performers}, Comment = {comment}")
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
             filename = filename_base + ".m4v"
@@ -575,8 +594,12 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             join_cnt += " (nf)"
         # If performance is a join, set ct to "ensemble" so it gets color coded correctly
         #print(performance['ensemble_type'])
-        if ownerHandle == username and performance['ensemble_type'] == "DUET" and not web_url_full.endswith("/ensembles") :
+        if ownerHandle == username and performance['ensemble_type'] == "DUET" and not web_url_full.endswith("/ensembles"):
             ct = "ensemble"
+            # If parentKey is empty, try to get the invite key
+            if parentKey == "":
+                parentKey = getOpenInviteKey(fixedTitle)
+            #printTs(f"Performer = {performers}, Title = {fixedTitle}, Parent Key = {parentKey}")
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -632,7 +655,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'join_cnt':join_cnt,\
                 'last_performance_time':lastPerformanceTime,\
                 'last_join_time':lastJoinTime,\
-                'recent_join_cnt':recentJoinCount\
+                'recent_join_cnt':recentJoinCount,\
+                'parent_key':parentKey
                 })
         # If any errors occur, simply ignore them - losing some data is acceptable
         except:
@@ -978,7 +1002,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     # If the file already exists, skip it
     if path.exists(filename):
         print(f"ALREADY EXISTS - {filename}")
-        return 0
+        return 2
 
     # Print filename
     print(f"Downloading {filename}")

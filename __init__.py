@@ -254,10 +254,13 @@ def create_app(test_config=None):
             utilitiesOptions['picswhereclause'] = request.form["picswhereclause"]
             utilitiesOptions['picswildcard'] = request.form["picswildcard"]
             utilitiesOptions['dupesfolder'] = request.form["dupesfolder"]
+            utilitiesOptions['invitekey'] = request.form["invitekey"]
             if toolName == "Recent Performers":
                 return redirect(url_for('title_performers', sort='recent'))
             elif toolName == "Popular Performers":
                 return redirect(url_for('title_performers', sort='popular'))
+            elif toolName == "Fix Invite Joins":
+                return redirect(url_for('fix_invite_joins'))
             elif toolName == "Get HTML":
                 return redirect(url_for('get_html'))
             elif toolName == "Download":
@@ -503,6 +506,16 @@ def create_app(test_config=None):
         return redirect(url_for('list_performances'))
 
     # This executes the smule function to fetch DB invites and then look for new joins in Smule
+    @app.route('/fix_invite_joins')
+    def fix_invite_joins():
+        global user, performances, utilitiesOptions
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchDBInviteJoins(user,180,utilitiesOptions['invitekey'])
+        flash(f"{len(performances)} joins fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This executes the smule function to fetch DB invites and then look for new joins in Smule
     @app.route('/db_invite_joins')
     def db_invite_joins():
         global user, performances, fromdate, todate, searchOptions
@@ -686,6 +699,7 @@ def create_app(test_config=None):
         global performances, user
         i = 0
         numFails = 0
+        numExists = 0
         failedSongs = []
         for performance in performances:
             print("=======================================================================")
@@ -696,10 +710,12 @@ def create_app(test_config=None):
                 result = downloadSong(performance["web_url_full"], "/tmp/", performance['filename'],performance,user)
                 if result == 0:
                     i += 1
+                elif result == 2:
+                    numExists += 1
                 else:
                     numFails += 1
                     failedSongs.append(performance['filename'])
-        retVal = f"Successfully downloaded {i} songs to /tmp; {numFails} downloads failed"
+        retVal = f"Successfully downloaded {i} songs to /tmp; {numExists} already existed; {numFails} downloads failed"
         if len(failedSongs) > 0:
             retVal += "\nFailed to download: " + ', '.join(failedSongs)
         print(retVal)
