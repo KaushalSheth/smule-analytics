@@ -389,6 +389,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         recording_url = web_url_full.replace("/ensembles","")
         # As soon as created_at is less than the ensemble min date, break out of the loop
         # In case we don't care for joins, then break out as soon as we reach the mindate (no need to process extra days)
+        #print(f"{performance['title']}; {created_at}")
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
             stop = True
             continue
