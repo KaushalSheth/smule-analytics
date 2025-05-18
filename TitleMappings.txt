@@ -135,6 +135,7 @@ Aaj Rapat Jaayen|Aaj Rapat
 Aaj Rapat Jaayen|Aaj Rapat Jaaye To
 Aaj Rapat Jaayen|Aaj Rapat Jaayen To
 Aaj Rapat Jaayen|0288 Aaj Rapat Jaayen Toh
+Aaj Rapat Jaayen|Aaj Rapat Jayen
 Aaj Se Pehle Aaj Se Zyaada|Aaj Se Pehle Aaj Se Zyaada Song
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
@@ -527,6 +528,7 @@ Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai, Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahaar Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Kya Kehna
 Ae Dil Laya Hai Bahaar|Aye Dil Laya Hai Bahar
+Ae Dil Laya Hai Bahaar|Ae Dil Laya Hai Bahar
 Ae Dil Mujhe Bata De|Ae Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|Aye Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|ऐ दिल मुझे बता दे Aye Dil Mujhe Bata
@@ -914,6 +916,7 @@ Bahut Pyaar Karte Hai|Male Bahut Pyar Karte Hain
 Bahut Pyaar Karte Hai|Bahot Pyar Karte Hai Tumko Sanam
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meherbaani
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya
+Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meharbaani
 Bairi Piya|Bairi Piya
 Baiyaan Na Dharo|Baiyan Na Dharo
 Balam Pichkari|Balam Pichkari
@@ -1083,8 +1086,10 @@ Chaand Chhupaa Baadal Mein|Chand Chupa Badal Me
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Meinjeky_Kayakue
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein_
 Chaand Chura Ke Laaya Hun|Chand Chura Ke Laya Hun
+Chaand Jaane Kahan Ko Gaya|Chand Jaane Kahan Ko Gaya
 Chaand Mera Dil|Chaand Mera
 Chaand Mera Dil|Chand Mera Dil
+Chaand Mera Dil|Chand Merachandmeradil
 Chaand Ne Kuch Kaha|Chaand Ne Kuch Kaha Karaoke
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kaha Customized
@@ -1120,6 +1125,7 @@ Chaand Taare Tod Laun|Chand Tare Tod Laun Srk Special
 Chaand Taare Tod Laun|Chand Taare Tod Laun Chand
 Chaar Kadam Bas|Chaar Kadam Bas चार कदम बस
 Chadhti Jawaani Meri Chaal Mastani|Chadhti Jawaani Meri Chaal Mastani
+Chadhti Jawaani Meri Chaal Mastani|Chadhti Jawani Meri Chal Mastani
 Chain Se Humko Kabhi|Chain Se Hamko Kabhi
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chain Se Humko Kabhi|Digital Chain Se Humko Kabhi
@@ -1643,6 +1649,7 @@ Dil Hai Tumhara|Drdil Hai Tumhaara
 Dil Hai Tumhara|Mastana Mausam Hai
 Dil Hai Tumhara|Dil Hai Tumhaara
 Dil Hai Tumhara|D𝐢l H𝐚𝐢 Tu𝐦h𝐚r𝐚
+Dil Hai Tumhara|Mastana Mausam Hai Dil Hai Tumhara
 Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
 Dil Ibaadat|Dil Ibaadat Tum Mile
 Dil Jaane Jigar|Dil Jane Jigar
@@ -1951,6 +1958,7 @@ Ek Din Tum Bahut|Ek Din Tum Bahut 102
 Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
 Ek Do Teen|Ek Do Teen Char
 Ek Do Teen|Ek Do Teentezaaᵇ Ekdoteen
+Ek Do Teen|Ek Do Teen,Char Panch Chhe
 Ek Haseen Shaam|Ek Hasin Shaam Ek Haseen Shyaam
 Ek Haseena Thi|Ek Haseena Thi
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
@@ -2354,6 +2362,7 @@ Hum Unse Mohabbat Karke|Hum Unse Mohabbat Karke
 Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
 Hum Yaar Hai Tumhare|Hum Yaar Hain Tumhare
 Hum Yahan Tum Yahan|Hum Yahan Tum Yahan
+Hamaari Adhuri Kahaani|Hamari Adhuri
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
 Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
@@ -2813,6 +2822,7 @@ Jalte Diye|Jalte Diye
 Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
 Jalte Hai Jiske Liye|Jalte Hain Kiske Liye
 Jalte Hai Jiske Liye|Jalte Hain Jiske Liyesujata
+Jalte Hai Jiske Liye|Jalte Hain Jiske Liye
 Janam Janam Mere Sanam|Janam Janam Mere Sanam
 Jawaan Hai Mohabbat|Jawan Hai Mohabbat Anmol Ghadi
 Jawaani Jaaneman|Jawaani Jaaneman
@@ -2876,6 +2886,7 @@ Jhumka Gira Re|झुमका गिरा रे बरेली के Jhumka
 Jhumka Gira Re|Jhumka Gira Re Bareli Ke Bazaar Mein
 Jhumka Gira Re|Jhumka Gira Re , 3 Paragraphs
 Jhumta Mausam Mast Mahina|Jhumta Mausam Mast Mahina
+Jhumta Mausam Mast Mahina|Jhoomta Mausam Mast Mahina
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja Aaja Aaja
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja 373
 Jimmy Jimmy Jimmy Aaja Aaja Aaja|Jimmy Jimmy Jimmy Aaja ③⑦③
@@ -3771,6 +3782,7 @@ Mann Re Tu Kaahe Na Dheer Dhare|Man Re Tu Kaahe Na Dheer Dhare
 Mann Re Tu Kaahe Na Dheer Dhare|0882 Man Re Tu Kahe Na Dheer Dhare
 Manwa Laage|Manwa Laage Happy New Year
 Manzilein Apni Jagah Hain|Manzilein Apni Jagah Hain
+Manzilein Apni Jagah Hain|Manzilen Apni Jagah Hai
 Mar Jaayein Hum|Mar Jaayein Hum
 Masoom Dil Hai Mera|Maasoom Dil Hai Mera
 Mast Baharon Ka Main Aashiq|Mast Baharon Ka Main Aashiq
@@ -3943,6 +3955,7 @@ Mere Sapno Ki Rani|Mere Sapno Kirani Kab Aaegi Tu Sanam Band
 Mere Sapno Ki Rani|Mere Sapnon Ki Rani
 Mere Toote Huye Dil Se|Mere Toote Huye Dil Se
 Mere Yaara Tere Gham|Mere Yaara Tere Gham
+Meri Aankhon Se Koi Neend|Meri Aankhon Se Koi Neend Liye Jaata Hai
 Meri Aashiqui|Meri Aashiqui
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si
 Meri Bheegi Bheegi Si|Meri Bhigi Bhigi Si
@@ -4445,6 +4458,7 @@ Papa Kehte Hai|Papa Kehte Hai
 Papa Kehte Hai|Papa Kehte Hai Qayamat Se Qayamat Tak
 Papa Kehte Hai|Papa Kehte Hain
 Papa Kehte Hai|Papa Kahte Hai Bada Naam Karega
+Parbat Ke Is Paar|Parbat Ke Is Paar
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takraee
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Takrai
 Parbat Se Kali Ghata Takraee|Parbat Se Kali Ghata Tákràyî
@@ -4587,6 +4601,7 @@ Pyaar Deewana Hota Hai|Pyar Deewana Hote Hai
 Pyaar Deewana Hota Hai|Pyar Dewanahota Haicompactdeewana
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Mastana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Customised
+Pyaar Humara Amar Rahega|Pyar Humara Amar Rahega
 Pyaar Hota Hai|Pyar Hota Hai Ya Hota Hi Nahi
 Pyaar Hua Chupke Se|Pyaar Hua Chupke Se
 Pyaar Hua Chupke Se|Pyar Hua Chupke Se
@@ -4792,6 +4807,7 @@ Rimjhim Gire Saawan|Imjhim Gire Sawan
 Rimjhim Gire Saawan|Kishorkumar Rimjhim Gire Saawan
 Rimjhim Gire Saawan|Rim Jhim Gire Sawan
 Rimjhim Gire Saawan|Rimjhim Gire Sawanrimjhimgiresawan
+Rimjhim Gire Saawan|Rimjhimgiresawan
 Rimjhim Ke Geet Sawan|Rim Jhim Ke Geet Sawan
 Rimjhim Ke Geet Sawan|Rimjhim Ke Geet Sawan ]
 Rimjhim Ke Geet Sawan|Rimjhim Ke Geet
@@ -5293,6 +5309,7 @@ Tears In Heaven|Tears In Heaven Tears In
 Tera Ban Jaaunga|Tera Ban Jaunga Kabir Singh
 Tera Ban Jaaunga|Tera Ban Jaunga Tera Ban Jaunga
 Tera Ban Jaaunga|Tera Ban Jaunga
+Tera Ban Jaaunga|: Meri Rahe Tere Tak Hai
 Tera Chaand Chehra|Tera Chand Chehra
 Tera Chehra|Tera Chehra
 Tera Chehra|Tera Chehraadnan Sami
@@ -5766,6 +5783,7 @@ Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene Ka Vada Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Sath Tum Agar Saatsj
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Sath Tum Agar Saatsj S A
 Tum Bhi Chalo Hum Bhi Chale|Tum Bhi Chalo Tum Bhi Chalo
+Tum Bhi Chalo Hum Bhi Chale|Tum Bhi Chalo
 Tum Bin Jaaoon Kahan|Tum Bin
 Tum Bin Jaaoon Kahan|Tum Bin Jaaoon Kahan
 Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan
@@ -6427,6 +6445,7 @@ Yeh Raatein Yeh Mausam|Yeh Raaten Yeh Mausam Nadi Ka Kinara
 Yeh Raatein Yeh Mausam|Yeh Raaten Yeh Mausam
 Yeh Raatein Yeh Mausam|Ye Raate Ye Mausam Vs Female Aalap
 Yeh Raatein Yeh Mausam|Ye Ratein Ye Ratein H
+Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Ratein
 Yeh Reshmi Zulfein|Yereshmizulfeinye Reshmi Zulfein
 Yeh Reshmi Zulfein|Yeh Reshmi Zulfen
 Yeh Reshmi Zulfein|Ye Reshmi Zulfein
@@ -6520,6 +6539,7 @@ Zara Zara Bahekta Hai|Zara Zara Behekta Hai Hindi
 Zara Zara Bahekta Hai|Zara Zara Bahekta Hai Rhtdm
 Zara Zara Bahekta Hai|Zara Zara Bahekta
 Zara Zara Bahekta Hai|Zara Zara Behkta Hai
+Zaroori Tha|Zaroori Tha
 Zehenaseeb|Zehenaseeb
 Zehenaseeb|Zehnaseeb
 Zehenaseeb|Zehnaseeb Tujhe Chahun Betahasha
