@@ -99,6 +99,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar K Churche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche Har Zubaan
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Aaj
+Aaj Kehna Zaroori Hai|Aaj Kehna Zaroori Hai
 Aaj Ki Raat Stree 2|Aaj Ki Raat
 Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
 Aaj Ki Raat Stree 2|Aaj Ki Raat L Stree 2
@@ -128,6 +129,7 @@ Aaj Phir Jeene Ki Tamanna Hai|Aaj Phir Jeene Ki Tamanna Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aya Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyar Aaya Hai
 Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe Pyaar Aaya Hain
+Aaj Phir Tumpe Pyaar Aaya Hai|Aaj Phir Tumpe
 Aaj Rapat Jaayen|Aaj Rapat Jaayen
 Aaj Rapat Jaayen|Aaj Rapat Jaayen Toh
 Aaj Rapat Jaayen|Aaj Rapat Jaaye
@@ -631,6 +633,7 @@ Aise Kyun|Aise Kyun
 Aise Na Mujhe Tum|Aise Na Mujhe Tum
 Aise Na Mujhe Tum|Aise Na Mujhe Tum Dekho
 Aise Na Mujhe Tum|Aise Na Mujhe
+Aise Na Mujhe Tum|Aise Na Mujhe Aise Na Mujhe
 Aise To Na Dekho|Aise To Na Dekho
 Aise To Na Dekho|Aise To Nadekho 1965
 Aisi Deewanagi|Aisi Deewanagi
@@ -914,6 +917,7 @@ Bahut Pyaar Karte Hai|Bohat Pyaar Karte Hai Unpluged
 Bahut Pyaar Karte Hai|Bahut Pyar
 Bahut Pyaar Karte Hai|Male Bahut Pyar Karte Hain
 Bahut Pyaar Karte Hai|Bahot Pyar Karte Hai Tumko Sanam
+Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hain Tumko Sanam
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meherbaani
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya
 Bahut Shukriya Badi Meherbaani|Bahut Shukriya Badi Meharbaani
@@ -1506,6 +1510,7 @@ Dekha Hazaro Dafaa|Dekha Hazaro Dafa Rustom
 Dekha Jo Tumko|Dekha Jo Tumko
 Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
 Dekha Na Haaye Re|Dekha Na Haye Re Socha Na Haye Re
+Dekha Tujhe To Ho Gayi|Dekha Tujhe To Ho Gayi Koyla
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekhne Walon Ne|Dekhne Walon Ne Dekh Ne Walon Ne
@@ -1581,6 +1586,7 @@ Dholi Taro Dhol Baje|Dholi Taro Dhol Baje
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dhoom Machale|Dhoom Machale Dhoom Dhoom 1
 Didi Tera Devar Deewana|Didi Tera Devar Deewana
+Didi Tera Devar Deewana|Rpdidi Tera Devar Deewana
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun Ke Bekhud Kiya
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun
 Dil Aaj Shayar Hai|Dil Aaj Shayar Hai
@@ -1811,6 +1817,7 @@ Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics
 Dillagi Ne Di Hawa|~ Dillagi Ne Di Hawa
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics Hh
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa St
+Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics Hh T
 Dilruba Dil Pe Tu Ye Sitam Kiye Ja|Dilruba Dil Pe Tu Ye Sitam Kiye Ja
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
@@ -1961,6 +1968,7 @@ Ek Do Teen|Ek Do Teentezaaᵇ Ekdoteen
 Ek Do Teen|Ek Do Teen,Char Panch Chhe
 Ek Haseen Shaam|Ek Hasin Shaam Ek Haseen Shyaam
 Ek Haseena Thi|Ek Haseena Thi
+Ek Haseena Thi|Ek Haseena Thimusicoolpiyush_
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhaagi Si
 Ek Ladki Bheegi Bhaagi Si|Ek Ladki Bheegi Bhagi Si
 Ek Ladki Bheegi Bhaagi Si|Mz Ek Ladki Bheegi Bhaagi Si
@@ -2073,6 +2081,7 @@ Gazab Ka Hai Din|Gazab Ka Hai
 Gazab Ka Hai Din|Gazab Ka Hai Dinqayamatseqayamattak
 Geet Gata Hoon Main|Geet Gata Hoon Main
 Gerua|Gerua
+Gerua|Gerua Dilwale
 Ghadi Ghadi Mora Dil Dhadke|Ghadi Ghadi Mora Dil Dhadke Kyun
 Gham Ka Khazaana|Gham Ka Khazana Tera Bhi Hai Mera Bhi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi
@@ -3384,6 +3393,7 @@ Koi Kaise Mohabbat Chupaye|Koi Kaise Mohabbat Chupaye
 Koi Ladki Hai|Koi Ladki Hai
 Koi Ladki Hai|Koi Ladki Hai Jab Wo Hansti Hai
 Koi Ladki Hai|Koi Ladki
+Koi Ladki Hai|Koi Ladki Hai Dil To Pagal Hai
 Koi Ladki Mujhe Kal Raat|Koi Ladki Mujhe Kal Raat
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
 Koi Mil Gaya|Koi Mil Gaya ,Wd One Paragraph
@@ -3425,6 +3435,7 @@ Kuch Na Kaho|Gem Kuch Na Kaho
 Kuch Na Kaho|Kuch Na
 Kuch Na Kaho|Kuch Na Kaho Kuchnakaho
 Kuch Na Kaho|Kuchnakaho1942Alovestory
+Kuch Na Kaho|Kuch Na Kaho Kuch Naa Kaho
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -4031,6 +4042,7 @@ Mohabbat Kar Lo Jee Bhar Lo|Mohabbat Kar Lo Jee Bhar Lo
 Mohabbat Kar Lo Jee Bhar Lo|मोहब्बत कर लो जी भर लो अजी किसने रोका है
 Mohabbat Ki Jhooti Kahaani|Mohabbat Ki Jhooti Kahani
 Mohabbat Ki Jhooti Kahaani|Mohabbat Ki Jhooti Kahani Pe Roye
+Mohabbat Ki Pehli Ek Nazar Ne|Mohabbat Ki Pehli Ek Nazar Ne
 Mohabbat Se Dekha Khafa Ho Gaye|Mohabbat Se Dekha Khafa Hogye Hain
 Mohe Bhool Gaye Sanwariya|Mohe Bhool Gaye Sanwariya
 Mohe Panghat Pe Nandlal|Mohe Panghat Pe Nandlal
@@ -4391,6 +4403,7 @@ Paaon Chhoo Lene Do|Paaon Chhoo Lene Do
 Paaon Chhoo Lene Do|Paav Chu Lene
 Paas Nahin Aana|Paas Nahin Aana Bhool Nahin
 Paas Woh Aane Lage|Paas Woh Aane Lage
+Paayal Meri|Payal Meri
 Paayalein Chunmun|Paayalein Chunmun
 Paayalein Chunmun|Payalay Chunmun
 Paayalein Chunmun|Payalay Chunmun Virasat
@@ -4900,6 +4913,7 @@ Ruke Ruke Se Kadam|Ruke Ruke Se Kadam
 Ruke Ruke Se Kadam|Ruke Ruke Se Ruke Ruke Se
 Rukh Se Zara Naqaab Utha|Rukh Se Zara Naqaab Utha
 Rukh Se Zara Naqaab Utha|Rukh Se Zara Naqaab Utha Do
+Rukh Se Zara Naqaab Utha|Rukh Se Zara Naqaab
 Ruki Ruki Thi Zindagi|Ruki Ruki Thi Zindagi
 Ruki Ruki Thi Zindagi|~Ruki Ruki Thi Zindagi
 Rula Ke Gaya Sapna Mera|Rula Ke Gaya Sapna Mera
@@ -5164,6 +5178,7 @@ Soldier Soldier|Soldier Soldier Title Song
 Soldier Soldier|Soldier Soldier Title Song Soldier
 Soldier Soldier|Soldier Soldier Meethi Baatein
 Soldier Soldier|Soldier, Soldier
+Soldier Soldier|Soldier Soldier Meethi
 Someone Like You|Someone Like You
 Someone Like You|Solo Bachata
 Something Good|Something Good

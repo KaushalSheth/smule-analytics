@@ -524,7 +524,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 else:
                     joinMessage = " Thanks for joining my invites"
             # Override the join message for now
-            joinMessage = "If interested in joining me, please check my open invites soon - no new invites from me"
+            joinMessage = ""
             comment = build_comment('@' + performers + ' ', joinMessage)
         #print(f"Performers = {performers}, Comment = {comment}")
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
@@ -1008,7 +1008,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         return 2
 
     # Print filename
-    print(f"Downloading {filename}")
+    #print(f"Downloading {filename}")
 
     try:
         # Print out the web_url for debugging purposes
@@ -1025,7 +1025,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
             # Print out the media_url for debugging purposes
             # TODO: Convert this to a debug message?
-            print(media_url)
+            #print(media_url)
             req = request.Request(media_url,headers=createFakeUAHeaders())
             response = request.urlopen(req)
             # Get the redirected URL - this should be the actual file to be downloaded
