@@ -69,6 +69,7 @@ Aaj Hai Sagai|Aaj Hai Sagaai Sun Ladki Ke Bhai
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
 Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid
+Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid Na Kaaro
 Aaj Kahna Jaruri Hai|Aaj Kahna Jaruri Hai
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya Din
@@ -238,6 +239,7 @@ Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke Sapne Sajaye Hain
 Aankhon Mein Humne Aapke|Ankhon Mein Humne
 Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke Sapne
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke Sapne Sajaye
+Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke
 Aankhon Mein Kaajal Hai|Aankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai Aankhon
@@ -276,6 +278,7 @@ Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
 Aansu Bhari Hai|Aansu Bhari Hai Ye Jivan Ki Raahen
 Aansu Bhari Hai|Aansou Bhari Hai Ye Jivan Ki Raahen
+Aansu Bhari Hai|Ansu Bhari Hai Ye Jeevan Ki Rahe
 Aao Huzur Tum Ko|Aao Huzur Tum Ko : , By M D Tyagi
 Aao Huzur Tum Ko|Aao Huzur Tumko
 Aao Huzur Tum Ko|Aao Huzoor Tumko Asha Bhosle
@@ -735,6 +738,7 @@ Ande Ka Funda|Ande Ka Funda
 Andekhi Anjaani Si|Andekhi Anjaani Si
 Andekhi Anjaani Si|Reff Andekhi Anjaani Si
 Andekhi Anjaani Si|Andekhi Anjani Si
+Andekhi Anjaani Si|Andekhi Anjaani Si Song
 Andheri Raton Mein|Andheri Raton Mein Sunsan Rahon Par
 Ang Lag Jaa Baalmaa|Ang Lag Jaa Baalmaa : Mera Naam Joker
 Angrezi Mein Kehte Hai Ke I Love You|Angrezi Mein Kehte Hai Ke I Love You
@@ -769,6 +773,7 @@ Are Re Are Ye Kya Hua|Arre Re Arre Ye Kya Huaa
 Are Re Are Ye Kya Hua|Arre Re Are Ye Kya Hua
 Are Re Are Ye Kya Hua|Are Re Are Yeh Kya Hua
 Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Isc_Arief86
+Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Song
 Ari Chhod De Patang|Ari Chodd De Patang Meri Chodd Denagin 1954
 Asha Ji Songs Medley|Asha Ji Songs Medley
 Asha Ji Songs Medley|Asha Medley
@@ -865,6 +870,7 @@ Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapate Hue Prince
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare , 2 Paragraphs
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare
 Badan Pe Sitare Lapate Hue|Badan Pe Lapate Hue
+Badan Pe Sitare Lapate Hue|Badan Pe Sitare Prince
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
 Bade Acchhe Lagate Hain|Bade Ache Lagte Hai :
@@ -926,6 +932,7 @@ Baiyaan Na Dharo|Baiyan Na Dharo
 Balam Pichkari|Balam Pichkari
 Balam Pichkari|Balam Pichkari Pichkari
 Balam Pichkari|Balam Pichkari With Vocals
+Bangle Ke Peechhe|Bangle Ke Peechhe
 Banke Tera Jogi|Banke Tera Jogi
 Banke Tera Jogi|Ban Ke Tera Jogi Tu Yaar Tu Hi Dildaar
 Barfani Babumoshai Bandookbaaz|Barfani Babumoshai Bandookbaaz
@@ -1307,6 +1314,7 @@ Chhookar Mere Man Ko|Chooker Mere Mann Ko
 Chhookar Mere Man Ko|Chookar Mere Maan Ko
 Chhookar Mere Man Ko|Chookar Mere Mann Chhukar Man Manko Chukar
 Chhookar Mere Man Ko|1053 Chookar Mere Man Ko
+Chhookar Mere Man Ko|Chukarmeremanko Chukarmere Chookar
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Si Asha|Dil Hai Chhota Sa
@@ -1520,6 +1528,7 @@ Dekhne Walon Ne|Dekhne Walon Ne Kya C4 Cl
 Dekhne Walon Ne|Dekhne Waalon Ne Kya
 Dekho Dekho Jaanam Hum|Dekho Dekho Jaanam Hum ~ Song
 Dekho Dekho Jaanam Hum|Dekho Dekho Janam Hum
+Dekho Dekho Jaanam Hum|Dekho Dekho Janam Hindi
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
 Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
@@ -1545,6 +1554,7 @@ Dhadak Title|Dhadak Female
 Dhadak Title|Dhadak Title Dhadak
 Dhadak Title|Dhadak Title
 Dhadak Title|Jo Meri Manzilon Ko
+Dhadak Title|Marhami Sa
 Dhadkane Saanse Jawaani|Dhadkane Saanse Jawani
 Dhak Dhak Karne Laga|Dhak Dhak
 Dhak Dhak Karne Laga|Dhak Dhak Karne
@@ -1811,6 +1821,7 @@ Dilbar Jaani Chali Hawa|Dilbar Jaani Chali Hawa
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak
+Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Takk Mujhe
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics
@@ -2020,6 +2031,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Fanclub 2024
 Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai Shor
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Naghma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagmacompact
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Papon Neeti Mohan
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
@@ -2599,6 +2611,7 @@ Jaane Chaman Shola Badan|Jaane Chaman Shola Badan Pahlu Me Aa Jao
 Jaane Chaman Shola Badan|Jane Chaman Shola Badan
 Jaane Chaman Shola Badan|Jaane Chaman Shola Jane
 Jaane Chaman Shola Badan|Jaane Chaman Shola Badan (Wd 2 Paragr
+Jaane Chaman Shola Badan|Jane Chaman
 Jaane De|Jaane De
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kab Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse Hai Tu
@@ -2986,6 +2999,7 @@ Kaali Ghata Chhaye|Kaali Ghata Chhaaye Mora Jiya : Sujata
 Kaali Ghata Chhayi Prem Rut Aayi|Kaali Ghata Chhayi Prem Rut Aayi
 Kaali Ghata Chhayi Prem Rut Aayi|Kali Ghata Chhai Prem Rut Aayi
 Kaali Kaali Zulfon Ke|Kali Kali Zulfon Ke
+Kaali Kaali Zulfon Ke|Kali Kali Zulfon
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Super
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Re
 Kaanchi Re Kaanchi|Kanchi Re Kanchi Re St
@@ -3058,6 +3072,7 @@ Kabira|Kabirayeh Jawani Yeiwani
 Kabira Naina Mixtape|Kabira Naina Mixtape T
 Kabira Naina Mixtape|Kabiranaina
 Kabootar Ja Ja Ja|Kabootar Ja Ja Ja
+Kabootar Ja Ja Ja|Rp Kabootar Ja Ja Ja
 Kahaan Se Aaye Badra|Kahan Se Aaye Badra
 Kahaan Tak Ye Man Ko|Kahan Tak Ye Man Ko
 Kahaan Tak Ye Man Ko|Kahan Tak
@@ -3209,6 +3224,7 @@ Kaun Tujhe|Tu Aata Hai
 Kaun Tujhe|F Kaun Tujhe Ms Dhoni
 Kaun Tujhe|Kaun Tujhe Yun Peyar Karego
 Kaun Tujhe|Tu Aata Hai Seene Mein
+Kaun Tujhe|Kaun Tujhe Yu
 Kaun Tujhe x Kuch To Hai Mashup|Kaun Tujhe Kuch To Hai Mashup
 Ke Sera Sera|Kay Sera Sera
 Ke Sera Sera|Ke Sera Sera
@@ -4486,6 +4502,7 @@ Pardesiya|Pardesiya Yeh Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Hai Piya
 Pardesiya|Rp Pardesiya Ye Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Pardesiya Yeh Sach
+Pardesiya|1034 Pardesiya Ye Sach Hai Piya
 Pardesiya|H‌D‌ Pardesi Pardesi Jana Nahi
 Pardesiyon Se Na Akhiyan Milaana|Pardesiyon Se Na Akhiyan Milana
 Pardesiyon Se Na Akhiyan Milaana|Pardesion Se Na Ankhiyan Milana
@@ -4933,6 +4950,7 @@ Saagar Kinare|Saagarkinaare
 Saagar Kinare|Sagar Saagar Kinare
 Saagar Kinare|Saagar Kinaare Dil Yeh Pukaare
 Saagar Kinare|0394 Saagar Kinare Dil Ye Pukare
+Saagar Kinare|Saagar Kinare Dil Ye Pukare
 Saagar Sang Kinaare Hai|Sagar Sang Kinare Hai Vijay Path
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saajan Saajan|Saajan Saajan
@@ -5232,6 +5250,7 @@ Sun Sahiba Sun|Sun Sahiba Sun Pyaar Ki Dhoon
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zaalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Zalima
 Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Aarpaar
+Sun Sun Sun Sun Zaalima|Sun Sun Sun Sun Aarpaar 1954 Singalong
 Suniye Kahiye|Suniye Kahiye 1979
 Suniye Kahiye|Suniye Kahiye , Baton Baton Mein
 Suniye Kahiye|~ Suniye Kahiye 1979
@@ -5246,6 +5265,7 @@ Suno Na Sangemarmar|Suno Na Sangemarmar
 Suno Na Suno Na|Suno Na Suno Na
 Suno Na Suno Na|Tum Ne Na Jaana
 Suno Na Suno Na|Suno Na Suno Na Sun Lo Na
+Suno Na Suno Na|Suno Na Suno Na Chalte Chalte
 Sunta Hai Mera Khuda|Sunta Hai Mera Khuda
 Suraj Hua Maddham|`Suraj Hua Madham
 Suraj Hua Maddham|Suraj Hua
@@ -5280,6 +5300,7 @@ Surmaiye Ankhiyon Mein|Surmayi Akhiyon Mein
 Surmaiye Ankhiyon Mein|Surumai Akhiyom Main
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon
 Surmaiye Ankhiyon Mein|Surmayi Akhiyon Main
+Surmaiye Ankhiyon Mein|Surumayi Akhiyon
 Sweet Child Of Mine|Sweet Child Of Mine
 Taal Se Taal Mila|Taal Se Taal
 Taal Se Taal Mila|Taal Se Taal Mila
@@ -5696,6 +5717,7 @@ Tu Tu Hai Wahi|📀 Tu Tu Hai Wohi
 Tu Tu Hai Wahi|Yeh Waada Raha Tu Hai Wohi
 Tu Tu Hai Wahi|Tutuhaiwahiyeh Vaada Rahatitle Song
 Tu Tu Hai Wahi|Tu Tu Hai Wahi, Tu Tu Hai Wahi [ Trac
+Tu Tu Hai Wahi|Tu Hai Wohi Tu Hai Wahi
 Tu Tu Tu Taara|Tu Tu Tu Tara😜
 Tu Tu Tu Taara|Tu Tu Tu Tara
 Tu Zaroori|Tu Zaroori
@@ -5908,6 +5930,7 @@ Tum Mujhe Yun|Tum Mujhe Yun Bhula
 Tum Mujhe Yun|Tum Mujhe
 Tum Mujhe Yun|Tum Mujhe Yun Bhula Na Paoge
 Tum Mujhe Yun|Tum Mujhe Yun Mohammed
+Tum Mujhe Yun|Tum Mujhe Yun Mujhe Yun
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis Jahan Mein
