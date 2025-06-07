@@ -6,14 +6,62 @@ import json, re, csv
 from urllib import request
 from fake_useragent import UserAgent
 
-COMMENTS = {\
-    'awesome':['awesome performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
-    'fantastic':['fantastic performance 👌👌👌👌','fabulous rendition 👌👌👌👌','excellent singing 👌👌👌👌'],\
-    'good':['superb singing 👌👌👌','beautiful performance 👌👌👌','great rendition 👌👌👌'],\
-    'average':['lovely singing 👌👌','lovely performance 👌👌','lovely rendition 👌👌'],\
-    'ok':['nice rendition 👌','nicely sung 👌','nice performance 👌'],\
-    'bad':['good attempt']
-    }
+# COMMENTS = {\
+#     'awesome':['awesome performance 👌👌👌👌👌','amazing singing 👌👌👌👌👌','awesome rendition 👌👌👌👌👌'],\
+#     'fantastic':['fantastic performance 👌👌👌👌','fabulous rendition 👌👌👌👌','excellent singing 👌👌👌👌'],\
+#     'good':['superb singing 👌👌👌','beautiful performance 👌👌👌','great rendition 👌👌👌'],\
+#     'average':['lovely singing 👌👌','lovely performance 👌👌','lovely rendition 👌👌'],\
+#     'ok':['nice rendition 👌','nicely sung 👌','nice performance 👌'],\
+#     'bad':['good attempt']
+#     }
+
+rating1 = []
+rating1.append("Great effort! 👌 Karaoke is about fun and you nailed that part. Keep practicing!")
+rating1.append("Brave performance! 👌 Your energy was wonderful. A little practice and you will be unstoppable!")
+rating1.append("Fantastic energy! 👌 You clearly love music. Keep working and you will see amazing progress!")
+rating1.append("Fun performance! 👌 You made me smile. Keep practicing and you will get stronger!")
+rating2 = []
+rating2.append("Good effort with melody! 👌👌 Singing improving and you are finding your rhythm!")
+rating2.append("Well done staying with beat! 👌👌 Your vocal control is coming along. Right track!")
+rating2.append("Nice work stayijng in tune! 👌👌 Your voice has potential and you are controlling it better!")
+rating2.append("Good job with pacing! 👌👌 Your confidence is growing and it shows in your singing!")
+rating2.append("Solid attempt! 👌👌 Getting more comfortable with the microphone and its paying off!")
+rating2.append("You are developing style! 👌👌 Voice sounded stronger in parts. Keep working on it!")
+rating3 = []
+rating3.append("Nice performance! 👌👌👌 Hit most notes and kept good rhythm. Voice really developing!")
+rating3.append("Good job overall! 👌👌👌 Pitch was solid and you stayed with music well. Confident!")
+rating3.append("Well done! 👌👌👌 Voice sounded clear and handled challenging parts nicely. Great!")
+rating3.append("Solid singing! 👌👌👌 Maintained good control and performance was engaging!")
+rating3.append("Nice work! 👌👌👌 Timing was good and you hit the high notes well. Finding groove!")
+rating3.append("Good performance! 👌👌👌 Voice has nice tone and you are comfortable performing!")
+rating3.append("You did well! 👌👌👌 Rhythm was steady and you sang with confidence. Improving!")
+rating3.append("Nice job! 👌👌👌 Handled melody smoothly and voice projected well. Great foundation!")
+rating3.append("Good singing! 👌👌👌 Stayed on key mostly and your energy was perfect. Keep going!")
+rating3.append("Well performed! 👌👌👌 Voice control was good and you engaged audience nicely!")
+rating4 = []
+rating4.append("Excellent performance! 👌👌👌👌 Voice was strong and clear. You really connected with song!")
+rating4.append("Outstanding job! 👌👌👌👌 Pitch was spot-on and performance was captivating!")
+rating4.append("Fantastic singing! 👌👌👌👌 You nailed difficult parts and voice had great emotion!")
+rating4.append("Wonderful performance! 👌👌👌👌 Control was excellent and you made the song your own!")
+rating4.append("Great job! 👌👌👌👌 Voice sounded professional and you hit every note with confidence!")
+rating4.append("Impressive singing! 👌👌👌👌 Rhythm was perfect and voice had beautiful tone. Natural!")
+rating4.append("Excellent work! 👌👌👌👌 You commanded audience and vocal technique was strong!")
+rating4.append("Outstanding performance! 👌👌👌👌 Voice was powerful and expressive. Brought song to life!")
+rating4.append("Fantastic job! 👌👌👌👌 Pitch control was excellent and performance was magnetic!")
+rating4.append("Wonderful singing! 👌👌👌👌 Voice had great range and you performed with real artistry!")
+rating5 = []
+rating5.append("Absolutely perfect! 👌👌👌👌👌 Voice was flawless and performance was mesmerizing!")
+rating5.append("Incredible performance! 👌👌👌👌👌 You sang like a professional and captivated me!")
+rating5.append("Phenomenal! 👌👌👌👌👌 Voice control was perfect and delivered every note with precision!")
+rating5.append("Outstanding! 👌👌👌👌👌 You transformed the song and made it uniquely yours!")
+rating5.append("Brilliant execution! 👌👌👌👌👌 Voice was pitch-perfect and performance magnetic!")
+rating5.append("Spectacular! 👌👌👌👌👌 Hit every note flawlessly and performed with incredible emotion!")
+rating5.append("Perfect execution! 👌👌👌👌👌 Voice was powerful and beautiful. Natural-born performer!")
+rating5.append("Exceptional! 👌👌👌👌👌 Vocal range and control were impressive. Truly professional!")
+rating5.append("Magnificent! 👌👌👌👌👌 Voice soared and you connected with me. Breathtaking!")
+rating5.append("Flawless! 👌👌👌👌👌 Performance was captivating start to finish. Incredible talent!")
+
+COMMENTS = {'awesome':rating5,'fantastic':rating4,'good':rating3,'average':rating2,'ok':rating1,'bad':['good attempt']}
 
 # Generate a fake user agent to avoid Smule blocking python requests
 def createFakeUAHeaders():
