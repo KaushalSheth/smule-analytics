@@ -49,6 +49,7 @@ Aadha Hai Chandrama|Adha Hai Chandrama
 Aadha Hai Chandrama|Adha Hai Aadha Hai
 Aadha Hai Chandrama|Aadha Hai Chandrama Raat Aadhee (Navrang
 Aadha Hai Chandrama|Adha Hai Chandrmaraat Aadhee Aadha
+Aadmi Jo Kehta Hai|Aadmi Jo Kehta Hai
 Aadmi Musafir Hai|Aadmi Musafir Hai
 Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Tu Shalzz865
@@ -175,6 +176,7 @@ Aaja Shaam Hone Aayi|Aaja Shaam Hone Aayi
 Aaja Shaam Hone Aayi|Aaja Shaam Hone Ayee
 Aaja Shaam Hone Aayi|ᴴᴰ Aaja shaam hone aayi ( clear karaoke )
 Aaja Shaam Hone Aayi|Aaja Shaam Hone
+Aaja Shaam Hone Aayi|Aaja Sham Hone Aayi, Mausam Ne Li
 Aaja Tujhko Pukare Mere Geet Re|Aaja Tujhko Pukare U
 Aaja Tujhko Pukare Mere Geet Re|Mere Mitwa Mere Meet Aaja Tujhko
 Aaja Tujhko Pukare Mere Geet Re|Mere Mitwa Mere Meet
@@ -515,6 +517,7 @@ Ae Dil E Nadan|ऐ दिल
 Ae Dil E Nadan|Aye Dile
 Ae Dil E Nadan|Aye Dile Nadan
 Ae Dil E Nadan|Aye Dil E Nadan Razia Sultan 1983
+Ae Dil E Nadan|Aye Dil E Nadan Razia Sultan
 Ae Dil Hai Mushkil|[HQ] Ae Dil Hai Mushkil Unplugged Short Cover
 Ae Dil Hai Mushkil|Ae Dil Hai
 Ae Dil Hai Mushkil|Ae Dil Hai Mushkil
@@ -604,6 +607,7 @@ Agar Mujh Se Mohabbat Hai|Agar Mujh Se Mohabbat Hai Mujhy Sab
 Agar Mujh Se Mohabbat Hai|Agar Mujhse Mohabbat Hai
 Agar Saaz Cheda Taraane Banenge|Agar Saaz Cheda Tarane Banenge
 Agar Tum Mil Jao|Agar Tum Mil Jao
+Agar Tum Mil Jao|Agar Tum Mil Jao Zamana Chor Denge Hum
 Agar Tum Na Hote|Agar Tum Na Hoote
 Agar Tum Na Hote|Agar Tum Na Hote
 Agar Tum Na Hote|Hume Aur Jeene Ki Chhahat Na Hoti
@@ -892,6 +896,7 @@ Bade Miyaan Deewane Aise Na Bano|Bade Miyan Deewane Aise Na Banobade Miyan
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Baba Badi Mushkil
+Badi Nazuk Hai Ye Manzil|Badi Nazuk Hai Ye Manzil
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Suni
 Badi Sooni Sooni Hai|Badi Sooni Badi Suni Hh
@@ -1345,6 +1350,7 @@ Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Me Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun
 Chhupa Lo Yun Dil Mein|0851 Chhupa Lo Yun Dil Mein Pyar Mera
+Chhupaana Bhi Nahi Aata|Chupana Bhi Nahi Aata
 Chhupne Waale Saamne Aa|Chupne Wale Saamne Aa
 Chhupne Waale Saamne Aa|Chhupne Wale Saamne Aa Chhup Chhup Ke
 Chikni Chameli|Chikni Chameli
@@ -1576,6 +1582,7 @@ Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Shaam
 Dhal Gaya Din|Dhul Gaya Dinn Ho Gai Shyaam
 Dhal Gaya Din|Dhal Gaya Din Ho Gayi Shaam
+Dhal Gaya Din|Dhal Gaya Din Ho Gayee
 Dhalti Jaaye Raat|Dhalti Jaye Raat
 Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
@@ -1673,6 +1680,7 @@ Dil Hai Tumhara|D𝐢l H𝐚𝐢 Tu𝐦h𝐚r𝐚
 Dil Hai Tumhara|Mastana Mausam Hai Dil Hai Tumhara
 Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
 Dil Ibaadat|Dil Ibaadat Tum Mile
+Dil Ibaadat|Dil Ibadat
 Dil Jaane Jigar|Dil Jane Jigar
 Dil Jaane Jigar|Dil Jaane Jigar Tujh Pe
 Dil Jo Na Keh Saka|Dil Jo Na Keh Saka
@@ -2074,6 +2082,7 @@ Gali Mein Aaj Chand Nikla|Gali Me Aaj Chand Galimeaaj
 Gali Mein Aaj Chand Nikla|Gali Me Aaj Gali Mein Aaj Hh
 Gali Mein Aaj Chand Nikla|Gali Mein Aajchand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Nikla Zakhm
+Gali Mein Aaj Chand Nikla|Gali Main Aaj Chand Nikala
 Galliyan|Galliyan
 Galliyan|Galliyan The R&B Female
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
@@ -2525,6 +2534,7 @@ Is Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
 Is Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
 Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Iss Pyaar Se
 Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Meri Taraf Na Dekho
+Is Pyaar Se Meri Taraf Na Dekho|Iss Pyar Se Meri Taraf Naa Dekho
 Is Tarah Aashiqui Ka Asar|Is Tarah Aashiqui Ka Asar
 Is This Love|Is This Love
 Is This Love|Is This Love? Kismat Konnection
@@ -2631,6 +2641,7 @@ Jaane Dil Mein Kab Se Hai Tu|Sad Jaane Dil Mein Kabse Se Hai Tu
 Jaane Dil Mein Kab Se Hai Tu|Janne Dil Mein Kabse Hetu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mҽ Kab Se Hai Tu Kabse
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse
+Jaane Dil Mein Kab Se Hai Tu|Jane Dil Me Kab Se Hai Tu
 Jaane Do Na|Jaane Do Naa
 Jaane Do Na|Jaane Do Na Paas Aao Na
 Jaane Ja O Meri Jaane Ja|Janeja O Meri Janeja
@@ -2880,6 +2891,7 @@ Jeevan Ke Din|Jeevan Ke Din
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Par
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe
 Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod
+Jeevan Ke Har Mod Pe|Jeevan Ke Har Mod Pe: Jhootha Kahin Ka
 Jeevan Ke Safar Mein Raahi|Jeevan Ke Safar Mein Rahi
 Jeevan Ki Bagiya Mehkegi|Jeevan Ki Bagiya Mehkegi
 Jeevan Ki Bagiya Mehkegi|Jeewan Ki Bagiya Mehkegi
@@ -3378,6 +3390,7 @@ Kissa Hum Likhenge|Kissa Hum Likhenge
 Kitaabein Bahut Si|Kitabein Bahut Si Asha Vinod
 Kitaabein Bahut Si|Kitaben Bahut Si
 Kitaabein Bahut Si|Kitaben Bahut Si Baazigar
+Kitaabein Bahut Si|Kitaben Bahut Si Padhi Hongi
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyaara Hai Yeh Chehra|Kitna Pyara Hai Yeh Chehra
 Kitna Pyara Tujhe|Kitna Pyara Tujhe
@@ -4312,6 +4325,7 @@ Neele Neele Ambar Par|~ Neele Neele Ambar Par
 Neele Neele Ambar Par|Neele Neele Ambar Par ,
 Neele Neele Ambar Par|Neele Neele Ambar Par Hindi
 Neele Neele Ambar Par|Neele Neele Ambar Par Chaand
+Neele Neele Ambar Par|Neele Neele Ambar Pr Chand Jab Aaye
 Neend Churake Raaton Me|Neend Churake Raaton Me
 Neend Churayee Meri|Neend Churayee Meri Kisne O Sanam
 Neend Churayee Meri|Neend Churayee Meri
@@ -4386,6 +4400,7 @@ O Mere Sona Re|O Mere Sona Re Sona
 O Mere Sona Re|O Meri Soni Mere|O Meri Soni Mere
 O Meri Mehbooba|O Meri Mehbooba
 O Meri Soni Mere|O Meri Soni Meri Tamanna
+O Meri Soni Mere|Meri Soni Meri Tamanna
 O Nigaahe Mastaana|O Nigahe Mastana
 O Oh Jaane Jaana|O Oh Jaane Jana
 O Oh Jaane Jaana|O O Jaane Jaana
@@ -4421,6 +4436,7 @@ Oh Re Taal Mile|Oh Re Taal Mile
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Jal Mein
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Fanclub 2025
 Old Songs Medley|Old Songs Medley
+Om Jai Jagdish Hare|Om Jai Jagdish Hare
 Om Shanti Om|Om Shanti Om
 Only Time|Only Time
 Ooh La La|Ooh La La
@@ -4791,6 +4807,7 @@ Raat Ke Humsafar|Raat Ke
 Raat Ke Humsafar|Raat Ke Humsafar Bhavana Pandit
 Raat Ke Humsafar|0517 Raat Ke Humsafar
 Raat Shabnami|Raat Shabnami
+Raat Shabnami|Raat Shabnami Bheegi Chandni
 Raaz Aankhein Teri|Raaz Aakhein Teri
 Rafi Sahab Medley|Sahab Medley
 Radha Kaise Na Jale|3Dradha Kaise Na Jale
@@ -5122,6 +5139,7 @@ Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Saathiya
 Sathiya Yeh Tune Kya Kiya|Sathiya Yeh Tune Kya Kiyalve
 Sathiya Yeh Tune Kya Kiya|Sathiya Tune Kya Kiya Love
 Sathiya Yeh Tune Kya Kiya|Saathiya Tune Kya Kiya Sathiya
+Sathiya Yeh Tune Kya Kiya|Saathiya Ye Tune Kya Kiya
 Satyam Shivam Sundaram|0451 Satyam Shivam Sundaram
 Satyam Shivam Sundaram|Satyam Shivam Sundaram 1978
 Sau Aasmaan|Sau Asmaan
@@ -5144,6 +5162,7 @@ Sayonara Sayonara|Sayonara Sayonara
 Sayonara Sayonara|सायोनारा सायोनारा वादा निभाउंगी सायोनारा
 Seene Mein Dil Hai|Seene Mein Dil Hai
 Seene Mein Jalan|Seene Mein Jalan
+Seene Mein Sulagate Hain Armaan|Seene Mein Sulagate Hain Armaan
 Senorita|Senorita
 Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
 Shaam Dhale Khidki Tale|Shaam Dhale, Khidaki Tale
@@ -6069,6 +6088,7 @@ Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Asia Jadu
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rageele Kaisa Jaadu Kiya
 Tune O Rangeele Kaisa Jaadu Kiya|Tune O Rangeele Kaisa
 Tune O Rangeele Kaisa Jaadu Kiya|Tu Ne O Rangeele
+Tune O Rangeele Kaisa Jaadu Kiya|0456 Tune O Rangeele Kaisa Jaadu Kiya
 Tune Preet Jo Mujhse Jodi|Tune Preet Jo Mujhse Jodi
 Tune Zindagi Mein Aake|Tune Zindagi Me Aake
 Tune Zindagi Mein Aake|Tune Zindagi Mein Aake
@@ -6340,6 +6360,7 @@ Yeh Haseen Wadiyan|Ye Haseen Wadiya Yeh Khula Aasman
 Yeh Haseen Wadiyan|Ye Hasin Vadiyaye Khula Assma
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan Wadiyan
 Yeh Haseen Wadiyan|Yeh Haseen Wadiya
+Yeh Haseen Wadiyan|Yeh Haseen Waadiyan
 Yeh Hawa Yeh Nadi Ka Kinara|Ye Hawa Ye Nadi Ka Kinara
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
@@ -6459,6 +6480,7 @@ Yeh Nayan Dare Dare|Yeh Nayan Dare Darest
 Yeh Nayan Dare Dare|Yeh Nayan Dare Dare Ye Jaam Bhare Bhare
 Yeh Nayan Dare Dare|Yeh Nayan Dare Dare 1964
 Yeh Nayan Dare Dare|Yeh Nayan
+Yeh Nayan Dare Dare|0189 Ye Nayan Dare Dare
 Yeh Parbaton Ke Daayere|Yeh Parbaton Ke Daayere
 Yeh Parbaton Ke Daayere|Ye Parbaton Ke Daayare
 Yeh Parda Hata Do|ये परदा हटा दो ज़रा मुखड़ा दिखा दो
