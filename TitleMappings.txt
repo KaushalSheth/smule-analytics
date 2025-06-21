@@ -276,6 +276,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Kya Gulam
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keh
 Aankhon Se Tune Ye|Aankhon Se Tune Female
 Aankhon Se Tune Ye|Ankhon Se Tune Ghulam
+Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keiya
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
@@ -512,6 +513,7 @@ Ae Ajnabi|Ae Ajnabee Tu Bhi Kabhi
 Ae Ajnabi|Ae Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|Aye Ajnabi Tu Bhi
 Ae Ajnabi|Ae Ajnabi Tu Bhi Khabi
+Ae Ajnabi|Aye Ajnabi Tu Bhi Kabhi Awaz De Kahin Se
 Ae Dil E Nadan|Ae Dil E Nadan
 Ae Dil E Nadan|ऐ दिल
 Ae Dil E Nadan|Aye Dile
@@ -1508,6 +1510,7 @@ Dekha Ek Khwaab To|Dekha Ek Khwab To Ye Silsile Hue
 Dekha Ek Khwaab To|Dekha Ek Khwaab To Yeh Slisile Hue
 Dekha Ek Khwaab To|Hekha Ek Khwaab To Yeh
 Dekha Ek Khwaab To|Dekha Ek Khawab To
+Dekha Ek Khwaab To|Dekha Ek Khwab :By M D Tyagi
 Dekha Hai Pehli Baar|[SHORT] 💞 Dekha Hai Pehli Baar Ost Saajan
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Pahli
 Dekha Hai Pehli Baar|Dekha Hai Pehli Baar Saajan
@@ -1639,6 +1642,7 @@ Dil Dhoondhta Hai|Dil Dhoondhta Hai Phir Wohi
 Dil Dhoondhta Hai|Dil Dhoondtha Hai
 Dil Dhoondhta Hai|Dildhoondta Hai Phir Wohi
 Dil Dhoondhta Hai|Dil Dhoondt Hai Phir Wahi
+Dil Dil Dil Deewana|Dil Dil Dil Deewana Jpk
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Diyan Gallan|Hil Diyan Gallan
@@ -2163,6 +2167,7 @@ Gulabi Aankhen|Gulabi Ankhen Gulabi Aankhen Jo Teri Dekhi
 Gulabi Aankhen|Gulabi Ankhengulabiankhen
 Gulabi Aankhen|Gulabi Aankhen Jo Teri
 Gulabi Aankhen|0766 Gulabi Ankhen Jo Teri Dekhi
+Gulabi Aankhen|Gulabi Ankhen Jo Teri Dekhi
 Gulmohar Gar Tumhaara Naam Hota|Gulmohar Gar Tumhaara Naam Hota
 Gumnaam Hai Koi|Gumnaam Hai Koi
 Gumsum Sa Ye Jahaan|Gumsum Sa Ye Jahan
@@ -2409,6 +2414,7 @@ Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
 Humein Jab Se Mohabbat|Humein Jab Se Mohabbat Ho Gayi Hai
 Humein Jab Se Mohabbat|Hamein Jabse Mohabbat Ho Gayi
 Humein Jab Se Mohabbat|Hume Jabse Mohabbat
+Humein Jab Se Mohabbat|Hamein Jabse Mohabbat
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna
@@ -2456,6 +2462,7 @@ Humko Hamise Chura Lo|Humkohumise Churalo
 Humko Hamise Chura Lo|~ Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Churalo Chura Lo
 Humko Hamise Chura Lo|Hamko Hamin Se Churalo
+Humko Hamise Chura Lo|H︎Q︎Humko Humise Chura Lo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -2734,6 +2741,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyun Log Pyar
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte Hain
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyun Log Pyar Karte Hain Jaane Kyu
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log Mohabbat Kiya Karte Hai
+Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log
 Jaane Kyun Main Tujhko Din Raat|Jaane Kyun Main Tujhko Din Raat
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने जिगर Jaane Na Nazar
@@ -3008,6 +3016,7 @@ Jo Wada Kiya Woh|Jo Wada Jo Waada Kiya
 Jo Wada Kiya Woh|Jo Wada Kiya Wo Nibhana Padega
 Jo Wada Kiya Woh|Jo Vada Kiya Vo Nibhana Padega
 Jo Wada Kiya Woh|Jo Wada Kiya Wo Jo Wada Kiya
+Jo Wada Kiya Woh|Jo Wada Kiya Jo Wada Kiya
 Jogi Ji Dheere Dheere|Jogi Ji Dheere Dheerejogi Ji
 Joote Do Paise Lo|Joote Do Paise Lo
 Judaai Ko Nazdik Aane Na Dunga|Judai Ko Nazadik Aane Na Dunga
@@ -3481,6 +3490,7 @@ Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
 Kuch To Log Kahenge|Kuch Tho Log Kahenge
 Kuch To Log Kahenge|Kuch Toh Log Kahenge
+Kuch To Log Kahenge|Kuch To Log
 Kya Dekhte Ho|Kya Dekhte Ho
 Kya Dekhte Ho|Kya Dekhte
 Kya Hua Tera Waada|H D Kya Hua Tera Waada ???
@@ -3631,6 +3641,7 @@ Maana Ho Tum Behad Haseen|Maana Ho Tum Behadh Hasee
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahin
 Maana Janab Ne Pukara Nahi|Mana Janab Ne Pukara Nahi Kya Mera
+Maana Janab Ne Pukara Nahi|Mana Janab Ne Maana Janaab Ne Sing
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar Nehi Meri Pyaari Bindu
 Maana Ke Hum Yaar Nahin|Maana Ke Hum Yaar
 Maana Ke Hum Yaar Nahin|Mana Ke Hum Yaar Nahin
@@ -4414,6 +4425,7 @@ O Re Chhori|O Ri Chhori Maan Bhi Le Baat Mori
 O Re Chhori|O Rey Chhori
 O Re Chhori|O Re Chhori Lagaan
 O Re Chhori|O Re Chori
+O Re Chhori|O Ri Chhori
 O Ri Chiraiya|O Ri Chiraiya
 O Saathi Re|O Saathi Re
 O Saathi Re|O Saathi Re O Re
@@ -4626,6 +4638,7 @@ Piyu Bole|Piyubole
 Piyu Bole|Piyu Bole Piya Bole Parineeta
 Piyu Bole|Piyu Bole Piya Bolepiyubole
 Piyu Bole|Piyu Bole Piya Bole Parineeta Piyubole
+Piyu Bole|Piyu Bole_Parineeta
 Prem Jaal Mein Fans Gayi|Prem Jaal Mein Fans Gayi
 Priyatama O Meri Priyatama|Priyatama O Meri Priyatama
 Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Hua
@@ -4695,6 +4708,7 @@ Pyaar Ka Pehla Khat|Pyar Ka Pehla Khat Likhne Mei
 Pyaar Ka Tohfa Tera|Pyar Ka Tohfa Tera
 Pyaar Ka Tohfa Tera|Pyar Ka Toffa Tera
 Pyaar Kabhi Kam Nahi Karna|Pyar Kabhi Kam Nahi Karna
+Pyaar Kabhi Kam Nahi Karna|Pyar Kabhi Kam Nahi Karna Koi Sitam
 Pyaar Karne Waale|Pyaar Karne Waale
 Pyaar Karne Waale|Pyaar Karne Wale
 Pyaar Karne Waale|Pyar Karne Wale Kabhi Darte Nahi
@@ -6365,6 +6379,7 @@ Yeh Hawa Yeh Nadi Ka Kinara|Ye Hawa Ye Nadi Ka Kinara
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawayein Bas Itna Sa Khwaab Hai
+Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaayein
 Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
 Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Ishq Haaye|Ye Is Hai
