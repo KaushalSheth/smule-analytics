@@ -5,6 +5,7 @@
 90s Hindi Mashup|90S Hindi Mashup
 A Yaman Medley|A Yaman Medley
 Aa Ab Laut Chalen|Aa Ab Laut Chalen
+Aa Ab Laut Chalen|Aa Ab Laut Chalen Ameysyah_Jdn
 Aa Bhi Jaa|Aa Bhi Ja Aa Bhi Ja
 Aa Bhi Jaa|Aa Bhi Jaa Bhi Ja Bhi Bhi
 Aa Bhi Jaa|Aa Bhi Jaa Bhi Jaa Bhi
@@ -379,6 +380,7 @@ Aati Kya Khandala|Ay Kya Bolti Tu
 Aati Kya Khandala|Zuwanie Arrival At Un
 Aati Kya Khandala|Ati Kya Khandala
 Aati Kya Khandala|Aati Kya Khandala Aye Kya Bolti Tu
+Aati Kya Khandala|0508 Aati Kya Khandala
 Aati Rahengi Bahaarein|Aati Rahengi Bahaarein
 Aawaara Bhanware|Aawara Bhawre
 Aawaara Bhanware|Awaara Bhanwara
@@ -411,6 +413,7 @@ Aawaaz Do Humko|Awaz Do Humko
 Aawaaz Do Humko|Aawaz Do Humko Dushman
 Aawaaz Do Humko|Awaz Do Humko Hum Kho
 Aaya Mausam Dosti Ka|Aaya Mausam Dosti Ka
+Aaya Mausam Dosti Ka|Aayamausam
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Mein
@@ -2408,6 +2411,7 @@ Hum Yaar Hai Tumhare|Hum Yaar Hai Tumhare
 Hum Yaar Hai Tumhare|Hum Yaar Hain Tumhare
 Hum Yahan Tum Yahan|Hum Yahan Tum Yahan
 Hamaari Adhuri Kahaani|Hamari Adhuri
+Hamaari Adhuri Kahaani|Hamari Adhuri Kahani
 Humein Jab Se Mohabbat|Hamen Jab Se Mohabbat
 Humein Jab Se Mohabbat|Hume Jab Se Mohabbat
 Humein Jab Se Mohabbat|Humein Jabse Mohobbat Ho Gayi Hai
@@ -2542,6 +2546,7 @@ Is Pyaar Se Meri Taraf Na Dekho|Iss Pyaar Se Meri Taraf Na Dekho
 Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Iss Pyaar Se
 Is Pyaar Se Meri Taraf Na Dekho|Is Pyar Se Meri Taraf Na Dekho
 Is Pyaar Se Meri Taraf Na Dekho|Iss Pyar Se Meri Taraf Naa Dekho
+Is Pyaar Se Meri Taraf Na Dekho|(Is Pyar Se Meri Taraf Na Dekho
 Is Tarah Aashiqui Ka Asar|Is Tarah Aashiqui Ka Asar
 Is This Love|Is This Love
 Is This Love|Is This Love? Kismat Konnection
@@ -3443,6 +3448,7 @@ Koi Ladki Hai|Koi Ladki Hai
 Koi Ladki Hai|Koi Ladki Hai Jab Wo Hansti Hai
 Koi Ladki Hai|Koi Ladki
 Koi Ladki Hai|Koi Ladki Hai Dil To Pagal Hai
+Koi Ladki Hai|Koyi Ladki Hai Jab Woh Hansti Hai
 Koi Ladki Mujhe Kal Raat|Koi Ladki Mujhe Kal Raat
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
 Koi Mil Gaya|Koi Mil Gaya ,Wd One Paragraph
@@ -3504,6 +3510,7 @@ Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Jaanu
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajanjaka_Tirta
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Kya Jaanu Sajan
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan
+Kya Jaanu Sajan Hoti Hai Kya|Kya Jaanu Sajan
 Kya Kare Kya Na Kare|Kya Kare Kya Na Kare
 Kya Kehna|Kya Kehna
 Kya Kehna|Kya Kehna Kya Kehna
@@ -3762,6 +3769,7 @@ Main Shayar To Nahin|Main Shayar To Nahin
 Main Shayar To Nahin|Main Shayar To Nahin Bobby
 Main Shayar To Nahin|Main Shayar To Nahinmain Shayar
 Main Shayar To Nahin|Main Shayar To Nhi
+Main Shayar To Nahin|Main Shayar
 Main Sitaron Ka Taraana|Main Sitaron Ka Tarana
 Main Solah Baras Ki|Tu Kitne Baras Ka
 Main Solah Baras Ki|Tu Kitne Baras Katu Kitne Baras Ka
@@ -4387,6 +4395,7 @@ O Haseena Zulfon Wali|O Hasina Zulfon O Haseena Zulfo
 O Humsafar Dil Ke Nagar|O Hum Safar Dil Ke Nagar
 O Jaana Na Jaana|O Jaana Na Jaana
 O Jaana Na Jaana|O Jana Na Jana
+O Jaana Na Jaana|Ad O Jaana Na Jana
 O Jaane Jigar|O Jaane Jigar Clean
 O Jaane Waale Balamva|O Jane Wale Balamva
 O Jaanewale Ho Sake To Laut Ke Aana|O Janewale Ho Sake To Laut Ke Aana
@@ -4436,6 +4445,7 @@ O Saathi Re|O Saathi Re O Sathi Re
 O Saathi Re|O Saathi Re Tere Bina Bhi Kya Jeena
 O Saathi Re|O Saathi Re Tere Bina Bhi Kya
 O Sajna Barkha Bahar Aayi|O Sajna Barkha Bahar Aayi
+O Sajna Barkha Bahar Aayi|ओ सजना बरखा बहार आई O Sajna Barkha
 O Sanam Tere Ho Gaye Hum|O Sanam Tere Ho Gaye Hum
 O Shama Mujhe Phoonk De|O Shama Mujhe Phoonk De
 O Yaara Tu Pyaaron Se Hai Pyaara|O Yaara Tu Pyaaron Se Hai Pyaara
@@ -4739,6 +4749,7 @@ Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jaane Do
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jaane Do Dushman
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do Dushman
+Pyaar Ko Ho Jaane Do|Pyar Ko Ho Ⓙane Do Dushmam
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai Tumhi Se
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai
 Pyaar Manga Hai Tumhi Se|Pyar Maanga Hai Tumhi Se
@@ -5098,6 +5109,8 @@ Salaame Ishq Meri Jaan|Salam
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
 Sama Hai Suhana Suhana|Sama Hai Suhana
 Sama Hai Suhana Suhana|Shama Hai Suhana Suhana
+Sama Yeh Suhana|Sama Ye Suhanagoonʲ
+Sama Yeh Suhana|Sama Ye Suhanagoonj
 Samay Tu Dheere Dheere Chal|Samay Tu Dheerey Dheerey Chal
 Sambhala Hai Maine|Sambhala Hai Maine Customized
 Sambhala Hai Maine|Song Sambhalaa Hai Maine
@@ -6542,6 +6555,7 @@ Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Ratein
 Yeh Reshmi Zulfein|Yereshmizulfeinye Reshmi Zulfein
 Yeh Reshmi Zulfein|Yeh Reshmi Zulfen
 Yeh Reshmi Zulfein|Ye Reshmi Zulfein
+Yeh Reshmi Zulfein|Ye Reshmi
 Yeh Samaa|Yeh Samaa
 Yeh Samaa|Yeh Sama
 Yeh Samaa|Ye Sama
@@ -6669,6 +6683,7 @@ Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar Jaate Ha
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Gujar
 Zindagi Ke Safar Mein|Zindagi Ke Safar Mein Guzar
 Zindagi Ke Safar Mein|1317 Zindagi Ke Safar Mein Guzar Jaate
+Zindagi Ke Safar Mein|Zindagi Ke
 Zindagi Ki Na Toote Ladi|Zindagi Ki Na Toote Ladi
 Zindagi Ki Yahi Reet Hai|Zindagi Ki Yahi Reet Hai
 Zindagi Ki Yahi Reet Hai|Zindagi Ki Yehi Reet Hai
