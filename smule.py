@@ -1,4 +1,4 @@
-from urllib.parse import unquote
+from urllib.parse import unquote,quote,urlparse,urlunparse
 from urllib import request
 import requests
 import subprocess
@@ -987,6 +987,21 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         pass
     return performanceList
 
+# Encode unicode URLs so that they can be opened safely
+def encode_unicode_url(url_string):
+    """
+    Encodes Unicode characters in a URL string using percent-encoding.
+    """
+    parsed_url = urlparse(url_string)
+
+    # Encode the path and query components
+    encoded_path = quote(parsed_url.path, safe='/') # 'safe' argument preserves slashes
+    encoded_query = quote(parsed_url.query, safe='=&') # 'safe' preserves common query delimiters
+
+    # Reconstruct the URL with the encoded components
+    encoded_url = urlunparse(parsed_url._replace(path=encoded_path, query=encoded_query))
+    return encoded_url
+
 # Download the specified web_url to the filename specified; return 1 if critical error or 0 otherwise
 def downloadSong(web_url,baseFolder,file,performance,username):
     # Calculate necessary dates
@@ -1012,43 +1027,51 @@ def downloadSong(web_url,baseFolder,file,performance,username):
 
     try:
         # Print out the web_url for debugging purposes
-        # TODO: Convert to debug message?
         #print(web_url)
         # The web_url returns an HTML page that contains the link to the content we wish to download
         req = request.Request(web_url,headers=createFakeUAHeaders())
-        with request.urlopen(req) as url:
+        with request.urlopen(req) as murl:
             # First get the HTML for the web_url
-            htmlstr = str(url.read())
-            #print(htmlstr)
-            # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
-            # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
-            media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-            # Print out the media_url for debugging purposes
-            # TODO: Convert this to a debug message?
-            #print(media_url)
-            req = request.Request(media_url,headers=createFakeUAHeaders())
-            response = request.urlopen(req)
-            # Get the redirected URL - this should be the actual file to be downloaded
-            final_url = response.url
-            print(final_url)
-            # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
-            if final_url.endswith('_video.m3u8'):
-                # Write the m3u8 file
-                #f = open(filename.replace('m4v','m3u8'),'w+b')
-                #f.write(response.read())
-                #f.close()
-                # If there is a playlist (m3u8) file, there is always a 720x720 ts file, so change the URL to that file and process using ffmpeg
-                final_url = final_url.replace('_video.m3u8','_720_video.ts')
-                # Use ffmpeg to convert ts to mp4
-                subprocess.run(
-                    ['ffmpeg','-hide_banner','-loglevel','error','-y','-i',final_url,'-c:v','copy','-c:a','copy',filename],
-                    stdout = subprocess.DEVNULL
-                    )
-            else:
-                # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
-                f = open(filename,'w+b')
-                f.write(response.read())
-                f.close()
+            mhtmlstr = str(murl.read())
+            #print(mhtmlstr)
+            # Next, parse out the content_url, which is in the content field of the "twitter:player" object
+            content_url_orig = unquote(re.search('twitter:player" content=".*?"',mhtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+            #print(content_url_orig)
+            content_url = encode_unicode_url(content_url_orig)
+            #print(content_url)
+            req = request.Request(content_url,headers=createFakeUAHeaders())
+            with request.urlopen(req) as curl:
+                # Get the HTML of the content so we can parse out the actual media URL
+                chtmlstr = str(curl.read())
+                #print(chtmlstr)
+                # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
+                # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
+                media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',chtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+                # Print out the media_url for debugging purposes
+                #print(media_url)
+                req = request.Request(media_url,headers=createFakeUAHeaders())
+                response = request.urlopen(req)
+                # Get the redirected URL - this should be the actual file to be downloaded
+                final_url = response.url
+                print(final_url)
+                # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
+                if final_url.endswith('_video.m3u8'):
+                    # Write the m3u8 file
+                    #f = open(filename.replace('m4v','m3u8'),'w+b')
+                    #f.write(response.read())
+                    #f.close()
+                    # If there is a playlist (m3u8) file, there is always a 720x720 ts file, so change the URL to that file and process using ffmpeg
+                    final_url = final_url.replace('_video.m3u8','_720_video.ts')
+                    # Use ffmpeg to convert ts to mp4
+                    subprocess.run(
+                        ['ffmpeg','-hide_banner','-loglevel','error','-y','-i',final_url,'-c:v','copy','-c:a','copy',filename],
+                        stdout = subprocess.DEVNULL
+                        )
+                else:
+                    # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
+                    f = open(filename,'w+b')
+                    f.write(response.read())
+                    f.close()
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         if "'NoneType' object has no attribute 'group'" in str(e):
@@ -1056,6 +1079,7 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             try:
                 # If media_url is not available, skip it
                 media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+                #print(media_url)
                 # webbrowser registration does not seem to be needed
                 #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
                 #webbrowser.get('chrome').open(media_url)

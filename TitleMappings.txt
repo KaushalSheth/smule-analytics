@@ -28,6 +28,7 @@ Aa Chal Ke Tujhe|Aa Chal Kay Tujhe
 Aa Chal Ke Tujhe|ᴀᴀ Chᴀʟ ᴋe Tᴜᴢhe ᴍᴀɪ ʟeᴋe Chᴀʟᴜ
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaluun
 Aa Chal Ke Tujhe|Aa Chal Ke Aa Chalke Singalong2426
+Aa Chal Ke Tujhe|0268 Aa Chal Ke Tujhe
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -36,6 +37,7 @@ Aa Jaane Jaan|Jaane Jaan
 Aa Jaane Jaan|Aa Jaanejaan
 Aa Jaane Jaan|Ad Aa Jaane Jaan
 Aa Jaane Jaan|Aa Jaane Jaa
+Aa Jaane Jaan|Aa Jane Jaane Jaan
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
@@ -428,6 +430,7 @@ Aaye Ho Meri Zindagi Mein|~ Aaye Ho Meri ~
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Aaye Ho Meri
 Aaye Ho Meri Zindagi Mein|Aye Ho Meri Zindagi Mehh
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Me
+Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Mein Song
 Aaye Tum Yaad Mujhe|Aaye Tum Yaad Mujhe
 Aayega Aane Wala|Aaega Aane Wala
 Aayega Aane Wala|आएगा, आएगा, आएगा आने वाला आएगा
@@ -436,6 +439,8 @@ Aayega Aane Wala|Aayega Aeyega Ayega Anewala
 Ab Chaahe Ma Roothe Ya Baba|Ab Chahe Maa Roothe Ya Baba
 Ab Ke Saawan Mein Jee Dare|Ab Ke Sawan Mein Jee Dare
 Ab Ke Saawan Mein Jee Dare|Ab Ke Sawan Abke Sawan
+Ab Ke Saawan Mein Jee Dare|Abke Sawan Ab Ke Sawan
+Ab Ke Sajan Saawan Mein|Ab Ke Sajan Sawan Mein
 Ab Kya Misaal Doon Main Tumhare|Ab Kya Misaal Du Mein Tumhare
 Ab Mujhe Raat Din|Ab Mujhe Raat Din
 Ab Mujhe Raat Din|Ab Mujhe Raat
@@ -548,6 +553,7 @@ Ae Dil Mujhe Bata De|Aye Dil Mujhe Bata De
 Ae Dil Mujhe Bata De|ऐ दिल मुझे बता दे Aye Dil Mujhe Bata
 Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe
 Ae Dil Mujhe Bata De|Ae Dil Mujhey Bataa De Tu Kispe Kis Pe Bhai
+Ae Dil Mujhe Bata De|Aye Dil Zara Bata De1408
 Ae Gulbadan Ae Gulbadan|Ae Gulbadan Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Aye Gulbadan
@@ -883,6 +889,7 @@ Badan Pe Sitare Lapate Hue|Badan Pe Sitare , 2 Paragraphs
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare
 Badan Pe Sitare Lapate Hue|Badan Pe Lapate Hue
 Badan Pe Sitare Lapate Hue|Badan Pe Sitare Prince
+Badan Pe Sitare Lapate Hue|Badan Pe Sitare Lapete Hue
 Bade Acchhe Lagate Hain|Bade Acche Lagate Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hai
 Bade Acchhe Lagate Hain|Bade Ache Lagte Hai :
@@ -1378,6 +1385,7 @@ Chogada Tara|Chogadatara
 Choli Ke Peeche Kya Hai|Choli Ke Peeche Kya Hai
 Choli Ke Peeche Kya Hai|0795 Choli Ke Peeche Kya Hai
 Chori Chori Chupke Chupke|Chori Chori Chupke Chupke
+Chori Chori Chupke Se|Chori Chori Chupke Se
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazarein Mili
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazrain
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazrein
@@ -1419,6 +1427,7 @@ Chura Ke Dil Mera|Chura Ke Dil Mera Song
 Chura Ke Dil Mera|Chura Ke Dil Mera Chura
 Chura Ke Dil Mera|Churakedilmera
 Chura Ke Dil Mera|Chura Ke Dil Mera Hindi
+Chura Ke Dil Mera|Churake Dil Mera Lyrics
 Chura Liya|Chura Liya
 Chura Liya|Chura Liya Hai
 Chura Liya|Chura Liya Hai Tum Ne
@@ -1835,6 +1844,7 @@ Dil To Pagal Hai|Dil To Pagal Hai Dil To Hai
 Dil To Pagal Hai|Dil To Pagal He
 Dil To Pagal Hai|Dil Toh Pagal Hai
 Dil To Pagal Hai|Dil To Paagal Hai Dil Deewana Hai
+Dil To Pagal Hai|1147 Dil To Pagal Hai
 Dil Use Do Jo Jaan De De|Dil Use Do Jo Jaan De De
 Dil Yeh Kehta Hai|Dil Yeh Kehta Hai
 Dilbar Dil Se Pyaare|Dilbar Dil Se Pyare
@@ -3383,6 +3393,7 @@ Kisi Ki Muskarahaton|Kisi Ki Muskurahaton Pe Fanclub 2024
 Kisi Ki Muskarahaton|0489 Kisi Ki Muskurahaton Pe Ho Nisaar
 Kisi Ki Muskarahaton|Kisi Ki Muskurahaton
 Kisi Ko Khona Kisi Ko Paana|Kisi Ko Khona Kisi Ko Paana
+Kisi Meherban Ne Aake Meri Zindagi|Kissi Meherban Ne Aake Meri Zindagi
 Kisi Na Kisi Se Kabhi Na Kabhi|Kisi Na Kisi Se Kabhi Na Kabhi
 Kisi Nazar Ko Tera|Kisi Nazar Ko Tera
 Kisi Nazar Ko Tera|Kisi Nazar Ko Tera Intezar
@@ -3416,6 +3427,7 @@ Kitna Pyara Waada|Kitna Pyaara Wada
 Kitna Pyara Waada|Kitna Pyara Wadacarvaan
 Kitna Pyara Waada|Kitna Pyara Wada Hai
 Kitna Pyara Waada|Kitna Pyara Wada Hai In Matwali
+Kitna Pyara Waada|Kitna Pyara Wada
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kar Le Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
@@ -3473,6 +3485,7 @@ Koyal Si Teri Boli|Koyal Si Teri Boli Karaoke
 Koyal Si Teri Boli|Koyal Si Teri Boliᴬntaras Hh
 Kuch Bhi Kar Lo|Kuchh Bhi Kar Lo
 Kuch Bhi Kar Lo|Kuchh Bhi Kar Lo Ik Din Tum Ko Meri
+Kuch Bhi Nahi|Kuch Bhi Nahi No Jkk
 Kuch Kehta Hai Ye Saavan|Kuchh Kehta Hai Ye Savan
 Kuch Mere Dil Ne Kaha|Kuch Mere Dil Ne Kaha
 Kuch Mere Dil Ne Kaha|Kuchh Mere Dil Ne Kaha
@@ -3862,6 +3875,7 @@ Masti Bhara Hai Sama|Masti Bhara Hai Sama Jenny007
 Masti Bhara Hai Sama|Masti Bhara Hai Saman Ham Tum
 Mauja Hi Mauja|Mauja Hi Mauja
 Mausam Hai Aashiqana|Mausam Hai Ashiqana
+Mausam Ka Takaaza Hai|Mausam Ka Takaaza Hai Singalong1726
 Mausam Ke Sargam|Mausam Ke Sargam
 Mausam Ke Sargam|Mausam Ke Sargam Ko Khamoshi The Musical
 Mausam Mastaana Rasta Anjaana|Mausam Mastana Rasta Anjana
@@ -3958,6 +3972,7 @@ Mere Haath Mein|Mere Haath Mein Tera Haath Ho
 Mere Haath Mein|Mere Haath Mein Fanna
 Mere Haath Mein|Mere Haath Mein ~
 Mere Haath Mein|Mere Haath Me Tera Haath Ho Fanna
+Mere Haath Mein|Mere Haath Mere Haath Mere Haath Song
 Mere Haathon Mein Nau Nau|Mere Haathon Mein Nau Nau
 Mere Haathon Mein Nau Nau|Mere Hatho Mein Nau Nau Chudiya Hai
 Mere Khwabon Mein Jo Aaye|Mere Khwaabon Mein Jo ☕
@@ -4096,6 +4111,7 @@ Mohabbat Bade Kaam Ki Cheez Hai|Mohabbat Bade Kam Ki Cheez[Trishul}
 Mohabbat Cheez Hai Kya|Mohabbat Cheez Hai Kya 606
 Mohabbat Hai Kya Cheez|Mohabbat Hai Kya Cheez
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee Hai
+Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
@@ -4486,6 +4502,7 @@ Paayalein Chunmun|Payalay Chunmun Chunmun
 Paayalein Chunmun|Payali Chunmun Chunmun
 Paayalein Chunmun|Payali Chhunmun Chhunmun
 Paayaliya Ho Ho Ho Ho|Payaliya Ho Ho Ho Ho
+Paayaliya Ho Ho Ho Ho|Payaliya Ho Ho Ho
 Pairon Mein Bandhan Hai|Pairon Mein Bandhan Hai Pairon
 Pal Bhar Ke Liye|[HD] Pal Bhar Ke Liye Koi Hamein Pyar Karle
 Pal Bhar Ke Liye|Pal Bhar Ke Liye
@@ -4769,6 +4786,7 @@ Pyaar Mein Kabhi Kabhi|Pyar Mein Kabhi Kabhi
 Pyaar Mujhse Jo Kiya Tumne|Pyar Mujhse Jo Kiya Tumne
 Pyaar Nahin Karna|Pyar Nahi Karna Kachche Dhaage
 Pyaar Nahin Karna|Pyaar Nahin Karna
+Pyaar Se Pyaare Tum Ho Sanam|Pyar Se Pyare Tum Ho Sanam
 Pyaar To Ek Din Hona Tha|Pyar To Ek Din Hona Tha
 Pyaar Tune Kya Kiya|Pyaar Tune Kya Kya Kiya
 Pyaar Zindagi Hai|Pyar Zindagi Hai
@@ -5044,6 +5062,7 @@ Saanson Ko Saanson Mein|Saanson Ko Sanson Meinhum Tum
 Saanson Ko Saanson Mein|Saanson Ko Saanson
 Saanson Ko Saanson Mein|Sanson Ko Sanson Mein ~ Hum Tum
 Saanson Ko Saanson Mein|Saanson Ko Saanson Me Crystal
+Saanson Ko Saanson Mein|Sanson Ko Sanson Meinhum Tum
 Saans|Saans Jab Tak Hai Jaan
 Saans|Saans Me Teri
 Saans|Saans Mein
@@ -5084,6 +5103,7 @@ Saawan Ka Mahina|Sawan Ka 🎆Mahina Karaoke Milan
 Saawan Ka Mahina|Rp Sawan Ka Mahina Pawan Kare Sorshor
 Saawan Ka Mahina|Sawan Ka Mahina Pawan Kare Sor
 Saawan Ka Mahina|Saawan Ka Maheena Fanclub 2023
+Saawan Ke Jhoole Pade|Sawan Ke Jhoole Pade
 Saawan Ki Raaton Mein|Sawan Ki Raaton Mein
 Saaz E Dil Chhed De|Saaz E Dil Chhed De 116
 Saaz E Dil Chhed De|Saaz
@@ -5672,6 +5692,7 @@ Tip Tip Barsa Paani|Tip Tip Barsa Tip Tip
 Tirchi Topi Wale|Tirchi Topi Wale
 Titli|Bann Ke Titli
 Titli|Titli
+Titli|Titli Chennai Express
 To Chalun|To Chalun
 Toota Jo Kabhi Tara|Toota Jo Kabhi Tara
 Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
@@ -6046,6 +6067,7 @@ Tumhe Apna Banane Ki|Drtumhe Apna Banane Ki Kasam
 Tumhe Apna Banane Ki|Tumhe Apna Banae
 Tumhe Apna Banane Ki|Tumhe Apna Banane Ka Chand Chupa
 Tumhe Apna Banane Ki|Tu𝐦h𝐞 𝐀𝐩𝐧𝐚 𝐁𝐚𝐧𝐚𝐧𝐞 𝐤𝐢 𝐊𝐚𝐬𝐚𝐦
+Tumhe Apna Banane Ki|Tumhe Apna Banane
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha Karaoke
 Tumhe Yaad Hoga Kabhi Hum|तुम्हें याद होगा कभी हम मिले थे
