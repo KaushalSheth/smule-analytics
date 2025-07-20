@@ -59,6 +59,7 @@ Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Tu Shalzz865
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Turegerated
 Aage Bhi Jaane Na Tu|Aage Bhi Jane Na Tu~Waqt
 Aage Bhi Jaane Na Tu|Aage Bhi Jaane Na Turegenerated
+Aaiye Aajaaiye Aa Hi Jaaiye|Aaiye Aajaye Aa Hi Jaiye
 Aaiye Meherbaan|Aaiye Meharbaan
 Aaiye Meherbaan|Aaiye Meherbaan
 Aaiye Meherbaan|Aaiye Meherbaan Baithiye
@@ -280,6 +281,7 @@ Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keh
 Aankhon Se Tune Ye|Aankhon Se Tune Female
 Aankhon Se Tune Ye|Ankhon Se Tune Ghulam
 Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keiya
+Aankhon Se Tune Ye|Aankhon Se Tune Ye Kya
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
@@ -595,6 +597,7 @@ Ae Meri Zohra Jabeen|Ae Meri Johra Jabee
 Ae Meri Zohra Jabeen|Aye Meri Zohra Jabeen Folk Mix Waqt
 Ae Nazneen Suno Na|Aye Nazneen Suno Na, , Dil Hi Dil Mein
 Ae Phoolon Ki Rani|Ae Phoolon Ki Rani
+Ae Phoolon Ki Rani|Aye Phoolon Ki Rani
 Ae Sanam Jisne Tujhe Chaand|Aye Sanam Jisne Tujhe Chand Si Soorat
 Ae Watan Tere Liye|Aye Watan Tere Liye
 Ae Watan Tere Liye|Hil Diya Haiayewatantereliye Karma
@@ -733,6 +736,7 @@ Akhiyan Milaon Kabhi|Akhiya Milaun Kabhiankhiya Churaun
 Akhiyan Milaon Kabhi|Akhiyan Milaon Kabhi 0St Raja
 Akhiyan Milaon Kabhi|Ankhiyaan Milaun Kabhi
 Akhiyan Milaon Kabhi|Ankhiyan Milau Kabhi Ankhiyan Churau
+Akhiyan Milaon Kabhi|Akhiyan Milaon
 Akhiyon Ke Jharokhon Se|Akhiyon Ke Jharokhon Se
 Akhiyon Ke Jharokhon Se|Ankhiyo Ke Jharoko Se
 Akhiyon Ke Jharokhon Se|Ankhiyon Ke Jharokhon Se
@@ -1263,6 +1267,7 @@ Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chaiya Chaiya
 Chhaiyya Chhaiyya|Chaiya Chaiya Song
+Chhaiyya Chhaiyya|Chal Chhaiyan Chhaiyan
 Chhalkaaye Jaam|Chalkaaye Jaam
 Chhalkaaye Jaam|Chhalka Yeh Jaam
 Chhalkaaye Jaam|Chalkaye Jaam Ayye Apki Aankhon Ke Naam
@@ -1622,6 +1627,7 @@ Dheere Dheere Se|Dheeredheere Se Se Dheere
 Dholi Taro Dhol Baje|Dholi Taro Dhol Baje
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dhoom Machale|Dhoom Machale Dhoom Dhoom 1
+Dhoom Machale|Dhoom H L E
 Didi Tera Devar Deewana|Didi Tera Devar Deewana
 Didi Tera Devar Deewana|Rpdidi Tera Devar Deewana
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun Ke Bekhud Kiya
@@ -1637,6 +1643,7 @@ Dil Bekaraar Tha Dil Bekaraar Hai|Dil Bekarar Tha Dil Bekarar Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai Aap Meri Jaan
 Dil Churaale|Dil Churale
+Dil Churaale|Dil Chura Le
 Dil Deewana|Dil Deewana
 Dil Deewana|Dil Deewana Bin Sajna Ke
 Dil Deewana|Dildeewa Maine Pyaar Kiya
@@ -1709,6 +1716,7 @@ Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukaar
 Dil Ka Bhanwar Kare Pukar|दिल का भंवर करे पुकार प्यार का Dil Ka Bhanwar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukaar T
+Dil Ka Bhanwar Kare Pukar|0762 Dil Ka Bhanwar Kare Pukar
 Dil Ka Diya Jala Ke Gaya|Dil Ka Diya Jala Ke Gaya
 Dil Ka Khilona Hai Toot Gaya|Dil Ka Khilona Hai Toot Gaya
 Dil Ka Rishta|Dil Ka Rishta
@@ -3504,6 +3512,7 @@ Kuch Na Kaho|Kuch Na
 Kuch Na Kaho|Kuch Na Kaho Kuchnakaho
 Kuch Na Kaho|Kuchnakaho1942Alovestory
 Kuch Na Kaho|Kuch Na Kaho Kuch Naa Kaho
+Kuch To Hai|Kuch To Hai
 Kuch To Hua Hai|Kuch To Hua Hai
 Kuch To Hua Hai|Kuchh To Hua
 Kuch To Log Kahenge|Kuchh To Log Kahenge
@@ -3536,6 +3545,7 @@ Kya Khoob Lagti Ho|Kya Khoob Lagte Ho Ulta Pulta
 Kya Khoob Lagti Ho|~Kya Khoob Lagti Ho
 Kya Khoob Lagti Ho|Kya Khub Lagti Ho Dharmaa
 Kya Khoob Lagti Ho|Kya Khoob
+Kya Mausam Aaya Hai|(Kya Mausam Aaya Hai Anari
 Kya Mausam Hai|Kya Mausam Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai Song Rocky
@@ -4460,6 +4470,7 @@ O Saathi Re|O Sathire Tere Bina
 O Saathi Re|O Saathi Re O Sathi Re
 O Saathi Re|O Saathi Re Tere Bina Bhi Kya Jeena
 O Saathi Re|O Saathi Re Tere Bina Bhi Kya
+O Saathi Re Omkara|O Sathi Re Din Doobe Na
 O Sajna Barkha Bahar Aayi|O Sajna Barkha Bahar Aayi
 O Sajna Barkha Bahar Aayi|ओ सजना बरखा बहार आई O Sajna Barkha
 O Sanam Tere Ho Gaye Hum|O Sanam Tere Ho Gaye Hum
@@ -5396,6 +5407,7 @@ Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbir Se Bigadi Hui Taqdir Bana Le
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbeer Se Bigdi Huyi Taqdeer Bana Le
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbeer Se Bigdi Hui Taqdeer Bana Le
+Tadpaoge Tadpa Lo|Tadpaoge Tadpa Lo
 Tamma Tamma Loge|Tamma Tamma Loge
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
 Tanha Tanha|Tanha Tanha Yahaan Pe Jeena
@@ -6165,6 +6177,7 @@ Unke Khayal Aaye To|उनके ख़याल आये तो आते चल�
 Unko Ye Shikayat Hai|Unko Ye Shikayat Hai
 Unse Mili Nazar|Unse Mili Nazar
 Unse Mili Nazar|Unse Mili Nazar Customised
+Unse Mili Nazar|Unse Mili Nazar Ke Mere Hosh Ud Gaye
 Us Mod Se Shuroo Karein|Us Mod Se Shuroo Karen
 Us Mod Se Shuroo Karein|Us Mod Se Shuru Karen
 Uthaaye Ja Unke Sitam|Uthaye Ja Unke Sitam
@@ -6418,6 +6431,7 @@ Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaayein
 Yeh Hum Aa Gaye Hai Kahaan|Yeh Hum Aa Gaye Veer Zaara
 Yeh Ishq Haaye|Yeh Is Haaye
 Yeh Ishq Haaye|Ye Is Hai
+Yeh Ishq Haaye|Yeh Is Jab We Met
 Yeh Jawaani Hai Deewaani|Yeh Jawani Hai Deewani
 Yeh Jawaani Hai Deewaani|Ye Jawani Hai
 Yeh Jeevan Hai|Yeh Jeevan Hai
