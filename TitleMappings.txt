@@ -44,6 +44,7 @@ Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
 Aa Ke Bhar Lo Baazuon Me|Aa Ke Bhar Lo Bazuon Me
 Aa Lag Ja Gale Dilruba|Aa Lag Ja Gale Dilruba
 Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet
+Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet Fanclub 2025
 Aa Mere Humjoli Aa|Aa Mere Humjoli Aa
 Aa Mere Humjoli Aa|Aa Mere Hamjoli Aa
 Aa Mere Humjoli Aa|Aa Mere Humjoli Aa Jeene Ki Raah
@@ -184,6 +185,7 @@ Aaja Shaam Hone Aayi|Aaja Sham Hone Aayi, Mausam Ne Li
 Aaja Tujhko Pukare Mere Geet Re|Aaja Tujhko Pukare U
 Aaja Tujhko Pukare Mere Geet Re|Mere Mitwa Mere Meet Aaja Tujhko
 Aaja Tujhko Pukare Mere Geet Re|Mere Mitwa Mere Meet
+Aaja Tujhko Pukare Mere Geet Re|Mere Mitωa Mere Meet𝗚eet Re
 Aaja Yaad Sataaye|Aaja Yaad Sataaye Teri Neend Churaye
 Aake Teri Baahon Mein|Aake Teri Baahon Mein Cove
 Aake Teri Baahon Mein|Aake Teri Baahon Main Digi
@@ -247,6 +249,7 @@ Aankhon Mein Humne Aapke|Ankhon Mein Humne
 Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke Sapne
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke Sapne Sajaye
 Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke
+Aankhon Mein Humne Aapke|Aankhon Mei Humne Aapke
 Aankhon Mein Kaajal Hai|Aankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai Aankhon
@@ -796,6 +799,7 @@ Are Re Are Ye Kya Hua|Arre Re Are Ye Kya Hua
 Are Re Are Ye Kya Hua|Are Re Are Yeh Kya Hua
 Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Isc_Arief86
 Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Song
+Are Re Are Ye Kya Hua|Are Re Arre Ye Kya Huadtph
 Ari Chhod De Patang|Ari Chodd De Patang Meri Chodd Denagin 1954
 Asha Ji Songs Medley|Asha Ji Songs Medley
 Asha Ji Songs Medley|Asha Medley
@@ -840,6 +844,7 @@ Baagon Mein Bahaar Hai|Baghon Mein Bahar Hai
 Baagon Mein Bahaar Hai|Baago Me Bahar Hain Baagon Mein Bahaar Hai
 Baagon Mein Bahaar Hai|Baghon Me Bahar Hai
 Baagon Mein Bahaar Hai|Bagon Me Bahar Hai
+Baagon Mein Kaise|Bagon Mein Kese
 Baahon Ke Darmiyaan|Baahon Ke Darmiyaan
 Baahon Ke Darmiyaan|Baahon Ki Darmiyan
 Baahon Ke Darmiyaan|Bahon Ke Darmiya Mix
@@ -1234,6 +1239,7 @@ Chandni Raat Hai|Chandni Raat Hai Salman Khan
 Chandni Raat Mein Ek Baar|Chandani Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
+Chandni Raat Mein Ek Baar|Chandni Raat Mein
 Character Dheela Hai|Character Dheela Hai
 Character Dheela Hai|Character Dheela
 Chaudhvi Shab|Chaudvi Shab
@@ -1346,7 +1352,7 @@ Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
 Chhoti Si Asha|Dil Hai Chhota Sa
 Chhoti Si Asha|Dil Hai Chota Sa
-Chhoti Si Asha|Chhoti Si Aasha
+Chhoti Si Asha|Chhoti Si Aaha
 Chhoti Si Asha|Dil Hai Chhotasa
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein
 Chhup Gaya Badli Mein|Chhup Gaya Badli Mein Jaake Chand
@@ -1367,6 +1373,7 @@ Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Mein Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Dil Me Pyar Mera
 Chhupa Lo Yun Dil Mein|Chhupa Lo Yun
 Chhupa Lo Yun Dil Mein|0851 Chhupa Lo Yun Dil Mein Pyar Mera
+Chhupa Lo Yun Dil Mein|Chhupa Lo Yun Me Pyaar Mera
 Chhupaana Bhi Nahi Aata|Chupana Bhi Nahi Aata
 Chhupne Waale Saamne Aa|Chupne Wale Saamne Aa
 Chhupne Waale Saamne Aa|Chhupne Wale Saamne Aa Chhup Chhup Ke
@@ -1540,6 +1547,7 @@ Dekha Hai Pehli Baar|Dekha He Pehli Baar
 Dekha Hai Pehli Baar|Navgadigital Dekha Hain Pehli Baar
 Dekha Hai Pehli Baar|L Dekhahaipehlibaar
 Dekha Hai Pehli Baar|0806 Dekha Hai Pehli Baar
+Dekha Hai Pehli Baar|Dekha Hai Pehli Bar Sajan Ki Ankhon Mein Pyar
 Dekha Hai Teri Aankhon Ko|Dekha Hai Teri Aankhon Ko Aryans
 Dekha Hai Teri Aankhon Mein|Dekha Hai Teri Aankhon Mein
 Dekha Hazaro Dafaa|Dekha Hazaro Dafa
@@ -2072,6 +2080,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Naghma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagmacompact
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Papon Neeti Mohan
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
+Ek Raat Mein Do Do Chaand Khile|Ek Raat Mein Do Do Chand Khile
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar Bemisaal
 Ek Sanam Chahiye|Bas Ek Sanam
@@ -2311,6 +2320,7 @@ Hazaar Raahein|Hazaar Raahen , Thodi Si Bewafai
 Hazaar Raahein|Hazar Rahein
 Hazaar Raahein|Hazar Rahein Mud Ke Dekhi
 Hazaar Raahein|Hazar Rahen
+Hazaar Raahein|Hazaar Rahein Mud Ke Dekhi
 Heer|Heer
 Heeriye|Heeriye
 Hello|Hello
@@ -2485,6 +2495,7 @@ Humko Hamise Chura Lo|~ Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Humise Churalo Chura Lo
 Humko Hamise Chura Lo|Hamko Hamin Se Churalo
 Humko Hamise Chura Lo|H︎Q︎Humko Humise Chura Lo
+Humko Hamise Chura Lo|Humko Hami Se Chura Lo
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -3043,6 +3054,7 @@ Jo Wada Kiya Woh|Jo Wada Kiya Jo Wada Kiya
 Jogi Ji Dheere Dheere|Jogi Ji Dheere Dheerejogi Ji
 Joote Do Paise Lo|Joote Do Paise Lo
 Judaai Ko Nazdik Aane Na Dunga|Judai Ko Nazadik Aane Na Dunga
+Jugraafiya|Jugraafiya
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Orijungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai Lagne
@@ -3413,6 +3425,7 @@ Kisi Raah Mein Kisi Mod Par|Kisi Raah Me Kisee Mod Par Kahin Chal
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mei Kisi Modh Par
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Fanclub 2023
 Kisi Raah Mein Kisi Mod Par|Kisi Rah Mein Kisi Mod Par
+Kisi Raah Mein Kisi Mod Par|Kisi Raah Mein Kis Mod Fanclub 2025
 Kisi Se Mujhe Pyaar Ho|Kisi Se Mujhe Pyar Ho
 Kisi Se Tum Pyaar Karo|Kisi Se Tum Pyar Karo Kisi
 Kiska Chehra Ab Main Dekhoon|Kiska Chehra Ab Main Dekhoon
@@ -3430,6 +3443,7 @@ Kitna Pyara Tujhe|Kitna Pyara Tujhe
 Kitna Pyara Tujhe|Kitna Pyaara Tujhe Rab Ne Banaya
 Kitna Pyara Tujhe|Kitna Pyara Tujhe Kitna
 Kitna Pyara Tujhe|Kitna Pyaara Tujhe Rab Ne
+Kitna Pyara Tujhe|Kitna Pyaara Tujhe Rab Ne Banaya Pyara
 Kitna Pyara Waada|Kitna Pyara Waada
 Kitna Pyara Waada|Kitna Pyaara Wada
 Kitna Pyara Waada|Kitna Pyara Wadacarvaan
@@ -4455,6 +4469,7 @@ O Palanhare|O Paalanhaare
 O Raat Ke Musafir|O Raat Ke Musafir
 O Rabba Koi To Bataaye|O Rabba Koi To Bataye
 O Re Kanchi|O Re Kanchi
+O Re Kanchi|O Re Kanchi Kanch Ki Gudiya
 O Re Chhori|O Rey Chori
 O Re Chhori|O Ri Chhori Maan Bhi Le Baat Mori
 O Re Chhori|O Rey Chhori
@@ -4484,6 +4499,7 @@ Oh My Darling What To Do|Oh My Darling
 Oh Re Taal Mile|Oh Re Taal Mile
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Jal Mein
 Oh Re Taal Mile|Oh Re Taal Mile Nadi Ke Fanclub 2025
+Oh Re Taal Mile|0573 Oh Re Taal Mile Nadi Ke Jal Mein
 Old Songs Medley|Old Songs Medley
 Om Jai Jagdish Hare|Om Jai Jagdish Hare
 Om Shanti Om|Om Shanti Om
@@ -4809,6 +4825,7 @@ Qaafirana|Qafirana
 Qaafirana|Qaafirana Chillout Mix
 Qaafirana|Qaafirana Rip Sushantsinghrajput
 Qayamat Qayamat|Qayamat Qayamat
+Qayde Se|Qayde Se Metro…In Dino
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat Ho Gayi
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat
@@ -4977,6 +4994,7 @@ Roop Tera Mastana|Roop Tera Ma Stana Eto Kachhe Dujone
 Roop Tera Mastana|801Roop Tera Mastana
 Roop Tera Mastana|Roop Tera Mastana Eto Kachhe Dujone
 Roop Tera Mastana|0017 Roop Tera Mastana Reggae
+Roop Tera Mastana|Roop Tera Rup Tera K
 Rooth Ke Humse Kahin|Rooth Ke Humse Kahin
 Rooth Na Jana|Rooth Na Jana
 Rooth Na Jana|Rooth Na Ⓙanatumse Kahoon Tho
@@ -5742,6 +5760,7 @@ Tu Is Tarah|Tu Iss Tarah Secompact
 Tu Is Tarah|Tu Iss Tarah
 Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Me Mein
+Tu Is Tarah|Tu Iss Tarah Se
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -6321,6 +6340,7 @@ Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaar Bina Chain|Yaar Bina Chain Kahan Re
 Yaar Bina Chain|158 Yaar Bina Chain Kahan
 Yaar Chulbula Hai|Yaar Chulbula Hai
+Yaar Chulbula Hai|Yaar Chulbula Hai Hasin Dilruba Hai
 Yaara Sili Sili|Yaara Sili Sili
 Yaara Sili Sili|Yara Sili Sili Rudaali
 Yaaron|Yaaron
@@ -6466,6 +6486,7 @@ Yeh Kahaan Aa Gaye Hum|Ye Kahaan Aa Gaye Hum
 Yeh Khamoshiyan Yeh Tanhaiyan|Ye Khamoshiyan Ye Tanhaiyan
 Yeh Kisne Geet Chheda|Ye Kisne Geet Cheda Dil Mera Nache
 Yeh Kisne Geet Chheda|Ye Kisne Geet Chheda
+Yeh Kya Hua [Broken But Beautiful]|Ye Kya Hua [Broken But Beautiful]
 Yeh Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Kya Hua Kaise Hua|Ye Kya Hua Kaise Hua
 Yeh Kya Hua Kaise Hua|Ye Kya Hua
