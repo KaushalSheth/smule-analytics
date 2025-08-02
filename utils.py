@@ -97,11 +97,13 @@ def getJSON(username,type="recording",offset=0,version="legacy",sort="recent"):
         elif type == "following":
             urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
         else:
-            urlstring = f"https://www.smule.com/search/by_type?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
+            urlstring = f"https://www.smule.com/api/search/byType?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
         #print(urlstring)
         req = request.Request(urlstring,headers=createFakeUAHeaders())
         with request.urlopen(req) as url:
-            data = json.loads(url.read())
+            perfJSON = url.read()
+            #print(perfJSON)
+            data = json.loads(perfJSON)
     except:
         # Ignore any errors
         printTs("Error fetching JSON")

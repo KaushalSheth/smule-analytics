@@ -76,6 +76,7 @@ Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid Na Karo
 Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid
 Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zid
 Aaj Jaane Ki Zid Na Karo|Aaj Jane Ki Zid Na Kaaro
+Aaj Jaane Ki Zid Na Karo|Aaj Jaane Ki Zidd Na Karo
 Aaj Kahna Jaruri Hai|Aaj Kahna Jaruri Hai
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya
 Aaj Kal Mein Dhal Gaya|Aaj Kal Mein Dhal Gaya Din
@@ -158,6 +159,7 @@ Aaja Ke Intezar Mein|Aaja Ke Intezar Mein
 Aaja Maahiya|Aaja Mahiya Fiza
 Aaja Maahiya|Aaja Mahiya
 Aaja Maahiya|Aja Mahiya
+Aaja Maahiya|Aaja Mahiya Ho Aaja Mahiya
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Doon
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyaar Dun Baharon Ke Sapne
 Aaja Piya Tohe Pyaar Doon|Aaja Piya Tohe Pyar Dun 414
@@ -966,6 +968,7 @@ Banke Tera Jogi|Banke Tera Jogi
 Banke Tera Jogi|Ban Ke Tera Jogi Tu Yaar Tu Hi Dildaar
 Barfani Babumoshai Bandookbaaz|Barfani Babumoshai Bandookbaaz
 Barsaat Ke Din Aaye|Barsaat Ke Din Aaye Barsaat 2005
+Bas Ek Dhadak|Bas Ek Dhadak Dhadak 2
 Bataao Tum Kaun Ho|Batao Tum Kaun Ho
 Bechara Dil Kya Kare|Bechara Dil Kya Kare
 Becheiniyaan Betaabiyaan|Becheiniyaan Betaabiyaan
@@ -1184,6 +1187,7 @@ Chale Jaana Zara Thehro|Chale Jana Zara Thehro
 Chale Jaise Hawayein|Chale Jaise Hawayein
 Chale Jaise Hawayein|Chale Jaise Hawaiian
 Chale Jaise Hawayein|Chale Jaise Hawaein Main Hoon Na
+Chale Jaise Hawayein|1379 Chale Jaise Hawaein
 Chale The Saath Milkar|Chale The Saath Milkar
 Chale The Saath Milkar|Chale The Saath
 Chaleya|Chaleya Jawan 2023
@@ -1211,6 +1215,7 @@ Chalte Chalte|Chalte Chalte Mere Yeh Geet
 Chalte Chalte|Chalte Chalte Meri Yeh Geet
 Chalte Chalte|Chale Chalte Merey Yeh Geet
 Chalte Chalte|Chalte Chalte Kishore
+Chalte Chalte|0713 Chalte Chalte Mere Ye Geet
 Chalte Chalte Yunhi|Chalte Chalte Yunhi
 Chalte Chalte Yunhi|Chalte Chalte Mohabbatein
 Chalte Chalte Yunhi|Chalte Chalte Yuhi
@@ -1429,6 +1434,7 @@ Chupke Se Saathiya|Chupke Se
 Chupke Se Saathiya|Chupke Se Saathiya
 Chupke Se Saathiya|Chupke Se Unpluged
 Chupke Se Saathiya|Chupke Se Chupke Se
+Chupke Se Saathiya|Chupke Se Lag Ja Gale
 Chura Ke Dil Mera|Chura K Dil Mera
 Chura Ke Dil Mera|Chura Ke Dil Mera
 Chura Ke Dil Mera|Churake Dil Mera
@@ -1636,6 +1642,7 @@ Dholi Taro Dhol Baje|Dholi Taro Dhol Baje
 Dhoom Machale|Dhoom Machale Dhoom Dhoom
 Dhoom Machale|Dhoom Machale Dhoom Dhoom 1
 Dhoom Machale|Dhoom H L E
+Dhun Saiyaara|Dhun Saiyaara
 Didi Tera Devar Deewana|Didi Tera Devar Deewana
 Didi Tera Devar Deewana|Rpdidi Tera Devar Deewana
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun Ke Bekhud Kiya
@@ -1954,6 +1961,7 @@ Duaa|Duaa
 Dukhi Man Mere|Dukhi Man Mere Sun Mera Kehna
 Dukhi Man Mere|Dukhi Man Mere Sun Mera
 Dukhi Man Mere|Dukhi Man Mere
+Dukhi Man Mere|Dukhi Mann Mere Sunn Mera Kehna
 Dukki Pe Dukki Ho|Dukki Pe Dukki Ho
 Dum Bhar Jo Udhar|Dambhar Jo Udhar
 Dum Bhar Jo Udhar|Dum Bhar Jo Udhar
@@ -2361,6 +2369,7 @@ Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Kya
 Hoshwalon Ko Khabar Kya|Hoshwalon Ko Khabar Female
 Hoshwalon Ko Khabar Kya|Hoshwalo Ko Khabar
 Hoshwalon Ko Khabar Kya|Hoshwalo Ko Khabar Kya
+Hoshwalon Ko Khabar Kya|Hosh Waalon Ko Khabar
 Hotel California|Hotel California
 Hue Bechain|Hue Bechain
 Hui Shaam Unka Khayal Aa Gaya|Hui Shaam Unka Khayal Aa Gaya
@@ -3055,6 +3064,7 @@ Jogi Ji Dheere Dheere|Jogi Ji Dheere Dheerejogi Ji
 Joote Do Paise Lo|Joote Do Paise Lo
 Judaai Ko Nazdik Aane Na Dunga|Judai Ko Nazadik Aane Na Dunga
 Jugraafiya|Jugraafiya
+Jugraafiya|Jugya
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Orijungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai Lagne
@@ -3476,6 +3486,7 @@ Koi Humdam Na Raha|Koi Humdum Na Raha Koi Sahara
 Koi Humdam Na Raha|Koi Humdum Na Raha
 Koi Jab Tumhaara Hriday|Koi Jab Tumhara Hriday
 Koi Jab Tumhaara Hriday|Koi Jab Tumhara Koi Jab Tumhara
+Koi Jab Tumhaara Hriday|Koi Jab Tumhara Fanclub 2025
 Koi Kahe Kehta Rahe|Koi Kahe Kehta Rahe
 Koi Kaise Mohabbat Chupaye|Koi Kaise Mohabbat Chupaye
 Koi Ladki Hai|Koi Ladki Hai
@@ -4826,6 +4837,7 @@ Qaafirana|Qaafirana Chillout Mix
 Qaafirana|Qaafirana Rip Sushantsinghrajput
 Qayamat Qayamat|Qayamat Qayamat
 Qayde Se|Qayde Se Metro…In Dino
+Qayde Se|Qayde Se Film Metro In Dino
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat Ho Gayi
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat
@@ -5142,6 +5154,7 @@ Sab Tera|Sab Tera
 Sab Tera|Sab Tera Karaoke
 Sach Mere Yaar Hai|Sach Mere Yaar Hai
 Sach Mere Yaar Hai|Sach Mere Yaar Hai Saagar
+Sahab Didi Medley|0544 Sahab Didi Medley 10
 Saiyaan Hatto Jaao|Saiyaan Hatto Jaao
 Sajde Kiye Hai Laakhon|Sajde Kiye Hai Lakhon
 Sajan Re Jhoot Mat Bolo|Sajan Re Jhoot Mat Bolo
@@ -5234,6 +5247,7 @@ Sawaar Loon|Hawa Ke Jhonke Sawaar Loon
 Say Shava Shava|Say Shava Shava
 Say You Say Me|Say You Say Me
 Say You Say Me|Say You, Say Me
+Saiyaara Title Song|Saiyaara Title Song
 Sayonara Sayonara|Sayonara Sayonara
 Sayonara Sayonara|सायोनारा सायोनारा वादा निभाउंगी सायोनारा
 Seene Mein Dil Hai|Seene Mein Dil Hai
@@ -5449,6 +5463,7 @@ Tauba Tumhare Yeh Ishare|Taubatumhare Yeh Ishare
 Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye Ishaare
 Tauba Tumhare Yeh Ishare|Touba Tumhare Ye
 Tauba Tumhare Yeh Ishare|Tauba Tumhare
+Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye
 Tauba Yeh Matwaali Chaal|Tauba Yeh Matwali Chaal
 Tears In Heaven|Tears In Heaven
 Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　 In Heaven
@@ -5738,6 +5753,7 @@ Tu Cheez Badi Hai Mast Mast|Tu Cheezbadi Hai Mast
 Tu Cheez Badi Hai Mast Mast|Cheez Badi Machine
 Tu Cheez Badi Hai Mast Mast|)Tu Cheez Badi Hai Mast Mohra
 Tu Cheez Badi Hai Mast Mast|Too Cheez Badi Hain
+Tu Chhupi Hai Kahan|Tu Chhupi Hai Kahan 164
 Tu Dharti Pe Chahe|Tu Dharti Pe Chahe
 Tu Fiza Hai|Tu Hai
 Tu Fiza Hai|Tu Hawa Hai Fiza Hai
@@ -5948,6 +5964,7 @@ Tum Bin Jaaoon Kahan|Tum Bin Tum Bin
 Tum Bin Jaaoon Kahan|Tum Bin Jaaun Kahan : Pyar Ka Mausam
 Tum Bin Jaaoon Kahan|Tum Bin Jaau Kahan
 Tum Bin Jaaoon Kahan|Tum Bin Jaun Tum Bin Jaun
+Tum Bin Jaaoon Kahan|Tum Bin Jaun Kahaan
 Tum Bin Jeevan Kaise Beeta|Tum Bin Jeevan Kaise Beeta
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena
 Tum Bin Kya Hai Jeena|Tum Bin Kya Hai Jeena ~
@@ -6422,6 +6439,7 @@ Yeh Dosti|Yeh Dosti Hum Nahin
 Yeh Dosti|Yeosti
 Yeh Dosti|Yeosti Hum Nahin
 Yeh Dosti|Ye Dosti Hum Nahin Todenge
+Yeh Dosti|Yeosti Hum Nahin Ye Dosti
 Yeh Dua Hai Meri Rab Se|Ye Dua Hai Meri Rab Se
 Yeh Duniya Ke Badaltey Rishtey|Yeuniya Ke Badaltey Rishtey
 Yeh Duniya Waale Puchheinge|Yeuniya Wale Puchheinge Ye Duniya
@@ -6549,6 +6567,7 @@ Yeh Mera Dil|Yeh Mera Dil Yaar Ka Diwana
 Yeh Mera Dil|Ye Mera Dil Pyar Ka
 Yeh Mera Dil|Yeh Mera Dildon
 Yeh Mera Dil|Ye Mera Dil Pyar Ka Deewana
+Yeh Mera Dil|Yeh Mera Dil Yaar Ka Deewana
 Yeh Mera Prem Patra Padh Kar|Ye Mera Prem Patr Muhammed Rafi
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padh Kar
 Yeh Mera Prem Patra Padh Kar|Yeh Mera Prem Patra Padhkar
@@ -6660,6 +6679,7 @@ Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi Hai
 Yeh Zameen Gaa Rahi Hai|Ye Zamin Gaa Rahi Hai
 Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi
 Yeh Zameen Gaa Rahi Hai|Ye Zameen Ga Rahi Hai
+Yeh Zameen Gaa Rahi Hai|Ye Zameen Gaa Rahi Hai
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
@@ -6744,6 +6764,7 @@ Zindagi Ke Safar Mein|Zindagi Ke
 Zindagi Ki Na Toote Ladi|Zindagi Ki Na Toote Ladi
 Zindagi Ki Yahi Reet Hai|Zindagi Ki Yahi Reet Hai
 Zindagi Ki Yahi Reet Hai|Zindagi Ki Yehi Reet Hai
+Zindagi Medley|Zindagi Medley
 Zindagi Mere Ghar Aana Zindagi|Zindagi Mere Ghar Aana Zindagi
 Zindagi Milke Bitayenge|Zindagi Milke Bitayenge
 Zindagi Pyar Ka Geet Hai|Newzindagi Pyar Ka Geet Hai

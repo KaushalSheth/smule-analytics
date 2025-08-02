@@ -306,18 +306,17 @@ def saveDBPerformances(username,performances):
                         )
             db.session.merge(perfSinger)
 
-            # Loop through all the other performers in the performance and process the Singer and PerformanceSinger records for them
-            for o in other_performers:
+            if other_performers is not None:
                 # Note that for other performers, we don't get lat/lon values, which is why they are not defined as required columns
                 singer = Singer(\
-                            account_id = o['account_id'],\
-                            performed_by = o['handle'],\
-                            pic_url = o['pic_url']\
+                            account_id = other_performers['id'],\
+                            performed_by = other_performers['label'],\
+                            pic_url = other_performers['pic_url']\
                             )
                 db.session.merge(singer)
                 perfSinger = PerformanceSinger(\
                             performance_key = p['key'],\
-                            singer_account_id = o['account_id']\
+                            singer_account_id = other_performers['id']\
                             )
                 db.session.merge(perfSinger)
             # Commit all the changes for the performance if no errors were encountered

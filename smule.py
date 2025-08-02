@@ -53,7 +53,8 @@ def fetchOpenInvites():
         if invite["ensemble_type"] == "GROUP" or invite["owner"]["handle"] != "KaushalSheth1":
             continue
         # Add invite to list of open invites
-        inviteKey = invite['key']
+        #inviteKey = invite['key']
+        inviteKey = invite['performance_key']
         fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
         rsOpenInvites.append({"key":inviteKey,"title":fixedTitle})
         # Fetch list of partners who have joined the invite
@@ -374,8 +375,10 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     for performance in performancesJSON['list']:
         ct = createType
-        perfStatus = performance['perf_status']
-        perfKey = performance['key']
+        #perfStatus = performance['perf_status'] # Not available
+        perfStatus = ""
+        #perfKey = performance['key'] # performance_key
+        perfKey = performance['performance_key']
         joiners = ""
         partnerHandle = ""
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
@@ -439,13 +442,15 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # Initialize list of perfomer IDs and Handles to the owner ID and Handle - we will append other performers to this
         performerIds = str(ownerId)
         performerHandles = ownerHandle
-        op = performance['other_performers']
-        # Loop through partners and process them
-        partnerIndex = 0
-        for ptr in op:
-            partnerIndex += 1
-            partnerId = str(ptr['account_id'])
-            partnerHandle = ptr['handle']
+        #op = performance['other_performers'] # other (no longer a list)
+        op = performance['other']
+        if op is None:
+            partnerId = ""
+            partnerHandle == ""
+            partner_pic_url = ""
+        else:
+            partnerId = str(op['id'])
+            partnerHandle = op['label']
             # Append the ID and handle of the partner to the list, but only if both string lengths are still less than 200 (max size of the columns)
             # If MYSELF is the only entry so far, then add the other performer to the front
             if (performerHandles == MYSELF):
@@ -457,9 +462,9 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             if len(tmpIds) <= 200 and len(tmpHandles) <= 200:
                 performerIds = tmpIds
                 performerHandles = tmpHandles
-            partner_pic_url = ptr['pic_url']
+            partner_pic_url = op['pic_url']
             # Set performer to the first partner unless the partner is myself
-            if (partnerIndex == 1) and (partnerHandle != MYSELF):
+            if (partnerHandle != MYSELF):
                 performers = partnerHandle
                 # If the partner is not the username we searched for, set hte display username to that partner as well
                 if (partnerHandle != username):
@@ -470,7 +475,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         lowerGroupHandles = ['@' + gh['item_name'].lower() for gh in groupHandles]
         gdb = next((g for g in groupHandles if g['item_name'] == performers), None)
         if gdb is not None:
-            msg = performance['message']
+            #msg = performance['message'] # Not available
+            msg = ""
             #print(msg)
             try:
                 # Remove any spaces after the "@"
@@ -591,7 +597,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 orig_track_city = "Unknown"
                 orig_track_country = "Unknown"
                 #raise
-        total_listens = performance['stats']['total_listens']
+        #total_listens = performance['stats']['total_listens']
+        total_listens = performance['stats']['truncated_listens']
         join_cnt = f"{joinCount}|{recentJoinCount}"
         if not isFollowing:
             join_cnt += " (nf)"
@@ -607,30 +614,40 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
             performanceList.append({\
-                'key':performance['key'],\
+                'key':perfKey,\
                 'type':performance['type'],\
                 'created_at':created_at,\
                 'title':performance['title'],\
                 'artist':performance['artist'],\
                 'ensemble_type':performance['ensemble_type'],\
-                'child_count':performance['child_count'],\
+                #'child_count':performance['child_count'],\
+                'child_count':0,\
                 'app_uid':performance['app_uid'],\
-                'arr_key':performance['arr_key'],\
+                #'arr_key':performance['arr_key'],\
+                'arr_key':"",\
                 'orig_track_city':orig_track_city,\
                 'orig_track_country':orig_track_country,\
-                'media_url':performance['media_url'],\
-                'video_media_url':performance['video_media_url'],\
-                'video_media_mp4_url':performance['video_media_mp4_url'],\
+                #'media_url':performance['media_url'],\
+                'media_url':"",\
+                #'video_media_url':performance['video_media_url'],\
+                'video_media_url':"",\
+                #'video_media_mp4_url':performance['video_media_mp4_url'],\
+                'video_media_mp4_url':"",\
                 'web_url':web_url,\
                 'web_url_full':web_url_full,\
                 'cover_url':performance['cover_url'],\
                 'total_performers':performance['stats']['total_performers'],\
                 'total_listens':total_listens,\
-                'total_loves':performance['stats']['total_loves'],\
-                'total_comments':performance['stats']['total_comments'],\
-                'total_commenters':performance['stats']['total_commenters'],\
-                'performed_by':performance['performed_by'],\
-                'performed_by_url':performance['performed_by_url'],\
+                #'total_loves':performance['stats']['total_loves'],\
+                'total_loves':performance['stats']['truncated_loves'],\
+                #'total_comments':performance['stats']['total_comments'],\
+                'total_comments':performance['stats']['truncated_comments'],\
+                #'total_commenters':performance['stats']['total_commenters'],\
+                'total_commenters':0,\
+                #'performed_by':performance['performed_by'],\
+                'performed_by':"",\
+                #'performed_by_url':performance['performed_by_url'],\
+                'performed_by_url':"",\
                 'owner_account_id':ownerId,\
                 'owner_handle':ownerHandle,\
                 'owner_pic_url':owner_pic_url,\
@@ -969,7 +986,8 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         if stop:
             break
         else:
-            next_offset = performances['next_offset']
+            #next_offset = performances['next_offset']
+            next_offset = performances['nextOffset']
     # If type is "recording", append invites as well
     if type == "recording":
         printTs("Appending invites")
