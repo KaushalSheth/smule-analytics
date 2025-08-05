@@ -8,7 +8,7 @@ from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTi
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
-from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata, downloadPics, processDuplicateImages
+from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata, downloadPics, processDuplicateImages, pinworthy
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -277,6 +277,8 @@ def create_app(test_config=None):
                 return redirect(url_for('title_metadata'))
             elif toolName == "Save Title Metadata":
                 return redirect(url_for('save_title_metadata'))
+            elif toolName == "Pinworthy":
+                return redirect(url_for('tools_pinworthy'))
 
         # When the form is fetched, initialize the global variables and display the search form
         user = None
@@ -331,6 +333,9 @@ def create_app(test_config=None):
         global toolsOutput, utilitiesOptions
         utilitiesOptions['sort'] = sort
         toolsOutput = titlePerformers(utilitiesOptions)
+        toolsOutput['heading'] = f"Output for {utilitiesOptions['title']}"
+        toolsOutput['subHeading1'] = "Owners&nbsp;(# Perf, Days since first perf, # Join, Days since last join):"
+        toolsOutput['subHeading2'] = "Joiners:"
         flash(f"{len(toolsOutput['list1'])} owners and {len(toolsOutput['list2'])} joiners fetched from Smule")
         return redirect(url_for('tools_output'))
 
@@ -339,7 +344,21 @@ def create_app(test_config=None):
     def non_joiners():
         global toolsOutput, utilitiesOptions
         toolsOutput = nonJoiners(utilitiesOptions)
+        toolsOutput['heading'] = f"Output for Non-Joiners"
+        toolsOutput['subHeading1'] = "Non-Joiners:"
+        toolsOutput['subHeading2'] = ""
         flash(f"{len(toolsOutput['list1'])} non-joiners fetched from Smule")
+        return redirect(url_for('tools_output'))
+
+    # This method queries the DB for title analytics using the relevant global variables
+    @app.route('/tools_pinworthy/')
+    def tools_pinworthy():
+        global toolsOutput
+        toolsOutput = pinworthy()
+        toolsOutput['heading'] = f"Output for Pinworthy Partners"
+        toolsOutput['subHeading1'] = "Partners:"
+        toolsOutput['subHeading2'] = ""
+        flash(f"{len(toolsOutput['list1'])} Pinworthy items found")
         return redirect(url_for('tools_output'))
 
     # This method queries an external service for metadata about the specified title
@@ -347,6 +366,9 @@ def create_app(test_config=None):
     def title_metadata():
         global toolsOutput, utilitiesOptions
         toolsOutput = titleMetadata(utilitiesOptions)
+        toolsOutput['heading'] = f"Output for Title Metadata"
+        toolsOutput['subHeading1'] = "Titles:"
+        toolsOutput['subHeading2'] = ""
         flash(f"{len(toolsOutput['list1'])} titles fetched from Smule")
         return redirect(url_for('tools_output'))
 
@@ -355,6 +377,9 @@ def create_app(test_config=None):
     def save_title_metadata():
         global toolsOutput, utilitiesOptions
         toolsOutput = saveTitleMetadata()
+        toolsOutput['heading'] = f"Saved Title Metadata"
+        toolsOutput['subHeading1'] = "Titles:"
+        toolsOutput['subHeading2'] = ""
         flash(f"{len(toolsOutput['list1'])} title metadata updated")
         return redirect(url_for('tools_output'))
 
@@ -364,6 +389,9 @@ def create_app(test_config=None):
         global toolsOutput, utilitiesOptions
 
         toolsOutput = getHtml(utilitiesOptions)
+        toolsOutput['heading'] = f"Output for Owners and Joiners"
+        toolsOutput['subHeading1'] = "Owners&nbsp;(# Perf, Days since first perf, # Join, Days since last join):"
+        toolsOutput['subHeading2'] = "Joiners:"
         flash(f"{len(toolsOutput['owners'])} owners and {len(toolsOutput['joiners'])} joiners fetched from Smule")
         return redirect(url_for('tools_output'))
 

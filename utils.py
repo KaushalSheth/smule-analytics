@@ -68,8 +68,17 @@ def createFakeUAHeaders():
     global HEADERS
     try: HEADERS
     except NameError:
-        ua = UserAgent()
-        HEADERS = {'User-Agent':ua.random}
+        #ua = UserAgent()
+        #HEADERS = {'User-Agent':ua.random}
+        HEADERS = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Encoding': 'none',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Cache-Control': 'max-age=0',
+            'Priority': 'u=0, i',
+            'Cookie': '_ga=GA1.1.1256643851.1747455776; smule_autoplay={%22enabled%22:true}; py={%22globalVolume%22:true%2C%22volume%22:0.5}; _fbp=fb.1.1747516498143.732750319145640822; smule_cookie_banner_disabled=true; L=N; smule_consent={%22cookieBannerVersionValue%22:2%2C%22acceptedCookies%22:[%22marketing%22%2C%22functionality%22]}; smule_production_refresh=eyJyZWZyZXNoX3Rva2VuIjoicjJfX0RNWGNWL3ZBcitQZ1pHSlZTeldqSk4yRGJMK29TWCtxMngyTXoyTXZyMXVnL25JNXU5VkZhU1g0ZzEvU2hZMTlvLzJFRkJ4bVFWbVBaOVNNcDZ4NDg4UzNGYnlGSkR3ZjBWV3krWDU2ZmJlQmFHSGpTbWxIZkhta2hWZHlpVk1hVVFoTjRsZkx0SDQxRGdia0ppYmpNU2QvVTkxdVhVTT0iLCJleHBpcmVfYXQiOiIyMDI1LTEwLTA4VDAxOjU0OjQ2Ljk4NFoifQ%3D%3D--f7a55b2f1ee6868c01bddbe609ad734e0a571898; _smule_session=eyJzZXNzaW9uX2lkIjoiNDgyOTIyMjFiMDZmMjg0MmYyYmYxZjkwMTBlYTk4ZGMiLCJfY3NyZl90b2tlbiI6IjFzNHhTQnAxT09SNXQ0eGRTSGprYk9QV1dUU05pUFR6S2xFTXFzRzI4dm89IiwidXNlcl9pZCI6MTc5MjM0NTgyNiwic211bGVpZF9zZXNzaW9uIjoiZzRfNl9WazRZTmk4TG0wckJ5NzVaR3RZVDYyaXBnV0Q5YnZrcjVZdjRYL2MwMUs3akYzcTUwWHllV3kzVkEvNWFXUXh2Iiwic2Vzc2lvbl90dGwiOiIyMDI1LTA4LTA3VDE4OjI0OjQ2LjAwMFoiLCJ1c2VyX2hhbmRsZSI6IkthdXNoYWxTaGV0aDEiLCJ1c2VyX2VtYWlsIjoiZmFjZWJvb2tAc2hldGgubmFtZSIsInVzZXJfcGljX3VybCI6Imh0dHBzOi8vYy1jZG5ldC5jZG4uc211bGUuY29tL3NtdWxlLWdnLXV3MS16LTEvYWNjb3VudC9waWN0dXJlL2EyLzAzL2QyZDI2MmQ4LTAyZjktNDczOC04Mjk2LTRjYzM1YjM5MzViNS5qcGciLCJ1c2VyX3BsYXllcl9pZCI6MTc5MjM3MDcxNSwiamlkIjoiMTc5MjM0NTgyNkBqYy5zbXVsZS5jb20iLCJ4bXBwX2hvc3RzIjpbImpjLnNtdWxlLmNvbSJdLCJleHBpcmVfYXQiOjE3NTk4ODg0ODYwMDB9--9b70d9c9e87591d93f7e2320d6ce21538f151d9f; smule_id_production=eyJ3ZWJfaWQiOiJmYWYyNmE2ZC1kYWZlLTRmNzMtOWFjOS1hZWEzMzliMzgwOTMiLCJkYXVfdHMiOjE3NTQzNTg0NzIsInNlc3Npb25faWQiOiJnNF84X0VXWm45ZlNyOG5nMXFHVDZFM2xNUDh6emlGTDJRZVluUmdmeFpueHllSUphaEs4MVZkdHVGdz09IiwicGxheWVyX2lkIjozNDM3ODAyNzY0fQ%3D%3D--27aabab9ad6ad32065b13d69fd1ca00a6b6020ca; _ga_3HLCN2KDGH=GS2.1.s1754358472$o81$g1$t1754359805$j60$l0$h0'
+            }
     #print(HEADERS)
     return HEADERS
 
@@ -89,13 +98,15 @@ def build_comment(prefix="",suffix=""):
     return comment
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username,type="recording",offset=0,version="legacy",sort="recent"):
+def getJSON(username="",type="recording",offset=0,version="legacy",sort="recent",cursor="start"):
     data = None
     try:
         if version == "legacy":
             urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
         elif type == "following":
             urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
+        elif type == "pinworthy":
+            urlstring = f"https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_21679136&cursor={cursor}"
         else:
             urlstring = f"https://www.smule.com/api/search/byType?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
         #print(urlstring)

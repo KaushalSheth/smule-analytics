@@ -4,7 +4,7 @@ from pyppeteer import launch
 import os, time
 from .db import execDBQuery, saveDBTitleMetadata
 from .smule import fetchUserFollowing
-from .utils import printTs
+from .utils import printTs, getJSON
 from urllib import request
 import json, re, csv
 from statistics import mode
@@ -175,6 +175,38 @@ def titlePerformers(utilitiesOptions):
     joiner_list = findHtmlElements(htmlstr,"span","profile-name handle")
 
     return {"list1":owner_list,"list2":joiner_list}
+
+def pinworthy():
+    #https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
+    #https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_21679136&cursor=start
+    #https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_21679136&cursor=1:2958777170_5098251179
+
+    pinworhtyPartners = []
+    hasNext = True
+    cursor = "start"
+    numPartners = 0
+    while hasNext:
+        pinworthyItems = getJSON(type="pinworthy",version="api",cursor=cursor)
+        #print(pinworthyItems)
+        pi = pinworthyItems['playlistItems']['items']
+        hasNext = pinworthyItems['playlistItems']['cursor']['hasNext']
+        if hasNext:
+            cursor = pinworthyItems['playlistItems']['cursor']['next']
+        else:
+            cursor = ""
+        for p in pi:
+            type = p['performance']['ensemble_type']
+            owner = p['performance']['owner']['handle']
+            if type == "DUET" and owner == 'KaushalSheth1':
+                partner = p['performance']['duet']['handle']
+            else:
+                partner = owner
+            pinworhtyPartners.append(partner)
+            numPartners += 1
+        # Safety net - break if we process more than 500 items
+        if numPartners > 500:
+            break
+    return {"list1":pinworhtyPartners,"list2":[]}
 
 def nonJoiners(utilitiesOptions):
     title = "Non-Joiners"

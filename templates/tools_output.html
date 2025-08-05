@@ -11,21 +11,21 @@
   <table style="width:100%">
       <tbody>
           <tr>
-              <td>Output for {{ title }} generated on {{ currtime }}</td>
+              <td>{{ toolsOutput['heading'] }} generated on {{ currtime }}</td>
           </tr>
       </tbody>
   </table>
   <br>
 
 <br>
-Owners&nbsp;(# Perf, Days since first perf, # Join, Days since last join):<br>
+{{ toolsOutput['subHeading1'] }}<br><br>
 {% for row in toolsOutput["list1"] %}
-    {{ row }},&nbsp;<br>
+    {{ row }}&nbsp;<br>
 {% endfor %}
 <br><br>
-Joiners:&nbsp;<br>
+{{ toolsOutput['subHeading2'] }}<br><br>
 {% for row in toolsOutput["list2"] %}
-    {{ row }},&nbsp;
+    {{ row }}&nbsp;
 {% endfor %}
 
 {% endblock %}

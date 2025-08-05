@@ -379,6 +379,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         perfStatus = ""
         #perfKey = performance['key'] # performance_key
         perfKey = performance['performance_key']
+        ensembleType = performance['ensemble_type']
         joiners = ""
         partnerHandle = ""
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
@@ -396,8 +397,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
             stop = True
             continue
-        # If the created_at is greater than the max date, then skip it and proceed with next one
-        if created_at > maxdate:
+        # If the created_at is greater than the max date, or ensemble type is GROUP, then skip it and proceed with next one
+        if (created_at > maxdate) or (ensembleType == "GROUP"):
             continue
         #print(f"{i}: {web_url_full}")
         # If the web_url_full ends in "/ensembles" then set ct to be "invite"
@@ -603,8 +604,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if not isFollowing:
             join_cnt += " (nf)"
         # If performance is a join, set ct to "ensemble" so it gets color coded correctly
-        #print(performance['ensemble_type'])
-        if ownerHandle == username and performance['ensemble_type'] == "DUET" and not web_url_full.endswith("/ensembles"):
+        #print(ensembleType)
+        if ownerHandle == username and ensembleType == "DUET" and not web_url_full.endswith("/ensembles"):
             ct = "ensemble"
             # If parentKey is empty, try to get the invite key
             if parentKey == "":
@@ -619,7 +620,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'created_at':created_at,\
                 'title':performance['title'],\
                 'artist':performance['artist'],\
-                'ensemble_type':performance['ensemble_type'],\
+                'ensemble_type':ensembleType,\
                 #'child_count':performance['child_count'],\
                 'child_count':0,\
                 'app_uid':performance['app_uid'],\

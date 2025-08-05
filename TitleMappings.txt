@@ -1416,6 +1416,7 @@ Chori Chori Jab Nazrein Mili|Chorichorijαв ɴαzreιɴ Мιlι
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Chorichorijab
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazre Mili
 Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazrein Mili Ii
+Chori Chori Jab Nazrein Mili|Chori Chori Jab Nazaren
 Chori Chori Sapno Mein|Chori Chori Sapno Mein
 Chori Chori Sapno Mein|Chori Chori Sapnon Mein Aata Koi
 Chori Chori Sapno Mein|Chorichorijaв ɴazreιɴ Мιlι
@@ -1716,6 +1717,7 @@ Dil Hai Tumhara|Mastana Mausam Hai
 Dil Hai Tumhara|Dil Hai Tumhaara
 Dil Hai Tumhara|D𝐢l H𝐚𝐢 Tu𝐦h𝐚r𝐚
 Dil Hai Tumhara|Mastana Mausam Hai Dil Hai Tumhara
+Dil Hai Tumhara|Mastana Mousam Hai
 Dil Hoom Hoom Kare|Dil Hoom Hoom Kare Hum
 Dil Ibaadat|Dil Ibaadat Tum Mile
 Dil Ibaadat|Dil Ibadat
@@ -3312,6 +3314,7 @@ Keh Do Ek Baar Sajna|Keo Ek Baar Sajana
 Keh Do Ki Tum Ho Meri Warna|Keo Ki Tum Ho Meri Warna
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri Warna
+Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho
 Keh Doon Tumhe|Socha Hai
 Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
 Keh Doon Tumhe|Keoon Tumhe
@@ -3752,6 +3755,7 @@ Main Duniya Bhula Doonga|Main Duniya Bhula Main Duniya Bhula
 Main Duniya Bhula Doonga|~ Main Duniya Bhula Doonga 90S
 Main Duniya Bhula Doonga|Mai Duniya Bhula Dunga
 Main Duniya Bhula Doonga|Main Duniya Bhula Doonga 90S
+Main Gaaun Tum So Jaao|Main Gaaun Tum So Jaao
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hun
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hoon
 Main Hoon Na|Drmain Hoon Na
@@ -6095,6 +6099,7 @@ Tum Se Hi|Tum Se Hi Jab We Met
 Tum Se Hi|Tum Se Hi Female
 Tum Se Hi|Tumse Hijabwemet Mohit Chauhan
 Tum Se Hi|Tumse Hi
+Tum Se Hi|Tum Se Hi Tumse Hi
 Tum Se Hi + Kaun Tujhe|Tum Se Hi Kaun Tujhe Yoon
 Tum Toh Pyaar Ho Sajna|Tum Toh Pyaar Ho Sajna
 Tum Toh Pyaar Ho Sajna|Tum To Pyar Ho
@@ -6249,6 +6254,7 @@ Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge Wadakaro
 Waada Karo Nahi Chhodoge|Waada Karo
 Waada Karo Nahi Chhodoge|Wada Karo 1973
 Waada Karo Nahi Chhodoge|Wada Karo Nahin Chhodogi
+Waada Karo Nahi Chhodoge|Wada Karo Nahin Chodoge Tum Mera Saath
 Waada Raha Pyaar Se Pyaar Ka|Wada Raha Pyar Se Pyar Ka Song
 Waada Raha Pyaar Se Pyaar Ka|Wada Raha
 Waada Raha Sanam|Wada Raha Sanam
