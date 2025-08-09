@@ -16,6 +16,7 @@ import webbrowser
 import geocoder
 import copy
 from pathlib import Path
+from http.cookiejar import CookieJar
 
 # Playlists for an account: https://www.smule.com/api/playlists?accountId=1792345826&appFamily=SING&limit=8
 # Playlist content: https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_15759286&cursor=start
@@ -536,7 +537,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         #print(f"Performers = {performers}, Comment = {comment}")
         # Set the correct filename extension depending on the performance type m4v for video, m4a for audio
         if performance['type'] == "video":
-            filename = filename_base + ".m4v"
+            filename = filename_base + ".mp4"
         else:
             filename = filename_base + ".m4a"
         pic_filename = filename_base + ".jpg"
@@ -1044,60 +1045,130 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     # Print filename
     #print(f"Downloading {filename}")
 
+    # Local method for downloading file
+    def downloadFile(download_url,filename):
+        print(f"Download URL = {download_url}")
+        req = request.Request(download_url,headers=createFakeUAHeaders())
+        response = request.urlopen(req)
+        # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
+        f = open(filename,'w+b')
+        f.write(response.read())
+        f.close()
+
+    def updateTags(filename):
+        try:
+            # Write the tags for the M4A file
+            af = MP4(filename)
+            af["\xa9nam"] = performance["fixed_title"]
+            af["\xa9ART"] = performance["performers"]
+            # Set Album Artist to the username we searched for
+            af["aART"] = username
+            # Android seems to have a bug where wrong art is displayed if "Album" tag is empty so set it to "Smule" followed by current date
+            af["\xa9alb"] = f"Smule - {albumdate}"
+            af["\xa9day"] = f"{albumyear}"
+            af["purd"] = createdat
+            af["\xa9cmt"] = f"Performed on {createdat}"
+
+            # Write the JPEG to the M4A file as album cover. Ignore any errors reading the image
+            try:
+                pic_url = performance['display_pic_url']
+                req = request.Request(pic_url,headers=createFakeUAHeaders())
+                img = MP4Cover(request.urlopen(req).read(), imageformat=MP4Cover.FORMAT_JPEG)
+                af["covr"] = [img]
+            except:
+                pass
+            # Save the updated tags to the file
+            af.save()
+        except Exception as e:
+            print("FAILED TO UPDATE TAGS!!!")
+            print(str(e))
+            return 0
+
+
     try:
         # Print out the web_url for debugging purposes
-        #print(web_url)
-        # The web_url returns an HTML page that contains the link to the content we wish to download
-        req = request.Request(web_url,headers=createFakeUAHeaders())
-        with request.urlopen(req) as murl:
+        #print(f"Web URL = {web_url}")
+        ###########################################################################################################################
+        # 2025/08/09 - Smule seems to be returning HTTP 302, so trying sownloader instead and commenting out original code below
+        ###########################################################################################################################
+        sownloader_url = f"https://sownloader.com/index.php?url={web_url}"
+        #print(f"Sownloader URL = {sownloader_url}")
+        req = request.Request(sownloader_url,headers=createFakeUAHeaders())
+        with request.urlopen(req) as wurl:
             # First get the HTML for the web_url
-            mhtmlstr = str(murl.read())
-            #print(mhtmlstr)
-            # Next, parse out the content_url, which is in the content field of the "twitter:player" object
-            content_url_orig = unquote(re.search('twitter:player" content=".*?"',mhtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-            #print(content_url_orig)
-            content_url = encode_unicode_url(content_url_orig)
-            #print(content_url)
-            req = request.Request(content_url,headers=createFakeUAHeaders())
-            with request.urlopen(req) as curl:
-                # Get the HTML of the content so we can parse out the actual media URL
-                chtmlstr = str(curl.read())
-                #print(chtmlstr)
-                # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
-                # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
-                media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',chtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
-                # Print out the media_url for debugging purposes
-                #print(media_url)
-                req = request.Request(media_url,headers=createFakeUAHeaders())
-                response = request.urlopen(req)
-                # Get the redirected URL - this should be the actual file to be downloaded
-                final_url = response.url
-                print(final_url)
-                # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
-                if final_url.endswith('_video.m3u8'):
-                    # Write the m3u8 file
-                    #f = open(filename.replace('m4v','m3u8'),'w+b')
-                    #f.write(response.read())
-                    #f.close()
-                    # If there is a playlist (m3u8) file, there is always a 720x720 ts file, so change the URL to that file and process using ffmpeg
-                    final_url = final_url.replace('_video.m3u8','_720_video.ts')
-                    # Use ffmpeg to convert ts to mp4
-                    subprocess.run(
-                        ['ffmpeg','-hide_banner','-loglevel','error','-y','-i',final_url,'-c:v','copy','-c:a','copy',filename],
-                        stdout = subprocess.DEVNULL
-                        )
-                else:
-                    # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
-                    f = open(filename,'w+b')
-                    f.write(response.read())
-                    f.close()
+            whtml = str(wurl.read().decode('utf-8'))
+            #print(whtml)
+            if "fa-video" in whtml:
+                #<a class="btn btn-block" href="/system/modules/downloader.php?url=https://c-cdnet.cdn.smule.com/smule-gg-uw1-r-6/sing_google/performance/renvideo/1f/67/a34e4ee8-6563-47b2-8acc-572b3cceb31c.mp4&name=Ajnabi Mujhko Itna Bata&ext=mp4&pkey=1785440108_5101548258"><i class="fa fa-video"></i> Download video</a>
+                video_url = unquote(re.search("downloader.php\?.*?(https.*?mp4).*?fa-video",whtml).group(1))
+                downloadFile(video_url,filename)
+                updateTags(filename)
+                # Once video is downloaded, update filename for audio file
+                filename = filename.replace('mp4','m4a')
+            # Always download the audio file
+            #<button class="btn btn-block" onclick="convert('1785440108_5101548258','https://c-cdnet.cdn.smule.com/smule-gg-uw1-r-8/sing_google/performance/rendered/65/aa/5e8c8c0b-2505-4b9a-a584-9d14e2ab3923.m4a', 'Ajnabi Mujhko Itna Bata')"><i class="fa fa-music"></i> Download as MP3</button>
+            audio_url = unquote(re.search("convert\('.*?'(https.*?.m4a)'",whtml).group(1))
+            downloadFile(audio_url,filename)
+            updateTags(filename)
+        ###########################################################################################################################
+        # 2025/08/09 - Smule seems to be returning HTTP 302, so trying sownloader instead and commenting out original code below
+        ###########################################################################################################################
+        # # The web_url returns an HTML page that contains the link to the content we wish to download
+        # req = request.Request(web_url,headers=createFakeUAHeaders())
+        # with request.urlopen(req) as murl:
+        #     # First get the HTML for the web_url
+        #     mhtmlstr = str(murl.read())
+        #     #print(mhtmlstr)
+        #     # Next, parse out the content_url, which is in the content field of the "twitter:player" object
+        #     content_url_orig = unquote(re.search('twitter:player" content=".*?"',mhtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+        #     #print(content_url_orig)
+        #     content_url = encode_unicode_url(content_url_orig)
+        #     print(f"Content URL = {content_url}")
+        #     req = request.Request(content_url,headers=createFakeUAHeaders(acceptEncoding='gzip, deflate, br, zstd'))
+        #     #cj = CookieJar()
+        #     #opener = request.build_opener(request.HTTPCookieProcessor(cj))
+        #     with request.urlopen(req) as curl:
+        #     #with opener.open(req) as curl:
+        #         # Get the HTML of the content so we can parse out the actual media URL
+        #         chtmlstr = str(curl.read())
+        #         #print(chtmlstr)
+        #         # Next, parse out the actual media_url, which is in the content field of the "twitter:player:stream" object
+        #         # We need to strip out the "amp;" values and convert the "+" value to URL-friendly value
+        #         media_url = unquote(re.search('twitter:player:stream.*?content=".*?"',chtmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+        #         # Print out the media_url for debugging purposes
+        #         print(f"Media URL = {media_url}")
+        #         req = request.Request(media_url,headers=createFakeUAHeaders())
+        #         response = request.urlopen(req)
+        #         # Get the redirected URL - this should be the actual file to be downloaded
+        #         final_url = response.url
+        #         print(f"Final URL = {final_url}")
+        #         # If the final URL ends with "_video.m3u8", this means it is a playlist, and the playlist should contain a file that ends with "_720_video.ts", which is the actual video file
+        #         if final_url.endswith('_video.m3u8'):
+        #             # Write the m3u8 file
+        #             #f = open(filename.replace('m4v','m3u8'),'w+b')
+        #             #f.write(response.read())
+        #             #f.close()
+        #             # If there is a playlist (m3u8) file, there is always a 720x720 ts file, so change the URL to that file and process using ffmpeg
+        #             final_url = final_url.replace('_video.m3u8','_720_video.ts')
+        #             # Use ffmpeg to convert ts to mp4
+        #             subprocess.run(
+        #                 ['ffmpeg','-hide_banner','-loglevel','error','-y','-i',final_url,'-c:v','copy','-c:a','copy',filename],
+        #                 stdout = subprocess.DEVNULL
+        #                 )
+        #         else:
+        #             # Open the file in binary write mode and write the data from the response - do this even for m3u8 files because it seems if we don't read the response, future calls get blocked
+        #             f = open(filename,'w+b')
+        #             f.write(response.read())
+        #             f.close()
     except Exception as e:
         print("FAILED TO DOWNLOAD!!!!!!!!!!!!!!")
         if "'NoneType' object has no attribute 'group'" in str(e):
             print("Recording not available - attempting to play in order to make it available")
             try:
                 # If media_url is not available, skip it
-                media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+                #media_url = unquote(re.search('twitter:player" content=".*?"',htmlstr).group(0).split('"')[2]).replace("amp;","").replace("+","%2B")
+                #<h4><a href="https://smule.com/p/1785440108_5101548258" target="_blank">Ajnabi Mujhko Itna Bata</a><h4>
+                media_url = unquote(re.search('(https:\/\/smule.com.*?)" target',whtml).group(1))
                 #print(media_url)
                 # webbrowser registration does not seem to be needed
                 #webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
@@ -1113,34 +1184,6 @@ def downloadSong(web_url,baseFolder,file,performance,username):
         #if (not "HTTP Error 504" in str(e)) and (not "HTTP Error 410" in str(e)) and (not "'NoneType' object has no attribute 'group'" in str(e)):
             #raise
         return 1
-
-    try:
-        # Write the tags for the M4A file
-        af = MP4(filename)
-        af["\xa9nam"] = performance["fixed_title"]
-        af["\xa9ART"] = performance["performers"]
-        # Set Album Artist to the username we searched for
-        af["aART"] = username
-        # Android seems to have a bug where wrong art is displayed if "Album" tag is empty so set it to "Smule" followed by current date
-        af["\xa9alb"] = f"Smule - {albumdate}"
-        af["\xa9day"] = f"{albumyear}"
-        af["purd"] = createdat
-        af["\xa9cmt"] = f"Performed on {createdat}"
-
-        # Write the JPEG to the M4A file as album cover. Ignore any errors reading the image
-        try:
-            pic_url = performance['display_pic_url']
-            req = request.Request(pic_url,headers=createFakeUAHeaders())
-            img = MP4Cover(request.urlopen(req).read(), imageformat=MP4Cover.FORMAT_JPEG)
-            af["covr"] = [img]
-        except:
-            pass
-        # Save the updated tags to the file
-        af.save()
-    except Exception as e:
-        print("FAILED TO UPDATE TAGS!!!")
-        print(str(e))
-        return 0
 
     # Print pic URL for debugging purposes
     # print(pic_url)

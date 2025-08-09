@@ -29,6 +29,7 @@ Aa Chal Ke Tujhe|ᴀᴀ Chᴀʟ ᴋe Tᴜᴢhe ᴍᴀɪ ʟeᴋe Chᴀʟᴜ
 Aa Chal Ke Tujhe|Aa Chal Ke Tujhe Main Leke Chaluun
 Aa Chal Ke Tujhe|Aa Chal Ke Aa Chalke Singalong2426
 Aa Chal Ke Tujhe|0268 Aa Chal Ke Tujhe
+Aa Chal Ke Tujhe|Aa Chal Ke Aa Chal Ke
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
 Aa Jaane Jaan|Aa Jaane
@@ -210,6 +211,7 @@ Aane Wala Pal|Aane Wala Pal Jaane Wala Hai
 Aane Wala Pal|Aanewala Pal Janewala
 Aane Wala Pal|Aane Wala Paljaane Wala Hai
 Aane Wala Pal|Aane Wala Paljaane Wala Hai D
+Aane Wala Pal|Ane Wala Pal
 Aankh|Aankh
 Aankh Maare|Aankh Maare
 Aankh Maare|Aankh Maare O Ladka
@@ -1709,6 +1711,7 @@ Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi ><
 Dil Hai Ke Maanta Nahin|Hil Hai Ke Manta Nahin Song
 Dil Hai Ke Maanta Nahin|Top Dil Hai Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahin
+Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi 3⃣2⃣0⃣Kbps
 Dil Hai Tumhara|Dil Hai Tumhara
 Dil Hai Tumhara|Dil Hai Tumhara Hindi Song
 Dil Hai Tumhara|Dilhai Tumhara
@@ -1839,6 +1842,7 @@ Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hain Dil Se
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hain
 Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hai Dil Se Hindi
 Dil Ne Yeh Kaha|Dil Ne Ye Kaha Hai Dilse
+Dil Ne Yeh Kaha|Dil Ne Yeh Kaha Hai Dil Se Happy
 Dil Pukaare Aa Re Aa Re|Dil Pukaare Aa Re Aa Re
 Dil Pukaare Aa Re Aa Re|Dil Pukare Aa Re Aare
 Dil Pukaare Aa Re Aa Re|Dil Pukare Are Are
@@ -1870,6 +1874,7 @@ Dil To Pagal Hai|Dil To Pagal He
 Dil To Pagal Hai|Dil Toh Pagal Hai
 Dil To Pagal Hai|Dil To Paagal Hai Dil Deewana Hai
 Dil To Pagal Hai|1147 Dil To Pagal Hai
+Dil Tu Hi Bataa|Dil Tu Hi Bataa
 Dil Use Do Jo Jaan De De|Dil Use Do Jo Jaan De De
 Dil Yeh Kehta Hai|Dil Yeh Kehta Hai
 Dilbar Dil Se Pyaare|Dilbar Dil Se Pyare
@@ -2034,6 +2039,7 @@ Ek Dil Hai Mera Dil Hai|Ek Dil Hai Mera Dil Hai
 Ek Do Teen|Ek Do Teen Char
 Ek Do Teen|Ek Do Teentezaaᵇ Ekdoteen
 Ek Do Teen|Ek Do Teen,Char Panch Chhe
+Ek Dooje Ke Vaaste|Ek Dooje Ke Vaaste
 Ek Haseen Shaam|Ek Hasin Shaam Ek Haseen Shyaam
 Ek Haseena Thi|Ek Haseena Thi
 Ek Haseena Thi|Ek Haseena Thimusicoolpiyush_
@@ -4185,6 +4191,7 @@ Mujhe Neend Na Aaye|Mujhe Neend Naaaye
 Mujhe Neend Na Aaye|Mujhe Nind Na Aaye
 Mujhe Neend Na Aaye|Mujhe Neend Naaaye Dil
 Mujhe Neend Na Aaye|Mujhe Neendna Aaye
+Mujhe Neend Na Aaye|Mujhe Neend Na Aaye Navga
 Mujhe Pyaar Hone Laga Hai|Mujhe Pyar Hone Laga Hai
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas Mujhe Chahti Ho
 Mujhe Raat Din Bas Mujhe Chahti Ho|Mujhe Raat Din Bas
@@ -4224,6 +4231,7 @@ Muskaanein Jhooti Hai|Muskaanein Jhooti Hai
 Muskuraane Ki Wajah Tum Ho|Muskurane Ki Wajah Tum Ho
 Musu Musu Hasi|Musu Musu Hasi
 Muthukodi Kawari Hada|Muthu Kodi Kawari Hada
+My Adorable Darling|✶✶My Adorable Darling
 My Desi Girl|: My Desi Girl
 My Desi Girl|My Desi Girl
 My Desi Girl|Desi Girl
@@ -4731,6 +4739,7 @@ Pukarta Chala Hoon Main|Pukarta Chala Hoon
 Pukarta Chala Hoon Main|Pukarata Chala Hu Mein 3 Stenza
 Pukarta Chala Hoon Main|0237 Pukarta Chala Hoon Main
 Pukarta Chala Hoon Main|Pukarta Chala Hoon Main 3 Antras
+Pukarta Chala Hoon Main|Pukarta Chala
 Pyaar Ajnabi Hai|Br Pyar Ajnabi Hai
 Pyaar Deewana Hota Hai|Adpyar Deewana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai
@@ -4984,6 +4993,7 @@ Rimjhim Rimjhim|Rimjhim Rimjhim Song
 Rimjhim Rimjhim|Rim Jhim Rim Jhim Rum Jhum Rum Jhum
 Rimjhim Rimjhim|Hindi Rim Jim Rim Jim
 Rimjhim Rimjhim|Rimjhimrimjhim
+Rimjhim Rimjhim|Imjhim Rumjhum & Rim Jhim Rum
 Rocking Medley|Rocking Medley
 Rocky Aur Rani Caravan Medley|Saregama Carvaan Medley Rrkpk
 Roja Jaaneman|Roja Jaaneman
@@ -5160,6 +5170,7 @@ Sach Mere Yaar Hai|Sach Mere Yaar Hai
 Sach Mere Yaar Hai|Sach Mere Yaar Hai Saagar
 Sahab Didi Medley|0544 Sahab Didi Medley 10
 Saiyaan Hatto Jaao|Saiyaan Hatto Jaao
+Saiyaara|Saiyaara
 Sajde Kiye Hai Laakhon|Sajde Kiye Hai Lakhon
 Sajan Re Jhoot Mat Bolo|Sajan Re Jhoot Mat Bolo
 Sajna Hai Mujhe|Sajna Hai Mujhe
@@ -6018,6 +6029,7 @@ Tum Hi Ho|Tum Hi Ho Tum Hi Ho Tum Hi Ho Tum Hi Ho Tum
 Tum Hi Ho|Tum Hi Ho Tum Hi Ho
 Tum Hi Ho|Tum Hi Ho Nenhgirna
 Tum Hi Tum Ho|Tum Hi Tum Ho Mere Jeevan Mein
+Tum Ho Toh|Tum Ho Toh Saiyaara
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Ghazal
 Tum Itna Jo Muskura Rahe Ho|Tum Itna Jo Musjura Rahe Ho
@@ -6067,6 +6079,7 @@ Tum Mujhe Yun|Tum Mujhe
 Tum Mujhe Yun|Tum Mujhe Yun Bhula Na Paoge
 Tum Mujhe Yun|Tum Mujhe Yun Mohammed
 Tum Mujhe Yun|Tum Mujhe Yun Mujhe Yun
+Tum Mujhe Yun|Tum Mujhe Yun Mujhe Yun 4 Antras
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jaane Kis Jahan Mein
 Tum Na Jaane Kis Jahaan Mein Kho Gaye|Tum Na Jane Kis Jahan Mein
