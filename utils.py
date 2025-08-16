@@ -189,7 +189,7 @@ def remove_words(title):
         'NAYA DAUR','MAJOR SAAB','AASHIQUI 2','UNPLUGEG','JAB TAK HAI JAN','ARIJIT SINGH','LOVERATRI','KISHORE KUMAR','ORIGINAL','BEST',\
         'FIX','SANAM FT SANAH MOIDUTTY','BHAI BHAI','MUKESH','LATA','RAFI','JAGJIT SINGH','MUKESH','HEMANT KUMAR','HEMANT','KARAOKE','DSJ',\
         'UDIT NARAYAN','ALKA YAGNIK','SONU NIGAM','KEDARNATH','NEW-','NEW -','CUSTOMIZED','TM','RHTDM','CLP -','YESUDAS', 'LATA MANGESHKAR',\
-        'FEMALE VERSION -','2502-','HD ORIG SCALE 2 -','623-','2376-'\
+        'FEMALE VERSION -','2502-','HD ORIG SCALE 2 -','623-','2376-', 'CAPPELLA -'\
         ]
     sorted_words = sorted(words,reverse=True,key=len)
     result = title

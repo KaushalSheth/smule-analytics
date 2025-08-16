@@ -374,6 +374,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     geoCache = getGeoCache()
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
+    #print(f"Performance JSON Count = {len(performancesJSON['list'])}")
     for performance in performancesJSON['list']:
         ct = createType
         #perfStatus = performance['perf_status'] # Not available
@@ -386,6 +387,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # As soon as i exceeds the maximum performance value, set the stop variable (for the main loop) and break out of the loop for the current batch
         if i >= maxperf:
             stop = True
+            print(f"Max perf exceeded ({i})")
             break
         created_at = performance['created_at']
         web_url_full = f"https://www.smule.com{performance['web_url']}"
@@ -397,9 +399,11 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         #print(f"{performance['title']}; {created_at}")
         if (created_at < ensembleMinDate) or (not joins and created_at < mindate):
             stop = True
+            #print(f"Created Date = {created_at}, Ensemble Min Date = {ensembleMinDate}, Min Date = {mindate}")
             continue
         # If the created_at is greater than the max date, or ensemble type is GROUP, then skip it and proceed with next one
         if (created_at > maxdate) or (ensembleType == "GROUP"):
+            #print(f"Created Date = {created_at}, Max Date = {maxdate}, Ensemble Type = {ensembleType}")
             continue
         #print(f"{i}: {web_url_full}")
         # If the web_url_full ends in "/ensembles" then set ct to be "invite"
@@ -605,13 +609,17 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         if not isFollowing:
             join_cnt += " (nf)"
         # If performance is a join, set ct to "ensemble" so it gets color coded correctly
-        #print(ensembleType)
+        #print(f"Ensemble Type = {ensembleType}")
         if ownerHandle == username and ensembleType == "DUET" and not web_url_full.endswith("/ensembles"):
             ct = "ensemble"
             # If parentKey is empty, try to get the invite key
             if parentKey == "":
                 parentKey = getOpenInviteKey(fixedTitle)
             #printTs(f"Performer = {performers}, Title = {fixedTitle}, Parent Key = {parentKey}")
+        try:
+            artist = performance['artist']
+        except:
+            artist = "Unknown"
         # Try appending the performance to the list and ignore any errors that occur
         try:
             ## Append the relevant performance data from the JSON object (plus the variables derived above) to the performance list
@@ -620,7 +628,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 'type':performance['type'],\
                 'created_at':created_at,\
                 'title':performance['title'],\
-                'artist':performance['artist'],\
+                'artist':artist,\
                 'ensemble_type':ensembleType,\
                 #'child_count':performance['child_count'],\
                 'child_count':0,\
@@ -684,7 +692,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         except:
             pass
             raise
-
+    #print(f"Performance List Count = {len(performanceList)}")
     return [ stop, i, performanceList ]
 
 # Method to fetch Title Mappings from text file
@@ -990,6 +998,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         else:
             #next_offset = performances['next_offset']
             next_offset = performances['nextOffset']
+    #print(f"Recording Count = {len(performanceList)}")
     # If type is "recording", append invites as well
     if type == "recording":
         printTs("Appending invites")
