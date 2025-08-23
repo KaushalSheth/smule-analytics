@@ -1035,6 +1035,7 @@ Bheegi Bheegi Raaton Mein|Unwind Bheegi Bheegi Raaton Mein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hain Ratein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi Si Hai Raatein
 Bheegi Bheegi Si Hain Raatein|Bheegi Bheegi
+Bheegi Saree|Bheegi Saree Param Sundari
 Bheegi Huyi Hai Raat|Bheegi Huyi Hai Raat Magar Song
 Bholi Bhaali Ladki|Bholi Bhali Ladki
 Bholi Si Surat|Bholi Si Surat
@@ -2197,6 +2198,7 @@ Give Me Some Sunshine|Give Me Some Sunshine
 Golden Duets Medley 1|Golden Medley
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chasma
+Gore Gore Mukhde Pe|Gore Gore Muke Pe
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Gore O Baanke Chhore|0527 Gore Gore O Baanke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
@@ -2431,6 +2433,7 @@ Hum Pyaar Mein Jalne Waalon Ko|Hum Pyar Mein Jalnewalon Ko
 Hum Tere Bin Kahin|Hum Tere Bin Kahin
 Hum Tere Bin Kahin|Hum Tere Bin Kahin Reh Nahin Paate
 Hum Tere Bin Kahin|Hum Tere Bin Ab Reh Nahi Sakte :
+Hum Tere Pyaar Mein Saara Aalam|हम तेरे प्यार में सारा आलम
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein Yun Pagal
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein
 Hum The Jinke Sahaare|Hum The Jinke Sahare
@@ -4232,6 +4235,7 @@ Mujhse Juda Hokar|Mujhse Juda Hokar Compact
 Mujhse Mohabbat Ka Izhaar|Mujhse Mohabbat Ka Izhaar Karti
 Muqala Muqabla|Muqala Muqabla
 Muqala Muqabla|Mukkala Muqabla
+Muqala Muqabla|Muqabla Hindi Mukkalamukabala
 Musaafir Hoon Yaaron|Musafir Hoon Yaaron
 Musaafir Hoon Yaaron|Musafir Hoon Ya
 Musaafir Hoon Yaaron|Musafir Hoon Yaaro
@@ -4642,6 +4646,7 @@ Pardesiya|Rp Pardesiya Ye Sach Hai Piya
 Pardesiya|Pardesia Ye Sach Pardesiya Yeh Sach
 Pardesiya|1034 Pardesiya Ye Sach Hai Piya
 Pardesiya|H‌D‌ Pardesi Pardesi Jana Nahi
+Pardesiya Param Sundari|Pardesiya Param Sundari
 Pardesiyon Se Na Akhiyan Milaana|Pardesiyon Se Na Akhiyan Milana
 Pardesiyon Se Na Akhiyan Milaana|Pardesion Se Na Ankhiyan Milana
 Patthar Ke Sanam|Patthar Ke Sanam
@@ -6781,6 +6786,7 @@ Zihaal E Miskin|Zihaal E Miskin New 2023
 Zihaal E Miskin|Zihale Miskin Maqun Baranjish
 Zihaal E Miskin|Zihaale
 Zindagi Aa Raha Hoon Main|Zindagi Aa Raha Hoon Main
+Zindagi Ban Gaye Ho Tum|Zindagi B4N Gaye Ho Tum
 Zindagi Bhar Nahi Bhoolegi|Zindagi Bhar Nahi Bhoolegi
 Zindagi Bhar Nahi Bhoolegi|0912 Zindagi Bhar Nahin Bhoolegi
 Zindagi Bhar Nahi Bhoolegi|Zindagi Bhar Nahin Bhoolegi
