@@ -167,7 +167,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
                     last_performance_time, performance_last_14_days_cnt, join_last_30_days_cnt, is_following,
                     days_till_first_join, first_join_time, last_join_time, rated_song_cnt
             from    favorite_partner
-            where   performance_cnt > 0
+            where   performance_cnt > 1
             order by recency_score desc
             """
     elif analyticstitle == 'Period Stats':
