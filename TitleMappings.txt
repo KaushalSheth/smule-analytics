@@ -71,6 +71,7 @@ Aaiye Meherbaan|Aaiye Meharban
 Aaiye Meherbaan|Aayie Meharbaan
 Aaiye Meherbaan|Aaiye Meharbaan Baithiye
 Aaiye Meherbaan|0116 Aaiye Meherbaan
+Aaiye Meherbaan|Aaiye Meherban
 Aaj Hai Sagai|Aaj Hai Saagai
 Aaj Hai Sagai|Aaj Hai Sagai Pyaar To Hona Hi Tha
 Aaj Hai Sagai|Aaj Hai Sagaai Sun Ladki Ke Bhai
@@ -373,6 +374,7 @@ Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aap Ko Pehle Bhi Kahin Dekha Hai|Aap Ko Pehle Bhi Kahin Dekha Hai
 Aap Mujhe Acche Lagne Lage|Aap Mujhe Acche Lagne Lage
 Aap Yahaan Aaye Kis Liye|Aap Yahaan Aaye Kis Liye
+Aap Yahaan Aaye Kis Liye|Aap Yahan Aaye Kisliye
 Aap Yuhi Agar Humse Milte Rahe|Aap Yuhi Agar Humse Milte Rahe
 Aapka Kya Hoga|Aapka Kya Hoga
 Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
@@ -414,6 +416,7 @@ Aawaaz Deke Hamein Tum Bulao|Awaaz Deke Humen Tum Bulao
 Aawaaz Deke Hamein Tum Bulao|Aawaz Deke Hamein Tum Bulaao
 Aawaaz Di Hai Aaj Ek Nazar Ne|Awaaz Di Hai Aaj Ek Nazar Ne
 Aawaaz Di Hai Aaj Ek Nazar Ne|Aawaz Di Hai Aaj Ek Nazar Ne
+Aawaaz Di Hai Aaj Ek Nazar Ne|Awaaz Di Hai Aaj
 Aawaaz Do Humko|Aawaz Do Humko Aawaz Do Humko
 Aawaaz Do Humko|आवाज़ दो हमको, हम खो गये, कब नींद से जागे
 Aawaaz Do Humko|Aawaz Do Humko
@@ -816,6 +819,7 @@ Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Isc_Arief86
 Are Re Are Ye Kya Hua|Are Re Are Ye Kya Hua Song
 Are Re Are Ye Kya Hua|Are Re Arre Ye Kya Huadtph
 Ari Chhod De Patang|Ari Chodd De Patang Meri Chodd Denagin 1954
+Asha Bhosle Medley|Asha Bhosle Ke Hit Hindi Gaane Medley
 Asha Ji Songs Medley|Asha Ji Songs Medley
 Asha Ji Songs Medley|Asha Medley
 Asha Ji Songs Medley|0449 Asha Bhonsle Sensual Medley
@@ -981,6 +985,7 @@ Balam Pichkari|Balam Pichkari With Vocals
 Bangle Ke Peechhe|Bangle Ke Peechhe
 Banke Tera Jogi|Banke Tera Jogi
 Banke Tera Jogi|Ban Ke Tera Jogi Tu Yaar Tu Hi Dildaar
+Barbaad Saiyaara|Barbaad Saiyaara
 Barfani Babumoshai Bandookbaaz|Barfani Babumoshai Bandookbaaz
 Barsaat Ke Din Aaye|Barsaat Ke Din Aaye Barsaat 2005
 Bas Ek Dhadak|Bas Ek Dhadak Dhadak 2
@@ -1124,6 +1129,7 @@ Chaahun Main Ya Na|Chahun Main Ya Naa
 Chaahun Main Ya Na|Tu Hi Ye Mujhko
 Chaahun Main Ya Na|Tu Hi Ye Mujhko Bata De
 Chaahun Main Ya Na|Chahun Main Ya Na Ashiqui 2
+Chaahun Main Ya Na|Main Na Hindu Na Musalman
 Chaahunga Main Tujhe|Chahunga Main Tujhe
 Chaahunga Main Tujhe|Chahunga Main Tujhe Sanjh Sawery
 Chaahunga Main Tujhe|Chahunga Me Tujhe Low
@@ -1586,6 +1592,7 @@ Dekha Hazaro Dafaa|Dekha Hazaro Dafa Rustom
 Dekha Jo Tumko|Dekha Jo Tumko
 Dekha Jo Tumko|Dekha Jo Tumko Ye Dil Ko Kya
 Dekha Na Haaye Re|Dekha Na Haye Re Socha Na Haye Re
+Dekha Teri Mast Nigaahon|Dekha Teri Mast
 Dekha Tujhe To Ho Gayi|Dekha Tujhe To Ho Gayi Koyla
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
@@ -1670,6 +1677,7 @@ Didi Tera Devar Deewana|Didi Tera Devar Deewana
 Didi Tera Devar Deewana|Rpdidi Tera Devar Deewana
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun Ke Bekhud Kiya
 Dikhai Diye Yun Ke Bekhud Kiya|Dikhai Diye Yun
+Dikhai Diye Yun Ke Bekhud Kiya|Dikhayi Diye Yun
 Dil Aaj Shayar Hai|Dil Aaj Shayar Hai
 Dil Aaj Shayar Hai|Dil Aaj Shayar
 Dil Aisa Kisi Ne Mera Toda|Dil Aisa Kisi Ne Mera Toda
@@ -1703,6 +1711,7 @@ Dil Dil Dil Deewana|Dil Dil Dil Deewana Jpk
 Dil Diyan Gallan|Dil Diyan Gallan Hindi
 Dil Diyan Gallan|Dil Diyan Gallan Dil Diyan Gallan
 Dil Diyan Gallan|Hil Diyan Gallan
+Dil Diyan Gallan|Dil Diya Gallan First Part
 Dil Dooba|Dil Dooba Khakee
 Dil Ek Mandir Hai|Dil Ek Mandir Hai
 Dil Hai Ke Maanta Nahin|><Dil Hai Ke Manta Nahin
@@ -1905,6 +1914,7 @@ Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Takk Mujhe
+Dilbar Shikdum Shikdum|Dilbar Shikdum Shikdum
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics
@@ -2215,6 +2225,7 @@ Gore Gore Mukhde Pe|Gore Gore Muke Pe
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Gore O Baanke Chhore|0527 Gore Gore O Baanke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
+Gori Chalo Na Hans Ki Chaal|Gori Chalo Na Hans Ki Chaal
 Gori Gori|Gori Gori
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
 Gori Ka Saajan|Gori Ka Sajan
@@ -3667,6 +3678,7 @@ Lag Ja Gale|Lag Ja Gale Exclusive
 Lag Ja Gale|Lag Jaa Galewoh Kaun Thi 1964
 Lag Ja Gale|0425 Lag Ja Gale
 Lag Ja Gale|Lag Jaa Galee Phir Lm1964
+Lag Ja Gale|Lag Ja
 Lag Ja Gale + Abhi Na Jao|Lag Ja Gale Abhi Na Jao
 Laga Prem Rog|Laga Prem Rog
 Laila O Laila|Laila Main Laila
@@ -4394,6 +4406,7 @@ Nahin Ji Nahin|Jubilee: Nahin Ji Nahin
 Nahin Ji Nahin|Nahin Ji Nahin Ki Dekho Na Jubilee
 Nahin Rakhta Dil Mein|Nahin Rakhta Dil Mein
 Nahin Yeh Ho Nahin Sakta|Nahin Yeh Ho Nahin Sakta
+Nahin Yeh Ho Nahin Sakta|Nahi Yeh Ho, Nahi Sakta
 Nain So Nain Nahi Milayo|Nain So Nain Nahi Milayo
 Nain So Nain Nahi Milayo|Nein So Nain Nahi Milao
 Nain So Nain Nahi Milayo|Nain So Nain Naahi Milao
@@ -4870,6 +4883,7 @@ Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jaane Do Dushman
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jane Do Dushman
 Pyaar Ko Ho Jaane Do|Pyar Ko Ho Ⓙane Do Dushmam
+Pyaar Ko Ho Jaane Do|Pyar Ko Ho Jaane Do1482
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai Tumhi Se
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai
 Pyaar Manga Hai Tumhi Se|Pyar Maanga Hai Tumhi Se
@@ -5242,6 +5256,7 @@ Salaame Ishq Meri Jaan|Salame Ishq Meri Jaan
 Salaame Ishq Meri Jaan|Salame
 Salaame Ishq Meri Jaan|Salaame Is Meri Jan
 Salaame Ishq Meri Jaan|Salam
+Salaame Ishq Meri Jaan|Salaame Is Meri Jaan1486
 Sama Hai Suhana Suhana|Sama Hai Suhana Suhana
 Sama Hai Suhana Suhana|Sama Hai Suhana
 Sama Hai Suhana Suhana|Shama Hai Suhana Suhana
@@ -5313,6 +5328,7 @@ Sau Saal Pehle|Sau Saal Pehle
 Sau Saal Pehle|Sau Saal Pehle Sau
 Sau Saal Pehle|Sau Saal Pehle Mujhe Tumse Pyaar Tha
 Sau Saal Pehle|100 Sau Saal Pehle
+Sau Saal Pehle|Sau Saal Pehle Mujhe
 Saudagar Sauda Kar|Saudagar Sauda Kar
 Saude Bazi|Saude Bazi
 Sawaar Loon|Sawaar Loon
@@ -5421,6 +5437,7 @@ Suhani Chandni Raatein|Suhani Chandni Raatein Mukti
 Suhani Raat Dhal Chuki|Suhani Raat
 Suhani Raat Dhal Chuki|Suhani Raat Dhal Chuki
 Suhani Raat Dhal Chuki|Suhani Chandini Raatein Fanclub 2025
+Suhani Raat Dhal Chuki|Suhani Raat Dhal
 Sukh Ke Sab Saathi|Sukh Ke Sab Saathi
 Sun Beliya Shukriya Meharbani|Sun Beliya Shukriya Meharbani
 Sun Champa Sun Taara|Sun Champa Sun Tara
@@ -5557,6 +5574,7 @@ Tera Chehra|Tera Chehraadnan Sami
 Tera Chehra|Tera Chehra Jab Nazar
 Tera Chehra|Tera Chehra Intro
 Tera Chehra Kitna Suhana|Tera Chehra Kitna Suhana
+Tera Chehra Kitna Suhana|Tera Chehra Kitna Suhana Lagta Hai
 Tera Hone Laga Hoon|Tera Hone Laga Hoon
 Tera Hone Laga Hoon|Tera Hone Laga Hun
 Tera Hone Laga Hoon|Tera Hone Laga Hu
