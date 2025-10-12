@@ -43,6 +43,7 @@ Aa Jaane Jaan|Aa Jane Jaane Jaan
 Aa Kahin Door|Aa Kahin Door Chale Jaayein Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum
 Aa Kahin Door|Aa Kahin Door Chale Jaye Hum Lawaris
+Aa Kahin Door|Aa Kahin Door Chale
 Aa Ke Bhar Lo Baazuon Me|Aa Ke Bhar Lo Bazuon Me
 Aa Lag Ja Gale Dilruba|Aa Lag Ja Gale Dilruba
 Aa Laut Ke Aaja Mere Meet|Aa Laut Ke Aaja Mere Meet
@@ -946,6 +947,7 @@ Badi Nazuk Hai Ye Manzil|Badi Nazuk Hai Ye Manzil
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Suni
 Badi Sooni Sooni Hai|Badi Sooni Badi Suni Hh
+Badi Sooni Sooni Hai|Badi Sooni Badi Sooni
 Badtameez Dil|Badtameez Dil
 Badtameez Dil|Battamiz Dil
 Badtameez Dil|Badtamiz Dil
@@ -1176,6 +1178,7 @@ Chaand Ne Kuch Kaha|Chand Ne Kuch Kahacompactchaand
 Chaand Ne Kuch Kaha|Chand Ne Kuch Kahachaand Pyar Kar K
 Chaand Ne Kuch Kaha|Pyar Kar
 Chaand Ne Kuch Kaha|Chand Ne Kuch Chaand Ne Kuchh
+Chaand Ne Kuch Kaha|𝐏𝐲ar Kar
 Chaand Phir Nikla|Chand Phir Nikla
 Chaand Phir Nikla|Chand Fir Nikla Magar
 Chaand Phir Nikla|Chand Fir
@@ -1342,6 +1345,7 @@ Chhod Do Aanchal|Chor Do Aanchall Hh
 Chhod Do Aanchal|0450 Chhod Do Aanchal Zamana Kya Kahega
 Chhod Do Aanchal|Chod Do Aanchal Paying Guest
 Chhod Do Aanchal|Chhod Do Aanchal Zamaana Kya Kahega
+Chhod Do Aanchal|Chhod Do Anchal
 Chhodo Kal Ki Baate|Chodo Kal Ki Baate
 Chhodo Kal Ki Baate|Chhodo Kal Ki Baatein Kal Ki Baat Purani
 Chhodo Sanam Kaahe Ka Gham|Chhodo Sanam Kaahe Ka Gham
@@ -1435,6 +1439,7 @@ Chogada Tara|Chogada
 Chogada Tara|Chogada Tara
 Chogada Tara|Chogada Tara Loveyatri
 Chogada Tara|Chogadatara
+Chor Bazari|Chor Bazari
 Choli Ke Peeche Kya Hai|Choli Ke Peeche Kya Hai
 Choli Ke Peeche Kya Hai|0795 Choli Ke Peeche Kya Hai
 Chori Chori Chupke Chupke|Chori Chori Chupke Chupke
@@ -1615,6 +1620,7 @@ Dekhne Walon Ne|Dekhne Waalon Ne Kya
 Dekho Dekho Jaanam Hum|Dekho Dekho Jaanam Hum ~ Song
 Dekho Dekho Jaanam Hum|Dekho Dekho Janam Hum
 Dekho Dekho Jaanam Hum|Dekho Dekho Janam Hindi
+Dekho Dekho Jaanam Hum|Dekho Dekho Jaanam Hum Song
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
 Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
@@ -2267,6 +2273,7 @@ Gulabi Aankhen|0766 Gulabi Ankhen Jo Teri Dekhi
 Gulabi Aankhen|Gulabi Ankhen Jo Teri Dekhi
 Gulabi Aankhen|Gulabi Aankhe Retro Mix Noor
 Gulabi Aankhen|Gulaabi Aankhen
+Gulabi Aankhen|Gullabi Aankhen
 Gulmohar Gar Tumhaara Naam Hota|Gulmohar Gar Tumhaara Naam Hota
 Gumnaam Hai Koi|Gumnaam Hai Koi
 Gumsum Sa Ye Jahaan|Gumsum Sa Ye Jahan
@@ -2945,6 +2952,7 @@ Jab Deep Jale Aana|Jab Deep Jale Aana 2
 Jab Dil Mile|Jab Dil Mile
 Jab Hum Jawaan Honge|Jab Hum Jawan Honge
 Jab Hum Jawaan Honge|Jab Ham Javan Honge
+Jab Hum Jawaan Honge|Jab Hum Javaa Honge
 Jab Jab Bahaar Aayi|Jab Jab Bahar Aayee
 Jab Jab Bahaar Aayi|Jab Jab Bahaar Aayi
 Jab Jab Bahaar Aayi|Jab Jab Bahar Aayi
@@ -3340,6 +3348,7 @@ Kal Ho Na Ho|Kal Ho Na Ho Title Song
 Kal Ho Na Ho|Sthar Ghadi Badal Rahi Hai
 Kal Ki Haseen Mulaaqaat|Kal Ki Haseen Mulaqat
 Kal Ki Haseen Mulaaqaat|Kal Ki Haseen Mulaqat Ke Liye
+Kal Nau Baje|Kal Nau Baje
 Kal Raat Zindagi Se Mulakaat|Kal Raat Zindagi Se Mulakaat
 Kalank|Kalank
 Kalank|Kalank Female
@@ -4010,6 +4019,7 @@ Manike Thank God|Manike Thank God
 Manike Thank God|Manike Thank God Manike Mage Hithe මැණිකේ
 Manike Thank God|Manike Mage Thank God
 Manike Thank God|Manike Mage Hithe
+Mann Dole Mera Tan Dole|Man Dole Mera Tan Dole
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Beheka Aadhi Raat
 Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
@@ -4285,6 +4295,7 @@ Mohe Rang Do Laal|Mohe Rang Do Laal
 Mujhe Chhu Rahi Hai|Mujhe Chhu
 Mujhe Chhu Rahi Hai|Mujhe Chhu Rahi Hain
 Mujhe Chhu Rahi Hai|Mujhe Chhoo Rahi Hain
+Mujhe Chhu Rahi Hai|Mujhe Chhu Rahi Hain, Mo
 Mujhe Dard|Mujhe Dard
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
@@ -4442,6 +4453,7 @@ Naam Gum Jayega|Naam Gum Jaayega
 Naam Gum Jayega|Naam Gum Jayega
 Naam Gum Jayega|Naam Gum Jayega Nengfirna
 Naam Gum Jayega|Naam Goom Jayega
+Naam Gum Jayega|Naam Gum Jaega ,2 Paragraphs
 Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baje
 Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baaje
 Naghma O Sher Ki Saugaat|Naghma O Sher Ki Saugaat
@@ -4452,6 +4464,7 @@ Nahin Ji Nahin|Nahin Ji Nahin Ki Dekho Na Jubilee
 Nahin Rakhta Dil Mein|Nahin Rakhta Dil Mein
 Nahin Yeh Ho Nahin Sakta|Nahin Yeh Ho Nahin Sakta
 Nahin Yeh Ho Nahin Sakta|Nahi Yeh Ho, Nahi Sakta
+Nahin Yeh Ho Nahin Sakta|: Na卄In Ye卄 卄O Na卄In Տakta
 Nain So Nain Nahi Milayo|Nain So Nain Nahi Milayo
 Nain So Nain Nahi Milayo|Nein So Nain Nahi Milao
 Nain So Nain Nahi Milayo|Nain So Nain Naahi Milao
@@ -4517,12 +4530,14 @@ Neele Neele Ambar Par|Neele Neele Ambar Par Hindi
 Neele Neele Ambar Par|Neele Neele Ambar Par Chaand
 Neele Neele Ambar Par|Neele Neele Ambar Pr Chand Jab Aaye
 Neele Neele Ambar Par|Neele Neele Ambar Par Ambar Saagar'S
+Neele Neele Ambar Par|Neele Neele Ambar Par Chand
 Neend Churake Raaton Me|Neend Churake Raaton Me
 Neend Churayee Meri|Neend Churayee Meri Kisne O Sanam
 Neend Churayee Meri|Neend Churayee Meri
 Neend Churayee Meri|Nind Churayi Meri
 Neend Churayee Meri|Neend Churai Meri
 Neend Churayee Meri|Neendchurayee Meri Kisne O Sanam
+Neend Churayee Meri|Neend Churayi Meri
 Neend Na Mujhko Aaye|Neend Na Mujhko Aaye
 Neend Na Mujhko Aaye|O Neend Na Mujhko Aaye
 Neend Na Mujhko Aaye|नींद ना मुझको आये दिल मेरा घबराये
@@ -4839,6 +4854,7 @@ Puchho Na Yaar Kya Hua|Pucho Na Yaar Kya Hua
 Puchho Na Yaar Kya Hua|Poocho Na Yaar Kya Hua
 Puchho Na Yaar Kya Hua|Poochho Na Yaar Kya
 Puchho Na Yaar Kya Hua|Pucho Na Yaar Poocho Naa [
+Puchho Na Yaar Kya Hua|Poochho Na Yaar Kya Hua5Min 1437
 Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
@@ -5206,6 +5222,7 @@ Saagar Kinare|Sagar Saagar Kinare
 Saagar Kinare|Saagar Kinaare Dil Yeh Pukaare
 Saagar Kinare|0394 Saagar Kinare Dil Ye Pukare
 Saagar Kinare|Saagar Kinare Dil Ye Pukare
+Saagar Kinare|Saagar Kinaare Dil Yeh Pukaare Unwind
 Saagar Sang Kinaare Hai|Sagar Sang Kinare Hai Vijay Path
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saajan Saajan|Saajan Saajan
@@ -5321,6 +5338,7 @@ Samay Tu Dheere Dheere Chal|Samay Tu Dheerey Dheerey Chal
 Sambhala Hai Maine|Sambhala Hai Maine Customized
 Sambhala Hai Maine|Song Sambhalaa Hai Maine
 Sambhala Hai Maine|Sambhala Hain Maine
+Sambhala Hai Maine|Sambhala Hai
 Samjhota Ghamon Se|Samjhota Ghamon Se
 San Sanana|San Sanana
 San Sanana|San Sanana Asoka
@@ -5674,6 +5692,7 @@ Tere Bina Zindagi Se Koi|Tere Bina Jiya Jaye Na Bymusicoolpiyush_
 Tere Bina Zindagi Se Koi|तेरे बिना ज़िन्दगी से कोई, शिकवा तो नहीं
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koi Sikwa
 Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koi Shikwa1422
+Tere Bina Zindagi Se Koi|Tere Bina Zindagi Se Koi Shikwa1421
 Tere Chehre Se|Tere Chehre Se
 Tere Chehre Se|Tere Chehre Se Nazar
 Tere Chehre Se|Tere Chehre Se Nazar Nahi
@@ -5841,7 +5860,9 @@ Teri Umeed Tera Intezaar|Teri Umeed Tera
 Teri Umeed Tera Intezaar|Teri Umeed Teri Umeed
 Teri Zulfon Se Judai|Teri Zulfon Se Judai To Nahi Mangi Thi
 Thande Thande Paani Se Nahaana Chaahiye|Thande Thande Pani Se Nahana Chahiye
-Thandi Hawa Kali Ghata|Thandi Hawa, Kali Ghata
+Thandi Hawa Kaali Ghata|Thandi Hawa Kali Ghata
+Thandi Hawa Kaali Ghata|Thandi Hawa, Kali Ghata
+Thandi Hawa Kaali Ghata|Thandi Hawa Kaali Ghata
 Thandi Hawa Yeh Chandni Suhani|Thandi Hawa Yeh Chandni Suhani
 Thandi Hawaayen Lehrake Aaye|Thandi Hawayen Lehrake Aayen
 The Breakup Song|The Breakup Song
@@ -5953,6 +5974,7 @@ Tu Jahaan Jahaan Chalega|Tu Jaha Jaha Chalega
 Tu Jahaan Jahaan Chalega|Tujahanjahanchalega Navga
 Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mai Sur Mila Le
 Tu Jo Mere Sur Mein|~ Tu Jo Mere Sur Mein
+Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mein Sur Milale
 Tu Jo Mila|Tu Jo Mila
 Tu Jo Nahi Hai Toh|Tu Jo Nahi Hai Toh
 Tu Kya Jaane|Tu Kya Jaane
@@ -6250,6 +6272,7 @@ Tum Paas Aaye|Tum Pass Aaye , Kuch Kuch Hota Hai
 Tum Paas Aaye|Tum Paas Aaye Tum Paas Aaye
 Tum Paas Aaye|Thum Pass Aaye
 Tum Paas Aaye|Kuch Kuch Hota Hai Kuch Hota Kuch Hai Ori
+Tum Paas Aaye|Kuchkuch Hota Hai Hota Hai
 Tum Paas Aaye|0643 Tum Paas Aaye
 Tum Par Hum Hai Atke Yaara|Tum Par Hum Hai Atke Yaara
 Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
@@ -6500,6 +6523,7 @@ Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuchh Woh Shaam Kuchh 🅫
 Woh Shaam Kuch Ajeeb Thi|Woh Shaam Kuch Ajjeb Thi
 Woh Shaam Kuch Ajeeb Thi|ͪ ͩवो शाम कुछ अजीब थी
 Woh Shaam Kuch Ajeeb Thi|Woh Sham Kuchh Woh Shaam Kuchh
+Ya Ali Gangster|Ya Aligangster Yaaliremahwali
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Raha Hai Tera Pyaar|~ Yaad Aa Raha Hai Tera Pyaar
 Yaad Aa Raha Hai Tera Pyaar|Yaad Aa Raha Haitera Pyar
@@ -6516,6 +6540,7 @@ Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Kiya Dil Ne|0657 Yaad Kiya Dil Ne Kahan Ho Tum
 Yaad Kiya Dil Ne|Yad Kiya Dil Ne Kahan Ho Tum
+Yaad Kiya Dil Ne|Yaad Kiya Dil
 Yaad Mein Teri Jaag Jaag|Yaad Mein Teri Jaag Jaag Rits
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye Beete Dino Ki
 Yaad Na Jaaye Beete Dino Ki|Yaad Na Jaaye

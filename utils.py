@@ -189,7 +189,7 @@ def remove_words(title):
         'NAYA DAUR','MAJOR SAAB','AASHIQUI 2','UNPLUGEG','JAB TAK HAI JAN','ARIJIT SINGH','LOVERATRI','KISHORE KUMAR','ORIGINAL','BEST',\
         'FIX','SANAM FT SANAH MOIDUTTY','BHAI BHAI','MUKESH','LATA','RAFI','JAGJIT SINGH','MUKESH','HEMANT KUMAR','HEMANT','KARAOKE','DSJ',\
         'UDIT NARAYAN','ALKA YAGNIK','SONU NIGAM','KEDARNATH','NEW-','NEW -','CUSTOMIZED','TM','RHTDM','CLP -','YESUDAS', 'LATA MANGESHKAR',\
-        'FEMALE VERSION -','2502-','HD ORIG SCALE 2 -','623-','2376-', 'CAPPELLA -'\
+        'FEMALE VERSION -','2502-','HD ORIG SCALE 2 -','623-','2376-', 'CAPPELLA -', 'NEW STYLE-', '[ORIGINAL'\
         ]
     sorted_words = sorted(words,reverse=True,key=len)
     result = title
@@ -239,6 +239,7 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('{HQ{','HQ ').\
                 replace('6-IN-1','6 IN 1').\
                 replace('JAB-JAB','JAB JAB').\
+                replace('CHORI-CHORI','CHORI CHORI').\
                 replace('[SHORT]',openquote + 'SHORT' + closequote)
 
     return result
