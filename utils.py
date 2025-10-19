@@ -240,6 +240,7 @@ def standardize_short(title,openquote='[',closequote=']'):
                 replace('6-IN-1','6 IN 1').\
                 replace('JAB-JAB','JAB JAB').\
                 replace('CHORI-CHORI','CHORI CHORI').\
+                replace('TU-','TU').\
                 replace('[SHORT]',openquote + 'SHORT' + closequote)
 
     return result
