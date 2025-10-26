@@ -1,3 +1,4 @@
+1234 Get On The Dance Floor|1234 Get On The Dance Floor
 3 Old Melodies|3 Old Melodies
 500 Miles Jab Koi Baat Mashup|500 Miles Jab Koi Baat Mashup
 6 In 1 Romantic Medley|6 In 1 Romantic Medley
@@ -33,6 +34,7 @@ Aa Chal Ke Tujhe|0268 Aa Chal Ke Tujhe
 Aa Chal Ke Tujhe|Aa Chal Ke Aa Chal Ke
 Aa Dekhein Zara|Aa Dekhein Zara
 Aa Dekhein Zara|Aa Dekhen Zara
+Aa Dekhein Zara|Aa Dekhen Zara Kisme Kitna Hai Dum
 Aa Jaane Jaan|Aa Jaane
 Aa Jaane Jaan|Aa Jane Jaa
 Aa Jaane Jaan|Jaane Jaan
@@ -1165,6 +1167,7 @@ Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein Song
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Me
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Meinjeky_Kayakue
 Chaand Chhupaa Baadal Mein|Chand Chupa Badal Mein_
+Chaand Chhupaa Baadal Mein|Chand Chhupa Badal Mein
 Chaand Chura Ke Laaya Hun|Chand Chura Ke Laya Hun
 Chaand Jaane Kahan Ko Gaya|Chand Jaane Kahan Ko Gaya
 Chaand Jaane Kahan Ko Gaya|Chand Jaane Kahan Kho Gayamain Chup Rahungi
@@ -2075,6 +2078,7 @@ Ek Ajnabi Haseena Se|Ek Ajnabi Haseena Se ~
 Ek Akela Is Shehar Mein|Ek Akela Is Shehar Mein
 Ek Akela Is Shehar Mein|0952 Ek Akela Is Shahar Mein
 Ek Akela Is Shehar Mein|Ek Akela
+Ek Baar Dekh Lijiye|Ek Baar Dekh Lijiye
 Ek Baat Bataoon|Ek Baat Bataaon
 Ek Chatur Naar|Ek Chatur Naar
 Ek Din Aap Yoon Humko|Ek Din Aap Yoon Humko
@@ -2437,6 +2441,7 @@ Honthon Pe Bas Tera Naam|Honthon Pe Bas Tera Naam Hai
 Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam Honthon
 Honthon Pe Bas Tera Naam|Hothon Pe Bastera Naam
 Honthon Pe Bas Tera Naam|Hothon Pe Bas,Tera Naam Hai
+Honthon Pe Bas Tera Naam|Hothon Pe Bas
 Honthon Pe Jaan Chali Aayegi|Hothon Pe Jaan Chali Aayegi
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo Tum
@@ -3248,6 +3253,7 @@ Kabhi Tanhaiyon Mein|Kabhi Tanhaiyon Mein
 Kabhi Tera Daaman|Kabhi Tera Daman
 Kabhi To Nazar Milao|Kabhi To Nazar Milao
 Kabhi To Nazar Milao|Kabhi To Nazar
+Kabhi To Nazar Milao|Kabhitonazarmilao
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhalia Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chaliya Lagta Hai
 Kabhi Tu Chhaliya Lagta Hai|Kabhi Tu Chhaliya Lagta Hai
@@ -3430,6 +3436,7 @@ Keh Do Ki Tum Ho Meri Warna|Keo Ki Tum Ho Meri Warna
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho Meri Warna
 Keh Do Ki Tum Ho Meri Warna|Keo Ke Tum Ho
+Keh Do Ki Tum Ho Meri Warna|Keo Ki Tum
 Keh Doon Tumhe|Socha Hai
 Keh Doon Tumhe|Socha Hai Keh Doon Tumhe
 Keh Doon Tumhe|Keoon Tumhe
@@ -3516,10 +3523,11 @@ Khwaab Ho Tum Ya Koi Haqeeqat|Khawab Ho Tum
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwab Ho Tum
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwaab Ho Tum Ya Koi Haqiqat
 Khwaab Ho Tum Ya Koi Haqeeqat|Khwaab Ho Tum Ya Koi Haqiqat Kaun Ho
-Kishore Kumar Medley 15 Songs|Medley Of 15 Songs In One
 Kis Liye Maine Pyaar Kiya|Kis Liye Meine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kis Liye Maine Pyar Kiya
 Kis Liye Maine Pyaar Kiya|Kisliye Maine Pyaar Kiya
+Kishore Kumar Medley 15 Songs|Medley Of 15 Songs In One
+Kishore Kumar Medley 15 Songs|Medley 15 Songs
 Kisi Baat Par Main Kisi Se Khafa|Kisi Baat Par Main Kisi Se Khafa
 Kisi Din Banoongi|Kisi Din Banoongi Main
 Kisi Din Banoongi|Kisi Din Banoongi Main Raja
@@ -3570,6 +3578,7 @@ Kitaabein Bahut Si|Kitabein Bahut Si Asha Vinod
 Kitaabein Bahut Si|Kitaben Bahut Si
 Kitaabein Bahut Si|Kitaben Bahut Si Baazigar
 Kitaabein Bahut Si|Kitaben Bahut Si Padhi Hongi
+Kitaabein Bahut Si|Kitabe Bahut Kitabein Kitaben Bahut
 Kitna Haseen Hai Mausam|Kitna Haseen Hai Mausam Kitna Haseen Safar He
 Kitna Pyaara Hai Yeh Chehra|Kitna Pyara Hai Yeh Chehra
 Kitna Pyara Tujhe|Kitna Pyara Tujhe
@@ -4751,6 +4760,7 @@ Parde Mein Rehne Do|Parde Mein Rehne Do
 Pardesi Pardesi|Pardesi Pardesi
 Pardesi Pardesi|Pardesi Pardesi Jana Nahi
 Pardesi Pardesi|Pardesi Pardesi Female
+Pardesi Pardesi|Pardesi Pardesi Jana Nahin
 Pardesiya|Pardesiya
 Pardesiya|Pardesiya Ye Sach Hai Piya
 Pardesiya|Pardesiya Yeh Sach Hain Piya
@@ -5147,6 +5157,7 @@ Rimjhim Rimjhim|Imjhim Rumjhum & Rim Jhim Rum
 Rocking Medley|Rocking Medley
 Rocky Aur Rani Caravan Medley|Saregama Carvaan Medley Rrkpk
 Roja Jaaneman|Roja Jaaneman
+Roja Jaaneman|Roja
 Roka Kai Baar Maine|Roka Kai Baar Maine
 Roobaroo|Roobaroo
 Roop Suhana Lagta Hai|Roop Suhana Lagta Hai
@@ -5297,6 +5308,7 @@ Saat Samundar|Drsaat Samundar Paar
 Saat Samundar|Saat Samundar Paar
 Saathi Mere Sun To Zara|Saathi Mere Sun To Zara
 Saathi Na Koyi Manzil|Saathi Na Koyi Manzil
+Saathiyan Badmash Dil|Saathiyan
 Saathiya Nahin Jaana|Saathiya Nahin Jana
 Saawan Aaya Baadal Chaaye|Sawan Aaya Badal Chaaye
 Saawan Aaye Ya Na Aaye|Saawan Aaye Ya Na Aaye
@@ -5428,6 +5440,7 @@ Say You Say Me|Say You Say Me
 Say You Say Me|Say You, Say Me
 Saiyaara Title Song|Saiyaara Title Song
 Saiyaara Title Song|Saiyaara Female
+Saiyaara Title Song|Saiyara
 Sayonara Sayonara|Sayonara Sayonara
 Sayonara Sayonara|सायोनारा सायोनारा वादा निभाउंगी सायोनारा
 Seene Mein Dil Hai|Seene Mein Dil Hai
@@ -5444,6 +5457,7 @@ Shayad Meri Shadi Ka Khayal|Shayad Meri Shaadi Ka Khayaal
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Shayad Meri Shaadi
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shadi Shaadi
 Shayad Meri Shadi Ka Khayal|Shayad Meri Shaadi
+Shayad Meri Shadi Ka Khayal|Saayad Meri Sadi Ka Khayal
 Shayad Yahi To Pyaar Hai|Shayad Yahi To Pyar Hai
 Shayad|Shayad
 Sheesha Ho Ya Dil Ho|Sheesha Ho Ya Dil Ho
@@ -5679,6 +5693,7 @@ Tera Mujhse Hai|Tera Mujhse Hai Pehla Ka Naata
 Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka
 Tera Mujhse Hai|Tera Mujhse Hai Pehle Ka Naata Koi
 Tera Mujhse Hai|Tera Mujse Hai
+Tera Mujhse Hai|Tera Mujse Hai Pehle
 Tera Naam Liya Tujhe Yaad Kiya|Tera Naam Liya ,Tujhe Yaad Kiya
 Tera Naam Liya Tujhe Yaad Kiya|Tera Naam Liya
 Tera Phoolon Jaisa Rang|Tera Phoolon Jaisa Rang
@@ -5962,6 +5977,7 @@ Tu Hi Re|Tu Hi Ree Bombay Movie In D
 Tu Hi Re|Tu Hi Re , Bombay
 Tu Hi Re|Tu Hi Re Bombay
 Tu Hi Re|Tu Hi Re Tu Hi Re
+Tu Hi Re|Tu Hi Re Nengfirna
 Tu Hi Toh Meri Dost Hai|Tu Hi Toh Meri Dost Hai
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Mein
@@ -5995,6 +6011,7 @@ Tu Jo Mila|Tu Jo Mila
 Tu Jo Nahi Hai Toh|Tu Jo Nahi Hai Toh
 Tu Kya Jaane|Tu Kya Jaane
 Tu Maange Dil Main De Doon Jaan|Tu Mange Dil Main De Doon Jaan
+Tu Maike Mat Jaiyo|Tu Maike Mat Jaiyo
 Tu Mera Jaanu Hai|Tu Mera Jaanu Hai
 Tu Mera Jaanu Hai|Tu Mera Janu Hai
 Tu Mere Paas Bhi Hai|Tu Mere Paas Bhi Hai
