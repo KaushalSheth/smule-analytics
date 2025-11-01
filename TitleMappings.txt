@@ -113,6 +113,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar K Churche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche Har Zubaan
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Aaj
+Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aajkal Pyar Pyaar S
 Aaj Kehna Zaroori Hai|Aaj Kehna Zaroori Hai
 Aaj Ki Raat Stree 2|Aaj Ki Raat
 Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
@@ -271,6 +272,7 @@ Aankhon Mein Kya Ji|Aankho Me Kya Ji Rupehla Badal
 Aankhon Mein Kya Ji|Ankhon Mei Kya Ji
 Aankhon Mein Kya Ji|Ankhon Mein Kya Ji
 Aankhon Mein Kya Ji|Aakhon Me Kya Ji Roopehela Badal
+Aankhon Mein Kya Ji|0475 Aankhon Mein Kya Ji
 Aankhon Mein Neendein|Aankhon Mein Neendein
 Aankhon Pe Mohabbat Likhde|Aankhon Pe Mohabbat Like
 Aankhon Se Dil Mein Utar|Aankhon Se Dil Mein Utar
@@ -376,6 +378,7 @@ Aap Ki Nazron Ne Samjha|आपकी नज़रों ने समझा प्�
 Aap Ki Nazron Ne Samjha|Aapki Nazron
 Aap Ki Nazron Ne Samjha|Aap Ki Nazaron Ne Samjha
 Aap Ki Nazron Ne Samjha|Apki Nazro Ne Samjha
+Aap Ki Nazron Ne Samjha|Aapki Nazaro Ne Samjha
 Aap Ko Dekh Kar Dekhta Reh Gaya|Aapko Dekhkar Dekhta Reh Gaya
 Aap Ko Pehle Bhi Kahin Dekha Hai|Aap Ko Pehle Bhi Kahin Dekha Hai
 Aap Mujhe Acche Lagne Lage|Aap Mujhe Acche Lagne Lage
@@ -533,6 +536,7 @@ Adayein Bhi Hai|Adayein Bhi Hain Mohabbat Bhi Hai
 Adayein Bhi Hai|~Adayein Bhi Hain Mohabbat Bhi Hai
 Adayein Bhi Hai|Adayein Bhi
 Adayein Bhi Hai|Adayein Bhi Hain Mohabat Bhi Hai
+Adayein Bhi Hai|Adayein Bhi Hain
 Ae Ajnabi|Ae Ajnabi
 Ae Ajnabi|Aye Ajnabi Tu Bhi Kabhi
 Ae Ajnabi|E Ajnabi
@@ -1129,6 +1133,7 @@ Chaahe Paas Ho Chaahe Door Ho|Chahe Paas Ho Chahe Door Ho
 Chaahe Raho Door|Chahe Raho Door
 Chaahe Raho Door|Chahe Raho Door Chahe Raho Pass
 Chaahe Raho Door|Chahey Raho Duur Chahe Raho Pass
+Chaahe Raho Door|Chahe Raho Door Chahe Raho Paas
 Chaahun Main Ya Na|>> Chahun Main Ya Naa
 Chaahun Main Ya Na|Chahu Main Ya Na
 Chaahun Main Ya Na|Chahu Main Ya Na Aashiqui2
@@ -1667,6 +1672,7 @@ Dhak Dhak Karne Laga|Dhakdhak Karne Laga
 Dhak Dhak Karne Laga|Dhak Dhak Karne Laga Dhak Dhak
 Dhak Dhak Karne Laga|175 Dhak Dhak Karne Laga
 Dhak Dhak Karne Laga|Akdhakkarnelaga
+Dhak Dhak Karne Laga|Dhakdhakkarnelaga
 Dhal Gaya Din|Dhal Gaya Din
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Sham
 Dhal Gaya Din|Dhal Gaya Din Ho Gayee Shaam
@@ -1801,6 +1807,7 @@ Dil Ke Armaan|Dil Ke Arman Aansuon Mein Beh Gaye
 Dil Ke Armaan|Dil Ke Arman Aansuon Mein
 Dil Ke Armaan|Dil Ke Armaan Aansuon Mein Beh Gaye
 Dil Ke Armaan|Dil Ke Aramaan, Aansuon Mein Bah Gaye
+Dil Ke Armaan|1847 Dil Ke Armaan Aansuon Mein
 Dil Ke Jharoke Mein|Dil Ke Jharoke Main
 Dil Ke Jharoke Mein|Dil Ke Jharoke Mein Tujhko Bithakar
 Dil Ke Jharoke Mein|Dil Ke Jharokhe Mein Tujkho Bithakar
@@ -2555,6 +2562,7 @@ Humein Jab Se Mohabbat|Humein Jab Se Mohabbat Ho Gayi Hai
 Humein Jab Se Mohabbat|Hamein Jabse Mohabbat Ho Gayi
 Humein Jab Se Mohabbat|Hume Jabse Mohabbat
 Humein Jab Se Mohabbat|Hamein Jabse Mohabbat
+Humein Jab Se Mohabbat|Humein Jabse Mohabbat Ho Gayi Hai
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar
 Humein Tumse Pyaar Kitna|Hamein Tumse Pyar Kitna
 Humein Tumse Pyaar Kitna|Hume Tumse Pyaar Kitna
@@ -2933,6 +2941,7 @@ Jaati Hoon Main|Jaati Hoon Mai Jaatihoonmain
 Jaati Hoon Main|Jaati Hoon Mein Jaldi Hai Kya
 Jaati Hoon Main|Jaati Hoon Main Jaldi Hai Kya
 Jaati Hoon Main|Jaati Hun Main Jaldi Hai Kya
+Jaati Hoon Main|Jati Hoon Jaati Hoon
 Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
@@ -3066,6 +3075,7 @@ Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari
 Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Teri Aankhen
 Jeevan Se Bhari Teri Aankhein|Jiwan Se Bhari Teri Ankhein
 Jeevan Se Bhari Teri Aankhein|Jeewan Se Bhari
+Jeevan Se Bhari Teri Aankhein|Jeevan Se Bhari Navga
 Jeevan Se Na Haar|Jeevan Se Na Haar
 Jeevan Se Na Haar|Jeevan Se Na Haar O Jeenewale
 Jhanak Jhanak Tori Baaje Payaliya|Jhanak Jhanak Tori Baje Payelia
@@ -3597,6 +3607,7 @@ Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Kitne Bi Tu Karle Sitam
 Kitne Bhi Tu Karle Sitam|Sanam Teri Kasam
 Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Karle Sitam Unwind
+Kitne Bhi Tu Karle Sitam|Kitne Bhi Tu Kitne Bhi Tu
 Kitne Dino Ke Baad Hai Aayi|Kitne Dino Ke Baad Hai Aayi
 Kitni Bechain Hoke|Kitni Bechain Hoke
 Kitni Bechain Hoke|Kitni Bechain Hoke Tumse Mili
@@ -3705,6 +3716,7 @@ Kya Khoob Lagti Ho|Kya Khoob Lagte Ho Ulta Pulta
 Kya Khoob Lagti Ho|~Kya Khoob Lagti Ho
 Kya Khoob Lagti Ho|Kya Khub Lagti Ho Dharmaa
 Kya Khoob Lagti Ho|Kya Khoob
+Kya Khoob Lagti Ho|Kya Khoob Lagti
 Kya Mausam Aaya Hai|(Kya Mausam Aaya Hai Anari
 Kya Mausam Hai|Kya Mausam Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai
@@ -3717,6 +3729,7 @@ Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hain
 Kya Yahi Pyaar Hai|Kya Yahi
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar
 Kya Yahi Pyaar Hai|H‌D‌ Kya Yehi Pyaar Hai
+Kya Yahi Pyaar Hai|Kya Yehi
 Kyun Aage Pichhe Dolte Ho|क्यूँ आगे पीछे डोलते हो भंवरों की तरह
 Kyun Hai Inkaar|Kyun Hai Inkaar
 Kyun Ki Itna Pyaar Tumko|Kyun Ki Itna Pyaar Tumko
@@ -3865,6 +3878,7 @@ Madhosh Dil Ki Dhadkan|Madhosil Kil Dhadkan
 Madhubala|Madhubala
 Madhuban Khushboo Deta Hai|Madhuban Khushboo Deta Haik J
 Madhuban Khushboo Deta Hai|Madhuban Khushboo Deta Hai Kj
+Madhuban Khushboo Deta Hai|Madhuban Khushboo
 Mai Se Meena Se|Mai Se Meena Se Na
 Main Aaya Hoon|Main Aaya Hoon Leke
 Main Aaya Tere Liye|Main Aaya Tere Liye
@@ -3895,6 +3909,7 @@ Main Duniya Bhula Doonga|Main Duniya Bhula Doonga 90S
 Main Gaaun Tum So Jaao|Main Gaaun Tum So Jaao
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hun
 Main Har Ek Pal Ka Shaayar Hoon|Main Har Ek Pal Ka Shaayar Hoon
+Main Hi Kyun|Main Hi Kyon
 Main Hoon Na|Drmain Hoon Na
 Main Hoon Na|H Qmainhoon Na, Main Hoo Na Main Hoo Na
 Main Hoon Na|Main Hoo Na>> Main
@@ -4089,6 +4104,7 @@ Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujheaaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar Song
+Mera Chaand Mujhe Aaya Hai Nazar|Mera 𝐂han𝐝 Mu𝐣he
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai Female
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Hai
@@ -4298,6 +4314,7 @@ Mohabbat Cheez Hai Kya|Mohabbat Cheez Hai Kya 606
 Mohabbat Hai Kya Cheez|Mohabbat Hai Kya Cheez
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee Hai
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee
+Mohabbat Ho Gayi Hai|Mohabbat Ho Gayi Mohabbat Ki Nahi Hain
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
@@ -4615,6 +4632,7 @@ O Mere Dil Ke Chain|Mere Ke Chain
 O Mere Dil Ke Chain|O Mere Dil Ke Chain Mere Jeevan Sathi
 O Mere Dil Ke Chain|O Mere Ke Chain Song
 O Mere Dil Ke Chain|0594 O Mere Dil Ke Chain
+O Mere Dil Ke Chain|O Mere
 O Mere Raja|O Mere Raja O Mere Raja
 O Mere Raja|O Mere Raja
 O Mere Raja|O Mere Raja Customised
@@ -6004,6 +6022,7 @@ Tu Jahaan Jahaan Chalega|Tu Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahaan Jahaan Chalega Mera Saya Sath Hoga
 Tu Jahaan Jahaan Chalega|Tu Jaha Jaha Chalega
 Tu Jahaan Jahaan Chalega|Tujahanjahanchalega Navga
+Tu Jahaan Jahaan Chalega|Tu Jahan Jahan
 Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mai Sur Mila Le
 Tu Jo Mere Sur Mein|~ Tu Jo Mere Sur Mein
 Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mein Sur Milale
@@ -6138,6 +6157,7 @@ Tujhe Na Dekhu To Chain|~Tujhe Na Dekhu To Chain
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhoon To Chain
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhun To Chain
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhun To Chain [[
+Tujhe Na Dekhu To Chain|Tujhe Na Dekhun To Chain Navga
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
@@ -6539,6 +6559,7 @@ Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Unwind Mix
 Woh Jab Yaad Aaye|Wo Jab Yaad Aaye Bahut Yaad Aaye
 Woh Jab Yaad Aaye|Wo Jab Yaad Aaye
 Woh Jab Yaad Aaye|Vo Jab Yaad Aaye
+Woh Jab Yaad Aaye|Wo Jab Yaad Wo Jab Yaad
 Woh Kaghaz Ki Kashti|Woh Kaghaz Ki Kashti
 Woh Kya Hai Ek Mandir Hai|Wo Kya Hai Ek Mandir Hai
 Woh Kya Hai Ek Mandir Hai|Woh Kya Hai Ik Mandir Hai
