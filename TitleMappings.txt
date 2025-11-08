@@ -223,6 +223,7 @@ Aane Wala Pal|Ane Wala Pal
 Aankh|Aankh
 Aankh Maare|Aankh Maare
 Aankh Maare|Aankh Maare O Ladka
+Aankh Maare|Aankh Mare O Ladka Aankh Mare
 Aankhen Bandh Karke|Aankhen Bandh Karke
 Aankhen Khuli Ho Ya Ho Band|>> Ankhein Khuli Ho
 Aankhen Khuli Ho Ya Ho Band|Aankhein Khuli
@@ -1282,6 +1283,7 @@ Chanda Re x Vennilave|Chanda Re X Vennilave
 Chanda Taare|Chanda Taare Yaadein
 Chandan Sa Badan|Chandan Sa Badan Mukesh
 Chandan Sa Badan|Chandan Sa Badun
+Chandan Sa Badan|Chandan Sa Badan Navga
 Chandaniya Lori|Chandaniya Lori Lori
 Chandi Jaisa Rang Hai Tera|Chandi Jaisa Rang Hai Tera
 Chandi Jaisa Rang Hai Tera|Chandijaisa Rang Hai Tera
@@ -1636,6 +1638,7 @@ Dekho Dekho Jaanam Hum|Dekho Dekho Janam Hindi
 Dekho Dekho Jaanam Hum|Dekho Dekho Jaanam Hum Song
 Dekho Kasam Se|Dekho Kasam Se Kasam Se
 Dekho Kasam Se|Dekho Kasam Se Kehete Hain Tum Se
+Dekho Kasam Se|1856 Dekho Kasam Se
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Dekho Maine Maine
 Dekho Maine Dekha Hai|Dekho Maine Dekha Hai Ek Sapna
@@ -1798,6 +1801,7 @@ Dil Ka Bhanwar Kare Pukar|दिल का भंवर करे पुका�
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukaar T
 Dil Ka Bhanwar Kare Pukar|0762 Dil Ka Bhanwar Kare Pukar
+Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Dil Ka Bhanwar
 Dil Ka Diya Jala Ke Gaya|Dil Ka Diya Jala Ke Gaya
 Dil Ka Khilona Hai Toot Gaya|Dil Ka Khilona Hai Toot Gaya
 Dil Ka Rishta|Dil Ka Rishta
@@ -1872,6 +1876,7 @@ Dil Mein Jo Baat Hai|Dil Mein Jo Baat Hai Keh
 Dil Mein Jo Baat Hai|Dil Mein Jo Baat
 Dil Mein Jo Baatein Hai|Dil Mein Jo Baaten Hain
 Dil Mein Kisike Pyaar Ka|Dil Mein Kisike Pyar Ka
+Dil Mein Kya Hai|Dil Mein Kya Hai Tere Dil Mein
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Soorat
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki
 Dil Mein Sanam Ki Soorat|Dil Mein Sanam Ki Surat
@@ -2102,6 +2107,7 @@ Ek Din Aap Yoon Humko|Ek Din Aap Yun Crystal
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Humko Mil Jayenge
 Ek Din Aap Yoon Humko|Ek Din Aap Yu Ekdinaapyun
 Ek Din Aap Yoon Humko|Ek Din Aap Yun Ekdinaapyun Navga
+Ek Din Aap Yoon Humko|Ek Din Aap Yun Navga
 Ek Din Bik Jaayega|Ek Din Bik Jayega
 Ek Din Bik Jaayega|Ek Din Bik Jayega Mati Ke Mol
 Ek Din Tum Bahut|Ek Din Tum Bahut 102
@@ -2260,6 +2266,7 @@ Golden Duets Medley 1|Golden Medley
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chashma
 Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala Kaala Chasma
 Gore Gore Mukhde Pe|Gore Gore Muke Pe
+Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Gore O Baanke Chhore|0527 Gore Gore O Baanke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
@@ -3037,6 +3044,7 @@ Jalte Hai Jiske Liye|Jalte Hai Jiske Liye
 Jalte Hai Jiske Liye|Jalte Hain Kiske Liye
 Jalte Hai Jiske Liye|Jalte Hain Jiske Liyesujata
 Jalte Hai Jiske Liye|Jalte Hain Jiske Liye
+Janam Janam Janam|Janam
 Janam Janam Mere Sanam|Janam Janam Mere Sanam
 Jawaan Hai Mohabbat|Jawan Hai Mohabbat Anmol Ghadi
 Jawaani Jaaneman|Jawaani Jaaneman
@@ -3249,6 +3257,7 @@ Kabhi Khud Pe Kabhi Haalaat Pe|Kabhi Khud Pe Kabhi Halat Pe Roona Aya
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Muqammal
+Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisi Ko Mukammal Jahan
 Kabhi Main Kahoon|Kabhi Main Kahoon
 Kabhi Main Kahoon|Kabhi Mein Kahoon
 Kabhi Main Kahoon|Kabhi Main Kahoonlamhe 5:44Min
@@ -3259,6 +3268,7 @@ Kabhi Na Kabhi Kahin Na Kahin|Kabhi Na Kabhi, Kahin Na Kahin
 Kabhi Raat Din|Kabhi Raat Din Hum Door The
 Kabhi Raat Din|Kabhi Raatdin Hum Dur The
 Kabhi Raat Din|Kabhi Raat Din Hum
+Kabhi Syham Dhale|Kabhi Sham Dhale To Mere Dil Main
 Kabhi Tanhaiyon Mein|Kabhi Tanhaiyon Mein
 Kabhi Tera Daaman|Kabhi Tera Daman
 Kabhi To Nazar Milao|Kabhi To Nazar Milao
@@ -3304,6 +3314,7 @@ Kahin Door Jab Din Dhal Jaaye|कहीं दूर जब दिन U𝐧𝐩l
 Kahin Door Jab Din Dhal Jaaye|Kahi Dur Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahin Duur Jab Din
 Kahin Door Jab Din Dhal Jaaye|Kahin Door Jab Amaye Proshno Fanclub
+Kahin Door Jab Din Dhal Jaaye|Kahi Dur
 Kahin Kahin Se Har Chehra|Kahin Kahin Se Har Chehra
 Kahin Karti Hogi|Kahi Karti Hogi
 Kahin Na Jaa|Kahin Na Jaa
@@ -3407,6 +3418,7 @@ Kasme Waade Nibhayenge Hum|Kasme Vaade Nibhayenge Hum
 Kasme Waade Pyaar Wafaa Sab|Kasme Waade Pyaar Wafaa Sab
 Kasto Mazza|Kasto Mazza
 Katthai Aankhon Wali Ek Ladki|Kathai Aankhoon Wali Ek Ladki
+Katthai Aankhon Wali Ek Ladki|Kathai Aankhon Wali Duplicate
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya I
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapnon Mein Aaya
@@ -3766,6 +3778,7 @@ Lag Ja Gale|Lag Jaa Galewoh Kaun Thi 1964
 Lag Ja Gale|0425 Lag Ja Gale
 Lag Ja Gale|Lag Jaa Galee Phir Lm1964
 Lag Ja Gale|Lag Ja
+Lag Ja Gale|Lag Ja Gale Se Phirhh Lag Ja Gale
 Lag Ja Gale + Abhi Na Jao|Lag Ja Gale Abhi Na Jao
 Laga Prem Rog|Laga Prem Rog
 Lagan Laagi Re|Lagan Laagi Re
@@ -4926,6 +4939,7 @@ Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Mastana Hota Hai
 Pyaar Deewana Hota Hai|Pyar Deewana Hota Hai Customised
 Pyaar Deewana Hota Hai|0740 Pyaar Deewana Hota Hai
 Pyaar Dilon Ka Mela Hai|Pyar Dilon Ka Mela Hai
+Pyaar Do Pyaar Lo|Pyar Do Pyar Lo ,Janbaaz
 Pyaar Humara Amar Rahega|Pyar Humara Amar Rahega
 Pyaar Hota Hai|Pyar Hota Hai Ya Hota Hi Nahi
 Pyaar Hua Chupke Se|Pyaar Hua Chupke Se
@@ -5467,6 +5481,7 @@ Seene Mein Sulagate Hain Armaan|Seene Mein Sulagate Hain Armaan
 Senorita|Senorita
 Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
 Shaam Dhale Khidki Tale|Shaam Dhale, Khidaki Tale
+Shaam Dhale Khidki Tale|Sham Dhale Khidki Tale
 Shahar Ki Ladki|Shahar Ki Ladki
 Sharm Aati Hai Magar|Sharm Aati Hai Magar
 Shauq|Shauq
@@ -6120,6 +6135,7 @@ Tujh Mein Rab Dikhta Hai|Tujme Rab Dikhta Hai
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Tujh Mein Rab
 Tujh Mein Rab Dikhta Hai|~ Tujh Mein Rab Dikhta Hai F
 Tujh Mein Rab Dikhta Hai|Tujh Mein Rab Dikhta Hai Mein
+Tujh Mein Rab Dikhta Hai|Tu𝐉h Me𝐈𝐍 𝐑ab D𝐈khta Ha𝐈
 Tujhe Chhoone Ko Dil Kare|Tujhe Chune Ko Dil Kare
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Deka
 Tujhe Dekha To Yeh Jaana Sanam|Tujhe Dekha To
@@ -6456,6 +6472,7 @@ Ude Jab Jab Zulfein Teri|Ude Jab Jab
 Ude Jab Jab Zulfein Teri|1287 Ude Jab Jab Zulfen Teri
 Ude Udan Khatole|Ude Udan Khatole Naino Jubilee
 Udhar Tum Haseen Ho|उधर तुम हसीं हो, इधर दिल जवाँ है
+Udhar Tum Haseen Ho|Udhar Tum Haseen Ho Idhar Dil Jawan
 Udi Udi Jaaye|Udi Udi Jaye
 Udit Narayan & Alka Yagnik Medley|Udit Narayan & Alka Yagnik Medley
 Uff Kitni Thandi Hai Ye Rut|1434 Uff Kitni Thañdi Hai Ye Rut
@@ -6928,6 +6945,7 @@ Yeh Shaam Mastaani|Yeh Sham Mastani , Wd 2 Paragraphs
 Yeh Shaam Mastaani|Ye Sham Yeh Sham
 Yeh Shaam Mastaani|Yeh Shaam Ye Sham
 Yeh Shaam Mastaani|Ye Shaam Yeh Sham Singalong2426
+Yeh Shaam Mastaani|Yeh Shaam
 Yeh Shaam Mastani + Raat Kali|Ye Sham Mastani Raat Kali Ik Khawab
 Yeh Sitaare Ye Chaand Ye Raatein|Ye Sitare Ye Chand Ye Raate
 Yeh Taara Woh Taara|Yeh Tara Woh Tara
@@ -7041,6 +7059,7 @@ Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka
 Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka Geet Hai
 Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka Geet Hai Female
 Zindagi Pyar Ka Geet Hai|Zindagi Pyaar Ka Geet
+Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka Zindagi Pyar Ka
 Zindagi Songs By Kishore|Zindagi Songs By Kishore
 Zoobi Doobi|Zoobi Doobi
 Zulfon Ko Hata Le Chehre Se|Zulfon Ko Hata Le Chehre Se
