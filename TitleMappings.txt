@@ -388,6 +388,7 @@ Aap Yahaan Aaye Kis Liye|Aap Yahan Aaye Kisliye
 Aap Yuhi Agar Humse Milte Rahe|Aap Yuhi Agar Humse Milte Rahe
 Aapka Kya Hoga|Aapka Kya Hoga
 Aapne Yaad Dilaya|Aapne Yaad Dilaya To Mujhe
+Aashaon Ke Saawan Mein|Ashaon Ke Sawan Mein
 Aashiqui 4 In 1 Medley|Aashiqui 4 In 1 Medley
 Aasman Ke Neeche Hum Aaj Apne|Aasman Ke Neeche Hum Aaj Apne
 Aasman Se Aaya Farishta|Aasman Se Aaya Farishta
@@ -1296,6 +1297,7 @@ Chandni Raat Mein Ek Baar|Chandani Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar
 Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
 Chandni Raat Mein Ek Baar|Chandni Raat Mein
+Chandrakanta Ki Kahani|Chandrakanta Ki Kahani चंद्रकांता की कहानी
 Character Dheela Hai|Character Dheela Hai
 Character Dheela Hai|Character Dheela
 Chaudhvi Shab|Chaudvi Shab
@@ -1528,6 +1530,7 @@ Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil Mera
 Chura Lo Na Dil Mera Sanam|Churalo Na Dil Mera Sanam
 Chura Lo Na Dil Mera Sanam|Churalo Na Dil Chura Lo Na Dil
 Chura Lo Na Dil Mera Sanam|Chura Lo Na Dil
+Chura Lo Na Dil Mera Sanam|Churalo Na Dil Chura Lo
 Crazy Kiya Re|Crazy Kiya Re
 Dafli Wale|Dafli Wale Dafli Baja
 Dagabaaz Re|Dagabaaz Re
@@ -1566,6 +1569,7 @@ Deewana Hua Baadal|Deewana Hua Badal Kashmir
 Deewana Hua Baadal|Deewana Hua Deewanahuabadal
 Deewana Hua Baadal|0310 Deewana Hua Badal
 Deewana Hua Baadal|Deewana Hua Badal Deewana Hua Navga
+Deewana Hua Baadal|Deewana Huwa Badal
 Deewana Karke Chhodoge|Deewana Karke Chhodoge 676
 Deewana Leke Aaya Hai|Deewana Leke Aaya Hai,Dil Ka Tarana
 Deewana Main Hoon Deewana Tera|Deewana, Main Hoon Deewana Tera
@@ -2411,6 +2415,7 @@ Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
 Hawa Ke Saath Saath|Hawa Ke Sath Sath
 Hawa Ke Saath Saath|Hawa Ke Sath Sath O Sathi Chal
+Hawa Ke Saath Saath|Hawa Ke Saath Sath
 Hazaar Raahein|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
@@ -2456,6 +2461,7 @@ Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam Honthon
 Honthon Pe Bas Tera Naam|Hothon Pe Bastera Naam
 Honthon Pe Bas Tera Naam|Hothon Pe Bas,Tera Naam Hai
 Honthon Pe Bas Tera Naam|Hothon Pe Bas
+Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam Hai
 Honthon Pe Jaan Chali Aayegi|Hothon Pe Jaan Chali Aayegi
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo
 Honthon Se Chhu Lo Tum|Honthon Se Chhu Lo Tum
@@ -2689,6 +2695,7 @@ Inteha Ho Gayi|Inteha Ho Gayi, Sharabi, 1984
 Inteha Ho Gayi|Intehanhogayi
 Inteha Ho Gayi|Inteha Ho Gayimusicoolpiyush_
 Ironic|Ironic
+Is Deewane Ladke Ko|Is Deewane Ladke Ko
 Is Kadar Pyaar Hai Tumse|Is Kadar Pyar Hai Tumse Ae
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
@@ -3843,6 +3850,7 @@ Loote Koi Man Ka Nagar|Loote Koi Mann Ka Nagar
 Loote Koi Man Ka Nagar|Lute Koi Man Ka Nagar Sa'S
 Loote Koi Man Ka Nagar|Loote Koi Man Loote Koyi Mann
 Love Mashup|Love Mashup
+Love You Zindagi|Love You Zindagi
 Lukka Chuppi|Lukka Chuppi
 Lut Gaye|Lut Gaye
 Lut Gaye|Lut Gaye Emraan Hashmi
@@ -4002,6 +4010,7 @@ Main Tenu Samjhawan|Mai Tenu Samjhawan
 Main Tenu Samjhawan|Samjhawa Unpluged
 Main Tenu Samjhawan|Mein Tenu Samjhao
 Main Tenu Samjhawan|Main Tenu Samjhawan Mai Tenu Samjhawan
+Main Tenu Samjhawan|Mein Tenu Samjhawan Ki
 Main Tere Ishq Mein|Main Tere Is Main Tere Is
 Main Tere Pyaar Mein|Main Tere Pyar Mein
 Main Tere Pyaar Mein|Main Tere Pyar Mein Pagal
@@ -4075,6 +4084,7 @@ Mann Ye Mera|Mann Ye Mera Metroin Dino
 Manwa Laage|Manwa Laage Happy New Year
 Manzilein Apni Jagah Hain|Manzilein Apni Jagah Hain
 Manzilein Apni Jagah Hain|Manzilen Apni Jagah Hai
+Manzoor E Khuda|Manzoor E Khuda
 Mar Jaayein Hum|Mar Jaayein Hum
 Masoom Dil Hai Mera|Maasoom Dil Hai Mera
 Mast Baharon Ka Main Aashiq|Mast Baharon Ka Main Aashiq
@@ -4236,6 +4246,7 @@ Mere Rang Mein Rangne Wali|🎊🎊Mere Rang Me
 Mere Rang Mein Rangne Wali|Mere Rang Mein
 Mere Rang Mein Rangne Wali|Mere Rang MꫀMererangmein
 Mere Rang Mein Rangne Wali|Mere Rang Mein Rangnewali
+Mere Rang Mein Rangne Wali|Mere Rang Mein Mere Rang Mein
 Mere Rashke Qamar|Drmere Rashke Qamar
 Mere Rashke Qamar|Mere Rashk E Qamar Piano
 Mere Rashke Qamar|Mere Rashke Hamar
@@ -4284,6 +4295,7 @@ Meri Saanson Mein Basa Hai|Meri Sanson Mein
 Meri Saanson Mein Basa Hai|Meri Saanson Mein Basahai
 Meri Saanson Mein Basa Hai|Meri Sanso Me Basahaicompact
 Meri Saanson Mein Basa Hai|Meri Sonson Mein Basa Hai
+Meri Saanson Mein Tum|Meri Sanson Mein Tum
 Meri Tasveer Mein Rang Aur Kisika|Meri Tasveer Me
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na
@@ -5881,6 +5893,7 @@ Teri Chunariya|Teri Chunariya Lirik
 Teri Chunariya|Teri Chunariya Dil Le
 Teri Chunariya|Sarki Jo Sar Se Wohire
 Teri Chunariya|Teri Chunariya Dil Le Gayee
+Teri Chunariya|Teri Chunariya Dil Legayee
 Teri Duniya Mein Jeene Se|Teri Duniya Mein Jeene Se
 Teri Duniya Se Door|Teri Duniya Se Door
 Teri Duniya Se Door|Teri Duniya Se Doorr
@@ -6023,6 +6036,7 @@ Tu Is Tarah|Tu Iss Tarah
 Tu Is Tarah|Tu Iss Tarah Se Meri Zindagi Mein
 Tu Is Tarah|Tu Is Tarah Se Meri Zindagi Me Mein
 Tu Is Tarah|Tu Iss Tarah Se
+Tu Is Tarah|Tu Is Tarah Se
 Tu Jaane Na|Tu Jaane Na
 Tu Jaane Na|Tu Jaane Na Tu Na
 Tu Jaane Na|Tu Jaane Na Ver
@@ -6404,6 +6418,7 @@ Tumko Dekha To|Tumko Dekha To Ye
 Tumko Dekha To|Tumko Dekha To Ye Khayaal Aaya
 Tumko Dekha To|Tumko Dekha To Ye Khayal
 Tumko Dekha To|Tum Ko Dekha Toh Ye
+Tumko Dekha To|Tumko Dekha To Ye Khayal Aaya
 Tumko Mere Dil Ne Pukaara Hai|Tumko Mere Dil Ne Pukaara Hai
 Tumko Mere Dil Ne Pukaara Hai|Tumko Mere Dil Ne Pukara Hai
 Tumko Paaya Hai|Tumko Paya Hai
@@ -6707,6 +6722,8 @@ Yeh Dil Tum Bin|Ye Dil Tum Bin Kahi Lagta Nahi
 Yeh Dil Tum Bin|Yeil Tum Bin
 Yeh Dil Tum Bin|Yeil Tum Bin Ye
 Yeh Dil Tum Bin|Yeil Tum
+Yeh Dil Tum Bin|Ye Dil Tum
+Yeh Dil Tum Bin x Lag Jaa Gale|Ye Dil Tum Bin X Lag Jaa Gale
 Yeh Dooriyan|Yeooriyan
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
@@ -6982,6 +6999,7 @@ Zameen Se Hamein Aasmaan Par|Zameen Se Hame Aasmaan Par
 Zameen Se Hamein Aasmaan Par|ज़मीं से हमें आसमाँ पर बिठा के गिरा तो ना
 Zameen Se Hamein Aasmaan Par|Zameen Se Hamein Aasman Par
 Zameen Se Hamein Aasmaan Par|Zameen Se Hume Aasmaan Par
+Zameen Se Hamein Aasmaan Par|0770 Zameen Se Humein Aasman Par
 Zara Sa Jhoom Loon Main|Jara Sa Jhoom Lun Mai
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Loon Main(Kara
