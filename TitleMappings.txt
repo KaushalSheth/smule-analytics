@@ -321,6 +321,7 @@ Aao Tumhein Chaand Pe Le Jayein|Aao Tumhein Chaand Pe Lejayein
 Aaoge Jab Tum O Sajna|Aaoge Jab Tum O Sajna
 Aap Aaye Bahaar Aayi|Aap Aaye Bahaar Aayi 41
 Aap Aaye To Khayal E Dil|Aap Aaye To Khayal E Dil E Nashaad Aay
+Aap Aaye To Khayal E Dil|Aap Aaye To Khayale Dil
 Aap Jaisa Koi|Aap Jaisa Koi
 Aap Jaisa Koi|😋Aap Jaisa Koi
 Aap Jaisa Koi|Aap Jaisa Koi Meri
@@ -393,6 +394,7 @@ Aashiqui 4 In 1 Medley|Aashiqui 4 In 1 Medley
 Aasman Ke Neeche Hum Aaj Apne|Aasman Ke Neeche Hum Aaj Apne
 Aasman Se Aaya Farishta|Aasman Se Aaya Farishta
 Aashiq Banaya Aapne|Aashiq Banaya Aapne Hate Story 4
+Aate Aate Aa Gaye Paas Hum|Aate Aate Aa Gaye Paas Hum
 Aate Jaate Hanste Gaate|Aate Jate Hanste Gaate
 Aate Jaate Hanste Gaate|Aate Jaate
 Aate Jaate Hanste Gaate|Aatejaatempkᶠull
@@ -966,6 +968,7 @@ Baharon Phool Barsao|Baharon Phool Barsao
 Baharon Phool Barsao|Baharon Phool Barsao Phool
 Baharon Phool Barsao|Baharo Phul Barsao
 Baharon Phool Barsao|Baharo Phool Barsao
+Baharon Phool Barsao|Baharon Phoolziyadnoor
 Bahe Naina Bhare More Naina|Bahe Naina Bhare More Naina
 Bahut Door Hoke|Bahut Door Hoke
 Bahut Door Mujhe|Bahut Dur Mujhe
@@ -1668,6 +1671,7 @@ Dhadak Title|Dhadak Title Dhadak
 Dhadak Title|Dhadak Title
 Dhadak Title|Jo Meri Manzilon Ko
 Dhadak Title|Marhami Sa
+Dhadak Title|Marhami Sa Chand Hai Tu
 Dhadkane Saanse Jawaani|Dhadkane Saanse Jawani
 Dhak Dhak Karne Laga|Dhak Dhak
 Dhak Dhak Karne Laga|Dhak Dhak Karne
@@ -2140,6 +2144,7 @@ Ek Main Aur Ek Tu|Ek Main Aur Ek Tu
 Ek Main Aur Ek Tu|Ek Mai Aur Ek Tu
 Ek Main Aur Ek Tu|Ek Main Aur Ek Tu Dono Mile Is Tarah
 Ek Main Aur Ek Tu|Ekmain Aur Ek Tu
+Ek Meetha Marz Dene|Ek Meetha Marz Dene Aana Tum Yunhi
 Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Ye Kahani Banegi
 Ek Na Ek Din Ye Kahaani Banegi|Ek Na Ek Din Yeh Kahani
 Ek Naya Aasmaan Aa Gaye|Ek Naya Asmaan Aa Gaye Do Dil Jaha
@@ -2263,6 +2268,7 @@ Ghungroo Ki Tarah|Ghungrookitarah
 Ghungroo Ki Tarah|Ghunguroo Ki Tarah
 Ghungte Mein Chanda Hai|Ghungte Mein Chanda Hai
 Gila Gila Dil Gila|Gila Gila Dil Gila Aitraaz
+Gila Gila Dil Gila|Gela Gela Gela Dil Gela
 Gir Gaya Jhumka|Gir Gaya Jhumka
 Gir Gaya Jhumka|Gir Gaya Jhumka Girne Do
 Give Me Some Sunshine|Give Me Some Sunshine
@@ -2410,6 +2416,7 @@ Hasta Hua Noorani Chehra|Rp Hansta Hua Nooraani Chehra
 Haule Haule|Haule Haule
 Haule Haule|Haule Haule Se
 Haule Haule Chalo Mere Sajna|Haule Haule Chalo Mere Sajna
+Have You Ever Seen The Rain|Have You Ever Seen The Rain
 Hawa Ke Saath Saath|O Saathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Saath
 Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
@@ -2652,6 +2659,7 @@ Husn Hai Suhaana|Husn Hai Suhana
 Husn Pahadon Ka|0789 Husn Pahadon Ka
 Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahi Gharana
 Husn Waale Tera Jawab Nahi|Husn Wale Tera Jawab Nahin
+Huzur Iss Kadar Bhi Na|Huzur Iss Kadar Bhi Na
 I Am A Disco Dancer|I Am A Disco Dancer
 I Am The Best|I Am The
 I Am The Best|Koi Hero Yahan, Koi Zero Yahan I Am The
@@ -2784,6 +2792,8 @@ Jaadu Teri Nazar|Jadu Teri Nazar
 Jaadu Teri Nazar|Jadu Teri Nazar Part 3
 Jaadu Teri Nazar|Jadu Teri Nazar Teri
 Jaag Dil-E-Deewana|Jaag Dil
+Jaage Jaage Armaan Hai|Resham Si Hai
+Jaage Jaage Armaan Hai|Jaage Jaage Armaan Hai
 Jaaiye Aap Kaha Jayenge|Jaaiye Aap Kahan Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kaha Jayenge
 Jaaiye Aap Kaha Jayenge|Jaiye Aap Kahan Jaaiye
@@ -2824,6 +2834,7 @@ Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse
 Jaane Dil Mein Kab Se Hai Tu|Jane Dil Me Kab Se Hai Tu
 Jaane Do Na|Jaane Do Naa
 Jaane Do Na|Jaane Do Na Paas Aao Na
+Jaane Do Na|Jane Do Na
 Jaane Ja O Meri Jaane Ja|Janeja O Meri Janeja
 Jaane Ja O Meri Jaane Ja|)Jane E Jaan O Meri
 Jaane Jaan Dhoondta|Jaane Ja Dhoondta Phir Raha [Theme Remix]
@@ -3146,6 +3157,7 @@ Jitni Dafa|Jitni Dafa Female
 Jitni Dafa|Jitni Dafa Clean
 Jitni Dafa|Jitni Dafa Dekhun Tumhe
 Jitni Dafa|Jitni Dafa Parmanu
+Jitni Dafa|Jitni Dafaparmanu
 Jiya Beqarar Hai|Jiya Beqarar Hai
 Jiya Beqarar Hai|Jiya Bekaraar Hai Barsaat
 Jiya Beqarar Hai|Jiya Beqarar Haianamika_C_F_S
@@ -3707,6 +3719,7 @@ Kuch To Log Kahenge|Kuchh To Log Kahenge
 Kuch To Log Kahenge|Kuch Tho Log Kahenge
 Kuch To Log Kahenge|Kuch Toh Log Kahenge
 Kuch To Log Kahenge|Kuch To Log
+Kuch Tum Socho|Kuch Tum Socho
 Kya Dekhte Ho|Kya Dekhte Ho
 Kya Dekhte Ho|Kya Dekhte
 Kya Dekhte Ho|Kya Dekhte Ho Qurbani Kyadekhteho
@@ -4066,6 +4079,7 @@ Maiyya Yashoda|Maiyya Yashoda
 Maiyya Yashoda|Maiya Yashoda
 Makhna|Makhna
 Makhna|Makhna Bade Miyan Chote Miyan
+Malang|Malang
 Manchahi Ladki Kahin|Manchahi Ladki Kahin Koi Rare
 Manic Monday|Manic Monday
 Manike Thank God|Manike
@@ -4387,6 +4401,7 @@ Mujhe Tum Nazar Se|Mujhe Tum Nazar Se Gira To Rahe
 Mujhe Tum Nazar Se|Mujhe Tum Nazar Mujhe Tum Nazar
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna
 Mujhe Tum Yaad Karna|Mujhe Tum Yaad Karna Aur
+Mujhe Tumse Mohabbat Hai|Mujhe Tumse Mohabbat Hai
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo Hamrahi
@@ -5064,6 +5079,7 @@ Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
 Raataan Lambiyan|Raatan Lambiyan
 Raataan Lambiyan|Ke Raataan Lambiyan Re Teri Meri Gal
+Raat Aankhon Mein Dhali|Raat Aankhon Mein Dhali
 Raat Akeli Hai|Raat Akeli Hai
 Raat Akeli Hai|Raat Akeli Hai Asha Bhosle
 Raat Akeli Hai|Raat Akeli Hai N
@@ -5089,6 +5105,7 @@ Raat Kali|Raat Kali Ek
 Raat Kali|Raat Kali Ek Khwab Mein Aayi
 Raat Kali|Raat Kali Ek Khwaab
 Raat Kali|Raat Kali Ek Khwaab Mein Aayi
+Raat Kali|Raat Kali Ek Khwaab Mein Aai
 Raat Ke Humsafar|Aat Ke Humsafar
 Raat Ke Humsafar|Aat Ke Humsafar Ke Humsafar
 Raat Ke Humsafar|H D Raat Ke Humsafar
@@ -5152,7 +5169,6 @@ Rangeela Re Tere Rang Mein|Rangeela Re Tere Rang Me
 Rangeela Re Yayi Ye|Rangeela Re
 Rehte Hain Hum Khoye Khoye|Rehte Hain Hum Khoye Khoye Gumsum
 Resham Ki Dori|Resham Ki Dori
-Resham Si Hai|Resham Si Hai
 Retro Romantic Medley|Retro Romantic Medley
 Right Here Waiting|Right Here Waiting 　　　　　　　　　　　　　　　　　　 Waiting
 Right Here Waiting|Right Here Waiting
@@ -5296,6 +5312,7 @@ Saagar Sang Kinaare Hai|Sagar Sang Kinare Hai Vijay Path
 Saajan Saajan Teri Dulhan|Sajan Sajan Teri Dulhan
 Saajan Saajan|Saajan Saajan
 Saajanji Ghar Aaye|Group Saajanji Ghar Aaye Kkhh
+Saaki|Saaki
 Saal Bhar Mein|Saal Bhar Mein
 Saamne Yeh Kaun Aaya|Samne Yeh Kaun Aya
 Saamne Yeh Kaun Aaya|Samne Ye Kaun Aya
@@ -5873,6 +5890,7 @@ Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Martaa Hoon
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Song
 Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Love Tujhe Love 95 (
+Teri Adaaon Pe Marta Hoon|Teri Adaon Pe Marta Hoon Love Tujhe Love
 Teri Bindiya Re|Teri Bindiya Re
 Teri Bindiya Re|Teri Bindiya Re Teri
 Teri Bindiya Re|Teri Bindiya Re Teri Bindiya Re
@@ -5954,6 +5972,7 @@ Theheriye Hosh Mein Aa Loon|Tehriye Hosh Me Aalu
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Mein Aa Loon
 Theheriye Hosh Mein Aa Loon|Thehariye Hosh Me Aa Loon
 Theheriye Hosh Mein Aa Loon|Thehriye Hosh Mein Aa Lun
+Theheriye Hosh Mein Aa Loon|1326 Thehriye Hosh Meiñ Aa Looñ
 Thoda Hai Thode Ki|Thoda Hai Thode Ki
 Thoda Hai Thode Ki|Thoda Hai Thode Ki Zaroorat Hai
 Thoda Sa Pyar Hua Hai|Thoda Sa Pyar Hua Hai
@@ -6398,6 +6417,7 @@ Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha
 Tumhe Jo Maine Dekha|Tumhe Jo Maine Dekha Karaoke
 Tumhe Yaad Hoga Kabhi Hum|तुम्हें याद होगा कभी हम मिले थे
 Tumhe Yaad Hoga Kabhi Hum|Tumhe Yaad Hoga Kabhi Ham
+Tumhe Yaad Hoga Kabhi Hum|Tumhe Yaad Hoga
 Tumhe Yaad Karte Karte|तुम्हें याद करते करते जायेगी रैन सारी
 Tumhi Dekho Na|Tumhi Dekho Nasd
 Tumhi Dekho Na|Tumhi Dekho Naa
@@ -6451,6 +6471,7 @@ Tumse Milke Aisa Laga|Tumse Milke
 Tumse Milke Aisa Laga|Tumse Mil Ke Aisa Laga Tumse Milke
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Tumse Milkemusic Mojo
 Tumse Milke Aisa Laga|Tumse Milke Aisa Laga Feat Heeral
+Tumse Milke Zindagi Ko Youn Laga|Tumse Milke Zindagi Ko Youn Laga
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
 Tumse Milna Baat Karna|Tumse Milna Baat Karna
 Tumse Milna Baat Karna|Tumse Milna
@@ -6977,6 +6998,7 @@ Yeh Zameen Gaa Rahi Hai|Ye Zamin Gaa Rahi Hai
 Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa Rahi
 Yeh Zameen Gaa Rahi Hai|Ye Zameen Ga Rahi Hai
 Yeh Zameen Gaa Rahi Hai|Ye Zameen Gaa Rahi Hai
+Yeh Zameen Gaa Rahi Hai|Yeh Zameen Gaa
 Yeh Zindagi Usi Ki Hai|Ye Zindagi Usi Ki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
