@@ -28,7 +28,7 @@ def fetchSongInvites(inviteOptions,numrows):
         qtype = "active_seed"
     elif inclpartner:
         # Fetch list of qualifying partners and append to title being searched for
-        sqlquery = f"select '{title}' as fixed_title, replace('{title}',' ','+')||'+'||partner_name as search_string from favorite_partner where last10_five_cnt = last10_rating_cnt order by recency_score desc"
+        sqlquery = f"select '{title}' as fixed_title, replace('{title}',' ','+')||'+'||partner_name as search_string from favorite_partner where last10_nine_cnt = last10_rating_cnt order by recency_score desc"
     else:
         # Do a search only for the title specified
         sqlquery = f"select '{title}' as fixed_title, replace('{title}',' ','+') as search_string"

@@ -522,6 +522,7 @@ Acchha Ji Main Haari|Accha Ji Main Haari Ened
 Acchha Ji Main Haari|Achcha Ji Main Hari Chalo
 Acchha Ji Main Haari|0970 Achcha Ji Main Haari
 Acchha Ji Main Haari|Acha Ji Mai
+Acchha Ji Main Haari|Acha Ji Mai Hari Song
 Acchha To Hum Chalte Hain|Achcha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalte Hain
 Acchha To Hum Chalte Hain|Achha To Hum Chalten Hain
@@ -1231,6 +1232,7 @@ Chal Jhoothi|Chal Jhoothi
 Chal Jhoothi|Chal Jhooti
 Chal Kahin Door Nikal Jaayen|Chal Kahin Dur Door Nikal Jayen
 Chal Kahin Door Nikal Jaayen|Chal Kahi Door Nikal Jaayein
+Chal Kahin Door Nikal Jaayen|Chal Kahin Door Nikal Jayein
 Chal Ri Sajni|Chal Ri Sajni Ab Kya Soche
 Chala Jata Hoon|Chala Jaata Hoon Kisi Ki Dhun Me
 Chala Jata Hoon|Chala Jata Hoon
@@ -2460,6 +2462,7 @@ Ho Gaya Hai Tujhko To Pyar Sajna|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai
 Ho Gaya Hai Tujhko To Pyar Sajna|Na Jane Mere Ddlj Dil Ko Kya Ho Gaya Hai H
 Ho Gaya Hai Tujhko To Pyar Sajna|Na Jaane Mere Dil Ko Kya Ddlj
 Ho Gaya Hai Tujhko To Pyar Sajna|Na Jane Mere Dil Ko Kya Ho Gaya
+Ho Gaya Hai Tujhko To Pyar Sajna|Na Jane Mere Dil Ddlj Ko Kya Ho Gaya Slp
 Ho Jaata Hai Kaise Pyaar|Ho Jata Hai Kaise Pyaar
 Honthon Pe Bas Tera Naam|Hothon Pe Bas Tera Naam
 Honthon Pe Bas Tera Naam|Hoton Pe Bs
@@ -3467,6 +3470,7 @@ Kaun Tujhe|Kaun Tujhe Yun Peyar Karego
 Kaun Tujhe|Tu Aata Hai Seene Mein
 Kaun Tujhe|Kaun Tujhe Yu
 Kaun Tujhe x Kuch To Hai Mashup|Kaun Tujhe Kuch To Hai Mashup
+Ke Aaja Teri Yad Aayi|Ke Aa Ja Teri Yad Ayi From 1956
 Ke Sera Sera|Kay Sera Sera
 Ke Sera Sera|Ke Sera Sera
 Ke Sera Sera|Key Sera Sera
@@ -3825,6 +3829,7 @@ Lamha Lamha|Lamha Lamha Doorie
 Lamha Lamha|Lamha Lamha Doori Gangster
 Lamha Lamha|Lamha♡Lamha Doori
 Lata Mangeshkar Duets Medley|0978 S Medley 10
+Le To Aaye Ho Humein|Le To Aaye Ho Humein Sapno Ke Gaaon Mein
 Le Gayi Le Gayi|Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi Le Gayi
 Le Gayi Le Gayi|Le Gayi Le Gayi Dil Le Gayi
@@ -6382,6 +6387,7 @@ Tum Pe Hum Toh|Tum Pe Hum Toh Jyotica Tangri
 Tum Pe Hum Toh|Tum Pe Hum Toh Bole Chudiyan
 Tum Pukar Lo|Tum Pukaar Lo
 Tum Pukar Lo|Tum Pukar Lo
+Tum Pukar Lo|0333 Tum Pukar Lo
 Tum Saath Ho Jab Apne|Tum Saath Ho Jab Apne Male
 Tum Saath Ho Jab Apne|Tum Saath Ho Jab Kaalia
 Tum Saath Ho Jab Apne|Tum Sath Ho

@@ -136,7 +136,7 @@ from favorite_partner
 where partner_name != 'KaushalSheth1'
 and recency_score between 0 and 9999999
 -- Pick partners with at least half of last 10 performances rated 5, unless they have less than 3 ratings
-and ((last10_rating_cnt > 0 and last10_five_cnt*1.0/last10_rating_cnt >= 0.8) or ((last10_rating_cnt - last10_five_cnt) <= 1))
+and ((last10_rating_cnt > 0 and last10_nine_cnt*1.0/last10_rating_cnt >= 0.8) or ((last10_rating_cnt - last10_nine_cnt) <= 1))
 -- Don't pick singers with ratings other than 4 or 5
 and translate(last10_rating_str,'x45','x') = ''
 and (always_include_ind = 1 or first_performance_time > now() - interval '30 days' or last_performance_time < now() - interval '5 days')

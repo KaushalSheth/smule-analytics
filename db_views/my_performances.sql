@@ -10,7 +10,7 @@ perf AS (
             pf.rating_nbr,
             case when owner_handle = m.handle and web_url not like '%ensembles' and ensemble_type != 'SOLO' then 1 else 0 end join_ind,
             case when owner_handle = m.handle and web_url like '%ensembles' then 1 else 0 end invite_ind,
-            case when pf.rating_nbr = 5 then 1 else 0 end as favorite_ind
+            case when pf.rating_nbr >= 8 then 1 else 0 end as favorite_ind
     FROM    performance p cross join myself m
             left outer join performance_favorite pf on pf.performance_key = p.key and pf.favorited_by_username = m.handle
     WHERE   1 = 1

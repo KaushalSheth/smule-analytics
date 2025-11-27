@@ -153,7 +153,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             select  partner_name as user_search,
                     round(case when recency_score = 99999 then 0 else recency_score end, 2) as recency_score,
                     avg_rating_nbr as rating, last10_rating_str,
-                    case when last10_five_cnt >= 10 then 'R1:' when last10_five_cnt >= 8 then 'R2:' when last10_five_cnt >= 6 then 'R3:' when last10_five_cnt >= 4 then 'R4:' else 'R5:' end || round(random()::decimal,4) as random_sort_nbr,
+                    case when last10_nine_cnt >= 10 then 'R1:' when last10_nine_cnt >= 8 then 'R2:' when last10_nine_cnt >= 6 then 'R3:' when last10_nine_cnt >= 4 then 'R4:' else 'R5:' end || round(random()::decimal,4) as random_sort_nbr,
                     --round(case when rating = 99999 then 0 else rating end, 2) as rating,
                     case when join_cnt = 0 then null else round(performance_cnt/(join_cnt*1.0),2) end as perf_join_ratio,
                     case when performance_cnt = 0 then null else round(favorite_cnt/(performance_cnt*1.0),2) end as fav_perf_ratio,

@@ -66,7 +66,7 @@ select 	p.partner_account_id, coalesce(sf.handle, s.performed_by, p.partner_name
             when p.rated_song_cnt < (p.performance_cnt/3.0) then p.avg_rating_nbr - greatest((0.75 - p.favorite_cnt/(p.performance_cnt*1.0)),0)
             else p.avg_rating_nbr
         end, 2) as avg_rating_nbr,
-        length(last10_rating_str) - length(replace(last10_rating_str,'5','')) as last10_five_cnt,
+        length(last10_rating_str) - length(replace(last10_rating_str,'9','')) as last10_nine_cnt,
         length(replace(last10_rating_str,'-','')) as last10_rating_cnt,
         p.rated_song_cnt, p.last10_rating_str, p.performance_last_5_days_cnt,
         sf.rank_nbr,
