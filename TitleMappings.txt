@@ -220,6 +220,7 @@ Aane Wala Pal|Aanewala Pal Janewala
 Aane Wala Pal|Aane Wala Paljaane Wala Hai
 Aane Wala Pal|Aane Wala Paljaane Wala Hai D
 Aane Wala Pal|Ane Wala Pal
+Aane Wala Pal|Aane Wala Pal R
 Aankh|Aankh
 Aankh Maare|Aankh Maare
 Aankh Maare|Aankh Maare O Ladka
@@ -1493,6 +1494,7 @@ Chupke Se Koi Aayega|¹ Chupke Se Koi Aayega 1
 Chupke Se Koi Aayega|Chupke Se Koi Aayega 1
 Chupke Se Sun|Chupke Se Sun
 Chupke Se Sun|Inst Chupke Se Sun
+Chupke Se Sun|Chupke Se Suun Mission Kashmir
 Chupke Se Saathiya|Chupke Se
 Chupke Se Saathiya|Chupke Se Saathiya
 Chupke Se Saathiya|Chupke Se Unpluged
@@ -2005,6 +2007,7 @@ Do Dil Mil Rahe Hai|~ Do Dil Mil Rahe Hai Hindi
 Do Dil Mil Rahe Hai|Digital Dodil Mil Rahe Hai
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hain Magar Chupke
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hainfemale_
+Do Dil Mil Rahe Hai|>>Do Dil Mil Rahe Hai
 Do Dil Toote Do Dil Haare|Do Dil Toote Do Dil Haare
 Do Ghoont Mujhe Bhi Pila De|Do Ghoont Mujhe Bhi Pila De
 Do Lafzon Ki Hai|Do Lafzon Ki Hai
@@ -2033,6 +2036,7 @@ Do Pal Ruka|Do Pal Ruka Khwabon Ka Karwan
 Do Pyaar Karne Wale|Do Pyaar Karne Wale
 Do Pyaar Karne Wale|Do Pyaar
 Do Pyaar Karne Wale|Do Pyar Karne Wale Jungle
+Do Pyaar Karne Wale|Do Pyar Karne Wale Jungle Mein
 Do Sitaron Ka Zameen Par Hai Milan|Do Sitaron Ka Zameen Par Hai Milan
 Dola Dola Man Dola|Dola Dola Man Dola
 Dola Re Dola|Dola Re Dola
@@ -3969,6 +3973,7 @@ Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jau Tere Pyar Mein
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jaun
 Main Kahin Kavi Na Ban Jaaoon|Mein Kahin Kavi Na Ban Jau
+Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jaoon
 Main Koi Aisa Geet Gaaoon|Mai Koi Aisa Geet Gaaun
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa
 Main Koi Aisa Geet Gaaoon|Main Koi Aisa Geet
@@ -4073,6 +4078,7 @@ Maine Poochha Chand Se|Maine Poocha Chaand Se Abdullah
 Maine Poochha Chand Se|Maine Poocha Chaand Pucha
 Maine Poochha Chand Se|Maine Poocha Chand Se Unwind
 Maine Poochha Chand Se|Maine Poocha Chand Pucha Singalong
+Maine Poochha Chand Se|Rp Maine Poocha Chand Se
 Maine Pyaar Kiya Medley|Maine Pyar Kiya Medley
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
@@ -5360,10 +5366,12 @@ Saans|Saans Me Teri Jab Tak Hai Jaan
 Saanwali Saloni Teri|Saawli Saloni Teri
 Saanwali Saloni Teri|Saanwli Saloni Teri Jheel Si Aankhen
 Saanwali Saloni Teri|Sawali Saloni Teri
+Saanwali Saloni Teri|Saanwli Salini Teri Jheel See Aankhen
 Saanwali Si Ek Ladki|Saanwali Si Ek Ladki
 Saara Pyaar Tumhara|Sara Pyar Tumhara Saara Pyaar Tumhara
 Saara Pyaar Tumhara|Sara Pyar Tumhara Maine
 Saara Pyaar Tumhara|Sara Pyar Tumhara
+Saara Pyaar Tumhara|Saara Pyar Tumhara Maine
 Saara Zamaana Haseeno Ka Deewana|Saara Zamana Haseeno Ka Deewana
 Saara Zamaana Haseeno Ka Deewana|Sara Zamana Haseeno Ka Deewana
 Saare Badan Ka Khoon|Saare Badan Ka Khoon

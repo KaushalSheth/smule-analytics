@@ -202,9 +202,10 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
                         left outer join performance p on p.performers = s.performed_by
                 group by 1
             )
-        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time, js.last_join_time
+        select  p.*, coalesce(js.recent_perf_cnt,0) as recent_perf_cnt, coalesce(js.join_cnt,0) as join_cnt, coalesce(js.recent_join_cnt,0) as recent_join_cnt, js.last_performance_time, js.last_join_time, pf.rating_nbr
         from    all_performances p
                 left outer join perf_stats js on js.performed_by = p.partner_name
+                left outer join performance_favorite pf on pf.performance_key = p.key
         where   p.created_at between '{fromdate}' and '{todate}'
         and     p.performer_handles ilike '%{username}%'
         and     p.web_url not like '%ensembles'
@@ -235,6 +236,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         joinCount = d['join_cnt']
         recentJoinCount = d['recent_join_cnt']
         recentPerfCount = d['recent_perf_cnt']
+        ratingNbr = d['rating_nbr']
         # Set display handle and pic_url based on user we are searching for
         if d['owner_handle'] == username:
             d['display_handle'] = d['partner_name']
@@ -244,7 +246,7 @@ def fetchDBPerformances(username,maxperf=9999,fromdate="2018-01-01",todate="2030
         else:
             d['display_handle'] = d['owner_handle']
             d['comment'] = build_comment('@' + d['display_handle'])
-        d['join_cnt'] = f"{joinCount}|{recentJoinCount}"
+        d['join_cnt'] = f"{joinCount}|{recentJoinCount}|{ratingNbr}"
         performances.append(d)
         i += 1
         if i >= maxperf:

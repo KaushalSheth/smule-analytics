@@ -76,7 +76,7 @@
 {%- endif -%}
         </td>
   {%- if searchOptions['offline'] -%}
-        <td style="color:Black"><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><<br>{{ performance.display_handle }}</a></td>
+        <td style="color:Black"><a href="http://www.smule.com/{{performance.display_handle}}" target="_blank"><img src="{{performance.cover_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
   {%- elif performance.join_cnt.startswith("0|") -%}
         <td style="background-color:Pink"><a href="http://www.smule.com/{{ performance.display_handle }}" target="_blank"><img src="{{performance.display_pic_url}}" height="120" width="120"><br>{{ performance.display_handle }}</a></td>
   {%- elif performance.recent_join_cnt > 0 -%}
