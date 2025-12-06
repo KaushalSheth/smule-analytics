@@ -136,9 +136,9 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             order by 3 desc
             """
     elif analyticstitle == 'Favorite Songs':
-        headings = ['Song Name', 'Current Month', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Partners', '# Joiners', '# Invites', '# Joins', 'Last Join Time', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
+        headings = ['Song Name', 'Current Month', '3 months', 'Rating', 'Adjusted Weighted Count', 'Random Sort', 'Type', 'Singer(s)', 'First Perf Time', 'Last Perf Time', '# Performances', '# Partners', '# Joiners', '# Invites', '# Joins', 'Last Join Time', '# Perf - 1 Day', '# Perf - 5 Days', '# Perf - 10 Days', '# Perf - 30 Days']
         sqlquery = f"""
-            select  fixed_title as title_search, current_month_ind, 'T:' || lpad(coalesce(rating_nbr,0)::varchar,2,'0') as rating_nbr, adj_weighted_cnt,
+            select  fixed_title as title_search, current_month_ind, past_3mo_ind, 'T:' || lpad(coalesce(rating_nbr,0)::varchar,2,'0') as rating_nbr, adj_weighted_cnt,
                     case when rating_nbr >= 9 then 'R1:' when rating_nbr >= 7 then 'R2:' else 'R3:' end || round(random()::decimal,4) as random_sort_nbr,
                     coalesce(singer_type,'') as singer_type, coalesce(artist,''), first_performance_time, last_performance_time,
                     '<a href=http://localhost:3000/query_db_performances/title/' || replace(fixed_title,' ','_') || ' target="_blank">' || perf_cnt || '</a>' as performance_link_str,

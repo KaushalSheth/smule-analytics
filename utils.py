@@ -50,18 +50,19 @@ rating4.append("Outstanding performance! 👌👌👌👌 Voice was powerful and
 rating4.append("Fantastic job! 👌👌👌👌 Pitch control was excellent and performance was magnetic!")
 rating4.append("Wonderful singing! 👌👌👌👌 Voice had great range and you performed with real artistry!")
 rating5 = []
-rating5.append("Absolutely perfect! 👌👌👌👌👌 Voice was flawless and performance was mesmerizing!")
-rating5.append("Incredible performance! 👌👌👌👌👌 You sang like a professional and captivated me!")
 rating5.append("Phenomenal! 👌👌👌👌👌 Voice control was perfect and delivered every note with precision!")
 rating5.append("Outstanding! 👌👌👌👌👌 You transformed the song and made it uniquely yours!")
 rating5.append("Brilliant execution! 👌👌👌👌👌 Voice was pitch-perfect and performance magnetic!")
-rating5.append("Spectacular! 👌👌👌👌👌 Hit every note flawlessly and performed with incredible emotion!")
-rating5.append("Perfect execution! 👌👌👌👌👌 Voice was powerful and beautiful. Natural-born performer!")
-rating5.append("Exceptional! 👌👌👌👌👌 Vocal range and control were impressive. Truly professional!")
 rating5.append("Magnificent! 👌👌👌👌👌 Voice soared and you connected with me. Breathtaking!")
-rating5.append("Flawless! 👌👌👌👌👌 Performance was captivating start to finish. Incredible talent!")
+rating5.append("Perfect execution! 👌👌👌👌👌 Voice was powerful and beautiful. Natural-born performer!")
+rating6 = []
+rating6.append("Incredible performance! 👌👌👌👌👌 You sang like a professional and captivated me!")
+rating6.append("Spectacular! 👌👌👌👌👌 Hit every note flawlessly and performed with incredible emotion!")
+rating6.append("Absolutely perfect! 👌👌👌👌👌 Voice was flawless and performance was mesmerizing!")
+rating6.append("Exceptional! 👌👌👌👌👌 Vocal range and control were impressive. Truly professional!")
+rating6.append("Flawless! 👌👌👌👌👌 Performance was captivating start to finish. Incredible talent!")
 
-COMMENTS = {'awesome':rating5,'fantastic':rating4,'good':rating3,'average':rating2,'ok':rating1,'bad':['good attempt']}
+COMMENTS = {'amazing':rating6,'awesome':rating5,'fantastic':rating4,'good':rating3,'average':rating2,'ok':rating1,'bad':['good attempt']}
 
 # Generate a fake user agent to avoid Smule blocking python requests
 def createFakeUAHeaders(acceptEncoding="none"):
@@ -89,11 +90,13 @@ def printTs(message):
 # Build comment dictionary by randomly selecting a comment for each category
 def build_comment(prefix="",suffix=""):
     comment = {\
+        'amazing':prefix + random.choice(COMMENTS['amazing']) + suffix,\
         'awesome':prefix + random.choice(COMMENTS['awesome']) + suffix,\
         'fantastic':prefix + random.choice(COMMENTS['fantastic']) + suffix,\
         'good':prefix + random.choice(COMMENTS['good']) + suffix,\
         'average':prefix + random.choice(COMMENTS['average']) + suffix,\
-        'ok':prefix + random.choice(COMMENTS['ok']) + suffix\
+        'ok':prefix + random.choice(COMMENTS['ok']) + suffix,\
+        'bad':prefix + random.choice(COMMENTS['bad']) + suffix\
         }
     return comment
 

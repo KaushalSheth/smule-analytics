@@ -114,6 +114,7 @@ Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar K Churche
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Mere Pyar Ke Charche Har Zubaan
 Aaj Kal Tere Mere Pyaar Ke Charche|Aajkal Tere Mere Pyar Aaj
 Aaj Kal Tere Mere Pyaar Ke Charche|Aaj Kal Tere Aajkal Pyar Pyaar S
+Aaj Kal Tere Mere Pyaar Ke Charche|Ajkal Tere Mere Pyar Ke Charchey
 Aaj Kehna Zaroori Hai|Aaj Kehna Zaroori Hai
 Aaj Ki Raat Stree 2|Aaj Ki Raat
 Aaj Ki Raat Stree 2|Aaj Ki Raat Stree 2
@@ -1558,6 +1559,7 @@ Darde Dil Darde Jigar|Harde Dilkarz Dardedil
 Dariya Kinare Ek Banglo|Daria Kinare Ik Banglo Go Pori Jai
 Darling|Darling
 Darmiyaan|Darmiyaan
+De De Pyaar De|De De Pyar De
 Deewana Dil Beqarar Tha|Deewana Dil Beqarar Tha
 Deewana Hai Dekho|Deewana Hai Dekho
 Deewana Hai Dekho|Hil Dewana Mpkdeewana
@@ -1733,6 +1735,7 @@ Dil Apna Aur Preet Paraai|दिल अपना और प्रीत पर�
 Dil Bekarar Sa Hai|Dil Bekarar Sa Hai
 Dil Bekarar Sa Hai|Dil Bekarar Sa Hai Ishaara
 Dil Bekaraar Tha Dil Bekaraar Hai|Dil Bekarar Tha Dil Bekarar Hai
+Dil Chaahta Hai|Dil Chahta Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai
 Dil Cheez Kya Hai|Dil Cheez Kya Hai Aap Meri Jaan
 Dil Churaale|Dil Churale
@@ -2261,6 +2264,7 @@ Ghar Se Nikalte Hi|Gharse Nikalte Hi Se Nikalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Kuchur Chalte Hi
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi Ghar
 Ghar Se Nikalte Hi|Ghar Se Nikalte Hi ~
+Ghar Se Nikalte Hi|Ghar Se Nikalte Hee
 Ghodey Pe Sawaar|Ghodey Pe Sawaar
 Ghodey Pe Sawaar|Ghode Pe Sawaar Qala
 Ghodey Pe Sawaar|Koi Kaise Unhein Ye Samjhaye
@@ -2286,6 +2290,7 @@ Gore Gore Mukhde Pe|Gore Gore Muke Pe Kaala
 Gore Gore O Baanke Chhore|Gore Gore O Banke Chhore
 Gore Gore O Baanke Chhore|0527 Gore Gore O Baanke Chhore
 Gore Rang Pe Na Itna Gumaan Kar|Gore Rang Pe Na Itna Guman Kar
+Gore Rang Pe Na Itna Gumaan Kar|0301 Gore Rang Pe Itna Gumaan Na Kar
 Gori Chalo Na Hans Ki Chaal|Gori Chalo Na Hans Ki Chaal
 Gori Gori|Gori Gori
 Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori Aakhri Raasta
@@ -2544,6 +2549,7 @@ Hum Tere Bin Kahin|Hum Tere Bin Kahin
 Hum Tere Bin Kahin|Hum Tere Bin Kahin Reh Nahin Paate
 Hum Tere Bin Kahin|Hum Tere Bin Ab Reh Nahi Sakte :
 Hum Tere Pyaar Mein Saara Aalam|हम तेरे प्यार में सारा आलम
+Hum Tere Pyaar Mein Saara Aalam|Hum Tere Pyar Mein Sara Alam
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein Yun Pagal
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein
 Hum The Jinke Sahaare|Hum The Jinke Sahare
@@ -2711,6 +2717,7 @@ Inteha Ho Gayi|Intehanhogayi
 Inteha Ho Gayi|Inteha Ho Gayimusicoolpiyush_
 Ironic|Ironic
 Is Deewane Ladke Ko|Is Deewane Ladke Ko
+Is Dil Mein Kya Hai|Is Dil Mein Kya Hai
 Is Kadar Pyaar Hai Tumse|Is Kadar Pyar Hai Tumse Ae
 Is Mod Se Jaate Hain|Is Mod Se Jaate Hain
 Is Mod Se Jaate Hain|Is Mod Se Jaate Mode Jate Hain
@@ -3439,6 +3446,7 @@ Karvatein Badalte|Karvatein Badalte Rahein Karvate Karwate
 Karvatein Badalte|Karvaten Badalte Raheaapkikasam
 Karvatein Badalte|0355 Karvatein Badalte Rahe
 Karvatein Badalte|Karvatein Badalte Rahe
+Karvatein Badalte|Karwate Badalte Karwate Rahe
 Kasme Waade Nibhayenge Hum|Kasme Waade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kasme Vaade Nibhayenge Hum
 Kasme Waade Pyaar Wafaa Sab|Kasme Waade Pyaar Wafaa Sab
@@ -3731,6 +3739,7 @@ Kuch Tum Socho|Kuch Tum Socho
 Kya Dekhte Ho|Kya Dekhte Ho
 Kya Dekhte Ho|Kya Dekhte
 Kya Dekhte Ho|Kya Dekhte Ho Qurbani Kyadekhteho
+Kya Dekhte Ho|Kya Dekhte Ho Surat Tumhaari
 Kya Hua Tera Waada|H D Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Waada ???
 Kya Hua Tera Waada|Kya Hua Tera Vada
@@ -3827,6 +3836,7 @@ Lakhon Hain Nigahon Mein|Lakhon Hai Nigah
 Lakhon Hain Nigahon Mein|Lakhon Hai Nigah Mein
 Lakhon Hain Nigahon Mein|Lakho Hai Nigah Mein
 Lambi Judaai|Lambi Judai Hero 1983
+Lambi Judaai|Lambi Judai
 Lamha Lamha|Lamha Lamha
 Lamha Lamha|Lamha Lamha Doori
 Lamha Lamha|Lamha Lamha Doorie
@@ -4251,6 +4261,7 @@ Mere Mehboob Mere Sanam|Mere Mehboob Mҽɾҽ Sanam Duplicate
 Mere Mehboob Mere Sanam|𝐌𝐞r𝐞 𝐌𝐞h𝐛oo𝐛 𝐌𝐞r𝐞 𝐒𝐚𝐧𝐚𝐦
 Mere Mehboob Tujhe|Mere Mehboob Tujhe
 Mere Mehboob Tujhe|Mere Mehboob Tujhe Meri Mohabbat Ki
+Mere Naam Tu|Mere Naam Tu Zero
 Mere Naina Saawan Bhaadon|Mere Naina Sawan Bhado
 Mere Naina Saawan Bhaadon|Mere Naina Sawan Bhadon
 Mere Naina Saawan Bhaadon|Merenainasawan Bhadon Mehbooba
@@ -5711,6 +5722,7 @@ Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbir Se Bigadi Hui Taqdir Bana Le
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbeer Se Bigdi Huyi Taqdeer Bana Le
 Tadbir Se Bigadi Hui Taqdir Bana Le|Tadbeer Se Bigdi Hui Taqdeer Bana Le
+Tadbir Se Bigadi Hui Taqdir Bana Le|1136 Tadbeer Se Bigdi Huyi
 Tadpaoge Tadpa Lo|Tadpaoge Tadpa Lo
 Tamma Tamma Loge|Tamma Tamma Loge
 Tanha Tanha|Tanha Tanha Yahan Pe Jeena
@@ -6076,6 +6088,7 @@ Tu Jaane Na|Tera Hone Laga Tu Jaane Na
 Tu Jaane Na|Tu Jane Na Karoake
 Tu Jaane Na|Tu Jaane Naa Milke Bhi Hum Na Mile
 Tu Jaane Na|Tu Jane Na
+Tu Jaane Na|Tu Jaane Na Ft Perfect Ed Sheer
 Tu Jahaan Jahaan Chalega|[Short®️] Tu jahan jahan chalega mera saaya
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega
 Tu Jahaan Jahaan Chalega|Tu Jahan Jahan Chalega Mera Saaya
@@ -6334,6 +6347,7 @@ Tum Hi Ho|Tum Hi Ho Tum Hi Ho Tum Hi Ho Tum Hi Ho Tum
 Tum Hi Ho|Tum Hi Ho Tum Hi Ho
 Tum Hi Ho|Tum Hi Ho Nenhgirna
 Tum Hi Ho|ۣۜۜ͜͡Tumhiho ۣۜۜ͜͡
+Tum Hi Ho|Tum Hi Ho Hi Ho Hi Ho Hi Ho Hi Ho Hi Ho
 Tum Hi Humaari Ho Manzil|Tum Hi Humari Ho Manzil
 Tum Hi Tum Ho|Tum Hi Tum Ho Mere Jeevan Mein
 Tum Ho Toh|Tum Ho Toh Saiyaara
@@ -6561,6 +6575,7 @@ Waada Karle Saajna|Waada Kar Le Saajna
 Waada Karle Saajna|Wadakarlesajana Wadakarle Sajna
 Waada Karle Saajna|0472 Waada Karle Saajna
 Waada Karo Jaanam|Waada Karo Janam
+Waada Karo Jaanam|Wada Karo Janam
 Waada Karo Nahi Chhodoge|Waada Karo Nahi Chhodoge Tum Mera Saath
 Waada Karo Nahi Chhodoge|Wada Karo
 Waada Karo Nahi Chhodoge|Wada Karo Nahi Chhodoge
@@ -6569,6 +6584,7 @@ Waada Karo Nahi Chhodoge|Waada Karo
 Waada Karo Nahi Chhodoge|Wada Karo 1973
 Waada Karo Nahi Chhodoge|Wada Karo Nahin Chhodogi
 Waada Karo Nahi Chhodoge|Wada Karo Nahin Chodoge Tum Mera Saath
+Waada Karo Nahi Chhodoge|Wada Karo Nahi Chodoge Tum
 Waada Raha Pyaar Se Pyaar Ka|Wada Raha Pyar Se Pyar Ka Song
 Waada Raha Pyaar Se Pyaar Ka|Wada Raha
 Waada Raha Sanam|Wada Raha Sanam
@@ -6722,6 +6738,7 @@ Yeh Dil Deewana|Yeil Deewana
 Yeh Dil Deewana|Yeil Deewana Pardes
 Yeh Dil Deewana Hai|Yeil Deewana Hai
 Yeh Dil Deewana Hai|Ye Dil Deewana Hai Dil To
+Yeh Dil Deewana Hai|Ye Dil Deewana Diwana
 Yeh Dil Kya Kare|Ye Dil Kya Kare
 Yeh Dil Kya Kare|Yeh Dil Kya Kare Dil Kya Kare
 Yeh Dil Kya Kare|Yeil Kya Kare
@@ -6922,6 +6939,7 @@ Yeh Parda Hata Do|Ye Parda
 Yeh Parda Hata Do|Ye Parda Hata Do
 Yeh Parda Hata Do|Ye Parda Hata Do: :By M D Tyagi
 Ye Raat Aur Ye Doori|Ye Raat Aur Ye
+Ye Raat Aur Ye Doori|Ye Raat Aur Ye Doori1488
 Yeh Raat Bheegi Bheegi|Ye Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Bheegi
 Yeh Raat Bheegi Bheegi|Yeh Raat Bheegi Chori
@@ -7048,6 +7066,7 @@ Zara Sa Jhoom Loon Main|Zarasa Jhoom Loon Mai
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom
 Zara Sa Jhoom Loon Main|Zara Sa Jhoom Lu Main Sh Rt
 Zara Sa Jhoom Loon Main|)Zara Sa Jhoom Loon Main
+Zara Sa Jhoom Loon Main|Zara Sa
 Zara Saamne To Aao Chhaliye|Zara Saamne To Aao Chhaliye
 Zara Si Aahat Hoti Hai|Zara Si Aahat Hoti Hai
 Zara Zara Bahekta Hai|Zara Behekta Hai

@@ -26,7 +26,7 @@ perf_day_counts as (
 	group by 1,2, 3
 	),
 perf_stats as (
-	select 	fixed_title, first_performance_time, last_performance_time, current_month_ind,
+	select 	fixed_title, first_performance_time, last_performance_time, current_month_ind, past_3mo_ind, past_1yr_ind,
 			round(adj_perf_1day_cnt::decimal,2) as adj_perf_1day_cnt,
 			round(adj_perf_5day_cnt::decimal,2) as adj_perf_5day_cnt,
 			round(adj_perf_10day_cnt::decimal,2) as adj_perf_10day_cnt,
@@ -35,6 +35,8 @@ perf_stats as (
 	from 	(
 				select 	fixed_title, min(created_at) as first_performance_time, max(created_at) as last_performance_time,
 						case when to_char(max(created_at),'YYYY-MM') = to_char(current_timestamp,'YYYY-MM') then 1 else 0 end current_month_ind,
+						case when max(created_at) > current_timestamp - interval '3 months' then 1 else 0 end past_3mo_ind,
+						case when max(created_at) > current_timestamp - interval '1 year' then 1 else 0 end past_1yr_ind,
 						max(perf_30day_cnt) as perf_30day_cnt,
 						max(perf_10day_cnt) as perf_10day_cnt,
 						max(perf_5day_cnt) as perf_5day_cnt,
@@ -75,7 +77,7 @@ select 	ps.fixed_title, ps.first_performance_time, ps.last_performance_time, ps.
             (ps.perf_30day_cnt::decimal*3) +
 			(ps.perf_cnt::decimal)
 		) weighted_cnt,
-		ps.current_month_ind,
+		ps.current_month_ind, ps.past_3mo_ind, ps.past_1yr_ind,
 		tm.rating_nbr,
 		tm.artist,
 		tm.singer_type,
