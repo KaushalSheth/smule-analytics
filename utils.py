@@ -261,3 +261,83 @@ def map_title(title,titleMappings):
     # Append back the "Short" if needed
     result += append
     return result
+
+def register_char_pool(key):
+    """Decode a Base64 string into its raw byte representation."""
+    k = {}
+    char_pool = ""
+    base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
+    # Build Base64 character to index mapping
+    for a in range(64):
+        k[base64_chars[a]] = a
+
+    l = 0
+    c = 0
+    h = len(key)
+
+    # Decode Base64
+    for d in range(h):
+        index = key[d]
+        a = k[index] if index in k else 0
+        l = (l << 6) + a
+        c += 6
+
+        while c >= 8:
+            c -= 8
+            b = (l >> c) & 255
+            if b != 0 or d < h - 2:
+                char_pool += chr(b)
+
+    return char_pool
+
+
+def decode_media_url(url_encoded):
+    """Decode an encoded URL that starts with 'e:'."""
+    secret_key = "TT18WlV5TXVeLXFXYn1WTF5qSmR9TXYpOHklYlFXWGY+SUZCRGNKPiU0emcyQ2l8dGVsamBkVlpA"
+    registered_secret_char_pool = register_char_pool(secret_key)
+
+    # Check if URL starts with "e:"
+    if len(url_encoded) < 2 or not url_encoded.startswith("e:"):
+        return url_encoded
+
+    # Decode the public char pool (everything after "e:")
+    public_char_pool = register_char_pool(url_encoded[2:])
+    #print("PublicCharPool:")
+    #print(public_char_pool)
+
+    # Initialize permutation array (RC4-like)
+    a = {}
+    for b in range(256):
+        a[b] = b
+
+    # Key-scheduling algorithm (KSA)
+    h = 0
+    for b in range(256):
+        h = (h + a[b] + ord(registered_secret_char_pool[b % len(registered_secret_char_pool)])) % 256
+        # Swap
+        d = a[b]
+        a[b] = a[h]
+        a[h] = d
+
+    # Pseudo-random generation algorithm (PRGA) and decryption
+    url_decoded = ""
+    b = 0
+    h = 0
+
+    for e in range(len(public_char_pool)):
+        b = (b + 1) % 256
+        h = (h + a[b]) % 256
+        # Swap
+        d = a[b]
+        a[b] = a[h]
+        a[h] = d
+
+        # XOR with keystream
+        url_decoded += chr(ord(public_char_pool[e]) ^ a[(a[b] + a[h]) % 256])
+
+    # Verify the decoded URL starts with "http"
+    if not url_decoded.startswith("http"):
+        return f"Failed to decode URL {url_encoded}; got {url_decoded}"
+
+    return url_decoded
