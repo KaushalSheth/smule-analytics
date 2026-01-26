@@ -1,5 +1,6 @@
 1234 Get On The Dance Floor|1234 Get On The Dance Floor
 3 Old Melodies|3 Old Melodies
+100 Miles|100 Miles
 500 Miles Jab Koi Baat Mashup|500 Miles Jab Koi Baat Mashup
 6 In 1 Romantic Medley|6 In 1 Romantic Medley
 70s Romantic Mashup|70'S Romantic Mashup
@@ -449,6 +450,7 @@ Aawaaz Do Humko|Aawaz Do Humko Hh
 Aawaaz Do Humko|Awaz Do Humko
 Aawaaz Do Humko|Aawaz Do Humko Dushman
 Aawaaz Do Humko|Awaz Do Humko Hum Kho
+Aawaaz Do Humko|: Aawaz Do Humko
 Aaya Mausam Dosti Ka|Aaya Mausam Dosti Ka
 Aaya Mausam Dosti Ka|Aayamausam
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri
@@ -1133,6 +1135,7 @@ Boom Boom|Boom Boom
 Boom Boom|Dil Bole Boom Boom Nazia Hassan
 Boom Boom|Boom Boom Star
 Boom Boom|Boom Boom Velo Sound Station 2020
+Boom Boom Aaj Ki Raat Raat Baaki|Boom Boom Aaj Ki Raat Raat Baaki
 Cant Help Falling In Love|Can'T Help Falling In Love
 Cant Help Falling In Love|Can't Help Falling In Love
 Cant Help Falling In Love|Cant Help Falling In Love ( + back vocals )
@@ -1241,6 +1244,7 @@ Chain Se Humko Kabhi|Chain Se Hamko Kabhi
 Chain Se Humko Kabhi|Chain Se Humko Kabhi
 Chain Se Humko Kabhi|Digital Chain Se Humko Kabhi
 Chain Se Humko Kabhi|0320 Chain Se Humko Kabhi
+Chain Se Humko Kabhi|Chain Se Hamko Kabhi Lyrics
 Chal Chameli Baag Mein|Chal Chameli Baag Mein
 Chal Jhoothi|Chal Jhoothi
 Chal Jhoothi|Chal Jhooti
@@ -1330,6 +1334,7 @@ Chaudhvin Ka Chand Ho|Chaudvin Ka Chand Ho
 Chaudhvin Ka Chand Ho|Chaudvinn Kaa Chaand
 Chaudhvin Ka Chand Ho|Chaudvinn Kaa Chaand Chaudvin Ka Chand
 Chaudhvin Ka Chand Ho|Chaudhvin Kachand Ho
+Chaudhvin Ka Chand Ho|Choudhavi Ka Chand Ho
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand
 Chehra Hai Ya Chaand|Sagar Jaisi Aankhon Wali
 Chehra Hai Ya Chaand|Saagar Jaisi Aankhon Waali Unwind Mix
@@ -1426,6 +1431,7 @@ Chhookar Mere Man Ko|Chookar Mere Mann Chhukar Man Manko Chukar
 Chhookar Mere Man Ko|1053 Chookar Mere Man Ko
 Chhookar Mere Man Ko|Chukarmeremanko Chukarmere Chookar
 Chhookar Mere Man Ko|Chhukar Mere Mann Ko A2_
+Chhookar Mere Man Ko|Chukar Mere Manko Chhukar Mere Navga
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
@@ -1987,6 +1993,7 @@ Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak Mujhe Aise
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Tak
 Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kab Takk Mujhe
+Dilbar Mere Kab Tak Mujhe|Dilbar Mere Kabtak Mujhe
 Dilbar Shikdum Shikdum|Dilbar Shikdum Shikdum
 Dile Naadaan Tujhe Hua Kya Hai|Dile Nadan Tujhe Hua Kya Hai
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa
@@ -2275,6 +2282,7 @@ Gazab Ka Hai Din|Gazab Ka Hai Dinqayamatseqayamattak
 Geet Gaata Chal|Geet Gaata Chal
 Geet Gaata Hoon Main|Geet Gata Hoon Main
 Gehra Hua|Gehra Hua Dhurandhar
+Gehra Hua|Gehra Hua
 Gerua|Gerua
 Gerua|Gerua Dilwale
 Ghadi Ghadi Mora Dil Dhadke|Ghadi Ghadi Mora Dil Dhadke Kyun
@@ -3012,6 +3020,7 @@ Jaati Hoon Main|Jaati Hoon Mein Jaldi Hai Kya
 Jaati Hoon Main|Jaati Hoon Main Jaldi Hai Kya
 Jaati Hoon Main|Jaati Hun Main Jaldi Hai Kya
 Jaati Hoon Main|Jati Hoon Jaati Hoon
+Jaati Hoon Main|Jaati Hun Main
 Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
@@ -3123,6 +3132,7 @@ Jawaaniyan Yeh Mast Mast Bin Piye|Jawaniyan Yeh Mast Mast Bin Piye
 Jawaaniyan Yeh Mast Mast Bin Piye|Jawaniyaan Yeh Mast Mast Bin Piye
 Jawaaniyan Yeh Mast Mast Bin Piye|Jawaaniyaan Ye Mast Mast Tumsa Nahin Dekha
 Je Hum Tum Chori Se|Je Hum Tum Chori Se
+Je Hum Tum Chori Se|Je Hum Tum Chori Se Fanclub 2025
 Jee Le Zaraa|Jee Le Zaraa
 Jee Le Zaraa|Jee Le Zara
 Jeena Jeena Samjhawan Mashup|Jeena Jeena Samjhawan
@@ -3453,6 +3463,7 @@ Kal Ho Na Ho|Sthar Ghadi Badal Rahi Hai
 Kal Ho Na Ho|0892 Kal Ho Na Ho
 Kal Ki Haseen Mulaaqaat|Kal Ki Haseen Mulaqat
 Kal Ki Haseen Mulaaqaat|Kal Ki Haseen Mulaqat Ke Liye
+Kal Ki Haseen Mulaaqaat|Kal Ki Haseen
 Kal Nau Baje|Kal Nau Baje
 Kal Raat Zindagi Se Mulakaat|Kal Raat Zindagi Se Mulakaat
 Kalank Title|Kalank Title
@@ -3491,6 +3502,7 @@ Kasme Waade Pyaar Wafaa Sab|Kasme Waade Pyaar Wafaa Sab
 Kasto Mazza|Kasto Mazza
 Katthai Aankhon Wali Ek Ladki|Kathai Aankhoon Wali Ek Ladki
 Katthai Aankhon Wali Ek Ladki|Kathai Aankhon Wali Duplicate
+Katthai Aankhon Wali Ek Ladki|Katthai Ankho Wali Ek Ladki
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapno Mein Aaya I
 Kaun Hai Jo Sapno Mein Aaya|Kaun Hai Jo Sapnon Mein Aaya
@@ -3546,6 +3558,7 @@ Keh Doon Tumhe|0818 Keoon Tumhe Ya Chup Rahoon
 Keh Doon Tumhe|Keoon Tumhein
 Keh Doon Tumhe|Keoon Tumhe : Deewar
 Keh Doon Tumhe|Keu Tumhe
+Keh Doon Tumhe|Keu Tumhe Ya Chup
 Kehna Hai Kehna Hai|Kehna Hai Kehna Hai
 Kehna Hai Kehna Hai|Kehna Hain Dill Vil Pyaar Vyaar
 Kehna Hi Kya|Kehna Hi Kya
@@ -3834,6 +3847,7 @@ Kyun Zindagi Ki|Yun Zindagi Ki Kyun Zindagi Ki
 La Bamba|La Bamba
 La Isla Bonita|La Isla Bonita
 Laal Dupatta|Lal Dupatta
+Laal Dupatta|Laal Dupatta
 Lab Par Aaye|Lab Par Aaye
 Lab Par Aaye|Lab Per Aaye
 Ladki Badi Anjani Hai|Ladki Badi Anjani Hai
@@ -6110,6 +6124,7 @@ Titli|Titli
 Titli|Titli Chennai Express
 To Chalun|To Chalun
 To Chalun|Jaate Hue Lamhon Border 2
+To Chalun|Ae Jaate Huye Lamhon
 Toota Jo Kabhi Tara|Toota Jo Kabhi Tara
 Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
 Toote Hue Khwabon Ne|Toote Huye Khwabo
@@ -6777,6 +6792,7 @@ Yaar Bina Chain|Yaar Bina Chain
 Yaar Bina Chain|Yaar Bina Chain Kaha Re
 Yaar Bina Chain|Yaar Bina Chain Kahan Re
 Yaar Bina Chain|158 Yaar Bina Chain Kahan
+Yaar Bina Chain|Yaar Bina Chain Kaha
 Yaar Chulbula Hai|Yaar Chulbula Hai
 Yaar Chulbula Hai|Yaar Chulbula Hai Hasin Dilruba Hai
 Yaara Sili Sili|Yaara Sili Sili
