@@ -371,7 +371,6 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
     stop = False
     i = n
     contentType, solo, joins, grouponly = extractSearchOptions(searchOptions)
-    geoCache = getGeoCache()
 
     # The actual performance data is returned in the "list" JSON object, so loop through those one at a time
     #print(f"Performance JSON Count = {len(performancesJSON['list'])}")
@@ -558,51 +557,16 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
         # Truncate web_url_full to 500 characters to avoid DB error when saving
         web_url = web_url_full[:500]
         yt_search = "https://www.youtube.com/results?search_query=" + fixedTitle.replace(" ","+") + "+lyrics"
-        # It seems like sometimes orig_track_city and few other values are not present - in this case set the them to Unknown
-        try:
-            owner_lat = performance['owner']['lat']
-            owner_lon = performance['owner']['lon']
-        except:
-            try:
-                # On 8/2/2021, noticed that latitude and longitude seem to be stored in price and discount columns for some reason
-                owner_lat = performance['owner']['price']
-                owner_lon = performance['owner']['discount']
-            except:
-                owner_lat = "0.00"
-                owner_lon = "0.00"
-        # If City and Country are not available, try using lat/lon to lookup city and country
-        try:
-            orig_track_city = performance['orig_track_city']['city']
-            orig_track_country = performance['orig_track_city']['country']
-        except:
-            # Initialzie the values to "Unknown"
+        if not web_url_full.endswith("/ensembles"):
+            owner_lat, owner_lon = parseLatLon(web_url)
+            orig_track_city, orig_track_country = lookupCityCountry(owner_lat,owner_lon)
+        else:
+            owner_lat = 0.0
+            owner_lon = 0.0
             orig_track_city = "Unknown"
             orig_track_country = "Unknown"
-            try:
-                # Check if the lat/lon combination exists in geoCache
-                gdb = next((g for g in geoCache if g['lat'] == str(owner_lat) and g['lon'] == str(owner_lon)), None)
-                if gdb is not None:
-                    orig_track_city = gdb['city']
-                    orig_track_country = gdb['country']
-                # If not, use geocoder to look it up and also to store it in cache
-                else:
-                    #printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
-                    g = geocoder.google([owner_lat,owner_lon], method='reverse')
-                    gjson = g.json
-                    gkeys = gjson.keys()
-                    # Extract the first key from list above that exists in JSON and break out of loop
-                    for ck in CITYKEYLIST:
-                        if ck in gkeys:
-                            orig_track_city = gjson[ck]
-                            break
-                    if 'country' in gjson:
-                        orig_track_country = gjson['country']
-                saveDBGeoCache(str(owner_lat),str(owner_lon),orig_track_city,orig_track_country)
-                geoCache.append({"lat":str(owner_lat),"lon":str(owner_lon),"city":orig_track_city,"country":orig_track_country})
-            except:
-                orig_track_city = "Unknown"
-                orig_track_country = "Unknown"
-                #raise
+        #print(web_url)
+        #print(f"Performers = {performers}, Lat = {owner_lat}, Lon = {owner_lon}, City = {orig_track_city}, Country = {orig_track_country}")
         #total_listens = performance['stats']['total_listens']
         total_listens = performance['stats']['truncated_listens']
         join_cnt = f"{joinCount}|{recentJoinCount}"
@@ -1224,3 +1188,62 @@ def downloadSong(web_url,baseFolder,file,performance,username):
     # Print pic URL for debugging purposes
     # print(pic_url)
     return 0
+
+# Lookup city and country from geo cache using lat and lon
+def lookupCityCountry(lat,lon):
+    geoCache = getGeoCache()
+    city = "Unknown"
+    country = "Unknown"
+    try:
+        # Check if the lat/lon combination exists in geoCache
+        gdb = next((g for g in geoCache if g['lat'] == str(lat) and g['lon'] == str(lon)), None)
+        if gdb is not None:
+            city = gdb['city']
+            country = gdb['country']
+        # If not, use geocoder to look it up and also to store it in cache
+        else:
+            #printTs(f"geocoder lookup {owner_lat}, {owner_lon}")
+            g = geocoder.google([lat,lon], method='reverse')
+            gjson = g.json
+            gkeys = gjson.keys()
+            # Extract the first key from list above that exists in JSON and break out of loop
+            for ck in CITYKEYLIST:
+                if ck in gkeys:
+                    city = gjson[ck]
+                    break
+            if 'country' in gjson:
+                country = gjson['country']
+        saveDBGeoCache(str(lat),str(lon),city,country)
+        geoCache.append({"lat":str(lat),"lon":str(lon),"city":city,"country":country})
+    except:
+        city = "Unknown"
+        country = "Unknown"
+    return city, country
+
+# Parse the location info for the partner from the web URL HTML page
+def parseLatLon(web_url):
+    # The web_url returns an HTML page that contains the location infor we wish to extract
+    try:
+        req = request.Request(web_url,headers=createFakeUAHeaders())
+        with request.urlopen(req) as murl:
+            # First get the HTML for the web_url
+            mhtmlstr = str(murl.read())
+            #print(mhtmlstr)
+            # Next, parse out the performance JSON
+            perfJSON = unquote(re.search('performance":(.*?form_type":.*?})}',mhtmlstr).group(1).replace('\\"','').replace('\\','\\\\'))
+            #print(perfJSON)
+            performance = json.loads(perfJSON)
+            #print(performance)
+            # If "performed_by" is not KaushalSheth1, then owner is the partner, else other_performers[0] is the partner
+            if performance["performed_by"] != 'KaushalSheth1' or performance["ensemble_type"] == "SOLO":
+                lat = performance["owner"]["price"]
+                lon = performance["owner"]["discount"]
+            else:
+                lat = performance["other_performers"][0]["price"]
+                lon = performance["other_performers"][0]["discount"]
+    except:
+        lat = 0.0
+        lon = 0.0
+        print(web_url)
+        raise
+    return lat, lon

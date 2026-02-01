@@ -599,6 +599,9 @@ Ae Gulbadan Ae Gulbadan|Kahin Aaj Kisi Se Muhabbat Na Ho
 Ae Gulbadan Ae Gulbadan|Aye Gulbadan
 Ae Gulbadan Ae Gulbadan|Aye Gulbadan Aye Gulbadan
 Ae Hawa Mere Sang Sang Chal|Ae Hawa Mere Sang Sang Chal
+Ae Jaate Huye Lamhon|Ae Jaate Huye Lamhon
+Ae Jaate Huye Lamhon|Jaate Hue Lamhon Border 2
+Ae Jaate Huye Lamhon|Aye Jate Hue Lamho
 Ae Kaash Ke Hum Hosh Mein Ab|Aye Kash Ke Hum Hosh Mein Ab
 Ae Kaash Ke Hum Hosh Mein Ab|Aye Kash Ke
 Ae Mere Dil Kahin Aur Chal|Aye Mere Dil Kahin Aur Chal
@@ -1432,6 +1435,7 @@ Chhookar Mere Man Ko|1053 Chookar Mere Man Ko
 Chhookar Mere Man Ko|Chukarmeremanko Chukarmere Chookar
 Chhookar Mere Man Ko|Chhukar Mere Mann Ko A2_
 Chhookar Mere Man Ko|Chukar Mere Manko Chhukar Mere Navga
+Chhookar Mere Man Ko|Choo Kar Mere Manko Unwind
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
@@ -1840,6 +1844,7 @@ Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhawar Kare Pukaar T
 Dil Ka Bhanwar Kare Pukar|0762 Dil Ka Bhanwar Kare Pukar
 Dil Ka Bhanwar Kare Pukar|Dil Ka Bhanwar Dil Ka Bhanwar
+Dil Ka Bhanwar Kare Pukar|Dil Ka Dil Ka
 Dil Ka Diya Jala Ke Gaya|Dil Ka Diya Jala Ke Gaya
 Dil Ka Khilona Hai Toot Gaya|Dil Ka Khilona Hai Toot Gaya
 Dil Ka Kya Kare Saheb|Dil Ka Kya Kare Saheb
@@ -2564,6 +2569,7 @@ Hum Bewafaa|Hum Bewafaa Hargiz Na The
 Hum Bewafaa|Hum Bewafa Hargiz
 Hum Bewafaa|Hum Bewafa Rahul Batra
 Hum Bewafaa|Humbewafahargiznathe
+Hum Chup Hain Ke Dil Sun Rahe Hain|Hum Chup Hain Ke Dil Sun Rahe Hain
 Hum Dil De Chuke Sanam|Hum Dil De Chuke Sanam
 Hum Dono Do Premi|Hum Dono Do Premi
 Hum Dono Do Premi|Hum Dono
@@ -3093,6 +3099,7 @@ Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
 Jabse Tere Naina|182Jab Se Tere Naina
 Jabse Tere Naina|Jab Se Tere
+Jag Ghoomeya|Jag Ghoomeya
 Jaha Teri Yeh Nazar Hai|Jahaan Teri Yeh Nazar Hai
 Jaha Teri Yeh Nazar Hai|Jahan Teri Yeh Nazar Hai
 Jaha Teri Yeh Nazar Hai|Jahaan Teri Ye Nazar Hai Kaalia
@@ -3331,6 +3338,7 @@ Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Me
 Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Mein Fanclub 2024
 Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmein
 Kabhi Kabhi Mere Dil Mein|Kabhikabhimeredilmeinkabhi Kabhie
+Kabhi Kabhi Mere Dil Mein|Kabhi Kabhi Mere Dil Main
 Kabhi Khamosh Baithoge|Kabhi Khamosh Baithoge
 Kabhi Khud Pe Kabhi Haalaat Pe|Kabhi Khud Pe Kabhi Halat Pe Roona Aya
 Kabhi Kisiko Mukammal Jahaan Nahi|Kabhi Kisiko Mukammal Jahan Nahi
@@ -3566,6 +3574,7 @@ Kehna Hi Kya|Kehna Hi Kya ~ Unwind
 Kehna Hi Kya|Kehna Hi Kya Sanah
 Kehna Hi Kya|Kehna Hi Kya Female
 Kehna Hi Kya|Kehna Hi Kya Unwind Mix
+Kehta Hai Dil Tum Ho Mere Liye|Kehta Hai Dil Tum Ho Mere Liye
 Kehta Hai Pal Pal|Kehta Hai Pal Pal
 Kehta Hai Pal Pal|Kehta Hai Pal Pal Tumse
 Kehti Hai Dil Ki Lagi|Kehti Hai Dil Ki Lagi
@@ -4069,6 +4078,7 @@ Main Pal Do Pal Ka Shayar Hoon|Mein Pal Do Pal Kasaregama India
 Main Phir Bhi Tumko Chahunga|Mai Fir Bhi Tumko Chahunga
 Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahunga 1
 Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chahungi
+Main Phir Bhi Tumko Chahunga|Main Phir Bhi Tumko Chaahunga
 Main Pyaar Ka Raahi Hoon|Mai Pyar Ka Rahi Hun
 Main Pyaar Ka Raahi Hoon|Main Pyaar Ka Rahi Hoon
 Main Pyaar Ka Raahi Hoon|Main Pyar Ka Rahi Hun
@@ -4441,6 +4451,7 @@ Mohabbat Hai Kya Cheez|Mohabbat Hai Kya Cheez
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee Hai
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayi Mohabbat Ki Nahi Hain
+Mohabbat Ho Gayi Hai|Mohabbat Ho Gayi Hai Border 2
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
@@ -4696,6 +4707,7 @@ Neele Neele Ambar Par|Neele Neele Ambar Par Chaand
 Neele Neele Ambar Par|Neele Neele Ambar Pr Chand Jab Aaye
 Neele Neele Ambar Par|Neele Neele Ambar Par Ambar Saagar'S
 Neele Neele Ambar Par|Neele Neele Ambar Par Chand
+Neele Neele Ambar Par|Neele Neele
 Neend Churake Raaton Me|Neend Churake Raaton Me
 Neend Churayee Meri|Neend Churayee Meri Kisne O Sanam
 Neend Churayee Meri|Neend Churayee Meri
@@ -5028,6 +5040,7 @@ Puchho Na Yaar Kya Hua|Poochho Na Yaar Kya
 Puchho Na Yaar Kya Hua|Pucho Na Yaar Poocho Naa [
 Puchho Na Yaar Kya Hua|Poochho Na Yaar Kya Hua5Min 1437
 Puchho Na Yaar Kya Hua|1780 Poochho Na Yaar Kya Hua
+Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Huaa
 Puchho Zara Puchho|Pucho Zara Pucho
 Puchho Zara Puchho|Pucho Zara Pucho Zara Zara
 Puchho Zara Puchho|Puchho Zara Pucho
@@ -5113,6 +5126,7 @@ Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh Aise
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Mein
 Pyaar Ki Kashti Mein|H‌D‌ Pyar Ki Kashti Me Mein
 Pyaar Ki Kashti Mein|Pyar Ki Kashti Main
+Pyaar Ki Kashti Mein|Pyar Ki Kasthi Mein
 Pyaar Kiya To Darna Kya|Pyaar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya To Darna Kya
 Pyaar Kiya To Darna Kya|Pyar Kiya Toarna Kya
@@ -5630,6 +5644,7 @@ Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jaye
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jaye 1970
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jayeshokhiyon Mein
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola
+Shokhiyon Mein Ghola Jaye|Shokhiyon Mein
 Shola Jo Bhadke|Shola Jo Bhadke
 Shola Jo Bhadke|Shola Jo Bhadke Dil Mera Dhadke
 Shola Jo Bhadke|Stereo Shola Jo Bhadke Dil Mera Dhadke
@@ -5697,6 +5712,7 @@ Subah Se Lekar Shaam Tak|Subah Se Lekar Shaam
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Ye Mausam Haseen
 Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Yeh Mausam Haseen
+Suhana Safar Aur Yeh Mausam|Suhana Safar Aur Ye Mausam Haseenunwind
 Suhani Chandni Raatein|Suhani Chandni Raatein
 Suhani Chandni Raatein|Suhaani Chandani Raatein
 Suhani Chandni Raatein|Suhani Chandni Raatein Humein Sone Nahi
@@ -6123,8 +6139,6 @@ Titli|Bann Ke Titli
 Titli|Titli
 Titli|Titli Chennai Express
 To Chalun|To Chalun
-To Chalun|Jaate Hue Lamhon Border 2
-To Chalun|Ae Jaate Huye Lamhon
 Toota Jo Kabhi Tara|Toota Jo Kabhi Tara
 Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
 Toote Hue Khwabon Ne|Toote Huye Khwabo
@@ -6461,6 +6475,7 @@ Tum Jo Mil Gaye Ho|Tum Jo Mil Tum Jo Mil
 Tum Kya Mile|Tum Kya Mile
 Tum Kya Mile|Tum Kya Mile Jaane Jaan
 Tum Kya Mile|Tum Kya Mile Jaanejaa
+Tum Kya Mile|Tum Kya Mile Jaane Jan
 Tum Meri Zindagi Mein|Tum Meri Zindagi Mein
 Tum Meri Zindagi Mein|Tum Meri Zindagi Mei Kuch
 Tum Mujhe Bhool Bhi Jaao|Tum Mujhe Bhool Bhi Jao

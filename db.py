@@ -400,7 +400,7 @@ def saveDBFavorite(username,performanceKey,rating):
         db.session.rollback()
         retVal = 0
         # Uncomment following line for debugging purposes only
-        #raise
+        raise
     return retVal
 
 # Save GeoCache data
