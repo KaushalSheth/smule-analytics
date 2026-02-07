@@ -33,7 +33,7 @@
 {%- if searchOptions['searchType'] == "partnerinvites" -%}
       <th>Created Time</th><th>Title</th><th>Partner</th><th>Partner Joins</th><th>Recency Score</th><th>Action</th><th>Play Song</th>
 {%- else -%}
-      <th>Created Time</th><th>Title</th><th>Partner</th><th>Partner Joins</th><th>Last Join Time</th><th>Action</th><th>Play Song</th>
+      <th>Created Time</th><th>Title</th><th>Partner</th><th>TotalJoins | RecentJoins | Rating</th><th>Last Join Time</th><th>Action</th><th>Youtube Search</th>
 {%- endif -%}
     </thead>
     <tbody>
@@ -56,24 +56,27 @@
         <td>{{ performance.created_at }}</td>
         <td><a href="{{ performance.recording_url }}" target="_blank">{{ performance.title }}</a><br>
 {%- if not searchOptions['offline'] -%}
-          <br>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['amazing']}}')">AMAZING! |</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['awesome']}}')">Awesome |</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['fantastic']}}')">Fantastic |</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['good']}}')">Good |</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['average']}}')">Average |</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['ok']}}')">OK</a>
-            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['bad']}}')">Bad</a>
-          <br>Rating:
-          <a href="/save_db_favorite/{{ performance.key }}/9" target="_blank"> 9|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/8" target="_blank"> 8|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/7" target="_blank"> 7|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/6" target="_blank"> 6|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/5" target="_blank"> 5|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/4" target="_blank"> 4|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/3" target="_blank"> 3|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/2" target="_blank"> 2|</a>
-          <a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 1|</a>
+          <br>C:
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['9']}}')"> 9 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['8']}}')"> 8 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['7']}}')"> 7 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['6']}}')"> 6 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['5']}}')"> 5 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['4']}}')"> 4 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['3']}}')"> 3 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['2']}}')"> 2 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['1']}}')"> 1 |</a>
+            <a href="{{ performance.web_url }}" target="_blank" onClick="clip_text('{{performance.comment['0']}}')"> 0</a>
+          <br>R:
+          <a href="/save_db_favorite/{{ performance.key }}/9" target="_blank"> 9 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/8" target="_blank"> 8 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/7" target="_blank"> 7 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/6" target="_blank"> 6 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/5" target="_blank"> 5 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/4" target="_blank"> 4 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/3" target="_blank"> 3 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/2" target="_blank"> 2 |</a>
+          <a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 1 |</a>
           <a href="/save_db_favorite/{{ performance.key }}/1" target="_blank"> 0</a>
 {%- endif -%}
         </td>
