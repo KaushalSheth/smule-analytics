@@ -1244,6 +1244,6 @@ def parseLatLon(web_url):
     except:
         lat = 0.0
         lon = 0.0
-        print(web_url)
-        raise
+        print(f"Failed to parse {web_url}")
+        #raise
     return lat, lon
