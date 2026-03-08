@@ -213,7 +213,15 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             			count(case when join_ind = 1 and performers != 'KaushalSheth1' then 1 else null end) as join_cnt
             	from 	perf
             	group by 1
-            	)
+            	),
+            running_totals as (
+                select  ps.perf_period,
+                        to_char(sum(ptr.new_partner_cnt) over(order by ps.perf_period rows between unbounded preceding and current row),'99,999') as total_partner_cnt,
+                        to_char(sum(js.new_joiner_cnt) over(order by ps.perf_period rows between unbounded preceding and current row) ,'99,999') as total_joiner_cnt
+                from    perf_stats ps
+                        left outer join partner_stats ptr on ptr.first_perf_period = ps.perf_period
+                        left outer join joiner_stats js on js.first_join_period = ps.perf_period
+                )
             select 	row_number() over() as rownum,
                     ps.perf_period,
             		to_char(ps.perf_cnt,'9,999') as perf_cnt,
@@ -231,12 +239,13 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             		to_char(sum(ps.invite_cnt) over(order by ps.perf_period),'99,999') as total_invite_cnt,
             		to_char(sum(ps.join_cnt) over(order by ps.perf_period),'99,999') as total_join_cnt,
             		to_char(sum(ts.new_title_cnt) over(order by ts.first_perf_period),'99,999') as total_title_cnt,
-            		to_char(case when ptrs.new_partner_cnt is not null then sum(ptrs.new_partner_cnt) over(order by ptrs.first_perf_period) end,'99,999') as total_partner_cnt,
-            		to_char(case when js.new_joiner_cnt is not null then sum(js.new_joiner_cnt) over(order by js.first_join_period) end,'99,999') as total_joiner_cnt
+            		rt.total_partner_cnt,
+            		rt.total_joiner_cnt
             from 	perf_stats ps
             		left outer join title_stats ts on ts.first_perf_period = ps.perf_period
             		left outer join partner_stats ptrs on ptrs.first_perf_period = ps.perf_period
                     left outer join joiner_stats js on js.first_join_period = ps.perf_period
+                    left outer join running_totals rt on rt.perf_period = ps.perf_period
             order by 2 desc;
             """
     elif analyticstitle in ['Partner Heatmap','Title Heatmap','Joiner Heatmap','Favorites Heatmap']:
