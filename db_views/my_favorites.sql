@@ -15,7 +15,7 @@ FROM    performance_favorite pf
         JOIN performance_singer ps ON ps.performance_key = p.key
         JOIN singer s ON s.account_id = ps.singer_account_id
 WHERE   pf.favorited_by_username = 'KaushalSheth1'
--- Since we introduced the concept of rating, only rating of 5 should be considered as "favorites"
-and     pf.rating_nbr >= 8
+-- Since we introduced the concept of rating, only rating of 9 should be considered as "favorites"
+and     pf.rating_nbr >= 9
 AND     s.performed_by <> 'KaushalSheth1'
 ;

@@ -273,7 +273,7 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             perf as (select mp.* from my_performances mp inner join dates on mp.created_at between dates.start_ts and dates.end_ts where performers not in ('KaushalSheth1','HMA_Official') {extrawhere}),
             -- Select top 50 partners/joiners/titles with max # performances since start date
             counts as (
-                select  {selcol} as count_column, {selcol} || ' (' || round(avg(rating_nbr)*20,0) || ')' as display_column, count(*) as total_perf_cnt
+                select  {selcol} as count_column, {selcol} || ' (' || round(avg(rating_nbr+1)*10,0) || ')' as display_column, count(*) as total_perf_cnt
                 from    perf
                 group by 1
                 order by 3 desc

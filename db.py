@@ -157,7 +157,7 @@ def fetchDBTopPerformers():
         		row_number() over(partition by monthly_rank order by perf_month) as col_nbr
         from 	perf_ranked pr
         		inner join singer s on s.performed_by = pr.performers
-        where 	monthly_rank <= 15
+        where 	monthly_rank <= 20
         order by monthly_rank, perf_month desc;
         """
     # Execute the query and build the performers list
