@@ -98,16 +98,16 @@ def printTs(message):
 # Build comment dictionary by randomly selecting a comment for each category
 def build_comment(prefix="",suffix=""):
     comment = {\
-        '9':prefix + random.choice(COMMENTS['9']) + suffix,\
-        '8':prefix + random.choice(COMMENTS['8']) + suffix,\
-        '7':prefix + random.choice(COMMENTS['7']) + suffix,\
-        '6':prefix + random.choice(COMMENTS['6']) + suffix,\
-        '5':prefix + random.choice(COMMENTS['5']) + suffix,\
-        '4':prefix + random.choice(COMMENTS['4']) + suffix,\
-        '3':prefix + random.choice(COMMENTS['3']) + suffix,\
-        '2':prefix + random.choice(COMMENTS['2']) + suffix,\
-        '1':prefix + random.choice(COMMENTS['1']) + suffix,\
-        '0':prefix + random.choice(COMMENTS['0']) + suffix\
+        '9':prefix + ' ' + random.choice(COMMENTS['9']) + suffix,\
+        '8':prefix + ' ' + random.choice(COMMENTS['8']) + suffix,\
+        '7':prefix + ' ' + random.choice(COMMENTS['7']) + suffix,\
+        '6':prefix + ' ' + random.choice(COMMENTS['6']) + suffix,\
+        '5':prefix + ' ' + random.choice(COMMENTS['5']) + suffix,\
+        '4':prefix + ' ' + random.choice(COMMENTS['4']) + suffix,\
+        '3':prefix + ' ' + random.choice(COMMENTS['3']) + suffix,\
+        '2':prefix + ' ' + random.choice(COMMENTS['2']) + suffix,\
+        '1':prefix + ' ' + random.choice(COMMENTS['1']) + suffix,\
+        '0':prefix + ' ' + random.choice(COMMENTS['0']) + suffix\
         }
     return comment
 

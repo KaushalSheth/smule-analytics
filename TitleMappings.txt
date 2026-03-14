@@ -276,6 +276,7 @@ Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke Sapne
 Aankhon Mein Humne Aapke|Aankhon Mein Humne Aapke Sapne Sajaye
 Aankhon Mein Humne Aapke|Ankhon Mein Humne Aapke
 Aankhon Mein Humne Aapke|Aankhon Mei Humne Aapke
+Aankhon Mein Humne Aapke|Aankhon Mein Humne
 Aankhon Mein Kaajal Hai|Aankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai
 Aankhon Mein Kaajal Hai|Ankhon Mein Kajal Hai Aankhon
@@ -734,6 +735,7 @@ Aisi Deewanagi|Aisi Deewangi Dekhi Nahi Kahin
 Aisi Deewanagi|[ Aisi Deewangi Dekhi
 Aisi Deewanagi|Aisi Dewangi4Rya_Trvo_
 Aisi Deewanagi|Aisi Deewangi Dekhi
+Aisi Deewanagi|Aisi Deewangi Dekhi Nahin Kahin
 Ajab Si|Aankhon Mein Teri
 Ajab Si|Aankhon Mein Teri Ajab Si Ajab Si
 Ajab Si|Ajab Si
@@ -939,6 +941,7 @@ Baahon Mein Chale Aao|Baahon Mein Chale Hold 'U' Tight Mix
 Baahon Mein Chale Aao|Baahon Mein Chale Aaao
 Baahon Mein Teri|Bahon Mein Teri
 Baahon Mein Teri|Bahon Mein Teri Masti Ke Ghere
+Baahon Mein Teri|Baahon Me Teri Masti Ke Ghere
 Baajre Da Sitta Title|Bajre Da Sitta Title
 Baali Umar Ne Mera Haal|Bali Umar Ne Mera Haal
 Baar Baar Dekho|[Short™] Baar Baar Dekho Hazaar Baar Dekho
@@ -1373,6 +1376,7 @@ Chehra Hai Ya Chaand|Chehra Hai Ya Chand ~ Song
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand Khila Hai
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand Song
 Chehra Hai Ya Chaand|Br Chehra Hai Ya Chand Khila Hai
+Chehra Hai Ya Chaand|Sagar Jaisi Aakhon Vali
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho (Saalami
@@ -1949,6 +1953,7 @@ Dil Leke Darde Dil|Dil Leke Darde Dil Degaye
 Dil Leke Darde Dil|Wanted
 Dil Leke Yaar Dil Diya Jaata Hai|Dil Leke Yaar Dil Diya Jata Hai
 Dil Mein Aag Lagaaye|Dil Mein Aag Lagaaye
+Dil Mein Basa Ke|Dil Mein Basa Ke
 Dil Mein Ho Tum|Hil Mein Ho Tum Cheat India
 Dil Mein Ho Tum|Dil Mein Ho Tum 544 Secs
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon Mein Tum
@@ -2264,6 +2269,7 @@ Ek Pyaar Ka Nagma Hain|Ek Pyaar Ka Nagma Hai Shor
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Naghma
 Ek Pyaar Ka Nagma Hain|Ekpyarkanagmacompact
 Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Papon Neeti Mohan
+Ek Pyaar Ka Nagma Hain|Ek Pyar Ka Nagma Hai Mangaeshka
 Ek Pyaar Ka Nagma + Yaad Kiya Dil Ne|Ek Pyar Ka Nagmayaad Kiya Dil Ne
 Ek Raat Mein Do Do Chaand Khile|Ek Raat Mein Do Do Chand Khile
 Ek Roz Main Tadap Kar|Ek Roz Main Tadap Kar
@@ -2747,6 +2753,7 @@ Humko Hamise Chura Lo|Hamko Hamin Se Churalo
 Humko Hamise Chura Lo|H︎Q︎Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Hami Se Chura Lo
 Humko Hamise Chura Lo|Humko Hamise Churalo
+Humko Hamise Chura Lo|Humko Humise Chura Lo Dhumise Humise
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -2760,6 +2767,7 @@ Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankho Ki
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Ankhon Ki
 Humne Dekhi Hai In Aankhon Mein|Humne Dekhi Hai Un Aankhon Ki
 Humne Dekhi Hai In Aankhon Mein|Hamne Dekhi Hai
+Humne To Dil Ko Aap Ke Qadamon Pe|Humne To Dil Ko Aap Ke Qadamon Pe
 Humne Tujhko Pyaar Kiya Hai Jitna|Hamne Tujhko Pyar Kiya
 Humne Tujhko Pyaar Kiya Hai Jitna|Humne Tujhko Pyaar Kiya Hai Jitna
 Humne Tumko Dekha|Hamne Tumko Dekha Pure
@@ -2862,6 +2870,7 @@ Ishq Hua|Is Hua Kaise Hua Is
 Ishq Hua|Is Hua Kaise Hua Achchha Hua
 Ishq Hua Hulchul Hui|Is Hua Hulchul Hui
 Ishq Jaisa Kuch|Is Jaisa Kuch
+Ishq Samundar|Is Samundar
 Ishq Shava|Is Shava
 Ishq Shava|Ishq Shava
 Ishq Wala Love|Is Wala Love
@@ -4314,6 +4323,7 @@ Megha Re Megha Re|Megha Re Megha Re Pyasa Sawan
 Mehboob Mere Mehboob Mere|Mehboob Mere Mehboob Mere
 Mehboob Mere Mehboob Mere|Mehboob Mere
 Mehbooba Mehbooba|Mehbooba Mehbooba
+Mehbooba Mehbooba Mehbooba|Mehbooba Mehbooba Mehbooba
 Mehfil Mein Baar Baar|Mehfil Mein Baar Baar
 Mehfil Mein Baar Baar|2Mehfil Mein Bar Bar
 Mehfil Mein Baar Baar|Mehfil Mein Bar Bar
@@ -4378,6 +4388,7 @@ Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai
 Mere Dil Mein Aaj Kya Hai|Meredil Mein Aaj
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai Daag 1973
 Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Aaj Kya Hai : Daag
+Mere Dil Mein Aaj Kya Hai|Mere Dil Mein Me Aaj Kya Hai
 Mere Dil Mein Hai Ek Baat|Mere Dil Mein Hai Ek Baat
 Mere Dil Mein Hai Ek Baat|Mere Mein Aaj Kya Hai
 Mere Dil Mein Halki Si|Mere Dil Mein Halki Si 529
@@ -4411,6 +4422,7 @@ Mere Khwabon Mein Tu|Mere Khwabon Mein Tu
 Mere Khwabon Mein Tu|Ori)Mere Khwabon Mein Tu
 Mere Khwabon Mein Tu|Mere Khwabon Me Tu Meri Saanson Me Tu
 Mere Khwabon Mein Tu|Mere Khawabo Mein Tu
+Mere Khwabon Mein Tu|Mere Khwabon Mein Tu Gupt
 Mere Liye Zaruri Pyaar Tera|Mere Liye Zarurimeeraᴷamohan
 Mere Mehboob Qayamat Hogi|Mere Mahboob Qayamat
 Mere Mehboob Qayamat Hogi|Mere Mehboob
@@ -4499,6 +4511,7 @@ Meri Saanson Mein Basa Hai|Meri Sanson Mein
 Meri Saanson Mein Basa Hai|Meri Saanson Mein Basahai
 Meri Saanson Mein Basa Hai|Meri Sanso Me Basahaicompact
 Meri Saanson Mein Basa Hai|Meri Sonson Mein Basa Hai
+Meri Saanson Mein Basa Hai|Meri Sanson Mein Basa Hai
 Meri Saanson Mein Tum|Meri Sanson Mein Tum
 Meri Tasveer Mein Rang Aur Kisika|Meri Tasveer Me
 Meri Yaad Mein Tum Na Aansoo Bahana|Meri Yaad Mein Tum Na Ansoo Bahana
@@ -4546,6 +4559,7 @@ Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee Hai
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayee
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayi Mohabbat Ki Nahi Hain
 Mohabbat Ho Gayi Hai|Mohabbat Ho Gayi Hai Border 2
+Mohabbat Ho Gayi Hai|Mujhe Tumse Mohabbat
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Na Jaye
 Mohabbat Ho Na Jaaye|Mohabbat Ho Jaye 45
@@ -4562,7 +4576,8 @@ Mujhe Chhu Rahi Hai|Mujhe Chhu
 Mujhe Chhu Rahi Hai|Mujhe Chhu Rahi Hain
 Mujhe Chhu Rahi Hai|Mujhe Chhoo Rahi Hain
 Mujhe Chhu Rahi Hai|Mujhe Chhu Rahi Hain, Mo
-Mujhe Dard|Mujhe Dard
+Mujhe Dard Rehta Hai|Mujhe Dard
+Mujhe Darde Dil Ka|Mujhe Darde Dil Ka
 Mujhe Ek Pal Chain Na Aaye|Mujhe Ek Pal Chain Na Aaye
 Mujhe Jaan Na Kaho Meri Jaan|Meri Jaan Mujhe Jaan Na Kaho
 Mujhe Jaan Na Kaho Meri Jaan|Mujhe Jaan Na Kaho Meri Jaan
@@ -5076,6 +5091,7 @@ Pehla Pehla Pyar Hai|Pehla Pehla Pyar
 Pehla Prem Ni Pehli E Najar|Pehla Prem Ni Pehli E Najar
 Pehle Bhi Main|Pehle Bhi Main
 Pehle Pehle Pyaar Ki|Pahle Pahle Pyar Ki Pehle Pehle Pyar Ki
+Pehle Pyaar Ka Pehla Gum|Pahle Pyar Ka Pehla Gam
 Pehli Baar Mile|Pehli Baar Mile
 Pehli Baar Mile|Pehli Baar Mile Hain
 Pehli Baarish Main Aur Tu|Pehli Baarish Main Aur Tu
@@ -5139,6 +5155,7 @@ Piyu Bole|Piya Bole Piya Bole
 Piyu Bole|Piyu Bole Parineeta Song
 Piyu Bole|Piya Bole Parineeta
 Piyu Bole|Piyuboley
+Piyu Bole|Piyu Bole Parineeta
 Prem Jaal Mein Fans Gayi|Prem Jaal Mein Fans Gayi
 Priyatama O Meri Priyatama|Priyatama O Meri Priyatama
 Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Hua
@@ -5276,6 +5293,7 @@ Pyaar Nahin Karna|Pyar Nahi Karna Kachche Dhaage
 Pyaar Nahin Karna|Pyaar Nahin Karna
 Pyaar Se Pyaare Tum Ho Sanam|Pyar Se Pyare Tum Ho Sanam
 Pyaar To Ek Din Hona Tha|Pyar To Ek Din Hona Tha
+Pyaar To Hona Hi Tha|Pyar To Hona Hi Tha
 Pyaar Tune Kya Kiya|Pyaar Tune Kya Kya Kiya
 Pyaar Zindagi Hai|Pyar Zindagi Hai
 Qaafirana|Qaafirana
@@ -5343,6 +5361,7 @@ Raat Ke Humsafar|Raat Ke Hamsafar
 Raat Ke Humsafar|Raat Ke
 Raat Ke Humsafar|Raat Ke Humsafar Bhavana Pandit
 Raat Ke Humsafar|0517 Raat Ke Humsafar
+Raat Ke Humsafar|Raat Ke Hamsafar Singalong2426'S V
 Raat Shabnami|Raat Shabnami
 Raat Shabnami|Raat Shabnami Bheegi Chandni
 Raaz Aankhein Teri|Raaz Aakhein Teri
@@ -5494,6 +5513,7 @@ Rozaana|Rozana
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane
 Ruk Ja O Dil Deewane|Ruk Jaa O Dil Deewane
 Ruk Ja O Dil Deewane|Ruk Ja O Dil Deewane Song
+Ruk Ja O Jaane Waale Ruk Ja|रुक जा ओ जाने वाली रुक जा
 Ruk Ja Raat Theher|Ruk Ja Raat Theher Dilekmandir
 Ruk Ja Raat Theher|Ruk Jaa Raat Theher Ja Re Chanda
 Ruk Ja Raat Theher|रुक जा रात ठहर जा रे चंदा बीते ना मिलन
@@ -5892,6 +5912,7 @@ Suno Kaho Kaha Suna|Suno Kaho
 Suno Kaho Kaha Suna|Suno Kaho Kahaa Suna
 Suno Kaho Kaha Suna|Suno Kaho Kahaa Suna V
 Suno Na Sangemarmar|Suno Na Sangemarmar
+Suno Na Sangemarmar|Sunona Sanga Mar Mar
 Suno Na Suno Na|Suno Na Suno Na
 Suno Na Suno Na|Tum Ne Na Jaana
 Suno Na Suno Na|Suno Na Suno Na Sun Lo Na
@@ -7267,6 +7288,7 @@ Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar Pyaar 0388
 Yeh Samaa|Ye Sama Samaa Hain Yeh Pyar 0388
 Yeh Samaa|Adnanye Sama, Samaa Hai
 Yeh Samaa|Ye Sama Ye Sama Singalong2426'S
+Yeh Samaa|Ye Sama Yeh Samaa
 Yeh Shaam Mastaani|Ye Shaam Mastaani
 Yeh Shaam Mastaani|Ye Sham
 Yeh Shaam Mastaani|Yeh Shaam Mastani
