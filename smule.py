@@ -475,13 +475,23 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
                 if (partnerHandle != username):
                     display_user = partnerHandle
                     display_pic_url = partner_pic_url
+        # Truncate web_url_full to 500 characters to avoid DB error when saving
+        web_url = web_url_full[:500]
+        # Parse Web URL to get lat, lon and message
+        if not web_url_full.endswith("/ensembles"):
+            owner_lat, owner_lon, msg = parseWebUrl(web_url)
+            orig_track_city, orig_track_country = lookupCityCountry(owner_lat,owner_lon)
+        else:
+            owner_lat = 0.0
+            owner_lon = 0.0
+            orig_track_city = "Unknown"
+            orig_track_country = "Unknown"
         # If performers is in list of GroupHandles, then look for the real performer in the message string
         groupHandles = getGroupHandles()
         lowerGroupHandles = ['@' + gh['item_name'].lower() for gh in groupHandles]
         gdb = next((g for g in groupHandles if g['item_name'] == performers), None)
         if gdb is not None:
-            #msg = performance['message'] # Not available
-            msg = ""
+            # Use the msg parsed from web URL above to look for actual username
             #print(msg)
             try:
                 # Remove any spaces after the "@"
@@ -554,17 +564,7 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             shortInd = "Y"
         else:
             shortInd = "N"
-        # Truncate web_url_full to 500 characters to avoid DB error when saving
-        web_url = web_url_full[:500]
         yt_search = "https://www.youtube.com/results?search_query=" + fixedTitle.replace(" ","+") + "+lyrics"
-        if not web_url_full.endswith("/ensembles"):
-            owner_lat, owner_lon = parseLatLon(web_url)
-            orig_track_city, orig_track_country = lookupCityCountry(owner_lat,owner_lon)
-        else:
-            owner_lat = 0.0
-            owner_lon = 0.0
-            orig_track_city = "Unknown"
-            orig_track_country = "Unknown"
         #print(web_url)
         #print(f"Performers = {performers}, Lat = {owner_lat}, Lon = {owner_lon}, City = {orig_track_city}, Country = {orig_track_country}")
         #total_listens = performance['stats']['total_listens']
@@ -1221,7 +1221,7 @@ def lookupCityCountry(lat,lon):
     return city, country
 
 # Parse the location info for the partner from the web URL HTML page
-def parseLatLon(web_url):
+def parseWebUrl(web_url):
     # The web_url returns an HTML page that contains the location infor we wish to extract
     try:
         req = request.Request(web_url,headers=createFakeUAHeaders())
@@ -1241,9 +1241,11 @@ def parseLatLon(web_url):
             else:
                 lat = performance["other_performers"][0]["price"]
                 lon = performance["other_performers"][0]["discount"]
+            message = performance["message"]
     except:
         lat = 0.0
         lon = 0.0
+        message = ""
         print(f"Failed to parse {web_url}")
         #raise
-    return lat, lon
+    return lat, lon, message
