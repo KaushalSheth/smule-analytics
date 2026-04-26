@@ -1224,16 +1224,17 @@ def lookupCityCountry(lat,lon):
 def parseWebUrl(web_url):
     # The web_url returns an HTML page that contains the location infor we wish to extract
     try:
+        #print(f"web_url = {web_url}")
         req = request.Request(web_url,headers=createFakeUAHeaders())
         with request.urlopen(req) as murl:
             # First get the HTML for the web_url
             mhtmlstr = str(murl.read())
-            #print(mhtmlstr)
+            #print(f"mhtmlstr = {mhtmlstr}")
             # Next, parse out the performance JSON
             perfJSON = unquote(re.search('performance":(.*?form_type":.*?})}',mhtmlstr).group(1).replace('\\"','').replace('\\','\\\\'))
-            #print(perfJSON)
+            #print(f"perfJSON = {perfJSON}")
             performance = json.loads(perfJSON)
-            #print(performance)
+            #print(f"performance = {performance}")
             # If "performed_by" is not KaushalSheth1, then owner is the partner, else other_performers[0] is the partner
             if performance["performed_by"] != 'KaushalSheth1' or performance["ensemble_type"] == "SOLO":
                 lat = performance["owner"]["price"]

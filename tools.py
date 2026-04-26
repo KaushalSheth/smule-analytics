@@ -4,13 +4,16 @@ from pyppeteer import launch
 import os, time
 from .db import execDBQuery, saveDBTitleMetadata
 from .smule import fetchUserFollowing
-from .utils import printTs, getJSON
+from .utils import printTs, getJSON, createFakeUAHeaders
 from urllib import request
 import json, re, csv
 from statistics import mode
 import discogs_client
 from fuzzywuzzy import process, fuzz
-import requests
+import requests, io
+import face_recognition
+from PIL import Image
+
 
 # Set global variables using env file
 DISCOGS_TOKEN = os.environ.get('DISCOGS_TOKEN', default='')
@@ -245,17 +248,81 @@ def getHtml(utilitiesOptions):
 
     return {"owners":[htmlstr],"joiners":[]}
 
+def saveFile(picUrl,fileName):
+    numSaved = 0
+    fname = fileName + '.jpg'
+    # If the file already exists, skip it
+    if os.path.exists(fname):
+        #printTs(f"ALREADY EXISTS - {filename}")
+        pass
+    else:
+        f = open(fname,'wb')
+        f.write(requests.get(picUrl).content)
+        f.close()
+        numSaved += 1
+    return numSaved
+
+# Extract face from a given URL and save into given fileName. There could be multiple faces, in which case, each one will be saved
+def extractFace(picUrl,fileName):
+    req = request.Request(picUrl,headers=createFakeUAHeaders())
+    image = face_recognition.load_image_file(request.urlopen(req))
+    #image = face_recognition.load_image_file(io.BytesIO(requests.get(picUrl).content))
+    # Find all face locations in the image
+    face_locations = face_recognition.face_locations(image)
+    i = 0
+    for i, face_location in enumerate(face_locations):
+        # Extract coordinates: top, right, bottom, left
+        top, right, bottom, left = face_location
+        # Slice the image array to get the face
+        face_image = image[top:bottom, left:right]
+        # Convert to PIL Image and save
+        pil_img = Image.fromarray(face_image)
+        pil_img.save(f"{fileName}_{i}.jpg")
+    return i
+# Extract faces from folder
+def extractFacesFromFolder(utilitiesOptions):
+    # Load the image file
+    profileswildcard = utilitiesOptions['profileswildcard']
+    outfolder = utilitiesOptions['outfolder']
+    image_names = list(glob.glob(profileswildcard))
+    print(f"{profileswildcard} has {len(image_names)} profiles")
+    faceCnt = 0
+    # Loop through all images in the folder
+    for fname in image_names:
+        face_fname = outfolder + "/" + fname.split('\\')[-1].split('.')[0] + '_face'
+        #print(f"{fname} - {face_fname}")
+        #continue
+        image = face_recognition.load_image_file(fname)
+
+        # Find all face locations in the image
+        face_locations = face_recognition.face_locations(image)
+
+        for i, face_location in enumerate(face_locations):
+            # Extract coordinates: top, right, bottom, left
+            top, right, bottom, left = face_location
+
+            # Slice the image array to get the face
+            face_image = image[top:bottom, left:right]
+
+            # Convert to PIL Image and save
+            pil_img = Image.fromarray(face_image)
+            pil_img.save(f"{face_fname}_{i}.jpg")
+            faceCnt += 1
+            #print(f"Extracted face {i} from {fname} at {face_location}")
+    return faceCnt
+
 # Download performer images
 def downloadPics(utilitiesOptions):
     # Iniitalize variables
-    basefolder = '/tmp/'
+    basefolder = '/tmp/profiles/'
     picswhereclause = utilitiesOptions["picswhereclause"]
+    picsNumberStart = utilitiesOptions["picsnumberstart"]
     picCnt = 0
     # Fetch pic URLs from DB
     sqlquery = f"""
         with
             pics as (select performers as pic_handle, display_pic_url as pic_url, min(created_at) min_time from my_performances where {picswhereclause} group by 1,2)
-        select *, row_number() over(partition by pic_handle order by min_time) as pic_nbr from pics
+        select *, row_number() over(partition by pic_handle order by min_time) + {picsNumberStart} as pic_nbr from pics
         """
     pics = execDBQuery(sqlquery)
     # Loop through each image and save it
@@ -263,16 +330,9 @@ def downloadPics(utilitiesOptions):
         picHandle = p['pic_handle']
         picUrl = p['pic_url']
         picNbr = p['pic_nbr']
-        filename = basefolder + picHandle + "-" + f'{picNbr:03}' + '.jpg'
-        # If the file already exists, skip it
-        if os.path.exists(filename):
-            #printTs(f"ALREADY EXISTS - {filename}")
-            continue
-        else:
-            f = open(filename,'wb')
-            f.write(requests.get(picUrl).content)
-            f.close()
-            picCnt += 1
+        filename = basefolder + picHandle + "-" + f'{picNbr:03}'
+        picCnt += saveFile(picUrl, filename)
+        #picCnt += extractFace(picUrl, filename)
     return picCnt
 
 # The remaining code was copied from Stack Overflow and modified - https://stackoverflow.com/questions/71514124/find-near-duplicate-and-faked-images

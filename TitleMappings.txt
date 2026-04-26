@@ -330,6 +330,7 @@ Aao Huzur Tum Ko|Aao Huzoor Tumko Asha Bhosle
 Aao Huzur Tum Ko|Aao Huzoor Kismat Double Cross
 Aao Huzur Tum Ko|Aao Huzoor Tum Ko
 Aao Huzur Tum Ko|Aao Huzoor
+Aao Huzur Tum Ko|Aao Huzoor Tumko Hazoor Tum Ko
 Aao Na Gale Laga Lo Na|Aao Na Galey Laga Lo Na
 Aao Na Gale Laga Lo Na|Aao Na Galey
 Aao Na|Aao Na
@@ -676,6 +677,7 @@ Ae Zindagi Gale Laga Le|Ae Zindagi Aye Zindagi Gale La Gaale
 Ae Zindagi Gale Laga Le|Ay Zindagi Gale Laga Le
 Ae Zindagi Gale Laga Le|Ae Zindagi Gale Aye Zindagi
 Ae Zindagi Gale Laga Le|Aye Zindagi Gale
+Ae Zindagi Gale Laga Le|Aye Zindagi Gale Lagaa Le I
 Aesis Membership Audition|Aesis Membership Audition
 Afreen Afreen|Afreen Afreen Coke Studio
 Afsaana Likh Rahi Hoon|Afsana Likh Rahi Hoon
@@ -3362,6 +3364,7 @@ Jo Haal Dil Ka|Jo Haal Dil Ka ~ ~Sarfarosh
 Jo Haal Dil Ka|Jo Haal Dil Ka By Sushmita
 Jo Haal Dil Ka|Jo Haal Dil Kaa
 Jo Haal Dil Ka|Jo Hal Dil Ka
+Jo Haal Dil Ka|Jo Haal Dil Ka Sarfarosh
 Jo Ho Yaar Apna|Jo Ho Yaar Apna
 Jo Jeeta Wohi Sikandar Medley|Jo Jeeta Wohi Sikandar Medley
 Jo Tumko Ho Pasand|Jo Tumko Ho Pasand
@@ -4942,13 +4945,14 @@ O Mere Shaahe Khubaan|O Mere Shahe Khubaan
 O Mere Shaahe Khubaan|O Mere Shah E Khobaan
 O Mere Sona Re|O Mere Sona Re
 O Mere Sona Re|O Mere Sona Re Sona
-O Mere Sona Re|O Meri Soni Mere|O Meri Soni Mere
-O Mere Sona Re|O Meri Soni Mere
-O Mere Sona Re|O Meri Soni
+O Mere Sona Re|O Mere Sona Re Teesri Manzil
 O Meri Mehbooba|O Meri Mehbooba
 O Meri Soni Mere|O Meri Soni Meri Tamanna
 O Meri Soni Mere|Meri Soni Meri Tamanna
 O Meri Soni Mere|O Meri Soni, Meri Tamanna
+O Meri Soni Mere|O Meri Soni Mere
+O Meri Soni Mere|O Meri Soni Mere
+O Meri Soni Mere|O Meri Soni
 O Mr Benjo Ishara To Samjho|O Mr Benjo Ishara To Samjho
 O Nigaahe Mastaana|O Nigahe Mastana
 O Oh Jaane Jaana|O Oh Jaane Jana
@@ -5816,6 +5820,7 @@ Shaam Dhale Khidki Tale|Shaam Dhale Khidki Taley Tum Ceeti
 Shaam Dhale Khidki Tale|Shaam Dhale, Khidaki Tale
 Shaam Dhale Khidki Tale|Sham Dhale Khidki Tale
 Shahar Ki Ladki|Shahar Ki Ladki
+Sharara Sharara|Sharara Sharara
 Shararat|Shararat I Dhurandhar I 2025
 Sharm Aati Hai Magar|Sharm Aati Hai Magar
 Shauq|Shauq

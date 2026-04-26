@@ -33,6 +33,7 @@ fuzzywuzzy = "*"
 python-levenshtein = "*"
 seaborn = "*"
 sentence-transformers = "*"
+face-recognition = "*"
 
 [requires]
 python_version = "3.10.5"

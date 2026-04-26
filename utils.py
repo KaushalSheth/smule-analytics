@@ -127,12 +127,12 @@ def getJSON(username="",type="recording",offset=0,version="legacy",sort="recent"
         req = request.Request(urlstring,headers=createFakeUAHeaders())
         with request.urlopen(req) as url:
             perfJSON = url.read()
-            #print(perfJSON)
+            #print(f"perfJSON = {perfJSON}")
             data = json.loads(perfJSON)
     except:
         # Ignore any errors
         printTs("Error fetching JSON")
-        raise
+        #raise
         pass
     return data
 

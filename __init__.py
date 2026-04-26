@@ -8,7 +8,7 @@ from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTi
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
-from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata, downloadPics, processDuplicateImages, pinworthy
+from .tools import loadDynamicHtml, titlePerformers, getHtml, nonJoiners, titleMetadata, saveTitleMetadata, downloadPics, processDuplicateImages, pinworthy, extractFacesFromFolder
 from datetime import datetime
 
 # Set defaults for global variable that are used in the app
@@ -252,7 +252,10 @@ def create_app(test_config=None):
             utilitiesOptions['centlat'] = request.form["centlat"]
             utilitiesOptions['centlon'] = request.form["centlon"]
             utilitiesOptions['picswhereclause'] = request.form["picswhereclause"]
+            utilitiesOptions['picsnumberstart'] = request.form["picsnumberstart"]
             utilitiesOptions['picswildcard'] = request.form["picswildcard"]
+            utilitiesOptions['profileswildcard'] = request.form["profileswildcard"]
+            utilitiesOptions['outfolder'] = request.form["outfolder"]
             utilitiesOptions['dupesfolder'] = request.form["dupesfolder"]
             utilitiesOptions['invitekey'] = request.form["invitekey"]
             if toolName == "Recent Performers":
@@ -267,6 +270,8 @@ def create_app(test_config=None):
                 return redirect(url_for('download_song'))
             elif toolName == "Download Pics":
                 return redirect(url_for('download_pics'))
+            elif toolName == "Extract Faces":
+                return redirect(url_for('extract_faces'))
             elif toolName == "Process Duplicates":
                 return redirect(url_for('process_duplicates'))
             elif toolName == "Performer Map":
@@ -711,6 +716,15 @@ def create_app(test_config=None):
         retVal = downloadPics(utilitiesOptions)
         if retVal != -1:
             flash(f"Successfully downloaded {retVal} pictures to /tmp/")
+        return redirect(url_for('utilities'))
+
+    # Method to download the owner pictures to local disk
+    @app.route('/extract_faces')
+    def extract_faces():
+        global user, utilitiesOptions
+        retVal = extractFacesFromFolder(utilitiesOptions)
+        if retVal != -1:
+            flash(f"Successfully extracted {retVal} faces to {utilitiesOptions['outfolder']}")
         return redirect(url_for('utilities'))
 
     # Method to download the owner pictures to local disk
