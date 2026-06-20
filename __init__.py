@@ -1,10 +1,11 @@
 import os
 import ast
 import asyncio
+import json
 
 from flask import Flask, render_template, redirect, url_for, request, flash, g
 from flask_migrate import Migrate
-from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchOpenInvites, fetchDBInviteJoins
+from .smule import fetchSmulePerformances, downloadSong, crawlUsers, fetchFileTitleMappings, getComments, crawlJoiners, checkPartners, saveSingerFollowing, fetchPartnerInfo, fetchOpenInvites, fetchDBInviteJoins, createPerformanceList
 from .db import fetchDBPerformances, saveDBPerformances, saveDBFavorite, saveDBFavorites, fixDBTitles, fetchDBPerformers, fetchDBTopPerformers, execDBQuery, fetchDBPerformerMapInfo
 from .analytics import fetchDBAnalytics
 from .invites import fetchPartnerInvites, fetchSongInvites
@@ -125,6 +126,7 @@ def create_app(test_config=None):
                 searchOptions['contentType'] = "video"
             else:
                 searchOptions['contentType'] = "none"
+            searchOptions['perfjson'] = request.form['perfjson']
             user = request.form['username']
             if not user:
                 error = "Username is required."
@@ -213,6 +215,8 @@ def create_app(test_config=None):
                     return redirect(url_for('query_song_invites'))
                 elif request.form['btn'] == 'Check Partners':
                     return redirect(url_for('check_partners'))
+                elif request.form['btn'] == "List Performances":
+                    return redirect(url_for('utils_list_performances'))
                 else:
                     error = "Invalid selection"
 
@@ -492,6 +496,20 @@ def create_app(test_config=None):
     # This executes the smule function to fetch all performances using global variables set previously
     @app.route('/query_smule_performances')
     def query_smule_performances():
+        global user, numrows, performances, startoffset, fromdate, todate, searchOptions, rsPartnerInfo
+        searchOptions['searchType'] = "normal"
+        if rsPartnerInfo == None:
+            rsPartnerInfo = fetchPartnerInfo()
+        # Fetch the performances into a global variable, display a message indicating how many were fetched, and display them
+        # Using a global variable for performances allows us to easily reuse the same HTML page for listing performances
+        performances = fetchSmulePerformances(user,numrows,startoffset,"recording",fromdate,todate,searchOptions)
+        flash(f"{len(performances)} performances fetched from Smule")
+        print(f"{len(performances)} performances fetched from Smule")
+        return redirect(url_for('list_performances'))
+
+    # This method uses the performance JSON string provided and lists the performances inside it
+    @app.route('/utils_list_performances')
+    def utils_list_performances():
         global user, numrows, performances, startoffset, fromdate, todate, searchOptions, rsPartnerInfo
         searchOptions['searchType'] = "normal"
         if rsPartnerInfo == None:

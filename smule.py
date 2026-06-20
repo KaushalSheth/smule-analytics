@@ -47,27 +47,30 @@ def fetchOpenInvites():
     rsInviteJoins = []
     try: gTitleMappings
     except NameError: gTitleMappings = fetchFileTitleMappings('TitleMappings.txt')
-    # Fetch open invites from Smmule
-    openInvites = getJSON("KaushalSheth1","active_seed",0,"search",sort="popular")
-    for invite in openInvites['list']:
-        # Ignore Group invites
-        if invite["ensemble_type"] == "GROUP" or invite["owner"]["handle"] != "KaushalSheth1":
-            continue
-        # Add invite to list of open invites
-        #inviteKey = invite['key']
-        inviteKey = invite['performance_key']
-        fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
-        rsOpenInvites.append({"key":inviteKey,"title":fixedTitle})
-        # Fetch list of partners who have joined the invite
-        #rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
-        # Because of reactivations, parent_key is not being set correctly, so simply check if a singer has EVER joined this song
-        rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where join_ind = 1 and fixed_title = '{fixedTitle}' group by 1")
-        #print(f"{fixedTitle}: {rs[0]['joiners']}")
-        rsInviteJoins.extend(rs)
-    # Radomize the list
-    rsOpenInvites = random.sample(rsOpenInvites,len(rsOpenInvites))
-    print(rsOpenInvites)
-    #print(rsInviteJoins)
+    try:
+        # Fetch open invites from Smmule
+        openInvites = getJSON("KaushalSheth1","active_seed",0,"search",sort="popular")
+        for invite in openInvites['list']:
+            # Ignore Group invites
+            if invite["ensemble_type"] == "GROUP" or invite["owner"]["handle"] != "KaushalSheth1":
+                continue
+            # Add invite to list of open invites
+            #inviteKey = invite['key']
+            inviteKey = invite['performance_key']
+            fixedTitle = fix_title(invite['title'],gTitleMappings).replace(" [Short]","")
+            rsOpenInvites.append({"key":inviteKey,"title":fixedTitle})
+            # Fetch list of partners who have joined the invite
+            #rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where parent_key = '{inviteKey}' group by 1")
+            # Because of reactivations, parent_key is not being set correctly, so simply check if a singer has EVER joined this song
+            rs = execDBQuery(f"select fixed_title, string_agg(performers,',') as joiners from my_performances where join_ind = 1 and fixed_title = '{fixedTitle}' group by 1")
+            #print(f"{fixedTitle}: {rs[0]['joiners']}")
+            rsInviteJoins.extend(rs)
+        # Radomize the list
+        rsOpenInvites = random.sample(rsOpenInvites,len(rsOpenInvites))
+        print(rsOpenInvites)
+        #print(rsInviteJoins)
+    except:
+        pass
     return rsOpenInvites, rsInviteJoins
 
 # For the specified title, get the key of the open invite
@@ -534,7 +537,8 @@ def createPerformanceList(username,performancesJSON,mindate="1900-01-01",maxdate
             # Keep track of the performer for each performance in this list so that we can count the number of performances for that performer
             gPerformerList.append(performers)
             # If there are any open invites the performer has not yet joined, invite them to join
-            openInvite = getOpenInvite(performers,gPerformerList.count(performers))
+            #openInvite = getOpenInvite(performers,gPerformerList.count(performers))
+            openInvite = ""
             if openInvite != "":
                 joinMessage = f" If interested, please join my invite for {openInvite}"
             else:
@@ -901,6 +905,11 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
     global rsGroupHandles, gTitleMappings, rsOpenInvites, rsInviteJoins, gPerformerList
     # Initialize global variables
     gPerformerList = []
+    # Check if prformance JSON string is provided and set variables accordingly
+    if searchOptions['perfjson'] != "Paste Peformance JSON here":
+        jsonStr = searchOptions['perfjson']
+    else:
+        jsonStr = ""
     # Fech open invites
     #rsOpenInvites, rsInviteJoins = fetchOpenInvites()
     contentType,solo,joins, grouponly = extractSearchOptions(searchOptions)
@@ -941,7 +950,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         else:
             version = "legacy"
         #print("getJSON: Starting")
-        performances = getJSON(username,fetchType,next_offset,version)
+        performances = getJSON(username,fetchType,next_offset,version,jsonStr=jsonStr)
         if performances == None:
             print("getJSON: No performances found")
             break
@@ -957,7 +966,7 @@ def fetchSmulePerformances(username,maxperf=9999,startoffset=0,type="recording",
         performanceList.extend(responseList[2])
 
         # If step variable is set, break out of the main loop, otherwise, set the next_offset so we can fetch the next batch
-        if stop:
+        if stop or (jsonStr != ""):
             break
         else:
             #next_offset = performances['next_offset']
@@ -1056,7 +1065,6 @@ def downloadSong(web_url,baseFolder,file,performance,username):
             print("FAILED TO UPDATE TAGS!!!")
             print(str(e))
             return 0
-
 
     try:
         # Print out the web_url for debugging purposes

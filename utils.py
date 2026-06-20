@@ -112,23 +112,26 @@ def build_comment(prefix="",suffix=""):
     return comment
 
 # Generic method to get various JSON objects for the username from Smule based on the type passed in
-def getJSON(username="",type="recording",offset=0,version="legacy",sort="recent",cursor="start"):
+def getJSON(username="",type="recording",offset=0,version="legacy",sort="recent",cursor="start",jsonStr=""):
     data = None
     try:
-        if version == "legacy":
-            urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
-        elif type == "following":
-            urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
-        elif type == "pinworthy":
-            urlstring = f"https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_21679136&cursor={cursor}"
+        if jsonStr == "":
+            if version == "legacy":
+                urlstring = f"https://www.smule.com/{username}/{type}/json?offset={offset}"
+            elif type == "following":
+                urlstring = f"https://www.smule.com/api/profile/followees?accountId={username}&offset={offset}&limit=25"
+            elif type == "pinworthy":
+                urlstring = f"https://www.smule.com/api/playlists/aplist/view?playlistKey=1792345826_21679136&cursor={cursor}"
+            else:
+                urlstring = f"https://www.smule.com/api/search/byType?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
+            print(urlstring)
+            req = request.Request(urlstring,headers=createFakeUAHeaders())
+            with request.urlopen(req) as url:
+                perfJSON = url.read()
         else:
-            urlstring = f"https://www.smule.com/api/search/byType?q={username}&type={type}&sort={sort}&offset={offset}&size=0"
-        print(urlstring)
-        req = request.Request(urlstring,headers=createFakeUAHeaders())
-        with request.urlopen(req) as url:
-            perfJSON = url.read()
-            #print(f"perfJSON = {perfJSON}")
-            data = json.loads(perfJSON)
+            perfJSON = jsonStr
+        #print(f"perfJSON = {perfJSON}")
+        data = json.loads(perfJSON)
     except:
         # Ignore any errors
         printTs("Error fetching JSON")
