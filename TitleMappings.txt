@@ -56,6 +56,7 @@ Aa Laut Ke Aaja Mere Meet|Aa Lout Ke Aja
 Aa Mere Humjoli Aa|Aa Mere Humjoli Aa
 Aa Mere Humjoli Aa|Aa Mere Hamjoli Aa
 Aa Mere Humjoli Aa|Aa Mere Humjoli Aa Jeene Ki Raah
+Aa Raat Bhar|Aa Raat Bhar
 Aadha Hai Chandrama|Aadha Hai Raat Aadhi Aadhee Navrang
 Aadha Hai Chandrama|Adha Hai Chandrama
 Aadha Hai Chandrama|Adha Hai Aadha Hai
@@ -716,6 +717,7 @@ Agar Tum Na Hote|Agar Tum Na Hote ,
 Agar Tum Na Hote|Hame Aur Jine Ki Chahat
 Agar Tum Na Hote|Hamein Aur Jeene Ki Chahat Na Hoti
 Agar Tum Na Hote|Agar Tum Na Hote Sad Vertion
+Agar Tum Na Hote|Hamein Aur Jeene Ki Chahat
 Agar Tum Saath Ho|Agar Tum Saath Ho
 Agar Tum Saath Ho|Agar Tum Saath Ho _ Tamasha _ Flute Instrume
 Agar Tum Saath Ho|Agar Tum Saath Ho Tum Sath Ho
@@ -789,6 +791,7 @@ Aji Roothkar|Aji Rooth Kar Ab Kahan Jaiyega
 Aji Roothkar| Aji Rooth Kar Ab
 Aji Roothkar|Aji Rothkar Ab Aaarzo1965
 Aji Roothkar|0240 Aji Rooth Kar Ab (Lower Pitch
+Aji Roothkar|Aji Roothkar Aji Ruthkar Ab Navga
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata
 Ajnabi Mujhko Itna Bata|Ajnabi Mujhko Itna Bata Song
 Ajnabi Tum Jaane Pehchane|Ajnabi Tum Jaane Pehchane
@@ -1046,6 +1049,7 @@ Bahut Door Mujhe|Bahut Door Mujhey Chale
 Bahut Door Mujhe|Bahot Door Mujhe Chale Jaana Hai
 Bahut Door Mujhe|Bohut Dur Mujhe Chale Jana Hai
 Bahut Door Mujhe|Bahut Door Mujhe Chale Jaana Hai
+Bahut Door Mujhe|1036 Bahut Door Mujhe Chale Jaana Hai
 Bahut Khoobsurat Ghazal Likh Raha|Bahut Khoobsurat Ghazal Likh Raha
 Bahut Pehle Se Un Kadmon Ki Aahat|Bahut Pehle Se Un Qadmon Ki Aahat
 Bahut Pyaar Karte Hai|Bahut Pyaar Karte Hai
@@ -1988,6 +1992,7 @@ Dil Ki Nazar Se|Songdil Ki Nazar Si
 Dil Ki Nazar Se|Dil Ki Nazar Se, Nazron K Dil Se
 Dil Ki Nazar Se|Dil Ki Nazar Se Nazron Ke Dil Se
 Dil Ki Nazar Se|0152 Dil Ki Nazar Se
+Dil Ki Nazar Se|Dil Ki
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo Thi
 Dil Ki Yeh Aarzoo Thi|Dil Ki Yeh Aarzoo
 Dil Ki Yeh Aarzoo Thi|Dil Ki Ye Aarzoo Thi Koi Dilruba Mile
@@ -2395,6 +2400,7 @@ Gali Mein Aaj Chand Nikla|Gali Mein Aajchand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Nikla Zakhm
 Gali Mein Aaj Chand Nikla|Gali Main Aaj Chand Nikala
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Gali Me Aaj
+Gali Mein Aaj Chand Nikla|Gali Me Aaj Chand Nikla Zakhm
 Galliyan|Galliyan
 Galliyan|Galliyan The R&B Female
 Gapuchi Gapuchi Gum Gum|Gapuchi Gapuchi Gum
@@ -2474,6 +2480,7 @@ Gori Ka Saajan|Gori Ka Sajan Sajan Ki Gori
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada
 Gori Tera Gaon Bada Pyara|Gori Tera Gaon Bada Pyara
 Groovy Kind Of Love|A Groovy Kind Of Love
+Gujarati Aashiqui Song|Gujarati Aashiqui Song
 Gulabi Aankhen|[HQ™] Gulabi Aankhen Retro Mix Original Track
 Gulabi Aankhen|Gulabi Aankhein
 Gulabi Aankhen|Gulabi Aankhen
@@ -2621,6 +2628,7 @@ Hawa Ke Saath Saath|Hawaa Ke Sath Sath Ghata Ke
 Hawa Ke Saath Saath|Hawa Ke Sath Sath
 Hawa Ke Saath Saath|Hawa Ke Sath Sath O Sathi Chal
 Hawa Ke Saath Saath|Hawa Ke Saath Sath
+Hawa Ke Saath Saath|Hawa Ke Saath Saath O Saathi Chal
 Hazaar Raahein|Hazar Raahe Mud Ke Dekhin(Thodi Si Bewafai
 Hazaar Raahein|Hazaar Raahein Mud Ke
 Hazaar Raahein|Hazaar Raahein
@@ -2859,6 +2867,7 @@ Humko Hamise Chura Lo|H︎Q︎Humko Humise Chura Lo
 Humko Hamise Chura Lo|Humko Hami Se Chura Lo
 Humko Hamise Chura Lo|Humko Hamise Churalo
 Humko Hamise Chura Lo|Humko Humise Chura Lo Dhumise Humise
+Humko Hamise Chura Lo|Humko Humise Chura Lo Navga
 Humko Sirf Tumse Pyar Hai|Humko Sirf Tumse Pyar Hai Sirf
 Humko Sirf Tumse Pyar Hai|~ Humko Sirf Tumse Humko
 Humko To Yaara Teri Yaari|Humko To Yaara Teri Yaari
@@ -2935,6 +2944,7 @@ Inteha Ho Gayi|Inteha Ho Gayi, Sharabi, 1984
 Inteha Ho Gayi|Intehanhogayi
 Inteha Ho Gayi|Inteha Ho Gayimusicoolpiyush_
 Inteha Ho Gayi|Intehaa Ho Gayi Intezaar Ki
+Inteha Ho Gayi|Intehan Ho Gai
 Ironic|Ironic
 Is Deewane Ladke Ko|Is Deewane Ladke Ko
 Is Dil Mein Kya Hai|Is Dil Mein Kya Hai
@@ -3387,6 +3397,7 @@ Jhilmil Sitaron Ka|Jhilmil Sitaron Ka Angan Hoga Rimjhim
 Jhilmil Sitaron Ka|Jhilmil Sitaaron Ka Aangan Hoga
 Jhilmil Sitaron Ka|Jhilmil Sitaron
 Jhonka Hawa Ka|Jhonka Hawa Ka
+Jhonka Hawa Ka|Jhonka Hawa Ka Dcs
 Jhoomti Chali Hawa|Jhoomti Chali Hawa
 Jhooth Bole Kauwa Kaate|Jhooth Bole Kauwa Kaate
 Jhooth Bole Kauwa Kaate|Jhoot Bole Kauva Kaate
@@ -3496,6 +3507,7 @@ Joote Do Paise Lo|Joote Do Paise Lo
 Judaai Ko Nazdik Aane Na Dunga|Judai Ko Nazadik Aane Na Dunga
 Jugraafiya|Jugraafiya
 Jugraafiya|Jugya
+Jugraafiya|Jugyaa
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Orijungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai Lagne
@@ -4195,6 +4207,7 @@ Loote Koi Man Ka Nagar|Lute Koi Man Ka Nagar
 Loote Koi Man Ka Nagar|Loote Koi Mann Ka Nagar
 Loote Koi Man Ka Nagar|Lute Koi Man Ka Nagar Sa'S
 Loote Koi Man Ka Nagar|Loote Koi Man Loote Koyi Mann
+Love Hua Ab Ye Na Pucho|Love Hua Ab Ye Na Pucho
 Love Mashup|Love Mashup
 Love You Zindagi|Love You Zindagi
 Lukka Chuppi|Lukka Chuppi
@@ -4930,6 +4943,7 @@ Nagaada Sang Dhol Baaje|Nagada Sang Dhol Baaje
 Naghma O Sher Ki Saugaat|Naghma O Sher Ki Saugaat
 Nahin Nahin Abhi Nahin|Nahi Nahi Abhi Nahi
 Nahin Nahin Abhi Nahin|Nahin Nahin Abhi Nahin
+Nahin Nahin Abhi Nahin|Nahi Nahi, Abhi Nahi
 Nahin Ji Nahin|Nahin Ji Nahin
 Nahin Ji Nahin|Jubilee: Nahin Ji Nahin
 Nahin Ji Nahin|Nahin Ji Nahin Ki Dekho Na Jubilee
@@ -5229,6 +5243,7 @@ Panna Ki Tamanna Hai|Panna Ki Tamanna Hai
 Panna Ki Tamanna Hai|〘〙Panna Ki Tamanna
 Panna Ki Tamanna Hai|Panna Ki Tamanna
 Panna Ki Tamanna Hai|Panna Ki Tamanna Hai Ki Heera Mujhe Mil
+Panna Ki Tamanna Hai|Panna Ki Tamanna Haimusicoolpiyush_
 Papa Kehte Hai|Papa Kehte Hai
 Papa Kehte Hai|Papa Kehte Hai Qayamat Se Qayamat Tak
 Papa Kehte Hai|Papa Kehte Hain
@@ -5452,6 +5467,7 @@ Pyaar Karne Waale|Pyar Karnewale Kabhi Darte Nahi
 Pyaar Karte Hain Hum Tumhe Itna|Pyaar Karte Hain Hum Tumhe Itna
 Pyaar Karte Hain Hum Tumhe Itna|Pyar Karte Hain Hum Tumhe Itna
 Pyaar Ke Dhaage|Pyaar Ke Dhaage
+Pyaar Ke Jaadu|340Pyar Ke Jadu
 Pyaar Ki Dastaan|Pyaar Ki Dastaan
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh
 Pyaar Ki Kasam Hai|Pyar Ki Kasam Hai Na Dekh Aise
@@ -6017,6 +6033,7 @@ Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jaye 1970
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola Jayeshokhiyon Mein
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein Ghola
 Shokhiyon Mein Ghola Jaye|Shokhiyon Mein
+Shokhiyon Mein Ghola Jaye|Shokiyon Me Ghola Jaaye
 Shola Jo Bhadke|Shola Jo Bhadke
 Shola Jo Bhadke|Shola Jo Bhadke Dil Mera Dhadke
 Shola Jo Bhadke|Stereo Shola Jo Bhadke Dil Mera Dhadke
@@ -6270,6 +6287,7 @@ Tera Phoolon Jaisa Rang|Tera Phoolon Jaisa Rang
 Tera Saath Hai Kitna Pyaara|Tera Saath Hai Kitna Pyara
 Tera Saath Hai To|Tera Sath Hai Toh
 Tera Yaar Hoon Main|Tera Yaar Hoon Main
+Tera Zikr|Tera Zikr
 Tere Bin Wazir|Tere Bin
 Tere Bin Wazir|Tere Binwazir
 Tere Bin Wazir|1374 Tere Bin Wazir
@@ -6748,6 +6766,7 @@ Tujhe Na Dekhu To Chain|Tujhe Na Dekhun To Chain [[
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhun To Chain Navga
 Tujhe Na Dekhu To Chain|Tujhe Na Dekhu Toh To Chain
 Tujhe Na Dekhu To Chain|Tujhe Na Dekho To Chain
+Tujhe Sochta Hu|Tujhe Sochta Hu
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aaye
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayee
 Tujhe Yaad Na Meri Aaye|Tujhe Yaad Na Meri Aayi Aayee
@@ -6953,6 +6972,7 @@ Tumhare Siva|Tumhare Siva
 Tumhare Siva|Tumhare Siwa Kuch Na
 Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun Khafa Ho Gayi
 Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun Tumhari Nazar Kyun D
+Tumhari Nazar Kyun Khafa Ho Gayi|Tumhari Nazar Kyun
 Tumhari Nazron Mein Hum Ne Dekha|Tumhari Nazron Mein Hum Ne Dekha
 Tumhari Zulf Ke Saaye|Tumhari Zulf Ke Saaye
 Tumhe Apna Banane Ki|Adtumhe Apna Banane Ki Kasam Khayi Hai
@@ -7216,6 +7236,8 @@ Yaad Aa Rahi Hai|Teri Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaad Aa Rahi Hai
 Yaad Aa Rahi Hai|Yaadaa Rahihai
 Yaad Aa Rahi Hai|Yaad Araha Haiterapyardisco
+Yaad Aa Rahi Hai|Yaad Aa Rahi Hai Teri Yaad Aa Rahi Hai
+Yaad Aa Rahi Hai|Yaad Aarahi Hai
 Yaad Kiya Dil Ne|(SHORT) Yaad Kiya Dil Ne (duet) hindi song
 Yaad Kiya Dil Ne|Newyaad Kiya Dil Ne
 Yaad Kiya Dil Ne|Yaad Kiya Dil Ne
