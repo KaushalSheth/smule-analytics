@@ -376,6 +376,7 @@ Aap Ke Haseen Rukh|Apki Haseen Rukh Pe
 Aap Ke Haseen Rukh|Aapke Haseen Rukh Navga
 Aap Ke Haseen Rukh|Aapke Haseen
 Aap Ke Haseen Rukh|Aap Ke Haseen Rukh Pe
+Aap Ke Haseen Rukh|Aap Ke Hasin Rukh Pe
 Aap Ke Pehlu Mein Aakar Ro Diye|Aap Ke Pehlu Mein Aakar Ro Diye
 Aap Ke Pyaar Mein|Aap Ke Shehar Mein
 Aap Ki Aankhon Mein Kuch|Aap Ki Aakhon Me Kuch
@@ -745,6 +746,7 @@ Aise Na Mujhe Tum Dekho|Aise Na Mujhe Tum Dekho
 Aise Na Mujhe Tum Dekho|Aise Na Mujhe
 Aise Na Mujhe Tum Dekho|Aise Na Mujhe Aise Na Mujhe
 Aise Na Mujhe Tum Dekho|Aise Na Mujhe Aise Na Mujhe Sing
+Aise Na Mujhe Tum Dekho|Aise Na Mujhe Tum Dekho I Funkey
 Aise To Na Dekho|Aise To Na Dekho
 Aise To Na Dekho|Aise To Nadekho 1965
 Aisi Deewanagi|Aisi Deewanagi
@@ -1529,6 +1531,7 @@ Chhookar Mere Man Ko|Chukarmeremanko Chukarmere Chookar
 Chhookar Mere Man Ko|Chhukar Mere Mann Ko A2_
 Chhookar Mere Man Ko|Chukar Mere Manko Chhukar Mere Navga
 Chhookar Mere Man Ko|Choo Kar Mere Manko Unwind
+Chhookar Mere Man Ko|Chookarmeremanko Chhukar Mere Man Singalong
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
@@ -1835,6 +1838,7 @@ Dhalti Jaaye Raat|Dhalti Jaye Raat
 Dheeme Dheeme Gaoon|Dheeme Dheeme Gaoon
 Dheere Dheere Aap Mere|Dheere Dheere Aap Mere
 Dheere Dheere Aap Mere|Dheeredheere Aap Mere
+Dheere Dheere Aap Mere|Dheere Dheere Aap Mere Baazi
 Dheere Dheere Bol|Dheere Dheere Bol
 Dheere Dheere Bol|Dheere Dheere Bol Koi Sun Na Le
 Dheere Dheere Bol|Dhire Dhire
@@ -2040,6 +2044,7 @@ Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon Mein Tum
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankhon
 Dil Mein Ho Tum|Dil Me Ho Tumcheat Indiaarmaan M
 Dil Mein Ho Tum|Dil Mein Ho Tum Aankho Mein Tum
+Dil Mein Jaagi Dhadkan Aise|Dil Mein Jaagi Dhadkan Aise
 Dil Mein Jo Baat Hai|Dil Mein Jo Baat Hai Keh
 Dil Mein Jo Baat Hai|Dil Mein Jo Baat
 Dil Mein Jo Baatein Hai|Dil Mein Jo Baaten Hain
@@ -2624,6 +2629,7 @@ Har Kisi Ko Nahi Milta|Har Kisi Ko Nahin Milta
 Har Kisi Ko Nahi Milta|Har Kisi Ko
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Versi
 Har Taraf Har Jagah|Har Taraf
+Hare Krishna Hare Ram|Bhool Bhulaiyaa 2 Hare Krishna Hare Ram
 Hasta Hua Noorani Chehra|Hasta Hua Noorani Chehra
 Hasta Hua Noorani Chehra|Hansta Hua Noorani Chehra
 Hasta Hua Noorani Chehra|Rp Hansta Hua Nooraani Chehra
@@ -2764,6 +2770,7 @@ Hum Tere Bin Kahin|Hum Tere Bin Ab Reh Nahi Sakte :
 Hum Tere Pyaar Mein Saara Aalam|हम तेरे प्यार में सारा आलम
 Hum Tere Pyaar Mein Saara Aalam|Hum Tere Pyar Mein Sara Alam
 Hum Tere Pyaar Mein Saara Aalam|Ham Tere Pyar Mein
+Hum Tere Pyaar Mein Saara Aalam|Hum Tere Pyar Mein
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein Yun Pagal
 Hum Teri Mohabbat Mein Yun Paagal|Hum Teri Mohabbat Mein
 Hum The Jinke Sahaare|Hum The Jinke Sahare
@@ -2992,6 +2999,7 @@ Ishq Bina|Is Bina
 Ishq Bina|Is Bina Kiya Jeena
 Ishq Bina|Is Bina Kya Jeena Yaraa
 Ishq Bina|Is Bina Kya Jeena
+Ishq Bina|Is Bina Kiya Jeena Yaaro
 Ishq Hua|Is Hua
 Ishq Hua|Is Hua Kaise Hua
 Ishq Hua|Is Hua Kaise Hua Is
@@ -3098,6 +3106,7 @@ Jaane Dil Mein Kab Se Hai Tu|Janne Dil Mein Kabse Hetu
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mҽ Kab Se Hai Tu Kabse
 Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mein Kabse
 Jaane Dil Mein Kab Se Hai Tu|Jane Dil Me Kab Se Hai Tu
+Jaane Dil Mein Kab Se Hai Tu|Jaane Dil Mҽ Kab Se Hai Tumujhse Dosti
 Jaane Do Na|Jaane Do Naa
 Jaane Do Na|Jaane Do Na Paas Aao Na
 Jaane Do Na|Jane Do Na
@@ -4521,6 +4530,7 @@ Mehfil Mein Baar Baar|Mehfil Mein Baar Baar
 Mehfil Mein Baar Baar|2Mehfil Mein Bar Bar
 Mehfil Mein Baar Baar|Mehfil Mein Bar Bar
 Mehfil Mein Baar Baar|Mehfil Main Bar Bar Soldier
+Mehfil Mein Mere|Mehfil Mein Mere
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna Ddlj
 Mehndi Laga Ke Rakhna|Mehndi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mehndi Lagake
@@ -4792,6 +4802,7 @@ Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar Hai Tumse
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Pyar Hai Tumse
 Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna Pyar Hai Tum Se
+Mujhe Kitna Pyaar Hai Tumse|Mujhe Kitna
 Mujhe Kuch Kehna Hai|Mujhein Kuch Kehna Hain 1973
 Mujhe Kuch Tumse Hai Kehna|Mujhe Kuch Tumse Hai Kehna
 Mujhe Kuch Tumse Hai Kehna|Mujhe Kuch Tumse
@@ -4967,6 +4978,7 @@ Nain So Nain Nahi Milayo|Nain So Nain Nahi Milayo
 Nain So Nain Nahi Milayo|Nein So Nain Nahi Milao
 Nain So Nain Nahi Milayo|Nain So Nain Naahi Milao
 Naina|Naina
+Naina|Naina Dangal
 Naina Banjaare|Naina Banjare
 Naina Barse Rim Jhim|Naina Barse Rim Jhim
 Naina Barse Rim Jhim|Naina Barse
@@ -5552,6 +5564,7 @@ Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulakat
 Raah Mein Unse Mulaqat Ho Gayi|Rah Me Unse Raah Mein Unse
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulaqat 100℅
 Raah Mein Unse Mulaqat Ho Gayi|Raah Mein
+Raah Mein Unse Mulaqat Ho Gayi|Raah Mein Unse Mulakat Ho Gayi
 Raahi Tu Mat Ruk Jaana|Rahi Tu Mat Ruk Jana
 Raataan Lambiyan|Raataan Lambiyan
 Raataan Lambiyan|Raataan Lambiyan Shershah Jubin
@@ -5733,6 +5746,7 @@ Roop Tera Mastana|801Roop Tera Mastana
 Roop Tera Mastana|Roop Tera Mastana Eto Kachhe Dujone
 Roop Tera Mastana|0017 Roop Tera Mastana Reggae
 Roop Tera Mastana|Roop Tera Rup Tera K
+Roop Tera Mastana|Roop Tera Mastana Ii Recreated
 Rooth Ke Humse Kahin|Rooth Ke Humse Kahin
 Rooth Na Jana|Rooth Na Jana
 Rooth Na Jana|Rooth Na Ⓙanatumse Kahoon Tho
@@ -6262,6 +6276,7 @@ Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye
 Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye Ye Ishare
 Tauba Tumhare Yeh Ishare|Tauba Tumhare Yeh Ishaare
 Tauba Tumhare Yeh Ishare|Taubatumhareyeishare
+Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye Isharechalte Chalte
 Tauba Yeh Matwaali Chaal|Tauba Yeh Matwali Chaal
 Tears In Heaven|Tears In Heaven
 Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　 In Heaven
@@ -6566,7 +6581,8 @@ Tip Tip Barsa Paani|Tip Tip Barsa Paani Mohra
 Tip Tip Barsa Paani|Tip Tip Barsa Sooryavanshi New Song
 Tip Tip Barsa Paani|0135 Tiptip Barsa Paani
 Tip Tip Barsa Paani|Tip Tip Barsa Tip Tip
-Tirchi Topi Wale|Tirchi Topi Wale
+Tirchi Topi Waale|Tirchi Topi Wale
+Tirchi Topi Waale|Trichi Topiwale
 Titli|Bann Ke Titli
 Titli|Titli
 Titli|Titli Chennai Express
@@ -7050,6 +7066,7 @@ Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara Koi Masoom Khuddar
 Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara Koi
 Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyaara Pyara
 Tumsa Koi Pyaara Koi Masoom|Tumsa Koi Pyara
+Tumsa Koi Pyaara Koi Masoom|Tum Sa Koi Pyara Koi
 Tumsa Nahin Dekha|Yoon To Humne Laakh
 Tumsa Nahin Dekha|Tumsa Nahin Dekha
 Tumsa Nahin Dekha|Yun To Humne Lakh Haseen Dekhe Hain
@@ -7345,6 +7362,7 @@ Yeh Dil Sun Raha Hai|Yeh Dil Sun Raha Hai
 Yeh Dil Sun Raha Hai|Yeil Sun Raha Hai
 Yeh Dil Sun Raha Hai|Yeil
 Yeh Dil Sun Raha Hai|Ye Dil Sun Raha Hai Edited
+Yeh Dil Sun Raha Hai|Yeil Sun Raha Haiksm
 Yeh Dil Tum Binn|Ye Dil Tum Bin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin
 Yeh Dil Tum Bin|Ye Dil Tum Bin Kahin Yeh
@@ -7583,6 +7601,7 @@ Yeh Raatein Yeh Mausam|Ye Ratein Ye Ratein H
 Yeh Raatein Yeh Mausam|Yeh Raatein Yeh Mausam Ratein
 Yeh Raatein Yeh Mausam|Ye Raatein
 Yeh Raatein Yeh Mausam|Ye Rateinye Ratein Singalong
+Yeh Raatein Yeh Mausam|Ye Raatein Ye Mausamyeh Raaten
 Yeh Reshmi Zulfein|Yereshmizulfeinye Reshmi Zulfein
 Yeh Reshmi Zulfein|Yeh Reshmi Zulfen
 Yeh Reshmi Zulfein|Ye Reshmi Zulfein
