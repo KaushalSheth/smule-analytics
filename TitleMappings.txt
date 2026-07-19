@@ -329,6 +329,8 @@ Aankhon Se Tune Ye|Aankhon Se Tune Yeh Kya Keiya
 Aankhon Se Tune Ye|Aankhon Se Tune Ye Kya
 Aankhon Se Tune Ye|Ankhonse Tunehh Ghulam
 Aankhon Se Tune Ye|Aankhon Se Tune Navga Ankhonsetune
+Aankhon Se Tune Ye|Aankhon Se Tune Ye Ghulam
+Aankhon Se Tune Ye|Ankhon Se Tune Ankhon Se Tune
 Aankhon Se Utri Jo Hai|Ankhon Se Utri Jo Hai
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Haiphir Wahi Dil Laya Hun
 Aankhon Se Utri Jo Hai|Aankhon Se Jo Utri Hai Dil Mein
@@ -350,6 +352,7 @@ Aao Na|Aao Na Aao Na
 Aao Na|0039 Aao Na Goonji Si Hai
 Aao Tumhein Chaand Pe Le Jayein|Aao Tumhein Chaand Pe Lejayein
 Aao Tumhein Chaand Pe Le Jayein|Aao Tumhe Chaand Pe Le Jaye
+Aao Tumhein Chaand Pe Le Jayein|0267 Aao Tumhe Chand Pe Le Jayein
 Aaoge Jab Tum O Sajna|Aaoge Jab Tum O Sajna
 Aap Aaye Bahaar Aayi|Aap Aaye Bahaar Aayi 41
 Aap Aaye To Khayal E Dil|Aap Aaye To Khayal E Dil E Nashaad Aay
@@ -926,6 +929,7 @@ Aur Is Dil Mein|Aur Is Dil Mein Aur Is Dil Mein
 Aur Is Dil Mein|Aur Is Dil Mein Kya Rakha Hai
 Aur Kya|Aur Kya Aur Kya Aur Kya
 Aur Kya|Tum Aaye Toh
+Aur Kya|Tum Aaye Toh To Hawaon Mein_Saagar
 Ay Hairathe|Ay Hairathe Ashiqui Guru
 Ay Hairathe|Ay Hairathe Guru
 Baa Baa Black Sheep|Baa Baa Black Sheep
@@ -1103,6 +1107,7 @@ Behka Diya Humein|Behka Diya Humein
 Behti Hawa Sa Tha Woh|Behti Hawa Sa Tha Woh
 Bekarar Dil Tu Gaaye Ja|Bekarar Dil Tu Gaaye Ja
 Bekarar Dil Tu Gaaye Ja|Bekarar Dil Tu Gaayeja
+Bekarar Dil Tu Gaaye Ja|Beqarar Dil Tu Gaaye Ja
 Bekhudi Mein Sanam|Bekhudi Mein Sanam
 Bekhudi Mein Sanam|Bekhudi Mein Sanam Lata Rafi
 Benaam Si Khwaahishein|Benaam Si Khwaahishein Coke Studio
@@ -1439,6 +1444,7 @@ Chehra Hai Ya Chaand|Chehra Hai Ya Chand Khila Hai
 Chehra Hai Ya Chaand|Chehra Hai Ya Chand Song
 Chehra Hai Ya Chaand|Br Chehra Hai Ya Chand Khila Hai
 Chehra Hai Ya Chaand|Sagar Jaisi Aakhon Vali
+Chehra Hai Ya Chaand|Saagar Jaisi Aankhonwali
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho ?? Kya
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho (Saalami
@@ -1446,6 +1452,7 @@ Chehra Kya Dekhte Ho|Chehra Kya Dekhte Hochehrakyadekhteho
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho Song
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte
 Chehra Kya Dekhte Ho|Chehra Kya Dekhte Ho Trending
+Chehre Pe Giri Zulfein|Chehre Pe Giri Zulfein
 Chhabeela|Chhabeela Sawariyan
 Chhaiyya Chhaiyya|Chaiyya Chaiyya
 Chhaiyya Chhaiyya|Chal Chaiyya Chaiyya
@@ -2167,6 +2174,7 @@ Do Deewane Shaher Mein|Do Deewane Shaher Mein
 Do Deewane Shaher Mein|Do Diwane Shehar Mein
 Do Deewane Shaher Mein|दो दीवाने शहर में रात में या दोपहर में
 Do Deewane Shaher Mein|Do Diwane Shaher
+Do Deewane Shaher Mein|Do Deewane Shaher
 Do Dil Mil Rahe Hai|>> Do Dil Mil Rahe Hai
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hai
 Do Dil Mil Rahe Hai|Do Dil Mil Rahe Hai Quality
@@ -2529,6 +2537,7 @@ Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke Pyar Me Gumhai
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Gum Hai Kisi
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke Pyar Me
 Gum Hai Kisi Ke Pyaar Mein|Gum Hai Kisi Ke Pyar Mein Ii
+Gum Hai Kisi Ke Pyaar Mein|0687 Gum Hai Kisi Ke Pyaar Mein
 Gunguna Rahe Hain Bhanwre|[HD] gun guna rahe hai bhanware (aaradhna)
 Gunguna Rahe Hain Bhanwre|Gun Guna Rahe Hai Bhanware
 Gunguna Rahe Hain Bhanwre|Gunguna Rahe
@@ -2628,6 +2637,7 @@ Har Kisi Ko Nahi Milta|Harkisikonahimilta
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahin Milta
 Har Kisi Ko Nahi Milta|Har Kisi Ko
 Har Kisi Ko Nahi Milta|Har Kisi Ko Nahi Milta Versi
+Har Kisi Ko Nahi Milta|Har Kisi Ko Har Kisi Navga
 Har Taraf Har Jagah|Har Taraf
 Hare Krishna Hare Ram|Bhool Bhulaiyaa 2 Hare Krishna Hare Ram
 Hasta Hua Noorani Chehra|Hasta Hua Noorani Chehra
@@ -3126,6 +3136,7 @@ Jaane Jaan Dhoondta|Jaane Jaan Dhoondhta Phir Raha
 Jaane Jaan Dhoondta|Song Jaane Jaan Dhundta Phir Raha
 Jaane Jaan Dhoondta|Jane Jaan Dhoondhta Phir Raha
 Jaane Jaan Dhoondta|Janeja Dhundhta Fir Raha
+Jaane Jaan Dhoondta|Jaane Ja Dhundhta Fir Raha
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman
 Jaane Jigar Jaaneman|Jaane Jigar Janeman
 Jaane Jigar Jaaneman|Jane Jigar Janejigar
@@ -3138,6 +3149,7 @@ Jaane Jigar Jaaneman|Jane Jigar Janejigar Janeman
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman Music
 Jaane Jigar Jaaneman|Janejigar Jane Jigar Janeman
 Jaane Jigar Jaaneman|Jaane Jigar Jaaneman Navga
+Jaane Jigar Jaaneman|Jane Jigar Jaaneman Jaane Navga
 Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Woh Din
 Jaane Kaha Gaye Woh Din|Jaane Kaha Gaye Woh Din Mukesh
 Jaane Kaha Gaye Woh Din|Jaane Kahaan Gaye Woh Din,
@@ -3205,6 +3217,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte Hain
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyun Log Pyar Karte Hain Jaane Kyu
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon Log Pyar
+Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log Mohabbat Kiya Karte Hai
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log
 Jaane Kyun Main Tujhko Din Raat|Jaane Kyun Main Tujhko Din Raat
@@ -3529,6 +3542,7 @@ Jugraafiya|Jugyaa
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Orijungle Hai Aadhi Raat Hai
 Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai Lagne
+Jungle Hai Aadhi Raat Hai|Children Mix Jungle Hai Aadhi Raat Hai
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Ka Karoon Sajni Aaye Na Baalam|838Ka Karu Sajni
 Kaahe Ko Bulaaya Mujhe|~ Kahe Ko Bulaya Mujhe Balma
@@ -3758,6 +3772,7 @@ Karvatein Badalte|0355 Karvatein Badalte Rahe
 Karvatein Badalte|Karvatein Badalte Rahe
 Karvatein Badalte|Karwate Badalte Karwate Rahe
 Karvatein Badalte|Karvate Badalte Karvatebadalterahe
+Karvatein Badalte|Karwate Badalte Rahe Saari Raat Hum
 Kasme Waade Nibhayenge Hum|Kasme Waade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kasme Vaade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kaꜱme Vaade ɴiʙhaʏeɴɢe Hum
@@ -4090,6 +4105,7 @@ Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Kya Jaanu Sajan
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan
 Kya Jaanu Sajan Hoti Hai Kya|Kya Jaanu Sajan
 Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya
+Kya Jaanu Sajan Hoti Hai Kya|Kya Janu Sajan Hoti Hai Kya Jaanu Sajan
 Kya Kare Kya Na Kare|Kya Kare Kya Na Kare
 Kya Kehna|Kya Kehna
 Kya Kehna|Kya Kehna Kya Kehna
@@ -4134,6 +4150,7 @@ La Bamba|La Bamba
 La Isla Bonita|La Isla Bonita
 Laal Dupatta|Lal Dupatta
 Laal Dupatta|Laal Dupatta
+Laal Dupatta|Laal Dupatta Laaldupatta
 Lab Par Aaye|Lab Par Aaye
 Lab Par Aaye|Lab Per Aaye
 Ladki Badi Anjani Hai|Ladki Badi Anjani Hai
@@ -4161,6 +4178,7 @@ Lag Ja Gale|Lag Jaa Galee Phir Lm1964
 Lag Ja Gale|Lag Ja
 Lag Ja Gale|Lag Ja Gale Se Phirhh Lag Ja Gale
 Lag Ja Gale|Lag Ja Ja Gale Lagjagalesanam Exclusive
+Lag Ja Gale|Lag Ja Gale Lagja Gale Lagjagale
 Lag Ja Gale + Abhi Na Jao|Lag Ja Gale Abhi Na Jao
 Laga Prem Rog|Laga Prem Rog
 Lagan Laagi Re|Lagan Laagi Re
@@ -4556,6 +4574,7 @@ Mera Dil Bhi Kitna|Meradilbhikitnapagalhai
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitna Pagal Haihindi
 Mera Dil Bhi Kitna|Mera Dil Bhi Kitnapagal Hai Hindi
 Mera Dil Tere Liye|Mera Dil Tere Liye Dhadakta Hai
+Mera Dil Tere Liye|Mera Dil Tere Liye Ashiqui
 Mera Dil Ye Pukare|Mera Dil Ye Pukare
 Mera Dil Ye Pukare|Mera Dil Ye Pukare ,
 Mera Dil Ye Pukare|Dil Yeh Pukaare Ajaa
@@ -4716,6 +4735,7 @@ Meri Mehbooba|Kisi Roz Tumse
 Meri Mehbooba|Kisi Roz Tumse Mulaakat
 Meri Mehbooba|Zara Tasveer Se Tu
 Meri Mehbooba|Zara Tasveer Se Tu Nikal Ke
+Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi Pardes
 Meri Neend Jaane Lagi Hai|Meri Neend Jaane Lagi Hai
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
@@ -5070,6 +5090,7 @@ Noorie Noorie|Aaja Re Aaja Re O Mere Dilbar
 Noorie Noorie|Aaja Re Aaja Re O Mere
 Noorie Noorie|Aaja Re O Mere Dilbar Aajanoorie Noorie
 Noorie Noorie|Noorie
+Nothing Else Matters|Nothing Else Matters
 O Baby Dont Break My Heart|O Baby Don't Break My Heart
 O Baby Dont Break My Heart|O Baby Don'T Break My Heart
 O Bedardeya|O Bedardeya
@@ -5353,6 +5374,7 @@ Phir Bhi Dil Hai Hindustani|Hum Logo Ko, Samajh Sako To
 Phir Chhidi Raat|Phir Chidi Raat Baat Phoolon Ki
 Phir Chhidi Raat|Phir Chidi Raat
 Phir Chhidi Raat|Phir Chidi Raat Baat
+Phir Se Dhurandhar 2|Phir Se Dhurandhar 2 The Revenge
 Phool Gendwa Na Maaro|Phool Gendwa Na Maaro
 Phool Kali Chaand Sitare|Phool Kali Chand Sitare
 Phool Tumhe Bheja Hai Khat Mein|Phool Tumhe Bheja Hai Khat Mein
@@ -5521,6 +5543,7 @@ Pyaar Manga Hai Tumhi Se|Pyar Manga Hai
 Pyaar Manga Hai Tumhi Se|Pyar Maanga Hai Tumhi Se
 Pyaar Manga Hai Tumhi Se|1216 Pyaar Manga Hai Tumhi Se
 Pyaar Manga Hai Tumhi Se|Pyar Manga Hai Tumhi Secustomised
+Pyaar Manga Hai Tumhi Se|Pyaar Manga Hai Tumhise
 Pyaar Mein Dil De Diya|Pyar Mein Dil De Diya
 Pyaar Mein Dil Pe Maar De Goli|Pyar Mein Dil Pe Maar De Goli
 Pyaar Mein Dil Pe Maar De Goli|Pyaar Mein Dil Pe Maar Demusicoolpiyush_
@@ -6655,6 +6678,7 @@ Tu Jo Mere Sur Mein|~ Tu Jo Mere Sur Mein
 Tu Jo Mere Sur Mein|Tu Jo Mere Sur Mein Sur Milale
 Tu Jo Mila|Tu Jo Mila
 Tu Jo Nahi Hai Toh|Tu Jo Nahi Hai Toh
+Tu Aisa Kaise Hai|Tu Aisa Kaise Hai?
 Tu Kya Jaane|Tu Kya Jaane
 Tu Maange Dil Main De Doon Jaan|Tu Mange Dil Main De Doon Jaan
 Tu Maike Mat Jaiyo|Tu Maike Mat Jaiyo
@@ -7769,5 +7793,6 @@ Zindagi Pyar Ka Geet Hai|Zindagi Pyar Ka Zindagi Pyar Ka
 Zindagi Songs By Kishore|Zindagi Songs By Kishore
 Zoobi Doobi|Zoobi Doobi
 Zoobi Doobi|Zooby Doobydrsanjaysharat
+Zoobi Zoobi Zoobi|Zoobi Zoobi Zoobi
 Zulfon Ko Hata Le Chehre Se|Zulfon Ko Hata Le Chehre Se
 Zulmi Sang Aankh Ladi|Zulmi Sang Aankh Ladi With English Lyrics
