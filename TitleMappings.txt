@@ -176,6 +176,7 @@ Aaja Aaja Main Hoon Pyar Tera|Aajaaajamai Hu Pyartera5:34Min
 Aaja Aaja Main Hoon Pyar Tera|0881 Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aajaaajamai Hu Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Me Hun Pyar Tera
+Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyaar Tera
 Aaja Aaja Re Tujhko Mera Pyaar Pukare|Aa Ja Aa Ja Re Tujh Ko Mera : Gumrah
 Aaja Ke Intezar Mein|Aaja Ke Intezar Mein
 Aaja Maahiya|Aaja Mahiya Fiza
@@ -681,6 +682,7 @@ Ae Meri Zohra Jabeen|Aye Meri Zohra Jabeen Folk Mix Waqt
 Ae Nazneen Suno Na|Aye Nazneen Suno Na, , Dil Hi Dil Mein
 Ae Phoolon Ki Rani|Ae Phoolon Ki Rani
 Ae Phoolon Ki Rani|Aye Phoolon Ki Rani
+Ae Phoolon Ki Rani|Ae Phoolon Ki Raani
 Ae Sanam Jisne Tujhe Chaand|Aye Sanam Jisne Tujhe Chand Si Soorat
 Ae Watan Tere Liye|Aye Watan Tere Liye
 Ae Watan Tere Liye|Hil Diya Haiayewatantereliye Karma
@@ -1539,6 +1541,7 @@ Chhookar Mere Man Ko|Chhukar Mere Mann Ko A2_
 Chhookar Mere Man Ko|Chukar Mere Manko Chhukar Mere Navga
 Chhookar Mere Man Ko|Choo Kar Mere Manko Unwind
 Chhookar Mere Man Ko|Chookarmeremanko Chhukar Mere Man Singalong
+Chhookar Mere Man Ko|Chhookar Mere Mann Ko
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
@@ -2126,6 +2129,7 @@ Dil To Hai Dil|Dil Toh Hai Dil, Dil Ka Aitbaar Kya
 Dil To Hai Dil|Hiltohaidil
 Dil To Hai Dil|Dil To Hai Hain Dil
 Dil To Hai Dil|2130 Dil To Hai Dil Dil Ka Aitbaar
+Dil To Hai Dil|Dil To Hai Dil Diltohaidil
 Dil To Pagal Hai|Dil To Pagal Hai
 Dil To Pagal Hai|Dil To Pagal Hai Dil To Hai
 Dil To Pagal Hai|Dil To Pagal He
@@ -2409,6 +2413,7 @@ Gaata Rahe Mera Dil|Gata Rahe Mera Dil
 Gaata Rahe Mera Dil|Gaata Rahe
 Gaata Rahe Mera Dil|Gata Rahe Gaata Mera Dil
 Gajab Kaila Tu Ban Gaila|Gajab Kaila Tu Ban Gaila
+Gale Lag Jaa Na Jaa|Gale Lag Jaa Na Jaa
 Gali Gali Mein Firta Hai|Gali Gali Mein Firta Hai
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chand Nikla
 Gali Mein Aaj Chand Nikla|Gali Mein Aaj Chaand Nikla
@@ -2569,6 +2574,7 @@ Haay Haay Ye Majboori|Haay Haay Ye Majboori
 Haay Haay Ye Majboori|Haay Haay Ye Majboorihay Hay Ye Majboori
 Haay Haay Ye Majboori|Haaye Haaye Ye Majboori
 Haay Haay Ye Majboori|Haye Haye Yeh Majboori
+Haay Haay Ye Majboori|Haye Haye Ye Arre Haaye Haye Yeh
 Haaye Dil Mera Dil|Haye Dil Mera Dil
 Haaye Mera Dil|Haaye Mera Dil
 Haaye Mera Dil|Haye Mera Dil
@@ -2736,6 +2742,7 @@ Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein Iss Dil
 Hum Aap Ki Aankhon Mein|Hum Aapki Aakhon Me Is Dil Ko Basaa Dein
 Hum Aap Ki Aankhon Mein|Hum Aapki Ankhon Mein
 Hum Aap Ki Aankhon Mein|Hum Aapki Aankhon Mein Pyaasa1957
+Hum Aap Ki Aankhon Mein|1365 Hum Aapki Aankhon Mein
 Hum Aapke Dil Mein Rehte Hai|Hum Aapke Dil Mein Rehte Hai
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun Kaun
 Hum Aapke Hain Kaun|Hum Aapke Hain Koun
@@ -3094,6 +3101,7 @@ Jaan Nisaar|Jaan Nisar
 Jaan Nisaar|151 Jaan Nisar
 Jaan Nisaar|Jaan Nisaar Deeksha Sharma'S
 Jaan Nisaar|Jaan Nisaar Ke𝐝arnath
+Jaan Nisaar|_Aan \Isaar
 Jaan Pehchan Ho|Jaan Pehchan Ho
 Jaana Kahan Hai|Jaana Kahan Hai
 Jaanam Jaanam|Janam Janam
@@ -3773,6 +3781,7 @@ Karvatein Badalte|Karvatein Badalte Rahe
 Karvatein Badalte|Karwate Badalte Karwate Rahe
 Karvatein Badalte|Karvate Badalte Karvatebadalterahe
 Karvatein Badalte|Karwate Badalte Rahe Saari Raat Hum
+Karvatein Badalte|Karwate Badalte Rahe
 Kasme Waade Nibhayenge Hum|Kasme Waade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kasme Vaade Nibhayenge Hum
 Kasme Waade Nibhayenge Hum|Kaꜱme Vaade ɴiʙhaʏeɴɢe Hum
@@ -4227,6 +4236,7 @@ Lekar Hum Deewana Dil|Lekarhumdeewanadil Lekar Hum
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Redux
 Leke Pehla Pehla Pyaar|O Leke Pahla Pahla Pyaar
 Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke Aankho
+Leke Pehla Pehla Pyaar|Leke Pehla Pehla Pyar Bharke
 Let Me Down Slowly X Zara Zara|Let Me Down Slowly X Zara Zara
 Lift Kara De|Lift Karadey
 Likha Hai Teri Aankhon Mein|Likha Hai Teri Aankhon Me
@@ -4348,6 +4358,7 @@ Main Jis Din Bhulaa Du|Main Jis Din Bhula Doon
 Main Jis Din Bhulaa Du|Main Jis Din Bhulaa Du Very
 Main Jis Din Bhulaa Du|Main Jis Din Bhula Doon Tera Pyar Dil Se
 Main Jis Din Bhulaa Du|Main Jis Din Bhula Dun
+Main Jis Din Bhulaa Du|Main Jis Din Bhula Du Tera Pyar
 Main Kahin Kavi Na Ban Jaaoon|Mai Kahin Kavi Na Ban
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi
 Main Kahin Kavi Na Ban Jaaoon|Main Kahin Kavi Na Ban Jau Tere Pyar Mein
@@ -4422,6 +4433,8 @@ Main Tenu Samjhawan|Main Tenu Samjhawan Mai Tenu Samjhawan
 Main Tenu Samjhawan|Main Tenu Samjhawan Ki Main
 Main Tenu Samjhawan|Mein Tenu Samjhawan Ki
 Main Tenu Samjhawan|Samjhawa
+Main Tenu Samjhawan|Me Tenu Samjhawan Ki
+Main Tenu Samjhawan|Main Tenu Samjhawan Ki Alia Bhatt
 Main Tere Ishq Mein|Main Tere Is Main Tere Is
 Main Tere Pyaar Mein|Main Tere Pyar Mein
 Main Tere Pyaar Mein|Main Tere Pyar Mein Pagal
@@ -4556,6 +4569,7 @@ Mehndi Laga Ke Rakhna|Mehandi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|188 Mehandi Laga Ke Rakhna
 Mehndi Laga Ke Rakhna|Mei Laga Ke Rakhna Doli Saja Ke
 Mehndi Laga Ke Rakhna|Mehendi Laga Ke Rakhna
+Mehndi Laga Ke Rakhna|Mehandi Laga Ke
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujheaaya Hai Nazar
 Mera Chaand Mujhe Aaya Hai Nazar|Mera Chand Mujhe Aaya Hai Nazar Song
@@ -4722,6 +4736,7 @@ Meri Bheegi Bheegi Si|Meri Bheegi Bheegimone Pore Ruby Roy
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Si Mashupman
 Meri Bheegi Bheegi Si|Meri Bhigi Mone Pore Ruby
 Meri Bheegi Bheegi Si|Meri Bheegi Bheegi
+Meri Bheegi Bheegi Si|Meri Bheegi Bheegi Meribheegibheegisi
 Meri Bheegi Bheegi Si + Tum Bin|Meri Bheegi Bheegi Si Tum Bin
 Meri Chunar Udd Udd Jaaye|Meri Chunar Udd Udd Jaye
 Meri Duniya Hai|Meri Duniya Hai
@@ -4736,6 +4751,7 @@ Meri Mehbooba|Kisi Roz Tumse Mulaakat
 Meri Mehbooba|Zara Tasveer Se Tu
 Meri Mehbooba|Zara Tasveer Se Tu Nikal Ke
 Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi Pardes
+Meri Mehbooba|Meri Meh𝐛oo𝐛a Zara Tasveer Se
 Meri Neend Jaane Lagi Hai|Meri Neend Jaane Lagi Hai
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
@@ -5012,6 +5028,7 @@ Naino Mein Sapna|Naino Mein Sapna
 Naino Mein Sapna|Naino Mein Sapna Sapno Mein Sajana
 Naino Mein Sapna|Naino Me Sapna
 Naino Mein Sapna|Naino Mein Sapna 1983
+Naino Mein Sapna|Naino Mein Naino Mein Naino Mein
 Nakhrewaali|Nakhrewali
 Nakhrewaali|Nakhrewali Kishor Kumar
 Namo Namo|Namo Namo
@@ -5423,6 +5440,7 @@ Piyu Bole|Piyu Bole Parineeta Song
 Piyu Bole|Piya Bole Parineeta
 Piyu Bole|Piyuboley
 Piyu Bole|Piyu Bole Parineeta
+Piyu Bole|2070 Piyu Bole Parineeta
 Prem Jaal Mein Fans Gayi|Prem Jaal Mein Fans Gayi
 Priyatama O Meri Priyatama|Priyatama O Meri Priyatama
 Puchho Na Yaar Kya Hua|Puchho Na Yaar Kya Hua
@@ -6413,6 +6431,7 @@ Tere Liye|Tere Liye Hum
 Tere Liye|Tere Liye Tere Liye
 Tere Liye|Tere Liye Hum Hain Jiye ~
 Tere Liye|Tere Liye Hum Hai Jiye
+Tere Liye|2200 Tere Liye Hum Hain Jiye Wchorus
 Tere Liye Jaanam Tere Liye|Tere Liye Jaanam Tere Liye
 Tere Liye Jaanam Tere Liye|Tere Liye Janam Tere Liye, Suhaag
 Tere Liye Jaanam Tere Liye|Tere Liye Janam Tere Liye
@@ -7346,6 +7365,7 @@ Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Saari Duniya
 Yeh Aankhen Dekh Kar|Ye Ankhen Dekh Kar Hum
 Yeh Aankhen Dekh Kar|Yeh Aankhen Dekh Kar Hum
 Yeh Aankhen Dekh Kar|Ye Aankhen Dekh Kar Hum Sari
+Yeh Aankhen Dekh Kar|Ye Ankhen Dekh Kar Hum Saari Duniya
 Yeh Aankhen Uff Yumma|Ye Aankhen Uff Yumma
 Yeh Aankhen Uff Yumma|Ye Aankhe Uff Yumma Yeh Soorat
 Yeh Aankhen Uff Yumma|1168 Ye Aankhen Uff Yun Maa
