@@ -1476,6 +1476,7 @@ Chhalkaaye Jaam|Chalkaaye Jaam ,Aaiye Aapki Aankho
 Chhalke Teri Aankhon Se|Chalke Teri Ankho Se
 Chhamak Chhallo Chhel Chhabeli|Chamak Challo Chel Chabeli
 Chhamma Chhamma|Chamma Chamma
+Chhann Chhann|Chann Chann
 Chhaya Hai Jo Dil Pe|Chaya Hai Jo Dil Pe
 Chhed Mere Humrahi Geet Koi Aisa|Chhed Mere Humrahi Geet Koi Aisa
 Chhedo Na Meri Zulfen|Chhedo Na Meri Zulfen
@@ -1942,6 +1943,7 @@ Dil Hai Ke Maanta Nahin|~ Dil Hai Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hain Ke Manta Nahin
 Dil Hai Ke Maanta Nahin|Dilhaikimantanahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahi ><
+Dil Hai Ke Maanta Nahin|Dil Hai Ki Singalong2426'S
 Dil Hai Ke Maanta Nahin|Hil Hai Ke Manta Nahin Song
 Dil Hai Ke Maanta Nahin|Top Dil Hai Ki Manta Nahi
 Dil Hai Ke Maanta Nahin|Dil Hai Ki Manta Nahin
@@ -2228,6 +2230,7 @@ Do Pyaar Karne Wale|Do Pyar Karne Wale Jungle Mein
 Do Sitaron Ka Zameen Par Hai Milan|Do Sitaron Ka Zameen Par Hai Milan
 Dola Dola Man Dola|Dola Dola Man Dola
 Dola Re Dola|Dola Re Dola
+Dola Re Dola|Song: Dola Re
 Donna|Donna
 Door Reh Kar Na Karo Baat|Door Reh Kar Na Karo Baat
 Door Reh Kar Na Karo Baat|Door Reha Kar Na Karo Baat
@@ -2258,6 +2261,7 @@ Dum Maro Dum|Dum Maaro Dum Hare Krishna Hare R
 Dum Maro Dum|Dum Maro Dum Drsanjaysharat
 Dum Maro Dum|Hummarodam Song Dummaro
 Dum Maro Dum|Dum Maro Dum 1971
+Dum Maro Dum|1910 Dum Maro Dum
 Duniya Mein Kitna Gham Hai|Duniya Mein Kitna Gham Hai
 Duniya Mein Logon Ko|Duniya Mein Logon Ko
 Duniya Mein Logon Ko|Duniya Mein Logon Ko Apna Desh
@@ -3073,6 +3077,7 @@ Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jadu
 Jaadu Hai Tera Hi Jaadu|Jadu Hai Tera Hi Jaadu Jaadoo Hain
 Jaadu Hai Tera Hi Jaadu|Jadoo Hai Tera Hi Jadoo
 Jaadu Hai Tera Hi Jaadu|Jadoo Hai Tera Hi Jadoo Kumarsanu
+Jaadu Hai Tera Hi Jaadu|Jadoo Hai Tera Hi Jadoo Ghulam
 Jaadu Teri Nazar|Jadu Teri Nazar
 Jaadu Teri Nazar|Jadu Teri Nazar Part 3
 Jaadu Teri Nazar|Jadu Teri Nazar Teri
@@ -3228,6 +3233,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon Log Pyar
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log Mohabbat Kiya Karte Hai
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log
+Jaane Kyun Log Mohabbat Kiya Karte Hai|Jane Kyu Log Jaane Kyun Log
 Jaane Kyun Main Tujhko Din Raat|Jaane Kyun Main Tujhko Din Raat
 Jaane Na Nazar Pahchane Jigar|Jaane Na Nazar Pahchane Jigar
 Jaane Na Nazar Pahchane Jigar|जाने ना नज़र पहचाने जिगर Jaane Na Nazar
@@ -3553,6 +3559,7 @@ Jungle Hai Aadhi Raat Hai|Jungle Hai Aadhi Raat Hai Lagne
 Jungle Hai Aadhi Raat Hai|Children Mix Jungle Hai Aadhi Raat Hai
 Ka Karoon Sajni Aaye Na Baalam|Ka Karoon Sajni Aaye Na Balam
 Ka Karoon Sajni Aaye Na Baalam|838Ka Karu Sajni
+Kaafi Hai Na|Kaafi Hai Na Musafir Cafe
 Kaahe Ko Bulaaya Mujhe|~ Kahe Ko Bulaya Mujhe Balma
 Kaali Ghata Chhaye|Kaali Ghata Chaye Mora Jiya Tarasaye
 Kaali Ghata Chhaye|Kaali Ghata Chhaaye Mora Jiya : Sujata
@@ -3942,6 +3949,7 @@ Kisi Din Banoongi|Kisi Din Banoongi Raja
 Kisi Disco Mein Jayein|Kissi Disco Mein Jayen
 Kisi Disco Mein Jayein|]Kisi Disco Mein Jaye
 Kisi Disco Mein Jayein|Kisi Disco Mein Jaye
+Kisi Disco Mein Jayein|Kisi Disco Mein Jaaye
 Kisi Ki Muskarahaton|Jeena Isi Ka Naam Hai
 Kisi Ki Muskarahaton|Kisi Ke Muskarahaton Pe Ho Nisaar
 Kisi Ki Muskarahaton|Kisi Ki Muskarahaton Muskurahaton
@@ -4487,6 +4495,7 @@ Maine Poochha Chand Se|Maine Poocha Chaand Pucha
 Maine Poochha Chand Se|Maine Poocha Chand Se Unwind
 Maine Poochha Chand Se|Maine Poocha Chand Pucha Singalong
 Maine Poochha Chand Se|Rp Maine Poocha Chand Se
+Maine Poochha Chand Se|Maine Poocha Pucha Chand Se Navga
 Maine Pyaar Kiya Medley|Maine Pyar Kiya Medley
 Maine Tere Liye|Maine Tere Liye Hi Saat
 Maine Tere Liye|Maine Tere Liye Hi Saat Rang Ke
@@ -5795,6 +5804,7 @@ Rooth Na Jana|Rooth Na Janatumse Kahoon Tho
 Roshni Se|Roshni Se
 Roshni Se|Roshni Se Bhare Bhare
 Roshni Se|Roshni Se Bhare Bhare Ashoka
+Roshni Se|Roshni Se Asoka
 Rote Hue Aate Hai Sab|Rote Hue Aate Hai Sab
 Roz Roz Aankhon Tale|Roz Roz Aankhon Tale
 Roz Roz Aankhon Tale|Roz Roz Aankho Tale
@@ -6513,6 +6523,7 @@ Teri Chahat Ke Deewane|Digi Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deeewane Hue Hum
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane
 Teri Chahat Ke Deewane|Teri Chahat Ke Deewane Hue Hum
+Teri Chahat Ke Deewane|Teri Chaahat Ke Deewane Huemusicoolpiyush_
 Teri Chunariya|Teri Chunariya
 Teri Chunariya|Teri Chunariya Dil Le Gayi
 Teri Chunariya|Teri Chunariya Lirik
@@ -7430,6 +7441,7 @@ Yeh Dil Tum Bin|Ye Dil Tum
 Yeh Dil Tum Bin|Ye Dil Tum Bin Yeh Navga
 Yeh Dil Tum Bin x Lag Jaa Gale|Ye Dil Tum Bin X Lag Jaa Gale
 Yeh Dooriyan|Yeooriyan
+Yeh Dooriyan|Ye Dooriyan
 Yeh Dosti|Ye Dosti Hum Nahi
 Yeh Dosti|Ye Dosti
 Yeh Dosti|Yeh Dosti
