@@ -171,6 +171,7 @@ Aaj Rapat Jaayen|0288 Aaj Rapat Jaayen Toh
 Aaj Rapat Jaayen|Aaj Rapat Jayen
 Aaj Rapat Jaayen|Aaj Rapat Jaaye Toh Hume Na Uthaiyyo
 Aaj Rapat Jaayen|Aaj Rapat Jaye To
+Aaj Rapat Jaayen|Aaj Rapat Jayen To Minutes
 Aaj Se Pehle Aaj Se Zyaada|Aaj Se Pehle Aaj Se Zyaada Song
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar Tera
 Aaja Aaja Main Hoon Pyar Tera|Aaja Aaja Main Hoon Pyar
@@ -231,6 +232,7 @@ Aake Teri Baahon Mein|Aake Teri Bahon Me Mein
 Aake Teri Baahon Mein|Aake Teri Bahon Mei
 Aake Teri Baahon Mein|Aake Teri Baahon
 Aake Teri Baahon Mein|Aake Teri Baahon Main Bahon Mein
+Aake Teri Baahon Mein|Aake Teri
 Aana Mere Pyaar Ko|Aana Mere Pyar Ko
 Aane Se Uske Aye Bahaar|Aane Se Uske Aye Bahar
 Aane Se Uske Aye Bahaar|Aane Se Uske Aye Bahar &&
@@ -469,6 +471,7 @@ Aawaara Bhanware|Awaara Bhanware
 Aawaara Bhanware|Awara Bhawre Sapnay
 Aawaara Bhanware|Awara Bhavre आवारा भँवर
 Aawaara Bhanware|Awara Bhanwre
+Aawaara Bhanware|Awara Bhaware
 Aawaara Hoon|Awaara Hoon
 Aawaara Hoon|आवारा हूँ या गर्दिश में हूँ आसमान का
 Aawaara Hoon|Awara Hoon
@@ -1000,6 +1003,7 @@ Baahon Mein Chale Aao|Bahon Mein Chale Aao Dr Mahi
 Baahon Mein Chale Aao|Baahon Mein Chale Hold 'U' Tight Mix
 Baahon Mein Chale Aao|Baahon Mein Chale Aaao
 Baahon Mein Chale Aao|1043 Bahon Mein Chale Aao
+Baahon Mein Chale Aao|1035 Bahon Mein Chale Aao
 Baahon Mein Teri|Bahon Mein Teri
 Baahon Mein Teri|Bahon Mein Teri Masti Ke Ghere
 Baahon Mein Teri|Baahon Me Teri Masti Ke Ghere
@@ -1051,6 +1055,7 @@ Bade Acchhe Lagate Hain|Bade Achay Lagtay Hai
 Bade Acchhe Lagate Hain|Bade Ache Lagte Hain
 Bade Acchhe Lagate Hain|Bade Acche Lagte Hain
 Bade Acchhe Lagate Hain|Bade Achay
+Bade Acchhe Lagate Hain|Bade Ache Lagthe Hai
 Bade Armaanon Se Rakha Hai Balam|Bade Armaanon Se Rakha Hai Balam
 Bade Bewafa Hain Yeh Husn|Bade Bewafa Hain Yeh Husn
 Bade Hain Dil Ke Kaale|Bade Hain Dil Ke Kaale
@@ -1394,6 +1399,7 @@ Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Fir Say
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ik Baar Phirse Ajnabi Bann Jaayein
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir Se
 Chalo Ek Baar Phir Se Ajnabi|Chalo Ekbaar
+Chalo Ek Baar Phir Se Ajnabi|Chalo Ek Baar Phir
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chalein
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar
 Chalo Tumko Lekar Chalein|Chalo Tumko Lekar Chale Jism 2003
@@ -2201,6 +2207,7 @@ Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics Hh
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa St
 Dillagi Ne Di Hawa|Dillagi Ne Di Hawa Lyrics Hh T
 Dilliwali Girlfriend|Dilliwali Girlfriend
+Dilliwali Girlfriend|Dilliwaali Girlfriend
 Dilruba Dil Pe Tu Ye Sitam Kiye Ja|Dilruba Dil Pe Tu Ye Sitam Kiye Ja
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Guide Mo
@@ -2208,6 +2215,7 @@ Din Dhal Jaaye Haaye|Din Dhal Jaye
 Din Dhal Jaaye Haaye|Din Dhal Jaaye
 Din Dhal Jaaye Haaye|Din Dhal
 Din Dhal Jaaye Haaye|Din Dhal Jaye Haye Raat Na Jayeguide
+Din Dhal Jaaye Haaye|Din Dhal Jaaye Haaye Raat Na Jaaye
 Din Mahine Saal Guzarte Jaayenge|Din Mahine Saal Guzarte Jaayenge
 Din Saara Guzaara Tere Angna|Din Saara Guzara Tere Angna
 Din Saara Guzaara Tere Angna|Din Sara Guzara Tore Angana
@@ -2252,6 +2260,7 @@ Do Lafzon Ki Hai|Do Lafzon Ki Hai Dil Ki Kahani
 Do Lafzon Ki Hai|Ho Laϝȥσn Ki Hai Asha Bhosle
 Do Lafzon Ki Hai|Do Lafzon Ki Hai Dilki Kaha
 Do Lafzon Mein|Do Lafzon Mein Dhai Akshar Prem Ke
+Do Lafzon Mein|Do Lafzon Mein Liki Maine Lafzo
 Do Naina Ek Kahaani|Do Naina Ek Kahani Masoom
 Do Naina Ek Kahaani|Do Naina Aur Ek Kahani
 Do Naina Ek Kahaani|Do Naina Ek Kahani
@@ -2483,6 +2492,7 @@ Gapuchi Gapuchi Gum Gum|Gapoochi Gapoochi Gum Gum
 Gapuchi Gapuchi Gum Gum|1936 Gapoochi Gapoochi Gam Gam
 Gar Tum Bhula Na Doge|Gar Tumm Bhula Na Doge
 Gar Tum Bhula Na Doge|0429 Gar Tum Bhula Na Doge
+Gar Tum Bhula Na Doge|0428 Gar Tum Bhula Na Doge
 Gawaah Hain Chaand Taare|Gawah Hain Chand Taare Gawah Hai
 Gawaah Hain Chaand Taare|Gawah Hai Damini
 Gawaah Hain Chaand Taare|Gawah Hai Chand Tare
@@ -3337,6 +3347,7 @@ Jaati Hoon Main|Jaati Hun Main Jaldi Hai Kya
 Jaati Hoon Main|Jati Hoon Jaati Hoon
 Jaati Hoon Main|Jaati Hun Main
 Jaati Hoon Main|Jaati Hu Mai _Saagar__
+Jaati Hoon Main|Jaati Hu Main
 Jaaun Kahaan Bata E Dil|Jaaun Kahaan Bataye Dil
 Jaaun Kahaan Bata E Dil|Jaaun Kahan Bataye Dil Duniya Badi Hai
 Jaaun Kahaan Bata E Dil|Jaoon Kahan Bata Ae Dil
@@ -3415,6 +3426,7 @@ Jabse Tere Naina|Jabse Tere Naina Mere Naino Se
 Jabse Tere Naina|Jabse Tere Naina Saawariya
 Jabse Tere Naina|182Jab Se Tere Naina
 Jabse Tere Naina|Jab Se Tere
+Jabse Tere Naina|Ja𝐛 𝐒e Tere Naina
 Jag Ghoomeya|Jag Ghoomeya
 Jaha Teri Yeh Nazar Hai|Jahaan Teri Yeh Nazar Hai
 Jaha Teri Yeh Nazar Hai|Jahan Teri Yeh Nazar Hai
@@ -4220,6 +4232,7 @@ Kya Khoob Lagti Ho|Kya Khubb
 Kya Mausam Aaya Hai|(Kya Mausam Aaya Hai Anari
 Kya Mausam Hai|Kya Mausam Hai
 Kya Mujhe Pyaar Hai|Kya Mujhe Pyar Hai
+Kya Teri Zulfein Hain|Kya Teri Zufein Hain
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai
 Kya Yahi Pyaar Hai|Kya Yahi Pyaar Hai Song Rocky
 Kya Yahi Pyaar Hai|Kya Yahi Pyar Hai
@@ -4607,6 +4620,7 @@ Mann Kyun Behka Aadhi Raat|Man Kyun Behka Re Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Ri Behka Utsav
 Mann Kyun Behka Aadhi Raat|Man Kio Behka
 Mann Kyun Behka Aadhi Raat|Mann Kyun Behka Re
+Mann Kyun Behka Aadhi Raat|Man Kyoon Behka Re Behka Aadhi Raat Ko
 Mann Re Tu Kaahe Na Dheer Dhare|Man Re Tu Kaahe Na Dheer Dhare
 Mann Re Tu Kaahe Na Dheer Dhare|0882 Man Re Tu Kahe Na Dheer Dhare
 Mann Ye Mera|Mann Ye Mera Metroin Dino
@@ -4823,6 +4837,7 @@ Mere Sapno Ki Rani|Mere Sapno Ki Rani
 Mere Sapno Ki Rani|Mere Sapnon
 Mere Sapno Ki Rani|Mere Sapno Kirani Kab Aaegi Tu Sanam Band
 Mere Sapno Ki Rani|Mere Sapnon Ki Rani
+Mere Sapno Ki Rani|Mere Sapno Ki Rani Kab Ayegi Tu
 Mere Toote Huye Dil Se|Mere Toote Huye Dil Se
 Mere Yaara Tere Gham|Mere Yaara Tere Gham
 Meri Aankhon Se Koi Neend|Meri Aankhon Se Koi Neend Liye Jaata Hai
@@ -4853,6 +4868,7 @@ Meri Mehbooba|Kisi Roz Tumse Mulaakat Hogi Pardes
 Meri Mehbooba|Meri Meh𝐛oo𝐛a Zara Tasveer Se
 Meri Neend Jaane Lagi Hai|Meri Neend Jaane Lagi Hai
 Meri Neend Jaane Lagi Hai|Meri Neend Jane Lagi Hai
+Meri Neend Jaane Lagi Hai|Meri Nind Jane Lagi Hai
 Meri Neendon Mein Tum|Meri Neendon Mein Tum
 Meri Saanson Mein Basa Hai|Meri Saanson Mein
 Meri Saanson Mein Basa Hai|Merisaanson Mein
@@ -4973,6 +4989,7 @@ Mujhko Apne Gale Laga Lo|Mujhko Apne Galey Lagaa Lo
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo Hamrahi
 Mujhko Apne Gale Laga Lo|मुझको अपने गले लगा लो ऐ मेरे
 Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Lo
+Mujhko Apne Gale Laga Lo|Mujhko Apne Gale Laga Lo: By M D Tyagi
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhayee Mein
 Mujhko Is Raat Ki Tanhayee Mein|Mujh Ko Iss Raat Fanclub 2023
 Mujhko Is Raat Ki Tanhayee Mein|Mujhko Is Raat Ki Tanhai Mein
@@ -6077,6 +6094,7 @@ Sab Kuch Seekha Humne|Sab Kuch Seekha Humne
 Sab Kuch Seekha Humne|Sab Kuchh Seekha Humne Sikha Ham Ne
 Sab Tera|Sab Tera
 Sab Tera|Sab Tera Karaoke
+Sab Tera|Sab Tera [
 Sach Keh Raha Hai|Sach Keh Raha Hein
 Sach Mere Yaar Hai|Sach Mere Yaar Hai
 Sach Mere Yaar Hai|Sach Mere Yaar Hai Saagar
@@ -6410,7 +6428,8 @@ Taal Se Taal Mila|Taal Se Taal Mila
 Taal Se Taal Mila|Tal Se Tal Mila
 Taal Se Taal Mila|Taal Se Taal Mila Taal
 Taare Zameen Par|Taare Zameen Par
-Taare Hain Baarati|Taare Hain Baarati
+Taare Hai Baarati|Taare Hain Baarati
+Taare Hai Baarati|Taare Hai Baarati
 Taaron Ke Shehar|Taaron Ke Shehar
 Taaron Main Sajke|[} Taron Main Sajke
 Taaron Main Sajke|Taaron Mein Saj Ke Apne Sooraj Se
@@ -6450,6 +6469,7 @@ Tauba Tumhare Yeh Ishare|Tauba Tumhare Yeh Ishaare
 Tauba Tumhare Yeh Ishare|Taubatumhareyeishare
 Tauba Tumhare Yeh Ishare|Tauba Tumhare Ye Isharechalte Chalte
 Tauba Tumhare Yeh Ishare|Tauba Tumhare Tauba Tumhare
+Tauba Tumhare Yeh Ishare|] Tauba Tumhare Yeh Ishare
 Tauba Yeh Matwaali Chaal|Tauba Yeh Matwali Chaal
 Tears In Heaven|Tears In Heaven
 Tears In Heaven|Tears In Heaven　　　　　　　　　　　　　　　 In Heaven
@@ -6594,6 +6614,7 @@ Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Yeh Raina
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki
 Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Abhimaan
 Tere Mere Milan Ki Ye Raina|0217 Tere Mere Milan Ki Ye Raina
+Tere Mere Milan Ki Ye Raina|Tere Mere Milan Ki Navga
 Tere Mere Sapne Ab Ek Rang Hai|[HD] Tere Mere Sapne Ab Ek Rang Hai (Guide)
 Tere Mere Sapne Ab Ek Rang Hai|Tere Meresapneguide Moviemo
 Tere Mere Sapne Ab Ek Rang Hai|Tere Mere Sapne
@@ -7033,6 +7054,7 @@ Tum Aa Gaye Ho|Tum Aa Gaye Ho Tum Aagaye Ho
 Tum Aa Gaye Ho|Tum Aa Gaye Tum Aagaye Singalong2426'S
 Tum Aa Gaye Ho|Tum Aa Gaye Tum Aagaye Aagaya
 Tum Aa Gaye Ho|Tum Aa Gaye Ho1471
+Tum Aa Gaye Ho|Tum Aa Gaye Tum Aa Gaye_Saagar__
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saath Dene Ka Wada Karo
 Tum Agar Saath Dene Ka Wada Karo|Tum Agar Saatene
@@ -7582,6 +7604,7 @@ Yeh Dil Tum Bin|Yeil Tum Bin Ye
 Yeh Dil Tum Bin|Yeil Tum
 Yeh Dil Tum Bin|Ye Dil Tum
 Yeh Dil Tum Bin|Ye Dil Tum Bin Yeh Navga
+Yeh Dil Tum Bin|Ye Dil Tum Bin Yeil Tum Bin Navga
 Yeh Dil Tum Bin x Lag Jaa Gale|Ye Dil Tum Bin X Lag Jaa Gale
 Yeh Dooriyan|Yeooriyan
 Yeh Dooriyan|Ye Dooriyan
@@ -7617,6 +7640,7 @@ Yeh Haseen Wadiyan|Yeh Haseen Waadiyan
 Yeh Haseen Wadiyan|Ye Haseen Wadiyan Navga
 Yeh Haseen Wadiyan|Yeh Haseen Wadiyan Navga
 Yeh Haseen Wadiyan|Ye Hasin Wadiyan
+Yeh Haseen Wadiyan|Ye Haseen Waadiyān
 Yeh Hawa Yeh Nadi Ka Kinara|Ye Hawa Ye Nadi Ka Kinara
 Yeh Hawaaein Zulfo Mein Teri|Yeh Hawaein Zulfo Mein Teri
 Yeh Hawaaein Zulfo Mein Teri|Ye Hawayein Julfo Me Teri
