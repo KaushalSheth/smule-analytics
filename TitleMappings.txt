@@ -504,6 +504,7 @@ Aawaaz Do Humko|Awaz Do Humko Hum Kho
 Aawaaz Do Humko|: Aawaz Do Humko
 Aaya Mausam Dosti Ka|Aaya Mausam Dosti Ka
 Aaya Mausam Dosti Ka|Aayamausam
+Aaya Na Tu|Aaya Na Tu
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi
 Aaye Ho Meri Zindagi Mein|Aaye Ho Meri Zindagi Mein
@@ -1068,6 +1069,7 @@ Bade Miyaan Deewane Aise Na Bano|Bade Miyan Deewane Aise Na Banobade Miyan
 Badi Mushkil Hai|[SHORT] Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Hai Khoya Mera Dil Hai
 Badi Mushkil Hai|Badi Mushkil Baba Badi Mushkil
+Badi Mushkil Baba|Badi Mushkil
 Badi Nazuk Hai Ye Manzil|Badi Nazuk Hai Ye Manzil
 Badi Sooni Sooni Hai|Badi Sooni Sooni Hai
 Badi Sooni Sooni Hai|Badi Sooni Sooni Suni
@@ -1249,6 +1251,7 @@ Boom Boom|Dil Bole Boom Boom Nazia Hassan
 Boom Boom|Boom Boom Star
 Boom Boom|Boom Boom Velo Sound Station 2020
 Boom Boom|Boom Boom Nazia Hassan 1995
+Boom Boom|Boom Boom Nazia Hassan
 Boom Boom Aaj Ki Raat Raat Baaki|Boom Boom Aaj Ki Raat Raat Baaki
 Cant Help Falling In Love|Can'T Help Falling In Love
 Cant Help Falling In Love|Can't Help Falling In Love
@@ -1458,6 +1461,7 @@ Chandni Raat Mein Ek Baar|Chandni Raat Mein Ek Baar Tujhe Dekha
 Chandni Raat Mein Ek Baar|Chandni Raat Mein
 Chandni Raat Mein Ek Baar|Chandni Raat
 Chandni Raat Mein Ek Baar|Chandani Raat Mai Ek Baar Tujhe Dekha Hai
+Chandni Raatein|Chandni Raatein
 Chandrakanta Ki Kahani|Chandrakanta Ki Kahani चंद्रकांता की कहानी
 Character Dheela Hai|Character Dheela Hai
 Character Dheela Hai|Character Dheela
@@ -1585,6 +1589,7 @@ Chhookar Mere Man Ko|Chhookar Mere Mann Ko
 Chhoti Chhoti Raatein|Choti Choti Ratein
 Chhoti Chhoti Raatein|Choti Choti Raatein Song
 Chhoti Chhoti Raatein|Choti Choti Ratein Hindi Tum Bin
+Chhoti Chhoti Raatein|Chhoti Chhoti Raatein %
 Chhoti Si Asha|Dil Hai Chhota Sa
 Chhoti Si Asha|Dil Hai Chota Sa
 Chhoti Si Asha|Chhoti Si Aaha
@@ -1835,6 +1840,7 @@ Dekha Teri Mast Nigaahon|Dekha Teri Mast Nigaahon Mein
 Dekha Teri Mast Nigaahon|Dekha Teri Mast Nighaon
 Dekha Teri Mast Nigaahon|Dekha Teri Mast Nigaho Me
 Dekha Tujhe To Ho Gayi|Dekha Tujhe To Ho Gayi Koyla
+Dekha Tujhe To Ho Gayi|Hekha Tujhe To Koyla Dekhatujheto
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_Alka Yagnik
 Dekhne Walon Ne|Dekhne Walon Ne Kya Kya_
 Dekhne Walon Ne|Dekhne Walon Ne Dekh Ne Walon Ne
@@ -3314,6 +3320,7 @@ Jaane Kyoon Log Pyaar Karte Hai|Jane Kyun Log Pyar Karte Hain Jaane Kyu
 Jaane Kyoon Log Pyaar Karte Hai|Jane Kyu Log Pyar Karte
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon Log Pyar
 Jaane Kyoon Log Pyaar Karte Hai|Jaane Kyon
+Jaane Kyun Dil Jaanta Hai|Jaane Kyun
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log Mohabbat Kiya Karte Hai
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jaane Kyun Log
 Jaane Kyun Log Mohabbat Kiya Karte Hai|Jane Kyu Log Jaane Kyun Log
@@ -3565,6 +3572,7 @@ Jis Gali Mein Tera Ghar|Jis Gali Mein Tera
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Fanclub 2025
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Navga
 Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Na Ho Balma
+Jis Gali Mein Tera Ghar|Jis Gali Mein Tera Ghar Fanclub
 Jiska Koi Nahin|Jiska Koi Nahin
 Jiska Mujhe Tha Intezaar|Jiska Mujhe Tha Intezaar
 Jiska Mujhe Tha Intezaar|Jiska Mujhe
@@ -4135,6 +4143,7 @@ Koi Fariyaad|Koi Fariyaad Song
 Koi Fariyaad|Koi Fariyaad1473
 Koi Fariyaad|Koyi Fariyaad Tere Dil Mein
 Koi Fariyaad|Koi Fariyaad Tum Bin
+Koi Fariyaad|Koyi Fariyaad Tum Bin
 Koi Fariyaad + Koi Ye Kaise Bataaye|Koi Fariyaad / Koi Ye Kaise Bataaye
 Koi Fariyaad + Koi Ye Kaise Bataaye|Koi Fariyaad Koi Ye Kaise Bataye
 Koi Hota Jisko Apna|Koi Hota Jisko Apna
@@ -4157,6 +4166,8 @@ Koi Ladki Mujhe Kal Raat|Koi Ladki Mujhe Kal Raat
 Koi Mil Gaya|Koi Mil Gaya Koi Mil
 Koi Mil Gaya|Koi Mil Gaya ,Wd One Paragraph
 Koi Mil Gaya|Koimilgayameradilgayakkhth
+Koi Mil Gaya|Koyi Mil Gaya
+Koi Phool Kahin Na Khila|Koi Phool Kahin Na Khila
 Koi Sone Ke Dil Wala|Koi Sone Ke Dil Wala
 Koi Yeh Kaise Bataye|Koi Yeh Kaise Bataye Ke Woh Tunha Kyun Hai
 Kora Kaagaz|Kora Kaagaz Tha
@@ -4323,6 +4334,7 @@ Lakdi Ki Kaathi|Lakdi Ki Kaathi
 Lakhon Hain Nigahon Mein|Lakhon Hain Nigahon Mein
 Lakhon Hain Nigahon Mein|लाखों हैँ निगाह में
 Lakhon Hain Nigahon Mein|Laakhon Hai Nigaah Mein Zindagipwdlh 1963
+Lakhon Hain Nigahon Mein|Lakhon Hai Nigaah Mein
 Lakhon Hain Nigahon Mein|Lakhon Hai Nigah Lakhon Hai Nigah
 Lakhon Hain Nigahon Mein|Lakhon Hai Nigah
 Lakhon Hain Nigahon Mein|Lakhon Hai Nigah Mein
@@ -5020,6 +5032,7 @@ Mujhse Juda Hokar|Mujhse Juda Hokar Compact
 Mujhse Mohabbat Ka Izhaar|Mujhse Mohabbat Ka Izhaar Karti
 Mujhse Mohabbat Ka Izhaar|(Orimujhse Mohabbat Ka Izhaar Karti Hai
 Mujhse Mohabbat Ka Izhaar|Mujhse Mohabbat Ka Izhar
+Munni Badnaam Hui|Munni Badnaam Hui
 Muqala Muqabla|Muqala Muqabla
 Muqala Muqabla|Mukkala Muqabla
 Muqala Muqabla|Muqabla Hindi Mukkalamukabala
@@ -5147,6 +5160,7 @@ Naghma O Sher Ki Saugaat|Naghma O Sher Ki Saugaat
 Nahin Nahin Abhi Nahin|Nahi Nahi Abhi Nahi
 Nahin Nahin Abhi Nahin|Nahin Nahin Abhi Nahin
 Nahin Nahin Abhi Nahin|Nahi Nahi, Abhi Nahi
+Nahin Nahin Abhi Nahin|Nahi Nahi Abhi Nahimusicoolpiyush_
 Nahin Ji Nahin|Nahin Ji Nahin
 Nahin Ji Nahin|Jubilee: Nahin Ji Nahin
 Nahin Ji Nahin|Nahin Ji Nahin Ki Dekho Na Jubilee
@@ -5756,6 +5770,7 @@ Qaafirana|Qaafirana Sa Hai
 Qaafirana|Qaafirana D
 Qayamat Qayamat|Qayamat Qayamat
 Qayamat Qayamat|Qayamat
+Qayamat Qayamat|Qayamat Qayamat Qayamat Qayamat
 Qayde Se|Qayde Se Metro…In Dino
 Qayde Se|Qayde Se Film Metro In Dino
 Qubool|Qubool
@@ -6824,6 +6839,7 @@ Toote Hue Khwabon Ne|Toote Hue Khwabon Ne Tute Hue
 Toote Hue Khwabon Ne|Toote Huye Khwabo
 Tora Mann Darpan Kahlaaye|P Tora Man Darpan Kahlaaye
 Tota Maina Ki Kahani|Tota Maina Ki Kahani
+Touch Me|Touch Me
 Trouble Me|Trouble Me
 Truly Madly Deeply|Truly Madly Deeply
 Tu Bin Bataaye|Tu Bin Bataye
@@ -7754,6 +7770,7 @@ Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya Hui Teri Jeet
 Yeh Lo Main Haari Piya|Ye Lo Main Haari Piya
 Yeh Lo Main Haari Piya|Ye Lo Mein Hari Piya
 Yeh Mausam Aaya Hai|Yeh Mausam Aaya Hai
+Yeh Mausam Bhi Gaya|Ye Mausam Bhi Gaya
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jaadu
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo
 Yeh Mausam Ka Jaadu|Ye Mausam Ka Jadoo Hai Mitwa
@@ -7922,7 +7939,8 @@ Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai
 Yeh Zindagi Usi Ki Hai|Yeh Zindagi Usiki Hai Anarkali 1953
 Yehi Woh Jagah Hai|Yehi Woh Jagah
 Yehi Woh Jagah Hai|Yehi Woh Jaga Hai
-You Are My Love|You Are My Love
+You're My Love|You Are My Love
+You're My Love|You'Re My Love
 You Are My Sonia|You Are My Sonia
 You Are My Sonia|You Are My Soniya
 You Are My Sonia|You Are My Sonia Youaremysonia
