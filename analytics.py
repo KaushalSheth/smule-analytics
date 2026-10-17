@@ -124,6 +124,27 @@ def fetchDBAnalytics(analyticsOptions): #analyticstitle,username,fromdate="2018-
             from    my_invite_analysis
             where   fixed_title not in (select item_name from smule_list where list_type = 'EXCLUDE_INVITE_ANALYTICS')
             """
+    elif analyticstitle == 'Solos':
+        headings = ['Song Name', 'Singer Type', 'Adjusted Weight', 'Rating', 'Recent Solo', 'Last Solo Time']
+        sqlquery = f"""
+            with
+            recent_solos as (
+            	select 	mp.fixed_title, max(mp.created_at) last_created_at
+            	from 	my_performances mp
+            	where	mp.performers = 'KaushalSheth1'
+            	and		mp.invite_ind = 0
+            	and 	mp.created_at > '2024-09-08' -- Oldest solo already uploaded
+            	group by 1
+            	)
+            select	fs.fixed_title, fs.singer_type, fs.adj_weighted_cnt, fs.rating_nbr, case when rs.last_created_at is null then 0 else 1 end as recent_solo_ind, rs.last_created_at as last_solo_time
+            from 	favorite_song fs
+            		left outer join recent_solos rs on rs.fixed_title = fs.fixed_title
+            where	1 = 1
+            and 	fs.rating_nbr >= 9
+            --and 	fs.singer_type != 'duet'
+            --and 	rs.last_created_at is null
+            order by fs.adj_weighted_cnt desc;
+            """
     elif analyticstitle == 'Repeat':
         headings = ['Main Performer', 'Song Name', '# Performances', 'First Performed', 'Last Performed']
         sqlquery = f"""
